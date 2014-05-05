@@ -1,0 +1,24 @@
+nav.primary,
+nav.secondary {
+  ul {
+    margin: 0;
+    padding: 0;
+    > li {
+      display: block;
+      text-align: center;
+      float: left;
+      padding: 0 2.5em;
+      border-right: 1px solid #f1f1f1;
+      &:last-child,
+      &:fist-child { 
+        border-left: 1px solid #f1f1f1; 
+      }
+      a {
+        text-decoration: none;
+        font-weight: 600;
+        display: block;
+        padding: 1.5em 0;
+      }
+    }
+  }
+}

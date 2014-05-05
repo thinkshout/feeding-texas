@@ -1,0 +1,22 @@
+.brand {
+	h1.title {
+		font-size: 1.5em;
+	} 
+}
+
+.page-title {
+	position: absolute;
+	bottom: 0.5em;
+	left: 1em;
+}
+
+.data {
+	margin-bottom: 1em;
+	.stat {
+		font-size: 2em;
+		display: block;
+	}
+	.key {
+		font-size: 0.75em;
+	}
+}

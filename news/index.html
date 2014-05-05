@@ -1,0 +1,20 @@
+---
+layout: default
+title: Home
+---
+
+<div class="highlighted">
+	<div class="region-highlighted">
+    
+	</div>
+</div>
+<div class="main">
+	{% for post in site.posts %}
+    {% if post.layout == "blog" %}
+      <div class="post">
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <p>{{ post.summary }}</p>
+      </div>	
+    {% endif %}
+  {% endfor %}
+</div>	

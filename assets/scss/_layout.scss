@@ -1,0 +1,64 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "base";
+
+/* -------------------------------------------------------------------------*/
+/* Layout */
+
+.container {
+  @include container(80em);
+}
+
+header {
+	@include container(80em);
+
+	.brand {
+    @include span-columns(2,12);
+	}
+
+	.primary {
+		@include span-columns(6,12);
+	}
+
+	.secondary {
+		@include span-columns(4,12);
+		@include omega;
+	}
+}
+
+.highlighted {
+	@include container(80em);
+
+	.left {
+    @include span-columns(8,12);
+    position: relative
+	}
+	.right {
+    @include span-columns(4,12);
+    @include omega;
+	}
+}
+
+.main {
+	@include container(70em);
+  
+  // Section Introductions
+  section {
+  	@include clearfix();
+	  .left {
+	  	@include span-columns(6,12);
+	  }
+	  .right {
+	  	@include span-columns(6,12);
+      @include omega;
+    }
+  }
+
+}
+
+
+
+footer {
+	@include container(80em);
+}
