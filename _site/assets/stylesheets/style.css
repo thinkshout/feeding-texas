@@ -1,6 +1,37 @@
+/* line 63, ../scss/_mixins.scss */
+input[type="submit"],
+button, .button.primary, .button.secondary {
+  display: inline-block;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  padding: 0.8125em 1.5em 0.75em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  -moz-transition: all 0.125s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.125s ease-in;
+  /* Opera */
+  -o-transition: all 0.125s ease-in;
+  /* Standard */
+  transition: all 0.125s ease-in;
+}
+
 /* line 1, ../scss/_typography.scss */
 body {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/* line 6, ../scss/_typography.scss */
+.highlighted h1.page-title {
+  position: absolute;
+  bottom: 0.5em;
+  left: 1em;
+}
+
+/* line 14, ../scss/_typography.scss */
+.content h1.page-title {
+  text-align: center;
 }
 
 /*! normalize.css v2.1.1 | MIT License | git.io/normalize */
@@ -459,14 +490,25 @@ header .brand {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 20, ../scss/_layout.scss */
+/* line 19, ../scss/_layout.scss */
 header .primary {
   width: 49.15254%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 24, ../scss/_layout.scss */
+/* line 22, ../scss/_layout.scss */
+header .action {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+/* line 26, ../scss/_layout.scss */
 header .secondary {
   width: 32.20339%;
   float: left;
@@ -479,7 +521,7 @@ header .secondary {
 }
 
 @media (min-width: 80em) {
-  /* line 30, ../scss/_layout.scss */
+  /* line 32, ../scss/_layout.scss */
   .highlighted {
     max-width: 84em;
     padding-left: 1em;
@@ -494,7 +536,7 @@ header .secondary {
     clear: both;
   }
 }
-/* line 33, ../scss/_layout.scss */
+/* line 35, ../scss/_layout.scss */
 .highlighted .left {
   width: 66.10169%;
   float: left;
@@ -502,7 +544,7 @@ header .secondary {
   display: inline;
   position: relative;
 }
-/* line 37, ../scss/_layout.scss */
+/* line 39, ../scss/_layout.scss */
 .highlighted .right {
   width: 32.20339%;
   float: left;
@@ -514,10 +556,27 @@ header .secondary {
   display: inline;
 }
 
-@media (min-width: 70em) {
-  /* line 43, ../scss/_layout.scss */
+@media (min-width: 80em) {
+  /* line 45, ../scss/_layout.scss */
+  .banner {
+    max-width: 84em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .banner:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (min-width: 60em) {
+  /* line 49, ../scss/_layout.scss */
   .main {
-    max-width: 74em;
+    max-width: 64em;
     padding-left: 1em;
     padding-right: 1em;
     margin-left: auto;
@@ -530,32 +589,86 @@ header .secondary {
     clear: both;
   }
 }
-/* line 47, ../scss/_layout.scss */
-.main section {
+/* line 54, ../scss/_layout.scss */
+.main section,
+.main article {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 49, ../scss/_layout.scss */
-.main section .left {
+/* line 56, ../scss/_layout.scss */
+.main section .left,
+.main article .left {
   width: 49.15254%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 52, ../scss/_layout.scss */
-.main section .right {
-  width: 49.15254%;
+/* line 59, ../scss/_layout.scss */
+.main section .right,
+.main article .right {
+  width: 40.67797%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
+  margin-left: 8.47458%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
   display: inline;
 }
+/* line 65, ../scss/_layout.scss */
+.main section .left.hero,
+.main article .left.hero {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 68, ../scss/_layout.scss */
+.main section .right.leadin,
+.main article .right.leadin {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 0%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+/* line 74, ../scss/_layout.scss */
+.main .content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+@media (min-width: 48em) {
+  /* line 74, ../scss/_layout.scss */
+  .main .content {
+    max-width: 49em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .main .content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
+/* line 81, ../scss/_layout.scss */
+footer {
+  overflow: hidden;
+  *zoom: 1;
+  clear: both;
+}
 @media (min-width: 80em) {
-  /* line 62, ../scss/_layout.scss */
+  /* line 81, ../scss/_layout.scss */
   footer {
     max-width: 84em;
     padding-left: 1em;
@@ -571,60 +684,324 @@ header .secondary {
   }
 }
 
+/* line 89, ../scss/_layout.scss */
+section.content {
+  margin-top: -10em;
+}
+@media (min-width: 60em) {
+  /* line 89, ../scss/_layout.scss */
+  section.content {
+    max-width: 64em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  section.content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* line 94, ../scss/_layout.scss */
+.donate {
+  width: 100%;
+}
+/* line 96, ../scss/_layout.scss */
+.donate .cta {
+  text-align: center;
+}
+@media (min-width: 40em) {
+  /* line 96, ../scss/_layout.scss */
+  .donate .cta {
+    max-width: 44em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .donate .cta:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 /* line 2, ../scss/_blocks.scss */
 .brand h1.title {
   font-size: 1.5em;
 }
 
 /* line 7, ../scss/_blocks.scss */
-.page-title {
-  position: absolute;
-  bottom: 0.5em;
-  left: 1em;
-}
-
-/* line 13, ../scss/_blocks.scss */
 .data {
   margin-bottom: 1em;
 }
-/* line 15, ../scss/_blocks.scss */
+/* line 9, ../scss/_blocks.scss */
 .data .stat {
   font-size: 2em;
   display: block;
 }
-/* line 19, ../scss/_blocks.scss */
+/* line 13, ../scss/_blocks.scss */
 .data .key {
   font-size: 0.75em;
 }
 
+/* line 19, ../scss/_blocks.scss */
+.featured-stories .story {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.75em;
+}
+/* line 21, ../scss/_blocks.scss */
+.featured-stories .story:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+/* line 24, ../scss/_blocks.scss */
+.featured-stories .story .pull-quote {
+  font-size: 1.25em;
+  font-style: italic;
+  margin: 0 0 0.5em 0;
+}
+/* line 29, ../scss/_blocks.scss */
+.featured-stories .story .byline {
+  margin-left: 2em;
+}
+
+/* line 35, ../scss/_blocks.scss */
+.crosslinks {
+  margin: 2em 0;
+}
+/* line 37, ../scss/_blocks.scss */
+.crosslinks div {
+  padding: 3em;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  background: #f1f1f1;
+  border: 1px solid #f1f1f1;
+}
+/* line 44, ../scss/_blocks.scss */
+.crosslinks div:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 52, ../scss/_blocks.scss */
+.flexslider .slides img {
+  width: 75%;
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  /* line 52, ../scss/_blocks.scss */
+  .flexslider .slides img {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 52, ../scss/_blocks.scss */
+  .flexslider .slides img {
+    width: 100%;
+  }
+}
+/* line 63, ../scss/_blocks.scss */
+.flexslider .slides .flex-caption {
+  position: absolute;
+  z-index: 10;
+  background: #FFF;
+  padding: 1em;
+  width: 25%;
+  top: 4em;
+  right: 0px;
+  margin-left: -325px;
+}
+@media screen and (max-width: 1200px) {
+  /* line 63, ../scss/_blocks.scss */
+  .flexslider .slides .flex-caption {
+    top: 2em;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 63, ../scss/_blocks.scss */
+  .flexslider .slides .flex-caption {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    top: 1em;
+    position: relative;
+  }
+}
+/* line 86, ../scss/_blocks.scss */
+.flexslider .slides .flex-caption h2 {
+  font-size: 1.75em;
+  font-weight: 300;
+}
+
+/* line 98, ../scss/_blocks.scss */
+.donate {
+  background: #f1f1f1;
+  padding: 5em 0;
+}
+/* line 101, ../scss/_blocks.scss */
+.donate .cta {
+  text-align: center;
+}
+
 /* line 3, ../scss/_navigation.scss */
+nav.primary,
+nav.secondary,
+nav.action {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+/* line 6, ../scss/_navigation.scss */
 nav.primary ul,
-nav.secondary ul {
+nav.secondary ul,
+nav.action ul {
   margin: 0;
   padding: 0;
 }
-/* line 6, ../scss/_navigation.scss */
+/* line 9, ../scss/_navigation.scss */
 nav.primary ul > li,
-nav.secondary ul > li {
+nav.secondary ul > li,
+nav.action ul > li {
   display: block;
   text-align: center;
   float: left;
-  padding: 0 2.5em;
-  border-right: 1px solid #f1f1f1;
 }
 /* line 13, ../scss/_navigation.scss */
-nav.primary ul > li:last-child, nav.primary ul > li:fist-child,
-nav.secondary ul > li:last-child,
-nav.secondary ul > li:fist-child {
-  border-left: 1px solid #f1f1f1;
-}
-/* line 16, ../scss/_navigation.scss */
 nav.primary ul > li a,
-nav.secondary ul > li a {
+nav.secondary ul > li a,
+nav.action ul > li a {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   display: block;
-  padding: 1.5em 0;
+  padding: 1.75em 0.75em;
+}
+
+/* line 28, ../scss/_navigation.scss */
+.basic .main .content .subnav {
+  text-align: center;
+  margin: 1em 0;
+}
+/* line 31, ../scss/_navigation.scss */
+.basic .main .content .subnav ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 34, ../scss/_navigation.scss */
+.basic .main .content .subnav ul li {
+  display: inline-block;
+  list-style: none;
+}
+/* line 37, ../scss/_navigation.scss */
+.basic .main .content .subnav ul li a {
+  padding: 0.5em;
+}
+
+/* line 50, ../scss/_navigation.scss */
+.highlighted .subnav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 53, ../scss/_navigation.scss */
+.highlighted .subnav ul li {
+  list-style: none;
+  padding: 1em;
+  border-bottom: 1px solid #f1f1f1;
+}
+/* line 57, ../scss/_navigation.scss */
+.highlighted .subnav ul li:last-child {
+  border-bottom: 0;
+}
+
+/* line 1, ../scss/_forms.scss */
+input {
+  color: #222;
+  background: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  height: 2.3125em;
+  margin: 0 0 1em;
+  padding: 0.5em;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border-color 0.45s ease-in-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: border-color 0.45s ease-in-out 0s;
+  -o-transition: border-color 0.45s ease-in-out 0s;
+  transition: border-color 0.45s ease-in-out 0s;
+}
+/* line 12, ../scss/_forms.scss */
+input:focus {
+  border-color: #d2d2d2;
+}
+
+/* line 23, ../scss/_forms.scss */
+input[type="submit"],
+button {
+  background: #f58026;
+  color: white;
+}
+/* line 81, ../scss/_mixins.scss */
+input[type="submit"]:hover,
+button:hover {
+  color: #FFF;
+  background: #f4720e;
+}
+
+/* line 28, ../scss/_forms.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+}
+
+/* line 34, ../scss/_forms.scss */
+form .field {
+  margin-bottom: 1em;
+}
+/* line 36, ../scss/_forms.scss */
+form .field .field-label {
+  font-weight: 600;
+  font-size: 1.125em;
+  margin-bottom: 0.5em;
+  padding: 0.125em 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+/* line 44, ../scss/_forms.scss */
+form .postfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 46, ../scss/_forms.scss */
+form .postfix input[type="text"] {
+  float: left;
+  width: 75%;
+}
+/* line 50, ../scss/_forms.scss */
+form .postfix .action {
+  float: left;
+  width: 25%;
 }
 
 /* line 2, ../scss/_screen.scss */
@@ -636,4 +1013,50 @@ img {
 /* line 8, ../scss/_screen.scss */
 .main section {
   padding: 3em 0;
+}
+/* line 11, ../scss/_screen.scss */
+.main .content {
+  background: #FFF;
+}
+
+/* line 18, ../scss/_screen.scss */
+a,
+a:visited {
+  color: #f58026;
+  -moz-transition: all 0.125s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.125s ease-in;
+  /* Opera */
+  -o-transition: all 0.125s ease-in;
+  /* Standard */
+  transition: all 0.125s ease-in;
+  text-decoration: none;
+}
+/* line 22, ../scss/_screen.scss */
+a:hover,
+a:visited:hover {
+  color: #de660a;
+  text-decoration: underline;
+}
+
+/* line 29, ../scss/_screen.scss */
+.button.primary {
+  background: #f58026;
+  color: white;
+}
+/* line 81, ../scss/_mixins.scss */
+.button.primary:hover {
+  color: #FFF;
+  background: #f4720e;
+}
+
+/* line 33, ../scss/_screen.scss */
+.button.secondary {
+  background: #d5cec3;
+  color: #222222;
+}
+/* line 91, ../scss/_mixins.scss */
+.button.secondary:hover {
+  color: #FFF;
+  background: #cbc2b4;
 }

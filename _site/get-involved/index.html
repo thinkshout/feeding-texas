@@ -10,12 +10,13 @@
   <!-- Foundation 
   <link rel="stylesheet" href="/stylesheets/app.css" />
   -->
+  <!-- Chosen -->
+  <link rel="stylesheet" href="/bower_components/chosen/chosen.css" />
+  <link rel="stylesheet" href="/bower_components/flexslider/flexslider.css" />
+
   <!-- Wireframes -->
   <link rel="stylesheet" href="/assets/stylesheets/style.css" />
 
-  <!-- Chosen -->
-  <link rel="stylesheet" href="/bower_components/chosen/chosen.css" />
-  
   <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -29,12 +30,26 @@
   		
       <li><a href="/learn/">Learn About Hunger</a></li>
   		
-      <li><a href="/work/">Our Work</a></li>
+      <li><a href="/work/">How We Help</a></li>
   		
       <li><a href="/get-involved/">Get Involved</a></li>
   		
+      <li><a href="/about/">About Us</a></li>
+  		
+      <li><a href="/news/">Latest Work</a></li>
+  		
     </ul>
   </nav>
+  <nav class="action">
+  	<ul>
+  		
+      <li><a href="/donate/">Donate</a></li>
+  		
+      <li><a href="/help/">Get Help</a></li>
+  		
+    </ul>
+  </nav>
+  <!--
 	<nav class="secondary">
 		<ul>
 			
@@ -44,27 +59,88 @@
 			
 	  </ul>
 	</nav>
+  -->
 </header>
 
   <div class="highlighted">
-	<div class="region-highlighted">
-	  <div class="left">
-      <div class="p1">
-        <img src="http://placehold.it/775x600">
-      </div>
+  <div class="region-highlighted">
+    <div class="left">
+      <img src="http://placehold.it/900x400">
+      <h1 class="page-title">Advocate</h1>
     </div>
     <div class="right">
-    	<div class="p2">
-        <img src="http://placehold.it/450x200">
-      </div>
-      <div class="p3">
-        <img src="http://placehold.it/450x200">
-      </div>
-      <div class="p4">
-        <img src="http://placehold.it/450x200">
+      <div class="p2">
+        <img src="http://placehold.it/450x200&text=CTA: Local Statistics" />
       </div>
     </div>
-	</div>
+  </div>
+</div>
+<div class="main">
+  <section class="intro">
+    <div class="left">
+    	<h3>Your voice can make a difference for hungry families!</h3>
+      <p>TFBN advocates at the state and federal levels to protect and improve our nation’s response to hunger. You can join us three ways:
+      	<ul>
+      		<li>Become an advocate at Feeding America’s Hunger Action Center. TFBN will keep your information safe and use it to contact you when your voice is needed.</li>
+          <li>Follow us on Twitter and Facebook to get the latest news on hunger in Texas, and how you can help.</li>
+          <li>Learn more about hunger in your area, and share this information with decision-makers in your community.</li>
+        </ul>
+      </p>
+      <a class="button primary" href="#">Learn about how we're leading hunger movement in Texas</a>
+    </div>
+    <div class="right">
+      <div class="data">
+        <span class="stat">300 million lbs</span>
+        <span class="key">Of food distributed to over 3 million Texans in 2011</span>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="left hero">
+      <img src="http://placehold.it/450x300">
+    </div>
+    <div class="right leadin">
+    	<h2>Contact Decision Makers</h2>
+      <p>TFBN is proud to maintain a formal partnership with  the Texas Division of Emergency Management and FEMA in responding to emergencies like hurricanes, tornadoes and wildfires.</p>
+      <a class="button primary" href="/work/programs/disaster-relief">Learn More</a>
+    </div>
+  </section>
+  <section>
+    <div class="left hero">
+      <img src="http://placehold.it/450x300">
+    </div>
+    <div class="right leadin">
+    	<h2>Engage the Media</h2>
+      <p>TFBN is proud to maintain a formal partnership with  the Texas Division of Emergency Management and FEMA in responding to emergencies like hurricanes, tornadoes and wildfires.</p>
+      <a class="button primary" href="/work/programs/disaster-relief">Learn More</a>
+    </div>
+  </section>
+  <section>
+    <div class="left hero">
+      <img src="http://placehold.it/450x300">
+    </div>
+    <div class="right leadin">
+    	<h2>Raise Local Awareness</h2>
+      <p>TFBN is proud to maintain a formal partnership with  the Texas Division of Emergency Management and FEMA in responding to emergencies like hurricanes, tornadoes and wildfires.</p>
+      <a class="button primary" href="/work/programs/disaster-relief">Learn More</a>
+    </div>
+  </section>
+  <section>
+    <div class="left hero">
+      <img src="http://placehold.it/450x300">
+    </div>
+    <div class="right leadin">
+    	<h2>Share Your Story</h2>
+      <p>TFBN is proud to maintain a formal partnership with  the Texas Division of Emergency Management and FEMA in responding to emergencies like hurricanes, tornadoes and wildfires.</p>
+      <a class="button primary" href="/work/programs/disaster-relief">Learn More</a>
+    </div>
+  </section>
+</div>
+<div class="donate">
+  <div class="cta">
+    <h3>Help us work with our partners to end hunger in Texas</h3>
+    <a class="button primary" href="#">Donate Now</a>
+  </div>
 </div>
   
   <footer>
@@ -75,9 +151,13 @@
 	    		
 	        <li><a href="/learn/">Learn About Hunger</a></li>
 	    		
-	        <li><a href="/work/">Our Work</a></li>
+	        <li><a href="/work/">How We Help</a></li>
 	    		
 	        <li><a href="/get-involved/">Get Involved</a></li>
+	    		
+	        <li><a href="/about/">About Us</a></li>
+	    		
+	        <li><a href="/news/">Latest Work</a></li>
 	    		
 	      </ul>
 	    </nav>
@@ -96,8 +176,10 @@
 
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/chosen/chosen.jquery.min.js"></script>
+  <script src="/bower_components/flexslider/jquery.flexslider-min.js"></script>
   <script>
     $(document).ready(function(){
+    	$('.flexslider').flexslider();
     });
   </script>
 </body>

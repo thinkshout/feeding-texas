@@ -4,18 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Home | </title>
+  <title>How We Help | </title>
   <meta name="viewport" content="width=device-width">
 
   <!-- Foundation 
   <link rel="stylesheet" href="/stylesheets/app.css" />
   -->
+  <!-- Chosen -->
+  <link rel="stylesheet" href="/bower_components/chosen/chosen.css" />
+  <link rel="stylesheet" href="/bower_components/flexslider/flexslider.css" />
+
   <!-- Wireframes -->
   <link rel="stylesheet" href="/assets/stylesheets/style.css" />
 
-  <!-- Chosen -->
-  <link rel="stylesheet" href="/bower_components/chosen/chosen.css" />
-  
   <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -29,12 +30,26 @@
   		
       <li><a href="/learn/">Learn About Hunger</a></li>
   		
-      <li><a href="/work/">Our Work</a></li>
+      <li><a href="/work/">How We Help</a></li>
   		
       <li><a href="/get-involved/">Get Involved</a></li>
   		
+      <li><a href="/about/">About Us</a></li>
+  		
+      <li><a href="/news/">Latest Work</a></li>
+  		
     </ul>
   </nav>
+  <nav class="action">
+  	<ul>
+  		
+      <li><a href="/donate/">Donate</a></li>
+  		
+      <li><a href="/help/">Get Help</a></li>
+  		
+    </ul>
+  </nav>
+  <!--
 	<nav class="secondary">
 		<ul>
 			
@@ -44,27 +59,64 @@
 			
 	  </ul>
 	</nav>
+  -->
 </header>
 
   <div class="highlighted">
 	<div class="region-highlighted">
 	  <div class="left">
-      <div class="p1">
-        <img src="http://placehold.it/775x600">
-      </div>
+      <img src="http://placehold.it/900x400">
+      <h1 class="page-title">How We Help</h1>
     </div>
     <div class="right">
     	<div class="p2">
         <img src="http://placehold.it/450x200">
       </div>
-      <div class="p3">
-        <img src="http://placehold.it/450x200">
-      </div>
-      <div class="p4">
-        <img src="http://placehold.it/450x200">
+      <div class="subnav">
+        <ul>
+          <li><a href="/work/programs/">Our Programs</a></li>
+          <li><a href="/work/leading-the-movement/">Leading the Movement</a></li>
+          <li><a href="/work/stregthening-our-response/">Strengthening Our Response</a></li>
+        </ul>
       </div>
     </div>
 	</div>
+</div>
+<div class="main">
+  <section class="intro">
+    <div class="left">
+      <p>TFBN plays a statewide, coordinating role in areas too large for any one food bank. These include disaster relief, public policy advocacy, and partnerships with statewide entities.</p>
+      <p>We also help the network of 20 regional food banks to build the capacity to end hunger by managing statewide food sourcing and purchasing programs, offering expert technical assistance and training, and spreading food bank innovations and best practices statewide.</p>
+      <a class="button primary" href="#">Learn about how we're leading hunger movement in Texas</a>
+    </div>
+    <div class="right">
+      <div class="data">
+        <span class="stat">300 million lbs</span>
+        <span class="key">Of food distributed to over 3 million Texans in 2011</span>
+      </div>
+    </div>
+  </section>
+  <section>
+  	<h2>Featured Initiative</h2>
+    <div class="left hero">
+      <img src="http://placehold.it/450x300">
+    </div>
+    <div class="right leadin">
+    	<h2><a href="/work/programs/disaster-relief">Disaster Relief</a></h2>
+      <p>TFBN is proud to maintain a formal partnership with  the Texas Division of Emergency Management and FEMA in responding to emergencies like hurricanes, tornadoes and wildfires.</p>
+      <a class="button primary" href="/work/programs/disaster-relief">Learn More</a>
+    </div>
+  </section>
+</div>
+<div class="crosslinks">
+  <div class="how-we-help">
+    <h3>1.9 million children Lived in food insecure homes in 2012</h3>
+    <a class="button primary" href="/work/">Learn About Hunger In Texas</a>
+  </div>
+  <div class="donate">
+    <h3>Help us work with our partners to end hunger in Texas</h3>
+    <a class="button primary" href="#">Donate Now</a>
+  </div>
 </div>
   
   <footer>
@@ -75,9 +127,13 @@
 	    		
 	        <li><a href="/learn/">Learn About Hunger</a></li>
 	    		
-	        <li><a href="/work/">Our Work</a></li>
+	        <li><a href="/work/">How We Help</a></li>
 	    		
 	        <li><a href="/get-involved/">Get Involved</a></li>
+	    		
+	        <li><a href="/about/">About Us</a></li>
+	    		
+	        <li><a href="/news/">Latest Work</a></li>
 	    		
 	      </ul>
 	    </nav>
@@ -96,8 +152,10 @@
 
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/chosen/chosen.jquery.min.js"></script>
+  <script src="/bower_components/flexslider/jquery.flexslider-min.js"></script>
   <script>
     $(document).ready(function(){
+    	$('.flexslider').flexslider();
     });
   </script>
 </body>

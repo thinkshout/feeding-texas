@@ -9,6 +9,14 @@
   		{% endfor %}
     </ul>
   </nav>
+  <nav class="action">
+  	<ul>
+  		{% for link in site.data.action %}
+      <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+  		{% endfor %}
+    </ul>
+  </nav>
+  <!--
 	<nav class="secondary">
 		<ul>
 			{% for link in site.data.secondary %}
@@ -16,4 +24,5 @@
 			{% endfor %}
 	  </ul>
 	</nav>
+  -->
 </header>

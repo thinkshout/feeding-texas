@@ -8,4 +8,28 @@ img {
 	section {
 		padding: 3em 0;
 	}
+	.content {
+	  background: #FFF;
+  }
+}
+
+// Links
+a,
+a:visited {
+	color: $primary;
+	@include default-transition;
+  text-decoration: none;
+  &:hover {
+    color: darken($primary, 10%);
+    text-decoration: underline;
+  }
+}
+
+// Buttons
+.button.primary {
+	@include primary-btn();
+}
+
+.button.secondary {
+	@include secondary-btn();
 }

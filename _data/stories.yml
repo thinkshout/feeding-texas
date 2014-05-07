@@ -25,3 +25,18 @@
     I am a single mother with an income of minumum wage, trying to afford a place to live, left with no money for food.
   body: |
     Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+
+- title: Cheryl
+  img: cheryl.jpg
+  pullquote: |
+    We depend on food stamps for ourselves and our 2 boys. We struggled when they cut them previously, and could not make it if another cut happened. 
+  body: |
+    Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+
+- title: Max
+  img: janice.jpg
+  pullquote: |
+    Social security benefits not enough for rent, utilities, etc. 
+  body: |
+    Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+

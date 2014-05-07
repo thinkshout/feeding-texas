@@ -1,3 +1,17 @@
 body {
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
+
+.highlighted {
+  h1.page-title {
+  	position: absolute;
+  	bottom: 0.5em;
+  	left: 1em;
+  } 
+}
+
+.content {
+	h1.page-title {
+		text-align: center;
+	}
+}
