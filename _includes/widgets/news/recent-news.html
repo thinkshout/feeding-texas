@@ -1,0 +1,13 @@
+<div class="block">
+	<h4>Recent News</h4>
+	<a class="annotation" data-reveal-id="myModal" data-reveal-ajax="{{ site.baseurl }}/annotations/homepage-recent-news.html"><span class="icon-info-sign"></span></a>
+	<ul class="large-block-grid-1">
+	  {% for post in site.categories.news limit:1 %}
+	    <li>
+	      <a class="th" href="{{ site.baseurl }}{{ post.url }}" style="float: left; margin-right: 1em;"><img src="{{ site.baseurl 	}}/images/{{ post.hero }}"></a>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	      <p>{{ post.short }}</p>
+	    </li>
+	  {% endfor %}
+	</ul>
+</div>

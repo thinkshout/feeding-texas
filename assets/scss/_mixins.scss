@@ -1,0 +1,95 @@
+// element-invisible as defined by http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+@mixin element-invisible {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+    clip: rect(1px 1px 1px 1px); // IE6 and IE7 use the wrong syntax.
+  }
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+// Turns off the element-invisible effect.
+@mixin element-invisible-off {
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
+@mixin element-focusable {
+  @include element-invisible;
+
+  &:active,
+  &:focus {
+    @include element-invisible-off;
+  }
+}
+
+
+// The micro clearfix http://nicolasgallagher.com/micro-clearfix-hack/
+@mixin clearfix() {
+	*zoom:1;
+
+	&:before,
+	&:after {
+	    content:"";
+	    display:table;
+	}
+	&:after {
+	    clear:both;
+	}
+}
+
+@mixin default-box-shadow {
+  @include box-shadow(0 1px 0 rgba(255, 255, 255, 0.5) inset);
+}
+
+// Transition mixin
+// Apply to elements that have hover states
+@mixin default-transition {
+  -moz-transition: all 0.125s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.125s ease-in;
+  /* Opera */
+  -o-transition: all 0.125s ease-in;
+  /* Standard */
+  transition: all 0.125s ease-in;
+}
+
+// Primary Button
+%button {
+  display: inline-block;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  padding: 0.8125em 1.5em 0.75em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  @include default-transition;
+  &:hover {
+
+  }
+}
+
+@mixin primary-btn($color:#FFFFFF, $bg:$primary, $hover-bg:darken($primary, 5%)) {
+  @extend %button;
+  background: $bg;
+  color: $color;
+  &:hover {
+    color: #FFF;
+    background: $hover-bg;
+  }
+}
+
+@mixin secondary-btn($color:#222222, $bg:$secondary, $hover-bg:darken($secondary, 5%)) {
+	@extend %button;
+	background: $bg;
+  color: $color;
+	&:hover {
+    color: #FFF;
+    background: $hover-bg;
+  }
+}

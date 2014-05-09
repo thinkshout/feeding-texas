@@ -1,0 +1,63 @@
+nav.primary,
+nav.secondary,
+nav.action {
+	font-size: 0.8em;
+	text-transform: uppercase;
+  ul {
+    margin: 0;
+    padding: 0;
+    > li {
+      display: block;
+      text-align: center;
+      float: left;
+      a {
+        text-decoration: none;
+        font-weight: 500;
+        display: block;
+        padding: 1.75em 0.75em;
+      }
+    }
+  }
+}
+
+
+// Basic Page Subnavigation
+.basic {
+	.main {
+		.content {
+			.subnav {
+				text-align: center;
+				margin: 1em 0;
+				ul {
+					padding: 0;
+					margin: 0;
+					li {
+						display: inline-block;
+						list-style: none;
+						a {
+							padding: 0.5em;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Landing Page Subnavigation 
+.highlighted {
+	.subnav {
+		ul {
+			margin: 0;
+			padding: 0;
+			li {
+				list-style: none;
+				padding: 1em;
+				border-bottom: 1px solid #f1f1f1;
+				&:last-child {
+          border-bottom: 0;
+				}
+			}
+		}
+	}
+}

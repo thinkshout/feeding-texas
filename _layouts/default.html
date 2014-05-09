@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Foundation 
+  <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/app.css" />
+  -->
+  <!-- Chosen -->
+  <link rel="stylesheet" href="{{ site.baseurl}}/bower_components/chosen/chosen.css" />
+  <link rel="stylesheet" href="{{ site.baseurl}}/bower_components/flexslider/flexslider.css" />
+
+  <!-- Wireframes -->
+  <link rel="stylesheet" href="{{ site.baseurl}}/assets/stylesheets/style.css" />
+
+  <script src="{{ site.baseurl}}/bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+  
+  {% include global/header.html %}
+
+  {{ content }}
+  
+  {% include global/footer.html %}
+
+  <script src="{{ site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="{{ site.baseurl}}/bower_components/chosen/chosen.jquery.min.js"></script>
+  <script src="{{ site.baseurl}}/bower_components/flexslider/jquery.flexslider-min.js"></script>
+  <script>
+    $(document).ready(function(){
+    	$('.flexslider').flexslider();
+    });
+  </script>
+</body>
+</html>
+

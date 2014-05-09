@@ -1,0 +1,100 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "base";
+
+/* -------------------------------------------------------------------------*/
+/* Layout */
+
+.container {
+  @include container(80em);
+}
+
+header {
+	@include container(80em);
+
+	.brand {
+    @include span-columns(2,12);
+	}
+	.primary {
+		@include span-columns(6,12);
+	}
+  .action {
+		@include span-columns(2,12);
+		@include omega;
+	}
+	.secondary {
+		@include span-columns(4,12);
+		@include omega;
+	}
+}
+
+.highlighted {
+	@include container(80em);
+
+	.left {
+    @include span-columns(8,12);
+    position: relative
+	}
+	.right {
+    @include span-columns(4,12);
+    @include omega;
+	}
+}
+
+.banner {
+	@include container(80em);
+}
+
+.main {
+	@include container(60em);
+  
+  // Section Introductions
+  section,
+  article {
+  	@include clearfix();
+	  .left {
+	  	@include span-columns(6,12);
+	  }
+	  .right {
+	  	@include span-columns(5,12);
+	  	@include pre(1); 
+      @include omega;
+    }
+
+    .left.hero {
+	  	@include span-columns(6,12);
+	  }
+	  .right.leadin {
+	  	@include span-columns(6,12);
+	  	@include pre(0); 
+      @include omega;
+    }
+  }
+  .content {
+  	@include container(48em);
+  	@include box-sizing(border-box);
+  	position: relative;
+  }
+}
+
+footer {
+	@include container(80em);
+	@include clearfix;
+	clear: both;
+}
+
+// Basic Pages
+
+section.content {
+	margin-top: -10em;
+	@include container(60em);
+}
+
+.donate {
+	width: 100%;
+	.cta {
+		@include container(40em);
+		text-align: center;
+	}
+}

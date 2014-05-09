@@ -1,0 +1,66 @@
+name: Feeding Texas
+description: 
+pygments: true
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
+baseurl: /feeding-texas
+# url: 
+
+# Permalink Configuration
+permalink: /blog/:year/:month/:title
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bowerrc', 'config.rb', 'sass', 's3_website*.yml', 'Gruntfile.js', 'node_modules']
+
+# Team directory used by the data_to_pages plugin.
+# team_dir: 'team'
+# contact_redirect: 'thanks'
+tag_dir: 'blog/category'
+
+# Blog pagination.  
+# paginate: 10
+# paginate_path: "blog/page:num"
+
+# Setting relative permalink to false. See http://jekyllrb.com/docs/upgrading/.
+relative_permalinks: false
+
+# Settings for sitemap_generator plugin.
+# sitemap:
+#     exclude:
+#         - "/rss.xml"
+#         - "/tag"
+#     include_posts:
+#         - "/index.html"
+#         - "/blog/index.html"
+#         - "/work/index.html"
+#         - "/careers/index.html"
+
+# prose:
+#   rooturl: "blog/_posts"
+#   siteurl: "http://thinkshout.com"
+#   media: "assets/images/blog"
+#   metadata:
+#     blog/_posts:
+#       - name: "layout"
+#         field:
+#           element: "hidden"
+#           value: "post"
+#       - name: "short"
+#         field:
+#           element: "textarea"
+#           label: "Short teaser"
+#       - name: "author"
+#         field:
+#           element: "text"
+#           label: "Author short name"
+#       - name: "featured"
+#         field:
+#           element: "checkbox"
+#           label: "Featured"
+#           help: "The top 3 featured posts will appear on the home page."
+#       - name: "tags"
+#         field:
+#           element: "multiselect"
+#           label: "Tags"
+#           help: "Enter one or more tags to categorize your post, E.g., Drupal, nonprofit, RedHen."
+#           alterable: true
