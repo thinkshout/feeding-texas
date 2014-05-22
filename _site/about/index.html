@@ -15,54 +15,49 @@
   <link rel="stylesheet" href="/bower_components/flexslider/flexslider.css" />
 
   <!-- Wireframes -->
-  <link rel="stylesheet" href="/assets/stylesheets/style.css" />
+  <link rel="stylesheet" href="/assets/stylesheets/main.css" />
 
   <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
   
   <header>
-	<div class="brand">
-		<h1 class="title"><a href="/">Feeding Texas</a></h1>
-	</div>
-  <nav class="primary">
-  	<ul>
-  		
-      <li><a href="/learn/">Learn About Hunger</a></li>
-  		
-      <li><a href="/work/">How We Help</a></li>
-  		
-      <li><a href="/get-involved/">Get Involved</a></li>
-  		
-      <li><a href="/about/">About Us</a></li>
-  		
-      <li><a href="/news/">Latest Work</a></li>
-  		
-    </ul>
-  </nav>
-  <nav class="action">
-  	<ul>
-  		
-      <li><a href="/donate/">Donate</a></li>
-  		
-      <li><a href="/help/">Get Help</a></li>
-  		
-    </ul>
-  </nav>
-  <!--
-	<nav class="secondary">
-		<ul>
-			
-	    <li><a href="/about/">About Us</a></li>
-			
-	    <li><a href="/news/">Latest Work</a></li>
-			
-	  </ul>
-	</nav>
-  -->
+	<div class="wrap">
+		<div class="action">
+		  <nav>
+      	<ul>
+      		
+          <li><a href="/donate/">Donate</a></li>
+      		
+          <li><a href="/help/">Get Help</a></li>
+      		
+        </ul>
+      </nav>
+    </div>
+	  <div class="brand">
+	  	<h1 class="title"><a href="/">Feeding Texas</a></h1>
+	  </div>
+	  <div class="primary">
+      <nav>
+      	<ul>
+      		
+          <li><a href="/learn/">Learn About Hunger</a></li>
+      		
+          <li><a href="/work/">How We Help</a></li>
+      		
+          <li><a href="/get-involved/">Get Involved</a></li>
+      		
+          <li><a href="/about/">About Us</a></li>
+      		
+          <li><a href="/news/">Latest Work</a></li>
+      		
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
 
-  <div class="basic">
+  <div class="basic wrap">
 	<div class="banner">
     <img src="http://placehold.it/1350x500">
   </div>
@@ -71,10 +66,10 @@
     	<h1 class="page-title">About Us</h1>
       <div class="subnav">
         <ul>
-        	<li><a href="#">Staff & Board</a></li>
-        	<li><a href="#">Fiscal Information</a></li>
-        	<li><a href="#">Jobs & Internships</a></li>
-        	<li><a href="#">Contact Us</a></li>
+        	<li><a href="/about/staff-board/">Staff & Board</a></li>
+        	<li><a href="/about/fiscal/">Fiscal Information</a></li>
+        	<li><a href="/about/careers/">Jobs & Internships</a></li>
+        	<li><a href="/about/contact/">Contact Us</a></li>
         </ul>
       </div>
       <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
@@ -89,43 +84,20 @@
   </div>
 </div>
   
-  <footer>
-	<div class="row">
-		<div class="large-12 columns">
-	    <nav class="primary">
-	    	<ul>
-	    		
-	        <li><a href="/learn/">Learn About Hunger</a></li>
-	    		
-	        <li><a href="/work/">How We Help</a></li>
-	    		
-	        <li><a href="/get-involved/">Get Involved</a></li>
-	    		
-	        <li><a href="/about/">About Us</a></li>
-	    		
-	        <li><a href="/news/">Latest Work</a></li>
-	    		
-	      </ul>
-	    </nav>
-	    <nav class="secondary">
-	    	<ul>
-	    		
-	        <li><a href="/about/">About Us</a></li>
-	    		
-	        <li><a href="/news/">Latest Work</a></li>
-	    		
-	      </ul>
-		  </nav>
-		</div>
-	</div>
-</footer>
-
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/chosen/chosen.jquery.min.js"></script>
   <script src="/bower_components/flexslider/jquery.flexslider-min.js"></script>
   <script>
     $(document).ready(function(){
     	$('.flexslider').flexslider();
+    	// Enable the chosen plugin on .chosen-select
+      $(".chosen-select").chosen({width: "80%"}).change(
+        function(){
+          if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+          }  
+        }
+      );
     });
   </script>
 </body>

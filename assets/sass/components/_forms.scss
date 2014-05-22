@@ -1,0 +1,55 @@
+input {
+	color: #222;
+	background: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	height: 2.3125em;
+  margin: 0 0 1em;
+  padding: 0.5em;
+  width: 100%;
+	@include box-sizing(border-box);
+	@include transition(border-color 0.45s ease-in-out 0s);
+
+	&:focus {
+	  border-color: #d2d2d2;
+	}
+}
+
+input[type="text"],
+input[type="textarea"] {
+	
+}
+
+input[type="submit"],
+button {
+	// @include primary-btn;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	width: auto;
+	height: auto;
+}
+
+form {
+  .field {
+  	margin-bottom: 1em;
+    .field-label {
+    	font-weight: 600;
+    	font-size: 1.125em;
+    	margin-bottom: 0.5em;
+    	padding: 0.125em 0;
+    	border-bottom: 1px solid #f1f1f1;
+    }
+  }
+  .postfix {
+  	@include clearfix;
+  	input[type="text"] {
+  		float: left;
+  		width: 75%;
+  	}
+  	.action {
+  		float: left;
+  		width: 25%;
+  	}
+  }
+}

@@ -1,0 +1,27 @@
+.featured-stories {
+	.story {
+		@include box-sizing(border-box);
+		padding: 0.75em;
+		@include breakpoint($bp-small, $no-query: false) {
+      @include span-columns(12);
+      &:nth-child(1n) { @include omega; }
+    }
+    @include breakpoint($bp-medium, $no-query: false) {
+      @include span-columns(6, 12);
+      &:nth-child(2n) { @include omega; }
+    }
+    @include breakpoint($bp-large, $no-query: false) {
+      @include span-columns(4,12);
+      &:nth-child(3n) { @include omega; }
+    }
+    .pull-quote {
+    	font-size: 1.25em;
+    	font-style: italic;
+    	margin: 0 0 0.5em 0;
+    }
+    .byline {
+    	margin-left: 2em;
+    }
+	}
+}
+

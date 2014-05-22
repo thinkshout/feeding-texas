@@ -1,82 +1,39 @@
 ---
-layout: default
-title: Home
----
+layout: landing
+title: Hunger In Texas
+featured_resource: How do low-income texans get help feeding their children?
+featured_statistic:
+  stat: 1 in 5
+  key: Texas families experienced food insecurity in 2010-2012
+intro:
+  title: The Issue
+  text: |
+    Food insecurity is the most broadly-used measure of food deprivation in the United States. The USDA defines food insecurity as meaning “consistent access to adequate food is limited by a lack of money and other resources at times during the year.”
 
-<div class="highlighted">
-  <div class="region-highlighted">
-    <div class="left">
-      <img src="http://placehold.it/900x400">
-      <h1 class="page-title">What is Food Insecurity?</h1>
-    </div>
-    <div class="right">
-      <div class="p2">
-        <img src="http://placehold.it/450x200&text=Featured Product" />
-      </div>
-      <div class="subnav">
-        <ul>
-          <li><a href="{{ site.baseurl }}/learn/research/">Research</a></li>
-          <li><a href="{{ site.baseurl }}/learn/communities/">Hunger In Your Community</a></li>
-          <li><a href="{{ site.baseurl }}/learn/food-insecurity/">Food Insecurity</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="main">
-  <section class="intro">
-    <div class="left">
-      <h2>The Issue</h2>
-      <p>Food insecurity is the most broadly-used measure of food deprivation in the United States. The USDA defines food insecurity as meaning “consistent access to adequate food is limited by a lack of money and other resources at times during the year.”</p>
-      <p>Food insecurity is most prevalent in households containing children, disabled individuals or the elderly. Every Texas county is touched by the struggle to afford enough food.</p>
-      <a href="#">Learn More About Food Insecurity</a>
-    </div>
-    <div class="right">
-      <div class="data">
-        <span class="stat">1 in 5</span>
-        <span class="key">Texas families experienced food insecurity in 2010-2012</span>
-      </div>
-      <div class="data">
-        <span class="stat">1.9 million children</span>
-        <span class="key">Lived in food insecure homes in 2012</span>
-      </div>
-      <a class="button primary" href="{{ site.baseurl }}/learn/research/">More Research & Data</a>
-    </div>
-  </section>
-  <section>
-    <h2>The Cost</h2>
-    <div class="left">
-      <h3>Hunger is not just a moral problem; it is also a health problem.</h3>
-      <p>If a family cannot avoid hunger, the resulting lack of nutrients reduces the body’s defenses against sickness, contributing to depressed student achievement, lowered worker productivity and avoidable health care costs.</p>
-    </div>
-    <div class="right">
-      <div class="data">
-        <span class="stat">$9.8 Billion</span>
-        <span class="key">Estimated annual cost to Texans</span>
-      </div>
-      <a class="button primary" href="{{ site.baseurl }}/learn/research/">More Research & Data</a>
-    </div>
-  </section>
-  <section class="featured-stories">
-    <h2>The Voices of Hungry Texans</h2>
-    <!-- Personal Story Teasers -->
-    {% for link in site.data.stories %}
-      <div class="story">
-        <div class="pull-quote">{{ link.pullquote }}</div>
-        <div class="byline">
-          <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-        </div>
-      </div>
-    {% endfor %}
-  </section>
-</div>
-<div class="crosslinks">
-  <div class="how-we-help">
-    <h3>300 million lbs of food distributed to over 3 million Texans in 2011</h3>
-    <a class="button primary" href="{{ site.baseurl }}/work/">Learn About How We Help</a>
-  </div>
-  <div class="donate">
-    <h3>Help us work with our partners to end hunger in Texas</h3>
-    <a class="button primary" href="#">Donate Now</a>
-  </div>
-</div>  
+    Food insecurity is most prevalent in households containing children, disabled individuals or the elderly. Every Texas county is touched by the struggle to afford enough food.
+  link: 
+    title: "Learn More"
+    url: "http://nytimes.com"
+components:
+  - title: The Cost
+    hero: "http://placehold.it/1400x500&text=HERO"
+    summary: |
+      Hunger is not just a moral problem; it is also a health problem.
+
+      If a family cannot avoid hunger, the resulting lack of nutrients reduces the body’s defenses against sickness, contributing to depressed student achievement, lowered worker productivity and avoidable health care costs.
+    link: "http://nytimes.com"
+  - title: Tester Tester Component 2
+    hero: "http://placehold.it/1400x500&text=HERO"
+    summary: |
+      Food insecurity is the most broadly-used measure of food deprivation in the United States. The USDA defines food insecurity as meaning “consistent access to adequate food is limited by a lack of money and other resources at times during the year.”
+
+      Food insecurity is most prevalent in households containing children, disabled individuals or the elderly. Every Texas county is touched by the struggle to afford enough food.
+    link: "http://nytimes.com"
+  - title: Tester Tester Component 3
+    hero: "http://placehold.it/1400x500&text=HERO"
+    summary: |
+      Food insecurity is the most broadly-used measure of food deprivation in the United States. The USDA defines food insecurity as meaning “consistent access to adequate food is limited by a lack of money and other resources at times during the year.”
+
+      Food insecurity is most prevalent in households containing children, disabled individuals or the elderly. Every Texas county is touched by the struggle to afford enough food.
+    link: "http://nytimes.com"
+---

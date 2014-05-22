@@ -1,0 +1,30 @@
+header {
+  .brand {
+  	h1.title {
+  		background: url(../images/feeding-texas-logo.jpg) no-repeat;
+  		display: block;
+  		height: 125px;
+  		width: 225px;
+  		text-indent: 100%; 
+  		white-space: nowrap; 
+  		overflow: hidden;
+  	  a {
+  	  	color: #222;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;	
+        }
+  	  }	
+  	  @include breakpoint($bp-small, $no-query: false) {
+  	    margin: 0 auto;
+  	  }
+      @include breakpoint($bp-medium, $no-query: false) {
+        text-align: left;
+        margin: 0 auto;
+      }
+      @include breakpoint($bp-large, $no-query: false) {
+        margin-top: -2em;
+      }
+  	}
+  }
+}

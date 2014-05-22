@@ -1,0 +1,105 @@
+/* -------------------------------------------------------------------------*/
+/* Layout */
+
+.wrap {
+  @include container(70em);
+  padding: 0 1em;
+}
+
+.highlighted {
+	max-width: $max-width;	
+	margin: 0 auto;
+	@include clearfix;
+  .left {
+    @include breakpoint($bp-medium, $no-query: false) {
+      width: percentage(12/12);
+    }
+    @include breakpoint($bp-large, $no-query: false) {
+      float: left;
+      width: percentage(7/12);
+    }
+  }
+  .right {
+    @include breakpoint($bp-medium, $no-query: false) {
+      width: percentage(12/12);
+    }
+    @include breakpoint($bp-large, $no-query: false) {
+      width: percentage(5/12);
+      @include omega;
+    }
+  }
+}
+
+.banner {
+}
+
+.main {
+  .wrap {
+    @include container(60em);
+  }
+
+  // Section Introductions
+  section,
+  article {
+    @include clearfix();
+    .left {
+      @include breakpoint($bp-medium, $no-query: false) {
+        @include span-columns(12);
+      }
+      @include breakpoint($bp-large, $no-query: false) {
+        @include span-columns(7,12);
+      }
+    }
+    .right {
+      @include breakpoint($bp-medium, $no-query: false) {
+        @include span-columns(12);
+      }
+      @include breakpoint($bp-large, $no-query: false) {
+        @include span-columns(5,12);
+        @include omega;
+      }
+    }
+  }
+  .content {
+    @include container(48em);
+    @include box-sizing(border-box);
+    position: relative;
+  }
+}
+
+.content-bottom {
+	.wrap {
+    @include container(60em);
+  }
+	.main {
+		@include span-columns(7,12);
+		article {
+			.hero {
+        @include span-columns(12,12);
+      }
+      .leadin {
+        @include span-columns(12,12);
+        @include pre(0); 
+        @include omega;
+      }
+		}
+	}
+	.sidebar-second {
+		@include span-columns(5,12);
+		@include omega;
+	}
+}
+
+footer {
+  @include clearfix;
+  clear: both;
+}
+
+
+.donate {
+  width: 100%;
+  .cta {
+    @include container(40em);
+    text-align: center;
+  }
+}

@@ -4,8 +4,10 @@ title: "Disaster Relief"
 summary: |
   TFBN is proud to maintain a formal partnership with  the Texas Division of Emergency Management and FEMA in responding to emergencies like hurricanes, tornadoes and wildfires.
 images:
-  hero: "http://placehold.it/1400x500&text=HERO"
-  thumb: "http://placehold.it/450x300&text=THUMB"
+  hero: "programs/disaster-relief-hero.jpg"
+  thumb: "programs/disaster-relief-thumbnail.jpg"
+  credit: "https://www.flickr.com/people/loudtiger/"
+featured: "true"
 ---
 
 TFBN is proud to maintain a formal partnership with  the Texas Division of Emergency Management and FEMA in responding to emergencies like hurricanes, tornadoes and wildfires.

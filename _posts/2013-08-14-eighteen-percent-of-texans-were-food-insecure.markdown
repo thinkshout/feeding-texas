@@ -2,6 +2,7 @@
 layout: press
 title:  "Study Estimates 18.3 Percent of Texans Were “Food Insecure” in 2012"
 date:   2013-08-16 11:50:37
+featured: "true"
 categories: 
 ---
 

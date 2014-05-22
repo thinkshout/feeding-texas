@@ -1,8 +1,8 @@
 name: Feeding Texas
 description: 
-pygments: true
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+highlighter: pygments
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 baseurl: /feeding-texas
 # url: 
@@ -13,7 +13,7 @@ permalink: /blog/:year/:month/:title
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bowerrc', 'config.rb', 'sass', 's3_website*.yml', 'Gruntfile.js', 'node_modules']
 
 # Team directory used by the data_to_pages plugin.
-# team_dir: 'team'
+location_dir: 'locations'
 # contact_redirect: 'thanks'
 tag_dir: 'blog/category'
 

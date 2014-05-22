@@ -1,0 +1,24 @@
+---
+layout: default
+title: Home
+---
+<div class="basic wrap">
+	<div class="banner">
+    <img src="http://placehold.it/1350x500">
+  </div>
+  <div class="main">
+    <section class="content">
+    	<h1 class="page-title">Press Releases</h1>
+      {% for post in site.posts %}
+        {% if post.layout == "press" %}
+          <article>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <p>{{ post.summary }}</p>
+            <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+          </article> 
+        {% endif %}
+      {% endfor %} 
+    </section>
+  </div>
+</div>
+

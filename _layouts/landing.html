@@ -1,0 +1,78 @@
+---
+layout: default
+---
+<div class="landing">
+  <div class="highlighted">
+    <div class="left">
+    	<img class="hero" src="http://placehold.it/900x400">
+      <h1 class="page-title">{{ page.title }}</h1>
+    </div>
+    <div class="right">
+      <div class="featured-block">
+        {% for post in site.posts %}
+          {% if post.title == page.featured_resource %}
+            <img src="{{ base.url }}/assets/images/{{ post.image }}">
+            <div class="post-title">
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            </div>
+            <a class="detail-link" href="{{ site.baseurl }}{{ post.url }}"></a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="wrap">
+      <section class="intro">
+        <div class="left">
+          <h2>{{ page.intro.title }}</h2>
+          {{ page.intro.text | markdownify }}
+          <a href="{{ page.intro.link.url }}">{{ page.intro.link.title }}</a>
+        </div>
+        <div class="right">
+        	<div class="data">
+            <span class="stat">{{ page.featured_statistic.stat }}</span>
+            <span class="key">{{ page.featured_statistic.key }}</span>
+          </div>
+        </div>
+      </section>
+      {% for component in page.components %}
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        <section class="{{thecycle}}">
+          {% if component.hero %}
+            <div class="left">
+              <img src="{{ component.hero }}">
+            </div>
+          {% endif %}
+          {% if component.summary %}
+            <div class="right">
+              <h2>{{ component.title }}</h2>
+              <p>{{ component.summary | markdownify }}</p>
+            </div>
+          {% endif %}
+        </section>
+      {% endfor %}
+      <section class="featured-stories">
+        <h2>The Voices of Hungry Texans</h2>
+        {% for link in site.data.stories %}
+          <div class="story">
+            <div class="pull-quote">{{ link.pullquote }}</div>
+            <div class="byline">
+              <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+            </div>
+          </div>
+        {% endfor %}
+      </section>
+    </div>
+  </div>
+  <div class="crosslinks">
+    <div class="how-we-help">
+      <h3>300 million lbs of food distributed to over 3 million Texans in 2011</h3>
+      <a class="button primary" href="{{ site.baseurl }}/work/">Learn About How We Help</a>
+    </div>
+    <div class="donate">
+      <h3>Help us work with our partners to end hunger in Texas</h3>
+      <a class="button primary" href="#">Donate Now</a>
+    </div>
+  </div>
+</div>  

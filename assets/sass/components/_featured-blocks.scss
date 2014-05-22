@@ -1,0 +1,33 @@
+.featured-block {
+	position: relative;
+
+  .post-title {
+  	background: rgba(0,0,0,0.5);
+  	padding: 1em;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    a {
+    	color: #FFF;
+    	text-decoration: none;
+    	&:hover {
+        text-decoration: underline;
+    	}
+    }
+  }
+
+  a.detail-link {
+  	position: absolute;
+  	display: block;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	z-index: 5;
+  	background: rgba(0,0,0,0.5);
+    @include default-transition;
+  	&:hover {
+      background: rgba(0,0,0,0);
+  	}
+  }
+}

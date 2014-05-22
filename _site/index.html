@@ -15,111 +15,85 @@
   <link rel="stylesheet" href="/bower_components/flexslider/flexslider.css" />
 
   <!-- Wireframes -->
-  <link rel="stylesheet" href="/assets/stylesheets/style.css" />
+  <link rel="stylesheet" href="/assets/stylesheets/main.css" />
 
   <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
   
   <header>
-	<div class="brand">
-		<h1 class="title"><a href="/">Feeding Texas</a></h1>
-	</div>
-  <nav class="primary">
-  	<ul>
-  		
-      <li><a href="/learn/">Learn About Hunger</a></li>
-  		
-      <li><a href="/work/">How We Help</a></li>
-  		
-      <li><a href="/get-involved/">Get Involved</a></li>
-  		
-      <li><a href="/about/">About Us</a></li>
-  		
-      <li><a href="/news/">Latest Work</a></li>
-  		
-    </ul>
-  </nav>
-  <nav class="action">
-  	<ul>
-  		
-      <li><a href="/donate/">Donate</a></li>
-  		
-      <li><a href="/help/">Get Help</a></li>
-  		
-    </ul>
-  </nav>
-  <!--
-	<nav class="secondary">
-		<ul>
-			
-	    <li><a href="/about/">About Us</a></li>
-			
-	    <li><a href="/news/">Latest Work</a></li>
-			
-	  </ul>
-	</nav>
-  -->
+	<div class="wrap">
+		<div class="action">
+		  <nav>
+      	<ul>
+      		
+          <li><a href="/donate/">Donate</a></li>
+      		
+          <li><a href="/help/">Get Help</a></li>
+      		
+        </ul>
+      </nav>
+    </div>
+	  <div class="brand">
+	  	<h1 class="title"><a href="/">Feeding Texas</a></h1>
+	  </div>
+	  <div class="primary">
+      <nav>
+      	<ul>
+      		
+          <li><a href="/learn/">Learn About Hunger</a></li>
+      		
+          <li><a href="/work/">How We Help</a></li>
+      		
+          <li><a href="/get-involved/">Get Involved</a></li>
+      		
+          <li><a href="/about/">About Us</a></li>
+      		
+          <li><a href="/news/">Latest Work</a></li>
+      		
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
 
   <div class="highlighted">
-  <div class="region-highlighted">
-    <div class="left">
-      <div class="p1">
-        <img src="http://placehold.it/775x600">
+	<div class="wrap">
+    <div class="region-highlighted">
+      <div class="left">
+        <div class="p1">
+          <img src="http://placehold.it/775x600">
+        </div>
       </div>
-    </div>
-    <div class="right">
-      <div class="p2">
-        <img src="http://placehold.it/450x200">
-      </div>
-      <div class="p3">
-        <img src="http://placehold.it/450x200">
-      </div>
-      <div class="p4">
-        <img src="http://placehold.it/450x200">
+      <div class="right">
+        <div class="p2">
+          <img src="http://placehold.it/450x200">
+        </div>
+        <div class="p3">
+          <img src="http://placehold.it/450x200">
+        </div>
+        <div class="p4">
+          <img src="http://placehold.it/450x200">
+        </div>
       </div>
     </div>
   </div>
 </div>
   
-  <footer>
-	<div class="row">
-		<div class="large-12 columns">
-	    <nav class="primary">
-	    	<ul>
-	    		
-	        <li><a href="/learn/">Learn About Hunger</a></li>
-	    		
-	        <li><a href="/work/">How We Help</a></li>
-	    		
-	        <li><a href="/get-involved/">Get Involved</a></li>
-	    		
-	        <li><a href="/about/">About Us</a></li>
-	    		
-	        <li><a href="/news/">Latest Work</a></li>
-	    		
-	      </ul>
-	    </nav>
-	    <nav class="secondary">
-	    	<ul>
-	    		
-	        <li><a href="/about/">About Us</a></li>
-	    		
-	        <li><a href="/news/">Latest Work</a></li>
-	    		
-	      </ul>
-		  </nav>
-		</div>
-	</div>
-</footer>
-
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/chosen/chosen.jquery.min.js"></script>
   <script src="/bower_components/flexslider/jquery.flexslider-min.js"></script>
   <script>
     $(document).ready(function(){
     	$('.flexslider').flexslider();
+    	// Enable the chosen plugin on .chosen-select
+      $(".chosen-select").chosen({width: "80%"}).change(
+        function(){
+          if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+          }  
+        }
+      );
     });
   </script>
 </body>

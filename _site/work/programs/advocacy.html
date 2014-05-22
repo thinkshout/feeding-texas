@@ -15,109 +15,85 @@
   <link rel="stylesheet" href="/bower_components/flexslider/flexslider.css" />
 
   <!-- Wireframes -->
-  <link rel="stylesheet" href="/assets/stylesheets/style.css" />
+  <link rel="stylesheet" href="/assets/stylesheets/main.css" />
 
   <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
   
   <header>
-	<div class="brand">
-		<h1 class="title"><a href="/">Feeding Texas</a></h1>
-	</div>
-  <nav class="primary">
-  	<ul>
-  		
-      <li><a href="/learn/">Learn About Hunger</a></li>
-  		
-      <li><a href="/work/">How We Help</a></li>
-  		
-      <li><a href="/get-involved/">Get Involved</a></li>
-  		
-      <li><a href="/about/">About Us</a></li>
-  		
-      <li><a href="/news/">Latest Work</a></li>
-  		
-    </ul>
-  </nav>
-  <nav class="action">
-  	<ul>
-  		
-      <li><a href="/donate/">Donate</a></li>
-  		
-      <li><a href="/help/">Get Help</a></li>
-  		
-    </ul>
-  </nav>
-  <!--
-	<nav class="secondary">
-		<ul>
-			
-	    <li><a href="/about/">About Us</a></li>
-			
-	    <li><a href="/news/">Latest Work</a></li>
-			
-	  </ul>
-	</nav>
-  -->
+	<div class="wrap">
+		<div class="action">
+		  <nav>
+      	<ul>
+      		
+          <li><a href="/donate/">Donate</a></li>
+      		
+          <li><a href="/help/">Get Help</a></li>
+      		
+        </ul>
+      </nav>
+    </div>
+	  <div class="brand">
+	  	<h1 class="title"><a href="/">Feeding Texas</a></h1>
+	  </div>
+	  <div class="primary">
+      <nav>
+      	<ul>
+      		
+          <li><a href="/learn/">Learn About Hunger</a></li>
+      		
+          <li><a href="/work/">How We Help</a></li>
+      		
+          <li><a href="/get-involved/">Get Involved</a></li>
+      		
+          <li><a href="/about/">About Us</a></li>
+      		
+          <li><a href="/news/">Latest Work</a></li>
+      		
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
 
   <div class="highlighted">
-  <img src="http://placehold.it/1400x500&text=HERO">
+	<div class="wrap">
+    <img src="/assets/images/http://placehold.it/1400x500&text=HERO">
+  </div>
 </div>
 <div class="main">
-	<section class="content">
-    <h2>Advocacy</h2>
-    <div class="post">
-    <p>Some of the most important resources to fight hunger in Texas are public investments like SNAP (aka food stamps), school meals and summer meals for children.</p>
+	<div class="wrap">
+	  <section class="content">
+      <h2>Advocacy</h2>
+      <div class="post">
+      <p>Some of the most important resources to fight hunger in Texas are public investments like SNAP (aka food stamps), school meals and summer meals for children.</p>
 
 <p>TFBN works with decision-makers at the state and federal levels to protect and improve these investments as part of our campaign to end hunger in Texas. We provide research, expertise and a unique perspective to public debates on many issues affecting food security, nutritional health and broader food policy.</p>
 
 <p>At the state level, TFBN is a founding member of the Texas Food Policy Roundtable, a forum coordinating the advocacy of dozens of organizations on food-related issues.</p>
 
 <p>At the federal level, TFBN is a respected contributor to the national debate, and a trusted partner of national groups including Feeding America, the Food Research and Action Center (FRAC) and the Center on Budget and Policy Priorities.</p>
-    </div>
-  </section>
+      </div>
+    </section>
+  </div>
 </div>
 
   
-  <footer>
-	<div class="row">
-		<div class="large-12 columns">
-	    <nav class="primary">
-	    	<ul>
-	    		
-	        <li><a href="/learn/">Learn About Hunger</a></li>
-	    		
-	        <li><a href="/work/">How We Help</a></li>
-	    		
-	        <li><a href="/get-involved/">Get Involved</a></li>
-	    		
-	        <li><a href="/about/">About Us</a></li>
-	    		
-	        <li><a href="/news/">Latest Work</a></li>
-	    		
-	      </ul>
-	    </nav>
-	    <nav class="secondary">
-	    	<ul>
-	    		
-	        <li><a href="/about/">About Us</a></li>
-	    		
-	        <li><a href="/news/">Latest Work</a></li>
-	    		
-	      </ul>
-		  </nav>
-		</div>
-	</div>
-</footer>
-
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/chosen/chosen.jquery.min.js"></script>
   <script src="/bower_components/flexslider/jquery.flexslider-min.js"></script>
   <script>
     $(document).ready(function(){
     	$('.flexslider').flexslider();
+    	// Enable the chosen plugin on .chosen-select
+      $(".chosen-select").chosen({width: "80%"}).change(
+        function(){
+          if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+          }  
+        }
+      );
     });
   </script>
 </body>

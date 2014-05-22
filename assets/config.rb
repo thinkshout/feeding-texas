@@ -1,11 +1,13 @@
 # Require any additional compass plugins here.
 # add_import_path "bower_components/foundation/scss"
 require "susy"
+require 'breakpoint'
+require 'sass-globbing'
 
 # Set this to the root of your project when deployed:
 http_path = "/assets/"
 css_dir = "stylesheets"
-sass_dir = "scss"
+sass_dir = "sass"
 images_dir = "images"
 javascripts_dir = "js"
 
