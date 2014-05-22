@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="basic wrap">
+	<div class="banner">
+    <img src="http://placehold.it/1350x500&text=MAP">
+  </div>
+  <div class="main">
+    <section class="content">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.location.address | markdownify }}</p>
+      <p>{{ page.location.phone }}</p>
+      <p>{{ page.location.website }}</p>
+    </section>
+  </div>
+  <div class="donate">
+    <div class="cta">
+      <h3>Help us work with our partners to end hunger in Texas</h3>
+      <a class="button primary" href="#">Donate Now</a>
+    </div>
+  </div>
+</div>

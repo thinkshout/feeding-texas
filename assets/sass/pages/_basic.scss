@@ -1,0 +1,7 @@
+// Basic Pages
+
+section.content {
+  margin-top: -10em;
+  @include container(60em);
+  background: #FFF;
+}

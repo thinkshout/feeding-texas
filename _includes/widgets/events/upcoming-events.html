@@ -1,0 +1,12 @@
+<div class="panel">
+	<h4>Upcoming Events</h4> <a class="annotation" data-reveal-id="myModal" data-reveal-ajax="{{ site.baseurl }}/annotations/upcoming-events.html"><span class="icon-info-sign"></span></a>
+	<ul class="large-block-grid-1">
+	  {% for post in site.categories.events limit:2 %}
+	    <li>
+	      <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/images/{{ post.images.hero }}"></a>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	      <p>{{ post.summary }}</p>
+	    </li>
+	  {% endfor %}
+	</ul>
+</div>

@@ -1,0 +1,31 @@
+// Base Colors
+// ie. $green: #325113; 
+$primary: #F58026;
+$secondary: #D5CEC3;
+
+// Font Stack
+$base-font-family: Arial, Helvetica, sans-serif;
+$header-font-family: Arial, Helvetica, sans-serif;
+
+
+// Breakpoints
+// Breakpoints
+$breakpoint-to-ems: 	true;
+
+// Hi DPI
+$bp-hidpi: 				min-resolution 1.5dppx;
+
+// Small
+$bp-small: 				550px;
+$bp-xxsmall: 			720px;
+
+// Medium
+$bp-medium: 			880px;
+$bp-xmedium: 			920px;
+$bp-xxmedium: 		980px;
+
+// Large
+$bp-large: 				1000px;
+$bp-xlarge: 			1260px;
+$bp-xxlarge: 			1550px;
+$bp-xxxlarge: 			1875px;

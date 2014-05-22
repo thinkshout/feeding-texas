@@ -1,0 +1,76 @@
+---
+layout: default
+title: Home
+---
+
+<div class="highlighted">
+  <div class="wrap">
+
+  </div>
+</div>
+<div class="main">
+  <div class="wrap">
+    <section style="margin-top: 3em;">
+      <article>
+        <div class="left hero">
+          <img src="http://placehold.it/450x200">
+          <div class="section-heading">
+            <h4>Press</h4>
+            <h2>What We've Been Saying About Hunger In Texas</h2>
+            <a href="{{ site.baseurl }}/news/press/">View All Press</a>
+          </div>
+        </div>
+        <div class="right leadin">
+          {% for post in site.posts %}
+            {% if post.layout == "press" and post.featured == "true" %}
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              <p>{{ post.summary }}</p>
+              <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+            {% endif %}
+          {% endfor %} 
+        </div>
+      </article> 
+    </section>
+    <div class="flexslider carousel">
+      <ul class="slides">
+        {% for post in site.posts %}
+          {% if post.layout == "product" %}
+          <li>
+            <img src="{{ site.baseurl }}/assets/images/products/{{ post.image }}">
+            <div class="flex-caption">
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              <p>{{ post.summary }}</p>
+            </div>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="content-bottom">
+  <div class="wrap">
+    <section class="main">
+    {% for post in site.posts %}
+      {% if post.layout == "blog" %}
+      <article>
+        <div class="hero">
+          <img src="http://placehold.it/450x200">
+        </div>
+        <div class="leadin">
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+          <p>{{ post.summary }}</p>
+          <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+    </section>
+    <aside class="sidebar-second">
+       <img src="http://placehold.it/450x200&text=Email Newsletter Signup" />
+        <img src="http://placehold.it/450x200&text=Twitter Widget" />
+    </aside>
+  </div>
+</div>  
+
+
