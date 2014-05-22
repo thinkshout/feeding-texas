@@ -36,22 +36,30 @@ layout: default
           </div>
         </div>
       </section>
+      <!-- BEGIN PAGE COMPONENTS -->
       {% for component in page.components %}
-        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-        <section class="{{thecycle}}">
-          {% if component.hero %}
-            <div class="left">
-              <img src="{{ component.hero }}">
-            </div>
-          {% endif %}
-          {% if component.summary %}
-            <div class="right">
-              <h2>{{ component.title }}</h2>
-              <p>{{ component.summary | markdownify }}</p>
-            </div>
-          {% endif %}
-        </section>
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      <section class="{{thecycle}}">
+        {% if component.hero %}
+          <div class="left">
+            <img src="{{ component.hero }}">
+          </div>
+        {% endif %}
+        {% if component.summary %}
+          <div class="right">
+            <h2>{{ component.title }}</h2>
+            <p>{{ component.summary | markdownify }}</p>
+          </div>
+        {% endif %}
+      </section>
       {% endfor %}
+      <!-- END PAGE COMPONENTS -->
+      <!-- BEGIN PAGE ATTACHMENTS -->
+      {% for block in page.attachments %}
+        <h2>{{ block.title }}</h2>
+        <p>{{ block.leadin }}</p>
+      {% endfor %}
+      <!-- END PAGE ATTACHMENTS -->
       <section class="featured-stories">
         <h2>The Voices of Hungry Texans</h2>
         {% for link in site.data.stories %}
@@ -66,13 +74,11 @@ layout: default
     </div>
   </div>
   <div class="crosslinks">
+  	{% for cta in page.calls_to_action %}
     <div class="how-we-help">
-      <h3>300 million lbs of food distributed to over 3 million Texans in 2011</h3>
-      <a class="button primary" href="{{ site.baseurl }}/work/">Learn About How We Help</a>
+      <h3>{{ cta.title }}</h3>
+      <a class="button primary" href="{{ cta.link.url }}">{{ cta.link.button_text }}</a>
     </div>
-    <div class="donate">
-      <h3>Help us work with our partners to end hunger in Texas</h3>
-      <a class="button primary" href="#">Donate Now</a>
-    </div>
+    {% endfor %}
   </div>
 </div>  

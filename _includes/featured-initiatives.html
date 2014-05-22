@@ -1,0 +1,14 @@
+{% for page in site.pages %}
+  {% if page.layout == "program" and page.featured == "true" %}
+    <section>
+      <div class="left hero">
+        <img src="{{ site.baseurl }}/assets/images/{{ page.images.thumb }}">
+      </div>
+      <div class="right leadin">
+      	<h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+        <p>{{ page.summary }}</p>
+        <a class="button primary" href="{{ site.baseurl }}{{ page.url }}">Learn More</a>
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
