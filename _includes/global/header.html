@@ -1,14 +1,5 @@
 <header>
 	<div class="wrap">
-		<div class="action">
-		  <nav>
-      	<ul>
-      		{% for link in site.data.action %}
-          <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
-      		{% endfor %}
-        </ul>
-      </nav>
-    </div>
 	  <div class="brand">
 	  	<h1 class="title"><a href="/">{{ site.name }}</a></h1>
 	  </div>
@@ -16,6 +7,15 @@
       <nav>
       	<ul>
       		{% for link in site.data.primary %}
+          <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+      		{% endfor %}
+        </ul>
+      </nav>
+    </div>
+		<div class="action">
+		  <nav>
+      	<ul>
+      		{% for link in site.data.action %}
           <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
       		{% endfor %}
         </ul>

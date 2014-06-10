@@ -1,10 +1,6 @@
 // @todo - Break this into partials
 .highlighted {
-  h1.page-title {
-  	position: absolute;
-  	bottom: 0.5em;
-  	left: 1em;
-  } 
+
 }
 
 .content {
@@ -17,17 +13,6 @@
 	h1.title {
 		font-size: 1.5em;
 	} 
-}
-
-.data {
-	margin-bottom: 1em;
-	.stat {
-		font-size: 2em;
-		display: block;
-	}
-	.key {
-		font-size: 0.75em;
-	}
 }
 
 .crosslinks {
