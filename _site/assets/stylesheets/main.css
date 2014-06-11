@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 /* line 1, ../sass/base/_global.scss */
 * {
   -webkit-box-sizing: border-box;
@@ -441,7 +442,7 @@ table {
 @media (min-width: 62.5em) {
   /* line 2, ../sass/layout/_header.scss */
   header .brand {
-    width: 23.72881%;
+    width: 15.25424%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
@@ -472,22 +473,18 @@ header nav.primary {
 @media (min-width: 62.5em) {
   /* line 14, ../sass/layout/_header.scss */
   header nav.primary {
-    width: 74.57627%;
+    width: 66.10169%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline;
   }
 }
-/* line 27, ../sass/layout/_header.scss */
+/* line 26, ../sass/layout/_header.scss */
 header nav.action {
   overflow: hidden;
 }
 @media (min-width: 34.375em) {
-  /* line 27, ../sass/layout/_header.scss */
+  /* line 26, ../sass/layout/_header.scss */
   header nav.action {
     width: 100%;
     float: left;
@@ -506,7 +503,7 @@ header nav.action {
   }
 }
 @media (min-width: 55em) {
-  /* line 27, ../sass/layout/_header.scss */
+  /* line 26, ../sass/layout/_header.scss */
   header nav.action {
     width: 49.15254%;
     float: left;
@@ -519,9 +516,9 @@ header nav.action {
   }
 }
 @media (min-width: 62.5em) {
-  /* line 27, ../sass/layout/_header.scss */
+  /* line 26, ../sass/layout/_header.scss */
   header nav.action {
-    width: 100%;
+    width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
@@ -637,6 +634,7 @@ header nav.action {
     float: left;
     margin-right: 1.69492%;
     display: inline;
+    padding: 0;
   }
 }
 @media (min-width: 62.5em) {
@@ -647,10 +645,11 @@ header nav.action {
     float: left;
     margin-right: 1.69492%;
     display: inline;
+    padding: 0 3em;
   }
 }
 @media (min-width: 55em) {
-  /* line 53, ../sass/layout/_layout.scss */
+  /* line 55, ../sass/layout/_layout.scss */
   .main section .right,
   .main article .right {
     width: 100%;
@@ -660,7 +659,7 @@ header nav.action {
   }
 }
 @media (min-width: 62.5em) {
-  /* line 53, ../sass/layout/_layout.scss */
+  /* line 55, ../sass/layout/_layout.scss */
   .main section .right,
   .main article .right {
     width: 40.67797%;
@@ -673,7 +672,7 @@ header nav.action {
     display: inline;
   }
 }
-/* line 63, ../sass/layout/_layout.scss */
+/* line 65, ../sass/layout/_layout.scss */
 .main .content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -681,7 +680,7 @@ header nav.action {
   position: relative;
 }
 @media (min-width: 48em) {
-  /* line 63, ../sass/layout/_layout.scss */
+  /* line 65, ../sass/layout/_layout.scss */
   .main .content {
     max-width: 49em;
     padding-left: 1em;
@@ -698,7 +697,7 @@ header nav.action {
 }
 
 @media (min-width: 60em) {
-  /* line 71, ../sass/layout/_layout.scss */
+  /* line 73, ../sass/layout/_layout.scss */
   .content-bottom .wrap {
     max-width: 64em;
     padding-left: 1em;
@@ -713,21 +712,21 @@ header nav.action {
     clear: both;
   }
 }
-/* line 74, ../sass/layout/_layout.scss */
+/* line 76, ../sass/layout/_layout.scss */
 .content-bottom .main {
   width: 57.62712%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 77, ../sass/layout/_layout.scss */
+/* line 79, ../sass/layout/_layout.scss */
 .content-bottom .main article .hero {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 80, ../sass/layout/_layout.scss */
+/* line 82, ../sass/layout/_layout.scss */
 .content-bottom .main article .leadin {
   width: 100%;
   float: left;
@@ -739,7 +738,7 @@ header nav.action {
   *margin-left: -1em;
   display: inline;
 }
-/* line 87, ../sass/layout/_layout.scss */
+/* line 89, ../sass/layout/_layout.scss */
 .content-bottom .sidebar-second {
   width: 40.67797%;
   float: left;
@@ -751,7 +750,7 @@ header nav.action {
   display: inline;
 }
 
-/* line 93, ../sass/layout/_layout.scss */
+/* line 95, ../sass/layout/_layout.scss */
 footer {
   *zoom: 1;
   clear: both;
@@ -766,16 +765,16 @@ footer:after {
   clear: both;
 }
 
-/* line 99, ../sass/layout/_layout.scss */
+/* line 101, ../sass/layout/_layout.scss */
 .donate {
   width: 100%;
 }
-/* line 101, ../sass/layout/_layout.scss */
+/* line 103, ../sass/layout/_layout.scss */
 .donate .cta {
   text-align: center;
 }
 @media (min-width: 40em) {
-  /* line 101, ../sass/layout/_layout.scss */
+  /* line 103, ../sass/layout/_layout.scss */
   .donate .cta {
     max-width: 44em;
     padding-left: 1em;
@@ -794,42 +793,48 @@ footer:after {
 /* line 1, ../sass/components/_featured-blocks.scss */
 .featured-block {
   position: relative;
+  margin-top: 1em;
 }
-/* line 4, ../sass/components/_featured-blocks.scss */
+/* line 5, ../sass/components/_featured-blocks.scss */
+.featured-block .data {
+  background: #e98300;
+  padding: 0.75em 2em;
+  color: #FFF;
+  text-align: center;
+}
+/* line 10, ../sass/components/_featured-blocks.scss */
+.featured-block .data .stat {
+  font-size: 2.5em;
+  display: block;
+}
+/* line 19, ../sass/components/_featured-blocks.scss */
+.featured-block .triangle {
+  font-size: 3em;
+  color: #e98300;
+  display: block;
+  height: 20px;
+  width: 40px;
+  margin: -20px auto 0;
+}
+/* line 28, ../sass/components/_featured-blocks.scss */
 .featured-block .post-title {
   background: rgba(0, 0, 0, 0.5);
   padding: 1em;
-  position: absolute;
-  bottom: 0;
   z-index: 10;
 }
-/* line 10, ../sass/components/_featured-blocks.scss */
-.featured-block .post-title a {
+/* line 32, ../sass/components/_featured-blocks.scss */
+.featured-block .post-title h2 {
+  font-weight: 400;
+  font-size: 1em;
+}
+/* line 35, ../sass/components/_featured-blocks.scss */
+.featured-block .post-title h2 a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 13, ../sass/components/_featured-blocks.scss */
-.featured-block .post-title a:hover {
+/* line 38, ../sass/components/_featured-blocks.scss */
+.featured-block .post-title h2 a:hover {
   text-decoration: underline;
-}
-/* line 19, ../sass/components/_featured-blocks.scss */
-.featured-block a.detail-link {
-  position: absolute;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 5;
-  background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-/* line 29, ../sass/components/_featured-blocks.scss */
-.featured-block a.detail-link:hover {
-  background: rgba(0, 0, 0, 0);
 }
 
 /* line 1, ../sass/components/_flexslider.scss */
@@ -905,42 +910,21 @@ form .postfix .action {
   width: 25%;
 }
 
-/* line 3, ../sass/components/_glob.scss */
-.highlighted h1.page-title {
-  position: absolute;
-  bottom: 0.5em;
-  left: 1em;
-}
-
-/* line 11, ../sass/components/_glob.scss */
+/* line 7, ../sass/components/_glob.scss */
 .content h1.page-title {
   text-align: center;
 }
 
-/* line 17, ../sass/components/_glob.scss */
+/* line 13, ../sass/components/_glob.scss */
 .brand h1.title {
   font-size: 1.5em;
 }
 
-/* line 22, ../sass/components/_glob.scss */
-.data {
-  margin-bottom: 1em;
-}
-/* line 24, ../sass/components/_glob.scss */
-.data .stat {
-  font-size: 2em;
-  display: block;
-}
-/* line 28, ../sass/components/_glob.scss */
-.data .key {
-  font-size: 0.75em;
-}
-
-/* line 33, ../sass/components/_glob.scss */
+/* line 18, ../sass/components/_glob.scss */
 .crosslinks {
   margin: 2em 0;
 }
-/* line 35, ../sass/components/_glob.scss */
+/* line 20, ../sass/components/_glob.scss */
 .crosslinks div {
   padding: 3em;
   text-align: center;
@@ -954,7 +938,7 @@ form .postfix .action {
   background: #f1f1f1;
   border: 1px solid #f1f1f1;
 }
-/* line 42, ../sass/components/_glob.scss */
+/* line 27, ../sass/components/_glob.scss */
 .crosslinks div:nth-child(2n) {
   float: right;
   margin-right: 0;
@@ -962,24 +946,24 @@ form .postfix .action {
   display: inline;
 }
 
-/* line 50, ../sass/components/_glob.scss */
+/* line 35, ../sass/components/_glob.scss */
 .flexslider .slides img {
   width: 75%;
   display: block;
 }
 @media screen and (max-width: 1200px) {
-  /* line 50, ../sass/components/_glob.scss */
+  /* line 35, ../sass/components/_glob.scss */
   .flexslider .slides img {
     width: 60%;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 50, ../sass/components/_glob.scss */
+  /* line 35, ../sass/components/_glob.scss */
   .flexslider .slides img {
     width: 100%;
   }
 }
-/* line 61, ../sass/components/_glob.scss */
+/* line 46, ../sass/components/_glob.scss */
 .flexslider .slides .flex-caption {
   position: absolute;
   z-index: 10;
@@ -991,14 +975,14 @@ form .postfix .action {
   margin-left: -325px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 61, ../sass/components/_glob.scss */
+  /* line 46, ../sass/components/_glob.scss */
   .flexslider .slides .flex-caption {
     top: 2em;
     width: 40%;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 61, ../sass/components/_glob.scss */
+  /* line 46, ../sass/components/_glob.scss */
   .flexslider .slides .flex-caption {
     width: 100%;
     left: 0;
@@ -1007,58 +991,55 @@ form .postfix .action {
     position: relative;
   }
 }
-/* line 84, ../sass/components/_glob.scss */
+/* line 69, ../sass/components/_glob.scss */
 .flexslider .slides .flex-caption h2 {
   font-size: 1.75em;
   font-weight: 300;
 }
 
-/* line 96, ../sass/components/_glob.scss */
+/* line 81, ../sass/components/_glob.scss */
 .donate {
   background: #f1f1f1;
   padding: 5em 0;
 }
-/* line 99, ../sass/components/_glob.scss */
+/* line 84, ../sass/components/_glob.scss */
 .donate .cta {
   text-align: center;
 }
 
-/* line 3, ../sass/components/_header.scss */
+/* line 1, ../sass/components/_header.scss */
+header {
+  background: white;
+}
+/* line 4, ../sass/components/_header.scss */
 header .brand h1.title {
-  background: url(../images/feeding-texas-logo.jpg) no-repeat;
+  background: url(../images/feeding-texas-id.png) no-repeat;
   display: block;
-  height: 125px;
-  width: 225px;
+  height: 110px;
+  width: 175px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 11, ../sass/components/_header.scss */
+/* line 12, ../sass/components/_header.scss */
 header .brand h1.title a {
   color: #222;
   text-decoration: none;
 }
-/* line 14, ../sass/components/_header.scss */
+/* line 15, ../sass/components/_header.scss */
 header .brand h1.title a:hover {
   text-decoration: underline;
 }
 @media (min-width: 34.375em) {
-  /* line 3, ../sass/components/_header.scss */
+  /* line 4, ../sass/components/_header.scss */
   header .brand h1.title {
     margin: 0 auto;
   }
 }
 @media (min-width: 55em) {
-  /* line 3, ../sass/components/_header.scss */
+  /* line 4, ../sass/components/_header.scss */
   header .brand h1.title {
     text-align: left;
-    margin: 0 auto;
-  }
-}
-@media (min-width: 62.5em) {
-  /* line 3, ../sass/components/_header.scss */
-  header .brand h1.title {
-    margin-top: -2em;
   }
 }
 
@@ -1088,33 +1069,29 @@ img {
 .secondary ul > li a,
 .action ul > li a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   display: block;
-  padding: 1.75em 0.75em;
+  padding: 0 0.75em;
+  line-height: 110px;
+  color: #53682b;
 }
 
-/* line 23, ../sass/components/_navigation.scss */
+/* line 25, ../sass/components/_navigation.scss */
 .primary {
   display: none;
 }
 @media (min-width: 34.375em) {
-  /* line 23, ../sass/components/_navigation.scss */
+  /* line 25, ../sass/components/_navigation.scss */
   .primary {
     width: 100%;
     float: none;
   }
 }
 @media (min-width: 55em) {
-  /* line 23, ../sass/components/_navigation.scss */
+  /* line 25, ../sass/components/_navigation.scss */
   .primary {
-    font-size: 1.125em;
     display: block;
   }
-}
-
-/* line 36, ../sass/components/_navigation.scss */
-.action {
-  float: right;
 }
 
 /* line 49, ../sass/components/_navigation.scss */
@@ -1137,18 +1114,23 @@ img {
   padding: 0.5em;
 }
 
-/* line 70, ../sass/components/_navigation.scss */
+/* line 69, ../sass/components/_navigation.scss */
+.subnav {
+  text-align: center;
+}
+/* line 71, ../sass/components/_navigation.scss */
 .subnav ul {
   margin: 0;
   padding: 0;
 }
-/* line 73, ../sass/components/_navigation.scss */
+/* line 74, ../sass/components/_navigation.scss */
 .subnav ul li {
+  display: inline-block;
   list-style: none;
   padding: 1em;
   border-bottom: 1px solid #f1f1f1;
 }
-/* line 77, ../sass/components/_navigation.scss */
+/* line 79, ../sass/components/_navigation.scss */
 .subnav ul li:last-child {
   border-bottom: 0;
 }
@@ -1203,6 +1185,19 @@ img {
   top: 50%;
   width: 100%;
   z-index: 1;
+}
+
+/* line 1, ../sass/components/_stats.scss */
+.data {
+  background: #e98300;
+  padding: 0.75em 2em;
+  color: #FFF;
+  text-align: center;
+}
+/* line 6, ../sass/components/_stats.scss */
+.data .stat {
+  font-size: 2.5em;
+  display: block;
 }
 
 /* line 2, ../sass/components/_stories.scss */
@@ -1271,18 +1266,18 @@ img {
   margin-left: 2em;
 }
 
-/* line 1, ../sass/components/_type.scss */
+/* line 3, ../sass/components/_type.scss */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-/* line 5, ../sass/components/_type.scss */
+/* line 7, ../sass/components/_type.scss */
 h1, h2, h3, h4, h5 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   weight: 300;
 }
 
-/* line 10, ../sass/components/_type.scss */
+/* line 12, ../sass/components/_type.scss */
 h1.page-title {
   text-transform: uppercase;
 }
@@ -1348,13 +1343,49 @@ section.content {
   }
 }
 
-/* line 3, ../sass/pages/_landing.scss */
-.landing .highlighted .left {
+/* line 2, ../sass/pages/_landing.scss */
+.landing .highlighted {
+  margin-top: 1em;
   position: relative;
+  max-height: 500px;
+  overflow: hidden;
 }
-/* line 9, ../sass/pages/_landing.scss */
+/* line 7, ../sass/pages/_landing.scss */
+.landing .highlighted img.hero {
+  max-width: 2500px;
+}
+/* line 10, ../sass/pages/_landing.scss */
+.landing .highlighted .page-header {
+  position: absolute;
+  top: 3em;
+  left: 50%;
+  margin-left: -12em;
+  padding: 1.5em 1em;
+  width: 24em;
+  height: 24em;
+  display: block;
+  background: rgba(233, 121, 0, 0.65);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+}
+/* line 24, ../sass/pages/_landing.scss */
+.landing .highlighted .page-header h1.page-title {
+  color: white;
+}
+/* line 29, ../sass/pages/_landing.scss */
 .landing section {
   margin-bottom: 5em;
+}
+
+/* line 1, ../sass/pages/_pages.scss */
+body {
+  border-top: 6px solid #e98300;
+  background: #f6f3f0;
 }
 
 /* line 2, ../sass/pages/_press.scss */

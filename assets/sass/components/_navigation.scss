@@ -10,9 +10,11 @@
       float: left;
       a {
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 400;
         display: block;
-        padding: 1.75em 0.75em;
+        padding: 0 0.75em;
+        line-height: 110px;
+        color: $green;
       }
     }
   }
@@ -27,14 +29,12 @@
 		float: none;
   }
 	@include breakpoint($bp-medium, $no-query: false) {
-    font-size: 1.125em;
     display: block;
   }
 }
 
 // Float Action Right
 .action {
-	float: right;
 	ul {
 		li {    
 
@@ -67,10 +67,12 @@
 
 // Subnavigation 
 .subnav {
+	text-align: center;
 	ul {
 		margin: 0;
 		padding: 0;
 		li {
+			display: inline-block;
 			list-style: none;
 			padding: 1em;
 			border-bottom: 1px solid #f1f1f1;

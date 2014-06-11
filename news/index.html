@@ -11,25 +11,19 @@ title: Home
 <div class="main">
   <div class="wrap">
     <section style="margin-top: 3em;">
+    	<div class="section-heading">
+        <h4>Press</h4>
+      </div>
       <article>
-        <div class="left hero">
-          <img src="http://placehold.it/450x200">
-          <div class="section-heading">
-            <h4>Press</h4>
-            <h2>What We've Been Saying About Hunger In Texas</h2>
-            <a href="{{ site.baseurl }}/news/press/">View All Press</a>
-          </div>
-        </div>
-        <div class="right leadin">
-          {% for post in site.posts %}
-            {% if post.layout == "press" and post.featured == "true" %}
-              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-              <p>{{ post.summary }}</p>
-              <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-            {% endif %}
-          {% endfor %} 
-        </div>
-      </article> 
+        {% for post in site.posts %}
+          {% if post.layout == "press" and post.featured == "true" %}
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a></h2>
+            <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
+          {% endif %}
+        {% endfor %} 
+      </article>
+      <a href="{{ site.baseurl }}/news/press/">View All Press</a>
     </section>
     <div class="flexslider carousel">
       <ul class="slides">

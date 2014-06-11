@@ -1,28 +1,53 @@
 ---
 layout: default
 ---
-<div class="basic wrap">
-	<div class="banner">
-    <img src="http://placehold.it/1350x500">
+<div class="landing">
+  <div class="highlighted">
+    <img class="hero" src="{{ site.baseurl }}/assets/images/{{ page.banner }}">
+    <div class="page-header">
+    	<h1 class="page-title">{{ page.title }}</h1>
+    </div>
   </div>
   <div class="main">
-    <section class="content">
-    	<h1 class="page-title">{{ page.title }}</h1>
-      <div class="subnav">
+    <div class="wrap">
+    	<div class="subnav">
       	<ul>
           {% assign pages_list = site.pages %}
           {% assign group = page.group %}
           {% include widgets/subnav.html %}
         </ul>
       </div>
-      <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
-      <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar ivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
-    </section>
-  </div>
-  <div class="donate">
-    <div class="cta">
-      <h3>Help us work with our partners to end hunger in Texas</h3>
-      <a class="button primary" href="#">Donate Now</a>
+      <section class="intro">
+        <div class="left">
+          <h2>{{ page.intro.title }}</h2>
+          {{ page.intro.text }}
+          <a href="{{ page.intro.link.url }}">{{ page.intro.link.title }}</a>
+        </div>
+        <div class="right">
+        	<div class="featured-block">
+        	  <div class="data">
+              <span class="stat">{{ page.featured_statistic.stat }}</span>
+              <span class="key">{{ page.featured_statistic.key }}</span>
+            </div>
+            <div class="triangle">▼</div>
+            {% for post in site.posts %}
+              {% if post.title == page.featured_resource %}
+                <div class="post-title">
+                  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
     </div>
   </div>
-</div>
+  <div class="crosslinks">
+  	{% for cta in page.calls_to_action %}
+    <div class="how-we-help">
+      <h3>{{ cta.title }}</h3>
+      <a class="button primary" href="{{ cta.link.url }}">{{ cta.link.button_text }}</a>
+    </div>
+    {% endfor %}
+  </div>
+</div>  

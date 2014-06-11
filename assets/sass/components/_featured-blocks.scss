@@ -1,33 +1,44 @@
 .featured-block {
 	position: relative;
+	margin-top: 1em; 
+
+	.data {
+  	background: $orange;
+  	padding: 0.75em 2em;
+  	color: #FFF;
+  	text-align: center; 
+    .stat {
+      font-size: 2.5em;
+      display: block;
+    }
+    .key {
+      
+    }
+  }
+
+  .triangle {
+    font-size: 3em;
+    color: $orange;
+    display: block;
+    height: 20px;
+    width: 40px;
+    margin: -20px auto 0;
+  }
 
   .post-title {
   	background: rgba(0,0,0,0.5);
   	padding: 1em;
-    position: absolute;
-    bottom: 0;
     z-index: 10;
-    a {
-    	color: #FFF;
-    	text-decoration: none;
-    	&:hover {
-        text-decoration: underline;
-    	}
+    h2 {
+    	font-weight: 400;
+    	font-size: 1em;
+      a {
+      	color: #FFF;
+      	text-decoration: none;
+      	&:hover {
+          text-decoration: underline;
+      	}
+      }
     }
-  }
-
-  a.detail-link {
-  	position: absolute;
-  	display: block;
-  	top: 0;
-  	bottom: 0;
-  	left: 0;
-  	right: 0;
-  	z-index: 5;
-  	background: rgba(0,0,0,0.5);
-    @include default-transition;
-  	&:hover {
-      background: rgba(0,0,0,0);
-  	}
   }
 }

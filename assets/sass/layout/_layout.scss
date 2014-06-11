@@ -45,9 +45,11 @@
     .left {
       @include breakpoint($bp-medium, $no-query: false) {
         @include span-columns(12);
+        padding: 0;
       }
       @include breakpoint($bp-large, $no-query: false) {
         @include span-columns(7,12);
+        padding: 0 3em;
       }
     }
     .right {
