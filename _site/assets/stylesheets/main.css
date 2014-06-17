@@ -420,6 +420,21 @@ table {
   border-spacing: 0;
 }
 
+/* line 57, ../sass/helpers/_mixins.scss */
+.button.primary-btn, .button.primary-cta, .button.secondary-btn {
+  display: inline-block;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  padding: 0.8125em 1.5em 0.75em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 @media (min-width: 34.375em) {
   /* line 2, ../sass/layout/_header.scss */
   header .brand {
@@ -790,6 +805,77 @@ footer:after {
   }
 }
 
+/*
+
+Alerts
+======
+
+Creates an alert box notification using the `.alert-` prefix. The following options are available:
+
+    <div class="alert-success">Success</div> 
+    <div class="alert-warning">Warning</div> 
+    <div class="alert-error">Error</div>
+
+*/
+/* line 20, ../sass/components/_alerts.scss */
+.alert-success {
+  color: #6e981d;
+  background: #e2f3c1;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+/* line 21, ../sass/components/_alerts.scss */
+.alert-warning {
+  color: #b38108;
+  background: #fceabe;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+/* line 22, ../sass/components/_alerts.scss */
+.alert-error {
+  color: #dc0000;
+  background: #ffdcdc;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+/* line 1, ../sass/components/_buttons.scss */
+.button.primary-btn {
+  background: #e98300;
+  color: white;
+}
+/* line 75, ../sass/helpers/_mixins.scss */
+.button.primary-btn:hover {
+  color: #FFF;
+  background: #d07500;
+}
+
+/* line 5, ../sass/components/_buttons.scss */
+.button.primary-cta {
+  background: white;
+  color: #e98300;
+}
+/* line 95, ../sass/helpers/_mixins.scss */
+.button.primary-cta:hover {
+  background: white;
+}
+
+/* line 9, ../sass/components/_buttons.scss */
+.button.secondary-btn {
+  background: #53682b;
+  color: white;
+}
+/* line 85, ../sass/helpers/_mixins.scss */
+.button.secondary-btn:hover {
+  color: #FFF;
+  background: #455624;
+}
+
 /* line 1, ../sass/components/_featured-blocks.scss */
 .featured-block {
   position: relative;
@@ -802,12 +888,12 @@ footer:after {
   color: #FFF;
   text-align: center;
 }
-/* line 10, ../sass/components/_featured-blocks.scss */
+/* line 11, ../sass/components/_featured-blocks.scss */
 .featured-block .data .stat {
   font-size: 2.5em;
   display: block;
 }
-/* line 19, ../sass/components/_featured-blocks.scss */
+/* line 20, ../sass/components/_featured-blocks.scss */
 .featured-block .triangle {
   font-size: 3em;
   color: #e98300;
@@ -816,23 +902,23 @@ footer:after {
   width: 40px;
   margin: -20px auto 0;
 }
-/* line 28, ../sass/components/_featured-blocks.scss */
+/* line 29, ../sass/components/_featured-blocks.scss */
 .featured-block .post-title {
   background: rgba(0, 0, 0, 0.5);
   padding: 1em;
   z-index: 10;
 }
-/* line 32, ../sass/components/_featured-blocks.scss */
+/* line 33, ../sass/components/_featured-blocks.scss */
 .featured-block .post-title h2 {
   font-weight: 400;
   font-size: 1em;
 }
-/* line 35, ../sass/components/_featured-blocks.scss */
+/* line 36, ../sass/components/_featured-blocks.scss */
 .featured-block .post-title h2 a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 38, ../sass/components/_featured-blocks.scss */
+/* line 39, ../sass/components/_featured-blocks.scss */
 .featured-block .post-title h2 a:hover {
   text-decoration: underline;
 }
@@ -1135,27 +1221,41 @@ img {
   border-bottom: 0;
 }
 
-/* line 1, ../sass/components/_page-headers.scss */
-.page-title {
-  margin-top: 2em;
-  text-align: center;
-}
+/*
 
-/* line 6, ../sass/components/_page-headers.scss */
-.summary {
-  font-size: 1.5em;
-  padding: 0.5em 0;
-  border-bottom: 1px solid #222;
-  border-top: 1px solid #222;
+Landing Page Headers
+============
+  
+  Landing page header styling
+
+    <div class="page-header">
+      <h1 class="page-title">Hunger In Texas</h1>
+      <h3>Every Texas community is touched by the struggle to afford enough food.</h3>
+    </div>
+
+*/
+/* line 15, ../sass/components/_page-headers.scss */
+.page-header {
+  position: absolute;
+  top: 3em;
+  left: 50%;
+  margin-left: -12em;
+  padding: 3.5em 1em 0;
+  width: 24em;
+  height: 24em;
   display: block;
-  margin-bottom: 1.5em;
+  background: rgba(233, 121, 0, 0.65);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
   text-align: center;
+  color: #FFF;
 }
-
-/* line 16, ../sass/components/_page-headers.scss */
-.description {
-  text-align: left;
-  margin-bottom: 5em;
+/* line 29, ../sass/components/_page-headers.scss */
+.page-header h1.page-title {
+  color: white;
 }
 
 /* line 1, ../sass/components/_section-header.scss */
@@ -1187,14 +1287,27 @@ img {
   z-index: 1;
 }
 
-/* line 1, ../sass/components/_stats.scss */
+/*
+
+Featured Statistic
+======
+  
+  Styling for featuring statistics:
+
+      <div class="data">
+        <span class="stat">1 in 5</span>
+        <span class="key">Texas families experienced food insecurity in 2010-2012</span>
+      </div>
+
+*/
+/* line 15, ../sass/components/_stats.scss */
 .data {
   background: #e98300;
   padding: 0.75em 2em;
   color: #FFF;
   text-align: center;
 }
-/* line 6, ../sass/components/_stats.scss */
+/* line 20, ../sass/components/_stats.scss */
 .data .stat {
   font-size: 2.5em;
   display: block;
@@ -1354,30 +1467,7 @@ section.content {
 .landing .highlighted img.hero {
   max-width: 2500px;
 }
-/* line 10, ../sass/pages/_landing.scss */
-.landing .highlighted .page-header {
-  position: absolute;
-  top: 3em;
-  left: 50%;
-  margin-left: -12em;
-  padding: 1.5em 1em;
-  width: 24em;
-  height: 24em;
-  display: block;
-  background: rgba(233, 121, 0, 0.65);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  text-align: center;
-  color: #FFF;
-}
-/* line 24, ../sass/pages/_landing.scss */
-.landing .highlighted .page-header h1.page-title {
-  color: white;
-}
-/* line 29, ../sass/pages/_landing.scss */
+/* line 11, ../sass/pages/_landing.scss */
 .landing section {
   margin-bottom: 5em;
 }

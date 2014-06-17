@@ -7,24 +7,6 @@
     img.hero {
     	max-width: 2500px;
     }
-    .page-header {
-    	position: absolute;
-      top: 3em;
-      left: 50%;
-      margin-left: -12em;
-      padding: 1.5em 1em;
-      width: 24em;
-      height: 24em;
-      display: block;
-      background: rgba(233,121,0,0.65);
-      @include border-radius(50%);
-      text-align: center;
-      color: #FFF;
-      
-      h1.page-title {
-        color: $white;
-      } 
-    }
   }
 	section {
 	  margin-bottom: 5em;

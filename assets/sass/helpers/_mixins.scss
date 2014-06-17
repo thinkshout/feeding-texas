@@ -68,7 +68,7 @@
   }
 }
 
-@mixin primary-btn($color:#FFFFFF, $bg:$primary, $hover-bg:darken($primary, 5%)) {
+@mixin primary-btn($color:#FFFFFF, $bg:$orange, $hover-bg:darken($orange, 5%)) {
   @extend %button;
   background: $bg;
   color: $color;
@@ -78,12 +78,21 @@
   }
 }
 
-@mixin secondary-btn($color:#222222, $bg:$secondary, $hover-bg:darken($secondary, 5%)) {
+@mixin secondary-btn($color:#FFFFFF, $bg:$green, $hover-bg:darken($green, 5%)) {
 	@extend %button;
 	background: $bg;
   color: $color;
 	&:hover {
     color: #FFF;
+    background: $hover-bg;
+  }
+}
+
+@mixin primary-cta($color:$orange, $bg:$white, $hover-bg:$white) {
+	@extend %button;
+	background: $bg;
+  color: $color;
+	&:hover {
     background: $hover-bg;
   }
 }
