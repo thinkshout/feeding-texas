@@ -55,6 +55,26 @@ module.exports = function(grunt) {
             tasks: ['jshint'],
         },
     },
+    sassdown: {
+      styleguide: {
+        options: {
+            assets: [],
+            theme: '',
+            template: '',
+            readme: '',
+            highlight: 'monokai',
+            excludeMissing: true
+        },
+        files: [{
+            expand: true,
+            cwd: 'assets/sass/components/',
+            src: [
+              '*.scss',
+            ],
+            dest: '_site/styleguide/'
+        }]
+      }
+    },
 	});
   // Default task.
   grunt.registerTask('default', ['watch']);
@@ -65,4 +85,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   // grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('sassdown');
 };

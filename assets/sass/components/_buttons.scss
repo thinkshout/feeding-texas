@@ -1,0 +1,11 @@
+.button.primary-btn {
+	@include primary-btn();
+}
+
+.button.primary-cta {
+	@include primary-cta();
+}
+
+.button.secondary-btn {
+	@include secondary-btn();
+}
