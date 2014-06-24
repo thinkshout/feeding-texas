@@ -5,32 +5,33 @@ title: Home
 
 <div class="highlighted">
   <div class="wrap">
-
-  </div>
-</div>
-<div class="main">
-  <div class="wrap">
-    <section style="margin-top: 3em;">
-    	<div class="section-heading">
-        <h4>Press</h4>
-      </div>
-      <article>
+    <section>
+    	<h2 class="section-header"><span>Press</span></h2>
+      <div class="featured-press">
         {% for post in site.posts %}
           {% if post.layout == "press" and post.featured == "true" %}
+          <article>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a></h2>
             <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
+          </article>
           {% endif %}
-        {% endfor %} 
-      </article>
-      <a href="{{ site.baseurl }}/news/press/">View All Press</a>
+        {% endfor %}
+        <a href="{{ site.baseurl }}/news/press/">View All Press</a>
+      </div>
     </section>
+  </div>
+</div>
+
+<div class="content-carousel">
+	<div class="wrap">
+	  <h2 class="section-header"><span>Featured Work</span></h2>
     <div class="flexslider carousel">
       <ul class="slides">
         {% for post in site.posts %}
-          {% if post.layout == "product" %}
+          {% if post.layout == "product" and post.featured == "true" %}
           <li>
-            <img src="{{ site.baseurl }}/assets/images/products/{{ post.image }}">
+            <img src="http://placehold.it/450x250&text=Product Type Icon" />
             <div class="flex-caption">
               <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
               <p>{{ post.summary }}</p>
@@ -42,8 +43,10 @@ title: Home
     </div>
   </div>
 </div>
+
 <div class="content-bottom">
   <div class="wrap">
+  	<h2 class="section-header"><span>From The Blog</span></h2>
     <section class="main">
     {% for post in site.posts %}
       {% if post.layout == "blog" %}

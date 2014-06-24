@@ -1,0 +1,33 @@
+.featured-press {
+	@include breakpoint($bp-small, $no-query: true) {
+    padding: 0;
+  }
+  @include breakpoint($bp-medium, $no-query: true) {
+    padding: 0 3em;
+  }
+  @include breakpoint($bp-large, $no-query: true) {
+    padding: 0 10em 5em;
+  }
+	article {
+    h2 {
+    	font-size: 2.5em;
+    	a {
+    		text-decoration: none;
+    		color: $orange;
+    		&:hover {
+          color: lighten($orange, 10%);
+    		}
+    	}
+      .attribution {
+      	display: inline-block;
+      	font-size: 20px;
+      	font-style: italic;
+      	color: #222;
+      	&:before {
+          content: "-";
+          margin-right: 0.25em;
+      	}
+      }
+    }
+	}
+}

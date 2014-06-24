@@ -96,3 +96,12 @@
     background: $hover-bg;
   }
 }
+
+@mixin label($color: $white, $bg: $green) {
+  display: inline-block;
+  padding: 0.25em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  background: $bg;
+  color: $color;
+}

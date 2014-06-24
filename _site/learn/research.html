@@ -265,9 +265,21 @@ Food insecurity is most prevalent in households containing children, disabled in
               
             
               
+            
+              
+            
+              
+            
+              
                 <div class="post-title">
                   <h2><a href="/blog/2013/08/how-do-low-income-texans-get-help-feeding-their-children">How do low-income texans get help feeding their children?</a></h2>
                 </div>
+              
+            
+              
+            
+              
+            
               
             
               
@@ -281,6 +293,122 @@ Food insecurity is most prevalent in households containing children, disabled in
       </section>
     </div>
   </div>
+  
+  <div class="content-bottom">
+    <div class="wrap"> 
+      <div class="filters">
+  <ul>
+  	<li><em>Filter By</em></li>
+  	<li>
+	    <label>Product Type:</label>
+      <select id="product-type" name="ProductType">
+      	<option value="all">All</option>
+      	<option value="data">Data</option>
+      	<option value="report">Report</option>
+      	<option value="factsheet">Factsheet</option>
+      </select>
+    </li>
+    <li>
+      <label>Topic:</label>
+      <select id="topic" name="Topic">
+      	<option value="all">All</option>
+      	<option value="food-insecurity">Hunger &amp; Food Insecurity</option>
+      	<option value="report">Healthy Eating</option>
+      	<option value="snap">SNAP</option>
+      	<option value="seniors">Seniors</option>
+      	<option value="rural-communities">Rural Communities</option>
+      	<option value="disabled">Disabled</option>
+      	<option value="child-nutrition-programs">Children</option>
+      	<option value="military">Military</option>
+      </select>
+    </li>
+  </ul>
+</div>
+
+<div class="product-list">
+  
+    
+      <div class="product teaser" data-type="factsheet" data-topic="food-insecurity ">
+        <span class="label">factsheet</span>
+        <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
+        <h2><a href="/blog/2013/08/testimony-to-the-senate-finance-committee">Testimony to the Senate Finance Committee</a></h2>
+        <p>TFBN requests that Rider 15 be increased to $3.2 million, which would result in a $3M grant for Texas food banks. An increase to $3.2M would enable us to distribute roughly 40M lbs of Texas-grown produce to needy Texans in the next biennium.
+</p>
+      </div>
+    
+  
+    
+      <div class="product teaser" data-type="report" data-topic="food-insecurity ">
+        <span class="label">report</span>
+        <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
+        <h2><a href="/blog/2013/08/snapshot">SNAPshot: Who Benefits from Food Stamps in Texas</a></h2>
+        <p>Who benefits from food stamps in Texas? When it comes down to it, we all do. The Supplemental Nutrition Assistance Program (SNAP, aka food stamps) is our nation’s front- line defense against hunger.
+</p>
+      </div>
+    
+  
+    
+      <div class="product teaser" data-type="data" data-topic="food-insecurity ">
+        <span class="label">data</span>
+        <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
+        <h2><a href="/blog/2013/08/small-area-income-poverty-estimates">2011 Small Area Income & Poverty Estimates</a></h2>
+        <p>2011 U.S. Census - Small Area Income & Poverty Estimates (SAIPE) data.
+</p>
+      </div>
+    
+  
+    
+  
+    
+      <div class="product teaser" data-type="factsheet" data-topic="snap child-nutrition-programs ">
+        <span class="label">factsheet</span>
+        <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
+        <h2><a href="/blog/2013/08/how-do-low-income-texans-get-help-feeding-their-children">How do low-income texans get help feeding their children?</a></h2>
+        <p>Programs link SNAP, Summer Meals and After-School Meals are widely underutilized, and could reach many more children than they do currently.
+</p>
+      </div>
+    
+  
+    
+  
+    
+      <div class="product teaser" data-type="factsheet" data-topic="food-insecurity snap ">
+        <span class="label">factsheet</span>
+        <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
+        <h2><a href="/blog/2013/08/house-farm-bill-who-will-lose-benefits-in-texas">Helping Texas Farmers and Hungry Texas Families</a></h2>
+        <p>An estimated 187,000 Texans currently receiving SNAP benefits could become ineligible as a result of nutrition title provisions in the House farm bill.
+</p>
+      </div>
+    
+  
+    
+      <div class="product teaser" data-type="factsheet" data-topic="food-insecurity ">
+        <span class="label">factsheet</span>
+        <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
+        <h2><a href="/blog/2013/08/helping-texas-farmers-and-families">Helping Texas Farmers and Hungry Texas Families</a></h2>
+        <p>Administered by TDA, the Texans Feeding Texans (Surplus Ag) grant helps the Texas food banks provide hungry families with more than 12 pounds of Texas-grown produce for every $1.
+</p>
+      </div>
+    
+  
+    
+  
+    
+  
+    
+      <div class="product teaser" data-type="factsheet" data-topic="food-insecurity snap ">
+        <span class="label">factsheet</span>
+        <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
+        <h2><a href="/blog/2013/08/categorical-eligibility">Is categorical eligibility to blame for the growth of SNAP rolls?</a></h2>
+        <p>Not if you compare the states that have it to the states that don't.
+</p>
+      </div>
+    
+  
+</div>
+    </div>
+  </div>
+
   <div class="crosslinks">
   	
     <div class="how-we-help">
@@ -299,19 +427,7 @@ Food insecurity is most prevalent in households containing children, disabled in
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/chosen/chosen.jquery.min.js"></script>
   <script src="/bower_components/flexslider/jquery.flexslider-min.js"></script>
-  <script>
-    $(document).ready(function(){
-    	$('.flexslider').flexslider();
-    	// Enable the chosen plugin on .chosen-select
-      $(".chosen-select").chosen({width: "80%"}).change(
-        function(){
-          if (this.selectedIndex!==0) {
-            window.location.href = this.value;
-          }  
-        }
-      );
-    });
-  </script>
+  <script src="/assets/js/app.js"></script>
 </body>
 </html>
 

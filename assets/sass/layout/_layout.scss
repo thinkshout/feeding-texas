@@ -2,7 +2,7 @@
 /* Layout */
 
 .wrap {
-  @include container(70em);
+  @include container(60em);
   padding: 0 1em;
 }
 
@@ -34,10 +34,6 @@
 }
 
 .main {
-  .wrap {
-    @include container(60em);
-  }
-
   // Section Introductions
   section,
   article {
@@ -45,11 +41,9 @@
     .left {
       @include breakpoint($bp-medium, $no-query: false) {
         @include span-columns(12);
-        padding: 0;
       }
       @include breakpoint($bp-large, $no-query: false) {
         @include span-columns(7,12);
-        padding: 0 3em;
       }
     }
     .right {
@@ -70,9 +64,6 @@
 }
 
 .content-bottom {
-	.wrap {
-    @include container(60em);
-  }
 	.main {
 		@include span-columns(7,12);
 		article {

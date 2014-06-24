@@ -28,19 +28,7 @@
   <script src="{{ site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="{{ site.baseurl}}/bower_components/chosen/chosen.jquery.min.js"></script>
   <script src="{{ site.baseurl}}/bower_components/flexslider/jquery.flexslider-min.js"></script>
-  <script>
-    $(document).ready(function(){
-    	$('.flexslider').flexslider();
-    	// Enable the chosen plugin on .chosen-select
-      $(".chosen-select").chosen({width: "80%"}).change(
-        function(){
-          if (this.selectedIndex!==0) {
-            window.location.href = this.value;
-          }  
-        }
-      );
-    });
-  </script>
+  <script src="{{ site.baseurl}}/assets/js/app.js"></script>
 </body>
 </html>
 

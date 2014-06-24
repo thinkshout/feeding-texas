@@ -1,0 +1,29 @@
+%item-list {
+	> div {
+		@include clearfix;
+		border: 1px solid #f1f1f1;
+		margin-bottom: 1em;
+		padding: 0.75em;
+		background: #FFF;
+
+		h2 {
+			font-weight: 300;
+			a {
+				text-decoration: none;
+        color: $drkBrown;
+        &:hover {
+        	color: $orange;
+        }
+			}
+		}
+	}
+}
+
+%horizontal-menu {
+	margin: 0;
+	padding: 0;
+	li {
+		display: inline-block;
+		list-style: none;
+	}
+}

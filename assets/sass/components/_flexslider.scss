@@ -1,3 +1,31 @@
 .flexslider {
-  @include box-shadow((0,0,0,0) 0 0 0);
+	background: transparent;
+	border: 0;
+  @include box-shadow(rgba(0,0,0,0) 0 0 0);
+
+  .flex-viewport {
+    background: transparent;
+    overflow: visible !important;
+    @include box-shadow(rgba(0,0,0,0) 0 0 0);
+  } 
+
+  ul.slides {
+
+  	li {
+  		width: 50%;
+  		margin: 0;
+  		img {
+  			width: 50%;
+  			float: left;
+  			margin-left: 50%;
+  		}
+      .flex-caption {
+  	  	display: block;
+  	  	width: 50%;
+  	  	margin-left: -100%;
+  	    float: left;
+  	    padding: 0 1em;
+  	  }
+  	}
+  }
 }

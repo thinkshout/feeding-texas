@@ -1,4 +1,8 @@
 header {
+	.wrap {
+	  @include container(70em);
+    padding: 0 1em;
+  }
   .brand {
   	@include breakpoint($bp-small, $no-query: true) {
       @include span-columns(6,12);

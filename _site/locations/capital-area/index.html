@@ -83,19 +83,7 @@ Austin, TX 78745
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/chosen/chosen.jquery.min.js"></script>
   <script src="/bower_components/flexslider/jquery.flexslider-min.js"></script>
-  <script>
-    $(document).ready(function(){
-    	$('.flexslider').flexslider();
-    	// Enable the chosen plugin on .chosen-select
-      $(".chosen-select").chosen({width: "80%"}).change(
-        function(){
-          if (this.selectedIndex!==0) {
-            window.location.href = this.value;
-          }  
-        }
-      );
-    });
-  </script>
+  <script src="/assets/js/app.js"></script>
 </body>
 </html>
 

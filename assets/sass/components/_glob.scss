@@ -30,54 +30,6 @@
 	}
 }
 
-.flexslider {
-	.slides {
-    img {
-			width: 75%; 
-			display: block;
-			@media screen and (max-width: 1200px) {
-				width: 60%;
-			}
-			@media screen and (max-width: 800px) {
-				width: 100%;
-			}
-		}
-
-		.flex-caption {
-			position: absolute;
-			z-index: 10;
-			background: #FFF;
-			padding: 1em; 
-			width: 25%;
-			top: 4em;
-			right: 0px;
-			margin-left: -325px;
-
-			@media screen and (max-width: 1200px) {
-				top: 2em;
-				width: 40%;
-			}
-
-			@media screen and (max-width: 800px) {
-				width: 100%;
-				left: 0;
-				margin-left: 0;
-				top: 1em;
-				position: relative;
-			}
-
-			h2 {
-				font-size: 1.75em;
-				font-weight: 300;
-				a {
-					&:hover {
-					}
-				} 
-			}
-		}
-	}
-}
-
 .donate {
 	background: #f1f1f1;
 	padding: 5em 0;

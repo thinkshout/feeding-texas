@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research
 title: Research
 subhead: Every Texas community is touched by the struggle to afford enough food.
 summary: |
