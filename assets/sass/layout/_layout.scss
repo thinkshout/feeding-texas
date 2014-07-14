@@ -6,6 +6,13 @@
   padding: 0 1em;
 }
 
+.the-latest {
+  .wrap {
+	  @include container(75em);
+    padding: 0 1em;
+  }
+}
+
 .highlighted {
 	max-width: $max-width;	
 	margin: 0 auto;

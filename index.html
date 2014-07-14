@@ -2,26 +2,68 @@
 layout: default
 title: Home
 ---
-
-<div class="highlighted">
+<div class="splash">
+	<div class="bg-img">
+		<img src="{{ site.baseurl }}/assets/images/home-placeholder.jpg">
+	</div>
+	<div class="leadin">
+		<h1>We provide a unified voice among food banks to maximize their ability to build a well nourished Texas</h1>
+		<div class="finder">
+		  <h3>What does hunger look like in your community? Get the figures</h3>
+		  <form>
+        <input id="first-name" placeholder="Zip Code" type="text"> 
+        <a id="submit" href="{{ site.baseurl }}/food-assistance/get-food-now/" class="button primary">Go</a>
+      </form>
+    </div>
+	</div>
+</div>
+<div class="the-latest">
 	<div class="wrap">
-    <div class="region-highlighted">
-      <div class="left">
-        <div class="p1">
-          <img src="http://placehold.it/775x600">
-        </div>
-      </div>
-      <div class="right">
-        <div class="p2">
-          <img src="http://placehold.it/450x200">
-        </div>
-        <div class="p3">
-          <img src="http://placehold.it/450x200">
-        </div>
-        <div class="p4">
-          <img src="http://placehold.it/450x200">
-        </div>
-      </div>
+    <div class="block-grid">
+    	<div class="item">
+        <section>
+        	<h2 class="section-header"><span>Press</span></h2>
+          {% for post in site.posts %}
+            {% if post.layout == "press" and post.featured == "true" limit:1 %}
+            <article>
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
+            </article>
+            {% endif %}
+          {% endfor %}
+          <a href="{{ site.baseurl }}/news/press/">View More</a>
+        </section>
+    	</div>
+     	<div class="item">	
+        <section>
+        	<h2 class="section-header"><span>Blog</span></h2>
+          {% for post in site.posts %}
+            {% if post.layout == "blog" and post.featured == "true" limit:1 %}
+            <article>
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
+              <p>{{ post.summary }}</p>
+            </article>
+            {% endif %}
+          {% endfor %}
+          <a href="{{ site.baseurl }}/news/press/">View More</a>
+        </section>     		
+    	</div>
+    	<div class="item">	
+        <section>
+        	<h2 class="section-header"><span>Report</span></h2>
+          {% for post in site.posts %}
+            {% if post.layout == "product" and post.promote_to_front == "true" limit:1 %}
+            <article>
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              <p>{{ post.summary }}</p>
+            </article>
+            {% endif %}
+          {% endfor %}
+          <a href="{{ site.baseurl }}/news/press/">View More</a>
+        </section>
+    	</div>
     </div>
   </div>
 </div>

@@ -86,6 +86,22 @@ layout: default
           {% endif %}
         {% endfor %}
       {% endif %}
+
+      {% if url_parts contains "communities" %}
+        {% for subpage in site.pages %}
+          {% if subpage.group == "communities" %}
+          <section>
+          	<div class="left">
+          		<img src="{{ site.baseurl }}/assets/images/{{ subpage.banner }}">
+          	</div>
+          	<div class="right">
+          		<h2><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a></h2>
+          		<p>{{ subpage.summary }}
+          	</div>            
+          </section>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
       
       <section class="featured-stories">
         <h2>The Voices of Hungry Texans</h2>

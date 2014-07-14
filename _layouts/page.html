@@ -40,6 +40,45 @@ layout: default
           </div>
         </div>
       </section>
+      {% assign url_parts = page.url %}
+
+      {% if url_parts contains "communities" %}
+        {% for subpage in site.pages %}
+          {% if subpage.group == "communities" %}
+          <section>
+          	<div class="left">
+          		<img src="{{ subpage.images.thumb }}">
+          	</div>
+          	<div class="right">
+          		<h2><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a></h2>
+          		<p>{{ subpage.summary }}
+              {% if !subpage.link.title %}
+                <a class="button secondary-btn"> href="{{ subpage.link.url }}">{{ subpage.link.title }}</a>
+              {% endif %}
+          	</div>            
+          </section>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if url_parts contains "programs" %}
+        {% for subpage in site.pages %}
+          {% if subpage.group == "program" %}
+          <section>
+          	<div class="left">
+          		<img src="{{ subpage.images.thumb }}">
+          	</div>
+          	<div class="right">
+          		<h2><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a></h2>
+          		<p>{{ subpage.summary }}
+              {% if !subpage.link.title %}
+                <a class="button secondary-btn"> href="{{ subpage.link.url }}">{{ subpage.link.title }}</a>
+              {% endif %}
+          	</div>            
+          </section>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
   </div>
   <div class="crosslinks">

@@ -1,5 +1,6 @@
 ---
 layout: program
+group: program
 title: "Advocacy"
 summary: |
   Some of the most important resources to fight hunger in Texas are public investments like SNAP (aka food stamps), school meals and summer meals for children. TFBN works with decision-makers at the state and federal levels to protect and improve these investments as part of our campaign to end hunger in Texas.
