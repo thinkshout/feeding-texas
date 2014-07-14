@@ -18,6 +18,7 @@ categories:
   - SNAP
   - Child Nutrition Programs
 featured: "true"
+promote_to_front: "true"
 ---
 This plate represents the total meals required to provide three meals per day, year round to every child living in a low income Texas household (below 185% of the poverty line). 
 

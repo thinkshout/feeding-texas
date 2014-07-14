@@ -17,7 +17,7 @@ title: Home
           </article>
           {% endif %}
         {% endfor %}
-        <a href="{{ site.baseurl }}/news/press/">View All Press</a>
+        <a href="{{ site.baseurl }}/news/press/">View All</a>
       </div>
     </section>
   </div>
@@ -41,6 +41,7 @@ title: Home
         {% endfor %}
       </ul>
     </div>
+    <a href="{{ site.baseurl }}/work/research.html">View All</a>
   </div>
 </div>
 
@@ -48,20 +49,22 @@ title: Home
   <div class="wrap">
   	<h2 class="section-header"><span>From The Blog</span></h2>
     <section class="main">
-    {% for post in site.posts %}
-      {% if post.layout == "blog" %}
-      <article>
-        <div class="hero">
-          <img src="http://placehold.it/450x200">
-        </div>
-        <div class="leadin">
-          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-          <p>{{ post.summary }}</p>
-          <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-        </div>
-      </article>
-      {% endif %}
-    {% endfor %}
+      {% for post in site.posts %}
+        {% if post.layout == "blog" %}
+        <article>
+          <div class="hero">
+            <img src="http://placehold.it/450x200">
+          </div>
+          <div class="leadin">
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <p>{{ post.summary }}</p>
+            <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+          </div>
+        </article>
+        {% endif %}
+      {% endfor %}
+      <a href="{{ site.baseurl }}/news/blog/">View All</a>
+      <br /><br /><br /><br />
     </section>
     <aside class="sidebar-second">
        <img src="http://placehold.it/450x200&text=Email Newsletter Signup" />

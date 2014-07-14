@@ -1,5 +1,6 @@
 ---
 layout: program
+group: program
 title: "Disaster Relief"
 summary: |
   TFBN is proud to maintain a formal partnership with  the Texas Division of Emergency Management and FEMA in responding to emergencies like hurricanes, tornadoes and wildfires.

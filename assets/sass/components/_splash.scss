@@ -1,0 +1,64 @@
+.splash {
+  position: relative;
+  margin: 0 auto;
+  min-height: 700px;
+  width: 100%;
+  height: 100%;
+
+  .bg-img {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+    
+  .leadin {
+    z-index: 1000;
+    margin: 0 auto;
+    padding: 0 1.25em;
+    width: 100%;
+    max-width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+    h1 {
+      padding: 0 0 0.2em;
+      color: #fff;
+      font-weight: 800;
+      font-size: 3.25em;
+      margin: 0 auto;
+      line-height: 1;
+    }
+
+    p {
+      color: #fff;
+      padding: 0 0 0.6em;
+      font-weight: 300;
+      font-size: 0.85em;
+      margin: 0 auto;
+
+      &.subline {
+        line-height: 1;
+        font-size: 1.75em;
+        color: #FFF;
+      }
+    }
+  }
+}
