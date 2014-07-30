@@ -36,7 +36,7 @@
 // Float Action Right
 .action {
 	ul {
-		li {    
+		li {
 
 		}
 	}
@@ -65,7 +65,7 @@
 	}
 }
 
-// Subnavigation 
+// Subnavigation
 .subnav {
 	text-align: center;
 	ul {
@@ -91,4 +91,13 @@
 			}
 		}
 	}
+}
+
+footer {
+  nav.primary,
+  nav.secondary {
+    ul li a {
+      color: $orange;
+    }
+  }
 }

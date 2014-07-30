@@ -51,10 +51,15 @@ layout: default
 
   <div class="crosslinks">
   	{% for cta in page.calls_to_action %}
-    <div class="how-we-help">
-      <h3>{{ cta.title }}</h3>
-      <a class="button primary" href="{{ cta.link.url }}">{{ cta.link.button_text }}</a>
-    </div>
+      <div class="cta">
+      	<div class="bg-img">
+      		<img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+      	</div>
+      	<div class="text">
+          <h3>{{ cta.title }}</h3>
+          <a class="button primary-btn" href="{{ cta.link.url }}">{{ cta.link.button_text }}</a>
+        </div>
+      </div>
     {% endfor %}
   </div>
 </div>  

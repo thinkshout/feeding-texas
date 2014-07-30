@@ -10,7 +10,7 @@ title: Home
       <div class="featured-press">
         {% for post in site.posts %}
           {% if post.layout == "press" and post.featured == "true" %}
-          <article>
+          <article class="teaser press">
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
@@ -67,8 +67,8 @@ title: Home
       <br /><br /><br /><br />
     </section>
     <aside class="sidebar-second">
-       <img src="http://placehold.it/450x200&text=Email Newsletter Signup" />
-        <img src="http://placehold.it/450x200&text=Twitter Widget" />
+      {% include widgets/email-signup.html %}
+      <img src="http://placehold.it/450x200&text=Twitter Widget" />
     </aside>
   </div>
 </div>  

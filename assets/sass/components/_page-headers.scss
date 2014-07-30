@@ -1,32 +1,51 @@
-/*
-
-Landing Page Headers
-============
+.highlighted {
+  background: $white;
+  padding-bottom: 1em;
+	.wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
   
-  Landing page header styling
-
-    <div class="page-header">
-      <h1 class="page-title">Hunger In Texas</h1>
-      <h3>Every Texas community is touched by the struggle to afford enough food.</h3>
-    </div>
-
-*/
-
-.page-header {
-  position: absolute;
-  top: 3em;
-  left: 50%;
-  margin-left: -12em;
-  padding: 3.5em 1em 0;
-  width: 24em;
-  height: 24em;
-  display: block;
-  background: rgba(233,121,0,0.65);
-  @include border-radius(50%);
-  text-align: center;
-  color: #FFF;
+    .bg-img {
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
   
-  h1.page-title {
-    color: $white;
-  } 
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        min-width: 100%;
+        min-height: 100%;
+      }
+    }
+  
+    .page-header {
+      position: absolute;
+      top: 3em;
+      left: 50%;
+      margin-left: -12em;
+      padding: 3.5em 1em 0;
+      width: 24em;
+      height: 24em;
+      display: block;
+      background: rgba(233,121,0,0.65);
+      @include border-radius(50%);
+      text-align: center;
+      color: #FFF;
+      
+      h1.page-title {
+        color: $white;
+      } 
+    }
+  }
 }
+

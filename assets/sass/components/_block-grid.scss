@@ -1,13 +1,25 @@
 .block-grid {
-	> div.item {
-		padding: 1em;
-		@include breakpoint($bp-medium, $no-query: false) {
-      width: percentage(12/12);
-    }
-    @include breakpoint($bp-large, $no-query: false) {
-      float: left;
-      width: percentage(4/12);
-      &:nth-child(3n) { @include omega; }
-    }
-	}
+	@include clearfix;
+	display: table;
+	.container {
+		display: table-row;
+	  > div.item {
+		  display: table-cell;
+		  vertical-align: top;
+		  padding: 1em;
+		  border-right: 1px solid #d2d2d2;
+
+			&:last-child {
+				border-right: 0;
+			}
+
+			@include breakpoint($bp-medium, $no-query: false) {
+        width: percentage(12/12);
+      }
+
+			@include breakpoint($bp-large, $no-query: false) {
+        width: percentage(4/12);
+      }
+	  }
+  }
 }

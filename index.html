@@ -12,7 +12,7 @@ title: Home
 		  <h3>What does hunger look like in your community? Get the figures</h3>
 		  <form>
         <input id="first-name" placeholder="Zip Code" type="text"> 
-        <a id="submit" href="{{ site.baseurl }}/food-assistance/get-food-now/" class="button primary">Go</a>
+        <a id="submit" href="{{ site.baseurl }}/county-detail.html" class="button primary">Go</a>
       </form>
     </div>
 	</div>
@@ -20,49 +20,51 @@ title: Home
 <div class="the-latest">
 	<div class="wrap">
     <div class="block-grid">
-    	<div class="item">
-        <section>
-        	<h2 class="section-header"><span>Press</span></h2>
-          {% for post in site.posts %}
-            {% if post.layout == "press" and post.featured == "true" limit:1 %}
-            <article>
-              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-              <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
-            </article>
-            {% endif %}
-          {% endfor %}
-          <a href="{{ site.baseurl }}/news/press/">View More</a>
-        </section>
-    	</div>
-     	<div class="item">	
-        <section>
-        	<h2 class="section-header"><span>Blog</span></h2>
-          {% for post in site.posts %}
-            {% if post.layout == "blog" and post.featured == "true" limit:1 %}
-            <article>
-              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-              <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
-              <p>{{ post.summary }}</p>
-            </article>
-            {% endif %}
-          {% endfor %}
-          <a href="{{ site.baseurl }}/news/press/">View More</a>
-        </section>     		
-    	</div>
-    	<div class="item">	
-        <section>
-        	<h2 class="section-header"><span>Report</span></h2>
-          {% for post in site.posts %}
-            {% if post.layout == "product" and post.promote_to_front == "true" limit:1 %}
-            <article>
-              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-              <p>{{ post.summary }}</p>
-            </article>
-            {% endif %}
-          {% endfor %}
-          <a href="{{ site.baseurl }}/news/press/">View More</a>
-        </section>
+    	<div class="container">
+    	  <div class="item">
+          <section>
+          	<h2 class="section-header"><span>Press</span></h2>
+            {% for post in site.posts %}
+              {% if post.layout == "press" and post.featured == "true" limit:1 %}
+              <article>
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
+              </article>
+              {% endif %}
+            {% endfor %}
+            <a href="{{ site.baseurl }}/news/press/">View More</a>
+          </section>
+    	  </div>
+     	  <div class="item">	
+          <section>
+          	<h2 class="section-header"><span>Blog</span></h2>
+            {% for post in site.posts %}
+              {% if post.layout == "blog" and post.featured == "true" limit:1 %}
+              <article>
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
+                <p>{{ post.summary }}</p>
+              </article>
+              {% endif %}
+            {% endfor %}
+            <a href="{{ site.baseurl }}/news/blog/">View More</a>
+          </section>     		
+    	  </div>
+    	  <div class="item">	
+          <section>
+          	<h2 class="section-header"><span>Report</span></h2>
+            {% for post in site.posts %}
+              {% if post.layout == "product" and post.promote_to_front == "true" limit:1 %}
+              <article>
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                <p>{{ post.summary }}</p>
+              </article>
+              {% endif %}
+            {% endfor %}
+            <a href="{{ site.baseurl }}/learn/research.html">View More</a>
+          </section>
+    	  </div>
     	</div>
     </div>
   </div>

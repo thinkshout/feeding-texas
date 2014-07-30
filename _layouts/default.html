@@ -7,7 +7,7 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width">
 
-  <!-- Foundation 
+  <!-- Foundation
   <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/app.css" />
   -->
   <!-- Chosen -->
@@ -20,15 +20,18 @@
   <script src="{{ site.baseurl}}/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
-  
+
   {% include global/header.html %}
 
   {{ content }}
+
+  {% include global/footer.html %}
   
   <script src="{{ site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="{{ site.baseurl}}/bower_components/chosen/chosen.jquery.min.js"></script>
   <script src="{{ site.baseurl}}/bower_components/flexslider/jquery.flexslider-min.js"></script>
   <script src="{{ site.baseurl}}/assets/js/app.js"></script>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </body>
 </html>
-

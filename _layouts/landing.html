@@ -3,20 +3,22 @@ layout: default
 ---
 <div class="landing">
   <div class="highlighted">
-    <img class="hero" src="{{ site.baseurl }}/assets/images/{{ page.banner }}">
-    <div class="page-header">
-    	<h1 class="page-title">{{ page.title }}</h1>
-    	<h3>{{ page.subhead }}</h3>
-    	<a class="button primary-cta" href="#">PRIMARY CTA</a>
+  	<div class="wrap">
+      <div class="bg-img">
+        <img src="{{ site.baseurl }}/assets/images/{{ page.banner }}">
+      </div>
+      <div class="page-header">
+      	<h1 class="page-title">{{ page.title }}</h1>
+      	<h3>{{ page.subhead }}</h3>
+      	<a class="button primary-cta" href="#">PRIMARY CTA</a>
+      </div>
     </div>
   </div>
   <div class="main">
     <div class="wrap">
       <section class="section intro">
         <div class="left">
-          <h2>{{ page.intro.title }}</h2>
-          {{ page.intro.text | markdownify }}
-          <a href="{{ page.intro.link.url }}">{{ page.intro.link.title }}</a>
+          {{ page.intro }}
         </div>
         <div class="right">
         	<div class="featured-block">
@@ -103,25 +105,19 @@ layout: default
         {% endfor %}
       {% endif %}
       
-      <section class="featured-stories">
-        <h2>The Voices of Hungry Texans</h2>
-        {% for link in site.data.stories %}
-          <div class="story">
-            <div class="pull-quote">{{ link.pullquote }}</div>
-            <div class="byline">
-              <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-            </div>
-          </div>
-        {% endfor %}
-      </section>
     </div>
   </div>
   <div class="crosslinks">
   	{% for cta in page.calls_to_action %}
-    <div class="how-we-help">
-      <h3>{{ cta.title }}</h3>
-      <a class="button primary-btn" href="{{ cta.link.url }}">{{ cta.link.button_text }}</a>
-    </div>
+      <div class="cta">
+      	<div class="bg-img">
+      		<img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+      	</div>
+      	<div class="text">
+          <h3>{{ cta.title }}</h3>
+          <a class="button primary-btn" href="{{ cta.link.url }}">{{ cta.link.button_text }}</a>
+        </div>
+      </div>
     {% endfor %}
   </div>
 </div>  

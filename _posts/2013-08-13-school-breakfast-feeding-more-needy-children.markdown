@@ -1,6 +1,9 @@
 ---
 layout: press
 title:  "Report: School Breakfast Feeding More Needy Texas Children"
+pullquote: "Texas has done a good job making this program available, but students clearly still face barriers and stigma in order to eat breakfast before the first bell."
+attribution: Celia Cole
+tweet: "...students clearly still face barriers and stigma in order to eat breakfast before the first bell."
 date:   2013-08-16 11:50:37
 categories: 
 ---

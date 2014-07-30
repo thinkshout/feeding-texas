@@ -50,7 +50,7 @@
 // Transition mixin
 // Apply to elements that have hover states
 @mixin default-transition {
-  @include transition(all 0.3s ease-in-out);
+  @include transition(all 0.2s ease-in-out);
 }
 
 // Primary Button

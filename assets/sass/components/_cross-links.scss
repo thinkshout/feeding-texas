@@ -1,0 +1,60 @@
+.crosslinks {
+  @include clearfix;
+  .cta {
+  	position: relative;
+    @include box-sizing(border-box);
+    width: 50%;
+    display: block;
+    float: left;
+    background: $drkBrown;
+    height: 250px;
+
+    .bg-img {
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+  
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        min-width: 100%;
+        @include default-transition;
+        @include opacity(0.4);
+      }
+    }
+      
+    .text {
+      z-index: 1000;
+      margin: 0 auto;
+      padding: 2em 3em 0;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      h3 {
+      	color: $white;
+      	font-size: 1.6em;
+      	@include text-shadow(rgba(0,0,0,0.4) 0 3px 6px);
+      }
+    }
+
+
+    // Hover Transitions
+    &:hover {
+      .bg-img {
+      	img {
+      		@include opacity(0.75);
+      	}
+      }
+    }
+  }
+}

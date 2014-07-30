@@ -14,34 +14,14 @@
 }
 
 .highlighted {
-	max-width: $max-width;	
-	margin: 0 auto;
-	@include clearfix;
-  .left {
-    @include breakpoint($bp-medium, $no-query: false) {
-      width: percentage(12/12);
-    }
-    @include breakpoint($bp-large, $no-query: false) {
-      float: left;
-      width: percentage(7/12);
-    }
+	.wrap {
+		@include container(90em);
+	  @include clearfix;
   }
-  .right {
-    @include breakpoint($bp-medium, $no-query: false) {
-      width: percentage(12/12);
-    }
-    @include breakpoint($bp-large, $no-query: false) {
-      width: percentage(5/12);
-      @include omega;
-    }
-  }
-}
-
-.banner {
 }
 
 .main {
-  // Section Introductions
+  margin-top: 1em;
   section,
   article {
     @include clearfix();
@@ -62,11 +42,6 @@
         @include omega;
       }
     }
-  }
-  .content {
-    @include container(48em);
-    @include box-sizing(border-box);
-    position: relative;
   }
 }
 
@@ -95,11 +70,3 @@ footer {
   clear: both;
 }
 
-
-.donate {
-  width: 100%;
-  .cta {
-    @include container(40em);
-    text-align: center;
-  }
-}

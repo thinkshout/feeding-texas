@@ -8,13 +8,14 @@ title: Press
     	<h1 class="page-title">Press Releases</h1>
       {% for post in site.posts %}
         {% if post.layout == "press" %}
-          <article>
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ post.summary }}</p>
-            <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-          </article> 
+        <article class="teaser press">
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.url }}" data-via="{{ site.twitter_handle }}" data-lang="en" data-text="{{ post.tweet }}">Tweet</a>
+        </article>
         {% endif %}
-      {% endfor %} 
+      {% endfor %}
     </section>
   </div>
 </div>

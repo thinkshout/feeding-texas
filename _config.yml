@@ -2,12 +2,14 @@ name: Feeding Texas
 description: 
 markdown: redcarpet
 highlighter: pygments
-# redcarpet:
-#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 baseurl: /feeding-texas
 port: 4003
 # url: 
+
+twitter_handle: TexansVsHunger
 
 # Permalink Configuration
 permalink: /blog/:year/:month/:title

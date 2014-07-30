@@ -5,9 +5,9 @@ title: Blog
 <div class="basic wrap">
   <div class="main">
     <section class="content">
-    	<h1 class="page-title">Press Releases</h1>
+    	<h1 class="page-title">Blog</h1>
       {% for post in site.posts %}
-        {% if post.layout == "press" %}
+        {% if post.layout == "blog" %}
           <article>
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>{{ post.summary }}</p>
