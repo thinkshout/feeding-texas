@@ -1,0 +1,37 @@
+---
+collection: counties
+layout: county
+averageBenefitperMeal: $1.18
+childFoodInsecurityRate: 27.7%
+costOfFoodIndex: 1.043
+county: bandera
+foodBank: San Antonio Food Bank
+foodInsecureChildren: 1,100
+householdIncomeWithEarnedIncome: 0.407563025
+incomeEligible0To17: 642
+incomeEligible18To64: 844
+incomeEligible65Plus: 224
+incomeEligibleButNotReceiving0To17: 226
+incomeEligibleButNotReceiving18To64: 367
+incomeEligibleButNotReceiving65Plus: 151
+individualFoodInsecurityRate: 15.8%
+recipientEthnicityHispanic: 0.307692308
+recipientEthnicityNonHispanic: 0.639316239
+recipientEthnicityUnknownMissing: 0.052991453
+recipientRaceAsian: 0.005128205
+recipientRaceBlack: 0.006837607
+recipientRaceMultiRace: 0.001709402
+recipientRaceNativeAmerican: 0.005982906
+recipientRacePacificIslander: 0
+recipientRaceUnknownMissing: 0.260683761
+recipientRaceWhite: 0.720512821
+recipients0To17: 416
+recipients18To64: 477
+recipients65Plus: 73
+totalIncomeEligibleButNotReceiving: 744
+totalIncomeEligibleIndividuals: 1710
+totalSnapRecipients: 966
+website: www.safoodbank.org
+weightedCostPerMeal: $2.86
+zip: 78003
+---

@@ -1,0 +1,37 @@
+---
+collection: counties
+layout: county
+averageBenefitperMeal: $1.17
+childFoodInsecurityRate: 24.7%
+costOfFoodIndex: 0.852
+county: bastrop
+foodBank: Capital Area Food Bank
+foodInsecureChildren: 4,760
+householdIncomeWithEarnedIncome: 0.43845535
+incomeEligible0To17: 1566
+incomeEligible18To64: 2306
+incomeEligible65Plus: 558
+incomeEligibleButNotReceiving0To17: 134
+incomeEligibleButNotReceiving18To64: 1109
+incomeEligibleButNotReceiving65Plus: 396
+individualFoodInsecurityRate: 15.1%
+recipientEthnicityHispanic: 0.393598616
+recipientEthnicityNonHispanic: 0.517589389
+recipientEthnicityUnknownMissing: 0.089100346
+recipientRaceAsian: 0.006055363
+recipientRaceBlack: 0.124855825
+recipientRaceMultiRace: 0.001153403
+recipientRaceNativeAmerican: 0.005767013
+recipientRacePacificIslander: 0.000576701
+recipientRaceUnknownMissing: 0.293252595
+recipientRaceWhite: 0.568627451
+recipients0To17: 1432
+recipients18To64: 1197
+recipients65Plus: 162
+totalIncomeEligibleButNotReceiving: 1639
+totalIncomeEligibleIndividuals: 4431
+totalSnapRecipients: 2791
+website: www.austinfoodbank.org
+weightedCostPerMeal: $2.33
+zip: 78602
+---

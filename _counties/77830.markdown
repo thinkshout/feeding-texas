@@ -1,0 +1,37 @@
+---
+collection: counties
+layout: county
+averageBenefitperMeal: $1.09
+childFoodInsecurityRate: 26.1%
+costOfFoodIndex: 0.943
+county: anderson
+foodBank: East Texas Food Bank
+foodInsecureChildren: 2,990
+householdIncomeWithEarnedIncome: 0.35443038
+incomeEligible0To17: 60
+incomeEligible18To64: 331
+incomeEligible65Plus: 86
+incomeEligibleButNotReceiving0To17: 0
+incomeEligibleButNotReceiving18To64: 261
+incomeEligibleButNotReceiving65Plus: 64
+individualFoodInsecurityRate: 19.9%
+recipientEthnicityHispanic: 0.104477612
+recipientEthnicityNonHispanic: 0.76119403
+recipientEthnicityUnknownMissing: 0.134328358
+recipientRaceAsian: 0.004975124
+recipientRaceBlack: 0.253731343
+recipientRaceMultiRace: 0
+recipientRaceNativeAmerican: 0
+recipientRacePacificIslander: 0
+recipientRaceUnknownMissing: 0.208955224
+recipientRaceWhite: 0.532338308
+recipients0To17: 80
+recipients18To64: 70
+recipients65Plus: 22
+totalIncomeEligibleButNotReceiving: 325
+totalIncomeEligibleIndividuals: 477
+totalSnapRecipients: 172
+website: www.easttexasfoodbank.org
+weightedCostPerMeal: $2.58
+zip: 77830
+---
