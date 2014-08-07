@@ -49,7 +49,7 @@ def build_zip_var():
     # loop over all rows in csv file
     for row in csvreader:
       # use 'zip' as key and grab and set 'county' to its own dict
-      zip_county[row[3].strip()] = {'county': row[2].lower().strip()}
+      zip_county[row[3].strip()] = {'county': row[2].lower().strip(), 'zip': row[3].strip()}
   return zip_county
 
 def add_overview(zip_var):
@@ -119,7 +119,7 @@ def add_eligibility(zip_var):
       # include entries for all zips there are data for
       if not(row[2].strip() in zip_var):
         # missing_zips.append((row[2], row[0]))
-        zip_var[row[2].strip()] = {'county': row[0].lower().strip()}  
+        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip()}
       zip_var[row[2]]['totalSnapRecipients'] = row[6].strip()
       zip_var[row[2]]['averageBenefitperMeal'] = row[8].strip()
       zip_var[row[2]]['totalIncomeEligibleIndividuals'] = row[12].strip()
@@ -145,7 +145,7 @@ def add_demographics(zip_var):
       # include entries for all zips there are data for
       if not(row[2].strip() in zip_var):
         # missing_zips.append((row[2], row[0]))
-        zip_var[row[2].strip()] = {'county': row[0].lower().strip()}  
+        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip()}
       zip_var[row[2]]['recipients0To17'] = row[7].strip()
       zip_var[row[2]]['recipients18To64'] = row[8].strip()
       zip_var[row[2]]['recipients65Plus'] = row[9].strip()
