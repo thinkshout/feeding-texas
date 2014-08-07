@@ -36,5 +36,5 @@ weightedCostPerMeal: $2.58
 zip: 77830
 location:
   latitude: 30.2500
-  longitude: 97.7500
+  longitude: -97.7500
 ---
