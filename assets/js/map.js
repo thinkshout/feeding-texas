@@ -26,6 +26,26 @@ $(document).ready ( function() {
         url: $(this).find(".description a").attr('href')
       });
 
+      // insert static polygon as test
+      var zipOutline = [
+        new google.maps.LatLng(-96.821879,32.954402),
+        new google.maps.LatLng(-96.828477,32.947254),
+        new google.maps.LatLng(-96.855971,32.933507),
+        new google.maps.LatLng(-96.855971,32.953302),
+        new google.maps.LatLng(-96.838925,32.987394),
+        new google.maps.LatLng(-96.828477,32.987394),
+        new google.maps.LatLng(-96.821879,32.954402)
+      ];
+      // Construct the polygon.
+      var zipOutline = new google.maps.Polygon({
+          paths: zipCoords,
+          strokeColor: '#FF0000',
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: '#FF0000',
+          fillOpacity: 0.35
+      });
+
       // if the map point has HTML, turn it into an info window
       var infowindow = new google.maps.InfoWindow({
         content: $(this).html()
