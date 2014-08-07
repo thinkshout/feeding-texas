@@ -35,6 +35,6 @@ website: www.easttexasfoodbank.org
 weightedCostPerMeal: $2.58
 zip: 77830
 location:
-  latitude: 30.2500
-  longitude: -97.7500
+  latitude: 30.5465
+  longitude: -96.0101
 ---

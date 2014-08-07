@@ -27,14 +27,14 @@ $(document).ready ( function() {
       });
 
       // insert static polygon as test
-      var zipOutline = [
-        new google.maps.LatLng(-96.821879,32.954402),
-        new google.maps.LatLng(-96.828477,32.947254),
-        new google.maps.LatLng(-96.855971,32.933507),
-        new google.maps.LatLng(-96.855971,32.953302),
-        new google.maps.LatLng(-96.838925,32.987394),
-        new google.maps.LatLng(-96.828477,32.987394),
-        new google.maps.LatLng(-96.821879,32.954402)
+      var zipCoords = [
+        new google.maps.LatLng(30.492634,-95.816716),
+        new google.maps.LatLng(30.481637,-96.13729),
+        new google.maps.LatLng(30.607557,-96.18183),
+        new google.maps.LatLng(30.665293,-95.972879),
+        new google.maps.LatLng(30.626252,-95.904695),
+        new google.maps.LatLng(30.503081,-95.817816),
+        new google.maps.LatLng(30.492634,-95.816716)
       ];
       // Construct the polygon.
       var zipOutline = new google.maps.Polygon({
@@ -45,6 +45,7 @@ $(document).ready ( function() {
           fillColor: '#FF0000',
           fillOpacity: 0.35
       });
+      zipOutline.setMap(map);
 
       // if the map point has HTML, turn it into an info window
       var infowindow = new google.maps.InfoWindow({
