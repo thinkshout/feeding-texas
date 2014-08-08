@@ -1,0 +1,55 @@
+---
+collection: counties
+layout: county
+averageBenefitperMeal: $1.29
+childFoodInsecurityRate: 23.4%
+costOfFoodIndex: 1.023
+county: galveston
+foodBank: Galveston County Food Bank
+foodInsecureChildren: 17,370
+householdIncomeWithEarnedIncome: 0.419076611
+incomeEligible0To17: 2708
+incomeEligible18To64: 5305
+incomeEligible65Plus: 865
+incomeEligibleButNotReceiving0To17: 767
+incomeEligibleButNotReceiving18To64: 3546
+incomeEligibleButNotReceiving65Plus: 566
+individualFoodInsecurityRate: 17.6%
+latitude: 29.3101
+longitude: -94.7777
+polygonCoords:
+  - coordSet:
+    latitude: 29.275772
+    longitude: -94.810454
+  - coordSet:
+    latitude: 29.298316
+    longitude: -94.821451
+  - coordSet:
+    latitude: 29.308214
+    longitude: -94.808804
+  - coordSet:
+    latitude: 29.331858
+    longitude: -94.723025
+  - coordSet:
+    latitude: 29.275772
+    longitude: -94.810454
+recipientEthnicityHispanic: 0.323435163
+recipientEthnicityNonHispanic: 0.614825892
+recipientEthnicityUnknownMissing: 0.061738945
+recipientRaceAsian: 0.001495407
+recipientRaceBlack: 0.413159581
+recipientRaceMultiRace: 0.001495407
+recipientRaceNativeAmerican: 0.002777184
+recipientRacePacificIslander: 0.000854518
+recipientRaceUnknownMissing: 0.203802606
+recipientRaceWhite: 0.376628925
+recipients0To17: 1941
+recipients18To64: 1759
+recipients65Plus: 299
+totalIncomeEligibleButNotReceiving: 4879
+totalIncomeEligibleIndividuals: 8878
+totalSnapRecipients: 3999
+website: www.galvestoncountyfoodbank.org
+weightedCostPerMeal: $2.80
+zip: 77550
+---

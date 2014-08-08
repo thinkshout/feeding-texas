@@ -15,6 +15,30 @@ incomeEligibleButNotReceiving0To17: 0
 incomeEligibleButNotReceiving18To64: 261
 incomeEligibleButNotReceiving65Plus: 64
 individualFoodInsecurityRate: 19.9%
+latitude: 30.5465
+longitude: -96.0101
+polygonCoords:
+  - coordSet:
+    latitude: 30.492634
+    longitude: -95.816716
+  - coordSet:
+    latitude: 30.481637
+    longitude: -96.13729
+  - coordSet:
+    latitude: 30.607557
+    longitude: -96.18183
+  - coordSet:
+    latitude: 30.665293
+    longitude: -95.972879
+  - coordSet:
+    latitude: 30.626252
+    longitude: -95.904695
+  - coordSet:
+    latitude: 30.503081
+    longitude: -95.817816
+  - coordSet:
+    latitude: 30.492634
+    longitude: -95.816716
 recipientEthnicityHispanic: 0.104477612
 recipientEthnicityNonHispanic: 0.76119403
 recipientEthnicityUnknownMissing: 0.134328358
@@ -34,8 +58,4 @@ totalSnapRecipients: 172
 website: www.easttexasfoodbank.org
 weightedCostPerMeal: $2.58
 zip: 77830
-latitude: 30.2704
-longitude: -97.7423
-polygonCoords:
- - 
 ---

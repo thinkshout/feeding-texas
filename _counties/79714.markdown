@@ -15,6 +15,39 @@ incomeEligibleButNotReceiving0To17: 664
 incomeEligibleButNotReceiving18To64: 763
 incomeEligibleButNotReceiving65Plus: 389
 individualFoodInsecurityRate: 11.7%
+latitude: 32.3047
+longitude: -102.638
+polygonCoords:
+  - coordSet:
+    latitude: 32.086707
+    longitude: -102.287037
+  - coordSet:
+    latitude: 32.087257
+    longitude: -102.502586
+  - coordSet:
+    latitude: 32.085607
+    longitude: -102.798966
+  - coordSet:
+    latitude: 32.087257
+    longitude: -103.064553
+  - coordSet:
+    latitude: 32.334699
+    longitude: -103.064553
+  - coordSet:
+    latitude: 32.522204
+    longitude: -103.064553
+  - coordSet:
+    latitude: 32.523304
+    longitude: -102.211155
+  - coordSet:
+    latitude: 32.323701
+    longitude: -102.211155
+  - coordSet:
+    latitude: 32.086707
+    longitude: -102.211155
+  - coordSet:
+    latitude: 32.086707
+    longitude: -102.287037
 recipientEthnicityHispanic: 0.67689295
 recipientEthnicityNonHispanic: 0.26305483
 recipientEthnicityUnknownMissing: 0.060052219
