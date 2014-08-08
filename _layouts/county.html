@@ -7,12 +7,20 @@ layout: default
       <div class="bg-img">
         <div id="map">
           <script type="text/javascript">
-            var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-i87786ca/{z}/{x}/{y}.png', {
-    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
-});
-            var map = L.map('map')
-              .addLayer(mapboxTiles)
-              .setView([{{ page.mapping.latitude }}, {{ page.mapping.longitude }}], 13);
+            var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-i87786ca/{z}/{x}/{y}.png', {attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'});
+            var map = L.map('map').addLayer(mapboxTiles);
+
+            {% if page.polygonCoords %}
+              var polygon = L.polygon([
+                {% for coordSet in page.polygonCoords %}
+                  [{{ coordSet.latitude }}, {{ coordSet.longitude }}],
+                {% endfor %}
+                ]).addTo(map);
+              // zoom the map to the polyline
+              map.fitBounds(polygon.getBounds());
+            {% else %}
+              map.setView([{{ page.latitude }}, {{ page.longitude }}], 13)
+            {% endif %}
           </script>
         </div>
       </div>
