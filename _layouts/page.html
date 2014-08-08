@@ -22,47 +22,58 @@ layout: default
         </ul>
       </div>
       <section class="content">
+        <!-- Main page content -->
         {{ content }}
       </section>
-      {% assign url_parts = page.url %}
+      <!-- Page type specific content -->
+      {% if page.type %}
+      <div class="page-type-content">
+        {% if page.type == "communities" %}
+          {% for subpage in site.pages %}
+            {% if subpage.group == "communities" %}
+            <section>
+            	<div class="left">
+            		<img src="{{ subpage.images.thumb }}">
+            	</div>
+            	<div class="right">
+            		<h2><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a></h2>
+            		<p>{{ subpage.summary }}
+                {% if !subpage.link.title %}
+                  <a class="button secondary-btn"> href="{{ subpage.link.url }}">{{ subpage.link.title }}</a>
+                {% endif %}
+            	</div>            
+            </section>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
 
-      {% if url_parts contains "communities" %}
-        {% for subpage in site.pages %}
-          {% if subpage.group == "communities" %}
-          <section>
-          	<div class="left">
-          		<img src="{{ subpage.images.thumb }}">
-          	</div>
-          	<div class="right">
-          		<h2><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a></h2>
-          		<p>{{ subpage.summary }}
-              {% if !subpage.link.title %}
-                <a class="button secondary-btn"> href="{{ subpage.link.url }}">{{ subpage.link.title }}</a>
-              {% endif %}
-          	</div>            
-          </section>
-          {% endif %}
-        {% endfor %}
-      {% endif %}
+        {% if page.type == "programs" %}
+          {% for subpage in site.pages %}
+            {% if subpage.group == "program" %}
+            <section>
+            	<div class="left">
+            		<img src="{{ subpage.images.thumb }}">
+            	</div>
+            	<div class="right">
+            		<h2><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a></h2>
+            		<p>{{ subpage.summary }}
+                {% if !subpage.link.title %}
+                  <a class="button secondary-btn"> href="{{ subpage.link.url }}">{{ subpage.link.title }}</a>
+                {% endif %}
+            	</div>            
+            </section>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
 
-      {% if url_parts contains "programs" %}
-        {% for subpage in site.pages %}
-          {% if subpage.group == "program" %}
-          <section>
-          	<div class="left">
-          		<img src="{{ subpage.images.thumb }}">
-          	</div>
-          	<div class="right">
-          		<h2><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a></h2>
-          		<p>{{ subpage.summary }}
-              {% if !subpage.link.title %}
-                <a class="button secondary-btn"> href="{{ subpage.link.url }}">{{ subpage.link.title }}</a>
-              {% endif %}
-          	</div>            
-          </section>
-          {% endif %}
-        {% endfor %}
+        {% if page.type == "jobs" %}
+          {% for job in site.jobs %}
+            <h2>{{ job.title }}</a></h2>
+            <p>{{ job.content }}</p>
+          {% endfor %}
+        {% endif %}
       {% endif %}
+      </div>
     </div>
   </div>
   <div class="crosslinks">
