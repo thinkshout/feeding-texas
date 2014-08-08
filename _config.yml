@@ -84,9 +84,15 @@ prose:
     _calls-to-action:
       - name: "id"
         field:
-          element: "number"
+          element: "text"
           label: "Unique ID"
-          type: "number"
+      - name: "link"
+        field: "button_text"
+          element: "text"
+          label: "Button Text"
+        field: "url"
+          element: "text"
+          label: "URL"
       - name: "image"
         field:
           element: "text"
