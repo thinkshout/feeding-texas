@@ -76,8 +76,10 @@ prose:
     - Rakefile
     - README.md
   metadata:
-    _calls-to-action:
-      - name: "image"
+    _jobs:
+      - name: "title"
         field:
           element: "text"
-          label: "Image URL"
+          label: "Title"
+
+
