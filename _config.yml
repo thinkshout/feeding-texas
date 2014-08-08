@@ -77,6 +77,10 @@ prose:
     - README.md
   metadata:
     _jobs:
+      - name: 'collection'
+        field:
+          element: 'hidden'
+          value: 'jobs'
       - name: "title"
         field:
           element: "text"
