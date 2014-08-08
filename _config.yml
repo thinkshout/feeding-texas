@@ -75,4 +75,15 @@ prose:
     - package.json
     - Rakefile
     - README.md
-
+  metadata:
+    _calls-to-action:
+      - name: "id"
+        field:
+          element:"number"
+          label: "ID"
+          help: "Unique ID number for call to action."
+          type: "number"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL"
