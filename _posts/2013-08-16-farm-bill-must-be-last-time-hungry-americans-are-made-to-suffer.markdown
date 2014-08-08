@@ -7,8 +7,8 @@ images:
 date: 
   - 2013-08-16T11:50:37.000Z
   - "Fri Aug 16 2013 04:50:37 GMT-0700 (PDT)"
-summary: |
-  When Congress passed a farm bill, they included a provision that will sharply reduce SNAP (aka food stamps) benefits for 850,000 households in sixteen states over the next decade.
+  - "Fri Aug 16 2013 04:50:37 GMT-0700 (PDT),Fri Aug 16 2013 04:50:37 GMT-0700 (PDT)"
+summary: null
 author: Celia Cole
 categories: null
 published: true
