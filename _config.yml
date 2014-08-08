@@ -33,13 +33,15 @@ collections:
   counties:
     output: true
     permalink: /zip/:path/
+  staff:
+    output: true
+    permalink: /staff/:path/
   constituent-stories:
     output: false
   jobs:
     output: false
-  staff:
-    output: true
-    permalink: /staff/:path/
+  calls-to-action:
+    output: false
 
 # Settings for sitemap_generator plugin.
 # sitemap:
