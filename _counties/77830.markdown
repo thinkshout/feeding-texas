@@ -58,4 +58,5 @@ totalSnapRecipients: 172
 website: www.easttexasfoodbank.org
 weightedCostPerMeal: $2.58
 zip: 77830
+constituent-story: 1
 ---

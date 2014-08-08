@@ -33,6 +33,8 @@ collections:
   counties:
     output: true
     permalink: /zip/:path/
+  constituent-stories:
+    output: false
 
 # Settings for sitemap_generator plugin.
 # sitemap:
