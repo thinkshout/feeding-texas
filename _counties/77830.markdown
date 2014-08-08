@@ -34,4 +34,8 @@ totalSnapRecipients: 172
 website: www.easttexasfoodbank.org
 weightedCostPerMeal: $2.58
 zip: 77830
+latitude: 30.2704
+longitude: -97.7423
+polygonCoords:
+ - 
 ---
