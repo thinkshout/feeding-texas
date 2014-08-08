@@ -58,6 +58,23 @@ prose:
   # rooturl: "blog/_posts"
   siteurl: "http://thinkshout.github.io/feeding-texas/"
   media: "assets/images/blog"
+  ignore:
+    - .idea
+    - /_includes
+    - /_layouts
+    - /_plugins
+    - /_site
+    - bower_components
+    - .gitignore
+    - _config.yml
+    - bower.json
+    - Gemfile
+    - Gemfile.lock
+    - Gruntfile
+    - index.html
+    - package.json
+    - Rakefile
+    - README.md
   metadata:
     _posts:
       - name: "layout"
