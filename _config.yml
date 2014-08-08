@@ -70,7 +70,7 @@ prose:
     - bower.json
     - Gemfile
     - Gemfile.lock
-    - Gruntfile
+    - Gruntfile.js
     - index.html
     - package.json
     - Rakefile
