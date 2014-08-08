@@ -124,7 +124,7 @@ prose:
           placeholder: "2013-08-16"
       - name: "summary"
         field:
-          element: "textarea"
+          element: "text"
           label: "Summary"
       - name: "author"
         field:
