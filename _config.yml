@@ -35,6 +35,8 @@ collections:
     permalink: /zip/:path/
   constituent-stories:
     output: false
+  jobs:
+    output: false
 
 # Settings for sitemap_generator plugin.
 # sitemap:
