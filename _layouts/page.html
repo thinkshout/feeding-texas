@@ -72,6 +72,13 @@ layout: default
             <p>{{ job.content }}</p>
           {% endfor %}
         {% endif %}
+
+        {% if page.type == "staff" %}
+          {% for employee in site.staff %}
+            <h2><a href="{{ site.baseurl }}{{ employee.url }}">{{ employee.name }}</a></h2>
+            <p>{{ employee.title }}</p>
+          {% endfor %}
+        {% endif %}
       {% endif %}
       </div>
     </div>

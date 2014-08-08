@@ -3,6 +3,7 @@ layout: page
 title: Staff & Board
 banner: placeholders/banner-02.jpg
 group: about
+type: staff
 calls_to_action:
   - title: 1.9 million children Lived in food insecure homes in 2012
     link:
