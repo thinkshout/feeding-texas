@@ -79,7 +79,7 @@ prose:
     _jobs:
       - name: "position"
         field:
-          element: "position"
+          element: "text"
           label: "Title"
 
 
