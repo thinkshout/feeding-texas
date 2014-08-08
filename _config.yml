@@ -86,13 +86,14 @@ prose:
         field:
           element: "text"
           label: "Unique ID"
-      - name: "link"
+      - name: "link-button"
         field:
           element: "text"
-          label: "Button Text"
+          label: "Link button text"
+      - name: "link-url"
         field:
           element: "text"
-          label: "URL"
+          label: "Link URL"
       - name: "image"
         field:
           element: "text"

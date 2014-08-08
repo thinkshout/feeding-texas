@@ -1,8 +1,7 @@
 ---
 id: 2
-link:
-  button_text: Donate Now
-  url: donate
+button_text: Donate Now
+url: donate
 image: network.jpg
 ---
 
