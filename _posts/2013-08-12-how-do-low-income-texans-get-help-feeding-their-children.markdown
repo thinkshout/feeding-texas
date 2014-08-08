@@ -5,8 +5,7 @@ images:
   hero: "http://placehold.it/1400x500&text=HERO"
   thumb: "http://placehold.it/450x300&text=THUMB"
 date:   2013-08-16 11:50:37
-summary: |
-  When Congress passed a farm bill, they included a provision that will sharply reduce SNAP (aka food stamps) benefits for 850,000 households in sixteen states over the next decade.
+summary: When Congress passed a farm bill, they included a provision that will sharply reduce SNAP (aka food stamps) benefits for 850,000 households in sixteen states over the next decade.
 author: Celia Cole
 categories: 
 featured: "true"
