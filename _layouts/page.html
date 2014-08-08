@@ -76,7 +76,7 @@ layout: default
         {% if page.type == "staff" %}
           {% for employee in site.staff %}
             <h2><a href="{{ site.baseurl }}{{ employee.url }}">{{ employee.name }}</a></h2>
-            <p>{{ employee.title }}</p>
+            <p>{{ employee.position }}</p>
           {% endfor %}
         {% endif %}
       {% endif %}
