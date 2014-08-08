@@ -104,10 +104,10 @@ prose:
           element: "text"
           label: "Name"
     _jobs:
-      - name: "position"
+      - name: "title"
         field:
           element: "text"
-          label: "Position"
+          label: "Job title"
     _posts:
       - name: "layout"
         field:
