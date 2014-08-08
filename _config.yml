@@ -79,10 +79,9 @@ prose:
     _calls-to-action:
       - name: "id"
         field:
-          element:"number"
+          element:"text"
           label: "ID"
           help: "Unique ID number for call to action."
-          type: "number"
       - name: "image"
         field:
           element: "text"
