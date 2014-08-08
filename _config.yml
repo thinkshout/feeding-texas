@@ -80,6 +80,16 @@ prose:
       - name: "position"
         field:
           element: "text"
-          label: "Title"
+          label: "Position"
+    _calls-to-action:
+      - name: "id"
+        field:
+          element: "number"
+          label: "Unique ID"
+          type: "number"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL"
 
 
