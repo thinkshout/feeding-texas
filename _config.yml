@@ -111,8 +111,9 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: "hidden"
-          value: "blog"
+          element: "text"
+          placeholder: "blog"
+          help: "Allowed values are 'blog', 'press', 'resource'."
       - name: "title"
         field:
           element: "text"
@@ -135,6 +136,20 @@ prose:
           element: "checkbox"
           label: "Featured"
           help: "The top 3 featured posts will appear on the home page."
-
-
-
+    _staff:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "staff"
+      - name: "name"
+        field:
+          element: "text"
+          label: "Name"
+      - name: "position"
+        field:
+          element: "text"
+          label: "Position"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL"
