@@ -81,9 +81,9 @@ prose:
         field:
           element: 'hidden'
           value: 'jobs'
-      - name: "title"
+      - name: "position"
         field:
-          element: "text"
+          element: "position"
           label: "Title"
 
 
