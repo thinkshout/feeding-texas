@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Alex Ellison
-title: Software Engineer
+position: Software Engineer
 image: http://thinkshout.com/assets/images/team/large/alex.jpg
 ---
 

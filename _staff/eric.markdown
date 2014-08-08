@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Eric Paxton
-title: Front End Engineer
+position: Front End Engineer
 image: http://thinkshout.com/assets/images/team/large/eric.jpg
 ---
 
