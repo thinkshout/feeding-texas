@@ -87,10 +87,10 @@ prose:
           element: "text"
           label: "Unique ID"
       - name: "link"
-        field: "button_text"
+        field:
           element: "text"
           label: "Button Text"
-        field: "url"
+        field:
           element: "text"
           label: "URL"
       - name: "image"
