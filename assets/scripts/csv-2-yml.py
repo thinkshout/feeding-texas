@@ -49,27 +49,26 @@ def build_zip_var():
     # loop over all rows in csv file
     for row in csvreader:
       # use 'zip' as key and grab and set 'county' to its own dict
-      zip_county[row[3].strip()] = {'county': row[2].lower().strip(), 'zip': row[3].strip()}
+      zip_county[row[3].strip()] = {
+        'county': row[2].lower().strip(), 
+        'zip': row[3].strip(),
+        # set latitude and longitude to be used for map marker creation
+        'latitude': row[4].strip(),
+        'longitude': row[9].strip(),
+      }
+      # if zip code has a polygon, include it
+      if row[11]:
+        poly = row[11].strip()
+        # remove leading and trailing tags as well as third unnecessary 0.0 coordinate
+        replace_patterns = ['<Polygon>', '<outerBoundaryIs>', '<LinearRing>', '<coordinates>', '<MultiGeometry>', '</coordinates>', '</LinearRing>', '</outerBoundaryIs>', '</Polygon>', '</MultiGeometry>']
+        for i in replace_patterns:
+          poly = poly.replace(i, '')
+        # explode into array on spaces
+        coord_sets = poly.split(',0.0')
+        zip_county[row[3].strip()]['polygonCoords'] = coord_sets
   return zip_county
 
 def add_overview(zip_var):
-  ## double back on this because no data by zip
-  # with open('Cost_of_Food.csv', 'rU') as csvfile:
-  #   csvreader = csv.reader(csvfile)
-  #   # skip over header line in csv
-  #   next(csvreader)
-  #   # array for county names found in data that are not in Texas_Zip_codes.csv
-  #   missing_zips = []
-  #   fffound = []
-  #   for row in csvreader:
-  #     if not(row[0].lower().strip() in COUNTY_ZIP_MAP):
-  #       missing_zips.append(row[0].lower().strip())
-  #     else:
-  #       fffound.append(row[0].lower().strip())
-  #       for zip_code in COUNTY_ZIP_MAP[row[0].lower().strip()]:
-  #         zip_var[zip_code]['costOfFoodIndex'] = row[1].strip()
-  #         zip_var[zip_code]['weightedCostPerMeal'] = row[2].strip()
-  
   with open('Food_Banks.csv', 'rU') as csvfile:
     csvreader = csv.reader(csvfile)
     # skip over header line in csv
@@ -119,7 +118,7 @@ def add_eligibility(zip_var):
       # include entries for all zips there are data for
       if not(row[2].strip() in zip_var):
         # missing_zips.append((row[2], row[0]))
-        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip()}
+        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip()}  
       zip_var[row[2]]['totalSnapRecipients'] = row[6].strip()
       zip_var[row[2]]['averageBenefitperMeal'] = row[8].strip()
       zip_var[row[2]]['totalIncomeEligibleIndividuals'] = row[12].strip()
@@ -145,7 +144,7 @@ def add_demographics(zip_var):
       # include entries for all zips there are data for
       if not(row[2].strip() in zip_var):
         # missing_zips.append((row[2], row[0]))
-        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip()}
+        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip()}  
       zip_var[row[2]]['recipients0To17'] = row[7].strip()
       zip_var[row[2]]['recipients18To64'] = row[8].strip()
       zip_var[row[2]]['recipients65Plus'] = row[9].strip()
@@ -182,6 +181,15 @@ def write_yml_files(zip_var):
       variables = zip_var[zip_code].keys()
       variables.sort()
       for var in variables:
+        if var == 'polygonCoords':
+          outfile.write(var + ':\n')
+          for i in zip_var[zip_code][var]:
+            if i:
+              outfile.write(  '  - coordSet:\n')
+              lon, lat = i.split(',')
+              outfile.write('    latitude: ' + lat.strip() + '\n')
+              outfile.write('    longitude: ' + lon.strip() + '\n')
+          continue
         outfile.write(var + ': ' + zip_var[zip_code][var] + '\n')
       # end yml frontmatter
       outfile.write('---\n')
