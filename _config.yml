@@ -103,12 +103,6 @@ prose:
           element: "checkbox"
           label: "Featured"
           help: "The top 3 featured posts will appear on the home page."
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Tags"
-          help: "Enter one or more tags to categorize your post, E.g., Drupal, nonprofit, RedHen."
-          alterable: true
     _calls-to-action:
       - name: "id"
         field:
@@ -116,6 +110,6 @@ prose:
           label: "ID"
           help: "Unique ID number for call to action."
       - name: "image"
-        field: "image"
+        field:
           element: "text"
           label: "Image URL"
