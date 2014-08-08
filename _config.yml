@@ -108,6 +108,33 @@ prose:
         field:
           element: "text"
           label: "Position"
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          placeholder: "2013-08-16"
+      - name: "summary"
+        field:
+          element: "textarea"
+          label: "Summary"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Featured"
+          help: "The top 3 featured posts will appear on the home page."
 
 
 
