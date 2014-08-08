@@ -56,7 +56,7 @@ collections:
 
 prose:
   # rooturl: "blog/_posts"
-  siteurl: "http://thinkshout.github.io/feeding-texas/"
+  siteurl: "http://thinkshout.github.io/feeding-texas"
   media: "assets/images/blog"
   ignore:
     - .idea
@@ -129,7 +129,7 @@ prose:
         field: "url"
           element: "text"
           label: "URL"
-      -name: "image"
+      - name: "image"
         field: "image"
           element: "text"
           label: "Image URL"
