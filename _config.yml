@@ -307,3 +307,33 @@ prose:
           element: "text"
           label: "Recipients 65 plus"
           placeholder: "299"
+      - name: "totalIncomeEligibleButNotReceiving"
+        field:
+          element: "text"
+          label: "Total income eligible, but not receiving"
+          placeholder: "4879"
+      - name: "totalIncomeEligibleIndividuals"
+        field:
+          element: "text"
+          label: "Total income eligible individuals"
+          placeholder: "8878"
+      - name: "totalSnapRecipients"
+        field:
+          element: "text"
+          label: "Total SNAP recipients"
+          placeholder: "3999"
+      - name: "website"
+        field:
+          element: "text"
+          label: "Website"
+          placeholder: "www.galestoncountyfoodbank.org"
+      - name: "weightedCostPerMeal"
+        field:
+          element: "text"
+          label: "Weighted cost per meal"
+          placeholder: "$2.80"
+      - name: "zip"
+        field:
+          element: "text"
+          label: "Zip code"
+          placeholder: "77550"
