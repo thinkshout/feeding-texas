@@ -136,3 +136,20 @@ prose:
           element: "checkbox"
           label: "Featured"
           help: "The top 3 featured posts will appear on the home page."
+    _staff:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "staff"
+      - name: "name"
+        field:
+          element: "text"
+          label: "Name"
+      - name: "position"
+        field:
+          element: "text"
+          label: "Position"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL"
