@@ -75,17 +75,17 @@ layout: default
       	<div class="block-grid">
       		<div class="container">
       			<div class="item">
-              <img src="{{ site.baseurl }}/assets/images/placeholders/stat.png">
+              <div id="percentages"></div>
               {{ page.totalIncomeEligibleIndividuals }} people are eligible for SNAP benefits. Of those eligible, {{ page.incomeEligible0To17 }} are children, {{ page.incomeEligible18To64 }} are adults, and {{ page.incomeEligible65Plus }} are seniors.
       			</div>
       			<div class="item">	
-      				<img src="{{ site.baseurl }}/assets/images/placeholders/stat.png">
+      				<div id="participation"></div>
               {% assign arr = 'page.totalSnapRecipients|page.totalIncomeEligibleIndividuals' | split: '|' %}
               {% assign b = arr | divide %}
               Only {{ b | times: 100 }} of eligible people are actually receiving SNAP benefits. This means {{ page.totalIncomeEligibleIndividuals | minus: page.totalSnapRecipients }} people are not participating in SNAP benefits when they could be.
       			</div>
       			<div class="item">
-      				<img src="{{ site.baseurl }}/assets/images/placeholders/stat.png">
+      				<div id="percentbenefits"></div>
               SNAP only covers {{ page.averageBenefitperMeal }} of the {{ page.weightedCostPerMeal }} necessary for each meal.
       			</div>
       		</div>
@@ -96,13 +96,16 @@ layout: default
       	<div class="block-grid">
       		<div class="container">
       			<div class="item">
-              <img src="{{ site.baseurl }}/assets/images/placeholders/stat.png">
-      			</div>
-      			<div class="item">	
-      				<img src="{{ site.baseurl }}/assets/images/placeholders/stat.png">
+              <div id="percentrcvrace"></div>
       			</div>
       			<div class="item">
-      				<img src="{{ site.baseurl }}/assets/images/placeholders/stat.png">
+              <div id="percentrcvworking"></div>
+      			</div>
+      			<div class="item">
+              <div id="percentrcvage"></div>
+      			</div>
+      			<div class="item">
+              <div id="percentrcvethnicity"></div>
       			</div>
       		</div>
       	</div>         
@@ -128,10 +131,3 @@ layout: default
     {% endfor %}
   </div>
 </div>
-
-<script>
-// ELIGIBILITY
-var = {{ page.incomeEligible0To17 | json }};
-var = {{ page.incomeEligible18To64 | json }};
-var = {{ page.incomeEligible65Plus | json }};
-</script>
