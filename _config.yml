@@ -33,6 +33,15 @@ collections:
   counties:
     output: true
     permalink: /zip/:path/
+  staff:
+    output: true
+    permalink: /staff/:path/
+  constituent-stories:
+    output: false
+  jobs:
+    output: false
+  calls-to-action:
+    output: false
 
 # Settings for sitemap_generator plugin.
 # sitemap:
@@ -45,32 +54,286 @@ collections:
 #         - "/work/index.html"
 #         - "/careers/index.html"
 
-# prose:
-#   rooturl: "blog/_posts"
-#   siteurl: "http://thinkshout.com"
-#   media: "assets/images/blog"
-#   metadata:
-#     blog/_posts:
-#       - name: "layout"
-#         field:
-#           element: "hidden"
-#           value: "post"
-#       - name: "short"
-#         field:
-#           element: "textarea"
-#           label: "Short teaser"
-#       - name: "author"
-#         field:
-#           element: "text"
-#           label: "Author short name"
-#       - name: "featured"
-#         field:
-#           element: "checkbox"
-#           label: "Featured"
-#           help: "The top 3 featured posts will appear on the home page."
-#       - name: "tags"
-#         field:
-#           element: "multiselect"
-#           label: "Tags"
-#           help: "Enter one or more tags to categorize your post, E.g., Drupal, nonprofit, RedHen."
-#           alterable: true
+prose:
+  # rooturl: "blog/_posts"
+  siteurl: "http://thinkshout.github.io/feeding-texas"
+  media: "assets/images/blog"
+  ignore:
+    - .idea
+    - /_includes
+    - /_layouts
+    - /_plugins
+    - /_site
+    - bower_components
+    - .gitignore
+    - _config.yml
+    - bower.json
+    - Gemfile
+    - Gemfile.lock
+    - Gruntfile.js
+    - index.html
+    - package.json
+    - Rakefile
+    - README.md
+  metadata:
+    _calls-to-action:
+      - name: "id"
+        field:
+          element: "text"
+          label: "Unique ID"
+      - name: "button_text"
+        field:
+          element: "text"
+          label: "Link button text"
+      - name: "url"
+        field:
+          element: "text"
+          label: "Link URL"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL"
+    _constituent-stories:
+      - name: "id"
+        field:
+          element: "text"
+          label: "ID"
+          help: "Unique ID number for constituent story."
+      - name: "name"
+        field:
+          element: "text"
+          label: "Name"
+    _jobs:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Job title"
+    _posts:
+      - name: "layout"
+        field:
+          element: "text"
+          placeholder: "blog"
+          help: "Allowed values are 'blog', 'press', 'resource'."
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          placeholder: "2013-08-16"
+      - name: "summary"
+        field:
+          element: "text"
+          label: "Summary"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Featured"
+          help: "The top 3 featured posts will appear on the home page."
+    _staff:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "staff"
+      - name: "name"
+        field:
+          element: "text"
+          label: "Name"
+      - name: "position"
+        field:
+          element: "text"
+          label: "Position"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL"
+    _counties:
+      - name: "collection"
+        field:
+          element: "hidden"
+          value: "counties"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "county"
+      - name: "averageBenefitperMeal"
+        field:
+          element: "text"
+          label: "Average benefit per meal"
+          placeholder: "$1.29"
+      - name: "childFoodInsecurityRate"
+        field:
+          element: "text"
+          label: "Child food insecurity rate"
+          placeholder: "23.4%"
+      - name: "costOfFoodIndex"
+        field:
+          element: "text"
+          label: "Cost of food index"
+          placeholder: "1.023"
+      - name: "county"
+        field:
+          element: "text"
+          label: "County"
+          placeholder: "Galveston"
+      - name: "foodBank"
+        field:
+          element: "text"
+          label: "Food bank"
+          placeholder: "Galveston County Food Bank"
+      - name: "foodInsecureChildren"
+        field:
+          element: "text"
+          label: "Food insecure children"
+          placeholder: "17,370"
+      - name: "householdIncomeWithEarnedIncome"
+        field:
+          element: "text"
+          label: "Household income with earned income"
+          placeholder: "0.419"
+      - name: "incomeEligible0To17"
+        field:
+          element: "text"
+          label: "Income eligible 0 to 17"
+          placeholder: "2708"
+      - name: "incomeEligible18To64"
+        field:
+          element: "text"
+          label: "Income eligible 18 to 64"
+          placeholder: "5305"
+      - name: "incomeEligible65Plus"
+        field:
+          element: "text"
+          label: "Income eligible 65 plus"
+          placeholder: "865"
+      - name: "incomeEligibleButNotReceiving0To17"
+        field:
+          element: "text"
+          label: "Income eligible, but not receiving 0 to 17"
+          placeholder: "767"
+      - name: "incomeEligibleButNotReceiving18To64"
+        field:
+          element: "text"
+          label: "Income eligible, but not receiving 18 to 64"
+          placeholder: "3546"
+      - name: "incomeEligibleButNotReceiving65Plus"
+        field:
+          element: "text"
+          label: "Income eligible, but not receiving 65 plus"
+          placeholder: "566"
+      - name: "individualFoodInsecurityRate"
+        field:
+          element: "text"
+          label: "Individual food insecurity rate"
+          placeholder: "17.6%"
+      - name: "latitude"
+        field:
+          element: "text"
+          label: "Latitude"
+          placeholder: "29.27"
+      - name: "longitude"
+        field:
+          element: "text"
+          label: "Longitude"
+          placeholder: "-94.77"
+      - name: "recipientEthnicityHispanic"
+        field:
+          element: "text"
+          label: "Recipient ethnicity Hispanic"
+          placeholder: "0.323"
+      - name: "recipientEthnicityNonHispanic"
+        field:
+          element: "text"
+          label: "Recipient ethnicity non-Hispanic"
+          placeholder: "0.614"
+      - name: "recipientEthnicityUnknownMissing"
+        field:
+          element: "text"
+          label: "Recipient ethnicity unknown or missing"
+          placeholder: "0.061"
+      - name: "recipientRaceUnknownMissing"
+        field:
+          element: "text"
+          label: "Recipient race unknown or missing"
+          placeholder: "0.203"
+      - name: "recipientRaceWhite"
+        field:
+          element: "text"
+          label: "Recipient race White"
+          placeholder: "0.376"
+      - name: "recipientRacePacificIslander"
+        field:
+          element: "text"
+          label: "Recipient race Pacific Islander"
+          placeholder: "0.376"
+      - name: "recipientRaceNativeAmerican"
+        field:
+          element: "text"
+          label: "Recipient race Native American"
+          placeholder: "0.376"
+      - name: "recipientRaceMultiRace"
+        field:
+          element: "text"
+          label: "Recipient race multi-race"
+          placeholder: "0.376"
+      - name: "recipientRaceBlack"
+        field:
+          element: "text"
+          label: "Recipient race Black"
+          placeholder: "0.376"
+      - name: "recipientRaceAsian"
+        field:
+          element: "text"
+          label: "Recipients race Asian"
+          placeholder: "0.376"
+      - name: "recipients0To17"
+        field:
+          element: "text"
+          label: "Recipients 0 to 17"
+          placeholder: "1941"
+      - name: "recipients18To64"
+        field:
+          element: "text"
+          label: "Recipients 18 to 64"
+          placeholder: "1759"
+      - name: "recipients65Plus"
+        field:
+          element: "text"
+          label: "Recipients 65 plus"
+          placeholder: "299"
+      - name: "totalIncomeEligibleButNotReceiving"
+        field:
+          element: "text"
+          label: "Total income eligible, but not receiving"
+          placeholder: "4879"
+      - name: "totalIncomeEligibleIndividuals"
+        field:
+          element: "text"
+          label: "Total income eligible individuals"
+          placeholder: "8878"
+      - name: "totalSnapRecipients"
+        field:
+          element: "text"
+          label: "Total SNAP recipients"
+          placeholder: "3999"
+      - name: "website"
+        field:
+          element: "text"
+          label: "Website"
+          placeholder: "www.galestoncountyfoodbank.org"
+      - name: "weightedCostPerMeal"
+        field:
+          element: "text"
+          label: "Weighted cost per meal"
+          placeholder: "$2.80"
+      - name: "zip"
+        field:
+          element: "text"
+          label: "Zip code"
+          placeholder: "77550"

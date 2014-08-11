@@ -28,4 +28,5 @@ calls_to_action:
       button_text: Donate Now
       url: donate
 group: work
+type: programs
 ---

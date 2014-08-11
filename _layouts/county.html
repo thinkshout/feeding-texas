@@ -59,11 +59,17 @@ layout: default
       		</div>
       	</div>
       </section>
-      <section class="content">
-        <h2 class="section-header"><span>Sara and Wayne's Story</span></h2>
-        <p>SNAP saved us, said Sarah. In a recent Giving City Magazine interview, Sarah shared that SNAP has helped them to do more than merely survive in the face of debilitating health problems, pending surgeries, expensive medications and no health insurance. Thanks to vegetables seeds purchased with her SNAP benefits, Sara tends to her garden at home. "The smallest victories in those garden beds represent the tenacity of life," Sarah said.</p>
-        <a class="button primary-cta" href="#">Tell us your story</a>
-      </section>
+      {% if page.constituent-story %}
+        <section class="content">
+          {% for story in site.constituent-stories %}
+            {% if page.constituent-story == story.id %}
+              <h2 class="section-header"><span>{{ story.name }}'s Story</span></h2>
+              <p>{{ story.content }}</p>
+            {% endif %}
+          {% endfor %}
+          <a class="button primary-cta" href="#">Tell us your story</a>
+        </section>
+      {% endif %}
       <section>
       	<h2 class="section-header"><span>Eligibility</span></h2>
       	<div class="block-grid">

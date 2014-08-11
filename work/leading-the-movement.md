@@ -19,15 +19,7 @@ intro:
 
     Food insecurity is most prevalent in households containing children, disabled individuals or the elderly. Every Texas county is touched by the struggle to afford enough food.
 calls_to_action:
-  - title: 1.9 million children Lived in food insecure homes in 2012
-    link:
-      button_text: Learn About Hunger In Texas
-      url: work
-    image: children.jpg
-  - title: Help us work with our partners to end hunger in Texas
-    link:
-      button_text: Donate Now
-      url: donate
-    image: network.jpg
+  - 1
+  - 2
 group: work
 ---
