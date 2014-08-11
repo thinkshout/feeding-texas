@@ -297,3 +297,13 @@ prose:
           element: "text"
           label: "Recipients 0 to 17"
           placeholder: "1941"
+      - name: "recipients18To64"
+        field:
+          element: "text"
+          label: "Recipients 18 to 64"
+          placeholder: "1759"
+      - name: "recipients65Plus"
+        field:
+          element: "text"
+          label: "Recipients 65 plus"
+          placeholder: "299"
