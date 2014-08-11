@@ -172,7 +172,7 @@ prose:
         field:
           element: "text"
           label: "Child food insecurity rate"
-          placeholder: 23.4%"
+          placeholder: "23.4%"
       - name: "costOfFoodIndex"
         field:
           element: "text"
