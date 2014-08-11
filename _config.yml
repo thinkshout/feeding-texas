@@ -232,3 +232,63 @@ prose:
           element: "text"
           label: "Individual food insecurity rate"
           placeholder: "17.6%"
+      - name: "latitude"
+        field:
+          element: "text"
+          label: "Latitude"
+          placeholder: "29.27"
+      - name: "longitude"
+        field:
+          element: "text"
+          label: "Longitude"
+          placeholder: "-94.77"
+      - name: "recipientEthnicityHispanic"
+        field:
+          element: "text"
+          label: "Recipient ethnicity Hispanic"
+          placeholder: "0.323"
+      - name: "recipientEthnicityNonHispanic"
+        field:
+          element: "text"
+          label: "Recipient ethnicity non-Hispanic"
+          placeholder: "0.614"
+      - name: "recipientEthnicityUnknownMissing"
+        field:
+          element: "text"
+          label: "Recipient ethnicity unknown or missing"
+          placeholder: "0.061"
+      - name: "recipientRaceUnknownMissing"
+        field:
+          element: "text"
+          label: "Recipient race unknown or missing"
+          placeholder: "0.203"
+      - name: "recipientRaceWhite"
+        field:
+          element: "text"
+          label: "Recipient race White"
+          placeholder: "0.376"
+      - name: "recipientRacePacificIslander"
+        field:
+          element: "text"
+          label: "Recipient race Pacific Islander"
+          placeholder: "0.376"
+      - name: "recipientRaceNativeAmerican"
+        field:
+          element: "text"
+          label: "Recipient race Native American"
+          placeholder: "0.376"
+      - name: "recipientRaceMultiRace"
+        field:
+          element: "text"
+          label: "Recipient race multi-race"
+          placeholder: "0.376"
+      - name: "recipientRaceBlack"
+        field:
+          element: "text"
+          label: "Recipient race Black"
+          placeholder: "0.376"
+      - name: "recipientRaceAsian"
+        field:
+          element: "text"
+          label: "Recipients race Asian"
+          placeholder: "0.376"
