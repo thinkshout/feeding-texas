@@ -155,9 +155,9 @@ prose:
           label: "Image URL"
     _counties:
       - name: "collection"
-      field:
-        element: "hidden"
-        value: "counties"
+        field:
+          element: "hidden"
+          value: "counties"
       - name: "layout"
         field:
           element: "hidden"
