@@ -165,5 +165,35 @@ prose:
       - name: "averageBenefitperMeal"
         field:
           element: "text"
-          label: "Average benefirt per meal"
+          label: "Average benefit per meal"
           placeholder: "$1.29"
+      - name: "childFoodInsecurityRate"
+        field:
+          element: "text"
+          label: "Child food insecurity rate"
+          placeholder: "23.4%"
+      - name: "costOfFoodIndex"
+        field:
+          element: "text"
+          label: "Cost of food index"
+          placeholder: "1.023"
+      - name: "county"
+        field:
+          element: "text"
+          label: "County"
+          placeholder: "Galveston"
+      - name: "foodBank"
+        field:
+          element: "text"
+          label: "Food bank"
+          placeholder: "Galveston County Food Bank"
+      - name: "foodInsecureChildren"
+        field:
+          element: "text"
+          label: "Food insecure children"
+          placeholder: "17,370"
+      - name: "householdIncomeWithEarnedIncome"
+        field:
+          element: "text"
+          label: "Household income with earned income"
+          placeholder: "0.419"
