@@ -197,3 +197,38 @@ prose:
           element: "text"
           label: "Household income with earned income"
           placeholder: "0.419"
+      - name: "incomeEligible0To17"
+        field:
+          element: "text"
+          label: "Income eligible 0 to 17"
+          placeholder: "2708"
+      - name: "incomeEligible18To64"
+        field:
+          element: "text"
+          label: "Income eligible 18 to 64"
+          placeholder: "5305"
+      - name: "incomeEligible65Plus"
+        field:
+          element: "text"
+          label: "Income eligible 65 plus"
+          placeholder: "865"
+      - name: "incomeEligibleButNotReceiving0To17"
+        field:
+          element: "text"
+          label: "Income eligible, but not receiving 0 to 17"
+          placeholder: "767"
+      - name: "incomeEligibleButNotReceiving18To64"
+        field:
+          element: "text"
+          label: "Income eligible, but not receiving 18 to 64"
+          placeholder: "3546"
+      - name: "incomeEligibleButNotReceiving65Plus"
+        field:
+          element: "text"
+          label: "Income eligible, but not receiving 65 plus"
+          placeholder: "566"
+      - name: "individualFoodInsecurityRate"
+        field:
+          element: "text"
+          label: "Individual food insecurity rate"
+          placeholder: "17.6%"
