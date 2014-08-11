@@ -25,7 +25,7 @@ layout: default
         </div>
       </div>
       <div class="page-header">
-        <h1 class="page-title">{{ page.county }} County<span class="postal">{{ page.zip }}</span></h1>
+        <h1 class="page-title">{{ page.county }} County <span class="postal">{{ page.zip }}</span></h1>
       	<h3>{{ page.subhead }}</h3>
       	<a class="button primary-cta" href="#help">Get Help</a>
       </div>
@@ -39,7 +39,8 @@ layout: default
       		<div class="container">
       			<div class="item">
               Cost of a meal is
-              {{ page.weightedCostPerMeal }} – {{ 1 | minus: page.costOfFoodIndex | times: 100 }}%
+              <span id="cost-of-meal" class="cost">{{ page.weightedCostPerMeal }}</span>
+              <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.costOfFoodIndex | times: 100 }}%</span>
               {% if page.costOfFoodIndex < 1 %}
                 less
               {% else %}
@@ -48,12 +49,12 @@ layout: default
               than the national average.
       			</div>
       			<div class="item">	
-              {{ page.individualFoodInsecurityRate }} of people have experienced food insecurity in this county in the last year.
+              <span id="insecurity-rate" class="percentage">{{ page.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.
       			</div>
       			<div class="item">
-              {{ page.childFoodInsecurityRate }} of children in
+              <span id="child-insecurity-rate" class="percentage">{{ page.childFoodInsecurityRate }}</span> of children in
               in {{ page.county }} have experienced food insecurity in the last year.
-              That's {{ page.foodInsecureChildren }} children going hungry.
+              That's <span id="insecure-children" class="total">{{ page.foodInsecureChildren }}</span> children going hungry.
       			</div>
       		</div>
       	</div>
@@ -121,3 +122,10 @@ layout: default
     {% endfor %}
   </div>
 </div>
+
+<script>
+// ELIGIBILITY
+var = {{ page.incomeEligible0To17 | json }};
+var = {{ page.incomeEligible18To64 | json }};
+var = {{ page.incomeEligible65Plus | json }};
+</script>
