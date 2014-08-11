@@ -6,3 +6,4 @@ assets/.sass-cache
 tmp
 feeding-texas-notes.txt
 alex_notes.txt
+.gitignore
