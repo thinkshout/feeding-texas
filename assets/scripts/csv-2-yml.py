@@ -105,7 +105,7 @@ def add_overview(zip_var):
           zip_var[zip_code]['data']['childFoodInsecurityRate'] = row[3].strip()
           zip_var[zip_code]['data']['foodInsecureChildren'] = row[4].strip()
           zip_var[zip_code]['data']['costOfFoodIndex'] = row[5].strip()
-          zip_var[zip_code]['data']['weightedCostPerMeal'] = row[6].strip()
+          zip_var[zip_code]['data']['weightedCostPerMeal'] = row[6].strip().replace('$', '')
   
   return zip_var
 
@@ -123,7 +123,7 @@ def add_eligibility(zip_var):
         # missing_zips.append((row[2], row[0]))
         zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip(), 'data': {}}  
       zip_var[row[2]]['data']['totalSnapRecipients'] = row[6].strip()
-      zip_var[row[2]]['data']['averageBenefitperMeal'] = row[8].strip()
+      zip_var[row[2]]['data']['averageBenefitperMeal'] = row[8].strip().replace('$', '')
       zip_var[row[2]]['data']['totalIncomeEligibleIndividuals'] = row[12].strip()
       zip_var[row[2]]['data']['incomeEligible0To17'] = row[13].strip()
       zip_var[row[2]]['data']['incomeEligible18To64'] = row[14].strip()
