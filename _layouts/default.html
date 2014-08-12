@@ -13,12 +13,14 @@
   <!-- Component Stylesheets -->
   <link rel="stylesheet" href="{{ site.baseurl}}/bower_components/chosen/chosen.css" />
   <link rel="stylesheet" href="{{ site.baseurl}}/bower_components/flexslider/flexslider.css" />
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-
+  
   <!-- Wireframes -->
   <link rel="stylesheet" href="{{ site.baseurl}}/assets/stylesheets/main.css" />
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
   <script src="{{ site.baseurl}}/bower_components/modernizr/modernizr.js"></script>
+
+  <!-- JavaScripts -->
+  <script src="{{ site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -29,159 +31,11 @@
   {% include global/footer.html %}
   
   <!-- JavaScripts -->
-  <script src="{{ site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="{{ site.baseurl}}/bower_components/chosen/chosen.jquery.min.js"></script>
   <script src="{{ site.baseurl}}/bower_components/flexslider/jquery.flexslider-min.js"></script>
   <script src="{{ site.baseurl}}/assets/js/app.js"></script>
-  <script src="{{ site.baseurl}}/assets/js/vendor/highcharts/highcharts.js"></script>
-  <script src="{{ site.baseurl}}/assets/js/vendor/highcharts/data.js"></script>
-  <script src="{{ site.baseurl}}/assets/js/vendor/highcharts/drilldown.js"></script>
-
-  <!--<script src="{{ site.baseurl}}/assets/js/charts.js"></script>-->
 
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-  <script type="text/javascript">
-
-    $(function() {
-
-        Highcharts.theme = {
-            colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', 
-                     '#FF9655', '#FFF263', '#6AF9C4'],
-            chart: {
-                backgroundColor: null
-            },
-            title: {
-                text: null
-            },
-            tooltip: {
-                enabled: false,
-            },
-            plotOptions: {
-                pie: {
-                    size: 250,
-                    center: ['50%', '50%'],
-                    dataLabels: {
-                        enabled: true,
-                        format: '<b>{point.name}</b>: {point.percentage:.1f}%'
-                    }
-                }
-            }
-        };
-        
-        // Apply the theme
-        Highcharts.setOptions(Highcharts.theme);
-        
-        var incomeEligible0To17 = {{ page.incomeEligible0To17 | json }};
-        var incomeEligible18To64 = {{ page.incomeEligible18To64 | json }};
-        var incomeEligible65Plus = {{ page.incomeEligible65Plus | json }};
-        
-        var incomeEligibleButNotReceiving0To17 =   {{ page.incomeEligibleButNotReceiving0To17 | json }};
-        var incomeEligibleButNotReceiving18To64 =  {{ page.incomeEligibleButNotReceiving18To64 | json }};
-        var incomeEligibleButNotReceiving65Plus =  {{ page.incomeEligibleButNotReceiving65Plus | json }};
-        
-        var totalSnapRecipients = {{ page.totalSnapRecipients  | json }}; 
-        var totalIncomeEligibleIndividuals = {{ page.totalIncomeEligibleIndividuals | json }};
-        
-        var averageBenefitperMeal = {{ page.averageBenefitperMeal | json }} 
-        var weightedCostPerMeal = {{ page.weightedCostPerMeal | json }}
-        
-        var householdIncomeWithEarnedIncome = {{ page.householdIncomeWithEarnedIncome | json }}
-        var recipientEthnicityHispanic =  {{ page.recipientEthnicityHispanic | json }}
-        var recipientEthnicityNonHispanic = {{ page.recipientEthnicityNonHispanic | json }}
-        var recipientEthnicityUnknownMissing = {{ page.recipientEthnicityUnknownMissing | json }}
-        var recipientRaceAsian = {{ page.recipientRaceAsian | json }}
-        var recipientRaceBlack =  {{ page.recipientRaceBlack | json }}
-        var recipientRaceMultiRace = {{ page.recipientRaceMultiRace | json }}
-        var recipientRaceNativeAmerican = {{ page.recipientRaceNativeAmerican | json }}
-        var recipientRacePacificIslander = {{ page.recipientRacePacificIslander | json }}
-        var recipientRaceUnknownMissing = {{ page.recipientRaceUnknownMissing | json }}
-        var recipientRaceWhite = {{ page.recipientRaceWhite | json }}
-        var recipients0To17 = {{ page.recipients0To17 | json }}
-        var recipients18To64 = {{ page.recipients18To64 | json }}
-        var recipients65Plus = {{ page.recipients65Plus | json }}
-        var totalIncomeEligibleButNotReceiving = {{ page.totalIncomeEligibleButNotReceiving | json }}
-        var totalIncomeEligibleIndividuals = {{ page.totalIncomeEligibleIndividuals | json }}
-        var totalSnapRecipients = {{ page.totalSnapRecipients | json }}
-        
-        $('#percentages').highcharts({
-            series: [{
-                type: 'pie',
-                data: [
-                    ['Children', parseFloat(incomeEligible0To17) + parseFloat(incomeEligibleButNotReceiving0To17) ],
-                    ['Adults', parseFloat(incomeEligible18To64) + parseFloat(incomeEligibleButNotReceiving18To64) ],
-                    ['Seniors', parseFloat(incomeEligible65Plus) + parseFloat(incomeEligibleButNotReceiving65Plus) ]
-                ]
-            }]
-        });
-    
-        $('#participation').highcharts({
-            series: [{
-                type: 'pie',
-                data: [
-                    ['Receiving', parseFloat(totalSnapRecipients) ],
-                    ['Not Receiving', parseFloat(totalIncomeEligibleButNotReceiving) ]
-                ]
-            }]
-        });
-    
-        $('#percentbenefits').highcharts({
-            series: [{
-                type: 'pie',
-                data: [
-                    ['Covered', parseFloat(averageBenefitperMeal) ],
-                    ['Not Covered', parseFloat(weightedCostPerMeal)-parseFloat(averageBenefitperMeal) ]
-                ]
-            }]
-        });
-    
-        $('#percentrcvrace').highcharts({
-            series: [{
-                type: 'pie',
-                data: [
-                    ['White', parseFloat(recipientRaceWhite) ],
-                    ['Black', parseFloat(recipientRaceBlack) ],
-                    ['Native American', parseFloat(recipientRaceNativeAmerican) ],
-                    ['Asian', parseFloat(recipientRaceAsian) ],
-                    ['Pacific Islander', parseFloat(recipientRacePacificIslander) ],
-                    ['Multi-race', parseFloat(recipientRaceMultiRace) ],
-                    ['Unknown/Missing', parseFloat(recipientRaceUnknownMissing) ]
-                ]
-            }]
-        });
-    
-        $('#percentrcvworking').highcharts({
-            series: [{
-                type: 'pie',
-                data: [
-                    ['Working', parseFloat(householdIncomeWithEarnedIncome) ],
-                    ['Non-Working', 1 - parseFloat(householdIncomeWithEarnedIncome) ]
-                ]
-            }]
-        });
-    
-        $('#percentrcvage').highcharts({
-            series: [{
-                type: 'pie',
-                data: [
-                    ['Children', parseFloat(recipients0To17) ],
-                    ['Adults', parseFloat(recipients18To64) ],
-                    ['Seniors', parseFloat(recipients65Plus) ]
-                ]
-            }]
-        });
-    
-        $('#percentrcvethnicity').highcharts({
-            series: [{
-                type: 'pie',
-                data: [
-                    ['Hispanic', parseFloat(recipientEthnicityHispanic) ],
-                    ['Non-Hispanic', parseFloat(recipientEthnicityNonHispanic) ],
-                    ['Unknown/Missing', parseFloat(recipientEthnicityUnknownMissing) ]
-                ]
-            }]
-        });
-    });
-  </script>
 </body>
 </html>
