@@ -952,6 +952,19 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   z-index: 1;
 }
 
+/* line 3, ../sass/components/_county-statistics.scss */
+.total,
+.cost,
+.percentage {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 3.5em;
+  font-weight: bold;
+  padding: 0.25em 0;
+  display: inline-block;
+  top: 10px;
+  position: relative;
+}
+
 /* line 1, ../sass/components/_cross-links.scss */
 .crosslinks {
   *zoom: 1;
@@ -1724,6 +1737,11 @@ h1, h2, h3, h4, h5 {
 /* line 14, ../sass/components/_type.scss */
 h1.page-title {
   text-transform: uppercase;
+}
+
+/* line 2, ../sass/components/_utility.scss */
+.center-txt {
+  text-align: center;
 }
 
 /* line 2, ../sass/components/_work.scss */

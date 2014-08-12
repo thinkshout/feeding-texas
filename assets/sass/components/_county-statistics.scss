@@ -1,3 +1,15 @@
+.total,
+.cost,
+.percentage {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 3.5em;
+	font-weight: bold;
+	padding: 0.25em 0;
+	display: inline-block;
+  top: 10px;
+  position: relative;
+}
+
 .total {}
 .cost {}
 .percentage {}
