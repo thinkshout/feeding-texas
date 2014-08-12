@@ -153,7 +153,7 @@ $(function() {
       <section id="overview" class="content">
         <h2 class="section-header"><span>Overview</span></h2>
         <div class="item center-txt">
-          The cost of a meal is <span id="cost-of-meal" class="cost">{{ page.weightedCostPerMeal }}</span>. That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.costOfFoodIndex | times: 100 }}%</span>
+          The cost of a meal is $<span id="cost-of-meal" class="cost">{{ page.weightedCostPerMeal }}</span>. That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.costOfFoodIndex | times: 100 }}%</span>
           {% if page.costOfFoodIndex < 1 %}
             less
           {% else %}
@@ -197,7 +197,7 @@ $(function() {
             </div>
             <div class="item">
               <div id="percentbenefits"></div>
-              SNAP only covers {{ page.averageBenefitperMeal }} of the {{ page.weightedCostPerMeal }} necessary for each meal.
+              SNAP only covers ${{ page.averageBenefitperMeal }} of the ${{ page.weightedCostPerMeal }} necessary for each meal.
             </div>
           </div>
         </div>         
