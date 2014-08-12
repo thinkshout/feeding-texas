@@ -1,6 +1,123 @@
 ---
 layout: default
 ---
+<!-- County detail scpecific JavaScripts -->
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="{{ site.baseurl}}/assets/js/vendor/highcharts/highcharts.js"></script>
+<script src="{{ site.baseurl}}/assets/js/vendor/highcharts/data.js"></script>
+<script src="{{ site.baseurl}}/assets/js/vendor/highcharts/drilldown.js"></script>
+
+<script type="text/javascript">
+$(function() {
+
+    Highcharts.theme = {
+        colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', 
+                 '#FF9655', '#FFF263', '#6AF9C4'],
+        chart: {
+            backgroundColor: null
+        },
+        title: {
+            text: null
+        },
+        tooltip: {
+            enabled: false,
+        },
+        plotOptions: {
+            pie: {
+                size: 250,
+                center: ['50%', '50%'],
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f}%'
+                }
+            }
+        }
+    };
+    
+    // Apply the theme
+    Highcharts.setOptions(Highcharts.theme);
+    // Pull all necessary frontmatter vars into json data object.
+    var data = {{ page.data | json }};
+    
+    $('#percentages').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Children', parseFloat(data.incomeEligible0To17) + parseFloat(data.incomeEligibleButNotReceiving0To17) ],
+                ['Adults', parseFloat(data.incomeEligible18To64) + parseFloat(data.incomeEligibleButNotReceiving18To64) ],
+                ['Seniors', parseFloat(data.incomeEligible65Plus) + parseFloat(data.incomeEligibleButNotReceiving65Plus) ]
+            ]
+        }]
+    });
+
+    $('#participation').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Receiving', parseFloat(data.totalSnapRecipients) ],
+                ['Not Receiving', parseFloat(data.totalIncomeEligibleButNotReceiving) ]
+            ]
+        }]
+    });
+
+    $('#percentbenefits').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Covered', parseFloat(data.averageBenefitperMeal) ],
+                ['Not Covered', parseFloat(data.weightedCostPerMeal)-parseFloat(data.averageBenefitperMeal) ]
+            ]
+        }]
+    });
+
+    $('#percentrcvrace').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['White', parseFloat(data.recipientRaceWhite) ],
+                ['Black', parseFloat(data.recipientRaceBlack) ],
+                ['Native American', parseFloat(data.recipientRaceNativeAmerican) ],
+                ['Asian', parseFloat(data.recipientRaceAsian) ],
+                ['Pacific Islander', parseFloat(data.recipientRacePacificIslander) ],
+                ['Multi-race', parseFloat(data.recipientRaceMultiRace) ],
+                ['Unknown/Missing', parseFloat(data.recipientRaceUnknownMissing) ]
+            ]
+        }]
+    });
+
+    $('#percentrcvworking').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Working', parseFloat(data.householdIncomeWithEarnedIncome) ],
+                ['Non-Working', 1 - parseFloat(data.householdIncomeWithEarnedIncome) ]
+            ]
+        }]
+    });
+
+    $('#percentrcvage').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Children', parseFloat(data.recipients0To17) ],
+                ['Adults', parseFloat(data.recipients18To64) ],
+                ['Seniors', parseFloat(data.recipients65Plus) ]
+            ]
+        }]
+    });
+
+    $('#percentrcvethnicity').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Hispanic', parseFloat(data.recipientEthnicityHispanic) ],
+                ['Non-Hispanic', parseFloat(data.recipientEthnicityNonHispanic) ],
+                ['Unknown/Missing', parseFloat(data.recipientEthnicityUnknownMissing) ]
+            ]
+        }]
+    });
+});
+</script>
 <div class="county-detail">
   <div class="highlighted">
     <div class="wrap">
@@ -36,8 +153,8 @@ layout: default
       <section id="overview" class="content">
         <h2 class="section-header"><span>Overview</span></h2>
         <div class="item center-txt">
-          The cost of a meal is <span id="cost-of-meal" class="cost">{{ page.weightedCostPerMeal }}</span>. That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.costOfFoodIndex | times: 100 }}%</span>
-          {% if page.costOfFoodIndex < 1 %}
+          The cost of a meal is $<span id="cost-of-meal" class="cost">{{ page.data.weightedCostPerMeal }}</span>. That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.data.costOfFoodIndex | times: 100 }}%</span>
+          {% if page.data.costOfFoodIndex < 1 %}
             less
           {% else %}
             more
@@ -45,12 +162,12 @@ layout: default
           than the national average.
         </div>
         <div class="item center-txt"> 
-          <span id="insecurity-rate" class="percentage">{{ page.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.
+          <span id="insecurity-rate" class="percentage">{{ page.data.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.
         </div>
         <div class="item center-txt">
-          <span id="child-insecurity-rate" class="percentage">{{ page.childFoodInsecurityRate }}</span> of children in
+          <span id="child-insecurity-rate" class="percentage">{{ page.data.childFoodInsecurityRate }}</span> of children in
           in {{ page.county }} have experienced food insecurity in the last year.
-          That's <span id="insecure-children" class="total">{{ page.foodInsecureChildren }}</span> children going hungry.
+          That's <span id="insecure-children" class="total">{{ page.data.foodInsecureChildren }}</span> children going hungry.
         </div>
       </section>
       {% if page.constituent-story %}
@@ -70,17 +187,17 @@ layout: default
           <div class="container">
             <div class="item">
               <div id="percentages"></div>
-              {{ page.totalIncomeEligibleIndividuals }} people are eligible for SNAP benefits. Of those eligible, {{ page.incomeEligible0To17 }} are children, {{ page.incomeEligible18To64 }} are adults, and {{ page.incomeEligible65Plus }} are seniors.
+              {{ page.data.totalIncomeEligibleIndividuals }} people are eligible for SNAP benefits. Of those eligible, {{ page.data.incomeEligible0To17 }} are children, {{ page.data.incomeEligible18To64 }} are adults, and {{ page.data.incomeEligible65Plus }} are seniors.
             </div>
             <div class="item">  
               <div id="participation"></div>
-              {% assign arr = 'page.totalSnapRecipients|page.totalIncomeEligibleIndividuals' | split: '|' %}
+              {% assign arr = 'page.data.totalSnapRecipients|page.data.totalIncomeEligibleIndividuals' | split: '|' %}
               {% assign b = arr | divide %}
-              Only {{ b | times: 100 }} of eligible people are actually receiving SNAP benefits. This means {{ page.totalIncomeEligibleIndividuals | minus: page.totalSnapRecipients }} people are not participating in SNAP benefits when they could be.
+              Only {{ b | times: 100 }} of eligible people are actually receiving SNAP benefits. This means {{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }} people are not participating in SNAP benefits when they could be.
             </div>
             <div class="item">
               <div id="percentbenefits"></div>
-              SNAP only covers {{ page.averageBenefitperMeal }} of the {{ page.weightedCostPerMeal }} necessary for each meal.
+              SNAP only covers ${{ page.data.averageBenefitperMeal }} of the ${{ page.data.weightedCostPerMeal }} necessary for each meal.
             </div>
           </div>
         </div>         
