@@ -154,10 +154,10 @@ $(function() {
         <!-- Meal Cost -->
         <div class="row">
           <div class="half">
-            <p>The cost of a meal is <span id="cost-of-meal" class="cost">{{ page.weightedCostPerMeal }}</span></p>
+            <p>The cost of a meal is <span id="cost-of-meal" class="cost">{{ page.data.weightedCostPerMeal }}</span></p>
           </div>
           <div class="half">
-            <p>That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.costOfFoodIndex | times: 100 }}%</span>{% if page.costOfFoodIndex < 1 %} less {% else %} more {% endif %} than the national average.</p>
+            <p>That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.data.costOfFoodIndex | times: 100 }}%</span>{% if page.data.costOfFoodIndex < 1 %} less {% else %} more {% endif %} than the national average.</p>
           </div>
         </div>
 
@@ -167,7 +167,7 @@ $(function() {
           
           </div>
           <div class="half">	
-            <p><span id="insecurity-rate" class="percentage">{{ page.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.</p>
+            <p><span id="insecurity-rate" class="percentage">{{ page.data.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.</p>
       	 </div>
         </div>
 
@@ -177,8 +177,8 @@ $(function() {
           
           </div>
       	  <div class="half">
-            <p><span id="child-insecurity-rate" class="percentage">{{ page.childFoodInsecurityRate }}</span> of children in {{ page.county }} have experienced food insecurity in the last year.</p>
-            <p>That's <span id="insecure-children" class="total">{{ page.foodInsecureChildren }}</span> children going hungry.</p>
+            <p><span id="child-insecurity-rate" class="percentage">{{ page.data.childFoodInsecurityRate }}</span> of children in {{ page.county }} have experienced food insecurity in the last year.</p>
+            <p>That's <span id="insecure-children" class="total">{{ page.data.foodInsecureChildren }}</span> children going hungry.</p>
       	  </div>
         </div>
 
@@ -201,17 +201,17 @@ $(function() {
             <div id="percentages"></div>
           </div>
           <div class="half">
-            <p><span class="total">{{ page.totalIncomeEligibleIndividuals }}</span> people are eligible for SNAP benefits.</p> 
+            <p><span class="total">{{ page.data.totalIncomeEligibleIndividuals }}</span> people are eligible for SNAP benefits.</p> 
             <p>Of those eligible,<br /> 
-              <span class="total">{{ page.incomeEligible0To17 }}</span> are children, <span class="total">{{ page.incomeEligible18To64 }}</span> are adults, and <span class="total">{{ page.incomeEligible65Plus }}</span> are seniors.
+              <span class="total">{{ page.data.incomeEligible0To17 }}</span> are children, <span class="total">{{ page.data.incomeEligible18To64 }}</span> are adults, and <span class="total">{{ page.data.incomeEligible65Plus }}</span> are seniors.
             </p>
       	  </div>
         </div>
         <div class="row">
       	  <div class="half">
-      	  	{% assign arr = 'page.totalSnapRecipients|page.totalIncomeEligibleIndividuals' | split: '|' %}
+      	  	{% assign arr = 'page.data.totalSnapRecipients|page.data.totalIncomeEligibleIndividuals' | split: '|' %}
             {% assign b = arr | divide %}
-            Only <span class="total">{{ b | times: 100 }}</span> of eligible people are actually receiving SNAP benefits. This means <span class="total">{{ page.totalIncomeEligibleIndividuals | minus: page.totalSnapRecipients }}</span> people are not participating in SNAP benefits when they could be.
+            Only <span class="total">{{ b | times: 100 }}</span> of eligible people are actually receiving SNAP benefits. This means <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not participating in SNAP benefits when they could be.
           </div>
           <div class="half">
             <div id="participation"></div>
@@ -222,7 +222,7 @@ $(function() {
       		  <div id="percentbenefits"></div>
           </div>
           <div class="half">
-            SNAP only covers <span class="cost">{{ page.averageBenefitperMeal }}</span> of the <span class="total">{{ page.weightedCostPerMeal }}</span> necessary for each meal.
+            SNAP only covers <span class="cost">{{ page.data.averageBenefitperMeal }}</span> of the <span class="total">{{ page.data.weightedCostPerMeal }}</span> necessary for each meal.
       	  </div>
         </div>
       </section>
@@ -248,17 +248,21 @@ $(function() {
       </section>
     </div>
   </div>
-  <div class="crosslinks">
-  	{% for cta in page.calls_to_action %}
-      <div class="cta">
-      	<div class="bg-img">
-      		<img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
-      	</div>
-      	<div class="text">
-          <h3>{{ cta.title }}</h3>
-          <a class="button primary-btn" href="{{ cta.link.url }}">{{ cta.link.button_text }}</a>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+  {% if page.calls_to_action %}
+    <div class="crosslinks">
+      {% for cta in site.calls-to-action %}
+        {% if page.calls_to_action contains cta.id %}
+          <div class="cta">
+            <div class="bg-img">
+              <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+            </div>
+            <div class="text">
+              <h3>{{ cta.content }}</h3>
+              <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>
