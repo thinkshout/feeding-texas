@@ -153,8 +153,8 @@ $(function() {
       <section id="overview" class="content">
         <h2 class="section-header"><span>Overview</span></h2>
         <div class="item center-txt">
-          The cost of a meal is $<span id="cost-of-meal" class="cost">{{ page.weightedCostPerMeal }}</span>. That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.costOfFoodIndex | times: 100 }}%</span>
-          {% if page.costOfFoodIndex < 1 %}
+          The cost of a meal is $<span id="cost-of-meal" class="cost">{{ page.data.weightedCostPerMeal }}</span>. That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.data.costOfFoodIndex | times: 100 }}%</span>
+          {% if page.data.costOfFoodIndex < 1 %}
             less
           {% else %}
             more
@@ -162,12 +162,12 @@ $(function() {
           than the national average.
         </div>
         <div class="item center-txt"> 
-          <span id="insecurity-rate" class="percentage">{{ page.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.
+          <span id="insecurity-rate" class="percentage">{{ page.data.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.
         </div>
         <div class="item center-txt">
-          <span id="child-insecurity-rate" class="percentage">{{ page.childFoodInsecurityRate }}</span> of children in
+          <span id="child-insecurity-rate" class="percentage">{{ page.data.childFoodInsecurityRate }}</span> of children in
           in {{ page.county }} have experienced food insecurity in the last year.
-          That's <span id="insecure-children" class="total">{{ page.foodInsecureChildren }}</span> children going hungry.
+          That's <span id="insecure-children" class="total">{{ page.data.foodInsecureChildren }}</span> children going hungry.
         </div>
       </section>
       {% if page.constituent-story %}
@@ -187,17 +187,17 @@ $(function() {
           <div class="container">
             <div class="item">
               <div id="percentages"></div>
-              {{ page.totalIncomeEligibleIndividuals }} people are eligible for SNAP benefits. Of those eligible, {{ page.incomeEligible0To17 }} are children, {{ page.incomeEligible18To64 }} are adults, and {{ page.incomeEligible65Plus }} are seniors.
+              {{ page.data.totalIncomeEligibleIndividuals }} people are eligible for SNAP benefits. Of those eligible, {{ page.data.incomeEligible0To17 }} are children, {{ page.data.incomeEligible18To64 }} are adults, and {{ page.data.incomeEligible65Plus }} are seniors.
             </div>
             <div class="item">  
               <div id="participation"></div>
-              {% assign arr = 'page.totalSnapRecipients|page.totalIncomeEligibleIndividuals' | split: '|' %}
+              {% assign arr = 'page.data.totalSnapRecipients|page.data.totalIncomeEligibleIndividuals' | split: '|' %}
               {% assign b = arr | divide %}
-              Only {{ b | times: 100 }} of eligible people are actually receiving SNAP benefits. This means {{ page.totalIncomeEligibleIndividuals | minus: page.totalSnapRecipients }} people are not participating in SNAP benefits when they could be.
+              Only {{ b | times: 100 }} of eligible people are actually receiving SNAP benefits. This means {{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }} people are not participating in SNAP benefits when they could be.
             </div>
             <div class="item">
               <div id="percentbenefits"></div>
-              SNAP only covers ${{ page.averageBenefitperMeal }} of the ${{ page.weightedCostPerMeal }} necessary for each meal.
+              SNAP only covers ${{ page.data.averageBenefitperMeal }} of the ${{ page.data.weightedCostPerMeal }} necessary for each meal.
             </div>
           </div>
         </div>         
