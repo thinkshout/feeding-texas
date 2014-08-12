@@ -676,11 +676,70 @@ header nav.action {
   clear: both;
 }
 
-/* line 23, ../sass/layout/_layout.scss */
+/* line 24, ../sass/layout/_layout.scss */
+.row {
+  *zoom: 1;
+}
+/* line 16, ../sass/layout/_grid.scss */
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+/* line 20, ../sass/layout/_grid.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 28, ../sass/layout/_layout.scss */
+.half {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 30, ../sass/layout/_layout.scss */
+.half:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 33, ../sass/layout/_layout.scss */
+.third {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 35, ../sass/layout/_layout.scss */
+.third:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 38, ../sass/layout/_layout.scss */
+.quarter {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 40, ../sass/layout/_layout.scss */
+.quarter:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 43, ../sass/layout/_layout.scss */
 .main {
   margin-top: 1em;
 }
-/* line 26, ../sass/layout/_layout.scss */
+/* line 46, ../sass/layout/_layout.scss */
 .main section,
 .main article {
   *zoom: 1;
@@ -698,7 +757,7 @@ header nav.action {
   clear: both;
 }
 @media (min-width: 55em) {
-  /* line 28, ../sass/layout/_layout.scss */
+  /* line 48, ../sass/layout/_layout.scss */
   .main section .left,
   .main article .left {
     width: 100%;
@@ -708,7 +767,7 @@ header nav.action {
   }
 }
 @media (min-width: 62.5em) {
-  /* line 28, ../sass/layout/_layout.scss */
+  /* line 48, ../sass/layout/_layout.scss */
   .main section .left,
   .main article .left {
     width: 57.62712%;
@@ -718,7 +777,7 @@ header nav.action {
   }
 }
 @media (min-width: 55em) {
-  /* line 36, ../sass/layout/_layout.scss */
+  /* line 56, ../sass/layout/_layout.scss */
   .main section .right,
   .main article .right {
     width: 100%;
@@ -728,7 +787,7 @@ header nav.action {
   }
 }
 @media (min-width: 62.5em) {
-  /* line 36, ../sass/layout/_layout.scss */
+  /* line 56, ../sass/layout/_layout.scss */
   .main section .right,
   .main article .right {
     width: 40.67797%;
@@ -742,21 +801,21 @@ header nav.action {
   }
 }
 
-/* line 49, ../sass/layout/_layout.scss */
+/* line 69, ../sass/layout/_layout.scss */
 .content-bottom .main {
   width: 57.62712%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 52, ../sass/layout/_layout.scss */
+/* line 72, ../sass/layout/_layout.scss */
 .content-bottom .main article .hero {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 55, ../sass/layout/_layout.scss */
+/* line 75, ../sass/layout/_layout.scss */
 .content-bottom .main article .leadin {
   width: 100%;
   float: left;
@@ -768,7 +827,7 @@ header nav.action {
   *margin-left: -1em;
   display: inline;
 }
-/* line 62, ../sass/layout/_layout.scss */
+/* line 82, ../sass/layout/_layout.scss */
 .content-bottom .sidebar-second {
   width: 40.67797%;
   float: left;
@@ -780,7 +839,7 @@ header nav.action {
   display: inline;
 }
 
-/* line 68, ../sass/layout/_layout.scss */
+/* line 88, ../sass/layout/_layout.scss */
 footer {
   *zoom: 1;
   clear: both;
@@ -1514,21 +1573,15 @@ footer nav.secondary ul li a {
   position: absolute;
   top: 3em;
   left: 50%;
-  margin-left: -12em;
+  margin-left: -18em;
   padding: 3.5em 1em 0;
-  width: 24em;
+  width: 36em;
   height: 24em;
   display: block;
-  background: rgba(233, 121, 0, 0.65);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
   text-align: center;
   color: #FFF;
 }
-/* line 45, ../sass/components/_page-headers.scss */
+/* line 43, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header h1.page-title {
   color: white;
 }

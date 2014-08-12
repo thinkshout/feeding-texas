@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="county-detail">
   <div class="highlighted">
-    <div class="wrap">
+  	<div class="wrap">
       <div class="bg-img">
         <div id="map">
           <script type="text/javascript">
@@ -26,32 +26,45 @@ layout: default
       </div>
       <div class="page-header">
         <h1 class="page-title">{{ page.county }} County <span class="postal">{{ page.zip }}</span></h1>
-        <h3>{{ page.subhead }}</h3>
-        <a class="button primary-cta" href="#help">Get Help</a>
+      	<h3>{{ page.subhead }}</h3>
+      	<a class="button primary-cta" href="#help">Get Help</a>
       </div>
     </div>
   </div>
   <div class="main">
     <div class="wrap">
       <section id="overview" class="content">
-        <h2 class="section-header"><span>Overview</span></h2>
-        <div class="item center-txt">
-          The cost of a meal is <span id="cost-of-meal" class="cost">{{ page.weightedCostPerMeal }}</span>. That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.costOfFoodIndex | times: 100 }}%</span>
-          {% if page.costOfFoodIndex < 1 %}
-            less
-          {% else %}
-            more
-          {% endif %}
-          than the national average.
+        <!-- Meal Cost -->
+        <div class="row">
+          <div class="half">
+            <p>The cost of a meal is <span id="cost-of-meal" class="cost">{{ page.weightedCostPerMeal }}</span></p>
+          </div>
+          <div class="half">
+            <p>That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.costOfFoodIndex | times: 100 }}%</span>{% if page.costOfFoodIndex < 1 %} less {% else %} more {% endif %} than the national average.</p>
+          </div>
         </div>
-        <div class="item center-txt"> 
-          <span id="insecurity-rate" class="percentage">{{ page.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.
+
+        <!-- Food Insecurity -->
+        <div class="row">
+          <div class="half">
+          
+          </div>
+          <div class="half">	
+            <p><span id="insecurity-rate" class="percentage">{{ page.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.</p>
+      	 </div>
         </div>
-        <div class="item center-txt">
-          <span id="child-insecurity-rate" class="percentage">{{ page.childFoodInsecurityRate }}</span> of children in
-          in {{ page.county }} have experienced food insecurity in the last year.
-          That's <span id="insecure-children" class="total">{{ page.foodInsecureChildren }}</span> children going hungry.
+
+        <!-- Childhood Insecurity -->
+        <div class="row">
+          <div class="half">
+          
+          </div>
+      	  <div class="half">
+            <p><span id="child-insecurity-rate" class="percentage">{{ page.childFoodInsecurityRate }}</span> of children in {{ page.county }} have experienced food insecurity in the last year.</p>
+            <p>That's <span id="insecure-children" class="total">{{ page.foodInsecureChildren }}</span> children going hungry.</p>
+      	  </div>
         </div>
+
       </section>
       {% if page.constituent-story %}
         <section class="content">
@@ -65,59 +78,66 @@ layout: default
         </section>
       {% endif %}
       <section id="eligibility">
-        <h2 class="section-header"><span>Eligibility</span></h2>
-        <div class="block-grid">
-          <div class="container">
-            <div class="item">
-              <div id="percentages"></div>
-              {{ page.totalIncomeEligibleIndividuals }} people are eligible for SNAP benefits. Of those eligible, {{ page.incomeEligible0To17 }} are children, {{ page.incomeEligible18To64 }} are adults, and {{ page.incomeEligible65Plus }} are seniors.
-            </div>
-            <div class="item">  
-              <div id="participation"></div>
-              {% assign arr = 'page.totalSnapRecipients|page.totalIncomeEligibleIndividuals' | split: '|' %}
-              {% assign b = arr | divide %}
-              Only {{ b | times: 100 }} of eligible people are actually receiving SNAP benefits. This means {{ page.totalIncomeEligibleIndividuals | minus: page.totalSnapRecipients }} people are not participating in SNAP benefits when they could be.
-            </div>
-            <div class="item">
-              <div id="percentbenefits"></div>
-              SNAP only covers {{ page.averageBenefitperMeal }} of the {{ page.weightedCostPerMeal }} necessary for each meal.
-            </div>
+      	<h2 class="section-header"><span>Eligibility</span></h2>
+      	<div class="row">
+          <div class="half">
+            <div id="percentages"></div>
           </div>
-        </div>         
+          <div class="half">
+            <p><span class="total">{{ page.totalIncomeEligibleIndividuals }}</span> people are eligible for SNAP benefits.</p> 
+            <p>Of those eligible,<br /> 
+              <span class="total">{{ page.incomeEligible0To17 }}</span> are children, <span class="total">{{ page.incomeEligible18To64 }}</span> are adults, and <span class="total">{{ page.incomeEligible65Plus }}</span> are seniors.
+            </p>
+      	  </div>
+        </div>
+        <div class="row">
+      	  <div class="half">
+      	  	{% assign arr = 'page.totalSnapRecipients|page.totalIncomeEligibleIndividuals' | split: '|' %}
+            {% assign b = arr | divide %}
+            Only <span class="total">{{ b | times: 100 }}</span> of eligible people are actually receiving SNAP benefits. This means <span class="total">{{ page.totalIncomeEligibleIndividuals | minus: page.totalSnapRecipients }}</span> people are not participating in SNAP benefits when they could be.
+          </div>
+          <div class="half">
+            <div id="participation"></div>
+      	  </div>
+        </div>
+        <div class="row">
+      	  <div class="half">
+      		  <div id="percentbenefits"></div>
+          </div>
+          <div class="half">
+            SNAP only covers <span class="cost">{{ page.averageBenefitperMeal }}</span> of the <span class="total">{{ page.weightedCostPerMeal }}</span> necessary for each meal.
+      	  </div>
+        </div>
       </section>
       <section id="demographics">
-        <h2 class="section-header"><span>Demographics</span></h2>
-        <div class="block-grid">
-          <div class="container">
-            <div class="item">
-              <div id="percentrcvrace"></div>
-            </div>
-            <div class="item">
-              <div id="percentrcvworking"></div>
-            </div>
-            <div class="item">
-              <div id="percentrcvage"></div>
-            </div>
-            <div class="item">
-              <div id="percentrcvethnicity"></div>
-            </div>
-          </div>
-        </div>         
+      	<h2 class="section-header"><span>Demographics</span></h2>
+        <div class="half">
+          <div id="percentrcvrace"></div>
+      	</div>
+      	<div class="half">
+          <div id="percentrcvworking"></div>
+      	</div>
+      	<div class="half">
+          <div id="percentrcvage"></div>
+      	</div>
+      	<div class="half">
+          <div id="percentrcvethnicity"></div>
+      	</div>
       </section>
       <section id="help" class="content">
         <h2 class="section-header"><span>Get Help</span></h2>
-        <p>SNAP saved us, said Sarah. In a recent Giving City Magazine interview, Sarah shared that SNAP has helped them to do more than merely survive in the face of debilitating health problems, pending surgeries, expensive medications and no health insurance. Thanks to vegetables seeds purchased with her SNAP benefits, Sara tends to her garden at home. "The smallest victories in those garden beds represent the tenacity of life," Sarah said.</p>
-        <a class="button primary-cta" href="#">Tell us your story</a>
+        <h3>{{ page.foodBank }}</h3>
+        <p>{{ page.website }}</p>
       </section>
     </div>
   </div>
   <div class="crosslinks">
-    {% for cta in page.calls_to_action %}
+  	{% for cta in page.calls_to_action %}
       <div class="cta">
-        <div class="bg-img">
-          <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
-        </div>
-        <div class="text">
+      	<div class="bg-img">
+      		<img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+      	</div>
+      	<div class="text">
           <h3>{{ cta.title }}</h3>
           <a class="button primary-btn" href="{{ cta.link.url }}">{{ cta.link.button_text }}</a>
         </div>

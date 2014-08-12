@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Home
+calls_to_action:
+  - 1
+  - 2
 ---
 
 <div class="highlighted">
@@ -68,9 +71,24 @@ title: Home
     </section>
     <aside class="sidebar-second">
       {% include widgets/email-signup.html %}
-      <img src="http://placehold.it/450x200&text=Twitter Widget" />
     </aside>
   </div>
 </div>  
 
-
+{% if page.calls_to_action %}
+  <div class="crosslinks">
+    {% for cta in site.calls-to-action %}
+      {% if page.calls_to_action contains cta.id %}
+        <div class="cta">
+          <div class="bg-img">
+            <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+          </div>
+          <div class="text">
+            <h3>{{ cta.content }}</h3>
+            <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

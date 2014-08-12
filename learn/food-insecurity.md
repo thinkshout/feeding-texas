@@ -15,9 +15,9 @@ featured_statistic:
 intro:
   title: The Issue
   text: |
-    Food insecurity is the most broadly-used measure of food deprivation in the United States. The USDA defines food insecurity as meaning “consistent access to adequate food is limited by a lack of money and other resources at times during the year.”
+    The problem of hunger isn't simple, but it is solvable. Food insecurity is a useful way to define where and how our neighbors struggle to afford food. 
 
-    Food insecurity is most prevalent in households containing children, disabled individuals or the elderly. Every Texas county is touched by the struggle to afford enough food.
+    Learn how this metric helps us target our resources and evaluate progress, so that more families can access the nutrition they need to succeed and move forward.
 calls_to_action:
   - 1
   - 2
