@@ -7,7 +7,15 @@ layout: default
   	  <section class="content">
         <h2>{{ page.title }}</h2>
         <div class="post">
-        {{ content }}
+          {{ content }}
+        </div>
+        <div class="tags">
+        {% if page.tags.size > 0 %}
+          <div class="tags">
+            <span class="tag-label icon-bookmark-empty">Filed Under:</span>
+            {{ page.tags | tag_links }}
+          </div>
+        {% endif %}
         </div>
       </section>
     </div>

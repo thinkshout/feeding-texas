@@ -14,7 +14,7 @@ downloads:
   - title: Excel
     file: TFBN_SNAP_PAI_2011_v3.xlsx
 date:   2013-08-16 11:50:37
-categories: 
+tags: 
   - Food Insecurity
 featured: "true"
 ---

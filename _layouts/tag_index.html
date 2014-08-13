@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<link rel="alternate" type="application/rss+xml" title="RSS - {{ page.tag }}" href="{{ site.baseurl }}/tag/{{ page.tag }}/rss.xml" />
+
+<div class="content blog">
+  <div class="blog-header">
+	  <h1 class="post-title">Posts tagged "{{ page.tag }}"</h1>
+  </div>
+  <section class="main">
+    {% for post in site.tags[page.tag] reverse %}
+      <article>
+        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a><h3>
+        <p class="content-text">{{post.short}}</p>
+      </article>
+    {% endfor %}
+    <p><a href="{{ site.baseurl }}/{{ page.feed_url }}/rss.xml">Subscribe to posts tagged "{{ page.tag }}"</a></p>
+  </section>
+</div>
