@@ -5,7 +5,7 @@ pullquote: "Texas has done a good job making this program available, but student
 attribution: Celia Cole
 tweet: "...students clearly still face barriers and stigma in order to eat breakfast before the first bell."
 date:   2013-08-16 11:50:37
-categories: 
+tags: 
 ---
 State still leaving $59M in annual federal aid on the table
 

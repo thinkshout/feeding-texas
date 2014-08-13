@@ -6,7 +6,7 @@ attribution: Celia Cole
 tweet: 18.3 percent of Texans lived in food insecure homes in 2012
 date:   2013-08-16 11:50:37
 featured: "true"
-categories: 
+tags: 
 ---
 
 Austin – Research announced by the Texas Food Bank Network (TFBN) today shows that food insecurity remains prevalent among Texans despite the economic recovery. According to the new data, 18.3 percent of Texans lived in food insecure homes in 2012, including 1.9 million children.
