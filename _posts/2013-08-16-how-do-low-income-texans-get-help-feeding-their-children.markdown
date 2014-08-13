@@ -14,7 +14,7 @@ downloads:
   - title:
     file:
 date: 2013-08-16 11:50:37
-categories: 
+tags: 
   - SNAP
   - Child Nutrition Programs
 featured: "true"
