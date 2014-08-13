@@ -490,7 +490,7 @@ header .wrap {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   header .wrap:after {
     content: "";
     display: table;
@@ -526,12 +526,12 @@ header .wrap {
   }
 }
 /* line 18, ../sass/layout/_header.scss */
-header nav.primary {
+header .secondary {
   overflow: hidden;
 }
 @media (min-width: 34.375em) {
   /* line 18, ../sass/layout/_header.scss */
-  header nav.primary {
+  header .secondary {
     width: 100%;
     float: left;
     margin-right: 1.69492%;
@@ -540,7 +540,7 @@ header nav.primary {
 }
 @media (min-width: 55em) {
   /* line 18, ../sass/layout/_header.scss */
-  header nav.primary {
+  header .secondary {
     width: 100%;
     float: left;
     margin-right: 1.69492%;
@@ -549,6 +549,55 @@ header nav.primary {
 }
 @media (min-width: 62.5em) {
   /* line 18, ../sass/layout/_header.scss */
+  header .secondary {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 62.5em) {
+  /* line 29, ../sass/layout/_header.scss */
+  header .secondary nav {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 62.5em) {
+  /* line 34, ../sass/layout/_header.scss */
+  header .secondary form {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+/* line 40, ../sass/layout/_header.scss */
+header nav.primary {
+  overflow: hidden;
+}
+@media (min-width: 34.375em) {
+  /* line 40, ../sass/layout/_header.scss */
+  header nav.primary {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 55em) {
+  /* line 40, ../sass/layout/_header.scss */
+  header nav.primary {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 62.5em) {
+  /* line 40, ../sass/layout/_header.scss */
   header nav.primary {
     width: 66.10169%;
     float: left;
@@ -556,12 +605,12 @@ header nav.primary {
     display: inline;
   }
 }
-/* line 30, ../sass/layout/_header.scss */
+/* line 52, ../sass/layout/_header.scss */
 header nav.action {
   overflow: hidden;
 }
 @media (min-width: 34.375em) {
-  /* line 30, ../sass/layout/_header.scss */
+  /* line 52, ../sass/layout/_header.scss */
   header nav.action {
     width: 100%;
     float: left;
@@ -580,7 +629,7 @@ header nav.action {
   }
 }
 @media (min-width: 55em) {
-  /* line 30, ../sass/layout/_header.scss */
+  /* line 52, ../sass/layout/_header.scss */
   header nav.action {
     width: 49.15254%;
     float: left;
@@ -593,7 +642,7 @@ header nav.action {
   }
 }
 @media (min-width: 62.5em) {
-  /* line 30, ../sass/layout/_header.scss */
+  /* line 52, ../sass/layout/_header.scss */
   header nav.action {
     width: 23.72881%;
     float: left;
@@ -617,7 +666,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .wrap:after {
     content: "";
     display: table;
@@ -638,7 +687,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .the-latest .wrap:after {
     content: "";
     display: table;
@@ -659,7 +708,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .highlighted .wrap:after {
     content: "";
     display: table;
@@ -1536,80 +1585,98 @@ a:focus {
   font-weight: 400;
   display: block;
   padding: 0 0.75em;
-  line-height: 110px;
-  color: #2e2118;
 }
 
-/* line 25, ../sass/components/_navigation.scss */
+/* line 23, ../sass/components/_navigation.scss */
 .primary {
   display: none;
+  font-size: 1.1em;
+  line-height: 3em;
 }
 @media (min-width: 34.375em) {
-  /* line 25, ../sass/components/_navigation.scss */
+  /* line 23, ../sass/components/_navigation.scss */
   .primary {
     width: 100%;
     float: none;
   }
 }
 @media (min-width: 55em) {
-  /* line 25, ../sass/components/_navigation.scss */
+  /* line 23, ../sass/components/_navigation.scss */
   .primary {
     display: block;
   }
 }
 
-/* line 49, ../sass/components/_navigation.scss */
+/* line 47, ../sass/components/_navigation.scss */
+header .secondary {
+  border-bottom: 1px solid #f6f3f0;
+  line-height: 3em;
+}
+/* line 50, ../sass/components/_navigation.scss */
+header .secondary ul li a {
+  color: #53682b;
+}
+/* line 53, ../sass/components/_navigation.scss */
+header .secondary form {
+  float: right;
+}
+/* line 55, ../sass/components/_navigation.scss */
+header .secondary form button {
+  display: none;
+}
+
+/* line 66, ../sass/components/_navigation.scss */
 .basic .main .content .subnav {
   text-align: center;
   margin: 1em 0;
 }
-/* line 52, ../sass/components/_navigation.scss */
+/* line 69, ../sass/components/_navigation.scss */
 .basic .main .content .subnav ul {
   padding: 0;
   margin: 0;
 }
-/* line 55, ../sass/components/_navigation.scss */
+/* line 72, ../sass/components/_navigation.scss */
 .basic .main .content .subnav ul li {
   display: inline-block;
   list-style: none;
 }
-/* line 58, ../sass/components/_navigation.scss */
+/* line 75, ../sass/components/_navigation.scss */
 .basic .main .content .subnav ul li a {
   padding: 0.5em;
 }
 
-/* line 69, ../sass/components/_navigation.scss */
+/* line 86, ../sass/components/_navigation.scss */
 .subnav {
   text-align: center;
 }
-/* line 71, ../sass/components/_navigation.scss */
+/* line 88, ../sass/components/_navigation.scss */
 .subnav ul {
   margin: 0;
   padding: 0;
 }
-/* line 74, ../sass/components/_navigation.scss */
+/* line 91, ../sass/components/_navigation.scss */
 .subnav ul li {
   display: inline-block;
   list-style: none;
   padding: 1em;
   border-bottom: 1px solid #f1f1f1;
 }
-/* line 79, ../sass/components/_navigation.scss */
+/* line 96, ../sass/components/_navigation.scss */
 .subnav ul li a {
   text-decoration: none;
   color: #2e2118;
   padding: 0.75em;
 }
-/* line 84, ../sass/components/_navigation.scss */
+/* line 101, ../sass/components/_navigation.scss */
 .subnav ul li:last-child {
   border-bottom: 0;
 }
-/* line 88, ../sass/components/_navigation.scss */
+/* line 105, ../sass/components/_navigation.scss */
 .subnav ul li.active a {
   border-bottom: 1px solid #2e2118;
 }
 
-/* line 99, ../sass/components/_navigation.scss */
+/* line 116, ../sass/components/_navigation.scss */
 footer nav.primary ul li a,
 footer nav.secondary ul li a {
   color: #e98300;
@@ -1931,7 +1998,7 @@ ul.projects li a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   section.content:after {
     content: "";
     display: table;
