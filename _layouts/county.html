@@ -154,7 +154,7 @@ $(function() {
         <!-- Meal Cost -->
         <div class="row">
           <div class="half">
-            <p>The cost of a meal is <span id="cost-of-meal" class="cost">{{ page.data.weightedCostPerMeal }}</span></p>
+            <p>The cost of a meal is <span id="cost-of-meal" class="cost">${{ page.data.weightedCostPerMeal }}</span></p>
           </div>
           <div class="half">
             <p>That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.data.costOfFoodIndex | times: 100 }}%</span>{% if page.data.costOfFoodIndex < 1 %} less {% else %} more {% endif %} than the national average.</p>
@@ -196,33 +196,56 @@ $(function() {
       {% endif %}
       <section id="eligibility">
       	<h2 class="section-header"><span>Eligibility</span></h2>
-      	<div class="row">
-          <div class="half">
+      	<div id="ageEligibility" class="row">
+          <div class="half visualization">
             <div id="percentages"></div>
           </div>
-          <div class="half">
-            <p><span class="total">{{ page.data.totalIncomeEligibleIndividuals }}</span> people are eligible for SNAP benefits.</p> 
-            <p>Of those eligible,<br /> 
-              <span class="total">{{ page.data.incomeEligible0To17 }}</span> are children, <span class="total">{{ page.data.incomeEligible18To64 }}</span> are adults, and <span class="total">{{ page.data.incomeEligible65Plus }}</span> are seniors.
-            </p>
+          <div class="half narrative">
+          	<div class="key-stat">
+              <p><span class="total">{{ page.data.totalIncomeEligibleIndividuals }}</span> people are eligible for SNAP benefits.</p>
+            </div>
+            <div id="eligibility-age-breakdown" class="row">
+            	<div class="third">
+            		<span class="total">{{ page.data.incomeEligible0To17 }}</span>children
+            	</div>
+            	<div class="third">
+            		<span class="total">{{ page.data.incomeEligible18To64 }}</span>adults
+            	</div>
+            	<div class="third">
+            		<span class="total">{{ page.data.incomeEligible65Plus }}</span>seniors
+            	</div>
+            </div>
       	  </div>
         </div>
-        <div class="row">
-      	  <div class="half">
-      	  	{% assign arr = 'page.data.totalSnapRecipients|page.data.totalIncomeEligibleIndividuals' | split: '|' %}
-            {% assign b = arr | divide %}
-            Only <span class="total">{{ b | times: 100 }}</span> of eligible people are actually receiving SNAP benefits. This means <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not participating in SNAP benefits when they could be.
+        <div id="utilization" class="row">
+      	  <div class="half narrative">
+      	  	<div class="key-stat">
+      	  	  {% assign arr = 'page.data.totalSnapRecipients|page.data.totalIncomeEligibleIndividuals' | split: '|' %}
+              {% assign b = arr | divide %}
+              <span class="total">{{ b | times: 100 }}</span> of eligible people are actually receiving SNAP benefits.
+            </div>
+            <div class="key-stat">
+              <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not participating in SNAP benefits when they could be.
+            </div>
           </div>
-          <div class="half">
+          <div class="half visualization">
             <div id="participation"></div>
       	  </div>
         </div>
-        <div class="row">
-      	  <div class="half">
+        <div id="benefit" class="row">
+      	  <div class="half visualization">
       		  <div id="percentbenefits"></div>
           </div>
-          <div class="half">
-            SNAP only covers <span class="cost">{{ page.data.averageBenefitperMeal }}</span> of the <span class="total">{{ page.data.weightedCostPerMeal }}</span> necessary for each meal.
+          <div class="half narrative">
+          	<div class="key-stat">
+          		SNAP only covers
+              <span class="cost collapse">${{ page.data.averageBenefitperMeal }}</span>
+              of the
+            </div>
+            <div class="key-stat">
+              <span class="total collapse">${{ page.data.weightedCostPerMeal }}</span>
+              necessary for each meal.
+            </div>
       	  </div>
         </div>
       </section>

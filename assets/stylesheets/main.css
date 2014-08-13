@@ -1011,7 +1011,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   z-index: 1;
 }
 
-/* line 3, ../sass/components/_county-statistics.scss */
+/* line 11, ../sass/components/_county-statistics.scss */
 .total,
 .cost,
 .percentage {
@@ -1022,6 +1022,51 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   display: inline-block;
   top: 10px;
   position: relative;
+}
+
+/* line 21, ../sass/components/_county-statistics.scss */
+.key-stat {
+  text-align: center;
+  font-size: 1.5em;
+}
+/* line 26, ../sass/components/_county-statistics.scss */
+.key-stat .total,
+.key-stat .cost,
+.key-stat .percentage {
+  display: block;
+}
+
+/* line 45, ../sass/components/_county-statistics.scss */
+#eligibility .row {
+  padding: 3em 0;
+}
+/* line 50, ../sass/components/_county-statistics.scss */
+#eligibility .row#utilization {
+  padding-top: 1em;
+}
+/* line 54, ../sass/components/_county-statistics.scss */
+#eligibility .row#benefit .narrative {
+  padding-top: 3em;
+}
+
+/* line 61, ../sass/components/_county-statistics.scss */
+#eligibility-age-breakdown {
+  border-top: 1px solid #d2d2d2;
+}
+/* line 63, ../sass/components/_county-statistics.scss */
+#eligibility-age-breakdown .third {
+  text-align: center;
+  border-right: 1px solid #d2d2d2;
+  padding-bottom: 0.5em;
+}
+/* line 67, ../sass/components/_county-statistics.scss */
+#eligibility-age-breakdown .third .total {
+  display: block;
+  padding: 0 0 0.25em;
+}
+/* line 71, ../sass/components/_county-statistics.scss */
+#eligibility-age-breakdown .third:last-child {
+  border-right: 0;
 }
 
 /* line 1, ../sass/components/_cross-links.scss */
@@ -1795,6 +1840,12 @@ h1.page-title {
 /* line 2, ../sass/components/_utility.scss */
 .center-txt {
   text-align: center;
+}
+
+/* line 6, ../sass/components/_utility.scss */
+.collapse {
+  padding: 0 0 0.25em;
+  margin-top: -0.125em;
 }
 
 /* line 2, ../sass/components/_work.scss */
