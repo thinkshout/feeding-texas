@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Blog
-calls_to_action:
-  - 1
-  - 2
 ---
 <div class="basic wrap">
   <div class="main">
@@ -27,7 +24,7 @@ calls_to_action:
       {% assign site_tags = site_tags | split:',' | sort %}
       {% for tag in site_tags %}
         <li>
-          <a href="/{{ site.tag_dir}}/{{ tag }}/">{{ tag }}</a>
+          <a href="/{{ site.tag_dir }}/{{ tag | downcase | replace: ' ', '-' }}/">{{ tag }}</a>
         </li>
       {% endfor %}
       </ul>
