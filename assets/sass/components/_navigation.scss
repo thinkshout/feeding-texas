@@ -13,8 +13,6 @@
         font-weight: 400;
         display: block;
         padding: 0 0.75em;
-        line-height: 110px;
-        color: $drkBrown;
       }
     }
   }
@@ -23,12 +21,14 @@
 
 // Primary
 .primary {
-	display: none;
-	@include breakpoint($bp-small, $no-query: false) {
-		width: 100%;
-		float: none;
+  display: none;
+  font-size: 1.1em;
+  line-height: 3em;
+  @include breakpoint($bp-small, $no-query: false) {
+    width: 100%;
+    float: none;
   }
-	@include breakpoint($bp-medium, $no-query: false) {
+  @include breakpoint($bp-medium, $no-query: false) {
     display: block;
   }
 }
@@ -40,6 +40,23 @@
 
 		}
 	}
+}
+
+// Secondary
+header {
+  .secondary {
+    border-bottom: 1px solid $beige;
+    line-height: 3em;
+    ul li a {
+      color: $green; 
+    }
+    form {
+      float: right;
+      button {
+        display: none;
+      } 
+    }
+  }
 }
 
 // Basic Page Subnavigation
