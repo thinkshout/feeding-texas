@@ -6,12 +6,36 @@
 
 }
 
+#cost,
+#people,
+#children {
+  display: block;
+  height: 150px;
+  width: 150px;
+  background-repeat: none;
+  margin: 0 auto;
+}
+
+#cost {
+  background: url(../images/svg/money.svg);
+  background-size: 150px 150px;
+}
+
+#people {
+  background: url(../images/svg/people.svg);
+  background-size: 150px 150px;
+}
+
+#children {
+  background: url(../images/svg/children.svg);
+  background-size: 150px 150px;
+}
+
 .total,
 .cost,
 .percentage {
-	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 3.5em;
-	font-weight: bold;
+	font-weight: 600;
 	padding: 0.25em 0;
 	display: inline-block;
   top: 10px;
@@ -38,6 +62,16 @@
 #insecurity-rate {}
 #child-insecurity-rate {}
 #insecure-children {}
+
+#overview {
+	.key-stat {
+		.total,
+    .cost,
+    .percentage {
+    	color: $orange;
+    }
+	}
+}
 
 
 // Eligibilty

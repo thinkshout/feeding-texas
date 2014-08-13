@@ -11,7 +11,7 @@ layout: default
 $(function() {
 
     Highcharts.theme = {
-        colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', 
+        colors: ['#53682B', '#E98300', '#0074B2', '#94723E', '#FF9B19', '#B0FF19', 
                  '#FF9655', '#FFF263', '#6AF9C4'],
         chart: {
             backgroundColor: null
@@ -120,7 +120,7 @@ $(function() {
 </script>
 <div class="county-detail">
   <div class="highlighted">
-  	<div class="wrap">
+    <div class="wrap">
       <div class="bg-img">
         <div id="map">
           <script type="text/javascript">
@@ -143,45 +143,36 @@ $(function() {
       </div>
       <div class="page-header">
         <h1 class="page-title">{{ page.county }} County <span class="postal">{{ page.zip }}</span></h1>
-      	<h3>{{ page.subhead }}</h3>
-      	<a class="button primary-cta" href="#help">Get Help</a>
+        <h3>{{ page.subhead }}</h3>
+        <a class="button primary-cta" href="#help">Get Help</a>
       </div>
     </div>
   </div>
   <div class="main">
     <div class="wrap">
-      <section id="overview" class="content">
-        <!-- Meal Cost -->
+      <section id="overview" class="content">     
         <div class="row">
-          <div class="half">
-            <p>The cost of a meal is <span id="cost-of-meal" class="cost">${{ page.data.weightedCostPerMeal }}</span></p>
+          <div class="third center-txt"><!-- Meal Cost -->
+            <div id="cost"></div>
+            <div class="key-stat">
+              <p><span id="cost-of-meal" class="cost collapse">${{ page.data.weightedCostPerMeal }}</span> Cost of a meal</p>
+            </div>
+            <p>That's <strong>{{ 1 | minus: page.data.costOfFoodIndex | times: 100 }}%</strong>{% if page.data.costOfFoodIndex < 1 %} less {% else %} more {% endif %} than the national average.</p>
           </div>
-          <div class="half">
-            <p>That's <span id="cost-vs-average" class="percentage">{{ 1 | minus: page.data.costOfFoodIndex | times: 100 }}%</span>{% if page.data.costOfFoodIndex < 1 %} less {% else %} more {% endif %} than the national average.</p>
+          <div class="third center-txt"><!-- Food Insecurity -->
+            <div id="people"></div>
+            <div class="key-stat">
+              <p><span id="insecurity-rate" class="percentage collapse">{{ page.data.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.</p>
+            </div>
+          </div>
+          <div class="third center-txt"><!-- Childhood Insecurity -->
+            <div id="children"></div>
+            <div class="key-stat">
+              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}</span> of children in {{ page.county }} have experienced food insecurity in the last year.</p>
+            </div>
+            <p>That's <strong>{{ page.data.foodInsecureChildren }}</strong> children going hungry.</p>
           </div>
         </div>
-
-        <!-- Food Insecurity -->
-        <div class="row">
-          <div class="half">
-          
-          </div>
-          <div class="half">	
-            <p><span id="insecurity-rate" class="percentage">{{ page.data.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.</p>
-      	 </div>
-        </div>
-
-        <!-- Childhood Insecurity -->
-        <div class="row">
-          <div class="half">
-          
-          </div>
-      	  <div class="half">
-            <p><span id="child-insecurity-rate" class="percentage">{{ page.data.childFoodInsecurityRate }}</span> of children in {{ page.county }} have experienced food insecurity in the last year.</p>
-            <p>That's <span id="insecure-children" class="total">{{ page.data.foodInsecureChildren }}</span> children going hungry.</p>
-      	  </div>
-        </div>
-
       </section>
       {% if page.constituent-story %}
         <section class="content">
@@ -195,32 +186,32 @@ $(function() {
         </section>
       {% endif %}
       <section id="eligibility">
-      	<h2 class="section-header"><span>Eligibility</span></h2>
-      	<div id="ageEligibility" class="row">
+        <h2 class="section-header"><span>Eligibility</span></h2>
+        <div id="ageEligibility" class="row">
           <div class="half visualization">
             <div id="percentages"></div>
           </div>
           <div class="half narrative">
-          	<div class="key-stat">
+            <div class="key-stat">
               <p><span class="total">{{ page.data.totalIncomeEligibleIndividuals }}</span> people are eligible for SNAP benefits.</p>
             </div>
             <div id="eligibility-age-breakdown" class="row">
-            	<div class="third">
-            		<span class="total">{{ page.data.incomeEligible0To17 }}</span>children
-            	</div>
-            	<div class="third">
-            		<span class="total">{{ page.data.incomeEligible18To64 }}</span>adults
-            	</div>
-            	<div class="third">
-            		<span class="total">{{ page.data.incomeEligible65Plus }}</span>seniors
-            	</div>
+              <div class="third">
+                <span class="total">{{ page.data.incomeEligible0To17 }}</span>children
+              </div>
+              <div class="third">
+                <span class="total">{{ page.data.incomeEligible18To64 }}</span>adults
+              </div>
+              <div class="third">
+                <span class="total">{{ page.data.incomeEligible65Plus }}</span>seniors
+              </div>
             </div>
-      	  </div>
+          </div>
         </div>
         <div id="utilization" class="row">
-      	  <div class="half narrative">
-      	  	<div class="key-stat">
-      	  	  {% assign arr = 'page.data.totalSnapRecipients|page.data.totalIncomeEligibleIndividuals' | split: '|' %}
+          <div class="half narrative">
+            <div class="key-stat">
+              {% assign arr = 'page.data.totalSnapRecipients|page.data.totalIncomeEligibleIndividuals' | split: '|' %}
               {% assign b = arr | divide %}
               <span class="total">{{ b | times: 100 }}</span> of eligible people are actually receiving SNAP benefits.
             </div>
@@ -230,15 +221,15 @@ $(function() {
           </div>
           <div class="half visualization">
             <div id="participation"></div>
-      	  </div>
+          </div>
         </div>
         <div id="benefit" class="row">
-      	  <div class="half visualization">
-      		  <div id="percentbenefits"></div>
+          <div class="half visualization">
+            <div id="percentbenefits"></div>
           </div>
           <div class="half narrative">
-          	<div class="key-stat">
-          		SNAP only covers
+            <div class="key-stat">
+              SNAP only covers
               <span class="cost collapse">${{ page.data.averageBenefitperMeal }}</span>
               of the
             </div>
@@ -246,23 +237,23 @@ $(function() {
               <span class="total collapse">${{ page.data.weightedCostPerMeal }}</span>
               necessary for each meal.
             </div>
-      	  </div>
+          </div>
         </div>
       </section>
       <section id="demographics">
-      	<h2 class="section-header"><span>Demographics</span></h2>
+        <h2 class="section-header"><span>Demographics</span></h2>
         <div class="half">
           <div id="percentrcvrace"></div>
-      	</div>
-      	<div class="half">
+        </div>
+        <div class="half">
           <div id="percentrcvworking"></div>
-      	</div>
-      	<div class="half">
+        </div>
+        <div class="half">
           <div id="percentrcvage"></div>
-      	</div>
-      	<div class="half">
+        </div>
+        <div class="half">
           <div id="percentrcvethnicity"></div>
-      	</div>
+        </div>
       </section>
       <section id="help" class="content">
         <h2 class="section-header"><span>Get Help</span></h2>
