@@ -19,14 +19,14 @@ title: Blog
     <section class="tags">
       <h2>Categories</h2>
       <ul>
-        <!-- Alphabetical list of site tags -->
-        {%capture site_tags %}{% for tag in site.tags %}{{ tag | first }},{%endfor%}{%endcapture%}
-        {% assign site_tags = site_tags | split:',' | sort %}
-        {% for tag in site_tags %}
+      <!-- Alphabetical list of site tags -->
+      {%capture site_tags %}{% for tag in site.tags %}{{ tag | first }},{%endfor%}{%endcapture%}
+      {% assign site_tags = site_tags | split:',' | sort %}
+      {% for tag in site_tags %}
         <li>
           <a href="/{{ site.tag_dir}}/{{ tag }}/">{{ tag }}</a>
         </li>
-        {% endfor %}
+      {% endfor %}
       </ul>
     </section>
   </div>

@@ -14,12 +14,12 @@ layout: default
         {{ content }}
       </div>
       <div class="tags">
-        {% if page.tags.size > 0 %}
-          <div class="tags">
-            <span class="tag-label icon-bookmark-empty">Filed Under:</span>
-            {{ page.tags | tag_links }}
-          </div>
-        {% endif %}
+      {% if page.tags.size > 0 %}
+        <div class="tags">
+          <span class="tag-label icon-bookmark-empty">Filed Under:</span>
+          {{ page.tags | tag_links }}
+        </div>
+      {% endif %}
       </div>
     </section>
 <!--     Related blog posts by tag
