@@ -1,17 +1,17 @@
 ---
 layout: blog
-title: Farm Bill Must Be Last Time Hungry Americans Are Made to Suffer
+title: "Schools feed more during summer, but Texas still missing $49 million"
 images: 
   hero: "http://placehold.it/1400x500&text=HERO"
   thumb: "http://placehold.it/450x300&text=THUMB"
-date: 
-  - 2013-08-16T11:50:37.000Z
-  - "Fri Aug 16 2013 04:50:37 GMT-0700 (PDT)"
-summary: When Congress passed a farm bill, they included a provision that will sharply reduce SNAP (aka food stamps) benefits for 850,000 households in sixteen states over the next decade.
+date:   2013-08-16 11:50:37
+summary: |
+  SNAP is the most unfairly maligned government program of the last decade. It has met the needs of millions of Americans impacted by the recession with documented efficiency and accuracy. It has lowered food insecurity rates, provided nutrition to millions of children, seniors and the disabled, and responded nimbly during times of disaster. Recent growth in the program is a testament to the shocking amount of poverty and food insufficiency in America today, not to any flaws in its design or performance.
 author: 1
-tags: null
-published: true
-featured: false
+tags: 
+  - SNAP
+  - Food Insecurity
+featured: "true"
 ---
 
 When Congress passed a farm bill, they included a provision that will sharply reduce SNAP (aka food stamps) benefits for 850,000 households in sixteen states over the next decade.
@@ -23,3 +23,4 @@ We understand the wrenching decision that several members of our House delegatio
 SNAP is the most unfairly maligned government program of the last decade. It has met the needs of millions of Americans impacted by the recession with documented efficiency and accuracy. It has lowered food insecurity rates, provided nutrition to millions of children, seniors and the disabled, and responded nimbly during times of disaster. Recent growth in the program is a testament to the shocking amount of poverty and food insufficiency in America today, not to any flaws in its design or performance.
 
 Is an agreement to cut SNAP benefits as record numbers of Americans struggle to put food on the table in our nation’s best interest? It is not. This vote must mark the end of the War on the Poor. Congress must stop balancing the budget on the backs of the most vulnerable, simply because they lack the political clout to fight back. This farm bill must be the last time that hungry Americans are made to suffer.
+
