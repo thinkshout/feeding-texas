@@ -1,5 +1,6 @@
 ---
 layout: staff
+id: 2
 name: Brett Heckman
 position: User Experience Lead
 image: http://thinkshout.com/assets/images/team/large/brett.jpg
