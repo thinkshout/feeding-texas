@@ -1,0 +1,13 @@
+.blog-detail {
+  .wrap {
+    .page-header {
+      max-width: 50em;
+      margin-left: -25em;
+      padding: 1.5em 0 0;
+      h1.page-title {
+        color: $black;
+        font-size: 4em;
+      }
+    }
+  }
+}
