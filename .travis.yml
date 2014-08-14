@@ -1,7 +1,8 @@
 language: ruby
 rvm:
 - 2.0.0
-script: "./_scripts/travis_build.sh"
+script:
+  - bundle exec rake publish
 branches:
   only:
   - master
