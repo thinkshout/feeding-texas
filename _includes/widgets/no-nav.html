@@ -1,0 +1,12 @@
+{% assign url_parts = page.url %}
+{% for node in site.pages %}
+  {% if url_parts contains node.group %}
+    {% if node.title != null %}
+      {% if page.url == node.url %}
+        <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+        {% else %}
+        <li><a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
