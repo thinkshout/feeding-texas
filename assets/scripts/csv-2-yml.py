@@ -55,6 +55,7 @@ def build_zip_var():
         # set latitude and longitude to be used for map marker creation
         'latitude': row[4].strip(),
         'longitude': row[9].strip(),
+        'data': {}
       }
       # if zip code has a polygon, include it
       if row[11]:
@@ -83,6 +84,8 @@ def add_overview(zip_var):
         fffound.append(row[0].lower().strip())
         for zip_code in COUNTY_ZIP_MAP[row[0].lower().strip()]:
           zip_var[zip_code]['foodBank'] = row[1].strip()
+          zip_var[zip_code]['address'] = row[2].strip()
+          zip_var[zip_code]['phone'] = row[3].strip()
           zip_var[zip_code]['website'] = row[4].strip()
 
   with open('Food_Insecurity.csv', 'rU') as csvfile:
@@ -98,11 +101,11 @@ def add_overview(zip_var):
       else:
         fffound.append(row[0].lower().strip())
         for zip_code in COUNTY_ZIP_MAP[row[0].lower().strip()]:
-          zip_var[zip_code]['individualFoodInsecurityRate'] = row[1].strip()
-          zip_var[zip_code]['childFoodInsecurityRate'] = row[3].strip()
-          zip_var[zip_code]['foodInsecureChildren'] = row[4].strip()
-          zip_var[zip_code]['costOfFoodIndex'] = row[5].strip()
-          zip_var[zip_code]['weightedCostPerMeal'] = row[6].strip()
+          zip_var[zip_code]['data']['individualFoodInsecurityRate'] = row[1].strip()
+          zip_var[zip_code]['data']['childFoodInsecurityRate'] = row[3].strip()
+          zip_var[zip_code]['data']['foodInsecureChildren'] = row[4].strip()
+          zip_var[zip_code]['data']['costOfFoodIndex'] = row[5].strip()
+          zip_var[zip_code]['data']['weightedCostPerMeal'] = row[6].strip().replace('$', '')
   
   return zip_var
 
@@ -118,17 +121,17 @@ def add_eligibility(zip_var):
       # include entries for all zips there are data for
       if not(row[2].strip() in zip_var):
         # missing_zips.append((row[2], row[0]))
-        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip()}  
-      zip_var[row[2]]['totalSnapRecipients'] = row[6].strip()
-      zip_var[row[2]]['averageBenefitperMeal'] = row[8].strip()
-      zip_var[row[2]]['totalIncomeEligibleIndividuals'] = row[12].strip()
-      zip_var[row[2]]['incomeEligible0To17'] = row[13].strip()
-      zip_var[row[2]]['incomeEligible18To64'] = row[14].strip()
-      zip_var[row[2]]['incomeEligible65Plus'] = row[15].strip()
-      zip_var[row[2]]['totalIncomeEligibleButNotReceiving'] = row[16].strip()
-      zip_var[row[2]]['incomeEligibleButNotReceiving0To17'] = row[17].strip()
-      zip_var[row[2]]['incomeEligibleButNotReceiving18To64'] = row[18].strip()
-      zip_var[row[2]]['incomeEligibleButNotReceiving65Plus'] = row[19].strip()
+        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip(), 'data': {}}  
+      zip_var[row[2]]['data']['totalSnapRecipients'] = row[6].strip()
+      zip_var[row[2]]['data']['averageBenefitperMeal'] = row[8].strip().replace('$', '')
+      zip_var[row[2]]['data']['totalIncomeEligibleIndividuals'] = row[12].strip()
+      zip_var[row[2]]['data']['incomeEligible0To17'] = row[13].strip()
+      zip_var[row[2]]['data']['incomeEligible18To64'] = row[14].strip()
+      zip_var[row[2]]['data']['incomeEligible65Plus'] = row[15].strip()
+      zip_var[row[2]]['data']['totalIncomeEligibleButNotReceiving'] = row[16].strip()
+      zip_var[row[2]]['data']['incomeEligibleButNotReceiving0To17'] = row[17].strip()
+      zip_var[row[2]]['data']['incomeEligibleButNotReceiving18To64'] = row[18].strip()
+      zip_var[row[2]]['data']['incomeEligibleButNotReceiving65Plus'] = row[19].strip()
   return zip_var
 
 def add_demographics(zip_var):
@@ -144,21 +147,21 @@ def add_demographics(zip_var):
       # include entries for all zips there are data for
       if not(row[2].strip() in zip_var):
         # missing_zips.append((row[2], row[0]))
-        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip()}  
-      zip_var[row[2]]['recipients0To17'] = row[7].strip()
-      zip_var[row[2]]['recipients18To64'] = row[8].strip()
-      zip_var[row[2]]['recipients65Plus'] = row[9].strip()
-      zip_var[row[2]]['recipientRaceNativeAmerican'] = row[22].strip()
-      zip_var[row[2]]['recipientRaceAsian'] = row[23].strip()
-      zip_var[row[2]]['recipientRaceBlack'] = row[24].strip()
-      zip_var[row[2]]['recipientRacePacificIslander'] = row[25].strip()
-      zip_var[row[2]]['recipientRaceWhite'] = row[26].strip()
-      zip_var[row[2]]['recipientRaceMultiRace'] = row[27].strip()
-      zip_var[row[2]]['recipientRaceUnknownMissing'] = row[28].strip()
-      zip_var[row[2]]['recipientEthnicityHispanic'] = row[29].strip()
-      zip_var[row[2]]['recipientEthnicityNonHispanic'] = row[30].strip()
-      zip_var[row[2]]['recipientEthnicityUnknownMissing'] = row[31].strip()
-      zip_var[row[2]]['householdIncomeWithEarnedIncome'] = row[32].strip()
+        zip_var[row[2].strip()] = {'county': row[0].lower().strip(), 'zip': row[2].strip(), 'data': {}}  
+      zip_var[row[2]]['data']['recipients0To17'] = row[7].strip()
+      zip_var[row[2]]['data']['recipients18To64'] = row[8].strip()
+      zip_var[row[2]]['data']['recipients65Plus'] = row[9].strip()
+      zip_var[row[2]]['data']['recipientRaceNativeAmerican'] = row[22].strip()
+      zip_var[row[2]]['data']['recipientRaceAsian'] = row[23].strip()
+      zip_var[row[2]]['data']['recipientRaceBlack'] = row[24].strip()
+      zip_var[row[2]]['data']['recipientRacePacificIslander'] = row[25].strip()
+      zip_var[row[2]]['data']['recipientRaceWhite'] = row[26].strip()
+      zip_var[row[2]]['data']['recipientRaceMultiRace'] = row[27].strip()
+      zip_var[row[2]]['data']['recipientRaceUnknownMissing'] = row[28].strip()
+      zip_var[row[2]]['data']['recipientEthnicityHispanic'] = row[29].strip()
+      zip_var[row[2]]['data']['recipientEthnicityNonHispanic'] = row[30].strip()
+      zip_var[row[2]]['data']['recipientEthnicityUnknownMissing'] = row[31].strip()
+      zip_var[row[2]]['data']['householdIncomeWithEarnedIncome'] = row[32].strip()
   return zip_var
 
 def write_yml_files(zip_var):
@@ -171,7 +174,7 @@ def write_yml_files(zip_var):
   os.chdir('_counties')
   # write a markdown file for each zip code
   for zip_code in zip_var.keys():
-    with open(zip_code + '.markdown', 'w') as outfile:
+    with open(zip_code + '.md', 'w') as outfile:
       # begin yml frontmatter
       outfile.write('---\n')
       # write static variables we want for all county items to frontmatter
@@ -189,6 +192,11 @@ def write_yml_files(zip_var):
               lon, lat = i.split(',')
               outfile.write('    latitude: ' + lat.strip() + '\n')
               outfile.write('    longitude: ' + lon.strip() + '\n')
+          continue
+        elif var == 'data':
+          outfile.write(var + ':\n')
+          for i in zip_var[zip_code][var]:
+            outfile.write('  ' + i + ': ' + zip_var[zip_code][var][i] + '\n')
           continue
         outfile.write(var + ': ' + zip_var[zip_code][var] + '\n')
       # end yml frontmatter

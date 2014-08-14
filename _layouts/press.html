@@ -7,9 +7,34 @@ layout: default
   	  <section class="content">
         <h2>{{ page.title }}</h2>
         <div class="post">
-        {{ content }}
+          {{ content }}
+        </div>
+        <div class="tags">
+        {% if page.tags.size > 0 %}
+          <div class="tags">
+            <span class="tag-label icon-bookmark-empty">Filed Under:</span>
+            {{ page.tags | tag_links }}
+          </div>
+        {% endif %}
         </div>
       </section>
     </div>
   </div>
 </div>
+{% if page.calls_to_action %}
+  <div class="crosslinks">
+    {% for cta in site.calls-to-action %}
+      {% if page.calls_to_action contains cta.id %}
+        <div class="cta">
+          <div class="bg-img">
+            <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+          </div>
+          <div class="text">
+            <h3>{{ cta.content }}</h3>
+            <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

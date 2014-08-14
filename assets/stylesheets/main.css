@@ -490,7 +490,7 @@ header .wrap {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   header .wrap:after {
     content: "";
     display: table;
@@ -526,12 +526,12 @@ header .wrap {
   }
 }
 /* line 18, ../sass/layout/_header.scss */
-header nav.primary {
+header .secondary {
   overflow: hidden;
 }
 @media (min-width: 34.375em) {
   /* line 18, ../sass/layout/_header.scss */
-  header nav.primary {
+  header .secondary {
     width: 100%;
     float: left;
     margin-right: 1.69492%;
@@ -540,7 +540,7 @@ header nav.primary {
 }
 @media (min-width: 55em) {
   /* line 18, ../sass/layout/_header.scss */
-  header nav.primary {
+  header .secondary {
     width: 100%;
     float: left;
     margin-right: 1.69492%;
@@ -549,6 +549,55 @@ header nav.primary {
 }
 @media (min-width: 62.5em) {
   /* line 18, ../sass/layout/_header.scss */
+  header .secondary {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 62.5em) {
+  /* line 29, ../sass/layout/_header.scss */
+  header .secondary nav {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 62.5em) {
+  /* line 34, ../sass/layout/_header.scss */
+  header .secondary form {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+/* line 40, ../sass/layout/_header.scss */
+header nav.primary {
+  overflow: hidden;
+}
+@media (min-width: 34.375em) {
+  /* line 40, ../sass/layout/_header.scss */
+  header nav.primary {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 55em) {
+  /* line 40, ../sass/layout/_header.scss */
+  header nav.primary {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 62.5em) {
+  /* line 40, ../sass/layout/_header.scss */
   header nav.primary {
     width: 66.10169%;
     float: left;
@@ -556,12 +605,12 @@ header nav.primary {
     display: inline;
   }
 }
-/* line 30, ../sass/layout/_header.scss */
+/* line 52, ../sass/layout/_header.scss */
 header nav.action {
   overflow: hidden;
 }
 @media (min-width: 34.375em) {
-  /* line 30, ../sass/layout/_header.scss */
+  /* line 52, ../sass/layout/_header.scss */
   header nav.action {
     width: 100%;
     float: left;
@@ -580,7 +629,7 @@ header nav.action {
   }
 }
 @media (min-width: 55em) {
-  /* line 30, ../sass/layout/_header.scss */
+  /* line 52, ../sass/layout/_header.scss */
   header nav.action {
     width: 49.15254%;
     float: left;
@@ -593,7 +642,7 @@ header nav.action {
   }
 }
 @media (min-width: 62.5em) {
-  /* line 30, ../sass/layout/_header.scss */
+  /* line 52, ../sass/layout/_header.scss */
   header nav.action {
     width: 23.72881%;
     float: left;
@@ -617,7 +666,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .wrap:after {
     content: "";
     display: table;
@@ -638,7 +687,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .the-latest .wrap:after {
     content: "";
     display: table;
@@ -659,7 +708,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .highlighted .wrap:after {
     content: "";
     display: table;
@@ -676,11 +725,70 @@ header nav.action {
   clear: both;
 }
 
-/* line 23, ../sass/layout/_layout.scss */
+/* line 24, ../sass/layout/_layout.scss */
+.row {
+  *zoom: 1;
+}
+/* line 16, ../sass/layout/_grid.scss */
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+/* line 20, ../sass/layout/_grid.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 28, ../sass/layout/_layout.scss */
+.half {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 30, ../sass/layout/_layout.scss */
+.half:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 33, ../sass/layout/_layout.scss */
+.third {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 35, ../sass/layout/_layout.scss */
+.third:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 38, ../sass/layout/_layout.scss */
+.quarter {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 40, ../sass/layout/_layout.scss */
+.quarter:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 43, ../sass/layout/_layout.scss */
 .main {
   margin-top: 1em;
 }
-/* line 26, ../sass/layout/_layout.scss */
+/* line 46, ../sass/layout/_layout.scss */
 .main section,
 .main article {
   *zoom: 1;
@@ -698,7 +806,7 @@ header nav.action {
   clear: both;
 }
 @media (min-width: 55em) {
-  /* line 28, ../sass/layout/_layout.scss */
+  /* line 48, ../sass/layout/_layout.scss */
   .main section .left,
   .main article .left {
     width: 100%;
@@ -708,7 +816,7 @@ header nav.action {
   }
 }
 @media (min-width: 62.5em) {
-  /* line 28, ../sass/layout/_layout.scss */
+  /* line 48, ../sass/layout/_layout.scss */
   .main section .left,
   .main article .left {
     width: 57.62712%;
@@ -718,7 +826,7 @@ header nav.action {
   }
 }
 @media (min-width: 55em) {
-  /* line 36, ../sass/layout/_layout.scss */
+  /* line 56, ../sass/layout/_layout.scss */
   .main section .right,
   .main article .right {
     width: 100%;
@@ -728,7 +836,7 @@ header nav.action {
   }
 }
 @media (min-width: 62.5em) {
-  /* line 36, ../sass/layout/_layout.scss */
+  /* line 56, ../sass/layout/_layout.scss */
   .main section .right,
   .main article .right {
     width: 40.67797%;
@@ -742,21 +850,21 @@ header nav.action {
   }
 }
 
-/* line 49, ../sass/layout/_layout.scss */
+/* line 69, ../sass/layout/_layout.scss */
 .content-bottom .main {
   width: 57.62712%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 52, ../sass/layout/_layout.scss */
+/* line 72, ../sass/layout/_layout.scss */
 .content-bottom .main article .hero {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 55, ../sass/layout/_layout.scss */
+/* line 75, ../sass/layout/_layout.scss */
 .content-bottom .main article .leadin {
   width: 100%;
   float: left;
@@ -768,7 +876,7 @@ header nav.action {
   *margin-left: -1em;
   display: inline;
 }
-/* line 62, ../sass/layout/_layout.scss */
+/* line 82, ../sass/layout/_layout.scss */
 .content-bottom .sidebar-second {
   width: 40.67797%;
   float: left;
@@ -780,7 +888,7 @@ header nav.action {
   display: inline;
 }
 
-/* line 68, ../sass/layout/_layout.scss */
+/* line 88, ../sass/layout/_layout.scss */
 footer {
   *zoom: 1;
   clear: both;
@@ -950,6 +1058,99 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   top: 50%;
   width: 100%;
   z-index: 1;
+}
+
+/* line 11, ../sass/components/_county-statistics.scss */
+#cost,
+#people,
+#children {
+  display: block;
+  height: 150px;
+  width: 150px;
+  background-repeat: none;
+  margin: 0 auto;
+}
+
+/* line 19, ../sass/components/_county-statistics.scss */
+#cost {
+  background: url(../images/svg/money.svg);
+  background-size: 150px 150px;
+}
+
+/* line 24, ../sass/components/_county-statistics.scss */
+#people {
+  background: url(../images/svg/people.svg);
+  background-size: 150px 150px;
+}
+
+/* line 29, ../sass/components/_county-statistics.scss */
+#children {
+  background: url(../images/svg/children.svg);
+  background-size: 150px 150px;
+}
+
+/* line 36, ../sass/components/_county-statistics.scss */
+.total,
+.cost,
+.percentage {
+  font-size: 3.5em;
+  font-weight: 600;
+  padding: 0.25em 0;
+  display: inline-block;
+  top: 10px;
+  position: relative;
+}
+
+/* line 45, ../sass/components/_county-statistics.scss */
+.key-stat {
+  text-align: center;
+  font-size: 1.5em;
+}
+/* line 50, ../sass/components/_county-statistics.scss */
+.key-stat .total,
+.key-stat .cost,
+.key-stat .percentage {
+  display: block;
+}
+
+/* line 70, ../sass/components/_county-statistics.scss */
+#overview .key-stat .total,
+#overview .key-stat .cost,
+#overview .key-stat .percentage {
+  color: #e98300;
+}
+
+/* line 79, ../sass/components/_county-statistics.scss */
+#eligibility .row {
+  padding: 3em 0;
+}
+/* line 84, ../sass/components/_county-statistics.scss */
+#eligibility .row#utilization {
+  padding-top: 1em;
+}
+/* line 88, ../sass/components/_county-statistics.scss */
+#eligibility .row#benefit .narrative {
+  padding-top: 3em;
+}
+
+/* line 95, ../sass/components/_county-statistics.scss */
+#eligibility-age-breakdown {
+  border-top: 1px solid #d2d2d2;
+}
+/* line 97, ../sass/components/_county-statistics.scss */
+#eligibility-age-breakdown .third {
+  text-align: center;
+  border-right: 1px solid #d2d2d2;
+  padding-bottom: 0.5em;
+}
+/* line 101, ../sass/components/_county-statistics.scss */
+#eligibility-age-breakdown .third .total {
+  display: block;
+  padding: 0 0 0.25em;
+}
+/* line 105, ../sass/components/_county-statistics.scss */
+#eligibility-age-breakdown .third:last-child {
+  border-right: 0;
 }
 
 /* line 1, ../sass/components/_cross-links.scss */
@@ -1384,80 +1585,98 @@ a:focus {
   font-weight: 400;
   display: block;
   padding: 0 0.75em;
-  line-height: 110px;
-  color: #2e2118;
 }
 
-/* line 25, ../sass/components/_navigation.scss */
+/* line 23, ../sass/components/_navigation.scss */
 .primary {
   display: none;
+  font-size: 1.1em;
+  line-height: 3em;
 }
 @media (min-width: 34.375em) {
-  /* line 25, ../sass/components/_navigation.scss */
+  /* line 23, ../sass/components/_navigation.scss */
   .primary {
     width: 100%;
     float: none;
   }
 }
 @media (min-width: 55em) {
-  /* line 25, ../sass/components/_navigation.scss */
+  /* line 23, ../sass/components/_navigation.scss */
   .primary {
     display: block;
   }
 }
 
-/* line 49, ../sass/components/_navigation.scss */
+/* line 47, ../sass/components/_navigation.scss */
+header .secondary {
+  border-bottom: 1px solid #f6f3f0;
+  line-height: 3em;
+}
+/* line 50, ../sass/components/_navigation.scss */
+header .secondary ul li a {
+  color: #53682b;
+}
+/* line 53, ../sass/components/_navigation.scss */
+header .secondary form {
+  float: right;
+}
+/* line 55, ../sass/components/_navigation.scss */
+header .secondary form button {
+  display: none;
+}
+
+/* line 66, ../sass/components/_navigation.scss */
 .basic .main .content .subnav {
   text-align: center;
   margin: 1em 0;
 }
-/* line 52, ../sass/components/_navigation.scss */
+/* line 69, ../sass/components/_navigation.scss */
 .basic .main .content .subnav ul {
   padding: 0;
   margin: 0;
 }
-/* line 55, ../sass/components/_navigation.scss */
+/* line 72, ../sass/components/_navigation.scss */
 .basic .main .content .subnav ul li {
   display: inline-block;
   list-style: none;
 }
-/* line 58, ../sass/components/_navigation.scss */
+/* line 75, ../sass/components/_navigation.scss */
 .basic .main .content .subnav ul li a {
   padding: 0.5em;
 }
 
-/* line 69, ../sass/components/_navigation.scss */
+/* line 86, ../sass/components/_navigation.scss */
 .subnav {
   text-align: center;
 }
-/* line 71, ../sass/components/_navigation.scss */
+/* line 88, ../sass/components/_navigation.scss */
 .subnav ul {
   margin: 0;
   padding: 0;
 }
-/* line 74, ../sass/components/_navigation.scss */
+/* line 91, ../sass/components/_navigation.scss */
 .subnav ul li {
   display: inline-block;
   list-style: none;
   padding: 1em;
   border-bottom: 1px solid #f1f1f1;
 }
-/* line 79, ../sass/components/_navigation.scss */
+/* line 96, ../sass/components/_navigation.scss */
 .subnav ul li a {
   text-decoration: none;
   color: #2e2118;
   padding: 0.75em;
 }
-/* line 84, ../sass/components/_navigation.scss */
+/* line 101, ../sass/components/_navigation.scss */
 .subnav ul li:last-child {
   border-bottom: 0;
 }
-/* line 88, ../sass/components/_navigation.scss */
+/* line 105, ../sass/components/_navigation.scss */
 .subnav ul li.active a {
   border-bottom: 1px solid #2e2118;
 }
 
-/* line 99, ../sass/components/_navigation.scss */
+/* line 116, ../sass/components/_navigation.scss */
 footer nav.primary ul li a,
 footer nav.secondary ul li a {
   color: #e98300;
@@ -1501,21 +1720,15 @@ footer nav.secondary ul li a {
   position: absolute;
   top: 3em;
   left: 50%;
-  margin-left: -12em;
+  margin-left: -18em;
   padding: 3.5em 1em 0;
-  width: 24em;
+  width: 36em;
   height: 24em;
   display: block;
-  background: rgba(233, 121, 0, 0.65);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
   text-align: center;
   color: #FFF;
 }
-/* line 45, ../sass/components/_page-headers.scss */
+/* line 43, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header h1.page-title {
   color: white;
 }
@@ -1726,6 +1939,17 @@ h1.page-title {
   text-transform: uppercase;
 }
 
+/* line 2, ../sass/components/_utility.scss */
+.center-txt {
+  text-align: center;
+}
+
+/* line 6, ../sass/components/_utility.scss */
+.collapse {
+  padding: 0 0 0.25em;
+  margin-top: -0.125em;
+}
+
 /* line 2, ../sass/components/_work.scss */
 ul.projects {
   margin: 0;
@@ -1774,7 +1998,7 @@ ul.projects li a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   section.content:after {
     content: "";
     display: table;

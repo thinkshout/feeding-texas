@@ -15,6 +15,28 @@ header {
       @include span-columns(2,12);
     }
   }
+  .secondary {
+    overflow: hidden;
+    @include breakpoint($bp-small, $no-query: true) {
+      @include span-columns(12,12);
+    }
+    @include breakpoint($bp-medium, $no-query: true) {
+      @include span-columns(12,12);
+    }
+    @include breakpoint($bp-large, $no-query: true) {
+      @include span-columns(9,12);
+    }
+    nav {
+      @include breakpoint($bp-large, $no-query: true) {
+        @include span-columns(6,12);
+      }
+    }
+    form {
+      @include breakpoint($bp-large, $no-query: true) {
+        @include span-columns(4,12);
+      }
+    }
+  }
   nav.primary {
   	overflow: hidden;
     @include breakpoint($bp-small, $no-query: true) {

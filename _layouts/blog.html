@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-<div class="highlighted">
-	<div class="wrap">
-    <img src="{{ page.images.hero }}">
-  </div>
-</div>
 <div class="main">
 	<div class="wrap">
 	  <section class="content">
@@ -13,6 +8,34 @@ layout: default
       <div class="post">
         {{ content }}
       </div>
+      <div class="tags">
+      {% if page.tags.size > 0 %}
+        <div class="tags">
+          <span class="tag-label icon-bookmark-empty">Filed Under:</span>
+          {{ page.tags | tag_links }}
+        </div>
+      {% endif %}
+      </div>
     </section>
+<!--     Related blog posts by tag
+    only allow 1 related post per tag
+    limit 3 total  -->
+<!--     <div class="related-posts">
+      {% for tag in page.tags %}
+        {% unless outer-count >= '1'%}
+        <p>{{tags}}</p>
+        {% for post in site.tags[tag] reverse %}
+          {% unless inner-count >= '1'%}
+            <article>
+              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><h3>
+              <p class="content-text">{{post.summary}}</p>
+            </article>
+            {% capture inner-count %}{{ inner-count | plus: '1' }}{% endcapture %}
+          {%endunless%}
+        {%endfor%}
+        {% capture outer-count %}{{ outer-count | plus: '1' }}{% endcapture %}
+        {%endunless%}
+      {%endfor%}
+    </div> -->
   </div>
 </div>

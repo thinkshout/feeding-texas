@@ -15,48 +15,50 @@ $(document).ready(function(){
     // maxItems: 2
   });
 
-  // Filter products based on Product Type selection
-  $('#product-type').change(function(){
-    var type = $(this).val();
-    $('.product').hide();
-    if(type != "all"){
-      $('.product[data-type="'+type+'"]').show();
-    }
-    else {
-      $('.product').show();
-    }
-  });
+ /******
+   * Filter products based on Product Type and Topic Type selection
+   ******/
 
-  // Filter products based on Topic selection
-  $('#topic').change(function(){
-    var topic = $(this).val();
-    console.log(topic);
-    $('.product').hide();
-    if(topic != "all"){
-      $('.product[data-type]:contains(topic)').show();
-    }
-    else {
-      $('.product').show();
-    }
-  });
+  // Define elements (No fishing in the DOM more than necessary)
+  var productType = $('#product-type'),
+      topic       = $('#topic'),
+      products    = $('.product');
+  
+  // Listen for change on product-type and topic selects
+  productType.add(topic).change(function(){
 
-  $('#topic').change(function(){
-    var topic = $(this).val();
-    console.log(topic);
+    // Let's fish for this one since we are setting
+    // the value on the change event
+    var type  = $('#product-type').val();
+    var topic = $('#topic').val();
+    
+    // If type and topic are all
+    if (type === "all" && topic === "all") {
 
-    var classList = $('.product').attr('data-topic').split(/\s+/);
-    $.each( classList, function(index, item){
-      if (item === topic) {
-        $('.product').hide();
+      // Show all products
+      products.fadeIn(); 
+    } else {
+
+      //If not all types and topics loop over the products array
+      for (var i=0; i<products.length; i++) {
+
+        // If type and topic match an item
+        if ($(products[i]).data("topic").indexOf(topic) !== -1 && $(products[i]).data("type").indexOf(type) !== -1) {
+          $(products[i]).fadeIn();
+
+          // If only topic matches an item
+        } else if ( type === "all" && $(products[i]).data("topic").indexOf(topic) !== -1) {
+          $(products[i]).fadeIn();
+
+          // If only type matches an item
+        } else if ($(products[i]).data("type").indexOf(type) !== -1 && topic === "all") {
+          $(products[i]).fadeIn();
+
+          // Hide items we don't need 
+        } else  {
+          $(products[i]).fadeOut();
+        }
       }
-    });
-
-    $('.product').hide();
-    if(topic != "all"){
-      $('.product[data-type]:contains(topic)').show();
-    }
-    else {
-      $('.product').show();
     }
   });
 

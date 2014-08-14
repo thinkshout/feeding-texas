@@ -1,0 +1,109 @@
+.narrative {
+
+}
+
+.visualization {
+
+}
+
+#cost,
+#people,
+#children {
+  display: block;
+  height: 150px;
+  width: 150px;
+  background-repeat: none;
+  margin: 0 auto;
+}
+
+#cost {
+  background: url(../images/svg/money.svg);
+  background-size: 150px 150px;
+}
+
+#people {
+  background: url(../images/svg/people.svg);
+  background-size: 150px 150px;
+}
+
+#children {
+  background: url(../images/svg/children.svg);
+  background-size: 150px 150px;
+}
+
+.total,
+.cost,
+.percentage {
+	font-size: 3.5em;
+	font-weight: 600;
+	padding: 0.25em 0;
+	display: inline-block;
+  top: 10px;
+  position: relative;
+}
+
+.key-stat {
+	text-align: center;
+	font-size: 1.5em;
+	.total,
+	.cost,
+	.percentage {
+		display: block;
+	}
+}
+
+.total {}
+.cost {}
+.percentage {}
+
+
+#cost-of-meal {}
+#cost-vs-average {}
+#insecurity-rate {}
+#child-insecurity-rate {}
+#insecure-children {}
+
+#overview {
+	.key-stat {
+		.total,
+    .cost,
+    .percentage {
+    	color: $orange;
+    }
+	}
+}
+
+
+// Eligibilty
+#eligibility {
+  .row {
+  	padding: 3em 0;
+  	&#ageEligibility {
+
+  	}
+  	&#utilization {
+      padding-top: 1em;
+  	}
+  	&#benefit {
+  		.narrative {
+  			padding-top: 3em;
+  		}
+  	}
+  }
+}
+
+#eligibility-age-breakdown {
+	border-top: 1px solid #d2d2d2;
+	.third {
+		text-align: center;
+		border-right: 1px solid #d2d2d2;
+		padding-bottom: 0.5em;
+		.total {
+			display: block;
+			padding: 0 0 0.25em;
+		}
+		&:last-child {
+      border-right: 0;
+		}
+	}
+}
