@@ -1,13 +1,13 @@
 name: Feeding Texas
-description: 
+description:
 markdown: redcarpet
 highlighter: pygments
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-baseurl: /feeding-texas
+baseurl: ''
 port: 4003
-# url: 
+# url:
 
 twitter_handle: TexansVsHunger
 
@@ -21,7 +21,7 @@ location_dir: 'locations'
 # contact_redirect: 'thanks'
 tag_dir: 'blog/category'
 
-# Blog pagination.  
+# Blog pagination.
 # paginate: 10
 # paginate_path: "blog/page:num"
 
