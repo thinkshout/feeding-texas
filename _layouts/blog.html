@@ -1,41 +1,40 @@
 ---
 layout: default
 ---
-<div class="main">
-	<div class="wrap">
-	  <section class="content">
-      <h2>{{ page.title }}</h2>
-      <div class="post">
-        {{ content }}
+<div class="blog-detail">
+  <div class="highlighted">
+    <div class="wrap">
+      <div class="page-header">
+        <h1 class="page-title">{{ page.title }}</h1>
       </div>
-      <div class="tags">
-      {% if page.tags.size > 0 %}
-        <div class="tags">
-          <span class="tag-label icon-bookmark-empty">Filed Under:</span>
-          {{ page.tags | tag_links }}
+    </div>
+  </div>
+  <div class="main sidebar-second">
+  	<div class="wrap">
+  	  <section class="content">
+        <div class="post">
+          {{ content }}
         </div>
-      {% endif %}
-      </div>
-    </section>
-<!--     Related blog posts by tag
-    only allow 1 related post per tag
-    limit 3 total  -->
-<!--     <div class="related-posts">
-      {% for tag in page.tags %}
-        {% unless outer-count >= '1'%}
-        <p>{{tags}}</p>
-        {% for post in site.tags[tag] reverse %}
-          {% unless inner-count >= '1'%}
-            <article>
-              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><h3>
-              <p class="content-text">{{post.summary}}</p>
-            </article>
-            {% capture inner-count %}{{ inner-count | plus: '1' }}{% endcapture %}
-          {%endunless%}
-        {%endfor%}
-        {% capture outer-count %}{{ outer-count | plus: '1' }}{% endcapture %}
-        {%endunless%}
-      {%endfor%}
-    </div> -->
+      </section>
+      <aside class="sidebar-second">
+      	{% if page.author %}
+          {% for staff in site.staff %}
+            {% if page.author == staff.id %}
+              <img src="{{ staff.image }}">
+              <h3>{{ staff.name }}</h3>
+              <p>{{ staff.position }}</p>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        <div class="tags">
+          {% if page.tags.size > 0 %}
+            <div class="tags">
+              <span class="tag-label icon-bookmark-empty">Filed Under:</span>
+              {{ page.tags | tag_links }}
+            </div>
+          {% endif %}
+        </div>
+      </aside>
+    </div>
   </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: press
-title:  "Study Estimates 18.3 Percent of Texans Were “Food Insecure” in 2012"
+title:  "Study Estimates 18.3 Percent of Texans Were Food Insecure in 2012"
 pullquote: "Texas leads the nation in many ways, but we can’t be proud of ourselves as a state until this problem has been solved by our leaders and our local communities. Hunger doesn’t belong here."
 attribution: Celia Cole
 tweet: 18.3 percent of Texans lived in food insecure homes in 2012

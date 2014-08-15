@@ -1,6 +1,5 @@
 ---
 layout: page
-group: communities
 title: SNAPshot Texas
 images:
   hero: "http://placehold.it/1400x500&text=HERO"

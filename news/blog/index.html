@@ -2,22 +2,20 @@
 layout: default
 title: Blog
 ---
-<div class="basic wrap">
-  <div class="main">
+<div class="main sidebar-second">
+	<div class="wrap">
     <section class="content">
-    	<h1 class="page-title">Blog</h1>
       {% for post in site.posts %}
         {% if post.layout == "blog" %}
           <article>
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ post.summary }}</p>
-            <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+            <p>{{ post.summary }} <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a></p>
           </article> 
         {% endif %}
       {% endfor %} 
     </section>
-    <section class="tags">
-      <h2>Categories</h2>
+    <aside class="sidebar-second">
+      <h4>Categories</h4>
       <ul>
       <!-- Alphabetical list of site tags -->
       {%capture site_tags %}{% for tag in site.tags %}{{ tag | first }},{%endfor%}{%endcapture%}
@@ -28,7 +26,7 @@ title: Blog
         </li>
       {% endfor %}
       </ul>
-    </section>
+    </aside>
   </div>
 </div>
 

@@ -42,25 +42,21 @@
 
 .main {
   margin-top: 1em;
-  section,
-  article {
-    @include clearfix();
-    .left {
-      @include breakpoint($bp-medium, $no-query: false) {
-        @include span-columns(12);
-      }
-      @include breakpoint($bp-large, $no-query: false) {
-        @include span-columns(7,12);
-      }
+
+  &.sidebar-second {
+    .content {
+      @include span-columns(8,12);
     }
-    .right {
-      @include breakpoint($bp-medium, $no-query: false) {
-        @include span-columns(12);
-      }
-      @include breakpoint($bp-large, $no-query: false) {
-        @include span-columns(5,12);
-        @include omega;
-      }
+  
+    .sidebar-second {
+      @include span-columns(4,12);
+      @include omega;
+    }
+  }
+  &.no-sidebars {
+  	.content {
+      width: columns(8); 
+      margin: 0 auto;
     }
   }
 }

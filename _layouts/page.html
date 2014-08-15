@@ -14,10 +14,11 @@ layout: default
   </div>
   <div class="main">
     <div class="wrap">
-    	<div class="subnav">
-      	<ul>
-          {% assign pages_list = site.pages %}
-          {% assign group = page.group %}
+      <div class="subnav">
+        <ul class="parent-page">
+          {% include widgets/parent-page.html %}
+        </ul>
+        <ul>
           {% include widgets/subnav.html %}
         </ul>
       </div>
