@@ -1,12 +1,18 @@
-{% assign url_parts = page.url %}
-{% for node in site.pages %}
-  {% if url_parts contains node.group %}
-    {% if node.title != null %}
-      {% if page.url == node.url %}
-        <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
-        {% else %}
-        <li><a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-      {% endif %}
-    {% endif %}
-  {% endif %}
+{%assign url_parts = page.url | remove_first: "/" | split: "/"%}
+{%assign len = url_parts | size | minus: 1 %}
+{%for i in url_parts limit: len%}
+  {%capture base_url%}{{ base_url | append: "/" | append: i }}{%endcapture%}
 {% endfor %}
+
+{%for node in site.pages%}
+  {% if page.url == node.url %}
+    <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+  {%elsif node.url contains base_url%}
+    {%assign node_url_parts = node.url | remove_first: "/" | split: "/"%}
+    {%assign url_parts_size = url_parts | size%}
+    {%assign node_url_parts_size = node_url_parts | size%}
+    {%if url_parts_size == node_url_parts_size %}
+      <li><a href="{{site.baseurl}}{{node.url}}">{{node.title}}</a></li>
+    {%endif%}
+  {%endif%}
+{%endfor%}
