@@ -14,9 +14,12 @@ layout: default
   </div>
   <div class="main">
     <div class="wrap">
-    	<div class="subnav">
-      	<ul>
-            {% include widgets/no-nav.html %}
+      <div class="subnav">
+        <ul class="parent-page">
+          {% include widgets/parent-page.html %}
+        </ul>
+        <ul>
+          {% include widgets/subnav.html %}
         </ul>
       </div>
       <section class="content">
