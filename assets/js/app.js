@@ -15,6 +15,13 @@ $(document).ready(function(){
     // maxItems: 2
   });
 
+  /*****
+   * Toggle Search
+  ******/
+  $('#search-toggle').bind('click', function() {
+    $('#search').toggleClass('active');
+  });
+
  /******
    * Filter products based on Product Type and Topic Type selection
    ******/

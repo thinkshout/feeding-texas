@@ -15,7 +15,7 @@
 
 .highlighted {
 	.wrap {
-		@include container(90em);
+		max-width: 100%;
 	  @include clearfix;
   }
 }

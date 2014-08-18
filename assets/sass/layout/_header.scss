@@ -1,66 +1,48 @@
 header {
-	.wrap {
-	  @include container(70em);
-    padding: 0 1em;
+  .wrap {
+    @include container(75em);
+    padding: 0 0;
+    @include breakpoint($bp-medium) {
+      padding: 0 1em;
+    }
   }
   .brand {
-  	@include breakpoint($bp-small, $no-query: true) {
-      @include span-columns(6,12);
-      clear: both;
+    width: 128px;
+    float: left;
+    @include breakpoint($bp-medium) {
+      width: 150px;
+      float: left;
     }
-    @include breakpoint($bp-medium, $no-query: true) {
-      @include span-columns(6,12);
-    }
-    @include breakpoint($bp-large, $no-query: true) {
-      @include span-columns(2,12);
+    @include breakpoint($bp-large) {
     }
   }
-  .secondary {
+  .secondary-nav {
     overflow: hidden;
-    @include breakpoint($bp-small, $no-query: true) {
-      @include span-columns(12,12);
+    @include breakpoint($bp-small, $no-query: false) {
+      float: none;
+      width: 100%;
     }
-    @include breakpoint($bp-medium, $no-query: true) {
-      @include span-columns(12,12);
+    @include breakpoint($bp-medium, $no-query: false) {
+      float: right;
+      width: 345px;
     }
-    @include breakpoint($bp-large, $no-query: true) {
-      @include span-columns(9,12);
-    }
-    nav {
-      @include breakpoint($bp-large, $no-query: true) {
-        @include span-columns(6,12);
-      }
-    }
-    form {
-      @include breakpoint($bp-large, $no-query: true) {
-        @include span-columns(4,12);
-      }
+    @include breakpoint($bp-large, $no-query: false) {
     }
   }
-  nav.primary {
-  	overflow: hidden;
-    @include breakpoint($bp-small, $no-query: true) {
-      @include span-columns(12,12);
+  .primary-nav {
+    overflow: hidden;
+    @include breakpoint($bp-small) {
+      width: 100%;
+      margin-left: 0;
+      float: none;
     }
-    @include breakpoint($bp-medium, $no-query: true) {
-      @include span-columns(12,12);
+    @include breakpoint($bp-medium) {
+      float: left;
+      width: 675px;
     }
-    @include breakpoint($bp-large, $no-query: true) {
-      @include span-columns(8,12);
-    }
-  }
-  nav.action {
-  	overflow: hidden;
-  	@include breakpoint($bp-small, $no-query: true) {
-      @include span-columns(12,12);
-      @include clearfix;
-    }
-    @include breakpoint($bp-medium, $no-query: true) {
-      @include span-columns(6,12);
-      @include omega;
-    }
-    @include breakpoint($bp-large, $no-query: true) {
-      @include span-columns(3,12);
+    @include breakpoint($bp-large) {
+      float: left;
+      width: 675px;
     }
   }
 }

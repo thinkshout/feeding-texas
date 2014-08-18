@@ -1,29 +1,4 @@
 header {
 	background: $white;
-  .brand {
-  	h1.title {
-  	  a {
-  	  	color: #222;
-        text-decoration: none;
-        background: url(../images/feeding-texas-id.png) no-repeat;
-  		  display: block;
-  		  height: 110px;
-  		  width: 175px;
-  		  text-indent: 100%; 
-  		  white-space: nowrap; 
-  		  overflow: hidden;
-        &:hover {
-          text-decoration: underline;	
-        }
-  	  }	
-  	  @include breakpoint($bp-small, $no-query: false) {
-  	    margin: 0 auto;
-  	  }
-      @include breakpoint($bp-medium, $no-query: false) {
-        text-align: left;
-      }
-      @include breakpoint($bp-large, $no-query: false) {
-      }
-  	}
-  }
+	height: 95px;
 }
