@@ -490,7 +490,7 @@ header .wrap {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   header .wrap:after {
     content: "";
     display: table;
@@ -666,7 +666,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .wrap:after {
     content: "";
     display: table;
@@ -687,7 +687,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .the-latest .wrap:after {
     content: "";
     display: table;
@@ -708,7 +708,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .highlighted .wrap:after {
     content: "";
     display: table;
@@ -949,9 +949,10 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
 /* line 1, ../sass/components/_buttons.scss */
 .button.primary-btn {
   background: #e98300;
+  border: none;
   color: white;
 }
-/* line 75, ../sass/helpers/_mixins.scss */
+/* line 76, ../sass/helpers/_mixins.scss */
 .button.primary-btn:hover {
   color: #FFF;
   background: #d07500;
@@ -962,7 +963,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   background: white;
   color: #e98300;
 }
-/* line 95, ../sass/helpers/_mixins.scss */
+/* line 96, ../sass/helpers/_mixins.scss */
 .button.primary-cta:hover {
   background: white;
 }
@@ -972,7 +973,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   background: #53682b;
   color: white;
 }
-/* line 85, ../sass/helpers/_mixins.scss */
+/* line 86, ../sass/helpers/_mixins.scss */
 .button.secondary-btn:hover {
   color: #FFF;
   background: #455624;
@@ -1323,9 +1324,10 @@ article.teaser.press h2 .attribution:before {
   line-height: 1em;
   font-size: 0.875em;
   background: #e98300;
+  border: none;
   color: white;
 }
-/* line 75, ../sass/helpers/_mixins.scss */
+/* line 76, ../sass/helpers/_mixins.scss */
 .finder form #submit:hover {
   color: #FFF;
   background: #d07500;
@@ -1403,39 +1405,76 @@ input[type="checkbox"] {
 }
 
 /* line 34, ../sass/components/_forms.scss */
-form .field {
+form .field, form .mc-field-group, #mc_embed_signup form .field, #mc_embed_signup form .mc-field-group {
   margin-bottom: 1em;
 }
 /* line 36, ../sass/components/_forms.scss */
-form .field .field-label {
+form .field .field-label, form .field label, form .mc-field-group .field-label, form .mc-field-group label, #mc_embed_signup form .field .field-label, #mc_embed_signup form .field label, #mc_embed_signup form .mc-field-group .field-label, #mc_embed_signup form .mc-field-group label {
   font-weight: 600;
   font-size: 1.125em;
   margin-bottom: 0.5em;
   padding: 0.125em 0;
-  border-bottom: 1px solid #f1f1f1;
 }
-/* line 44, ../sass/components/_forms.scss */
-form .postfix {
+/* line 43, ../sass/components/_forms.scss */
+form .postfix, #mc_embed_signup form .postfix {
   *zoom: 1;
 }
 /* line 16, ../sass/layout/_grid.scss */
-form .postfix:before, form .postfix:after {
+form .postfix:before, form .postfix:after, #mc_embed_signup form .postfix:before, #mc_embed_signup form .postfix:after {
   content: "";
   display: table;
 }
 /* line 20, ../sass/layout/_grid.scss */
-form .postfix:after {
+form .postfix:after, #mc_embed_signup form .postfix:after {
   clear: both;
 }
-/* line 46, ../sass/components/_forms.scss */
-form .postfix input[type="text"] {
+/* line 45, ../sass/components/_forms.scss */
+form .postfix input[type="text"], #mc_embed_signup form .postfix input[type="text"] {
   float: left;
   width: 75%;
 }
-/* line 50, ../sass/components/_forms.scss */
-form .postfix .action {
+/* line 49, ../sass/components/_forms.scss */
+form .postfix .action, #mc_embed_signup form .postfix .action {
   float: left;
   width: 25%;
+}
+
+/* line 56, ../sass/components/_forms.scss */
+form.sign-up-action {
+  background: white;
+  margin-top: 1em;
+  overflow: hidden;
+  padding: 1em;
+}
+/* line 62, ../sass/components/_forms.scss */
+form.sign-up-action input[type=text] {
+  display: inline-block;
+  width: 60%;
+}
+/* line 66, ../sass/components/_forms.scss */
+form.sign-up-action .button {
+  display: inline-block;
+  margin: 0;
+  width: 38%;
+}
+
+/* line 73, ../sass/components/_forms.scss */
+#mc_embed_signup form {
+  padding: 2em 1em;
+}
+/* line 76, ../sass/components/_forms.scss */
+#mc_embed_signup form select {
+  display: block;
+  margin-top: 1em;
+}
+/* line 80, ../sass/components/_forms.scss */
+#mc_embed_signup form .button {
+  width: auto;
+  padding: 0.125em 1.125em;
+}
+/* line 85, ../sass/components/_forms.scss */
+#mc_embed_signup form .asterisk {
+  color: #e98300;
 }
 
 /* line 7, ../sass/components/_glob.scss */
@@ -1970,7 +2009,7 @@ ul.projects li a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2@feeding-texas/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   section.content:after {
     content: "";
     display: table;

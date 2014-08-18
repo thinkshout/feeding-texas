@@ -23,7 +23,7 @@ $(document).ready(function(){
   var productType = $('#product-type'),
       topic       = $('#topic'),
       products    = $('.product');
-  
+
   // Listen for change on product-type and topic selects
   productType.add(topic).change(function(){
 
@@ -31,12 +31,12 @@ $(document).ready(function(){
     // the value on the change event
     var type  = $('#product-type').val();
     var topic = $('#topic').val();
-    
+
     // If type and topic are all
     if (type === "all" && topic === "all") {
 
       // Show all products
-      products.fadeIn(); 
+      products.fadeIn();
     } else {
 
       //If not all types and topics loop over the products array
@@ -54,7 +54,7 @@ $(document).ready(function(){
         } else if ($(products[i]).data("type").indexOf(type) !== -1 && topic === "all") {
           $(products[i]).fadeIn();
 
-          // Hide items we don't need 
+          // Hide items we don't need
         } else  {
           $(products[i]).fadeOut();
         }
@@ -67,7 +67,13 @@ $(document).ready(function(){
     function(){
       if (this.selectedIndex!==0) {
         window.location.href = this.value;
-      }  
+      }
     }
   );
+
+	/******
+		* Populate newsletter sign up with email
+		******/
+		var newsletterEmail = window.location.search.replace('?email=', '').replace('%40', '@');
+		$('#mce-EMAIL').attr('value', newsletterEmail);
 });

@@ -71,6 +71,7 @@
 @mixin primary-btn($color:#FFFFFF, $bg:$orange, $hover-bg:darken($orange, 5%)) {
   @extend %button;
   background: $bg;
+  border: none;
   color: $color;
   &:hover {
     color: #FFF;
