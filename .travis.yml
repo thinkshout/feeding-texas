@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+- 2.0.0
+script:
+  - bundle exec rake publish
+branches:
+  only:
+  - master
+env:
+  global:
+  - secure: L+1pTgxN7xjoR0xuYalwta1jPHgocmMGC1RJOm9gSN/Hvt54CgtgMJmD0NooTVWQesD1hgnF+DbuQu0HWBbCtXss3GvL97oU33KcwUCimbgM6IEpJF/RMv99O6YOdohcwtjybZIewxQK7c2RytEHiHPks0SciaaAI0tLMF0ZIko=
+  - secure: DKm3Uhq2KrjSTCVXqb3P5BVoYos/YtyQyc8irU7n/Oo2b5Duz2hTFlVlJwkFJIsIk2MxWyMaa8I8wCma0NmNKdTpyMC5M3n3UZE7KskP9gYLyu5VFYC5DbkkIlHHf2Q5WpDbRWfZVPk3VjB9Q2yDH4Q2gzfNELicILNM5bxvu7Q=

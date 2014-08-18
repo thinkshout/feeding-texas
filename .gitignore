@@ -6,4 +6,5 @@ assets/.sass-cache
 tmp
 feeding-texas-notes.txt
 alex_notes.txt
+Gemfile.lock
 .gitignore
