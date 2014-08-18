@@ -490,7 +490,7 @@ header .wrap {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   header .wrap:after {
     content: "";
     display: table;
@@ -666,7 +666,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .wrap:after {
     content: "";
     display: table;
@@ -687,7 +687,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .the-latest .wrap:after {
     content: "";
     display: table;
@@ -708,7 +708,7 @@ header nav.action {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .highlighted .wrap:after {
     content: "";
     display: table;
@@ -1138,7 +1138,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   display: block;
   float: left;
   background: #2e2118;
-  height: 250px;
+  height: 200px;
 }
 /* line 12, ../sass/components/_cross-links.scss */
 .crosslinks .cta .bg-img {
@@ -1638,10 +1638,20 @@ header .secondary form button {
   border-bottom: 1px solid #2e2118;
 }
 
-/* line 116, ../sass/components/_navigation.scss */
+/* line 115, ../sass/components/_navigation.scss */
+footer nav.primary,
+footer nav.secondary {
+  font-size: 1.1em;
+  line-height: 3em;
+}
+/* line 118, ../sass/components/_navigation.scss */
 footer nav.primary ul li a,
 footer nav.secondary ul li a {
   color: #e98300;
+}
+/* line 123, ../sass/components/_navigation.scss */
+footer nav.secondary ul li a {
+  color: #53682b;
 }
 
 /* line 1, ../sass/components/_page-headers.scss */
@@ -1960,7 +1970,7 @@ ul.projects li a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   section.content:after {
     content: "";
     display: table;
