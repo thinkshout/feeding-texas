@@ -1616,47 +1616,57 @@ a:focus {
 
 /* line 125, ../sass/components/_navigation.scss */
 .subnav {
+  background: #2e2118;
   text-align: center;
+  padding: 0.75em 0;
 }
-/* line 127, ../sass/components/_navigation.scss */
+/* line 129, ../sass/components/_navigation.scss */
 .subnav ul {
   margin: 0;
   padding: 0;
 }
-/* line 130, ../sass/components/_navigation.scss */
+/* line 132, ../sass/components/_navigation.scss */
 .subnav ul li {
   display: inline-block;
   list-style: none;
-  padding: 1em;
-  border-bottom: 1px solid #f1f1f1;
 }
 /* line 135, ../sass/components/_navigation.scss */
 .subnav ul li a {
+  display: block;
+  padding: 1em 2em;
   text-decoration: none;
-  color: #2e2118;
-  padding: 0.75em;
+  color: #e98300;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-/* line 140, ../sass/components/_navigation.scss */
+/* line 142, ../sass/components/_navigation.scss */
+.subnav ul li a:hover {
+  color: #f6f3f0;
+}
+/* line 146, ../sass/components/_navigation.scss */
 .subnav ul li:last-child {
   border-bottom: 0;
 }
-/* line 144, ../sass/components/_navigation.scss */
+/* line 150, ../sass/components/_navigation.scss */
 .subnav ul li.active a {
-  border-bottom: 1px solid #2e2118;
+  color: #f6f3f0;
+  border-bottom: 1px solid #f6f3f0;
 }
 
-/* line 154, ../sass/components/_navigation.scss */
+/* line 161, ../sass/components/_navigation.scss */
 footer nav.primary,
 footer nav.secondary {
   font-size: 1.1em;
   line-height: 3em;
 }
-/* line 157, ../sass/components/_navigation.scss */
+/* line 164, ../sass/components/_navigation.scss */
 footer nav.primary ul li a,
 footer nav.secondary ul li a {
   color: #e98300;
 }
-/* line 162, ../sass/components/_navigation.scss */
+/* line 169, ../sass/components/_navigation.scss */
 footer nav.secondary ul li a {
   color: #53682b;
 }
@@ -1664,9 +1674,8 @@ footer nav.secondary ul li a {
 /* line 1, ../sass/components/_page-headers.scss */
 .highlighted {
   background: white;
-  padding-bottom: 1em;
 }
-/* line 4, ../sass/components/_page-headers.scss */
+/* line 3, ../sass/components/_page-headers.scss */
 .highlighted .wrap {
   position: relative;
   margin: 0 auto;
@@ -1674,7 +1683,7 @@ footer nav.secondary ul li a {
   height: 100%;
   min-height: 625px;
 }
-/* line 11, ../sass/components/_page-headers.scss */
+/* line 10, ../sass/components/_page-headers.scss */
 .highlighted .wrap .bg-img {
   position: absolute;
   overflow: hidden;
@@ -1685,7 +1694,7 @@ footer nav.secondary ul li a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* line 21, ../sass/components/_page-headers.scss */
+/* line 20, ../sass/components/_page-headers.scss */
 .highlighted .wrap .bg-img img {
   position: absolute;
   top: 0;
@@ -1694,7 +1703,7 @@ footer nav.secondary ul li a {
   min-width: 100%;
   min-height: 100%;
 }
-/* line 31, ../sass/components/_page-headers.scss */
+/* line 30, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header {
   position: absolute;
   top: 3em;
@@ -1708,7 +1717,7 @@ footer nav.secondary ul li a {
   text-align: center;
   color: #FFF;
 }
-/* line 44, ../sass/components/_page-headers.scss */
+/* line 43, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header h1.page-title {
   color: white;
 }
