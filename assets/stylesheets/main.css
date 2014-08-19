@@ -1849,6 +1849,35 @@ footer nav.secondary ul li a {
 .staff-member .info p {
   margin: 0.5em 0;
 }
+/* line 36, ../sass/components/_staff.scss */
+.staff-member .photo {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+/* line 41, ../sass/components/_staff.scss */
+.staff-member .photo img {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 52, ../sass/components/_staff.scss */
+.staff-member.detail .highlighted .wrap {
+  min-height: 490px;
+}
+/* line 56, ../sass/components/_staff.scss */
+.staff-member.detail .highlighted .wrap .page-header h1.page-title {
+  color: #222222;
+}
 
 /*
 

@@ -32,4 +32,34 @@
     	margin: 0.5em 0;
     }
   }
+
+  .photo {
+		width: 200px;
+	  height: 200px;
+	  @include border-radius(50%);
+	  margin: 0 auto;
+	  img {
+	    width: 200px;
+	    height: 200px;
+	    @include border-radius(50%);
+	  }
+	}
+
+
+	// Detail Page Styling
+	&.detail {
+  	.highlighted {
+  		.wrap {
+  			min-height: 490px;
+  			.page-header {
+  
+  			  h1.page-title {
+            color: $black;
+          }
+        }
+      }
+  	}
+  }
 }
+
+
