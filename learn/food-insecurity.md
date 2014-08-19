@@ -14,12 +14,10 @@ banner: food-insecurity.jpg
 featured_statistic:
   stat: 1 in 5
   key: Texas families experienced food insecurity in 2010-2012
-intro:
-  title: The Issue
-  text: |
-    The problem of hunger isn't simple, but it is solvable. Food insecurity is a useful way to define where and how our neighbors struggle to afford food. 
+intro: |
+  The problem of hunger isn't simple, but it is solvable. Food insecurity is a useful way to define where and how our neighbors struggle to afford food. 
 
-    Learn how this metric helps us target our resources and evaluate progress, so that more families can access the nutrition they need to succeed and move forward.
+  Learn how this metric helps us target our resources and evaluate progress, so that more families can access the nutrition they need to succeed and move forward.
 calls_to_action:
   - 1
   - 2
