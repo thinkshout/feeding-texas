@@ -15,9 +15,11 @@ layout: default
   <div class="main">
     <div class="wrap">
       <div class="subnav">
+      	<!--
         <ul class="parent-page">
           {% include widgets/parent-page.html %}
         </ul>
+        -->
         <ul>
           {% include widgets/subnav.html %}
         </ul>
@@ -69,7 +71,7 @@ layout: default
 
         {% if page.type == "jobs" %}
           {% for job in site.jobs %}
-            <h2>{{ job.title }}</a></h2>
+            <h2>{{ job.position }}</a></h2>
             <p>{{ job.content }}</p>
           {% endfor %}
         {% endif %}
