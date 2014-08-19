@@ -24,7 +24,7 @@ layout: default
           {% include widgets/subnav.html %}
         </ul>
       </div>
-      <section class="content">
+      <section class="content intro">
         <!-- Main page content -->
         {{ content }}
       </section>
@@ -77,10 +77,19 @@ layout: default
         {% endif %}
 
         {% if page.type == "staff" %}
-          {% for employee in site.staff %}
-            <h2><a href="{{ site.baseurl }}{{ employee.url }}">{{ employee.name }}</a></h2>
-            <p>{{ employee.position }}</p>
-          {% endfor %}
+          <div class="block-grid">
+            {% for employee in site.staff %}
+              <div class="item staff-member">
+              	<a class="link" href="{{ site.baseurl }}{{ employee.url }}">
+              	  <img src="{{ site.baseurl }}/assets/images/staff/{{ employee.image }}" alt="{{ employee.name }}">
+              	  <div class="info">
+              	    <h3><a href="{{ site.baseurl }}{{ employee.url }}">{{ employee.name }}</a></h3>
+                    <p>{{ employee.position }}</p>
+                  </div>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
         {% endif %}
       {% endif %}
       </div>

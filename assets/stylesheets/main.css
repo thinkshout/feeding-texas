@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900);
 /* line 1, ../sass/base/_global.scss */
 * {
   -webkit-box-sizing: border-box;
@@ -709,7 +710,7 @@ header .primary-nav {
 }
 /* line 57, ../sass/layout/_layout.scss */
 .main.no-sidebars .content {
-  width: 66.10169%;
+  width: 74.57627%;
   margin: 0 auto;
 }
 
@@ -805,45 +806,23 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   padding: 1em;
 }
 
-/* line 1, ../sass/components/_block-grid.scss */
-.block-grid {
-  *zoom: 1;
-  display: table;
-}
-/* line 16, ../sass/layout/_grid.scss */
-.block-grid:before, .block-grid:after {
-  content: "";
-  display: table;
-}
-/* line 20, ../sass/layout/_grid.scss */
-.block-grid:after {
-  clear: both;
-}
-/* line 4, ../sass/components/_block-grid.scss */
-.block-grid .container {
-  display: table-row;
-}
-/* line 6, ../sass/components/_block-grid.scss */
-.block-grid .container > div.item {
-  display: table-cell;
-  vertical-align: top;
+/* line 2, ../sass/components/_block-grid.scss */
+.block-grid .item {
+  display: block;
   padding: 1em;
-  border-right: 1px solid #d2d2d2;
-}
-/* line 12, ../sass/components/_block-grid.scss */
-.block-grid .container > div.item:last-child {
-  border-right: 0;
 }
 @media (min-width: 55em) {
-  /* line 6, ../sass/components/_block-grid.scss */
-  .block-grid .container > div.item {
-    width: 100%;
+  /* line 2, ../sass/components/_block-grid.scss */
+  .block-grid .item {
+    width: 49.15254%;
+    float: left;
   }
 }
 @media (min-width: 62.5em) {
-  /* line 6, ../sass/components/_block-grid.scss */
-  .block-grid .container > div.item {
-    width: 33.33333%;
+  /* line 2, ../sass/components/_block-grid.scss */
+  .block-grid .item {
+    width: 32.20339%;
+    float: left;
   }
 }
 
@@ -1828,6 +1807,49 @@ footer nav.secondary ul li a {
   color: #FFF;
 }
 
+/* line 1, ../sass/components/_staff.scss */
+.staff-member {
+  position: relative;
+}
+/* line 3, ../sass/components/_staff.scss */
+.staff-member .link {
+  display: block;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+}
+/* line 8, ../sass/components/_staff.scss */
+.staff-member img {
+  width: 100%;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 13, ../sass/components/_staff.scss */
+.staff-member img:hover {
+  opacity: 0.85;
+}
+/* line 17, ../sass/components/_staff.scss */
+.staff-member .info {
+  background: rgba(0, 0, 0, 0.6);
+  bottom: 1.3em;
+  left: 1em;
+  right: 1em;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+/* line 27, ../sass/components/_staff.scss */
+.staff-member .info h3 {
+  margin: 0.25em 0 0;
+}
+/* line 31, ../sass/components/_staff.scss */
+.staff-member .info p {
+  margin: 0.5em 0;
+}
+
 /*
 
 Featured Statistic
@@ -1920,20 +1942,20 @@ Featured Statistic
   margin-left: 2em;
 }
 
-/* line 3, ../sass/components/_type.scss */
+/* line 1, ../sass/components/_type.scss */
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Merriweather", Georgia, serif;
   color: #2e2118;
 }
 
-/* line 8, ../sass/components/_type.scss */
+/* line 6, ../sass/components/_type.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   weight: 300;
   color: #2e2118;
 }
 
-/* line 14, ../sass/components/_type.scss */
+/* line 12, ../sass/components/_type.scss */
 h1.page-title {
   text-transform: uppercase;
 }
@@ -2027,6 +2049,11 @@ ul.projects li a:hover {
   position: relative;
 }
 /* line 5, ../sass/pages/_landing.scss */
+.landing .intro {
+  font-size: 1.25em;
+  line-height: 1.85em;
+}
+/* line 9, ../sass/pages/_landing.scss */
 .landing section {
   margin-bottom: 5em;
 }

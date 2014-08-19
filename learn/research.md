@@ -3,7 +3,9 @@ layout: research
 title: Research
 subhead: Every Texas community is touched by the struggle to afford enough food.
 summary: |
-  Food insecurity is the most broadly-used measure of food deprivation in the United States. The USDA defines food insecurity as meaning “consistent access to adequate food is limited by a lack of money and other resources at times during the year.”
+  We have the knowledge to create a hunger-free Texas. Our original research, credible policy analysis and partnerships with academic and nonprofit institutions provide a strong foundation for action. 
+
+  Explore what we already know, and help us learn more.
 featured_resource: How do low-income texans get help feeding their children?
 primary_cta:
   button_text: Learn About Hunger In Texas
@@ -15,9 +17,11 @@ featured_statistic:
 intro:
   title: 
   text: |
-    We have the knowledge to create a hunger-free Texas. Our original research, credible policy analysis and partnerships with academic and nonprofit institutions provide a strong foundation for action. 
+    Solving hunger in Texas means going where the facts lead us. Browse our archive of original research, policy briefings and datasets below to expand your understanding of the issue and its solutions.
 
-    Explore what we already know, and help us learn more."
+    Feeding Texas staff are also available to help you interpret and add life to these bare facts. Contact us if you are want to schedule an interview with our experts, or just have a nagging question you can't answer. 
+
+    Want to help us fill in the gaps? We love partnering with academics, students and the data community to become more effective hunger-fighters. Contact us to learn more. 
 calls_to_action:
   - 1
   - 2

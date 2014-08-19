@@ -14,32 +14,29 @@ layout: default
       </div>
     </div>
   </div>
-  <div class="main">
+  <div class="main no-sidebars">
     <div class="wrap">
-      <section class="section intro">
-        <div class="left">
-          {{ page.intro }}
-        </div>
-        <div class="right">
-        	<div class="featured-block">
-        	  <div class="data">
-              <span class="stat">{{ page.featured_statistic.stat }}</span>
-              <span class="key">{{ page.featured_statistic.key }}</span>
-            </div>
-            <div class="triangle">▼</div>
-            {% for post in site.posts %}
-              {% if post.title == page.featured_resource %}
-                <div class="post-title">
-                  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                </div>
-              {% endif %}
-            {% endfor %}
+      <section class="content intro">
+        {{ page.intro }}
+        <div class="featured-block">
+          <div class="data">
+            <span class="stat">{{ page.featured_statistic.stat }}</span>
+            <span class="key">{{ page.featured_statistic.key }}</span>
           </div>
-          <br />
-          <a href="#" class="button secondary-btn">SECONDARY CTA</a>
+          <div class="triangle">▼</div>
+          {% for post in site.posts %}
+            {% if post.title == page.featured_resource %}
+              <div class="post-title">
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              </div>
+            {% endif %}
+          {% endfor %}
         </div>
       </section>
-
+    </div>
+  </div>
+  <div class="content-bottom">
+    <div class="wrap">
       {% assign url_parts = page.url %}
       {% if url_parts contains "learn" %}
         {% for subpage in site.pages %}
