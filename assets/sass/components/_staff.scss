@@ -1,0 +1,35 @@
+.staff-member {
+	position: relative;
+	.link {
+	  display: block;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+  }
+  img {
+    width: 100%;
+    opacity: 1;
+    @include default-transition;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+  .info {
+  	background: rgba(0, 0, 0, 0.6);
+    bottom: 1.3em;
+    left: 1em;
+    right: 1em;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    color: $white;
+
+    h3 {
+    	margin: 0.25em 0 0;
+    }
+
+    p {
+    	margin: 0.5em 0;
+    }
+  }
+}
