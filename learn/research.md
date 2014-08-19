@@ -10,7 +10,7 @@ featured_resource: How do low-income texans get help feeding their children?
 primary_cta:
   button_text: Learn About Hunger In Texas
   url: work 
-banner: placeholders/banner-03.jpg
+banner: research.jpg
 featured_statistic:
   stat: 1 in 5
   key: Texas families experienced food insecurity in 2010-2012

@@ -24,27 +24,25 @@ layout: default
         </ul>
       </div>
       <section class="intro">
-        <div class="left">
-          <h2>{{ page.intro.title }}</h2>
-          {{ page.intro.text }}
-          <a href="{{ page.intro.link.url }}">{{ page.intro.link.title }}</a>
-        </div>
-        <div class="right">
-        	<div class="featured-block">
-        	  <div class="data">
-              <span class="stat">{{ page.featured_statistic.stat }}</span>
-              <span class="key">{{ page.featured_statistic.key }}</span>
-            </div>
-            <div class="triangle">▼</div>
-            {% for post in site.posts %}
-              {% if post.title == page.featured_resource %}
-                <div class="post-title">
-                  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                </div>
-              {% endif %}
-            {% endfor %}
+        <h2>{{ page.intro.title }}</h2>
+        {{ page.intro.text }}
+        <a href="{{ page.intro.link.url }}">{{ page.intro.link.title }}</a>
+        <!--
+        <div class="featured-block">
+          <div class="data">
+            <span class="stat">{{ page.featured_statistic.stat }}</span>
+            <span class="key">{{ page.featured_statistic.key }}</span>
           </div>
+          <div class="triangle">▼</div>
+          {% for post in site.posts %}
+            {% if post.title == page.featured_resource %}
+              <div class="post-title">
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              </div>
+            {% endif %}
+          {% endfor %}
         </div>
+        -->
       </section>
     </div>
   </div>
