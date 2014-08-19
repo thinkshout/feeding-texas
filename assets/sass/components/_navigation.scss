@@ -1,5 +1,6 @@
 .primary-nav,
 .secondary-nav {
+	line-height: 70px;
   ul {
     margin: 0;
     padding: 0;
@@ -15,6 +16,12 @@
       }
     }
   }
+  @include breakpoint($bp-medium, $no-query: false) {
+    line-height: 35px;
+  }
+  @include breakpoint($bp-large, $no-query: false) {
+  	line-height: 70px;
+  }
 }
 
 
@@ -24,7 +31,6 @@
   text-transform: uppercase;
   display: none;
   ul li {	
-
     a {
     	color: $drkBrown;
     }
@@ -55,6 +61,8 @@
 
       &[alt~=Menu] {
       	display: block;
+      	font-size: 1.5em;
+      	padding: 0 1em;
       	@include breakpoint($bp-medium, $no-query: false) {
           display: none;
         }
@@ -65,7 +73,8 @@
       #search-toggle {
         display: block;    	  
         background: $orange;
-        color: $white; 
+        color: $white;
+        font-size: 1.5em;
         padding: 0 1em;
         position: relative;
         @include default-transition;
