@@ -9,22 +9,27 @@ header {
   .brand {
     width: 128px;
     float: left;
+    background: $white;
+    padding: 0;
     @include breakpoint($bp-medium) {
       width: 150px;
       float: left;
+      padding: 14px;
     }
     @include breakpoint($bp-large) {
+      padding: 14px;
+    }
+    .logo {
+      display: block;
     }
   }
   .secondary-nav {
-    overflow: hidden;
+    float: right;
     @include breakpoint($bp-small, $no-query: false) {
-      float: none;
-      width: 100%;
+
     }
     @include breakpoint($bp-medium, $no-query: false) {
-      float: right;
-      width: 345px;
+      float: right; 
     }
     @include breakpoint($bp-large, $no-query: false) {
     }
@@ -37,11 +42,13 @@ header {
       float: none;
     }
     @include breakpoint($bp-medium) {
-      float: left;
+      float: right;
+      margin-left: 1em;
       width: 675px;
     }
     @include breakpoint($bp-large) {
       float: left;
+      margin-left: 3em;
       width: 675px;
     }
   }
