@@ -8,10 +8,14 @@
   {% assign node_url_parts = node.url | remove_first: "/" | split: "/" %}
   {% assign filename = node_url_parts | last %}
   {% if node.url contains base_url and filename != "index.html" %}
-    {% assign url_parts_size = url_parts | size %}
-    {% assign node_url_parts_size = node_url_parts | size %}
-    {% if url_parts_size == node_url_parts_size and filename != "index.html" %}
-      <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+    {% if page.url == node.url %}
+      <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+    {% else %}
+      {% assign url_parts_size = url_parts | size %}
+      {% assign node_url_parts_size = node_url_parts | size %}
+      {% if url_parts_size == node_url_parts_size and filename != "index.html" %}
+        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      {% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}

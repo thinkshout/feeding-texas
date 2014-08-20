@@ -16,7 +16,9 @@
 {% endif %}
 
 {% for node in site.pages %}
-  {% if node.url == parent_url %}
+  {% if node.url == parent_url and page.url == node.url %}
+    <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+  {% elsif node.url == parent_url %}
     <li><a href="{{ node.url }}">{{ node.title }}</a></li>
   {% endif %}
 {% endfor %}
