@@ -20,26 +20,6 @@
   }
 }
 
-// Helper Classes
-.row {
-  @include clearfix;
-}
-
-.half {
-  @include span-columns(6,12);
-  &:nth-child(2n) { @include omega; } // every second item completes a row.
-}
-
-.third {
-  @include span-columns(4,12);
-  &:nth-child(3n) { @include omega; } // every third item completes a row.
-}
-
-.quarter {
-  @include span-columns(3,12);
-  &:nth-child(4n) { @include omega; } // every fourth item completes a row.
-}
-
 .main {
   margin-top: 1em;
 
