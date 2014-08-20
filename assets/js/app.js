@@ -19,7 +19,7 @@ $(document).ready(function(){
    * Toggle Search
   ******/
   $('#search-toggle').bind('click', function() {
-    $('#search').toggleClass('active');
+    $('#utility').toggleClass('active');
   });
 
  /******

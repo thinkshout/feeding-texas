@@ -14,19 +14,18 @@ layout: default
       </div>
     </div>
   </div>
-  <div class="main">
+  <div class="subnav">
+    <ul class="parent-page">
+      {% include widgets/parent-page.html %}
+    </ul>
+    <ul>
+      {% include widgets/subnav.html %}
+    </ul>
+  </div>
+  <div class="main no-sidebars">
     <div class="wrap">
-    	<div class="subnav">
-      	<ul>
-          {% assign pages_list = site.pages %}
-          {% assign group = page.group %}
-          {% include widgets/subnav.html %}
-        </ul>
-      </div>
-      <section class="intro">
-        <h2>{{ page.intro.title }}</h2>
-        {{ page.intro.text }}
-        <a href="{{ page.intro.link.url }}">{{ page.intro.link.title }}</a>
+      <section class="content intro">
+        {{ page.intro }}
         <!--
         <div class="featured-block">
           <div class="data">

@@ -33,7 +33,10 @@
   display: none;
   ul li {	
     a {
-    	color: $drkBrown;
+    	color: $beige;
+    	&:hover {
+        color: $white;
+    	}
     }
   }
   @include breakpoint($bp-medium, $no-query: false) {

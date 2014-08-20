@@ -1339,8 +1339,7 @@ form.sign-up-action .button {
 
 /* line 1, ../sass/components/_header.scss */
 header {
-  background: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background: #2e2118;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -1474,7 +1473,11 @@ a:focus {
 }
 /* line 35, ../sass/components/_navigation.scss */
 .primary-nav ul li a {
-  color: #2e2118;
+  color: #f6f3f0;
+}
+/* line 37, ../sass/components/_navigation.scss */
+.primary-nav ul li a:hover {
+  color: white;
 }
 @media (min-width: 55em) {
   /* line 30, ../sass/components/_navigation.scss */
@@ -1489,42 +1492,42 @@ a:focus {
   }
 }
 
-/* line 49, ../sass/components/_navigation.scss */
+/* line 52, ../sass/components/_navigation.scss */
 .secondary-nav ul li {
   margin-right: 1px;
 }
-/* line 51, ../sass/components/_navigation.scss */
+/* line 54, ../sass/components/_navigation.scss */
 .secondary-nav ul li a {
   background: #e98300;
   color: white;
 }
-/* line 56, ../sass/components/_navigation.scss */
+/* line 59, ../sass/components/_navigation.scss */
 .secondary-nav ul li a[alt~=Donate], .secondary-nav ul li a[alt~=Help] {
   display: none;
 }
 @media (min-width: 55em) {
-  /* line 56, ../sass/components/_navigation.scss */
+  /* line 59, ../sass/components/_navigation.scss */
   .secondary-nav ul li a[alt~=Donate], .secondary-nav ul li a[alt~=Help] {
     display: block;
   }
 }
-/* line 63, ../sass/components/_navigation.scss */
+/* line 66, ../sass/components/_navigation.scss */
 .secondary-nav ul li a[alt~=Menu] {
   display: block;
   font-size: 1.5em;
   padding: 0 1em;
 }
 @media (min-width: 55em) {
-  /* line 63, ../sass/components/_navigation.scss */
+  /* line 66, ../sass/components/_navigation.scss */
   .secondary-nav ul li a[alt~=Menu] {
     display: none;
   }
 }
-/* line 72, ../sass/components/_navigation.scss */
+/* line 75, ../sass/components/_navigation.scss */
 .secondary-nav ul li#site-search {
   position: relative;
 }
-/* line 74, ../sass/components/_navigation.scss */
+/* line 77, ../sass/components/_navigation.scss */
 .secondary-nav ul li#site-search #search-toggle {
   display: block;
   background: #e98300;
@@ -1537,11 +1540,11 @@ a:focus {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 83, ../sass/components/_navigation.scss */
+/* line 86, ../sass/components/_navigation.scss */
 .secondary-nav ul li#site-search #search-toggle:hover {
   background: #d07500;
 }
-/* line 87, ../sass/components/_navigation.scss */
+/* line 90, ../sass/components/_navigation.scss */
 .secondary-nav ul li#site-search form {
   position: absolute;
   right: 100px;
@@ -1549,48 +1552,48 @@ a:focus {
   width: 0px;
   overflow: hidden;
 }
-/* line 93, ../sass/components/_navigation.scss */
+/* line 96, ../sass/components/_navigation.scss */
 .secondary-nav ul li#site-search form.active {
   width: 300px;
 }
 
-/* line 105, ../sass/components/_navigation.scss */
+/* line 108, ../sass/components/_navigation.scss */
 .basic .main .content .subnav {
   text-align: center;
   margin: 1em 0;
 }
-/* line 108, ../sass/components/_navigation.scss */
+/* line 111, ../sass/components/_navigation.scss */
 .basic .main .content .subnav ul {
   padding: 0;
   margin: 0;
 }
-/* line 111, ../sass/components/_navigation.scss */
+/* line 114, ../sass/components/_navigation.scss */
 .basic .main .content .subnav ul li {
   display: inline-block;
   list-style: none;
 }
-/* line 114, ../sass/components/_navigation.scss */
+/* line 117, ../sass/components/_navigation.scss */
 .basic .main .content .subnav ul li a {
   padding: 0.5em;
 }
 
-/* line 125, ../sass/components/_navigation.scss */
+/* line 128, ../sass/components/_navigation.scss */
 .subnav {
   background: #2e2118;
   text-align: center;
   padding: 0.75em 0;
 }
-/* line 129, ../sass/components/_navigation.scss */
+/* line 132, ../sass/components/_navigation.scss */
 .subnav ul {
   margin: 0;
   padding: 0;
 }
-/* line 132, ../sass/components/_navigation.scss */
+/* line 135, ../sass/components/_navigation.scss */
 .subnav ul li {
   display: inline-block;
   list-style: none;
 }
-/* line 135, ../sass/components/_navigation.scss */
+/* line 138, ../sass/components/_navigation.scss */
 .subnav ul li a {
   display: block;
   padding: 1em 2em;
@@ -1601,32 +1604,32 @@ a:focus {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 142, ../sass/components/_navigation.scss */
+/* line 145, ../sass/components/_navigation.scss */
 .subnav ul li a:hover {
   color: #f6f3f0;
 }
-/* line 146, ../sass/components/_navigation.scss */
+/* line 149, ../sass/components/_navigation.scss */
 .subnav ul li:last-child {
   border-bottom: 0;
 }
-/* line 150, ../sass/components/_navigation.scss */
+/* line 153, ../sass/components/_navigation.scss */
 .subnav ul li.active a {
   color: #f6f3f0;
   border-bottom: 1px solid #f6f3f0;
 }
 
-/* line 161, ../sass/components/_navigation.scss */
+/* line 164, ../sass/components/_navigation.scss */
 footer nav.primary,
 footer nav.secondary {
   font-size: 1.1em;
   line-height: 3em;
 }
-/* line 164, ../sass/components/_navigation.scss */
+/* line 167, ../sass/components/_navigation.scss */
 footer nav.primary ul li a,
 footer nav.secondary ul li a {
   color: #e98300;
 }
-/* line 169, ../sass/components/_navigation.scss */
+/* line 172, ../sass/components/_navigation.scss */
 footer nav.secondary ul li a {
   color: #53682b;
 }
@@ -1680,6 +1683,22 @@ footer nav.secondary ul li a {
 /* line 43, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header h1.page-title {
   color: white;
+}
+
+/* line 1, ../sass/components/_search.scss */
+#utility {
+  background: #e98300;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 10, ../sass/components/_search.scss */
+#utility.active {
+  height: 100px;
 }
 
 /* line 1, ../sass/components/_section-header.scss */

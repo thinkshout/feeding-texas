@@ -1,4 +1,10 @@
 <header>
+  <div id="utility">
+  	<form id="search" action="{{site.baseurl}}/search/" method="GET">
+      <input type="text" name="q" placeholder="Search">
+      <button type="submit">Search</button>
+    </form>
+  </div>
   <div class="wrap">
     <div class="brand">
       <a class="logo" href="/">
@@ -13,10 +19,6 @@
       		{% endfor %}
       		<li id="site-search">
       			<a id="search-toggle"><span  class="icon-search"></span></a>
-            <form id="search" action="{{site.baseurl}}/search/" method="GET">
-              <input type="text" name="q" placeholder="Search">
-              <button type="submit">Search</button>
-            </form>
       		</li>
       		<li>
             <a alt="Menu" id="menu-toggle"><span class="icon-list"></span></a>
