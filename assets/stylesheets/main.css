@@ -627,77 +627,18 @@ header .primary-nav {
   clear: both;
 }
 
-/* line 24, ../sass/layout/_layout.scss */
-.row {
-  *zoom: 1;
-}
-/* line 16, ../sass/layout/_grid.scss */
-.row:before, .row:after {
-  content: "";
-  display: table;
-}
-/* line 20, ../sass/layout/_grid.scss */
-.row:after {
-  clear: both;
-}
-
-/* line 28, ../sass/layout/_layout.scss */
-.half {
-  width: 49.15254%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
-}
-/* line 30, ../sass/layout/_layout.scss */
-.half:nth-child(2n) {
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-}
-
-/* line 33, ../sass/layout/_layout.scss */
-.third {
-  width: 32.20339%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
-}
-/* line 35, ../sass/layout/_layout.scss */
-.third:nth-child(3n) {
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-}
-
-/* line 38, ../sass/layout/_layout.scss */
-.quarter {
-  width: 23.72881%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
-}
-/* line 40, ../sass/layout/_layout.scss */
-.quarter:nth-child(4n) {
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-}
-
-/* line 43, ../sass/layout/_layout.scss */
+/* line 23, ../sass/layout/_layout.scss */
 .main {
   margin-top: 1em;
 }
-/* line 47, ../sass/layout/_layout.scss */
+/* line 27, ../sass/layout/_layout.scss */
 .main.sidebar-second .content {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 51, ../sass/layout/_layout.scss */
+/* line 31, ../sass/layout/_layout.scss */
 .main.sidebar-second .sidebar-second {
   width: 32.20339%;
   float: left;
@@ -708,27 +649,27 @@ header .primary-nav {
   *margin-left: -1em;
   display: inline;
 }
-/* line 57, ../sass/layout/_layout.scss */
+/* line 37, ../sass/layout/_layout.scss */
 .main.no-sidebars .content {
   width: 74.57627%;
   margin: 0 auto;
 }
 
-/* line 65, ../sass/layout/_layout.scss */
+/* line 45, ../sass/layout/_layout.scss */
 .content-bottom .main {
   width: 57.62712%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 68, ../sass/layout/_layout.scss */
+/* line 48, ../sass/layout/_layout.scss */
 .content-bottom .main article .hero {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 71, ../sass/layout/_layout.scss */
+/* line 51, ../sass/layout/_layout.scss */
 .content-bottom .main article .leadin {
   width: 100%;
   float: left;
@@ -740,7 +681,7 @@ header .primary-nav {
   *margin-left: -1em;
   display: inline;
 }
-/* line 78, ../sass/layout/_layout.scss */
+/* line 58, ../sass/layout/_layout.scss */
 .content-bottom .sidebar-second {
   width: 40.67797%;
   float: left;
@@ -752,7 +693,7 @@ header .primary-nav {
   display: inline;
 }
 
-/* line 84, ../sass/layout/_layout.scss */
+/* line 64, ../sass/layout/_layout.scss */
 footer {
   *zoom: 1;
   clear: both;
@@ -1011,17 +952,36 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
 }
 /* line 3, ../sass/components/_cross-links.scss */
 .crosslinks .cta {
+  background: #2e2118;
+  height: 250px;
+  display: block;
   position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 50%;
-  display: block;
-  float: left;
-  background: #2e2118;
-  height: 200px;
 }
-/* line 12, ../sass/components/_cross-links.scss */
+@media (min-width: 34.375em) {
+  /* line 3, ../sass/components/_cross-links.scss */
+  .crosslinks .cta {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media (min-width: 55em) {
+  /* line 3, ../sass/components/_cross-links.scss */
+  .crosslinks .cta {
+    width: 50%;
+  }
+}
+@media (min-width: 62.5em) {
+  /* line 3, ../sass/components/_cross-links.scss */
+  .crosslinks .cta {
+    width: 50%;
+    height: 250px;
+    float: left;
+  }
+}
+/* line 25, ../sass/components/_cross-links.scss */
 .crosslinks .cta .bg-img {
   position: absolute;
   overflow: hidden;
@@ -1032,7 +992,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* line 22, ../sass/components/_cross-links.scss */
+/* line 35, ../sass/components/_cross-links.scss */
 .crosslinks .cta .bg-img img {
   position: absolute;
   top: 0;
@@ -1046,7 +1006,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
   opacity: 0.4;
 }
-/* line 33, ../sass/components/_cross-links.scss */
+/* line 46, ../sass/components/_cross-links.scss */
 .crosslinks .cta .text {
   z-index: 1000;
   margin: 0 auto;
@@ -1057,13 +1017,13 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   top: 0;
   left: 0;
 }
-/* line 43, ../sass/components/_cross-links.scss */
+/* line 56, ../sass/components/_cross-links.scss */
 .crosslinks .cta .text h3 {
   color: white;
   font-size: 1.6em;
   text-shadow: rgba(0, 0, 0, 0.4) 0 3px 6px;
 }
-/* line 54, ../sass/components/_cross-links.scss */
+/* line 67, ../sass/components/_cross-links.scss */
 .crosslinks .cta:hover .bg-img img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
   opacity: 0.75;
@@ -2167,33 +2127,81 @@ ul.projects li a:hover {
 .landing section:after {
   clear: both;
 }
-/* line 14, ../sass/pages/_landing.scss */
-.landing section .hero {
-  width: 57.62712%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
+@media (min-width: 34.375em) {
+  /* line 14, ../sass/pages/_landing.scss */
+  .landing section .hero {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
 }
-/* line 17, ../sass/pages/_landing.scss */
-.landing section .lead {
-  width: 40.67797%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
-  margin-left: 0%;
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-  margin-top: 3em;
-  font-size: 1.25em;
-  line-height: 1.85em;
+@media (min-width: 55em) {
+  /* line 14, ../sass/pages/_landing.scss */
+  .landing section .hero {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
 }
-/* line 26, ../sass/pages/_landing.scss */
+@media (min-width: 62.5em) {
+  /* line 14, ../sass/pages/_landing.scss */
+  .landing section .hero {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 34.375em) {
+  /* line 26, ../sass/pages/_landing.scss */
+  .landing section .lead {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media (min-width: 55em) {
+  /* line 26, ../sass/pages/_landing.scss */
+  .landing section .lead {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    margin-left: 0%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
+    margin-top: 3em;
+    font-size: 1.25em;
+    line-height: 1.85em;
+  }
+}
+@media (min-width: 62.5em) {
+  /* line 26, ../sass/pages/_landing.scss */
+  .landing section .lead {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    margin-left: 0%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
+    margin-top: 3em;
+    font-size: 1.25em;
+    line-height: 1.85em;
+  }
+}
+/* line 48, ../sass/pages/_landing.scss */
 .landing section .lead h2.page-title a {
   color: #222222;
 }
-/* line 29, ../sass/pages/_landing.scss */
+/* line 51, ../sass/pages/_landing.scss */
 .landing section .lead h2.page-title span.divider {
   display: block;
   max-width: 30px;
@@ -2201,11 +2209,11 @@ ul.projects li a:hover {
   border-bottom: 4px #000 solid;
   margin-top: 0.65em;
 }
-/* line 40, ../sass/pages/_landing.scss */
+/* line 62, ../sass/pages/_landing.scss */
 .landing .content-bottom {
   background: white;
 }
-/* line 43, ../sass/pages/_landing.scss */
+/* line 64, ../sass/pages/_landing.scss */
 .landing .content-bottom section {
   padding: 4em 0;
 }

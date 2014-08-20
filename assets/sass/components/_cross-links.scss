@@ -1,13 +1,26 @@
 .crosslinks {
   @include clearfix;
   .cta {
-  	position: relative;
-    @include box-sizing(border-box);
-    width: 50%;
+  	background: $drkBrown;
+    height: 250px;
     display: block;
-    float: left;
-    background: $drkBrown;
-    height: 200px;
+    position: relative;
+    @include box-sizing(border-box);
+  	
+  	@include breakpoint($bp-small, $no-query: false) {
+			width: 100%;
+			height: 250px;
+    }
+    
+    @include breakpoint($bp-medium, $no-query: false) {
+      width: 50%;
+    }
+    
+    @include breakpoint($bp-large, $no-query: false) {
+      width: 50%;
+      height: 250px;
+      float: left;
+    }
 
     .bg-img {
       position: absolute;

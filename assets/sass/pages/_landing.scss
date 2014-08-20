@@ -1,47 +1,68 @@
 .landing {
   .highlighted {
-  	position: relative;
+    position: relative;
   }
   .intro {
-  	font-size: 1.25em;
-  	line-height: 1.85em;
+    font-size: 1.25em;
+    line-height: 1.85em;
   }
-	section {
-		padding: 2em 0 5em;
-		border-bottom: 3px double $beige;
-		@include clearfix;
+  section {
+    padding: 2em 0 5em;
+    border-bottom: 3px double $beige;
+    @include clearfix;
 
-		.hero {
-      @include span-columns(7,12);
-		}
-		.lead {
-      @include span-columns(5,12);
-      @include pre(0); 
-      @include omega;
-      margin-top: 3em;
-      font-size: 1.25em;
-  	  line-height: 1.85em;
+    .hero {
+      @include breakpoint($bp-small, $no-query: false) {
+        @include span-columns(12,12);
+      }
+      @include breakpoint($bp-medium, $no-query: false) {
+        @include span-columns(7,12);
+      }
+      @include breakpoint($bp-large, $no-query: false) {
+        @include span-columns(7,12);
+      }
+    }
+    
+    .lead {
+      @include breakpoint($bp-small, $no-query: false) {
+        @include span-columns(12,12);
+      }
+      @include breakpoint($bp-medium, $no-query: false) {
+        @include span-columns(5,12);
+        @include pre(0); 
+        @include omega;
+        margin-top: 3em;
+        font-size: 1.25em;
+        line-height: 1.85em;
+      }
+      @include breakpoint($bp-large, $no-query: false) {
+        @include span-columns(5,12);
+        @include pre(0); 
+        @include omega;
+        margin-top: 3em;
+        font-size: 1.25em;
+        line-height: 1.85em;
+      }
 
-  	  h2.page-title {
-  	  	a {
-  	  		color: $black;
-  	  	}
-  	  	span.divider {
-  	  		display: block;
-  	  	  max-width: 30px;
+      h2.page-title {
+        a {
+          color: $black;
+        }
+        span.divider {
+          display: block;
+          max-width: 30px;
           width: 100%;
           border-bottom: 4px #000 solid;
           margin-top: 0.65em;
         }
-  	  }
-		}
+      }
+    }
   }
 
   .content-bottom {
-  	background: $white;
-
-  	section {
-  		padding: 4em 0;
-  	}
+    background: $white;
+    section {
+      padding: 4em 0;
+    }
   }
 }
