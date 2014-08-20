@@ -5,94 +5,107 @@ calls_to_action:
   - 1
   - 2
 ---
-
-<div class="highlighted">
-  <div class="wrap">
-    <section>
-    	<h2 class="section-header"><span>Press</span></h2>
-      <div class="featured-press">
+<div class="latest-work">
+  <div class="highlighted">
+    <div class="wrap">
+      <section>
+      	<h2 class="section-header">Latest Press<span class="divider"></span></h2>
+        <div class="featured-press">
+          {% for post in site.posts %}
+            {% if post.layout == "press" and post.featured == "true" %}
+            <article class="teaser press">
+              <div class="pullquote"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a></div> 
+              {% if post.author %}
+                {% for staff in site.staff %}
+                  {% if post.author == staff.id %}
+                    <div class="staff-member small">
+                      <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
+                      <div class="info">
+                      	<h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3>
+                      	<p>{{ post.date | date: "%B %-d, %Y"}}</p>
+                      </div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+              
+            </article>
+            {% endif %}
+          {% endfor %}
+          <a class="view-all" href="{{ site.baseurl }}/news/press/"><span>View All</span></a>
+        </div>
+      </section>
+    </div>
+  </div>
+  
+  <div class="content-carousel">
+  	<div class="wrap">
+  	  <h2 class="section-header"><span>Featured Work</span></h2>
+      <div class="flexslider carousel">
+        <ul class="slides">
+          {% for post in site.posts %}
+            {% if post.layout == "product" and post.featured == "true" %}
+            <li>
+              <img src="http://placehold.it/450x250&text=Product Type Icon" />
+              <div class="flex-caption">
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                <p>{{ post.summary }}</p>
+              </div>
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <a href="{{ site.baseurl }}/work/research.html">View All</a>
+    </div>
+  </div>
+  
+  <div class="content-bottom">
+    <div class="wrap">
+    	<h2 class="section-header"><span>From The Blog</span></h2>
+      <section class="main">
         {% for post in site.posts %}
-          {% if post.layout == "press" and post.featured == "true" %}
-          <article class="teaser press">
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
+          {% if post.layout == "blog" %}
+          <article>
+            <div class="hero">
+              <img src="http://placehold.it/450x200">
+            </div>
+            <div class="leadin">
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              <p>{{ post.summary }}</p>
+              <a class="button primary-btn" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+            </div>
           </article>
           {% endif %}
         {% endfor %}
-        <a href="{{ site.baseurl }}/news/press/">View All</a>
-      </div>
-    </section>
-  </div>
-</div>
-
-<div class="content-carousel">
-	<div class="wrap">
-	  <h2 class="section-header"><span>Featured Work</span></h2>
-    <div class="flexslider carousel">
-      <ul class="slides">
-        {% for post in site.posts %}
-          {% if post.layout == "product" and post.featured == "true" %}
-          <li>
-            <img src="http://placehold.it/450x250&text=Product Type Icon" />
-            <div class="flex-caption">
-              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-              <p>{{ post.summary }}</p>
-            </div>
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+        <a href="{{ site.baseurl }}/news/blog/">View All</a>
+        <br /><br /><br /><br />
+      </section>
+      <aside class="sidebar-second">
+        <form class="sign-up-action" action="sign-up.html" method="GET">
+          <h2>Subscribe to our mailing list</h2>
+          <input type="text" name="email" placeholder="Enter email">
+          <button type="submit" class="button primary-btn">Sign Up</button>
+        </form>
+      </aside>
     </div>
-    <a href="{{ site.baseurl }}/work/research.html">View All</a>
   </div>
-</div>
-
-<div class="content-bottom">
-  <div class="wrap">
-  	<h2 class="section-header"><span>From The Blog</span></h2>
-    <section class="main">
-      {% for post in site.posts %}
-        {% if post.layout == "blog" %}
-        <article>
-          <div class="hero">
-            <img src="http://placehold.it/450x200">
+  
+  {% if page.calls_to_action %}
+    <div class="crosslinks">
+      {% for cta in site.calls-to-action %}
+        {% if page.calls_to_action contains cta.id %}
+          <div class="cta">
+            <div class="bg-img">
+              <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+            </div>
+            <div class="text">
+              <h3>{{ cta.content }}</h3>
+              <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
+            </div>
           </div>
-          <div class="leadin">
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ post.summary }}</p>
-            <a class="button primary-btn" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-          </div>
-        </article>
         {% endif %}
       {% endfor %}
-      <a href="{{ site.baseurl }}/news/blog/">View All</a>
-      <br /><br /><br /><br />
-    </section>
-    <aside class="sidebar-second">
-      <form class="sign-up-action" action="sign-up.html" method="GET">
-        <h2>Subscribe to our mailing list</h2>
-        <input type="text" name="email" placeholder="Enter email">
-        <button type="submit" class="button primary-btn">Sign Up</button>
-      </form>
-    </aside>
-  </div>
-</div>
-
-{% if page.calls_to_action %}
-  <div class="crosslinks">
-    {% for cta in site.calls-to-action %}
-      {% if page.calls_to_action contains cta.id %}
-        <div class="cta">
-          <div class="bg-img">
-            <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
-          </div>
-          <div class="text">
-            <h3>{{ cta.content }}</h3>
-            <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-{% endif %}
+    </div>
+  {% endif %}
+</div>  

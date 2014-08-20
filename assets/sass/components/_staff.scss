@@ -45,6 +45,41 @@
 	  }
 	}
 
+  // Attribution used on blog & press
+	&.small {
+		margin-top: 1em;
+		.info {
+    	background: transparent;
+      position: relative;
+      text-align: center;
+      color: $white;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      h3 {
+      	margin: 0.25em 0 0;
+      	a {
+      		color: $white;
+      	}
+      }
+  
+      p {
+      	margin: 0.5em 0;
+      }
+    }
+	  .photo {
+		  width: 75px;
+	    height: 75px;
+	    @include border-radius(50%);
+	    margin: 0 auto;
+	    img {
+	      width: 75px;
+	      height: 75px;
+	      @include border-radius(50%);
+	    }
+	  }
+	}
+
 
 	// Detail Page Styling
 	&.detail {

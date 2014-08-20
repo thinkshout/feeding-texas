@@ -20,9 +20,10 @@ layout: default
       	{% if page.author %}
           {% for staff in site.staff %}
             {% if page.author == staff.id %}
-              <img src="{{ staff.image }}">
-              <h3>{{ staff.name }}</h3>
-              <p>{{ staff.position }}</p>
+              <div class="staff-member small">
+                <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
+                <div class="info"><h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3></div>
+              </div>
             {% endif %}
           {% endfor %}
         {% endif %}

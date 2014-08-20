@@ -1,18 +1,25 @@
 .featured-press {
+	width: 100%;
 	@include breakpoint($bp-small, $no-query: true) {
-    padding: 0;
+    width: 100%;
   }
   @include breakpoint($bp-medium, $no-query: true) {
-    padding: 0 3em;
+    width: 36em;
+    margin: 0 auto;
   }
   @include breakpoint($bp-large, $no-query: true) {
-    padding: 0 10em 5em;
+    width: 52em;
+    margin: 0 auto;
   }
 }
 
 article.teaser.press {
-  h2 {
+  .pullquote {
   	font-size: 2.5em;
+  	font-family: $base-font-family;
+  	font-style: oblique;
+  	padding-left: 125px;
+  	background: transparent url('../images/quote.png') top left no-repeat;
   	a {
   		text-decoration: none;
   		color: $orange;
