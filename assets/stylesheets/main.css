@@ -1571,6 +1571,7 @@ a:focus {
   position: relative;
 }
 /* line 77, ../sass/components/_navigation.scss */
+
 .secondary-nav ul li#site-search #search-toggle {
   display: block;
   background: #e98300;

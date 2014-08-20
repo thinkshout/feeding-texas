@@ -12,7 +12,7 @@
     {% assign url_parts_size = url_parts | size %}
     {% assign node_url_parts_size = node_url_parts | size %}
     {% assign filename = node_url_parts | last %}
-    {% if url_parts_size == node_url_parts_size or filename == 'index.html' %}
+    {% if url_parts_size == node_url_parts_size and filename != "index.html" %}
       <li><a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
     {% endif %}
   {% endif %}
