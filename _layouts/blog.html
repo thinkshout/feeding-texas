@@ -1,7 +1,10 @@
 ---
 layout: default
+calls_to_action:
+  - 1
+  - 2
 ---
-<div class="blog-detail">
+<div class="post-detail">
   <div class="highlighted">
     <div class="wrap">
       <div class="page-header">
@@ -12,7 +15,7 @@ layout: default
   <div class="main sidebar-second">
   	<div class="wrap">
   	  <section class="content">
-        <div class="post">
+        <div class="article-body">
           {{ content }}
         </div>
       </section>
@@ -39,3 +42,20 @@ layout: default
     </div>
   </div>
 </div>
+{% if page.calls_to_action %}
+  <div class="crosslinks">
+    {% for cta in site.calls-to-action %}
+      {% if page.calls_to_action contains cta.id %}
+        <div class="cta">
+          <div class="bg-img">
+            <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+          </div>
+          <div class="text">
+            <h3>{{ cta.content }}</h3>
+            <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

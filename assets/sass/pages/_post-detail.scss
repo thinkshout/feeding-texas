@@ -1,0 +1,26 @@
+.post-detail {
+	.highlighted {
+    .wrap {
+    	min-height: 445px;
+    	padding: 0 0 2em 0;
+      .page-header {
+        max-width: 50em;
+        margin-left: -25em;
+        padding: 5em 0 0;
+        top: auto;
+        h1.page-title {
+          color: $orange;
+          font-size: 3.5em;
+          font-family: $base-font-family;
+          font-weight: normal;
+          text-transform: none;
+        }
+      }
+    }
+  }
+
+  .article-body {
+  	font-size: 1.25em;
+    line-height: 1.85em;
+  }
+}

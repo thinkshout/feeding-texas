@@ -1571,7 +1571,6 @@ a:focus {
   position: relative;
 }
 /* line 77, ../sass/components/_navigation.scss */
-
 .secondary-nav ul li#site-search #search-toggle {
   display: block;
   background: #e98300;
@@ -2175,18 +2174,6 @@ ul.projects li a:hover {
   margin: 0 auto 5em;
 }
 
-/* line 3, ../sass/pages/_blog.scss */
-.blog-detail .wrap .page-header {
-  max-width: 50em;
-  margin-left: -25em;
-  padding: 1.5em 0 0;
-}
-/* line 7, ../sass/pages/_blog.scss */
-.blog-detail .wrap .page-header h1.page-title {
-  color: #f6f3f0;
-  font-size: 4em;
-}
-
 /* line 1, ../sass/pages/_county.scss */
 #map {
   height: 800px;
@@ -2321,6 +2308,32 @@ html, body {
 /* line 5, ../sass/pages/_pages.scss */
 .highlighted {
   background: #2e2118;
+}
+
+/* line 3, ../sass/pages/_post-detail.scss */
+.post-detail .highlighted .wrap {
+  min-height: 445px;
+  padding: 0 0 2em 0;
+}
+/* line 6, ../sass/pages/_post-detail.scss */
+.post-detail .highlighted .wrap .page-header {
+  max-width: 50em;
+  margin-left: -25em;
+  padding: 5em 0 0;
+  top: auto;
+}
+/* line 11, ../sass/pages/_post-detail.scss */
+.post-detail .highlighted .wrap .page-header h1.page-title {
+  color: #e98300;
+  font-size: 3.5em;
+  font-family: "Merriweather", Georgia, serif;
+  font-weight: normal;
+  text-transform: none;
+}
+/* line 22, ../sass/pages/_post-detail.scss */
+.post-detail .article-body {
+  font-size: 1.25em;
+  line-height: 1.85em;
 }
 
 /* line 2, ../sass/pages/_press.scss */
