@@ -1,17 +1,17 @@
 ---
 layout: blog
-title: "Study Estimates 18.3 Percent of Texans Were “Food Insecure” in 2012"
+title: "School Breakfast Feeding More Needy Texas Children"
 images: 
   hero: "http://placehold.it/1400x500&text=HERO"
   thumb: "http://placehold.it/450x300&text=THUMB"
 date:   2013-08-16 11:50:37
 summary: |
-  SNAP is the most unfairly maligned government program of the last decade. It has met the needs of millions of Americans impacted by the recession with documented efficiency and accuracy. It has lowered food insecurity rates, provided nutrition to millions of children, seniors and the disabled, and responded nimbly during times of disaster. Recent growth in the program is a testament to the shocking amount of poverty and food insufficiency in America today, not to any flaws in its design or performance.
+  We understand the wrenching decision that several members of our House delegation made to vote for this bill in order to forestall another round of possibly deeper cuts. But while the negotiated cut is far below what many pushed for in the House, it is neither a fair nor reasonable compromise for the families it hurts.
 author: 1
 tags: 
   - SNAP
   - Food Insecurity
-featured: "true"
+featured: "false"
 ---
 
 When Congress passed a farm bill, they included a provision that will sharply reduce SNAP (aka food stamps) benefits for 850,000 households in sixteen states over the next decade.
