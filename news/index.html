@@ -12,7 +12,7 @@ calls_to_action:
       	<h2 class="section-header">What We've Been Saying<span class="divider"></span></h2>
         <div class="featured-press">
           {% for post in site.posts %}
-            {% if post.layout == "press" and post.featured == "true" %}
+            {% if post.layout == "press" and post.featured == true %}
             <article class="teaser press">
               <div class="pullquote"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a></div> 
               {% if post.author %}
@@ -44,7 +44,7 @@ calls_to_action:
       <div class="flexslider carousel">
         <ul class="slides">
           {% for post in site.posts %}
-            {% if post.layout == "product" and post.featured == "true" %}
+            {% if post.layout == "product" and post.featured == true %}
             <li>
               <img src="http://placehold.it/450x250&text=Product Type Icon" />
               <div class="flex-caption">
