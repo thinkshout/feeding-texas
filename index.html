@@ -25,7 +25,7 @@ title: Home
           <section>
           	<h2 class="section-header"><span>Press</span></h2>
             {% for post in site.posts %}
-              {% if post.layout == "press" and post.featured == "true" limit:1 %}
+              {% if post.layout == "press" and post.featured == true limit:1 %}
               <article>
                 <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -40,7 +40,7 @@ title: Home
           <section>
           	<h2 class="section-header"><span>Blog</span></h2>
             {% for post in site.posts %}
-              {% if post.layout == "blog" and post.featured == "true" limit:1 %}
+              {% if post.layout == "blog" and post.featured == true limit:1%}
               <article>
                 <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
                 <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
@@ -55,7 +55,7 @@ title: Home
           <section>
           	<h2 class="section-header"><span>Report</span></h2>
             {% for post in site.posts %}
-              {% if post.layout == "product" and post.promote_to_front == "true" limit:1 %}
+              {% if post.layout == "product" and post.featured == true limit:1 %}
               <article>
                 <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
                 <p>{{ post.summary }}</p>

@@ -16,7 +16,7 @@ downloads:
 date: 2013-08-16 11:50:37
 tags: 
   - Food Insecurity
-featured: "true"
+featured: true
 ---
 Who benefits from food stamps in Texas?
 
