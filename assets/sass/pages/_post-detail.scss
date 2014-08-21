@@ -23,4 +23,36 @@
   	font-size: 1.25em;
     line-height: 1.85em;
   }
+
+  .staff-member.small {
+    .photo {
+    	margin: 0;
+    	height: 100px;
+    	width: 100px;
+    	img {
+    		height: 100px;
+    		width: 100px;
+    	}
+    }
+    .info {
+      text-align: left;
+      color: $black;
+
+      h3 {
+      	margin: 0.25em 0;
+      }
+      
+      .position {
+      	font-size: 0.875em;
+      }
+
+      a {
+      	color: $drkBrown;
+      	@include default-transition;
+      	&:hover {
+          color: $orange;
+      	}
+      }
+    }
+  }
 }

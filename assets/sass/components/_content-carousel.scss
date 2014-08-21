@@ -2,29 +2,4 @@
 	background: #FFF;
 	padding: 0 0 3em;
 	@include clearfix;
-	.section-header {
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    span {
-    	background: #fff;
-      display: inline-block;
-      padding: 0 18px;
-      position: relative;
-      z-index: 2;
-    } 
-    &:before {
-      border: 1px solid #e2dfd7;
-      border-width: 1px 0;
-      content: "";
-      display: block;
-      height: 2px;
-      left: 0;
-      margin-top: -2px;
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      z-index: 1;
-    }
-  }
 }

@@ -25,19 +25,20 @@ calls_to_action:
             {% if page.author == staff.id %}
               <div class="staff-member small">
                 <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
-                <div class="info"><h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3></div>
+                <div class="info">
+                	<h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3>
+                	<div class="position">{{ staff.position }}</div>
+                </div>
               </div>
             {% endif %}
           {% endfor %}
         {% endif %}
-        <div class="tags">
-          {% if page.tags.size > 0 %}
-            <div class="tags">
-              <span class="tag-label icon-bookmark-empty">Filed Under:</span>
-              {{ page.tags | tag_links }}
-            </div>
-          {% endif %}
-        </div>
+        {% if page.tags.size > 0 %}
+          <div class="tags">
+            <span class="tag-label">Filed Under:</span>
+            {{ page.tags | tag_links | join: ", " }}
+          </div>
+        {% endif %}
       </aside>
     </div>
   </div>
