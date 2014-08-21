@@ -69,14 +69,20 @@ $(document).ready(function(){
     }
   });
 
-	// Enable the chosen plugin on .chosen-select
-  $(".chosen-select").chosen({width: "80%"}).change(
+  $.getJSON( "assets/json/zip-codes.json", function( data ) {
+    var options = $("#options");
+    $.each( data, function( key, value ) {
+      options.append('<option value="'+value+'">'+value+'</option>');
+    });
+
+    // Enable the chosen plugin on .chosen-select
+    $(".chosen-select").chosen({width: "80%"}).change(
     function(){
       if (this.selectedIndex!==0) {
-        window.location.href = this.value;
+        window.location.href = 'zip/' + this.value;
       }
-    }
-  );
+    });
+  });
 
 	/******
 		* Populate newsletter sign up with email
