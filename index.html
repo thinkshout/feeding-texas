@@ -10,10 +10,10 @@ title: Home
 		<h1>We lead a unified effort for a hunger-free Texas.</h1>
 		<div class="finder">
 		  <h3>What does hunger look like in your community? Get the figures</h3>
-		  <form>
-        <input id="first-name" placeholder="Zip Code" type="text"> 
-        <a id="submit" href="{{ site.baseurl }}/county-detail.html" class="button primary">Go</a>
-      </form>
+        <select id='options' data-placeholder="Zip code" class="chosen-select">
+          <!-- Include blank option for placeholder value -->
+          <option></option>      
+        </select>
     </div>
 	</div>
 </div>
