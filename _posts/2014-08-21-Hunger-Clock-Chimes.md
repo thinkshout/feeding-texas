@@ -10,7 +10,7 @@ author: 1
 categories: 
   - Food Insecurity
   - SNAP
-featured: “true”
+featured: true
 ---
 
 Texas grocery stores are bustling places this time of year, as hordes of shoppers stock up for holiday meals. You’re probably one of them.

@@ -1,9 +1,14 @@
 ---
 layout: press
 title: Report - Schools feeding more hungry children during summer months
-pull-quote: |
-> We still only reach a small portion of those who need food during the summer months. We know that sites can and want to do more.
+pullquote: We still only reach a small portion of those who need food during the summer months. We know that sites can and want to do more.
 attribution: Celia Cole
+tweet: Report&#58; Schools feeding more hungry children during summer months
+date: 2013-08-20
+categories:
+  - Summer Meals
+  - Child Hunger
+  - Schools
 featured: true
 ---
 
