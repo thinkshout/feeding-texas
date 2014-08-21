@@ -815,34 +815,6 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
 .content-carousel:after {
   clear: both;
 }
-/* line 5, ../sass/components/_content-carousel.scss */
-.content-carousel .section-header {
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-}
-/* line 9, ../sass/components/_content-carousel.scss */
-.content-carousel .section-header span {
-  background: #fff;
-  display: inline-block;
-  padding: 0 18px;
-  position: relative;
-  z-index: 2;
-}
-/* line 16, ../sass/components/_content-carousel.scss */
-.content-carousel .section-header:before {
-  border: 1px solid #e2dfd7;
-  border-width: 1px 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 0;
-  margin-top: -2px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  z-index: 1;
-}
 
 /* line 11, ../sass/components/_county-statistics.scss */
 #cost,
@@ -1728,6 +1700,18 @@ footer nav.secondary ul li a {
   color: white;
 }
 
+/* line 1, ../sass/components/_post-tags.scss */
+.tags {
+  margin: 1em 0;
+  border-top: 1px solid #ece6e0;
+  padding: 1em 0 0;
+  font-size: 0.8em;
+}
+/* line 6, ../sass/components/_post-tags.scss */
+.tags .tag-label {
+  font-weight: bold;
+}
+
 /* line 1, ../sass/components/_search.scss */
 #utility {
   background: #e98300;
@@ -2334,6 +2318,42 @@ html, body {
 .post-detail .article-body {
   font-size: 1.25em;
   line-height: 1.85em;
+}
+/* line 28, ../sass/pages/_post-detail.scss */
+.post-detail .staff-member.small .photo {
+  margin: 0;
+  height: 100px;
+  width: 100px;
+}
+/* line 32, ../sass/pages/_post-detail.scss */
+.post-detail .staff-member.small .photo img {
+  height: 100px;
+  width: 100px;
+}
+/* line 37, ../sass/pages/_post-detail.scss */
+.post-detail .staff-member.small .info {
+  text-align: left;
+  color: #222222;
+}
+/* line 41, ../sass/pages/_post-detail.scss */
+.post-detail .staff-member.small .info h3 {
+  margin: 0.25em 0;
+}
+/* line 45, ../sass/pages/_post-detail.scss */
+.post-detail .staff-member.small .info .position {
+  font-size: 0.875em;
+}
+/* line 49, ../sass/pages/_post-detail.scss */
+.post-detail .staff-member.small .info a {
+  color: #2e2118;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 52, ../sass/pages/_post-detail.scss */
+.post-detail .staff-member.small .info a:hover {
+  color: #e98300;
 }
 
 /* line 2, ../sass/pages/_press.scss */

@@ -9,7 +9,7 @@ calls_to_action:
   <div class="highlighted">
     <div class="wrap">
       <section>
-      	<h2 class="section-header">Latest Press<span class="divider"></span></h2>
+      	<h2 class="section-header">What We've Been Saying<span class="divider"></span></h2>
         <div class="featured-press">
           {% for post in site.posts %}
             {% if post.layout == "press" and post.featured == "true" %}
@@ -40,7 +40,7 @@ calls_to_action:
   
   <div class="content-carousel">
   	<div class="wrap">
-  	  <h2 class="section-header"><span>Featured Work</span></h2>
+  	  <h2 class="section-header">Featured Research<span class="divider"></span></h2>
       <div class="flexslider carousel">
         <ul class="slides">
           {% for post in site.posts %}
@@ -62,7 +62,7 @@ calls_to_action:
   
   <div class="content-bottom">
     <div class="wrap">
-    	<h2 class="section-header"><span>From The Blog</span></h2>
+    	<h2 class="section-header">From The Blog<span class="divider"></span></h2>
       <section class="main">
         {% for post in site.posts %}
           {% if post.layout == "blog" %}
