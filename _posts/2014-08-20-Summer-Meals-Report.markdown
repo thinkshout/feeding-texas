@@ -1,15 +1,10 @@
 ---
 layout: press
-title: Report: Schools feeding more hungry children during summer months
-pull-quote (used as summary): "We still only reach a small portion of those who need food during the summer months. We know that sites can and want to do more.”
-attribution (who is the pull quote from): Celia Cole
-tweet (custom twitter message for visitors to share): Report: Schools feeding more hungry children during summer months
-date: 2013-08-20
-categories (two spaces then a “-” should prefix the tag name):
-  - Summer Meals
-  - Child Hunger
-  - Schools
-featured: “true”
+title: Report - Schools feeding more hungry children during summer months
+pull-quote: |
+> We still only reach a small portion of those who need food during the summer months. We know that sites can and want to do more.
+attribution: Celia Cole
+featured: true
 ---
 
 Austin, Texas – A report distributed today by the Texas Food Bank Network (TFBN) finds that Texas expanded the number of needy children fed at state-sponsored summer meal sites by eight percent in 2013.
