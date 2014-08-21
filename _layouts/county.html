@@ -3,143 +3,150 @@ layout: default
 ---
 <!-- County detail scpecific JavaScripts -->
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.3/highcharts.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.3/modules/data.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.3/modules/drilldown.js"></script>
 
 <script type="text/javascript">
+
 $(function() {
 
-    Highcharts.theme = {
-        colors: ['#53682B', '#E98300', '#0074B2', '#94723E', '#FF9B19', '#B0FF19', 
-                 '#FF9655', '#FFF263', '#6AF9C4'],
-        chart: {
-            backgroundColor: null
-        },
-        title: {
-            text: null
-        },
-        tooltip: {
-            enabled: false,
-        },
-        plotOptions: {
-            pie: {
-                size: 250,
-                center: ['50%', '50%'],
-                dataLabels: {
-                    enabled: true,
-                    format: '<b>{point.name}</b>: {point.percentage:.1f}%'
-                }
-            }
-        }
-    };
-    
-    // Apply the theme
-    Highcharts.setOptions(Highcharts.theme);
-    // Pull all necessary frontmatter vars into json data object.
-    var data = {{ page.data | json }};
-    
-    $('#percentages').highcharts({
-        series: [{
-            type: 'pie',
-            data: [
-                ['Children', parseFloat(data.incomeEligible0To17) + parseFloat(data.incomeEligibleButNotReceiving0To17) ],
-                ['Adults', parseFloat(data.incomeEligible18To64) + parseFloat(data.incomeEligibleButNotReceiving18To64) ],
-                ['Seniors', parseFloat(data.incomeEligible65Plus) + parseFloat(data.incomeEligibleButNotReceiving65Plus) ]
-            ]
-        }]
-    });
+  //########################
+  // leaflet map generation
+  //########################
+  // create a map in the "map" div, set the view to state of texas and zoom
+  var map = L.map('map').setView([31.1693362, -100.0768425], 7);
+  L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-i87786ca/{z}/{x}/{y}.png', {attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'}).addTo(map);
 
-    $('#participation').highcharts({
-        series: [{
-            type: 'pie',
-            data: [
-                ['Receiving', parseFloat(data.totalSnapRecipients) ],
-                ['Not Receiving', parseFloat(data.totalIncomeEligibleButNotReceiving) ]
-            ]
-        }]
-    });
+  {% if page.polygonCoords %}
+    var polygon = L.polygon([
+      {% for coordSet in page.polygonCoords %}
+        [{{ coordSet.latitude }}, {{ coordSet.longitude }}],
+      {% endfor %}
+      ]).addTo(map);
+    // zoom the map to the polyline
+    map.fitBounds(polygon.getBounds());
+  {% elsif page.latitude and page.longitude %}
+    map.setView([{{ page.latitude }}, {{ page.longitude }}], 13)
+  {% endif %}
 
-    $('#percentbenefits').highcharts({
-        series: [{
-            type: 'pie',
-            data: [
-                ['Covered', parseFloat(data.averageBenefitperMeal) ],
-                ['Not Covered', parseFloat(data.weightedCostPerMeal)-parseFloat(data.averageBenefitperMeal) ]
-            ]
-        }]
-    });
+  Highcharts.theme = {
+      colors: ['#53682B', '#E98300', '#0074B2', '#94723E', '#FF9B19', '#B0FF19', 
+               '#FF9655', '#FFF263', '#6AF9C4'],
+      chart: {
+          backgroundColor: null
+      },
+      title: {
+          text: null
+      },
+      tooltip: {
+          enabled: false,
+      },
+      plotOptions: {
+          pie: {
+              size: 250,
+              center: ['50%', '50%'],
+              dataLabels: {
+                  enabled: true,
+                  format: '<b>{point.name}</b>: {point.percentage:.1f}%'
+              }
+          }
+      }
+  };
 
-    $('#percentrcvrace').highcharts({
-        series: [{
-            type: 'pie',
-            data: [
-                ['White', parseFloat(data.recipientRaceWhite) ],
-                ['Black', parseFloat(data.recipientRaceBlack) ],
-                ['Native American', parseFloat(data.recipientRaceNativeAmerican) ],
-                ['Asian', parseFloat(data.recipientRaceAsian) ],
-                ['Pacific Islander', parseFloat(data.recipientRacePacificIslander) ],
-                ['Multi-race', parseFloat(data.recipientRaceMultiRace) ],
-                ['Unknown/Missing', parseFloat(data.recipientRaceUnknownMissing) ]
-            ]
-        }]
-    });
+  //########################
+  // Highcharts
+  //########################
+  // Apply the theme
+  Highcharts.setOptions(Highcharts.theme);
+  // Pull all necessary frontmatter vars into json data object.
+  var data = {{ page.data | json }};
+  
+  $('#percentages').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Children', parseFloat(data.incomeEligible0To17) + parseFloat(data.incomeEligibleButNotReceiving0To17) ],
+              ['Adults', parseFloat(data.incomeEligible18To64) + parseFloat(data.incomeEligibleButNotReceiving18To64) ],
+              ['Seniors', parseFloat(data.incomeEligible65Plus) + parseFloat(data.incomeEligibleButNotReceiving65Plus) ]
+          ]
+      }]
+  });
 
-    $('#percentrcvworking').highcharts({
-        series: [{
-            type: 'pie',
-            data: [
-                ['Working', parseFloat(data.householdIncomeWithEarnedIncome) ],
-                ['Non-Working', 1 - parseFloat(data.householdIncomeWithEarnedIncome) ]
-            ]
-        }]
-    });
+  $('#participation').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Receiving', parseFloat(data.totalSnapRecipients) ],
+              ['Not Receiving', parseFloat(data.totalIncomeEligibleButNotReceiving) ]
+          ]
+      }]
+  });
 
-    $('#percentrcvage').highcharts({
-        series: [{
-            type: 'pie',
-            data: [
-                ['Children', parseFloat(data.recipients0To17) ],
-                ['Adults', parseFloat(data.recipients18To64) ],
-                ['Seniors', parseFloat(data.recipients65Plus) ]
-            ]
-        }]
-    });
+  $('#percentbenefits').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Covered', parseFloat(data.averageBenefitperMeal) ],
+              ['Not Covered', parseFloat(data.weightedCostPerMeal)-parseFloat(data.averageBenefitperMeal) ]
+          ]
+      }]
+  });
 
-    $('#percentrcvethnicity').highcharts({
-        series: [{
-            type: 'pie',
-            data: [
-                ['Hispanic', parseFloat(data.recipientEthnicityHispanic) ],
-                ['Non-Hispanic', parseFloat(data.recipientEthnicityNonHispanic) ],
-                ['Unknown/Missing', parseFloat(data.recipientEthnicityUnknownMissing) ]
-            ]
-        }]
-    });
+  $('#percentrcvrace').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['White', parseFloat(data.recipientRaceWhite) ],
+              ['Black', parseFloat(data.recipientRaceBlack) ],
+              ['Native American', parseFloat(data.recipientRaceNativeAmerican) ],
+              ['Asian', parseFloat(data.recipientRaceAsian) ],
+              ['Pacific Islander', parseFloat(data.recipientRacePacificIslander) ],
+              ['Multi-race', parseFloat(data.recipientRaceMultiRace) ],
+              ['Unknown/Missing', parseFloat(data.recipientRaceUnknownMissing) ]
+          ]
+      }]
+  });
+
+  $('#percentrcvworking').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Working', parseFloat(data.householdIncomeWithEarnedIncome) ],
+              ['Non-Working', 1 - parseFloat(data.householdIncomeWithEarnedIncome) ]
+          ]
+      }]
+  });
+
+  $('#percentrcvage').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Children', parseFloat(data.recipients0To17) ],
+              ['Adults', parseFloat(data.recipients18To64) ],
+              ['Seniors', parseFloat(data.recipients65Plus) ]
+          ]
+      }]
+  });
+
+  $('#percentrcvethnicity').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Hispanic', parseFloat(data.recipientEthnicityHispanic) ],
+              ['Non-Hispanic', parseFloat(data.recipientEthnicityNonHispanic) ],
+              ['Unknown/Missing', parseFloat(data.recipientEthnicityUnknownMissing) ]
+          ]
+      }]
+  });
 });
 </script>
 <div class="county-detail">
   <div class="highlighted">
     <div class="wrap">
       <div class="bg-img">
-        <div id="map">
-          <script type="text/javascript">
-            var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-i87786ca/{z}/{x}/{y}.png', {attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'});
-            var map = L.map('map').addLayer(mapboxTiles);
-
-            {% if page.polygonCoords %}
-              var polygon = L.polygon([
-                {% for coordSet in page.polygonCoords %}
-                  [{{ coordSet.latitude }}, {{ coordSet.longitude }}],
-                {% endfor %}
-                ]).addTo(map);
-              // zoom the map to the polyline
-              map.fitBounds(polygon.getBounds());
-            {% else %}
-              map.setView([{{ page.latitude }}, {{ page.longitude }}], 13)
-            {% endif %}
-          </script>
-        </div>
+      <div id="map">asdfasdf</div>
       </div>
       <div class="page-header">
         <h1 class="page-title">{{ site.data.example.county }} County <span class="postal">{{ page.zip }}</span></h1>
