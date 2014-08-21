@@ -69,7 +69,7 @@ $(document).ready(function(){
     }
   });
 
-  $.getJSON( "assets/json/zip-codes.json", function( data ) {
+  $.getJSON( "/assets/json/zip-codes.json", function( data ) {
     var options = $("#options");
     $.each( data, function( key, value ) {
       options.append('<option value="'+value+'">'+value+'</option>');
