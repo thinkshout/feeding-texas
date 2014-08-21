@@ -29,7 +29,7 @@
 
 <div class="product-list">
   {% for post in site.posts %}
-    {% if post.layout == "product" and post.featured == "true" %}
+    {% if post.layout == "product" and post.featured == true %}
       <div class="product teaser" data-type="{{ post.type }}" data-topic="{% for category in post.categories %}{{ category | replace:' ','-' }} {% endfor %}">
         <span class="label">{{ post.type }}</span>
         <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
