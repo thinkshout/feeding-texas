@@ -1,0 +1,9 @@
+.home {
+	section {
+		padding: 0 0 2em 0;
+    .main {
+      margin-top: 0;
+      @include clearfix;
+    }
+  }
+}
