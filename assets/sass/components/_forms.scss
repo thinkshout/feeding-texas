@@ -70,6 +70,13 @@ form.sign-up-action {
 	}
 }
 
+.highlighted {
+	h2 { color: $orange; }
+	form.sign-up-action {
+    background: $drkBrown;
+	}
+}
+
 #mc_embed_signup form {
 	padding: 2em 1em;
 

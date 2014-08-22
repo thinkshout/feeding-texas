@@ -1,32 +1,65 @@
 ---
 layout: default
 title: Blog
+calls_to_action:
+  - 1
+  - 2
 ---
-<div class="main sidebar-second">
-	<div class="wrap">
-    <section class="content">
-      {% for post in site.posts %}
-        {% if post.layout == "blog" %}
-          <article>
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ post.summary }} <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a></p>
-          </article> 
-        {% endif %}
-      {% endfor %} 
-    </section>
-    <aside class="sidebar-second">
-      <h4>Categories</h4>
-      <ul>
-      <!-- Alphabetical list of site tags -->
-      {%capture site_tags %}{% for tag in site.tags %}{{ tag | first }},{%endfor%}{%endcapture%}
-      {% assign site_tags = site_tags | split:',' | sort %}
-      {% for tag in site_tags %}
-        <li>
-          <a href="/{{ site.tag_dir }}/{{ tag | downcase | replace: ' ', '-' }}/">{{ tag }}</a>
-        </li>
-      {% endfor %}
-      </ul>
-    </aside>
+<div class="post-detail">
+  <div class="highlighted">
+    <div class="wrap">
+      <div class="page-header">
+        <h1 class="page-title">Blog</h1>
+        <form class="sign-up-action" action="sign-up.html" method="GET">
+          <h2>Subscribe to our mailing list</h2>
+          <input type="text" name="email" placeholder="Enter email">
+          <button type="submit" class="button primary-btn">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="main sidebar-second">
+  	<div class="wrap">
+      <section class="content">
+        {% for post in site.posts %}
+          {% if post.layout == "blog" %}
+            <article>
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              <p>{{ post.summary }} <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a></p>
+            </article> 
+          {% endif %}
+        {% endfor %} 
+      </section>
+      <aside class="sidebar-second">
+        <h4>Categories</h4>
+        <ul>
+        <!-- Alphabetical list of site tags -->
+        {%capture site_tags %}{% for tag in site.tags %}{{ tag | first }},{%endfor%}{%endcapture%}
+        {% assign site_tags = site_tags | split:',' | sort %}
+        {% for tag in site_tags %}
+          <li>
+            <a href="/{{ site.tag_dir }}/{{ tag | downcase | replace: ' ', '-' }}/">{{ tag }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      </aside>
+    </div>
   </div>
 </div>
-
+{% if page.calls_to_action %}
+  <div class="crosslinks">
+    {% for cta in site.calls-to-action %}
+      {% if page.calls_to_action contains cta.id %}
+        <div class="cta">
+          <div class="bg-img">
+            <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+          </div>
+          <div class="text">
+            <h3>{{ cta.content }}</h3>
+            <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
