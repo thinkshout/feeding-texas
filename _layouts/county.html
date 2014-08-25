@@ -32,7 +32,7 @@ $(function() {
   {% endif %}
 
   Highcharts.theme = {
-      colors: ['#53682B', '#E98300', '#0074B2', '#94723E', '#FF9B19', '#B0FF19', 
+      colors: ['#53682B', '#E98300', '#0074B2', '#94723E', '#FF9B19', '#B0FF19',
                '#FF9655', '#FFF263', '#6AF9C4'],
       chart: {
           backgroundColor: null
@@ -61,8 +61,8 @@ $(function() {
   // Apply the theme
   Highcharts.setOptions(Highcharts.theme);
   // Pull all necessary frontmatter vars into json data object.
-  var data = {{ page.data | json }};
-  
+  var data = {{ page.data | jsonify }};
+
   $('#percentages').highcharts({
       series: [{
           type: 'pie',
@@ -157,7 +157,7 @@ $(function() {
   </div>
   <div class="main">
     <div class="wrap">
-      <section id="overview" class="content">     
+      <section id="overview" class="content">
         <div class="row">
           <div class="third center-txt"><!-- Meal Cost -->
             <div id="cost"></div>
