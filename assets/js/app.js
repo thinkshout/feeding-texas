@@ -73,7 +73,7 @@ $(document).ready(function(){
   // Enable the chosen plugin on .chosen-select
   $(".chosen-select").chosen({width: "80%"}).change(function(){
 	    if (this.selectedIndex!==0) {
-	      window.location.href = 'zip/' + this.value;
+	      window.location.href = this.value;
 	    }
   });
 
