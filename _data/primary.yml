@@ -1,14 +1,23 @@
-- title: Learn About Hunger
-  url: /learn/
+primary:
+  - title: Learn About Hunger
+    url: /learn/
+  - title: How We Help
+    url: /work/
+  - title: Get Involved
+    url: /get-involved/
+  - title: About Us
+    url: /about/
+  - title: Latest Work
+    url: /news/
 
-- title: How We Help
-  url: /work/
+secondary:
+  - title: About Us
+    url: /about/
+  - title: Latest Work
+    url: /news/
 
-- title: Get Involved
-  url: /get-involved/
-
-- title: About Us
-  url: /about/
-
-- title: Latest Work
-  url: /news/
+action:
+  - title: Donate
+    url: https://donatenow.networkforgood.org/feeding-texas
+  - title: Get Help
+    url: /help/
