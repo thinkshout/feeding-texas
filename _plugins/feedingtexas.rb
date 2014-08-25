@@ -1,10 +1,10 @@
-# plugin to create the json data store used to populate the options of the zip code
-# select element on the home page
-
+# Custom plugins for Feeding Texas
 module Jekyll
-  require 'csv'
 
+  # plugin to create the json data store used to populate the options of the
+  # zip code select element on the home page
   class CSVZipToOptions < Liquid::Tag
+    require 'csv'
 
     def render(context)
       dir = context.registers[:site].config['csv_dir'] || 'assets/csv_data'
@@ -26,6 +26,7 @@ module Jekyll
 
   end
 
+  # Generate pages from foodbanks data file.
   class FoodbankPage < Page
     def initialize(site, base, dir, location)
       @site = site
@@ -53,9 +54,19 @@ module Jekyll
       end
 
     end
-
   end
 
+  # Filter for division.
+  module DividedBy
+    def divide(nums)
+      num1 = nums[0].to_f
+      num2 = nums[1].to_f
+      val = num1/num2
+      puts val
+    end
+  end
 end
 
+# Register custom tags and filters.
 Liquid::Template.register_tag('CSVZipToOptions', Jekyll::CSVZipToOptions)
+Liquid::Template.register_filter(Jekyll::DividedBy)
