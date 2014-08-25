@@ -10,12 +10,6 @@ primary:
   - title: Latest Work
     url: /news/
 
-secondary:
-  - title: About Us
-    url: /about/
-  - title: Latest Work
-    url: /news/
-
 action:
   - title: Donate
     url: https://donatenow.networkforgood.org/feeding-texas
