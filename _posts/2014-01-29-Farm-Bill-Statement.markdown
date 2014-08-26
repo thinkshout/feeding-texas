@@ -12,7 +12,7 @@ categories:
 featured: true
 ---
 
-## Benefits for 850,000 Hungry Americans to be reduced
+## 850,000 Hungry Americans Will See Reduced Assistance
 
 FOR IMMEDIATE RELEASE: 1/29/14
 
