@@ -12,7 +12,7 @@ categories:
 featured: true
 ---
 
-## 850,000 Hungry Americans Will See Reduced Assistance
+## 850,000 hungry Americans will see reduced assistance
 
 FOR IMMEDIATE RELEASE: 1/29/14  
 Contact: Celia Cole, 512-590-0659 or ccole@tfbn.org
