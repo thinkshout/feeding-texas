@@ -1,7 +1,7 @@
 ---
 layout: press
 title: Study Estimates 18.3 Percent of Texans Were “Food Insecure” in 2012
-pullquote: Hunger doesn’t belong here.
+pullquote: Studies like these underline how hunger can persist even when the economy seems to be getting better.
 attribution: Celia Cole
 tweet: Study Estimates 18.3 Percent of Texans Were “Food Insecure” in 2012
 date: 2014-04-21
@@ -9,7 +9,7 @@ categories:
   - Food Insecurity
   - County
   - Data
-featured: true
+featured: false
 ---
 
 FOR IMMEDIATE RELEASE: 4/21/14   
