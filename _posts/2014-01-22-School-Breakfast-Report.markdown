@@ -1,9 +1,9 @@
 ---
 layout: press
-title: Report - Schools feeding more hungry children during summer months
+title: Report: Schools feeding more hungry children during summer months
 pullquote: Texas has done a good job making this program available, but students clearly still face barriers and stigma in order to eat breakfast before the first bell.
 attribution: Celia Cole
-tweet: Report - Schools feeding more hungry children during summer months
+tweet: Report: Schools feeding more hungry children during summer months
 date: 2014-01-22
 categories:
   - School Breakfast
