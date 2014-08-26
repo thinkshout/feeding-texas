@@ -5,7 +5,7 @@ summary: When Congress passed a farm bill, they included a provision that will s
 images:
   hero: "http://placehold.it/1400x500&text=HERO"
   thumb: "http://placehold.it/450x300&text=THUMB"
-date: 2014-08-21
+date: 2014-02-04
 author: 2
 categories: 
   - Food Insecurity
