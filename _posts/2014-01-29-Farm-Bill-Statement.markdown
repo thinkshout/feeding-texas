@@ -15,7 +15,6 @@ featured: true
 ## 850,000 Hungry Americans Will See Reduced Assistance
 
 FOR IMMEDIATE RELEASE: 1/29/14
-
 Contact: Celia Cole, 512-590-0659 or ccole@tfbn.org
 
 Today the House of Representatives, in a vote that split both parties, passed a farm bill that will sharply reduce SNAP (aka food stamps) benefits for [850,000 households in sixteen states](http://nationalaglawcenter.org/wp-content/uploads/assets/crs/R42591.pdf) over the next decade.
@@ -28,6 +27,6 @@ SNAP is the most unfairly maligned government program of the last decade. It has
 
 Is an agreement to cut SNAP benefits as record numbers of Americans struggle to put food on the table in our nation’s best interest? It is not. This vote must mark the end of the War on the Poor. Congress must stop balancing the budget on the backs of the most vulnerable, simply because they lack the political clout to fight back. This farm bill must be the last time that hungry Americans are made to suffer.
 
-*The Texas Food Bank Network provides a unified voice among food banks in support of their common mission to end hunger in Texas. Learn more at TFBN.org.* 
+*The Texas Food Bank Network provides a unified voice among food banks in support of their common mission to end hunger in Texas.* 
 
 # #
