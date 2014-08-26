@@ -9,7 +9,7 @@ categories:
   - School Breakfast
   - Child Hunger
   - Schools
-featured: true
+featured: false
 ---
 ## State still leaving $59M in annual federal aid on the table
 
