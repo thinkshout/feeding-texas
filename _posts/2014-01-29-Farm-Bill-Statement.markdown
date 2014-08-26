@@ -6,17 +6,19 @@ attribution: Celia Cole
 tweet: Our Statement on Farm Bill Cutting $8.6B from SNAP
 date: 2014-01-29
 categories:
-  - School Breakfast
-  - Child Hunger
-  - Schools
+  - Farm Bill
+  - SNAP
+  - Congress
 featured: true
 ---
 
-FOR IMMEDIATE RELEASE: 1/29/14
-Contact: Celia Cole, 512-590-0659
-ccole@tfbn.org
+## Benefits for 850,000 Hungry Americans to be reduced
 
-Today the House of Representatives, in a vote that split both parties, passed a farm bill that will sharply reduce SNAP (aka food stamps) benefits for 850,000 households in sixteen states over the next decade.
+FOR IMMEDIATE RELEASE: 1/29/14
+
+Contact: Celia Cole, 512-590-0659 or ccole@tfbn.org
+
+Today the House of Representatives, in a vote that split both parties, passed a farm bill that will sharply reduce SNAP (aka food stamps) benefits for [850,000 households in sixteen states](http://nationalaglawcenter.org/wp-content/uploads/assets/crs/R42591.pdf) over the next decade.
 
 Although Texas families will not be affected by this cut, we are dismayed that Congress chose to slash this critical anti-hunger program for the fourth time in as many years. The specifics of this cut are particularly cruel, as Congress seems to be saying to thousands of families: “You deserve help putting food on the table – just not quite so much.”
 
@@ -26,6 +28,6 @@ SNAP is the most unfairly maligned government program of the last decade. It has
 
 Is an agreement to cut SNAP benefits as record numbers of Americans struggle to put food on the table in our nation’s best interest? It is not. This vote must mark the end of the War on the Poor. Congress must stop balancing the budget on the backs of the most vulnerable, simply because they lack the political clout to fight back. This farm bill must be the last time that hungry Americans are made to suffer.
 
-The Texas Food Bank Network provides a unified voice among food banks in support of their common mission to end hunger in Texas. Learn more at TFBN.org. 
+*The Texas Food Bank Network provides a unified voice among food banks in support of their common mission to end hunger in Texas. Learn more at TFBN.org.* 
 
 # #
