@@ -11,6 +11,11 @@ categories:
   - Schools
 featured: true
 ---
+## State still leaving $59M in annual federal aid on the table
+
+FOR IMMEDIATE RELEASE: 1/22/14
+
+Contact: Celia Cole, 512-590-0659 or ccole@tfbn.org
 
 AUSTIN – A new national report finds that sixty-one low-income Texas children ate school breakfast for every 100 that received subsidized school lunch in the last school year. This slight increase over the previous year means that an average of 1.5 million low-income children ate a free or reduced-price breakfast each school day. The report estimated that an additional $59M in federal aid would flow to Texas schools each year if the state were able to reach seventy out of every 100 needy students.
 
@@ -22,6 +27,6 @@ Texas mandates that nearly all public schools offer the federally-funded breakfa
 
 The School Breakfast Scorecard, released annually by the Food Research and Action Center (FRAC), measures the reach of the School Breakfast Program nationally and by state. School district-level data is also available for Austin, Dallas, Fort Worth, Houston and San Antonio.
 
-The Texas Food Bank Network provides a unified voice among food banks in support of their common mission to end hunger in Texas. Learn more at TFBN.org.
+*The Texas Food Bank Network provides a unified voice among food banks in support of their common mission to end hunger in Texas.*
 
 # #
