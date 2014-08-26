@@ -9,7 +9,7 @@ categories:
   - School Breakfast
   - Child Hunger
   - Schools
-featured: "true"
+featured: true
 ---
 
 FOR IMMEDIATE RELEASE: 1/29/14
