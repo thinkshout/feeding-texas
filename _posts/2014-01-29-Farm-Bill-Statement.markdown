@@ -14,7 +14,7 @@ featured: true
 
 ## 850,000 hungry Americans will see reduced assistance
 
-FOR IMMEDIATE RELEASE: 1/29/14  
+FOR IMMEDIATE RELEASE: 1/29/14   
 Contact: Celia Cole, 512-590-0659 or ccole@tfbn.org
 
 Today the House of Representatives, in a vote that split both parties, passed a farm bill that will sharply reduce SNAP (aka food stamps) benefits for [850,000 households in sixteen states](http://nationalaglawcenter.org/wp-content/uploads/assets/crs/R42591.pdf) over the next decade.
