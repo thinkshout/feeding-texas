@@ -6,7 +6,7 @@ images:
   hero: "http://placehold.it/1400x500&text=HERO"
   thumb: "http://placehold.it/450x300&text=THUMB"
 date: 2014-02-04
-author: 2
+author: 1
 categories: 
   - Food Insecurity
   - SNAP
