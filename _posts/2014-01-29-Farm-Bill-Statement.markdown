@@ -9,7 +9,7 @@ categories:
   - Farm Bill
   - SNAP
   - Congress
-featured: true
+featured: false
 ---
 
 ## 850,000 hungry Americans will see reduced assistance
