@@ -12,10 +12,10 @@ categories:
 featured: true
 ---
 
+## Texas still missing out on over $49 million due to low participation
+
 For Immediate Release: June 2, 2014   
 Contact: Celia Cole, 512-590-0659 or ccole@tfbn.org
-
-## Texas still missing out on over $49 million due to low participation
 
 Austin, Texas – A report distributed today by the Texas Food Bank Network (TFBN) finds that Texas expanded the number of needy children fed at state-sponsored summer meal sites by eight percent in 2013.
 
