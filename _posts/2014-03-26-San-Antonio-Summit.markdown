@@ -1,6 +1,8 @@
 ---
 layout: press
-title: San Antonio Summit Set for March 26: Eliminating Hunger After School and During Summer Vacation in Texas
+title: San Antonio Summit Set for March 26 - Eliminating Hunger After School and During Summer Vacation in Texas
+pullquote:
+attribution:
 tweet: Press Advisory - San Antonio Hunger Summit Set for March 26
 date: 2014-03-26
 categories:
