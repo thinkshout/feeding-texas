@@ -5,7 +5,7 @@ summary: On Nov. 1, 2013, four million Texans saw a big chunk of their monthly f
 images:
   hero: "http://placehold.it/1400x500&text=HERO"
   thumb: "http://placehold.it/450x300&text=THUMB"
-date: 2014-08-21
+date: 2013-10-31
 author: 1
 categories: 
   - Food Insecurity
