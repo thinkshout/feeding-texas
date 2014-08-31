@@ -19,16 +19,16 @@ $(function() {
   var map = L.map('map').setView([31.1693362, -100.0768425], 7);
   L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-i87786ca/{z}/{x}/{y}.png', {attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'}).addTo(map);
 
-  {% if page.polygonCoords %}
+  {% if page.data.polygonCoords %}
     var polygon = L.polygon([
-      {% for coordSet in page.polygonCoords %}
+      {% for coordSet in page.data.polygonCoords %}
         [{{ coordSet.latitude }}, {{ coordSet.longitude }}],
       {% endfor %}
       ]).addTo(map);
     // zoom the map to the polyline
     map.fitBounds(polygon.getBounds());
-  {% elsif page.latitude and page.longitude %}
-    map.setView([{{ page.latitude }}, {{ page.longitude }}], 13)
+  {% elsif page.data.latitude and page.data.longitude %}
+    map.setView([{{ page.data.latitude }}, {{ page.data.longitude }}], 13)
   {% endif %}
 
   Highcharts.theme = {
@@ -149,7 +149,7 @@ $(function() {
       <div id="map">asdfasdf</div>
       </div>
       <div class="page-header">
-        <h1 class="page-title">{{ site.data.example.county }} County <span class="postal">{{ page.zip }}</span></h1>
+        <h1 class="page-title">{{ site.data.example.county }} County <span class="postal">{{ page.data.zip }}</span></h1>
         <h3>{{ page.subhead }}</h3>
         <a class="button primary-cta" href="#help">Get Help</a>
       </div>
@@ -175,7 +175,7 @@ $(function() {
           <div class="third center-txt"><!-- Childhood Insecurity -->
             <div id="children"></div>
             <div class="key-stat">
-              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}</span> of children in {{ page.county }} have experienced food insecurity in the last year.</p>
+              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}</span> of children in {{ page.data.county }} have experienced food insecurity in the last year.</p>
             </div>
             <p>That's <strong>{{ page.data.foodInsecureChildren }}</strong> children going hungry.</p>
           </div>
@@ -264,8 +264,10 @@ $(function() {
       </section>
       <section id="help" class="content">
         <h2 class="section-header"><span>Get Help</span></h2>
-        <h3>{{ page.foodBank }}</h3>
-        <p>{{ page.website }}</p>
+        <h3>{{ page.data.foodBank-name }}</h3>
+        <p>{{ page.data.foodBank-address }}</p>
+        <p>{{ page.data.foodBank-phone }}</p>
+        <p>{{ page.data.foodBank-website }}</p>
       </section>
     </div>
   </div>
