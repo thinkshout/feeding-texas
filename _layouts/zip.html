@@ -1,8 +1,289 @@
 ---
 layout: default
 ---
+<!-- County detail scpecific JavaScripts -->
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.3/highcharts.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.3/modules/data.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.3/modules/drilldown.js"></script>
 
-<p>Zip code: {{page.zipcode}}</p>
-<p>County: {{page.county}}</p>
-<p>Post Office Location: {{page.postOfficeLocation}}</p>
+<script type="text/javascript">
 
+$(function() {
+
+  //########################
+  // leaflet map generation
+  //########################
+  // create a map in the "map" div, set the view to state of texas and zoom
+  var map = L.map('map').setView([31.1693362, -100.0768425], 7);
+  L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-i87786ca/{z}/{x}/{y}.png', {attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'}).addTo(map);
+
+  {% if page.polygonCoords %}
+    var polygon = L.polygon([
+      {% for coordSet in page.polygonCoords %}
+        [{{ coordSet.latitude }}, {{ coordSet.longitude }}],
+      {% endfor %}
+      ]).addTo(map);
+    // zoom the map to the polyline
+    map.fitBounds(polygon.getBounds());
+  {% elsif page.latitude and page.longitude %}
+    map.setView([{{ page.latitude }}, {{ page.longitude }}], 13)
+  {% endif %}
+
+  Highcharts.theme = {
+      colors: ['#53682B', '#E98300', '#0074B2', '#94723E', '#FF9B19', '#B0FF19', 
+               '#FF9655', '#FFF263', '#6AF9C4'],
+      chart: {
+          backgroundColor: null
+      },
+      title: {
+          text: null
+      },
+      tooltip: {
+          enabled: false,
+      },
+      plotOptions: {
+          pie: {
+              size: 250,
+              center: ['50%', '50%'],
+              dataLabels: {
+                  enabled: true,
+                  format: '<b>{point.name}</b>: {point.percentage:.1f}%'
+              }
+          }
+      }
+  };
+
+  //########################
+  // Highcharts
+  //########################
+  // Apply the theme
+  Highcharts.setOptions(Highcharts.theme);
+  // Pull all necessary frontmatter vars into json data object.
+  var data = {{ page.data | json }};
+  
+  $('#percentages').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Children', parseFloat(data.incomeEligible0To17) + parseFloat(data.incomeEligibleButNotReceiving0To17) ],
+              ['Adults', parseFloat(data.incomeEligible18To64) + parseFloat(data.incomeEligibleButNotReceiving18To64) ],
+              ['Seniors', parseFloat(data.incomeEligible65Plus) + parseFloat(data.incomeEligibleButNotReceiving65Plus) ]
+          ]
+      }]
+  });
+
+  $('#participation').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Receiving', parseFloat(data.totalSnapRecipients) ],
+              ['Not Receiving', parseFloat(data.totalIncomeEligibleButNotReceiving) ]
+          ]
+      }]
+  });
+
+  $('#percentbenefits').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Covered', parseFloat(data.averageBenefitperMeal) ],
+              ['Not Covered', parseFloat(data.weightedCostPerMeal)-parseFloat(data.averageBenefitperMeal) ]
+          ]
+      }]
+  });
+
+  $('#percentrcvrace').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['White', parseFloat(data.recipientRaceWhite) ],
+              ['Black', parseFloat(data.recipientRaceBlack) ],
+              ['Native American', parseFloat(data.recipientRaceNativeAmerican) ],
+              ['Asian', parseFloat(data.recipientRaceAsian) ],
+              ['Pacific Islander', parseFloat(data.recipientRacePacificIslander) ],
+              ['Multi-race', parseFloat(data.recipientRaceMultiRace) ],
+              ['Unknown/Missing', parseFloat(data.recipientRaceUnknownMissing) ]
+          ]
+      }]
+  });
+
+  $('#percentrcvworking').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Working', parseFloat(data.householdIncomeWithEarnedIncome) ],
+              ['Non-Working', 1 - parseFloat(data.householdIncomeWithEarnedIncome) ]
+          ]
+      }]
+  });
+
+  $('#percentrcvage').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Children', parseFloat(data.recipients0To17) ],
+              ['Adults', parseFloat(data.recipients18To64) ],
+              ['Seniors', parseFloat(data.recipients65Plus) ]
+          ]
+      }]
+  });
+
+  $('#percentrcvethnicity').highcharts({
+      series: [{
+          type: 'pie',
+          data: [
+              ['Hispanic', parseFloat(data.recipientEthnicityHispanic) ],
+              ['Non-Hispanic', parseFloat(data.recipientEthnicityNonHispanic) ],
+              ['Unknown/Missing', parseFloat(data.recipientEthnicityUnknownMissing) ]
+          ]
+      }]
+  });
+});
+</script>
+<div class="county-detail">
+  <div class="highlighted">
+    <div class="wrap">
+      <div class="bg-img">
+      <div id="map">asdfasdf</div>
+      </div>
+      <div class="page-header">
+        <h1 class="page-title">{{ site.data.example.county }} County <span class="postal">{{ page.zip }}</span></h1>
+        <h3>{{ page.subhead }}</h3>
+        <a class="button primary-cta" href="#help">Get Help</a>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="wrap">
+      <section id="overview" class="content">     
+        <div class="row">
+          <div class="third center-txt"><!-- Meal Cost -->
+            <div id="cost"></div>
+            <div class="key-stat">
+              <p><span id="cost-of-meal" class="cost collapse">${{ page.data.weightedCostPerMeal }}</span> Cost of a meal</p>
+            </div>
+            <p>That's <strong>{{ 1 | minus: page.data.costOfFoodIndex | times: 100 }}%</strong>{% if page.data.costOfFoodIndex < 1 %} less {% else %} more {% endif %} than the national average.</p>
+          </div>
+          <div class="third center-txt"><!-- Food Insecurity -->
+            <div id="people"></div>
+            <div class="key-stat">
+              <p><span id="insecurity-rate" class="percentage collapse">{{ page.data.individualFoodInsecurityRate }}</span> of people have experienced food insecurity in this county in the last year.</p>
+            </div>
+          </div>
+          <div class="third center-txt"><!-- Childhood Insecurity -->
+            <div id="children"></div>
+            <div class="key-stat">
+              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}</span> of children in {{ page.county }} have experienced food insecurity in the last year.</p>
+            </div>
+            <p>That's <strong>{{ page.data.foodInsecureChildren }}</strong> children going hungry.</p>
+          </div>
+        </div>
+      </section>
+      {% if page.constituent-story %}
+        <section class="content">
+          {% for story in site.constituent-stories %}
+            {% if page.constituent-story == story.id %}
+              <h2 class="section-header"><span>{{ story.name }}'s Story</span></h2>
+              <p>{{ story.content }}</p>
+            {% endif %}
+          {% endfor %}
+          <a class="button primary-cta" href="#">Tell us your story</a>
+        </section>
+      {% endif %}
+      <section id="eligibility">
+        <h2 class="section-header"><span>Eligibility</span></h2>
+        <div id="ageEligibility" class="row">
+          <div class="half visualization">
+            <div id="percentages"></div>
+          </div>
+          <div class="half narrative">
+            <div class="key-stat">
+              <p><span class="total">{{ page.data.totalIncomeEligibleIndividuals }}</span> people are eligible for SNAP benefits.</p>
+            </div>
+            <div id="eligibility-age-breakdown" class="row">
+              <div class="third">
+                <span class="total">{{ page.data.incomeEligible0To17 }}</span>children
+              </div>
+              <div class="third">
+                <span class="total">{{ page.data.incomeEligible18To64 }}</span>adults
+              </div>
+              <div class="third">
+                <span class="total">{{ page.data.incomeEligible65Plus }}</span>seniors
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="utilization" class="row">
+          <div class="half narrative">
+            <div class="key-stat">
+              {% assign arr = 'page.data.totalSnapRecipients|page.data.totalIncomeEligibleIndividuals' | split: '|' %}
+              {% assign b = arr | divide %}
+              <span class="total">{{ b | times: 100 }}</span> of eligible people are actually receiving SNAP benefits.
+            </div>
+            <div class="key-stat">
+              <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not participating in SNAP benefits when they could be.
+            </div>
+          </div>
+          <div class="half visualization">
+            <div id="participation"></div>
+          </div>
+        </div>
+        <div id="benefit" class="row">
+          <div class="half visualization">
+            <div id="percentbenefits"></div>
+          </div>
+          <div class="half narrative">
+            <div class="key-stat">
+              SNAP only covers
+              <span class="cost collapse">${{ page.data.averageBenefitperMeal }}</span>
+              of the
+            </div>
+            <div class="key-stat">
+              <span class="total collapse">${{ page.data.weightedCostPerMeal }}</span>
+              necessary for each meal.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="demographics">
+        <h2 class="section-header"><span>Demographics</span></h2>
+        <div class="half">
+          <div id="percentrcvrace"></div>
+        </div>
+        <div class="half">
+          <div id="percentrcvworking"></div>
+        </div>
+        <div class="half">
+          <div id="percentrcvage"></div>
+        </div>
+        <div class="half">
+          <div id="percentrcvethnicity"></div>
+        </div>
+      </section>
+      <section id="help" class="content">
+        <h2 class="section-header"><span>Get Help</span></h2>
+        <h3>{{ page.foodBank }}</h3>
+        <p>{{ page.website }}</p>
+      </section>
+    </div>
+  </div>
+  {% if page.calls_to_action %}
+    <div class="crosslinks">
+      {% for cta in site.calls-to-action %}
+        {% if page.calls_to_action contains cta.id %}
+          <div class="cta">
+            <div class="bg-img">
+              <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
+            </div>
+            <div class="text">
+              <h3>{{ cta.content }}</h3>
+              <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
