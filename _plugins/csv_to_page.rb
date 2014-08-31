@@ -12,6 +12,7 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'zip.html')
       self.data['url'] = "/zipcode/" + zip
 
+      # From zip csv
       # self.data['title'] = "#{zipcode['title']}"
       self.data['county'] = data['County']
       self.data['postOfficeLocation'] = data['Post Office Location']
@@ -47,10 +48,15 @@ module Jekyll
       self.data['recipientEthnicityUnknownMissing'] = data['Ethnicity – Missing']
       self.data['householdIncomeWithEarnedIncome'] = data['Household income status with earned income']
       # self.data[''] = data['Household income status with only earned']
-      
-      # From different csv
-      self.data['averageBenefitperMeal'] = data['']
-      self.data['weightedCostPerMeal'] = data['']
+      self.data['averageBenefitperMeal'] = data['Average Benefit per Meal']
+
+      # From county csv
+      self.data['weightedCostPerMeal'] = data['Weighted cost per meal']
+      self.data['foodBank-name'] = data['Food Bank']
+      self.data['foodBank-address'] = data['Address']
+      self.data['foodBank-phone'] = data['Phone']
+      self.data['foodBank-website'] = data['Website']
+
     end
   end
 
@@ -61,16 +67,16 @@ module Jekyll
       # set directory csv data will come from
       dir = site.config['csv_dir'] || 'assets/csv_data'
       base = File.join(site.source, dir)
-      return unless File.directory?(base) && (!site.safe || !File.symlink?(base))
+      # return unless File.directory?(base) && (!site.safe || !File.symlink?(base))
       # get all csv files in data directory
       entries = Dir.chdir(base) { Dir['*.csv'] }
-      entries.delete_if { |e| File.directory?(File.join(base, e)) }
+      # entries.delete_if { |e| File.directory?(File.join(base, e)) }
 
       # loop through csv files and add contents of each to zip hash
       csv_data = Hash.new
       entries.each do |entry|
         path = File.join(site.source, dir, entry)
-        next if File.symlink?(path) && site.safe
+        # next if File.symlink?(path) && site.safe
         key = sanitize_filename(File.basename(entry, '.*'))
 
         file_data = CSV.read(path, :headers => true)
@@ -78,6 +84,7 @@ module Jekyll
         data['keys'] = file_data.headers
         data['content'] = file_data.to_a[1..-1]
 
+        # @todo - add switch case statement
         data['content'].each do |row|
           zip = row[2]
           if csv_data.has_key?(zip)
