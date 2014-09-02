@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 module Jekyll
   require 'csv'
 
