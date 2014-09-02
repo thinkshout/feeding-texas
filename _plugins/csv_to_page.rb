@@ -65,7 +65,7 @@ module Jekyll
 
     def generate(site)
       # set directory csv data will come from
-      dir = site.config['csv_dir'] || 'assets/csv_data'
+      dir = site.config['csv_dir'] || '_data'
       base = File.join(site.source, dir)
       # get all csv files in data directory
       entries = Dir.chdir(base) { Dir['*.csv'] }
