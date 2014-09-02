@@ -8,9 +8,9 @@ title: Home
   		<img src="{{ site.baseurl }}/assets/images/home-placeholder.jpg">
   	</div>
   	<div class="leadin">
-  		<h1>We provide a unified voice among food banks to maximize their ability to build a well nourished Texas</h1>
+  		<h1>Together, we lead a unified effort for a hunger-free Texas.</h1>
   		<div class="finder">
-  		  <h3>What does hunger look like in your community? Get the figures</h3>
+  		  <h3>What does hunger look like in your community? Get the figures:</h3>
           <select id='options' data-placeholder="Zip code" class="chosen-select">
             <!-- Include blank option for placeholder value -->
             <option></option>
@@ -53,7 +53,7 @@ title: Home
   <div class="the-latest">
   	<div class="wrap">
       <section class="featured-blog">
-      	<h2 class="section-header"><span>Blog</span></h2>
+      	<h2 class="section-header"><span>Our Blog</span></h2>
         {% for post in site.posts %}
           {% if post.layout == "blog" and post.featured == true limit:1%}
           <article>
@@ -66,7 +66,7 @@ title: Home
         <a href="{{ site.baseurl }}/news/blog/">View More</a>
       </section>
       <section class="featured-resource">
-      	<h2 class="section-header"><span>Report</span></h2>
+      	<h2 class="section-header"><span>Recent Reports</span></h2>
         {% for post in site.posts %}
           {% if post.layout == "product" and post.featured == true limit:1 %}
           <article>
