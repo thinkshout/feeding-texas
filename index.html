@@ -2,70 +2,81 @@
 layout: default
 title: Home
 ---
-<div class="splash">
-	<div class="bg-img">
-		<img src="{{ site.baseurl }}/assets/images/home-placeholder.jpg">
-	</div>
-	<div class="leadin">
-		<h1>We provide a unified voice among food banks to maximize their ability to build a well nourished Texas</h1>
-		<div class="finder">
-		  <h3>What does hunger look like in your community? Get the figures</h3>
-        <select id='options' data-placeholder="Zip code" class="chosen-select">
-          <!-- Include blank option for placeholder value -->
-          <option></option>      
-        </select>
-    </div>
-	</div>
-</div>
-<div class="the-latest">
-	<div class="wrap">
-    <div class="block-grid">
-    	<div class="container">
-    	  <div class="item">
-          <section>
-          	<h2 class="section-header"><span>Press</span></h2>
-            {% for post in site.posts %}
-              {% if post.layout == "press" and post.featured == true limit:1 %}
-              <article>
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
-              </article>
-              {% endif %}
+<div class="home">
+  <div class="splash">
+  	<div class="bg-img">
+  		<img src="{{ site.baseurl }}/assets/images/home-placeholder.jpg">
+  	</div>
+  	<div class="leadin">
+  		<h1>We provide a unified voice among food banks to maximize their ability to build a well nourished Texas</h1>
+  		<div class="finder">
+  		  <h3>What does hunger look like in your community? Get the figures</h3>
+          <select id='options' data-placeholder="Zip code" class="chosen-select">
+            <!-- Include blank option for placeholder value -->
+            <option></option>
+            {% for county in site.counties %}
+              <option value="{{ site.baseurl }}{{ county.url }}">{{ county.zip }}</option>
             {% endfor %}
-            <a href="{{ site.baseurl }}/news/press/">View More</a>
-          </section>
-    	  </div>
-     	  <div class="item">	
-          <section>
-          	<h2 class="section-header"><span>Blog</span></h2>
-            {% for post in site.posts %}
-              {% if post.layout == "blog" and post.featured == true limit:1%}
-              <article>
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
-                <p>{{ post.summary }}</p>
-              </article>
+          </select>
+      </div>
+  	</div>
+  </div>
+  <div class="main">
+  	<div class="wrap">
+  		<section>
+      	<h2 class="section-header">What We've Been Saying<span class="divider"></span></h2>
+        <div class="featured-press">
+          {% for post in site.posts %}
+            {% if post.layout == "press" and post.featured == true %}
+            <article class="teaser press">
+              <div class="pullquote"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a></div>
+              {% if post.author %}
+                {% for staff in site.staff %}
+                  {% if post.author == staff.id %}
+                    <div class="staff-member small">
+                      <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
+                      <div class="info">
+                      	<h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3>
+                      	<p>{{ post.date | date: "%B %-d, %Y"}}</p>
+                      </div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
               {% endif %}
-            {% endfor %}
-            <a href="{{ site.baseurl }}/news/blog/">View More</a>
-          </section>     		
-    	  </div>
-    	  <div class="item">	
-          <section>
-          	<h2 class="section-header"><span>Report</span></h2>
-            {% for post in site.posts %}
-              {% if post.layout == "product" and post.featured == true limit:1 %}
-              <article>
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                <p>{{ post.summary }}</p>
-              </article>
-              {% endif %}
-            {% endfor %}
-            <a href="{{ site.baseurl }}/learn/research.html">View More</a>
-          </section>
-    	  </div>
-    	</div>
+            </article>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </section>
+  	</div>
+  </div>
+  <div class="the-latest">
+  	<div class="wrap">
+      <section class="featured-blog">
+      	<h2 class="section-header"><span>Blog</span></h2>
+        {% for post in site.posts %}
+          {% if post.layout == "blog" and post.featured == true limit:1%}
+          <article>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
+            <p>{{ post.summary }}</p>
+          </article>
+          {% endif %}
+        {% endfor %}
+        <a href="{{ site.baseurl }}/news/blog/">View More</a>
+      </section>
+      <section class="featured-resource">
+      	<h2 class="section-header"><span>Report</span></h2>
+        {% for post in site.posts %}
+          {% if post.layout == "product" and post.featured == true limit:1 %}
+          <article>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <p>{{ post.summary }}</p>
+          </article>
+          {% endif %}
+        {% endfor %}
+        <a href="{{ site.baseurl }}/learn/research.html">View More</a>
+      </section>
     </div>
   </div>
 </div>

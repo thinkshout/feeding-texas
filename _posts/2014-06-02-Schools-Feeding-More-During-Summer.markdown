@@ -3,14 +3,19 @@ layout: press
 title: Report - Schools feeding more hungry children during summer months
 pullquote: We still only reach a small portion of those who need food during the summer months. We know that sites can and want to do more.
 attribution: Celia Cole
-tweet: Report&#58; Schools feeding more hungry children during summer months
-date: 2013-08-20
+tweet: Report - Schools feeding more hungry children during summer months
+date: 2014-06-02
 categories:
-  - Summer Meals
   - Child Hunger
   - Schools
+  - Summer Meals
 featured: true
 ---
+
+## Texas still missing out on over $49 million due to low participation
+
+For Immediate Release: June 2, 2014   
+Contact: Celia Cole, 512-590-0659 or ccole@tfbn.org
 
 Austin, Texas – A report distributed today by the Texas Food Bank Network (TFBN) finds that Texas expanded the number of needy children fed at state-sponsored summer meal sites by eight percent in 2013.
 
@@ -26,4 +31,6 @@ The increase in summer meals served at schools is a direct result of state legis
 
 Congress is expected to re-examine the law governing summer meals in 2015. This year, the United States Department of Agriculture (USDA) has chosen Texas as one of five states receiving targeted assistance to increase program participation.
 
-The Texas Food Bank Network provides a unified voice among food banks in support of their common mission to end hunger in Texas. Contact your local food bank at TFBN.org/foodbank.
+*The Texas Food Bank Network provides a unified voice among food banks in support of their common mission to end hunger in Texas.*
+
+ ##

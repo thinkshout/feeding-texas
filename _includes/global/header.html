@@ -14,7 +14,7 @@
     <div class="secondary-nav">
       <nav>
         <ul>
-      		{% for link in site.data.action %}
+      		{% for link in site.data.menu.action %}
           <li><a alt="{{ link.title }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
       		{% endfor %}
       		<li id="site-search">
@@ -30,7 +30,7 @@
     <div class="primary-nav">
       <nav>
       	<ul>
-      		{% for link in site.data.primary %}
+      		{% for link in site.data.menu.primary %}
           <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
       		{% endfor %}
         </ul>

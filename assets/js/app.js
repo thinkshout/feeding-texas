@@ -69,19 +69,12 @@ $(document).ready(function(){
     }
   });
 
-  $.getJSON( "/assets/json/zip-codes.json", function( data ) {
-    var options = $("#options");
-    $.each( data, function( key, value ) {
-      options.append('<option value="'+value+'">'+value+'</option>');
-    });
 
-    // Enable the chosen plugin on .chosen-select
-    $(".chosen-select").chosen({width: "80%"}).change(
-    function(){
-      if (this.selectedIndex!==0) {
-        window.location.href = 'zip/' + this.value;
-      }
-    });
+  // Enable the chosen plugin on .chosen-select
+  $(".chosen-select").chosen({width: "80%"}).change(function(){
+	    if (this.selectedIndex!==0) {
+	      window.location.href = this.value;
+	    }
   });
 
 	/******

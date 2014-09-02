@@ -2,7 +2,7 @@ node_modules
 _site
 assets/stylesheets
 .idea
-assets/.sass-cache
+.sass-cache
 tmp
 feeding-texas-notes.txt
 alex_notes.txt

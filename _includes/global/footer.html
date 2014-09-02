@@ -2,14 +2,14 @@
 	<div class="wrap">
 	    <nav class="primary">
 	    	<ul>
-	    		{% for link in site.data.primary %}
+	    		{% for link in site.data.menu.primary %}
 	        <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
 	    		{% endfor %}
 	      </ul>
 	    </nav>
 	    <nav class="secondary">
 	    	<ul>
-	    		{% for link in site.data.action%}
+	    		{% for link in site.data.menu.action%}
 	        <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
 	    		{% endfor %}
 	      </ul>
