@@ -22,6 +22,32 @@ calls_to_action:
 group: learn
 ---
 
-Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+## Familiar, but Hard to Measure   
 
-Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat.
+Hunger is a familiar physical sensation, but it can be hard to measure in a large population. Food insecurity offers a widely-accepted framework for measuring food deprivation in the United States.   
+
+The USDA defines food insecurity as meaning that “consistent access to adequate food is limited by a lack of money and other resources at times during the year.” Acceptable shorthand terms for food insecurity are "struggling to avoid hunger," “hungry, or at risk of hunger,” and “hungry, or faced the threat of hunger.” Food insecurity can also accurately be described as “a financial juggling act, where sometimes the food ball gets dropped.”
+
+## What does “food insecurity” NOT mean?
+
+* Food insecurity is not “the government’s definition of hunger.” It is a broader term that captures outright hunger and the coping mechanisms that households use to avoid hunger.
+
+* Food insecurity is a household situation, not an individual situation. While food insecurity affects everyone in a household, it may affect them differently. Therefore it is not correct to state that specific individuals in a food insecure household (such as children) definitely experience outright hunger or specific coping mechanisms. Rather than describing these individuals as being “food insecure”, they should be referred to as “living in a food insecure home.”
+
+* Food insecurity is a year-long measure. Therefore, it is not correct to assert that every food insecure household is experiencing food insecurity “right now,” will experience hunger “tonight” or “does not know where their next meal is coming from.” Research shows that food insecurity tends to be episodic and often cyclical.
+
+* Food insecurity does not mean that a household lacks access to grocery stores, lives in a “food desert,” or does not have time to shop/cook. It only refers to lack of food access based on financial and other material resources.   
+ 
+## How many Texans are food insecure?
+
+According to the [latest USDA report](http://www.ers.usda.gov/publications/err-economic-research-report/err155.aspx#.Ui9nQTakolQ), an average 18.4% of Texas households experienced food insecurity in the years 2010-2012. Texas ranks among the top twelve states in terms of food insecurity rates, and second in terms of the number of food insecure households. Using related data, the national group Feeding America has estimated the number of individuals and children who live in these households [in every Texas county](http://feedingamerica.org/hunger-in-america/hunger-studies/map-the-meal-gap.aspx).
+
+## Go Deeper
+
+We recommend the following resources to learn more about food insecurity:
+
+* [United States Department of Agriculture (USDA) - Economic Research Service](http://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us.aspx#.U9fNrPldWBI)
+
+* [Reflections on Household Food Insecurity: An Interview with Dr. Mark Nord](http://org2.salsalabs.com/o/5118/p/salsa/web/common/public/content?content_item_KEY=12203)
+
+* ["What have we learned from two decades of research on household food security?," by Dr. Mark Nord](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9098355&fileId=S1368980013003091)
