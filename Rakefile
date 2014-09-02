@@ -17,8 +17,8 @@ end
 
 desc 'Build and start local server'
 task :serve do
-  system 'compass watch &'
   jekyll 'serve -w --baseurl=""'
+  system 'bundle exec compass watch &'
 end
 
 def jekyll(opts = '')
