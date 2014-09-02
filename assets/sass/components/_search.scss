@@ -4,9 +4,7 @@
   width: 100%;
   overflow: hidden;
   @include default-transition;
-	form {
 
-  }
   &.active {
   	height: 100px;
   }

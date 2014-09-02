@@ -18,7 +18,8 @@ $(document).ready(function(){
   /*****
    * Toggle Search
   ******/
-  $('#search-toggle').bind('click', function() {
+  var searchToggle = $('#search-toggle');
+  searchToggle.click(function() {
     $('#utility').toggleClass('active');
   });
 
@@ -26,7 +27,7 @@ $(document).ready(function(){
    * Filter products based on Product Type and Topic Type selection
    ******/
 
-  // Define elements (No fishing in the DOM more than necessary)
+  // Define product elements
   var productType = $('#product-type'),
       topic       = $('#topic'),
       products    = $('.product');
