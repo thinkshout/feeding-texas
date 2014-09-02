@@ -12,7 +12,7 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'zip.html')
       self.data['url'] = "/zipcode/" + zip
 
-      # From zip csv
+      # From zip csv (SNAP_Particpation_and_Race_Merged.csv, SNAP_Eligibility_vs_Participation_plus_SNAP_meals.csv)
       # self.data['title'] = "#{zipcode['title']}"
       self.data['county'] = data['County']
       self.data['postOfficeLocation'] = data['Post Office Location']
@@ -50,7 +50,7 @@ module Jekyll
       # self.data[''] = data['Household income status with only earned']
       self.data['averageBenefitperMeal'] = data['Average Benefit per Meal']
 
-      # From county csv
+      # From county csv (Food_Insecurity.csv, Food_Banks.csv)
       self.data['weightedCostPerMeal'] = data['Weighted cost per meal']
       self.data['foodBank-name'] = data['Food Bank']
       self.data['foodBank-address'] = data['Address']
@@ -84,7 +84,10 @@ module Jekyll
         data['keys'] = file_data.headers
         data['content'] = file_data.to_a[1..-1]
 
-        # @todo - add switch case statement
+        # @todo - add switch case statement to account for each csv file
+        # zip
+        # county only
+        # polygon data
         data['content'].each do |row|
           zip = row[2]
           if csv_data.has_key?(zip)
