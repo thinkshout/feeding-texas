@@ -3,9 +3,7 @@ layout: page
 title: What is Food Insecurity?
 subhead: Every Texas community is touched by the struggle to afford enough food.
 summary: |
-  The problem of hunger isn't simple, but it is solvable. Food insecurity is a useful way to define where and how our neighbors struggle to afford food. 
-
-  Learn how this metric helps us target our resources and evaluate progress, so that more families can access the nutrition they need to succeed and move forward.
+  The problem of hunger isn't simple, but it is solvable. Food insecurity is a useful way to measure when and where Texans struggle to eat. Learn how this metric helps us target resources and evaluate progress, so that more families can get the nutrition they need to succeed and move forward.
 featured_resource: How do low-income texans get help feeding their children?
 primary_cta:
   button_text: Learn About Hunger In Texas
