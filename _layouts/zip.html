@@ -61,7 +61,7 @@ $(function() {
   // Apply the theme
   Highcharts.setOptions(Highcharts.theme);
   // Pull all necessary frontmatter vars into json data object.
-  var data = {{ page.data | json }};
+  var data = {{ page.data | jsonify }};
   
   $('#percentages').highcharts({
       series: [{
