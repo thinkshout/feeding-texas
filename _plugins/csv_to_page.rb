@@ -12,51 +12,51 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'zip.html')
 
-      # From zip csv (SNAP_Particpation_and_Race_Merged.csv, SNAP_Eligibility_vs_Participation_plus_SNAP_meals.csv)
-      self.data['title'] = "#{zip['title']}"
-      self.data['county'] = data['County']
-      self.data['postOfficeLocation'] = data['Post Office Location']
-      self.data['zipcode'] = data['Zip Code']
-      # self.data[''] = data['Total  SNAP Households']
-      # self.data[''] = data['Average Monthly SNAP Benefit per Household']
-      # self.data[''] = data['Total Benefits Distributed ']
-      self.data['totalSnapRecipients'] = data['Total SNAP Recipients']
-      self.data['recipients0To17'] = data['Recipients 0-17']
-      self.data['recipients18To64'] = data['Recipients 18-64']
-      self.data['recipients65Plus'] = data['Recipients 65+']
-      self.data['totalIncomeEligibleIndividuals'] = data['Total Income-Eligible Individuals']
-      self.data['incomeEligible0To17'] = data['Income-Eligible 0-17']
-      self.data['incomeEligibleButNotReceiving18To64'] = data['Income-Eligible 18-64']
-      self.data['incomeEligible65Plus'] = data['Income-Eligible 65+']
-      self.data['totalIncomeEligibleButNotReceiving'] = data['Total Income-Eligible but not Receiving ']
-      self.data['incomeEligibleButNotReceiving0To17'] = data['Income-Eligible but not Receiving 0-17']
-      self.data['incomeEligibleButNotReceiving18To64'] = data['Income-Eligible but not Receiving  18-64']
-      self.data['incomeEligibleButNotReceiving65Plus'] = data['Income-Eligible but not Receiving 65+']
-      # self.data[''] = data['Total Participation Rate']
-      # self.data[''] = data['Participation Rate 0-17']
-      # self.data[''] = data['Participation Rate 18-64']
-      # self.data[''] = data['Participation Rate 65+']
-      self.data['recipientRaceNativeAmerican'] = data['Recipient Race - Native American']
-      self.data['recipientRaceAsian'] = data['Recipient Race – Asian']
-      self.data['recipientRaceBlack'] = data['Recipient Race – Black']
-      self.data['recipientRacePacificIslander'] = data['Recipient Race – Pacific Islander']
-      self.data['recipientRaceWhite'] = data['Recipient Race – White']
-      self.data['recipientRaceMultiRace'] = data['Recipient Race – Multi-race']
-      self.data['recipientRaceUnknownMissing'] = data['Recipient Race – Missing']
-      self.data['recipientEthnicityHispanic'] = data['Ethnicity – Hispanic']
-      self.data['recipientEthnicityNonHispanic'] = data['Ethnicity – Non-hispanic']
-      self.data['recipientEthnicityUnknownMissing'] = data['Ethnicity – Missing']
-      self.data['householdIncomeWithEarnedIncome'] = data['Household income status with earned income']
-      # self.data[''] = data['Household income status with only earned']
-      self.data['averageBenefitperMeal'] = data['Average Benefit per Meal']
-
-      # From county csv (Food_Insecurity.csv, Food_Banks.csv)
-      self.data['weightedCostPerMeal'] = data['Weighted cost per meal']
-      self.data['foodBank-name'] = data['Food Bank']
-      self.data['foodBank-address'] = data['Address']
-      self.data['foodBank-phone'] = data['Phone']
-      self.data['foodBank-website'] = data['Website']
-
+      self.data['data'] = {
+        # From zip csv (SNAP_Particpation_and_Race_Merged.csv, SNAP_Eligibility_vs_Participation_plus_SNAP_meals.csv)
+        'zip' => "#{data["Zip Code"]}",
+        'county' => data['County'],
+        'postOfficeLocation' => data['Post Office Location'],
+        'totalSnapRecipients' => data['Total SNAP Recipients'],
+        'recipients0To17' => data['Recipients 0-17'],
+        'recipients18To64' => data['Recipients 18-64'],
+        'recipients65Plus' => data['Recipients 65+'],
+        'totalIncomeEligibleIndividuals' => data['Total Income-Eligible Individuals'],
+        'incomeEligible0To17' => data['Income-Eligible 0-17'],
+        'incomeEligibleButNotReceiving18To64' => data['Income-Eligible 18-64'],
+        'incomeEligible65Plus' => data['Income-Eligible 65+'],
+        'totalIncomeEligibleButNotReceiving' => data['Total Income-Eligible but not Receiving'],
+        'incomeEligibleButNotReceiving0To17' => data['Income-Eligible but not Receiving 0-17'],
+        'incomeEligibleButNotReceiving18To64' => data['Income-Eligible but not Receiving  18-64'],
+        'incomeEligibleButNotReceiving65Plus' => data['Income-Eligible but not Receiving 65+'],
+        'recipientRaceNativeAmerican' => data['Recipient Race - Native American'],
+        'recipientRaceAsian' => data['Recipient Race – Asian'],
+        'recipientRaceBlack' => data['Recipient Race – Black'],
+        'recipientRacePacificIslander' => data['Recipient Race – Pacific Islander'],
+        'recipientRaceWhite' => data['Recipient Race – White'],
+        'recipientRaceMultiRace' => data['Recipient Race – Multi-race'],
+        'recipientRaceUnknownMissing' => data['Recipient Race – Missing'],
+        'recipientEthnicityHispanic' => data['Ethnicity – Hispanic'],
+        'recipientEthnicityNonHispanic' => data['Ethnicity – Non-hispanic'],
+        'recipientEthnicityUnknownMissing' => data['Ethnicity – Missing'],
+        'householdIncomeWithEarnedIncome' => data['Household income status with earned income'],
+        'averageBenefitperMeal' => data['Average Benefit per Meal'],
+        # From county csv (Food_Insecurity.csv, Food_Banks.csv)
+        'weightedCostPerMeal' => data['Weighted cost per meal'],
+        'foodBank-name' => data['Food Bank'],
+        'foodBank-address' => data['Address'],
+        'foodBank-phone' => data['Phone'],
+        'foodBank-website' => data['Website']
+      }
+      # Unused data
+      #'' => data['Total SNAP Households']
+      #'' => data['Average Monthly SNAP Benefit per Household']
+      #'' => data['Total Benefits Distributed']
+      #'' => data['Total Participation Rate']
+      #'' => data['Participation Rate 0-17']
+      #'' => data['Participation Rate 18-64']
+      #'' => data['Participation Rate 65+']
+      #'' => data['Household income status with only earned']
     end
   end
 
@@ -85,18 +85,18 @@ module Jekyll
         # county only
         # polygon data
         data['content'].each do |row|
-          zip = row[2]
+          zip = row[2].strip
           if csv_data.has_key?(zip)
             #append data to existing zip hash
             row.each_with_index do |item, i|
-              csv_data[zip][data['keys'][i]] = item
+              csv_data[zip][data['keys'][i].strip] = item.strip
             end
           else
             #add new zip item to hash
             csv_data[zip] = Hash.new
             #append data to existing zip hash
             row.each_with_index do |item, i|
-              csv_data[zip][data['keys'][i]] = item
+              csv_data[zip][data['keys'][i].strip] = item.strip
             end
           end
         end
