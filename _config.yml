@@ -32,9 +32,6 @@ relative_permalinks: false
 
 # Collection definitions
 collections:
-  counties:
-    output: true
-    permalink: /zip/:path/
   staff:
     output: true
     permalink: /staff/:path/
