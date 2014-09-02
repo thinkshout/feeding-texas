@@ -61,6 +61,18 @@
 	}
 }
 
+.the-latest {
+  @include breakpoint($bp-xxsmall) {
+    .featured-blog, .featured-resource {
+      @include span-columns(6,12); 
+    }
+
+    .featured-resource {
+      @include omega;
+    }
+  }
+}
+
 footer {
   @include clearfix;
   clear: both;

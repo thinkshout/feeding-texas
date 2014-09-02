@@ -2,6 +2,10 @@
 .finder {
   max-width: 350px;
   margin: 2em auto;
+  h3 {
+    color: $orange; 
+    @include text-shadow(0 1px 2px $black);
+  }
   form {
     margin: 0 auto;
     position: relative;
