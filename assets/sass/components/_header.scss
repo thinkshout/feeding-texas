@@ -4,6 +4,7 @@ header {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   height: 70px;
-  position: relative;
+  position: absolute;
+  width: 100%;
   z-index: 100;
 }
