@@ -58,7 +58,7 @@ layout: default
           	<div class="lead">
           		<h2 class="page-title"><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a><span class="divider"></span></h2>
           		<p>{{ subpage.summary }}
-          	</div>            
+          	</div>
           </section>
           {% endif %}
         {% endfor %}
@@ -74,7 +74,7 @@ layout: default
           	<div class="lead">
           		<h2 class="page-title"><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a><span class="divider"></span></h2>
           		<p>{{ subpage.summary }}
-          	</div>            
+          	</div>
           </section>
           {% endif %}
         {% endfor %}
@@ -90,7 +90,7 @@ layout: default
           	<div class="lead">
           		<h2 class="page-title"><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a><span class="divider"></span></h2>
           		<p>{{ subpage.summary }}
-          	</div>            
+          	</div>
           </section>
           {% endif %}
         {% endfor %}
@@ -105,23 +105,20 @@ layout: default
           	</div>
           	<div class="lead">
           		<h2 class="page-title"><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a><span class="divider"></span></h2>
-          		<p>{{ subpage.summary }}
-          	</div>            
+          		<p>{{ subpage.summary }}</p>
+          	</div>
           </section>
           {% endif %}
         {% endfor %}
       {% endif %}
-      
+
     </div>
   </div>
   {% if page.calls_to_action %}
     <div class="crosslinks">
       {% for cta in site.calls-to-action %}
         {% if page.calls_to_action contains cta.id %}
-          <div class="cta">
-            <div class="bg-img">
-              <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
-            </div>
+          <div class="cta" style="background: url({{ site.baseurl }}/assets/images/cta/{{ cta.image }}) center center;">
             <div class="text">
               <h3>{{ cta.content }}</h3>
               <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
@@ -131,4 +128,4 @@ layout: default
       {% endfor %}
     </div>
   {% endif %}
-</div>  
+</div>
