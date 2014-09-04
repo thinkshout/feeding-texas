@@ -6,7 +6,7 @@ module Jekyll
       dir = site.config['zip_dir'] || 'zip_codes'
       @site = site
       @base = base
-      @dir = "#{dir}/#{data['Zip Code']}/"
+      @dir = "#{dir}/#{data['zip']}/"
       @name = 'index.html'
 
       self.process(@name)
@@ -14,39 +14,45 @@ module Jekyll
 
       self.data['data'] = {
         # From zip csv (SNAP_Particpation_and_Race_Merged.csv, SNAP_Eligibility_vs_Participation_plus_SNAP_meals.csv)
-        'zip' => "#{data["Zip Code"]}",
-        'county' => data['County'],
-        'postOfficeLocation' => data['Post Office Location'],
-        'totalSnapRecipients' => data['Total SNAP Recipients'],
-        'recipients0To17' => data['Recipients 0-17'],
-        'recipients18To64' => data['Recipients 18-64'],
-        'recipients65Plus' => data['Recipients 65+'],
-        'totalIncomeEligibleIndividuals' => data['Total Income-Eligible Individuals'],
-        'incomeEligible0To17' => data['Income-Eligible 0-17'],
-        'incomeEligibleButNotReceiving18To64' => data['Income-Eligible 18-64'],
-        'incomeEligible65Plus' => data['Income-Eligible 65+'],
-        'totalIncomeEligibleButNotReceiving' => data['Total Income-Eligible but not Receiving'],
-        'incomeEligibleButNotReceiving0To17' => data['Income-Eligible but not Receiving 0-17'],
-        'incomeEligibleButNotReceiving18To64' => data['Income-Eligible but not Receiving  18-64'],
-        'incomeEligibleButNotReceiving65Plus' => data['Income-Eligible but not Receiving 65+'],
-        'recipientRaceNativeAmerican' => data['Recipient Race - Native American'],
-        'recipientRaceAsian' => data['Recipient Race – Asian'],
-        'recipientRaceBlack' => data['Recipient Race – Black'],
-        'recipientRacePacificIslander' => data['Recipient Race – Pacific Islander'],
-        'recipientRaceWhite' => data['Recipient Race – White'],
-        'recipientRaceMultiRace' => data['Recipient Race – Multi-race'],
-        'recipientRaceUnknownMissing' => data['Recipient Race – Missing'],
-        'recipientEthnicityHispanic' => data['Ethnicity – Hispanic'],
-        'recipientEthnicityNonHispanic' => data['Ethnicity – Non-hispanic'],
-        'recipientEthnicityUnknownMissing' => data['Ethnicity – Missing'],
-        'householdIncomeWithEarnedIncome' => data['Household income status with earned income'],
-        'averageBenefitperMeal' => data['Average Benefit per Meal'],
+        'zip' => "#{data["zip"]}",
+        'county' => data['county'],
+        'totalSnapRecipients' => data['totalSnapRecipients'],
+        'recipients0To17' => data['recipients0To17'],
+        'recipients18To64' => data['recipients18To64'],
+        'recipients65Plus' => data['recipients65Plus'],
+        'totalIncomeEligibleIndividuals' => data['totalIncomeEligibleIndividuals'],
+        'incomeEligible0To17' => data['incomeEligible0To17'],
+        'incomeEligible18To64' => data['incomeEligible18To64'],
+        'incomeEligible65Plus' => data['incomeEligible65Plus'],
+        'totalIncomeEligibleButNotReceiving' => data['totalIncomeEligibleButNotReceiving'],
+        'incomeEligibleButNotReceiving0To17' => data['incomeEligibleButNotReceiving0To17'],
+        'incomeEligibleButNotReceiving18To64' => data['incomeEligibleButNotReceiving18To64'],
+        'incomeEligibleButNotReceiving65Plus' => data['incomeEligibleButNotReceiving65Plus'],
+        'recipientRaceNativeAmerican' => data['recipientRaceNativeAmerican'],
+        'recipientRaceAsian' => data['recipientRaceAsian'],
+        'recipientRaceBlack' => data['recipientRaceBlack'],
+        'recipientRacePacificIslander' => data['recipientRacePacificIslander'],
+        'recipientRaceWhite' => data['recipientRaceWhite'],
+        'recipientRaceMultiRace' => data['recipientRaceMultiRace'],
+        'recipientRaceUnknownMissing' => data['recipientRaceUnknownMissing'],
+        'recipientEthnicityHispanic' => data['recipientEthnicityHispanic'],
+        'recipientEthnicityNonHispanic' => data['recipientEthnicityNonHispanic'],
+        'recipientEthnicityUnknownMissing' => data['recipientEthnicityUnknownMissing'],
+        'householdIncomeWithEarnedIncome' => data['householdIncomeWithEarnedIncome'],
+        'averageBenefitperMeal' => data['averageBenefitperMeal'],
         # From county csv (Food_Insecurity.csv, Food_Banks.csv)
-        'weightedCostPerMeal' => data['Weighted cost per meal'],
-        'foodBank-name' => data['Food Bank'],
-        'foodBank-address' => data['Address'],
-        'foodBank-phone' => data['Phone'],
-        'foodBank-website' => data['Website']
+        'individualFoodInsecurityRate' => data['individualFoodInsecurityRate'],
+        'childFoodInsecurityRate' => data['childFoodInsecurityRate'],
+        'weightedCostPerMeal' => data['weightedCostPerMeal'],
+        'foodInsecureChildren' => data['foodInsecureChildren'],
+        'costOfFoodIndex' => data['costOfFoodIndex'],
+        'foodBank-name' => data['foodBank'],
+        'foodBank-address' => data['address'],
+        'foodBank-phone' => data['phone'],
+        'foodBank-website' => data['website'],
+        'latitude' => data['latitude'],
+        'longitude' => data['longitude'],
+        'polygonCoords' => data['polygonCoords']
       }
       # Unused data
       #'' => data['Total SNAP Households']
@@ -68,9 +74,11 @@ module Jekyll
       dir = site.config['csv_dir'] || '_data'
       base = File.join(site.source, dir)
       # get all csv files in data directory
-      entries = Dir.chdir(base) { Dir['*.csv'] }
+      entries = Dir.chdir(base) { Dir['zip-data.csv', 'county-data.csv'] }
 
-      # loop through csv files and add contents of each to zip hash
+      # init hash to allow for one to many county => zip mappings
+      county_2_zip = Hash.new
+      # loop through csv files and add contents of each to hash
       csv_data = Hash.new
       entries.each do |entry|
         path = File.join(site.source, dir, entry)
@@ -84,21 +92,49 @@ module Jekyll
         # zip
         # county only
         # polygon data
-        data['content'].each do |row|
-          zip = row[2].strip
-          if csv_data.has_key?(zip)
-            #append data to existing zip hash
-            row.each_with_index do |item, i|
-              csv_data[zip][data['keys'][i].strip] = item.strip
+        case entry
+          when 'zip-data.csv'
+            data['content'].each do |row|
+              county = row[2].strip.downcase
+              zip = row[0].strip
+              # build hash of county => zip relationships
+              if county_2_zip.has_key?(county)
+                county_2_zip[county].push(zip)
+              else
+                county_2_zip[county] = [zip]
+              end
+              # append data for zip to master hash
+              csv_data[zip] = Hash.new
+              row.each_with_index do |item, i|
+                if item
+                  if data['keys'][i].strip == 'polygonCoords'
+                    # break polygonCoords string into array
+                    csv_data[zip][data['keys'][i].strip] = polygonCoords_to_array(item)
+                  else
+                    csv_data[zip][data['keys'][i].strip] = item.strip
+                  end
+                end
+              end
             end
-          else
-            #add new zip item to hash
-            csv_data[zip] = Hash.new
-            #append data to existing zip hash
-            row.each_with_index do |item, i|
-              csv_data[zip][data['keys'][i].strip] = item.strip
+          when 'county-data.csv'
+            data['content'].each do |row|
+              county = row[0].downcase
+              # get all zips for current county
+              zips = county_2_zip[county]
+              if zips
+                # add data for county to all relevant zips
+                zips.each do |zip|
+                  if county_2_zip[county].include?(zip)
+                    row.each_with_index do |item, i|
+                      if data['keys'][i].strip == 'county'
+                        next
+                      end
+                      csv_data[zip][data['keys'][i].strip] = item.strip
+                    end
+                  end
+                end
+              end
             end
-          end
         end
       end
 
@@ -106,6 +142,19 @@ module Jekyll
       csv_data.each do |zip, data|
         site.pages << ZipCodePage.new(site, site.source, zip, data)
       end
+    end
+
+    def polygonCoords_to_array(item)
+      item = item.gsub!("'",'')
+      item = item.gsub!('[','')
+      item = item.gsub!(']','')
+      item = item.split(', ')
+      item.each_with_index do |coordSet, i|
+        item[i] = coordSet.split(',')
+        # get latitude and longitude are in correct
+        item[i].reverse!
+      end
+      return item
     end
   end
 end
