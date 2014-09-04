@@ -31,7 +31,7 @@
   font-size: 0.875em;
   text-transform: uppercase;
   display: none;
-  ul li {	
+  ul li {
     a {
     	color: $beige;
     	&:hover {
@@ -50,7 +50,7 @@
 // Secondary
 .secondary-nav {
   ul li {
-  	margin-right: 1px;
+  	margin-left: 1px;
   	a {
   	  background: $orange;
       color: $white;
@@ -71,21 +71,23 @@
           display: none;
         }
       }
+
+			&:hover {
+          background: darken($orange, 5%);
+      }
     }
+		
     &#site-search {
+			margin-right: -1px;
     	position: relative;
       #search-toggle {
-        display: block;    	  
+        display: block;
         background: $orange;
         color: $white;
         font-size: 1.5em;
         padding: 0 1em;
         position: relative;
         @include default-transition;
-
-        &:hover {
-          background: darken($orange, 5%);
-        }
       }
       form {
       	position: absolute;
@@ -163,13 +165,6 @@ footer {
   nav.primary,
   nav.secondary {
     font-size: 1.1em;
-    line-height: 3em;
-    ul li a {
-      color: $orange;
-    }
-  }
-
-  nav.secondary ul li a {
-    color: $green;
+    line-height: 1.5em;
   }
 }

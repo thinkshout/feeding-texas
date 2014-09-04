@@ -1,9 +1,11 @@
 header {
   .wrap {
+    height: 70px;
+    background: $drkBrown;
     @include container(75em);
     padding: 0 0;
     @include breakpoint($bp-medium) {
-      padding: 0 1em;
+      padding: 0;
     }
   }
   .brand {
@@ -29,7 +31,7 @@ header {
 
     }
     @include breakpoint($bp-medium, $no-query: false) {
-      float: right; 
+      float: right;
     }
     @include breakpoint($bp-large, $no-query: false) {
     }

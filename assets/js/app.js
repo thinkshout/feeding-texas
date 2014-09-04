@@ -21,6 +21,7 @@ $(document).ready(function(){
   var searchToggle = $('#search-toggle');
   searchToggle.click(function() {
     $('#utility').toggleClass('active');
+		$('form#search input[type="text"]').focus();
   });
 
  /******
