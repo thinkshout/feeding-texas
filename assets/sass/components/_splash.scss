@@ -42,7 +42,7 @@
       padding: 0 0 0.2em;
       color: $white;
       font-weight: 800;
-      font-size: 3.25em;
+      font-size: 3em;
       margin: 0 auto;
       line-height: 1.2em;
       @include text-shadow(0 3px 10px $black);
@@ -60,6 +60,28 @@
         font-size: 1.75em;
         color: #FFF;
       }
+    }
+  }
+
+  .chosen-container-single {
+    @include box-shadow(0 3px 10px $black);
+    .chosen-single {
+      background: $white;
+      border: none;
+      border-radius: 0;
+      padding: 0.3em 0;
+
+      // Select box triangle
+      div {
+        margin-top: 4px;
+      }
+    }
+    .chosen-drop {
+      border: none;
+      border-radius: 0;
+    }
+    .chosen-results li.highlighted {
+      background: $orange;
     }
   }
 }
