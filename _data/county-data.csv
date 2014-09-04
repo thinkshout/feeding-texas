@@ -1,0 +1,256 @@
+county,address,childFoodInsecurityRate,costOfFoodIndex,foodBank,foodInsecureChildren,individualFoodInsecurityRate,phone,website,weightedCostPerMeal
+galveston,"624 4th Avenue N., Texas City, Texas 77590",23.4,1.023,Galveston County Food Bank,17370,17.6,(409) 945-4232,www.galvestoncountyfoodbank.org,2.80
+houston,"3211 Robertson Rd., Tyler, TX 75711",27.1,0.848,East Texas Food Bank,1300,22.1,(903) 597-3673,www.easttexasfoodbank.org,2.32
+madison,"1517 Shiloh, Bryan, TX 77803",29.9,0.936,Brazos Valley Food Bank,870,19.4,(979) 779-3666,www.bvfb.org,2.56
+parker,"2609 Cullen, Ft. Worth, TX 76107",23.4,1.063,Tarrant Area Food Bank,6930,14.9,(817) 332-9186,www.tafb.org,2.91
+stephens,"5516 N. First, Abilene, TX 79603",25.4,0.970,Food Bank of West Central Texas,570,15.9,(325) 695-6322,www.fbwct.org,2.66
+winkler,"1026 E. 2nd St., Odessa, TX 79760",23.2,0.915,West Texas Food Bank,490,12.2,(432) 580-6351,www.wtxfoodbank.org,2.51
+upton,"1024 E. 2nd St., Odessa, TX 79760",22.3,0.902,West Texas Food Bank,210,12.6,(432) 580-6349,www.wtxfoodbank.org,2.47
+newton,"3848 MLK Blvd., Beaumont, TX 77705",25.2,0.935,Southeast Texas Food Bank,830,21.6,(409) 839-8780,www.setxfoodbank.org,2.56
+brazoria,"536 Portwall Street, Houston, TX 77029",22.0,1.003,Houston Food Bank,19060,15.6,(713) 547-8603,www.houstonfoodbank.org,2.75
+red river,"3218 Robertson Rd., Tyler, TX 75711",26.2,0.888,East Texas Food Bank,720,21.4,(903) 597-3680,www.easttexasfoodbank.org,2.43
+collingsworth,"820 S. Ross, Amarillo, TX 79120",29.6,0.984,High Plains Food Bank,250,16.2,(806) 374-8567,www.hpfb.org,2.70
+mcmullen,"834 Krill St., Corpus Christi, TX 78408",31.8,0.860,Food Bank of Corpus Christi,20,12.5,(361) 887-6299,www.foodbankcc.com,2.36
+marion,"3213 Robertson Rd., Tyler, TX 75711",27.1,0.938,East Texas Food Bank,540,21.6,(903) 597-3675,www.easttexasfoodbank.org,2.57
+harrison,"3209 Robertson Rd., Tyler, TX 75711",25.0,0.917,East Texas Food Bank,4210,19.3,(903) 597-3671,www.easttexasfoodbank.org,2.51
+san jacinto,"541 Portwall Street, Houston, TX 77029",24.8,1.030,Houston Food Bank,1600,17.9,(713) 547-8608,www.houstonfoodbank.org,2.82
+cameron,"724 North Cage Blvd., Pharr, Texas 78577",37.2,0.761,Food Bank of the Rio Grande Valley,49640,18.0,956-682-8101,www.foodbankrgv.com,2.08
+wilbarger,"1240 Midwestern Pkwy., Wichita Falls, TX 76307",27.1,0.903,Wichita Falls Area Food Bank,930,17.5,(940) 766-2332,www.wfafb.org,2.48
+mclennan,"8216 S. Congress, Austin, TX 78745",27.1,0.858,Capital Area Food Bank,16100,20.0,(512) 282-2126,www.austinfoodbank.org,2.35
+rains,"3217 Robertson Rd., Tyler, TX 75711",22.7,0.972,East Texas Food Bank,540,15.5,(903) 597-3679,www.easttexasfoodbank.org,2.66
+gillespie,"8210 S. Congress, Austin, TX 78745",22.8,0.919,Capital Area Food Bank,1120,13.5,(512) 282-2120,www.austinfoodbank.org,2.52
+denton,"2602 Cullen, Ft. Worth, TX 76107",20.4,1.017,Tarrant Area Food Bank,37230,15.8,(817) 332-9179,www.tafb.org,2.79
+bowie,"3203 Robertson Rd., Tyler, TX 75711",25.1,0.850,East Texas Food Bank,5620,21.0,(903) 597-3665,www.easttexasfoodbank.org,2.33
+caldwell,"8205 S. Congress, Austin, TX 78745",28.3,0.818,Capital Area Food Bank,2840,16.8,(512) 282-2115,www.austinfoodbank.org,2.24
+bosque,"2600 Cullen, Ft. Worth, TX 76107",26.2,0.876,Tarrant Area Food Bank,1070,16.4,(817) 332-9177,www.tafb.org,2.40
+smith,"3222 Robertson Rd., Tyler, TX 75711",24.3,0.957,East Texas Food Bank,13020,19.0,(903) 597-3684,www.easttexasfoodbank.org,2.62
+young,"1241 Midwestern Pkwy., Wichita Falls, TX 76307",26.8,0.908,Wichita Falls Area Food Bank,1190,16.4,(940) 766-2333,www.wfafb.org,2.49
+erath,"2603 Cullen, Ft. Worth, TX 76107",26.0,0.926,Tarrant Area Food Bank,2190,18.6,(817) 332-9180,www.tafb.org,2.54
+lipscomb,"833 S. Ross, Amarillo, TX 79120",23.3,1.001,High Plains Food Bank,220,13.5,(806) 374-8580,www.hpfb.org,2.74
+tyler,"3852 MLK Blvd., Beaumont, TX 77705",29.5,0.934,Southeast Texas Food Bank,1300,20.0,(409) 839-8784,www.setxfoodbank.org,2.56
+shelby,"3221 Robertson Rd., Tyler, TX 75711",30.7,0.945,East Texas Food Bank,2090,20.1,(903) 597-3683,www.easttexasfoodbank.org,2.59
+zapata,"1914 Freight St., Laredo, TX 78041",33.9,0.764,South Texas Food Bank,1620,14.0,(956) 726-3127,www.southtexasfoodbank.org,2.09
+orange,"3849 MLK Blvd., Beaumont, TX 77705",25.6,0.928,Southeast Texas Food Bank,5260,19.0,(409) 839-8781,www.setxfoodbank.org,2.54
+tarrant,"2611 Cullen, Ft. Worth, TX 76107",24.2,0.955,Tarrant Area Food Bank,122550,18.0,(817) 332-9188,www.tafb.org,2.62
+henderson,"3210 Robertson Rd., Tyler, TX 75711",27.5,0.934,East Texas Food Bank,4920,18.1,(903) 597-3672,www.easttexasfoodbank.org,2.56
+real,"5212 Old Highway 90 West, San Antonio, TX 78227",31.9,0.891,San Antonio Food Bank,210,17.4,(210) 337-3675,www.safoodbank.org,2.44
+brown,"5505 N. First, Abilene, TX 79603",26.5,0.948,Food Bank of West Central Texas,2400,16.9,(325) 695-6311,www.fbwct.org,2.60
+palo pinto,"2608 Cullen, Ft. Worth, TX 76107",25.4,0.971,Tarrant Area Food Bank,1770,16.9,(817) 332-9185,www.tafb.org,2.66
+kaufman,"4509 Cockrell Hill, Dallas, TX 75236",23.7,0.992,North Texas Food Bank,7020,16.3,(214) 330-1405,www.ntfb.org,2.72
+schleicher,"1322 S. Hill St., San Angelo, TX 76903",30.0,0.878,Concho Valley Regional Food Bank,290,14.0,(325) 655-3240,www.conchovalleyfoodbank.org,2.41
+gregg,"3208 Robertson Rd., Tyler, TX 75711",24.2,0.904,East Texas Food Bank,7520,19.3,(903) 597-3670,www.easttexasfoodbank.org,2.48
+motley,"4627 Locust Ave., Lubbock, TX 79404",31.4,0.984,South Plains Food Bank,90,18.4,(806) 763-3018,www.spfb.org,2.70
+briscoe,"816 S. Ross, Amarillo, TX 79120",27.5,0.985,High Plains Food Bank,100,15.2,(806) 374-8563,www.hpfb.org,2.70
+deaf smith,"823 S. Ross, Amarillo, TX 79120",26.4,0.957,High Plains Food Bank,1640,13.2,(806) 374-8570,www.hpfb.org,2.62
+ochiltree,"835 S. Ross, Amarillo, TX 79120",26.7,0.949,High Plains Food Bank,870,13.9,(806) 374-8582,www.hpfb.org,2.60
+hockley,"4621 Locust Ave., Lubbock, TX 79404",25.5,0.967,South Plains Food Bank,1570,14.2,(806) 763-3012,www.spfb.org,2.65
+tom green,"1325 S. Hill St., San Angelo, TX 76903",25.8,0.877,Concho Valley Regional Food Bank,6700,15.9,(325) 655-3243,www.conchovalleyfoodbank.org,2.40
+wharton,"38019 E. Rio Grande, Victoria, TX 77903",26.8,0.837,Food Bank of the Golden Crescent,2930,17.6,(361) 578-0601,www.victoriafoodbank.org,2.29
+hale,"4620 Locust Ave., Lubbock, TX 79404",28.8,0.971,South Plains Food Bank,2990,16.3,(806) 763-3011,www.spfb.org,2.66
+jack,"1235 Midwestern Pkwy., Wichita Falls, TX 76307",29.6,1.024,Wichita Falls Area Food Bank,580,16.5,(940) 766-2327,www.wfafb.org,2.81
+cottle,"821 S. Ross, Amarillo, TX 79120",27.5,0.989,High Plains Food Bank,90,17.4,(806) 374-8568,www.hpfb.org,2.71
+knox,"1236 Midwestern Pkwy., Wichita Falls, TX 76307",29.6,0.990,Wichita Falls Area Food Bank,280,17.8,(940) 766-2328,www.wfafb.org,2.71
+la salle,"5210 Old Highway 90 West, San Antonio, TX 78227",28.9,0.775,San Antonio Food Bank,550,13.2,(210) 337-3673,www.safoodbank.org,2.12
+hall,"827 S. Ross, Amarillo, TX 79120",32.9,0.994,High Plains Food Bank,280,20.1,(806) 374-8574,www.hpfb.org,2.72
+lynn,"4626 Locust Ave., Lubbock, TX 79404",28.0,0.938,South Plains Food Bank,440,15.5,(806) 763-3017,www.spfb.org,2.57
+gray,"825 S. Ross, Amarillo, TX 79120",24.6,1.008,High Plains Food Bank,1370,15.3,(806) 374-8572,www.hpfb.org,2.76
+childress,"819 S. Ross, Amarillo, TX 79120",22.6,0.990,High Plains Food Bank,310,16.0,(806) 374-8566,www.hpfb.org,2.71
+culberson,"9539 Plaza Circle Drive, El Paso, TX 79937",24.3,0.910,El Pasoans Fighting Hunger,170,13.7,(915) 298-0353,www.elpasoansfightinghunger.org,2.49
+victoria,"38018 E. Rio Grande, Victoria, TX 77903",26.6,0.844,Food Bank of the Golden Crescent,6180,15.5,(361) 578-0600,www.victoriafoodbank.org,2.31
+menard,"1320 S. Hill St., San Angelo, TX 76903",26.2,0.882,Concho Valley Regional Food Bank,140,16.7,(325) 655-3238,www.conchovalleyfoodbank.org,2.42
+ector,"1013 E. 2nd St., Odessa, TX 79760",24.4,0.872,West Texas Food Bank,9800,13.8,(432) 580-6338,www.wtxfoodbank.org,2.39
+hunt,"4508 Cockrell Hill, Dallas, TX 75236",27.7,0.946,North Texas Food Bank,5920,19.0,(214) 330-1404,www.ntfb.org,2.59
+kerr,"5209 Old Highway 90 West, San Antonio, TX 78227",26.2,0.922,San Antonio Food Bank,2590,15.5,(210) 337-3672,www.safoodbank.org,2.53
+concho,"1314 S. Hill St., San Angelo, TX 76903",28.0,0.894,Concho Valley Regional Food Bank,160,14.0,(325) 655-3232,www.conchovalleyfoodbank.org,2.45
+navarro,"4511 Cockrell Hill, Dallas, TX 75236",28.8,0.849,North Texas Food Bank,3720,19.3,(214) 330-1407,www.ntfb.org,2.33
+baylor,"1231 Midwestern Pkwy., Wichita Falls, TX 76307",23.1,0.903,Wichita Falls Area Food Bank,160,16.0,(940) 766-2323,www.wfafb.org,2.48
+morris,"3214 Robertson Rd., Tyler, TX 75711",29.0,0.891,East Texas Food Bank,860,21.4,(903) 597-3676,www.easttexasfoodbank.org,2.44
+cooke,"2601 Cullen, Ft. Worth, TX 76107",24.5,0.986,Tarrant Area Food Bank,2410,15.7,(817) 332-9178,www.tafb.org,2.70
+dallas,"4501 Cockrell Hill, Dallas, TX 75236",26.8,0.934,North Texas Food Bank,175810,20.0,(214) 330-1397,www.ntfb.org,2.56
+clay,"1232 Midwestern Pkwy., Wichita Falls, TX 76307",21.3,0.897,Wichita Falls Area Food Bank,520,13.8,(940) 766-2324,www.wfafb.org,2.46
+yoakum,"4631 Locust Ave., Lubbock, TX 79404",22.8,1.026,South Plains Food Bank,580,10.7,(806) 763-3022,www.spfb.org,2.81
+refugio,"38017 E. Rio Grande, Victoria, TX 77903",24.4,0.847,Food Bank of the Golden Crescent,430,13.7,(361) 578-0599,www.victoriafoodbank.org,2.32
+san patricio,"836 Krill St., Corpus Christi, TX 78408",28.2,0.837,Food Bank of Corpus Christi,5150,15.2,(361) 887-6301,www.foodbankcc.com,2.29
+reagan,"1321 S. Hill St., San Angelo, TX 76903",19.6,0.891,Concho Valley Regional Food Bank,190,9.9,(325) 655-3239,www.conchovalleyfoodbank.org,2.44
+comanche,"5508 N. First, Abilene, TX 79603",31.0,0.936,Food Bank of West Central Texas,1030,17.3,(325) 695-6314,www.fbwct.org,2.57
+mcculloch,"1319 S. Hill St., San Angelo, TX 76903",28.2,0.951,Concho Valley Regional Food Bank,580,15.6,(325) 655-3237,www.conchovalleyfoodbank.org,2.61
+lampasas,"8212 S. Congress, Austin, TX 78745",28.1,0.924,Capital Area Food Bank,1410,16.9,(512) 282-2122,www.austinfoodbank.org,2.53
+presidio,"1021 E. 2nd St., Odessa, TX 79760",35.1,1.129,West Texas Food Bank,720,17.1,(432) 580-6346,www.wtxfoodbank.org,3.09
+titus,"3223 Robertson Rd., Tyler, TX 75711",27.2,0.878,East Texas Food Bank,2640,17.1,(903) 597-3685,www.easttexasfoodbank.org,2.41
+atascosa,"5200 Old Highway 90 West, San Antonio, TX 78227",26.9,0.887,San Antonio Food Bank,3480,13.4,(210) 337-3663,www.safoodbank.org,2.43
+grayson,"4506 Cockrell Hill, Dallas, TX 75236",26.5,0.914,North Texas Food Bank,7670,18.2,(214) 330-1402,www.ntfb.org,2.50
+bandera,"5201 Old Highway 90 West, San Antonio, TX 78227",27.7,1.043,San Antonio Food Bank,1100,15.8,(210) 337-3664,www.safoodbank.org,2.86
+callahan,"5506 N. First, Abilene, TX 79603",25.5,0.934,Food Bank of West Central Texas,810,15.4,(325) 695-6312,www.fbwct.org,2.56
+chambers,"537 Portwall Street, Houston, TX 77029",20.9,1.097,Houston Food Bank,2040,14.5,(713) 547-8604,www.houstonfoodbank.org,3.01
+hartley,"830 S. Ross, Amarillo, TX 79120",21.5,0.944,High Plains Food Bank,280,14.2,(806) 374-8577,www.hpfb.org,2.59
+jim wells,"830 Krill St., Corpus Christi, TX 78408",28.1,0.811,Food Bank of Corpus Christi,3310,12.5,(361) 887-6295,www.foodbankcc.com,2.22
+somervell,"2610 Cullen, Ft. Worth, TX 76107",22.8,0.902,Tarrant Area Food Bank,500,15.1,(817) 332-9187,www.tafb.org,2.47
+ellis,"4504 Cockrell Hill, Dallas, TX 75236",23.1,0.932,North Texas Food Bank,9940,15.5,(214) 330-1400,www.ntfb.org,2.55
+val verde,"1912 Freight St., Laredo, TX 78041",29.5,0.765,South Texas Food Bank,4260,14.3,(956) 726-3125,www.southtexasfoodbank.org,2.10
+pecos,"1020 E. 2nd St., Odessa, TX 79760",25.9,0.904,West Texas Food Bank,990,13.4,(432) 580-6345,www.wtxfoodbank.org,2.48
+brewster,"1010 E. 2nd St., Odessa, TX 79760",23.5,1.053,West Texas Food Bank,430,14.7,(432) 580-6335,www.wtxfoodbank.org,2.89
+gonzales,"38013 E. Rio Grande, Victoria, TX 77903",30.6,0.903,Food Bank of the Golden Crescent,1640,16.1,(361) 578-0595,www.victoriafoodbank.org,2.48
+burnet,"8204 S. Congress, Austin, TX 78745",26.1,0.906,Capital Area Food Bank,2570,15.7,(512) 282-2114,www.austinfoodbank.org,2.48
+dewitt,"38011 E. Rio Grande, Victoria, TX 77903",24.2,0.772,Food Bank of the Golden Crescent,1060,14.9,(361) 578-0593,www.victoriafoodbank.org,2.12
+calhoun,"38009 E. Rio Grande, Victoria, TX 77903",27.7,0.829,Food Bank of the Golden Crescent,1550,15.4,(361) 578-0591,www.victoriafoodbank.org,2.27
+liberty,"540 Portwall Street, Houston, TX 77029",26.3,0.884,Houston Food Bank,5100,18.2,(713) 547-8607,www.houstonfoodbank.org,2.42
+mason,"1318 S. Hill St., San Angelo, TX 76903",25.4,0.912,Concho Valley Regional Food Bank,200,13.8,(325) 655-3236,www.conchovalleyfoodbank.org,2.50
+jim hogg,"1908 Freight St., Laredo, TX 78041",26.3,0.769,South Texas Food Bank,320,10.0,(956) 726-3121,www.southtexasfoodbank.org,2.11
+hill,"2605 Cullen, Ft. Worth, TX 76107",26.1,0.957,Tarrant Area Food Bank,2230,17.7,(817) 332-9182,www.tafb.org,2.62
+kent,"4622 Locust Ave., Lubbock, TX 79404",22.1,0.959,South Plains Food Bank,30,15.2,(806) 763-3013,www.spfb.org,2.63
+jeff davis,"1016 E. 2nd St., Odessa, TX 79760",29.6,1.060,West Texas Food Bank,120,12.0,(432) 580-6341,www.wtxfoodbank.org,2.90
+hudspeth,"9541 Plaza Circle Drive, El Paso, TX 79937",37.7,0.912,El Pasoans Fighting Hunger,370,16.4,(915) 298-0355,www.elpasoansfightinghunger.org,2.50
+maverick,"1910 Freight St., Laredo, TX 78041",35.8,0.704,South Texas Food Bank,6470,17.5,(956) 726-3123,www.southtexasfoodbank.org,1.93
+throckmorton,"1238 Midwestern Pkwy., Wichita Falls, TX 76307",23.7,0.967,Wichita Falls Area Food Bank,70,15.0,(940) 766-2330,www.wfafb.org,2.65
+lamar,"4510 Cockrell Hill, Dallas, TX 75236",27.6,0.955,North Texas Food Bank,3320,21.2,(214) 330-1406,www.ntfb.org,2.62
+angelina,"3202 Robertson Rd., Tyler, TX 75711",27.0,0.896,East Texas Food Bank,6250,19.1,(903) 597-3664,www.easttexasfoodbank.org,2.46
+runnels,"5514 N. First, Abilene, TX 79603",30.1,0.902,Food Bank of West Central Texas,770,16.8,(325) 695-6320,www.fbwct.org,2.47
+lee,"8213 S. Congress, Austin, TX 78745",22.1,0.961,Capital Area Food Bank,940,15.6,(512) 282-2123,www.austinfoodbank.org,2.63
+polk,"3850 MLK Blvd., Beaumont, TX 77705",27.9,0.875,Southeast Texas Food Bank,2660,19.0,(409) 839-8782,www.setxfoodbank.org,2.40
+martin,"1018 E. 2nd St., Odessa, TX 79760",21.9,0.897,West Texas Food Bank,310,13.6,(432) 580-6343,www.wtxfoodbank.org,2.46
+brooks,"828 Krill St., Corpus Christi, TX 78408",35.9,0.794,Food Bank of Corpus Christi,690,17.0,(361) 887-6293,www.foodbankcc.com,2.17
+cochran,"4613 Locust Ave., Lubbock, TX 79404",23.7,0.968,South Plains Food Bank,220,14.2,(806) 763-3004,www.spfb.org,2.65
+san saba,"8219 S. Congress, Austin, TX 78745",31.4,0.906,Capital Area Food Bank,410,16.7,(512) 282-2129,www.austinfoodbank.org,2.48
+zavala,"5215 Old Highway 90 West, San Antonio, TX 78227",40.8,0.758,San Antonio Food Bank,1510,19.6,(210) 337-3678,www.safoodbank.org,2.08
+andrews,"1008 E. 2nd St., Odessa, TX 79760",24.4,0.914,West Texas Food Bank,1080,11.7,(432) 580-6333,www.wtxfoodbank.org,2.50
+randall,"839 S. Ross, Amarillo, TX 79120",20.8,1.052,High Plains Food Bank,6220,14.6,(806) 374-8586,www.hpfb.org,2.88
+falls,"8207 S. Congress, Austin, TX 78745",27.3,0.866,Capital Area Food Bank,1070,21.1,(512) 282-2117,www.austinfoodbank.org,2.37
+ward,"1025 E. 2nd St., Odessa, TX 79760",27.6,0.884,West Texas Food Bank,830,14.9,(432) 580-6350,www.wtxfoodbank.org,2.42
+montague,"1237 Midwestern Pkwy., Wichita Falls, TX 76307",25.8,0.942,Wichita Falls Area Food Bank,1190,16.0,(940) 766-2329,www.wfafb.org,2.58
+eastland,"5509 N. First, Abilene, TX 79603",26.8,0.942,Food Bank of West Central Texas,1120,17.9,(325) 695-6315,www.fbwct.org,2.58
+uvalde,"5213 Old Highway 90 West, San Antonio, TX 78227",33.1,0.826,San Antonio Food Bank,2510,16.3,(210) 337-3676,www.safoodbank.org,2.26
+hopkins,"4507 Cockrell Hill, Dallas, TX 75236",27.0,0.956,North Texas Food Bank,2400,17.7,(214) 330-1403,www.ntfb.org,2.62
+hutchinson,"832 S. Ross, Amarillo, TX 79120",24.1,1.055,High Plains Food Bank,1390,15.0,(806) 374-8579,www.hpfb.org,2.89
+san augustine,"3220 Robertson Rd., Tyler, TX 75711",28.7,0.934,East Texas Food Bank,540,23.7,(903) 597-3682,www.easttexasfoodbank.org,2.56
+lavaca,"38015 E. Rio Grande, Victoria, TX 77903",20.9,0.828,Food Bank of the Golden Crescent,930,14.3,(361) 578-0597,www.victoriafoodbank.org,2.27
+nolan,"5513 N. First, Abilene, TX 79603",28.0,0.933,Food Bank of West Central Texas,1050,16.7,(325) 695-6319,www.fbwct.org,2.56
+franklin,"3207 Robertson Rd., Tyler, TX 75711",26.1,0.937,East Texas Food Bank,680,16.1,(903) 597-3669,www.easttexasfoodbank.org,2.57
+burleson,"1515 Shiloh, Bryan, TX 77803",23.1,0.939,Brazos Valley Food Bank,940,16.3,(979) 779-3664,www.bvfb.org,2.57
+gaines,"4618 Locust Ave., Lubbock, TX 79404",24.5,0.915,South Plains Food Bank,1460,13.8,(806) 763-3009,www.spfb.org,2.51
+austin,"535 Portwall Street, Houston, TX 77029",21.4,0.992,Houston Food Bank,1530,15.0,(713) 547-8602,www.houstonfoodbank.org,2.72
+king,"4623 Locust Ave., Lubbock, TX 79404",27.4,1.038,South Plains Food Bank,10,15.9,(806) 763-3014,www.spfb.org,2.84
+kendall,"5208 Old Highway 90 West, San Antonio, TX 78227",21.6,0.972,San Antonio Food Bank,1750,13.4,(210) 337-3671,www.safoodbank.org,2.66
+webb,"1913 Freight St., Laredo, TX 78041",33.2,0.747,South Texas Food Bank,29170,15.2,(956) 726-3126,www.southtexasfoodbank.org,2.05
+limestone,"8214 S. Congress, Austin, TX 78745",25.9,0.853,Capital Area Food Bank,1420,18.2,(512) 282-2124,www.austinfoodbank.org,2.34
+colorado,"38010 E. Rio Grande, Victoria, TX 77903",24.7,0.849,Food Bank of the Golden Crescent,1200,16.5,(361) 578-0592,www.victoriafoodbank.org,2.33
+bell,"8202 S. Congress, Austin, TX 78745",24.6,0.880,Capital Area Food Bank,21540,20.1,(512) 282-2112,www.austinfoodbank.org,2.41
+panola,"3216 Robertson Rd., Tyler, TX 75711",21.8,0.901,East Texas Food Bank,1260,16.8,(903) 597-3678,www.easttexasfoodbank.org,2.47
+potter,"838 S. Ross, Amarillo, TX 79120",28.1,0.891,High Plains Food Bank,9450,18.7,(806) 374-8585,www.hpfb.org,2.44
+leon,"3212 Robertson Rd., Tyler, TX 75711",26.8,0.920,East Texas Food Bank,1010,16.7,(903) 597-3674,www.easttexasfoodbank.org,2.52
+live oak,"833 Krill St., Corpus Christi, TX 78408",25.0,0.846,Food Bank of Corpus Christi,580,13.8,(361) 887-6298,www.foodbankcc.com,2.32
+foard,"1233 Midwestern Pkwy., Wichita Falls, TX 76307",29.4,0.993,Wichita Falls Area Food Bank,90,17.4,(940) 766-2325,www.wfafb.org,2.72
+haskell,"1234 Midwestern Pkwy., Wichita Falls, TX 76307",31.8,0.976,Wichita Falls Area Food Bank,390,16.9,(940) 766-2326,www.wfafb.org,2.67
+crosby,"4614 Locust Ave., Lubbock, TX 79404",32.9,0.939,South Plains Food Bank,580,17.4,(806) 763-3005,www.spfb.org,2.57
+jasper,"3846 MLK Blvd., Beaumont, TX 77705",27.2,0.901,Southeast Texas Food Bank,2420,20.5,(409) 839-8778,www.setxfoodbank.org,2.47
+hays,"8211 S. Congress, Austin, TX 78745",23.1,0.923,Capital Area Food Bank,8950,15.6,(512) 282-2121,www.austinfoodbank.org,2.53
+hemphill,"831 S. Ross, Amarillo, TX 79120",26.4,1.011,High Plains Food Bank,300,13.7,(806) 374-8578,www.hpfb.org,2.77
+milam,"8217 S. Congress, Austin, TX 78745",28.7,0.905,Capital Area Food Bank,1860,18.9,(512) 282-2127,www.austinfoodbank.org,2.48
+bastrop,"8201 S. Congress, Austin, TX 78745",24.7,0.852,Capital Area Food Bank,4760,15.1,(512) 282-2111,www.austinfoodbank.org,2.33
+hardeman,"829 S. Ross, Amarillo, TX 79120",27.4,0.958,High Plains Food Bank,270,18.2,(806) 374-8576,www.hpfb.org,2.62
+hidalgo,"725 North Cage Blvd., Pharr, Texas 78577",37.0,0.768,Food Bank of the Rio Grande Valley,98980,17.9,956-682-8102,www.foodbankrgv.com,2.10
+hood,"2606 Cullen, Ft. Worth, TX 76107",23.4,1.024,Tarrant Area Food Bank,2530,14.9,(817) 332-9183,www.tafb.org,2.80
+moore,"834 S. Ross, Amarillo, TX 79120",25.7,0.941,High Plains Food Bank,1800,12.9,(806) 374-8581,www.hpfb.org,2.58
+bexar,"5202 Old Highway 90 West, San Antonio, TX 78227",27.0,0.883,San Antonio Food Bank,125290,15.9,(210) 337-3665,www.safoodbank.org,2.42
+rockwall,"4512 Cockrell Hill, Dallas, TX 75236",19.7,0.998,North Texas Food Bank,4570,13.3,(214) 330-1408,www.ntfb.org,2.73
+midland,"1019 E. 2nd St., Odessa, TX 79760",20.8,0.924,West Texas Food Bank,7900,13.1,(432) 580-6344,www.wtxfoodbank.org,2.53
+howard,"1015 E. 2nd St., Odessa, TX 79760",26.5,0.885,West Texas Food Bank,2090,16.0,(432) 580-6340,www.wtxfoodbank.org,2.42
+oldham,"836 S. Ross, Amarillo, TX 79120",21.4,0.943,High Plains Food Bank,130,16.6,(806) 374-8583,www.hpfb.org,2.58
+duval,"829 Krill St., Corpus Christi, TX 78408",29.4,0.806,Food Bank of Corpus Christi,870,12.8,(361) 887-6294,www.foodbankcc.com,2.21
+karnes,"5207 Old Highway 90 West, San Antonio, TX 78227",30.6,0.890,San Antonio Food Bank,880,17.2,(210) 337-3670,www.safoodbank.org,2.44
+carson,"817 S. Ross, Amarillo, TX 79120",19.7,0.946,High Plains Food Bank,310,12.4,(806) 374-8564,www.hpfb.org,2.59
+guadalupe,"5206 Old Highway 90 West, San Antonio, TX 78227",21.8,0.920,San Antonio Food Bank,7850,13.4,(210) 337-3669,www.safoodbank.org,2.52
+anderson,"3201 Robertson Rd., Tyler, TX 75711",26.1,0.943,East Texas Food Bank,2990,19.9,(903) 597-3663,www.easttexasfoodbank.org,2.58
+wood,"3226 Robertson Rd., Tyler, TX 75711",27.1,0.963,East Texas Food Bank,2320,17.3,(903) 597-3688,www.easttexasfoodbank.org,2.64
+donley,"824 S. Ross, Amarillo, TX 79120",27.2,1.014,High Plains Food Bank,210,17.1,(806) 374-8571,www.hpfb.org,2.78
+starr,"1911 Freight St., Laredo, TX 78041",40.1,0.822,South Texas Food Bank,8280,19.4,(956) 726-3124,www.southtexasfoodbank.org,2.25
+willacy,"726 North Cage Blvd., Pharr, Texas 78577",37.8,0.723,Food Bank of the Rio Grande Valley,2230,19.8,956-682-8103,www.foodbankrgv.com,1.98
+robertson,"1518 Shiloh, Bryan, TX 77803",26.7,0.891,Brazos Valley Food Bank,1130,20.1,(979) 779-3667,www.bvfb.org,2.44
+upshur,"3224 Robertson Rd., Tyler, TX 75711",25.1,0.923,East Texas Food Bank,2450,16.9,(903) 597-3686,www.easttexasfoodbank.org,2.53
+trinity,"542 Portwall Street, Houston, TX 77029",26.5,0.898,Houston Food Bank,850,18.0,(713) 547-8609,www.houstonfoodbank.org,2.46
+loving,"1017 E. 2nd St., Odessa, TX 79760",28.3,1.045,West Texas Food Bank,0,17.0,(432) 580-6342,www.wtxfoodbank.org,2.86
+irion,"1316 S. Hill St., San Angelo, TX 76903",21.4,0.878,Concho Valley Regional Food Bank,90,12.4,(325) 655-3234,www.conchovalleyfoodbank.org,2.41
+williamson,"8221 S. Congress, Austin, TX 78745",20.6,0.984,Capital Area Food Bank,25020,14.7,(512) 282-2131,www.austinfoodbank.org,2.70
+fort bend,"538 Portwall Street, Houston, TX 77029",18.6,1.001,Houston Food Bank,32110,14.9,(713) 547-8605,www.houstonfoodbank.org,2.74
+coke,"1313 S. Hill St., San Angelo, TX 76903",27.7,0.901,Concho Valley Regional Food Bank,190,16.0,(325) 655-3231,www.conchovalleyfoodbank.org,2.47
+wheeler,"843 S. Ross, Amarillo, TX 79120",22.1,1.008,High Plains Food Bank,300,14.1,(806) 374-8590,www.hpfb.org,2.76
+brazos,"1514 Shiloh, Bryan, TX 77803",25.5,0.942,Brazos Valley Food Bank,10120,22.3,(979) 779-3663,www.bvfb.org,2.58
+floyd,"4617 Locust Ave., Lubbock, TX 79404",30.5,0.939,South Plains Food Bank,570,16.4,(806) 763-3008,www.spfb.org,2.57
+garza,"4619 Locust Ave., Lubbock, TX 79404",29.2,0.937,South Plains Food Bank,300,15.1,(806) 763-3010,www.spfb.org,2.57
+delta,"4502 Cockrell Hill, Dallas, TX 75236",28.5,0.953,North Texas Food Bank,340,18.3,(214) 330-1398,www.ntfb.org,2.61
+coryell,"8206 S. Congress, Austin, TX 78745",26.1,0.851,Capital Area Food Bank,5360,20.3,(512) 282-2116,www.austinfoodbank.org,2.33
+crane,"1011 E. 2nd St., Odessa, TX 79760",24.7,0.901,West Texas Food Bank,310,12.6,(432) 580-6336,www.wtxfoodbank.org,2.47
+reeves,"1022 E. 2nd St., Odessa, TX 79760",31.9,0.914,West Texas Food Bank,980,15.7,(432) 580-6347,www.wtxfoodbank.org,2.50
+shackelford,"5515 N. First, Abilene, TX 79603",20.5,0.931,Food Bank of West Central Texas,160,14.2,(325) 695-6321,www.fbwct.org,2.55
+hardin,"3845 MLK Blvd., Beaumont, TX 77705",24.3,0.933,Southeast Texas Food Bank,3420,17.2,(409) 839-8777,www.setxfoodbank.org,2.56
+wise,"2612 Cullen, Ft. Worth, TX 76107",23.7,1.009,Tarrant Area Food Bank,3660,14.6,(817) 332-9189,www.tafb.org,2.76
+washington,"1519 Shiloh, Bryan, TX 77803",23.2,0.930,Brazos Valley Food Bank,1720,18.3,(979) 779-3668,www.bvfb.org,2.55
+hansford,"828 S. Ross, Amarillo, TX 79120",25.2,0.960,High Plains Food Bank,420,12.8,(806) 374-8575,www.hpfb.org,2.63
+castro,"818 S. Ross, Amarillo, TX 79120",28.3,1.022,High Plains Food Bank,700,15.5,(806) 374-8565,www.hpfb.org,2.80
+bee,"827 Krill St., Corpus Christi, TX 78408",30.7,0.820,Food Bank of Corpus Christi,2100,17.1,(361) 887-6292,www.foodbankcc.com,2.25
+roberts,"840 S. Ross, Amarillo, TX 79120",22.4,1.009,High Plains Food Bank,60,13.0,(806) 374-8587,www.hpfb.org,2.76
+archer,"1230 Midwestern Pkwy., Wichita Falls, TX 76307",23.1,0.908,Wichita Falls Area Food Bank,490,14.6,(940) 766-2322,www.wfafb.org,2.49
+cass,"3205 Robertson Rd., Tyler, TX 75711",28.1,0.927,East Texas Food Bank,1950,21.7,(903) 597-3667,www.easttexasfoodbank.org,2.54
+waller,"544 Portwall Street, Houston, TX 77029",26.1,1.076,Houston Food Bank,2740,19.0,(713) 547-8611,www.houstonfoodbank.org,2.95
+terrell,"1023 E. 2nd St., Odessa, TX 79760",27.0,0.811,West Texas Food Bank,50,13.7,(432) 580-6348,www.wtxfoodbank.org,2.22
+mitchell,"5512 N. First, Abilene, TX 79603",25.1,0.909,Food Bank of West Central Texas,450,15.5,(325) 695-6318,www.fbwct.org,2.49
+grimes,"1516 Shiloh, Bryan, TX 77803",23.0,1.095,Brazos Valley Food Bank,1380,17.3,(979) 779-3665,www.bvfb.org,3.00
+borden,"1009 E. 2nd St., Odessa, TX 79760",25.1,0.893,West Texas Food Bank,50,15.4,(432) 580-6334,www.wtxfoodbank.org,2.45
+taylor,"5517 N. First, Abilene, TX 79603",25.0,0.929,Food Bank of West Central Texas,8010,17.7,(325) 695-6323,www.fbwct.org,2.55
+aransas,"826 Krill St., Corpus Christi, TX 78408",29.6,0.922,Food Bank of Corpus Christi,1370,15.9,(361) 887-6291,www.foodbankcc.com,2.53
+llano,"8215 S. Congress, Austin, TX 78745",29.0,0.891,Capital Area Food Bank,880,16.3,(512) 282-2125,www.austinfoodbank.org,2.44
+armstrong,"815 S. Ross, Amarillo, TX 79120",23.8,0.947,High Plains Food Bank,100,15.2,(806) 374-8562,www.hpfb.org,2.59
+freestone,"8209 S. Congress, Austin, TX 78745",23.4,0.902,Capital Area Food Bank,1080,17.2,(512) 282-2119,www.austinfoodbank.org,2.47
+fannin,"4505 Cockrell Hill, Dallas, TX 75236",26.5,0.949,North Texas Food Bank,1980,18.7,(214) 330-1401,www.ntfb.org,2.60
+kimble,"1317 S. Hill St., San Angelo, TX 76903",28.9,0.923,Concho Valley Regional Food Bank,240,15.4,(325) 655-3235,www.conchovalleyfoodbank.org,2.53
+jackson,"38014 E. Rio Grande, Victoria, TX 77903",23.7,0.825,Food Bank of the Golden Crescent,850,14.9,(361) 578-0596,www.victoriafoodbank.org,2.26
+scurry,"4628 Locust Ave., Lubbock, TX 79404",25.7,0.909,South Plains Food Bank,1080,14.7,(806) 763-3019,www.spfb.org,2.49
+parmer,"837 S. Ross, Amarillo, TX 79120",27.5,1.010,High Plains Food Bank,860,13.8,(806) 374-8584,www.hpfb.org,2.77
+nueces,"835 Krill St., Corpus Christi, TX 78408",28.3,0.855,Food Bank of Corpus Christi,24910,15.5,(361) 887-6300,www.foodbankcc.com,2.34
+dawson,"1012 E. 2nd St., Odessa, TX 79760",26.4,0.925,West Texas Food Bank,850,15.3,(432) 580-6337,www.wtxfoodbank.org,2.53
+lamb,"4624 Locust Ave., Lubbock, TX 79404",29.6,0.940,South Plains Food Bank,1220,16.4,(806) 763-3015,www.spfb.org,2.58
+stonewall,"4629 Locust Ave., Lubbock, TX 79404",25.0,0.958,South Plains Food Bank,90,15.4,(806) 763-3020,www.spfb.org,2.62
+wilson,"5214 Old Highway 90 West, San Antonio, TX 78227",22.8,0.902,San Antonio Food Bank,2560,12.2,(210) 337-3677,www.safoodbank.org,2.47
+van zandt,"3225 Robertson Rd., Tyler, TX 75711",27.0,0.951,East Texas Food Bank,3390,17.1,(903) 597-3687,www.easttexasfoodbank.org,2.61
+state total,27.4,0.876,1909470,18.3,2.40
+blanco,"8203 S. Congress, Austin, TX 78745",22.8,0.925,Capital Area Food Bank,510,14.0,(512) 282-2113,www.austinfoodbank.org,2.53
+cherokee,"3206 Robertson Rd., Tyler, TX 75711",29.8,0.946,East Texas Food Bank,3900,20.2,(903) 597-3668,www.easttexasfoodbank.org,2.59
+collin,"4500 Cockrell Hill, Dallas, TX 75236",19.9,1.011,North Texas Food Bank,44530,15.3,(214) 330-1396,www.ntfb.org,2.77
+edwards,"5204 Old Highway 90 West, San Antonio, TX 78227",28.6,0.840,San Antonio Food Bank,110,13.1,(210) 337-3667,www.safoodbank.org,2.30
+mills,"8218 S. Congress, Austin, TX 78745",24.8,0.877,Capital Area Food Bank,300,15.4,(512) 282-2128,www.austinfoodbank.org,2.40
+montgomery,"111 S. 2nd Street, Conroe, TX  77301",23.5,1.026,Montgomery County Food Bank,29680,15.2,(936) 539-6686,www.mcfoodbank.org,2.81
+swisher,"842 S. Ross, Amarillo, TX 79120",27.7,0.944,High Plains Food Bank,560,16.0,(806) 374-8589,www.hpfb.org,2.59
+jefferson,"3847 MLK Blvd., Beaumont, TX 77705",26.8,0.898,Southeast Texas Food Bank,16170,23.4,(409) 839-8779,www.setxfoodbank.org,2.46
+dickens,"4616 Locust Ave., Lubbock, TX 79404",30.5,0.937,South Plains Food Bank,140,18.2,(806) 763-3007,www.spfb.org,2.57
+bailey,"4612 Locust Ave., Lubbock, TX 79404",23.5,1.004,South Plains Food Bank,530,13.8,(806) 763-3003,www.spfb.org,2.75
+dallam,"822 S. Ross, Amarillo, TX 79120",24.6,0.943,High Plains Food Bank,510,14.3,(806) 374-8569,www.hpfb.org,2.58
+coleman,"5507 N. First, Abilene, TX 79603",35.6,0.935,Food Bank of West Central Texas,700,20.0,(325) 695-6313,www.fbwct.org,2.56
+glasscock,"1014 E. 2nd St., Odessa, TX 79760",18.5,0.896,West Texas Food Bank,70,12.2,(432) 580-6339,www.wtxfoodbank.org,2.46
+sterling,"1323 S. Hill St., San Angelo, TX 76903",25.0,0.903,Concho Valley Regional Food Bank,70,13.8,(325) 655-3241,www.conchovalleyfoodbank.org,2.47
+nacogdoches,"3215 Robertson Rd., Tyler, TX 75711",28.4,0.996,East Texas Food Bank,4300,21.5,(903) 597-3677,www.easttexasfoodbank.org,2.73
+sabine,"3851 MLK Blvd., Beaumont, TX 77705",34.7,0.940,Southeast Texas Food Bank,720,23.1,(409) 839-8783,www.setxfoodbank.org,2.58
+goliad,"38012 E. Rio Grande, Victoria, TX 77903",24.1,0.838,Food Bank of the Golden Crescent,380,14.2,(361) 578-0594,www.victoriafoodbank.org,2.30
+sherman,"841 S. Ross, Amarillo, TX 79120",26.8,0.947,High Plains Food Bank,260,13.8,(806) 374-8588,www.hpfb.org,2.60
+medina,"5211 Old Highway 90 West, San Antonio, TX 78227",27.8,0.808,San Antonio Food Bank,3280,14.2,(210) 337-3674,www.safoodbank.org,2.21
+crockett,"1315 S. Hill St., San Angelo, TX 76903",26.5,0.836,Concho Valley Regional Food Bank,240,13.3,(325) 655-3233,www.conchovalleyfoodbank.org,2.29
+frio,"5205 Old Highway 90 West, San Antonio, TX 78227",29.2,0.880,San Antonio Food Bank,1250,14.2,(210) 337-3668,www.safoodbank.org,2.41
+harris,"539 Portwall Street, Houston, TX 77029",26.1,0.965,Houston Food Bank,298860,18.7,(713) 547-8606,www.houstonfoodbank.org,2.64
+fayette,"8208 S. Congress, Austin, TX 78745",25.7,0.866,Capital Area Food Bank,1380,15.6,(512) 282-2118,www.austinfoodbank.org,2.37
+terry,"4630 Locust Ave., Lubbock, TX 79404",24.9,0.938,South Plains Food Bank,790,15.2,(806) 763-3021,www.spfb.org,2.57
+kenedy,"831 Krill St., Corpus Christi, TX 78408",39.0,0.795,Food Bank of Corpus Christi,50,17.2,(361) 887-6296,www.foodbankcc.com,2.18
+fisher,"5510 N. First, Abilene, TX 79603",23.7,0.933,Food Bank of West Central Texas,220,15.0,(325) 695-6316,www.fbwct.org,2.56
+kinney,"1909 Freight St., Laredo, TX 78041",37.6,0.747,South Texas Food Bank,310,16.2,(956) 726-3122,www.southtexasfoodbank.org,2.05
+rusk,"3219 Robertson Rd., Tyler, TX 75711",24.7,0.939,East Texas Food Bank,3050,17.7,(903) 597-3681,www.easttexasfoodbank.org,2.57
+jones,"5511 N. First, Abilene, TX 79603",24.7,1.065,Food Bank of West Central Texas,920,17.1,(325) 695-6317,www.fbwct.org,2.92
+sutton,"1324 S. Hill St., San Angelo, TX 76903",19.7,0.828,Concho Valley Regional Food Bank,240,9.8,(325) 655-3242,www.conchovalleyfoodbank.org,2.27
+johnson,"2607 Cullen, Ft. Worth, TX 76107",24.1,0.851,Tarrant Area Food Bank,9870,15.4,(817) 332-9184,www.tafb.org,2.33
+matagorda,"38016 E. Rio Grande, Victoria, TX 77903",29.5,0.840,Food Bank of the Golden Crescent,2840,18.6,(361) 578-0598,www.victoriafoodbank.org,2.30
+travis,"8220 S. Congress, Austin, TX 78745",25.5,0.968,Capital Area Food Bank,62860,18.1,(512) 282-2130,www.austinfoodbank.org,2.65
+camp,"3204 Robertson Rd., Tyler, TX 75711",29.8,0.925,East Texas Food Bank,980,20.3,(903) 597-3666,www.easttexasfoodbank.org,2.53
+wichita,"1239 Midwestern Pkwy., Wichita Falls, TX 76307",24.0,0.889,Wichita Falls Area Food Bank,7260,18.0,(940) 766-2331,www.wfafb.org,2.44
+comal,"5203 Old Highway 90 West, San Antonio, TX 78227",22.7,0.978,San Antonio Food Bank,5820,14.1,(210) 337-3666,www.safoodbank.org,2.68
+el paso,"9540 Plaza Circle Drive, El Paso, TX 79937",31.9,0.887,El Pasoans Fighting Hunger,76490,16.4,(915) 298-0354,www.elpasoansfightinghunger.org,2.43
+lubbock,"4625 Locust Ave., Lubbock, TX 79404",25.9,0.936,South Plains Food Bank,17450,17.9,(806) 763-3016,www.spfb.org,2.57
+walker,"543 Portwall Street, Houston, TX 77029",25.0,0.945,Houston Food Bank,2760,21.6,(713) 547-8610,www.houstonfoodbank.org,2.59
+hamilton,"2604 Cullen, Ft. Worth, TX 76107",22.2,0.885,Tarrant Area Food Bank,400,15.4,(817) 332-9181,www.tafb.org,2.42
+kleberg,"832 Krill St., Corpus Christi, TX 78408",28.6,0.867,Food Bank of Corpus Christi,2240,16.3,(361) 887-6297,www.foodbankcc.com,2.38
+dimmit,"1907 Freight St., Laredo, TX 78041",31.5,0.748,South Texas Food Bank,950,13.6,(956) 726-3120,www.southtexasfoodbank.org,2.05
