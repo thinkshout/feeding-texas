@@ -165,13 +165,6 @@ footer {
   nav.primary,
   nav.secondary {
     font-size: 1.1em;
-    line-height: 3em;
-    ul li a {
-      color: $orange;
-    }
-  }
-
-  nav.secondary ul li a {
-    color: $green;
+    line-height: 1.5em;
   }
 }
