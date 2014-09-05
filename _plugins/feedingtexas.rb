@@ -33,11 +33,9 @@ module Jekyll
 
   # Filter for division.
   module DividedBy
-    def divide(nums)
-      num1 = nums[0].to_f
-      num2 = nums[1].to_f
-      val = num1/num2
-      puts val
+    def divide(num1, num2)
+      val = num1.to_f/num2.to_f
+      return val.round(4)
     end
   end
 end

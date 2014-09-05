@@ -218,9 +218,8 @@ $(function() {
         <div id="utilization" class="row">
           <div class="half narrative">
             <div class="key-stat">
-              {% assign arr = 'page.data.totalSnapRecipients|page.data.totalIncomeEligibleIndividuals' | split: '|' %}
-              {% assign b = arr | divide %}
-              <span class="total">{{ b | times: 100 }}</span> of eligible people are actually receiving SNAP benefits.
+              {% assign percent_receiving = page.data.totalSnapRecipients | divide: page.data.totalIncomeEligibleIndividuals | times: 100 %}
+              <span class="total">{{ percent_receiving }}%</span> of eligible people are actually receiving SNAP benefits.
             </div>
             <div class="key-stat">
               <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not participating in SNAP benefits when they could be.
