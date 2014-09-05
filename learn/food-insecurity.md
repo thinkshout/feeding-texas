@@ -21,26 +21,25 @@ calls_to_action:
   - 2
 group: learn
 ---
-
 ## Familiar, but Hard to Measure   
 
 Hunger is a familiar physical sensation, but it can be hard to measure in a large population. Food insecurity offers a widely-accepted framework for measuring food deprivation in the United States.   
 
-The USDA defines food insecurity as meaning that “consistent access to adequate food is limited by a lack of money and other resources at times during the year.” Acceptable shorthand terms for food insecurity are "struggling to avoid hunger," “hungry, or at risk of hunger,” and “hungry, or faced the threat of hunger.” Food insecurity can also accurately be described as “a financial juggling act, where sometimes the food ball gets dropped.”
+The USDA defines food insecurity as meaning that “consistent access to adequate food is limited by a lack of money and other resources at times during the year.” Acceptable shorthand terms for food insecurity are "struggling to avoid hunger," “hungry, or at risk of hunger,” and “hungry, or faced the threat of hunger.”
 
-## What does “food insecurity” NOT mean?
+## How many Texans are food insecure?
+
+According to the [latest USDA report](http://www.ers.usda.gov/media/1565415/err173.pdf), 18% of Texas households experienced food insecurity in the years 2011-2013. Texas was one of just eight states confirmed to have more food insecurity than the nation as a whole during this period. In raw numbers, 1.7 million Texas households were food insecure, more than any other state except California. Using related data, the national group Feeding America has estimated the number of individuals and children who live in these households [in every Texas county](http://feedingamerica.org/hunger-in-america/hunger-studies/map-the-meal-gap.aspx).
+
+## What does “food insecurity” not mean?
 
 * Food insecurity is not “the government’s definition of hunger.” It is a broader term that captures outright hunger and the coping mechanisms that households use to avoid hunger.
 
-* Food insecurity is a household situation, not an individual situation. While food insecurity affects everyone in a household, it may affect them differently. Therefore it is not correct to state that specific individuals in a food insecure household (such as children) definitely experience outright hunger or specific coping mechanisms. Rather than describing these individuals as being “food insecure”, they should be referred to as “living in a food insecure home.”
+* Food insecurity is a household situation, not an individual situation. While food insecurity affects everyone in a household, it may affect them differently. Therefore it is not correct to state that specific individuals in a food insecure household (such as children) definitely experience outright hunger or specific coping mechanisms.
 
 * Food insecurity is a year-long measure. Therefore, it is not correct to assert that every food insecure household is experiencing food insecurity “right now,” will experience hunger “tonight” or “does not know where their next meal is coming from.” Research shows that food insecurity tends to be episodic and often cyclical.
 
-* Food insecurity does not mean that a household lacks access to grocery stores, lives in a “food desert,” or does not have time to shop/cook. It only refers to lack of food access based on financial and other material resources.   
- 
-## How many Texans are food insecure?
-
-According to the [latest USDA report](http://www.ers.usda.gov/publications/err-economic-research-report/err155.aspx#.Ui9nQTakolQ), an average 18.4% of Texas households experienced food insecurity in the years 2010-2012. Texas ranks among the top twelve states in terms of food insecurity rates, and second in terms of the number of food insecure households. Using related data, the national group Feeding America has estimated the number of individuals and children who live in these households [in every Texas county](http://feedingamerica.org/hunger-in-america/hunger-studies/map-the-meal-gap.aspx).
+* Food insecurity does not mean that a household lacks access to grocery stores, lives in a “food desert,” or does not have time to shop/cook. It only refers to lack of food access based on financial and other resources.   
 
 ## Go Deeper
 
