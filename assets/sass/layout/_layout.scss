@@ -22,12 +22,13 @@
 
 .main {
   margin-top: 1em;
+  overflow: hidden;
 
   &.sidebar-second {
     .content {
       @include span-columns(8,12);
     }
-  
+
     .sidebar-second {
       @include span-columns(4,12);
       @include omega;
@@ -35,7 +36,7 @@
   }
   &.no-sidebars {
   	.content {
-      width: columns(9); 
+      width: columns(9);
       margin: 0 auto;
     }
   }
@@ -50,7 +51,7 @@
       }
       .leadin {
         @include span-columns(12,12);
-        @include pre(0); 
+        @include pre(0);
         @include omega;
       }
 		}
@@ -64,7 +65,7 @@
 .the-latest {
   @include breakpoint($bp-xxsmall) {
     .featured-blog, .featured-resource {
-      @include span-columns(6,12); 
+      @include span-columns(6,12);
     }
 
     .featured-resource {
@@ -77,4 +78,3 @@ footer {
   @include clearfix;
   clear: both;
 }
-
