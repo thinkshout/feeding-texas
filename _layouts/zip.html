@@ -62,83 +62,160 @@ $(function() {
   // Pull all necessary frontmatter vars into json data object.
   var data = {{ page.data | jsonify }};
   
-  $('#percentages').highcharts({
-      series: [{
-          type: 'pie',
-          data: [
-              ['Children', parseFloat(data.incomeEligible0To17) + parseFloat(data.incomeEligibleButNotReceiving0To17) ],
-              ['Adults', parseFloat(data.incomeEligible18To64) + parseFloat(data.incomeEligibleButNotReceiving18To64) ],
-              ['Seniors', parseFloat(data.incomeEligible65Plus) + parseFloat(data.incomeEligibleButNotReceiving65Plus) ]
-          ]
-      }]
-  });
+  var chart_data = [data.incomeEligible0To17, data.incomeEligible18To64, data.incomeEligible65Plus, data.incomeEligibleButNotReceiving65Plus]
+  for (i = 0, len = chart_data.length; i < len; i++) {
+    if ((!chart_data[i]) || chart_data[i] == '#N/A') {
+      var print = false;
+    }
+    else {
+      var print = true;
+    }
+  }
+  if (print) {
+    $('#percentages').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Children', parseFloat(data.incomeEligible0To17) + parseFloat(data.incomeEligibleButNotReceiving0To17) ],
+                ['Adults', parseFloat(data.incomeEligible18To64) + parseFloat(data.incomeEligibleButNotReceiving18To64) ],
+                ['Seniors', parseFloat(data.incomeEligible65Plus) + parseFloat(data.incomeEligibleButNotReceiving65Plus) ]
+            ]
+        }]
+    });
+  }
 
-  $('#participation').highcharts({
-      series: [{
-          type: 'pie',
-          data: [
-              ['Receiving', parseFloat(data.totalSnapRecipients) ],
-              ['Not Receiving', parseFloat(data.totalIncomeEligibleButNotReceiving) ]
-          ]
-      }]
-  });
+  var chart_data = [data.totalSnapRecipients, data.totalIncomeEligibleButNotReceiving]
+  for (i = 0, len = chart_data.length; i < len; i++) {
+    if ((!chart_data[i]) || chart_data[i] == '#N/A') {
+      var print = false;
+    }
+    else {
+      var print = true;
+    }
+  }
+  if (print) {
+    $('#participation').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Receiving', parseFloat(data.totalSnapRecipients) ],
+                ['Not Receiving', parseFloat(data.totalIncomeEligibleButNotReceiving) ]
+            ]
+        }]
+    });
+  }
 
-  $('#percentbenefits').highcharts({
-      series: [{
-          type: 'pie',
-          data: [
-              ['Covered', parseFloat(data.averageBenefitperMeal) ],
-              ['Not Covered', parseFloat(data.weightedCostPerMeal)-parseFloat(data.averageBenefitperMeal) ]
-          ]
-      }]
-  });
+  var chart_data = [data.averageBenefitperMeal, data.weightedCostPerMeal]
+  for (i = 0, len = chart_data.length; i < len; i++) {
+    if ((!chart_data[i]) || chart_data[i] == '#N/A') {
+      var print = false;
+    }
+    else {
+      var print = true;
+    }
+  }
+  if (print) {
+    $('#percentbenefits').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Covered', parseFloat(data.averageBenefitperMeal) ],
+                ['Not Covered', parseFloat(data.weightedCostPerMeal)-parseFloat(data.averageBenefitperMeal) ]
+            ]
+        }]
+    });
+  }
 
-  $('#percentrcvrace').highcharts({
-      series: [{
-          type: 'pie',
-          data: [
-              ['White', parseFloat(data.recipientRaceWhite) ],
-              ['Black', parseFloat(data.recipientRaceBlack) ],
-              ['Native American', parseFloat(data.recipientRaceNativeAmerican) ],
-              ['Asian', parseFloat(data.recipientRaceAsian) ],
-              ['Pacific Islander', parseFloat(data.recipientRacePacificIslander) ],
-              ['Multi-race', parseFloat(data.recipientRaceMultiRace) ],
-              ['Unknown/Missing', parseFloat(data.recipientRaceUnknownMissing) ]
-          ]
-      }]
-  });
+  var chart_data = [data.recipientRaceWhite, data.recipientRaceBlack, data.recipientRaceNativeAmerican, data.recipientRaceAsian, data.recipientRacePacificIslander, data.recipientRaceMultiRace, data.recipientRaceUnknownMissing]
+  for (i = 0, len = chart_data.length; i < len; i++) {
+    if ((!chart_data[i]) || chart_data[i] == '#N/A') {
+      var print = false;
+    }
+    else {
+      var print = true;
+    }
+  }
+  if (print) {
+    $('#percentrcvrace').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['White', parseFloat(data.recipientRaceWhite) ],
+                ['Black', parseFloat(data.recipientRaceBlack) ],
+                ['Native American', parseFloat(data.recipientRaceNativeAmerican) ],
+                ['Asian', parseFloat(data.recipientRaceAsian) ],
+                ['Pacific Islander', parseFloat(data.recipientRacePacificIslander) ],
+                ['Multi-race', parseFloat(data.recipientRaceMultiRace) ],
+                ['Unknown/Missing', parseFloat(data.recipientRaceUnknownMissing) ]
+            ]
+        }]
+    });
+  }
 
-  $('#percentrcvworking').highcharts({
-      series: [{
-          type: 'pie',
-          data: [
-              ['Working', parseFloat(data.householdIncomeWithEarnedIncome) ],
-              ['Non-Working', 1 - parseFloat(data.householdIncomeWithEarnedIncome) ]
-          ]
-      }]
-  });
+  var chart_data = [data.householdIncomeWithEarnedIncome]
+  for (i = 0, len = chart_data.length; i < len; i++) {
+    if ((!chart_data[i]) || chart_data[i] == '#N/A') {
+      var print = false;
+    }
+    else {
+      var print = true;
+    }
+  }
+  if (print) {
+    $('#percentrcvworking').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Working', parseFloat(data.householdIncomeWithEarnedIncome) ],
+                ['Non-Working', 1 - parseFloat(data.householdIncomeWithEarnedIncome) ]
+            ]
+        }]
+    });
+  }
 
-  $('#percentrcvage').highcharts({
-      series: [{
-          type: 'pie',
-          data: [
-              ['Children', parseFloat(data.recipients0To17) ],
-              ['Adults', parseFloat(data.recipients18To64) ],
-              ['Seniors', parseFloat(data.recipients65Plus) ]
-          ]
-      }]
-  });
+  var chart_data = [data.recipients0To17, data.recipients18To64, data.recipients65Plus]
+  for (i = 0, len = chart_data.length; i < len; i++) {
+    if ((!chart_data[i]) || chart_data[i] == '#N/A') {
+      var print = false;
+    }
+    else {
+      var print = true;
+    }
+  }
+  if (print) {
+    $('#percentrcvage').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Children', parseFloat(data.recipients0To17) ],
+                ['Adults', parseFloat(data.recipients18To64) ],
+                ['Seniors', parseFloat(data.recipients65Plus) ]
+            ]
+        }]
+    });
+  }
 
-  $('#percentrcvethnicity').highcharts({
-      series: [{
-          type: 'pie',
-          data: [
-              ['Hispanic', parseFloat(data.recipientEthnicityHispanic) ],
-              ['Non-Hispanic', parseFloat(data.recipientEthnicityNonHispanic) ],
-              ['Unknown/Missing', parseFloat(data.recipientEthnicityUnknownMissing) ]
-          ]
-      }]
-  });
+  var chart_data = [data.recipientEthnicityHispanic, data.recipientEthnicityNonHispanic, data.recipientEthnicityUnknownMissing]
+  for (i = 0, len = chart_data.length; i < len; i++) {
+    if ((!chart_data[i]) || chart_data[i] == '#N/A') {
+      var print = false;
+    }
+    else {
+      var print = true;
+    }
+  }
+  if (print) {
+    $('#percentrcvethnicity').highcharts({
+        series: [{
+            type: 'pie',
+            data: [
+                ['Hispanic', parseFloat(data.recipientEthnicityHispanic) ],
+                ['Non-Hispanic', parseFloat(data.recipientEthnicityNonHispanic) ],
+                ['Unknown/Missing', parseFloat(data.recipientEthnicityUnknownMissing) ]
+            ]
+        }]
+    });
+  }
 });
 </script>
 
