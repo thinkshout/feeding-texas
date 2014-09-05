@@ -15,7 +15,7 @@ featured_statistic:
   stat: 1 in 5
   key: Texas families experienced food insecurity in 2010-2012
 intro: |
-  Solving hunger in Texas means going where the facts lead us. Browse our archive of original research, policy briefings and datasets below to expand your understanding of the issue. Our staff are available to help you interpret and add life to these numbers. We also love partnering with academics, students and the data community to fill in the gaps. [Contact us to learn more.](about/contact.html)
+  Solving hunger in Texas means going where the facts lead us. Browse our archive of original research, policy briefings and datasets below to expand your understanding of the issue. Our staff are available to help you interpret and add life to these numbers. We also love partnering with academics, students and the data community to fill in the gaps!
 calls_to_action:
   - 1
   - 2
