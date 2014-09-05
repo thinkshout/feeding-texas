@@ -28,9 +28,19 @@
 
 // Primary
 .primary-nav {
-  font-size: 0.875em;
+  font-size: 0.775em;
   text-transform: uppercase;
   display: none;
+	@include breakpoint($bp-medium) {
+		font-size: 0.775em;
+	}
+	@include breakpoint($bp-xlarge) {
+		font-size: 0.875em;
+	}
+	@include breakpoint($bp-xxlarge) {
+		font-size: 0.875em;
+	}
+
   ul li {
     a {
     	color: $beige;
@@ -76,7 +86,7 @@
           background: darken($orange, 5%);
       }
     }
-		
+
     &#site-search {
 			margin-right: -1px;
     	position: relative;

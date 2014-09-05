@@ -46,12 +46,10 @@ header {
     @include breakpoint($bp-medium) {
       float: right;
       margin-left: 1em;
-      width: 675px;
+      width: auto;
     }
     @include breakpoint($bp-large) {
       float: left;
-      margin-left: 3em;
-      width: 675px;
     }
   }
 }
