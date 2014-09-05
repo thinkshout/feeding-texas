@@ -14,8 +14,8 @@ title: Home
           <select id='options' data-placeholder="Zip code" class="chosen-select">
             <!-- Include blank option for placeholder value -->
             <option></option>
-            {% for zipcode in site.data.zips %}
-              <option value="{{ site.baseurl }}/zip/{{ zipcode }}">{{ zipcode }}</option>
+            {% for county in site.counties %}
+              <option value="{{ site.baseurl }}{{ county.url }}">{{ county.zip }}</option>
             {% endfor %}
           </select>
       </div>
