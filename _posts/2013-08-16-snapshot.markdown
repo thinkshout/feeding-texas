@@ -3,7 +3,7 @@ layout: product
 type: report
 title: "SNAPshot: Who Benefits from Food Stamps in Texas"
 summary: |
-  Who benefits from food stamps in Texas? When it comes down to it, we all do. The Supplemental Nutrition Assistance Program (SNAP, aka food stamps) is our nation’s front- line defense against hunger.
+  Who benefits from food stamps in Texas? When it comes down to it, we all do. The Supplemental Nutrition Assistance Program (SNAP, aka food stamps) is Texas' front- line defense against hunger.
 media:
   image:
   map:
@@ -11,8 +11,6 @@ media:
 downloads: 
   - title: PDF
     file: SNAPshot.pdf
-  - title:
-    file: 
 date: 2013-08-16 11:50:37
 tags: 
   - Food Insecurity
