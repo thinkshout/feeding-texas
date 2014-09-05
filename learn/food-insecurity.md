@@ -35,13 +35,13 @@ According to the [latest USDA report](http://www.ers.usda.gov/media/1565415/err1
 
 * Food insecurity is not “the government’s definition of hunger.” It is a broader term that captures outright hunger and the coping mechanisms that households use to avoid hunger.
 
-* Food insecurity is a household situation, not an individual situation. While food insecurity affects everyone in a household, it may affect them differently. Therefore it is not correct to state that specific individuals in a food insecure household (such as children) definitely experience outright hunger or specific coping mechanisms.
+* Food insecurity is a household situation, not an individual situation. While food insecurity affects everyone in a household, it may affect them differently. Specific individuals in a food insecure household (such as children) may be shielded from the brunt of its effects by caregivers. 
 
-* Food insecurity is a year-long measure. Therefore, it is not correct to assert that every food insecure household is experiencing food insecurity “right now,” will experience hunger “tonight” or “does not know where their next meal is coming from.” Research shows that food insecurity tends to be episodic and often cyclical.
+* Food insecurity is a year-long measure. As such, it is impossible to say that a food insecure household is experiencing hunger “right now,” “tonight” or “does not know where their next meal is coming from.” Research shows that food insecurity tends to be episodic and often cyclical.
 
-* Food insecurity does not mean that a household lacks access to grocery stores, lives in a “food desert,” or does not have time to shop/cook. It only refers to lack of food access based on financial and other resources.   
+* Food insecurity does not mean that a household lacks access to grocery stores, lives in a “food desert,” or does not have time to shop/cook. It only refers to lack of food access based on financial and other resources.
 
-## Go Deeper
+## Go deeper
 
 We recommend the following resources to learn more about food insecurity:
 
