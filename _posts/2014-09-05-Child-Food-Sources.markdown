@@ -10,7 +10,7 @@ media:
   timeline:
 downloads: 
   - title: PDF
-    file: Child_Food_Sources.pdf
+    file: /assets/docs/Child_Food_Sources.pdf
 date: 2014-09-05
 tags: 
   - Children
