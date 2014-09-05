@@ -21,7 +21,7 @@ location_dir: 'locations'
 # contact_redirect: 'thanks'
 tag_dir: 'blog/category'
 # directory for csv data used to construct zip detail pages
-csv_dir: 'assets/csv_data'
+# csv_dir: '_data'
 
 # Blog pagination.
 # paginate: 10
@@ -32,9 +32,6 @@ relative_permalinks: false
 
 # Collection definitions
 collections:
-  counties:
-    output: true
-    permalink: /zip/:path/
   staff:
     output: true
     permalink: /staff/:path/
