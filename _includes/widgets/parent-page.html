@@ -2,23 +2,23 @@
 <!-- if we're on a top level page -->
 {% if url_parts | size == 2 %}
   {%assign parent_len = url_parts | size | minus: 1 %}
-  {% for i in url_parts limit: parent_len %} 
-    {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %} 
-  {% endfor %} 
-  {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %} 
+  {% for i in url_parts limit: parent_len %}
+    {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %}
+  {% endfor %}
+  {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %}
 <!-- if we're on any page below the first level in the directory hierarchy -->
 {% else %}
   {%assign parent_len = url_parts | size | minus: 2 %}
-  {% for i in url_parts limit: parent_len %} 
-    {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %} 
-  {% endfor %} 
-  {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %} 
+  {% for i in url_parts limit: parent_len %}
+    {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %}
+  {% endfor %}
+  {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %}
 {% endif %}
 
 {% for node in site.pages %}
   {% if node.url == parent_url and page.url == node.url %}
-    <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+    <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }} &gt;&gt;</a></li>
   {% elsif node.url == parent_url %}
-    <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+    <li><a href="{{ node.url }}">{{ node.title }} &gt;&gt;</a></li>
   {% endif %}
 {% endfor %}
