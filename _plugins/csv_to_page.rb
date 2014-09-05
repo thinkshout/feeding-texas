@@ -3,7 +3,7 @@ module Jekyll
 
   class ZipCodePage < Page
     def initialize(site, base, zip, data)
-      dir = site.config['zip_dir'] || 'zip_codes'
+      dir = site.config['zip_dir'] || 'zip'
       @site = site
       @base = base
       @dir = "#{dir}/#{data['zip']}/"
@@ -137,6 +137,11 @@ module Jekyll
             end
         end
       end
+
+      #
+      zips = Hash.new
+      zips['zips'] = csv_data.keys
+      site.data.merge!(zips)
 
       # generate a page for each zip code
       csv_data.each do |zip, data|
