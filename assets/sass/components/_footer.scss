@@ -1,3 +1,35 @@
 footer {
   background: $drkBrown;
+  border-top: 3px solid $orange;
+
+  .brand {
+    @include breakpoint($bp-xxsmall) {
+      @include span-columns(2,12);
+      margin-right: space(4,12);
+      padding-top: 2em;
+    }
+  }
+
+  nav.primary, nav.secondary {
+    li {
+      line-height: 1.5em;
+      a:hover {
+        color: $white;
+      }
+    }
+
+    @include breakpoint($bp-xxsmall) {
+      @include span-columns(3,12);
+      text-align: right;
+    }
+  }
+
+  nav.secondary {
+    li a {
+      @include secondary-btn;
+      color: $white;
+      display: inline-block;
+      width: 129px;
+    }
+  }
 }

@@ -1,9 +1,12 @@
 .splash {
   position: relative;
   margin: 0 auto;
-  min-height: 700px;
-  width: 100%;
+  min-height: 375px;
   height: 100%;
+  padding-bottom: 5em;
+  @include breakpoint($bp-medium) {
+    min-height: 475px;
+  }
 
   .bg-img {
     position: absolute;
@@ -24,28 +27,31 @@
       min-height: 100%;
     }
   }
-    
+
   .leadin {
-    z-index: 1000;
     margin: 0 auto;
     padding: 0 1.25em;
     width: 100%;
-    max-width: 40%;
+    max-width: 70%;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+    z-index: 90;
 
     h1 {
       padding: 0 0 0.2em;
       color: $white;
       font-weight: 800;
-      font-size: 3.25em;
+      font-size: 1.5em;
       margin: 0 auto;
-      line-height: 1;
-      @include text-shadow(0 1px 3px $black);
+      line-height: 1.2em;
+      @include text-shadow(0 3px 10px $black);
+      @include breakpoint($bp-medium) {
+        font-size: 3em;
+      }
     }
 
     p {
@@ -60,6 +66,28 @@
         font-size: 1.75em;
         color: #FFF;
       }
+    }
+  }
+
+  .chosen-container-single {
+    @include box-shadow(0 3px 10px $black);
+    .chosen-single {
+      background: $white;
+      border: none;
+      border-radius: 0;
+      padding: 0.3em 0;
+
+      // Select box triangle
+      div {
+        margin-top: 4px;
+      }
+    }
+    .chosen-drop {
+      border: none;
+      border-radius: 0;
+    }
+    .chosen-results li.highlighted {
+      background: $orange;
     }
   }
 }

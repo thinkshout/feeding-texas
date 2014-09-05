@@ -15,12 +15,23 @@ $(document).ready(function(){
     // maxItems: 2
   });
 
+	/*****
+   * Mobile Nav Toggle
+  ******/
+	var menuToggle = $('#menu-toggle');
+	var primaryNav = $('.primary-nav');
+	menuToggle.click(function(){
+		primaryNav.slideToggle().toggleClass('mobile-nav');
+
+	});
+
   /*****
    * Toggle Search
   ******/
   var searchToggle = $('#search-toggle');
   searchToggle.click(function() {
     $('#utility').toggleClass('active');
+		$('form#search input[type="text"]').focus();
   });
 
  /******

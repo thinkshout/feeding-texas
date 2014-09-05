@@ -8,3 +8,5 @@ feeding-texas-notes.txt
 alex_notes.txt
 Gemfile.lock
 .gitignore
+.ruby-version
+.ruby-gemset

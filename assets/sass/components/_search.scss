@@ -5,7 +5,27 @@
   overflow: hidden;
   @include default-transition;
 
+  form {
+    input[type=text] {
+      display: inline;
+      margin-right: -70px;
+      outline: none;
+      padding: 0.5em 1em;
+    }
+
+    button {
+      background: none;
+      border: none;
+      color: $orange;
+      display: inline-block;
+      font-size: 1.2em;
+      height: 1.7em;
+      margin-top: 0.1em;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
   &.active {
-  	height: 100px;
+  	height: 43px;
   }
 }
