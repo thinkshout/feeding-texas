@@ -138,7 +138,7 @@ module Jekyll
         end
       end
 
-      #
+      # add array of zip codes to site data for use in home page widget option list
       zips = Hash.new
       zips['zips'] = csv_data.keys
       site.data.merge!(zips)
