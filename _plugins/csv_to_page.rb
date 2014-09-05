@@ -79,10 +79,7 @@ module Jekyll
         data['keys'] = file_data.headers
         data['content'] = file_data.to_a[1..-1]
 
-        # @todo - add switch case statement to account for each csv file
-        # zip
-        # county only
-        # polygon data
+        # account for each csv file containing data to build zip detail pages
         case entry
           when 'zip-data.csv'
             data['content'].each do |row|
