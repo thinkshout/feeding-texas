@@ -21,7 +21,7 @@ calls_to_action:
   - 2
 group: learn
 ---
-## Familiar, but Hard to Measure   
+## Familiar, but hard to measure   
 
 Hunger is a familiar physical sensation, but it can be hard to measure in a large population. Food insecurity offers a widely-accepted framework for measuring food deprivation in the United States.   
 
@@ -29,7 +29,7 @@ The USDA defines food insecurity as meaning that “consistent access to adequat
 
 ## How many Texans are food insecure?
 
-According to the [latest USDA report](http://www.ers.usda.gov/media/1565415/err173.pdf), 18% of Texas households experienced food insecurity in the years 2011-2013. Texas was one of just eight states confirmed to have more food insecurity than the nation as a whole during this period. In raw numbers, 1.7 million Texas households were food insecure, more than any other state except California. Using related data, the national group Feeding America has estimated the number of individuals and children who live in these households [in every Texas county](http://feedingamerica.org/hunger-in-america/hunger-studies/map-the-meal-gap.aspx).
+According to the [latest USDA report](http://www.ers.usda.gov/media/1565415/err173.pdf), 18% of Texas households experienced food insecurity in the years 2011-2013. Texas was one of just eight states confirmed to have more food insecurity than the nation as a whole during this period. In raw numbers, 1.7 million Texas households were food insecure, more than any other state except California.
 
 ## What does “food insecurity” not mean?
 
