@@ -54,15 +54,6 @@ module Jekyll
         'longitude' => data['longitude'],
         'polygonCoords' => data['polygonCoords']
       }
-      # Unused data
-      #'' => data['Total SNAP Households']
-      #'' => data['Average Monthly SNAP Benefit per Household']
-      #'' => data['Total Benefits Distributed']
-      #'' => data['Total Participation Rate']
-      #'' => data['Participation Rate 0-17']
-      #'' => data['Participation Rate 18-64']
-      #'' => data['Participation Rate 65+']
-      #'' => data['Household income status with only earned']
     end
   end
 
