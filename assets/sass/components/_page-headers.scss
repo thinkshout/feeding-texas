@@ -4,7 +4,7 @@
     position: relative;
     margin: 0 auto;
     height: 100%;
-    min-height: 625px;
+    min-height: 325px;
 
     .bg-img {
       position: absolute;
@@ -27,13 +27,12 @@
     }
 
     .page-header {
-      position: absolute;
+      position: relative;
       top: 3em;
-      left: 50%;
-      margin-left: -18em;
-      padding: 3.5em 1em 0;
+      padding: 3.5em 0;
       width: 100%;
       max-width: 36em;
+      margin: 0 auto;
       height: 24em;
       display: block;
       text-align: center;
