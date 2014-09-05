@@ -40,7 +40,16 @@
 	@include breakpoint($bp-xxlarge) {
 		font-size: 0.875em;
 	}
-
+	&.mobile-nav {
+		clear: left;
+		ul li {
+			display: list-item;
+			float: none;
+			a {
+				background: $orange;
+			}
+		}
+	}
   ul li {
     a {
     	color: $beige;
