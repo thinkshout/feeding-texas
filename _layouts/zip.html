@@ -44,7 +44,7 @@ $(function() {
       },
       plotOptions: {
           pie: {
-              size: 250,
+              size: 150,
               center: ['50%', '50%'],
               dataLabels: {
                   enabled: true,
@@ -61,7 +61,7 @@ $(function() {
   Highcharts.setOptions(Highcharts.theme);
   // Pull all necessary frontmatter vars into json data object.
   var data = {{ page.data | jsonify }};
-  
+
   var chart_data = [data.incomeEligible0To17, data.incomeEligible18To64, data.incomeEligible65Plus, data.incomeEligibleButNotReceiving65Plus]
   for (i = 0, len = chart_data.length; i < len; i++) {
     if ((!chart_data[i]) || chart_data[i] == '#N/A') {
