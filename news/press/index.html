@@ -24,10 +24,12 @@ calls_to_action:
         {% for post in site.posts %}
           {% if post.layout == "press" %}
           <article class="teaser press">
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a> <span class="attribution">{{ post.attribution }}</span></h2>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
-            <div class="tweet">{{ post.tweet }}<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.url }}" data-via="{{ site.twitter_handle }}" data-lang="en" data-text="{{ post.tweet }}">Tweet</a></div>
+            <h2>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <h4 class="attribution">-- {{ post.attribution }}, Published {{ post.date | date: "%B %-d, %Y"}}</h4>
+            <p>{{ post.pullquote }}</p>
+            <div class="tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.url }}" data-via="{{ site.twitter_handle }}" data-lang="en" data-text="{{ post.tweet }}">Tweet</a></div>
           </article>
           {% endif %}
         {% endfor %}
@@ -54,7 +56,6 @@ calls_to_action:
       {% if page.calls_to_action contains cta.id %}
         <div class="cta">
           <div class="bg-img" style="background: url({{ site.baseurl }}/assets/images/cta/{{ cta.image }}) center center no-repeat">
-            <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
           </div>
           <div class="text">
             <h3>{{ cta.content }}</h3>

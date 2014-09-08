@@ -1,6 +1,10 @@
 .landing {
   .highlighted {
     position: relative;
+
+    .wrap .bg-img {
+      background-size: cover;
+    }
   }
   .intro {
     font-size: 1.25em;
@@ -12,6 +16,8 @@
     @include clearfix;
 
     .hero {
+      max-height: 400px;
+      overflow: hidden;
       @include breakpoint($bp-small, $no-query: false) {
         @include span-columns(12,12);
       }
@@ -22,24 +28,24 @@
         @include span-columns(7,12);
       }
     }
-    
+
     .lead {
       @include breakpoint($bp-small, $no-query: false) {
         @include span-columns(12,12);
       }
       @include breakpoint($bp-medium, $no-query: false) {
         @include span-columns(5,12);
-        @include pre(0); 
+        @include pre(0);
         @include omega;
-        margin-top: 3em;
+        margin-top: 0;
         font-size: 1.25em;
         line-height: 1.85em;
       }
       @include breakpoint($bp-large, $no-query: false) {
         @include span-columns(5,12);
-        @include pre(0); 
+        @include pre(0);
         @include omega;
-        margin-top: 3em;
+        margin-top: 0;
         font-size: 1.25em;
         line-height: 1.85em;
       }
