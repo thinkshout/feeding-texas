@@ -38,9 +38,15 @@
       text-align: center;
       color: #FFF;
 
-      h1.page-title {
+      h1.page-title, h3 {
         color: $white;
+        @include text-shadow(0 3px 10px $black);
       }
+
+      h3 {
+        @include text-shadow(0 2px 5px $black);
+      }
+
     }
   }
 }

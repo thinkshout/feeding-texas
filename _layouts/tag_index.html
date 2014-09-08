@@ -1,12 +1,16 @@
 ---
 layout: default
+title: Blog Categories
 ---
 <link rel="alternate" type="application/rss+xml" title="RSS - {{ page.tag }}" href="{{ site.baseurl }}/tag/{{ page.tag }}/rss.xml" />
-
-<div class="content blog">
-  <div class="blog-header">
-	  <h1 class="post-title">Posts tagged "{{ page.tag }}"</h1>
+<div class="highlighted blog">
+  <div class="wrap">
+    <div class="page-header">
+      <h1 class="page-title">{{ page.title }}</h1>
+    </div>
   </div>
+</div>
+<div class="content blog">
   <section class="main">
     {% for post in site.tags[page.tag] reverse %}
       <article>

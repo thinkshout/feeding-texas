@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="80px" viewBox="0 0 60 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Landscape" sketch:type="MSArtboardGroup" transform="translate(-80.000000, -270.000000)" fill="#E98300">
+            <path d="M80,270 L80,350 L140,350 L140,270 L80,270 Z M91.6398614,309.056261 L90.9090909,309.056261 L90.9090909,270.842105 L101.818182,270.842105 L101.818182,309.056261 L91.6398614,309.056261 L101.087411,309.056261 L96.3636364,304.961887 L91.6398614,309.056261 Z" id="Rectangle-25" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
