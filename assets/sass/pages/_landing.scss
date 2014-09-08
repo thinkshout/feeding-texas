@@ -1,6 +1,10 @@
 .landing {
   .highlighted {
     position: relative;
+
+    .wrap .bg-img {
+      background-size: cover;
+    }
   }
   .intro {
     font-size: 1.25em;
