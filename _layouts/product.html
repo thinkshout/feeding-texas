@@ -6,11 +6,9 @@ layout: default
   	<div class="wrap">
 	    {% if page.media.image %}
         <img src="{{ site.baseurl }}/assets/images/products/{{ page.media.image }}">
-      {% endif %}
-      {% if page.media.map %}
+      {% elsif page.media.map %}
         <iframe width='100%' height='500px' frameBorder='0' src='{{ page.media.map }}'></iframe>
-      {% endif %}
-      {% if page.media.timeline %}
+      {% elsif page.media.timeline %}
         <iframe src='{{ page.media.timeline }}' width='100%' height='650' frameborder='0'></iframe>
       {% endif %}
     </div>
@@ -20,8 +18,10 @@ layout: default
 	<div class="wrap">
 	  <section class="content">
       <h2>{{ page.title }}</h2>
-      <a href="{{ site.baseurl }}/assets/docs/{{ page.download }}">Download</a>
+      {% if page.download %}
+      <a href="{{ site.baseurl }}/assets/docs/{{ page.download.file }}">{{ page.download.title }}</a>
       {{ content }}
+      {% endif %}
     </section>
   </div>
 </div>
