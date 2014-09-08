@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SNAPshot Texas
-type: snapshot_texas
+type: zip-widget
 images:
   hero: "http://placehold.it/1400x500&text=HERO"
   thumb: "http://placehold.it/450x300&text=THUMB"
