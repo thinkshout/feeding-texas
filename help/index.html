@@ -18,7 +18,7 @@ layout: default
     	<h3>Find your local food bank or who to contact for SNAP application assistance</h3>
       <select data-placeholder="Search by County Name" class="chosen-select">
         <!-- Include blank option for placeholder value -->
-        <option></option>      
+        <option></option>
         <!-- Cycle through counties and create select list -->
         {% for county in site.data.counties %}
           <option value="{{ site.baseurl }}/locations/{{ county.foodbank }}">{{ county.title }}</option>
@@ -29,7 +29,7 @@ layout: default
   <div class="donate">
     <div class="cta">
       <h3>Help us work with our partners to end hunger in Texas</h3>
-      <a class="button primary" href="#">Donate Now</a>
+      <a class="button primary-btn" href="https://donatenow.networkforgood.org/feeding-texas">Donate Now</a>
     </div>
   </div>
 </div>

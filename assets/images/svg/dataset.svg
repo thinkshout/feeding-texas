@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Dataset Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Landscape" sketch:type="MSArtboardGroup" transform="translate(-80.000000, -80.000000)" fill="#E98300">
+            <g id="Dataset" sketch:type="MSLayerGroup" transform="translate(75.000000, 80.000000)">
+                <g id="Dataset-Icon" transform="translate(5.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M0,0 L0,16.8 L60,16.8 L60,0 L0,0 Z M50.7,12 C52.1911688,12 53.4,10.7911688 53.4,9.3 C53.4,7.80883118 52.1911688,6.6 50.7,6.6 C49.2088312,6.6 48,7.80883118 48,9.3 C48,10.7911688 49.2088312,12 50.7,12 Z M36,7.8 L36,10.8 L45,10.8 L45,7.8 L36,7.8 Z M0,21.6 L0,38.4 L60,38.4 L60,21.6 L0,21.6 Z M50.7,33 C52.1911688,33 53.4,31.7911688 53.4,30.3 C53.4,28.8088312 52.1911688,27.6 50.7,27.6 C49.2088312,27.6 48,28.8088312 48,30.3 C48,31.7911688 49.2088312,33 50.7,33 Z M36,28.8 L36,31.8 L45,31.8 L45,28.8 L36,28.8 Z M0,43.2 L0,60 L60,60 L60,43.2 L0,43.2 Z M50.7,55.8 C52.1911688,55.8 53.4,54.5911688 53.4,53.1 C53.4,51.6088312 52.1911688,50.4 50.7,50.4 C49.2088312,50.4 48,51.6088312 48,53.1 C48,54.5911688 49.2088312,55.8 50.7,55.8 Z M36,51.6 L36,54.6 L45,54.6 L45,51.6 L36,51.6 Z" id="Rectangle-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

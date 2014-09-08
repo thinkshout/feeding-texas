@@ -15,12 +15,12 @@
 
 article.teaser.press {
   .pullquote {
-  	//font-size: 2.5em;
 		font-size: 1.5em;
   	font-family: $base-font-family;
   	font-style: oblique;
   	padding-left: 125px;
   	background: transparent url('../images/quote.png') top left no-repeat;
+		min-height: 124px;
   	a {
   		text-decoration: none;
   		color: $orange;
@@ -39,4 +39,7 @@ article.teaser.press {
     	}
     }
   }
+}
+.pullquote {
+	min-height: 124px;
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="80px" viewBox="0 0 60 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Partner Report Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Landscape" sketch:type="MSArtboardGroup" transform="translate(-280.000000, -270.000000)">
+            <g id="Partner-Report" sketch:type="MSLayerGroup" transform="translate(244.000000, 270.000000)">
+                <g id="Partner-Report-Icon" transform="translate(36.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-7" stroke="#E98300" stroke-width="2" x="0" y="0" width="60" height="80"></rect>
+                    <rect id="Rectangle-10" fill="#E98300" x="8" y="23" width="46" height="5"></rect>
+                    <rect id="Rectangle-12" fill="#000000" x="39" y="31" width="15" height="5"></rect>
+                    <rect id="Rectangle-13" fill="#E98300" x="39" y="38" width="15" height="5"></rect>
+                    <rect id="Rectangle-14" fill="#E98300" x="39" y="31" width="15" height="5"></rect>
+                    <rect id="Rectangle-15" fill="#E98300" x="39" y="46" width="15" height="5"></rect>
+                    <rect id="Rectangle-11" fill="#E98300" x="8" y="31" width="24" height="20"></rect>
+                    <path d="M16.93,42.97 L16.93,48.33 L15,48.33 L15,34 L19.23,34 C20.1366712,34 20.9249967,34.104999 21.595,34.315 C22.2650034,34.5250011 22.8199978,34.8233314 23.26,35.21 C23.7000022,35.5966686 24.0283322,36.0633306 24.245,36.61 C24.4616678,37.1566694 24.57,37.7666633 24.57,38.44 C24.57,39.10667 24.4533345,39.7166639 24.22,40.27 C23.9866655,40.8233361 23.6450023,41.299998 23.195,41.7 C22.7449977,42.100002 22.18667,42.4116656 21.52,42.635 C20.85333,42.8583345 20.0900043,42.97 19.23,42.97 L16.93,42.97 L16.93,42.97 Z M16.93,41.43 L19.23,41.43 C19.7833361,41.43 20.2716646,41.3566674 20.695,41.21 C21.1183355,41.0633326 21.4733319,40.8583346 21.76,40.595 C22.0466681,40.3316653 22.2633326,40.0166685 22.41,39.65 C22.5566674,39.2833315 22.63,38.8800022 22.63,38.44 C22.63,37.5266621 22.3483362,36.8133359 21.785,36.3 C21.2216639,35.7866641 20.3700057,35.53 19.23,35.53 L16.93,35.53 L16.93,41.43 L16.93,41.43 Z" id="P" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

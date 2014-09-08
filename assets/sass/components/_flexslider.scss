@@ -1,13 +1,15 @@
 .flexslider {
 	background: transparent;
 	border: 0;
+	overflow: hidden;
+
   @include box-shadow(rgba(0,0,0,0) 0 0 0);
 
   .flex-viewport {
     background: transparent;
     overflow: visible !important;
     @include box-shadow(rgba(0,0,0,0) 0 0 0);
-  } 
+  }
 
   ul.slides {
 
@@ -22,10 +24,22 @@
       .flex-caption {
   	  	display: block;
   	  	width: 50%;
-  	  	margin-left: -100%;
-  	    float: left;
   	    padding: 0 1em;
   	  }
   	}
   }
+}
+
+.latest-work {
+	.flexslider.carousel {
+		.product-icon {
+			float: right;
+			text-align: center;
+			width: 50%;
+			img {
+				margin-top: 2em;
+				width: 25%;
+			}
+		}
+	}
 }
