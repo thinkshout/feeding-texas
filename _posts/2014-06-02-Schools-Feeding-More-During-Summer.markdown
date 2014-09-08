@@ -9,7 +9,7 @@ categories:
   - Child Hunger
   - Schools
   - Summer Meals
-featured: true
+featured: false
 ---
 
 ## Texas still missing out on over $49 million due to low participation

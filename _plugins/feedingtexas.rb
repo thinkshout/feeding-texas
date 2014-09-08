@@ -39,6 +39,3 @@ module Jekyll
     end
   end
 end
-
-# Register custom tags and filters.
-Liquid::Template.register_filter(Jekyll::DividedBy)

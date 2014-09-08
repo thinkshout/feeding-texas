@@ -9,5 +9,5 @@ branches:
   - live
 env:
   global:
-  - secure: YSF234PH1jRf5L78nxtvJBzu1cbVT86ncabxsdg3ZJb62R3+9XVq2DZ8+hAt0YYutfj3L6ODTumYsCinP0BhTo9bA1b3SX56QyiIJ7DDzPctZZu2wzL5a8F0h3ZW3PW5UurJDfYogxgVHyeWWR/seM7OwwwzS25hJso2UabKs1I=
-  - secure: QQokz8Zd1ycLOp2+kqJSTKjOmcIPKcxYElatWmgVgv9hQDlRZgx6iMqvSiOwP8Rypx4Bn08QrmDBvw1NEbfVfNLVzjMqJh34wS0HKs0ExVvA0NvvE6f8yeFPbXSN52o6momyF1F3sOoA/AaNQWg3xitcaSfwkcpg+6y3GVEuhsA=
+  - secure: ghL1Wiy4gkI7/fvW3/0kgaqICZE84d4da+0bdptifLeBiZxxruFrWWGiepELSb33/+BzAMoRM1YVQHivbEbPSgoX+pFIQU/k5iM20Yn0NVALemm8U/VgBDdGKup/hS+Y2APchrRfmHReE/cWsOR/27eTsj2he1DzF5v4P+ZgTQY=
+  - secure: aq4vPmdC6saJF/ykXIyAaGQH1xpd4iNLzEngP4EYj4ZOgMHvPiayjR3XJCvkBsNt8x2NaRUvKZjKLZ2xMNfblVJb2WahLxWBmUFKEKXSRGgFeOJwpdwKCDerfjzahmIBjZzn8te5gU9pBhrldpapzw+bkC1BP6wjLYdOmrB0aMQ=

@@ -16,15 +16,13 @@ layout: default
         <li>Locate a food bank application specialist to help you apply.</li>
       </ul>
     	<h3>Find your local food bank or who to contact for SNAP application assistance</h3>
-      <select data-placeholder="Search by County Name" class="chosen-select">
+      <select id='options' data-placeholder="Zip code" class="chosen-select">
         <!-- Include blank option for placeholder value -->
         <option></option>
-        <!-- Cycle through counties and create select list -->
-        {% for county in site.data.counties %}
-          <option value="{{ site.baseurl }}/locations/{{ county.foodbank }}">{{ county.title }}</option>
+        {% for zipcode in site.data.zips %}
+          <option value="{{ site.baseurl }}/zip/{{ zipcode }}">{{ zipcode }}</option>
         {% endfor %}
       </select>
-    </section>
   </div>
   <div class="donate">
     <div class="cta">

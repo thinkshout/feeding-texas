@@ -1,5 +1,6 @@
 ---
 layout: default
+title: County Data
 ---
 <!-- County detail scpecific JavaScripts -->
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
@@ -44,7 +45,7 @@ $(function() {
       },
       plotOptions: {
           pie: {
-              size: 250,
+              size: 150,
               center: ['50%', '50%'],
               dataLabels: {
                   enabled: true,
@@ -226,7 +227,7 @@ $(function() {
       <div id="map"></div>
       </div>
       <div class="page-header">
-        <h1 class="page-title">{{ page.data.county | capitalize}} County <span class="postal">{{ page.data.zip }}</span></h1>
+        <h1 class="page-title">{{ page.data.county | capitalize}} County,  <span class="postal">{{ page.data.zip }}</span></h1>
         <h3>{{ page.subhead }}</h3>
         <a class="button primary-cta" href="#help">Get Help</a>
       </div>
