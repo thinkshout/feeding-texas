@@ -108,6 +108,15 @@
     //   max-width: 250px;
     // }
   }
+  .orange-button {
+    background: $orange;
+    color: $white;
+    padding: 1em;
+
+    &:hover {
+        background: darken($orange, 5%);
+    }
+  }
 }
 
 .county-detail {
