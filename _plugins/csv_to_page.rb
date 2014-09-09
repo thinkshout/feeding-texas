@@ -49,10 +49,10 @@ module Jekyll
         'weightedCostPerMeal' => data['weightedCostPerMeal'],
         'foodInsecureChildren' => data['foodInsecureChildren'],
         'costOfFoodIndex' => data['costOfFoodIndex'],
-        'foodBank-name' => data['foodBank'],
-        'foodBank-address' => data['address'],
-        'foodBank-phone' => data['phone'],
-        'foodBank-website' => data['website'],
+        'foodBank-name' => data['foodBank']['foodBank-name'],
+        'foodBank-address' => data['foodBank']['foodBank-address'],
+        'foodBank-phone' => data['foodBank']['foodBank-phone'],
+        'foodBank-website' => data['foodBank']['foodBank-website'],
         'latitude' => data['latitude'],
         'longitude' => data['longitude'],
         'polygonCoords' => data['polygonCoords']
@@ -68,12 +68,14 @@ module Jekyll
       dir = site.config['csv_dir'] || '_data'
       base = File.join(site.source, dir)
       # get all csv files in data directory
-      entries = Dir.chdir(base) { Dir['constituent-stories.csv', 'zip-data.csv', 'county-data.csv'] }
+      entries = Dir.chdir(base) { Dir['constituent-stories.csv', 'food-banks.csv', 'zip-data.csv', 'county-data.csv'] }
 
       # init hash to allow for one to many county => zip mappings
       county_2_zip = Hash.new
       # init hash to allow for constituent story => zip mappings
       constituentStory_2_zip = Hash.new
+      # init hash to allow for food bank => zip mappings
+      foodBank_2_zip = Hash.new
       # loop through csv files and add contents of each to hash
       csv_data = Hash.new
       entries.each do |entry|
@@ -93,6 +95,16 @@ module Jekyll
                 'constituentName' => row[1].strip,
                 'constituentImage' => row[2].strip,
                 'storyText' => row[3].strip
+              }
+            end
+          when 'food-banks.csv'
+            data['content'].each do |row|
+              # create hash of constituent story ID's to data
+              foodBank_2_zip[row[0].strip] = {
+                'foodBank-name' => row[1].strip,
+                'foodBank-address' => row[2].strip,
+                'foodBank-phone' => row[3].strip,
+                'foodBank-website' => row[4].strip
               }
             end
           when 'zip-data.csv'
@@ -115,6 +127,9 @@ module Jekyll
                   elsif data['keys'][i].strip == 'constituentStory'
                     # look up constituent story info by ID
                     csv_data[zip]['constituentStory'] = constituentStory_2_zip[item]
+                  elsif data['keys'][i].strip == 'foodBank'
+                    # look up food bank info by ID
+                    csv_data[zip]['foodBank'] = foodBank_2_zip[item]
                   else
                     csv_data[zip][data['keys'][i].strip] = item.strip
                   end
