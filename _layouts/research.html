@@ -13,10 +13,8 @@ layout: default
     </div>
   </div>
   <div class="subnav">
-    <ul class="parent-page">
-      {% include widgets/parent-page.html %}
-    </ul>
     <ul>
+      {% include widgets/parent-page.html %}
       {% include widgets/subnav.html %}
     </ul>
   </div>
@@ -43,9 +41,9 @@ layout: default
       </section>
     </div>
   </div>
-  
+
   <div class="content-bottom">
-    <div class="wrap"> 
+    <div class="wrap">
       {% include widgets/search/research-products.html %}
     </div>
   </div>
@@ -60,11 +58,11 @@ layout: default
             </div>
             <div class="text">
               <h3>{{ cta.content }}</h3>
-              <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
+              <a class="button primary-btn" href="{{ cta.link }}">{{ cta.button_text }}</a>
             </div>
           </div>
         {% endif %}
       {% endfor %}
     </div>
   {% endif %}
-</div>  
+</div>
