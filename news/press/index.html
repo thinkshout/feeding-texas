@@ -27,7 +27,7 @@ calls_to_action:
             <h2>
               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </h2>
-            <h4 class="attribution">-- {{ post.attribution }}, Published {{ post.date | date: "%B %-d, %Y"}}</h4>
+            <h4 class="attribution">{% if post.attribution %}{{ post.attribution }},{% endif %} Published {{ post.date | date: "%B %-d, %Y"}}</h4>
             <p>{{ post.pullquote }}</p>
             <div class="tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.url }}" data-via="{{ site.twitter_handle }}" data-lang="en" data-text="{{ post.tweet }}">Tweet</a></div>
           </article>
@@ -35,8 +35,8 @@ calls_to_action:
         {% endfor %}
       </section>
       <aside class="sidebar-second">
-        <h4>Categories</h4>
-        <ul>
+        <h3>Categories</h3>
+        <ul class="category-tags">
         <!-- Alphabetical list of site tags -->
         {%capture site_tags %}{% for tag in site.tags %}{{ tag | first }},{%endfor%}{%endcapture%}
         {% assign site_tags = site_tags | split:',' | sort %}
