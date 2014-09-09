@@ -1,7 +1,7 @@
 ---
 id: 1
 button_text: Learn About Hunger In Texas
-url: work
+link: /work
 image: children.jpg
 ---
 

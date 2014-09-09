@@ -25,10 +25,8 @@ layout: default
     </div>
   </div>
   <div class="subnav">
-    <ul class="parent-page">
-      {% include widgets/parent-page.html %}
-    </ul>
     <ul>
+      {% include widgets/parent-page.html %}
       {% include widgets/subnav.html %}
     </ul>
   </div>
@@ -54,7 +52,7 @@ layout: default
                 {% if !subpage.link.title %}
                   <a class="button secondary-btn"> href="{{ subpage.link.url }}">{{ subpage.link.title }}</a>
                 {% endif %}
-              </div>            
+              </div>
             </section>
             {% endif %}
           {% endfor %}
@@ -73,7 +71,7 @@ layout: default
                 {% if !subpage.link.title %}
                   <a class="button secondary-btn"> href="{{ subpage.link.url }}">{{ subpage.link.title }}</a>
                 {% endif %}
-              </div>            
+              </div>
             </section>
             {% endif %}
           {% endfor %}
@@ -111,15 +109,15 @@ layout: default
       {% for cta in site.calls-to-action %}
         {% if page.calls_to_action contains cta.id %}
           <div class="cta">
-            <div class="bg-img">
+            <div class="bg-img" style="background: url({{ site.baseurl }}/assets/images/cta/{{ cta.image }}) center center no-repeat">
             </div>
             <div class="text">
               <h3>{{ cta.content }}</h3>
-              <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
+              <a class="button primary-btn" href="{{ cta.link }}">{{ cta.button_text }}</a>
             </div>
           </div>
         {% endif %}
       {% endfor %}
     </div>
     {% endif %}
-</div>  
+</div>
