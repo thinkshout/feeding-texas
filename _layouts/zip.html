@@ -343,12 +343,21 @@ $(function() {
           <div id="percentrcvethnicity"></div>
         </div>
       </section>
-      <section id="help" class="content">
-        <h2 class="section-header"><span>Get Help</span></h2>
-        <h3>{{ page.data.foodBank-name }}</h3>
-        <p>{{ page.data.foodBank-address }}</p>
-        <p>{{ page.data.foodBank-phone }}</p>
-        <p>{{ page.data.foodBank-website }}</p>
+      <h2 class="section-header"><span>Get Help</span></h2>
+      <section id="help">
+        <div class="foodbank row">
+          <h3><a href="{{ page.data.foodBank-website }}">{{ page.data.foodBank-name }}</a></h3>
+          <p>{{ page.data.foodBank-address }}<br>
+          {{ page.data.foodBank-phone }}<br>
+          <a href="{{ page.data.foodBank-website }}">{{ page.data.foodBank-website }}</a></p>
+        </div>
+        <div class="constituent-story half">
+          <h3>{{ page.data.constituentName }}'s Story</h3>
+          <p>{{ page.data.constituentStoryText }}</p>
+        </div>
+        <div class="constituent-image half">
+          <img src="{{ site.baseurl }}/assets/images/stories/{{ page.data.constituentImage }}">
+        </div>
       </section>
     </div>
   </div>
