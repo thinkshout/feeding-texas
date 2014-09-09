@@ -15,6 +15,9 @@ module Jekyll
       self.data['data'] = {
         # From zip csv (SNAP_Particpation_and_Race_Merged.csv, SNAP_Eligibility_vs_Participation_plus_SNAP_meals.csv)
         'zip' => "#{data["zip"]}",
+        'constituentImage' => data['constituentStory']['constituentImage'],
+        'constituentName' => data['constituentStory']['constituentName'],
+        'constituentStoryText' => data['constituentStory']['storyText'],
         'county' => data['county'],
         'totalSnapRecipients' => data['totalSnapRecipients'],
         'recipients0To17' => data['recipients0To17'],
@@ -65,10 +68,12 @@ module Jekyll
       dir = site.config['csv_dir'] || '_data'
       base = File.join(site.source, dir)
       # get all csv files in data directory
-      entries = Dir.chdir(base) { Dir['zip-data.csv', 'county-data.csv'] }
+      entries = Dir.chdir(base) { Dir['constituent-stories.csv', 'zip-data.csv', 'county-data.csv'] }
 
       # init hash to allow for one to many county => zip mappings
       county_2_zip = Hash.new
+      # init hash to allow for constituent story => zip mappings
+      constituentStory_2_zip = Hash.new
       # loop through csv files and add contents of each to hash
       csv_data = Hash.new
       entries.each do |entry|
@@ -81,9 +86,18 @@ module Jekyll
 
         # account for each csv file containing data to build zip detail pages
         case entry
+          when 'constituent-stories.csv'
+            data['content'].each do |row|
+              # create hash of constituent story ID's to data
+              constituentStory_2_zip[row[0].strip] = {
+                'constituentName' => row[1].strip,
+                'constituentImage' => row[2].strip,
+                'storyText' => row[3].strip
+              }
+            end
           when 'zip-data.csv'
             data['content'].each do |row|
-              county = row[2].strip.downcase
+              county = row[3].strip.downcase
               zip = row[0].strip
               # build hash of county => zip relationships
               if county_2_zip.has_key?(county)
@@ -97,7 +111,10 @@ module Jekyll
                 if item
                   if data['keys'][i].strip == 'polygonCoords'
                     # break polygonCoords string into array
-                    csv_data[zip][data['keys'][i].strip] = polygonCoords_to_array(item)
+                    csv_data[zip]['polygonCoords'] = polygonCoords_to_array(item)
+                  elsif data['keys'][i].strip == 'constituentStory'
+                    # look up constituent story info by ID
+                    csv_data[zip]['constituentStory'] = constituentStory_2_zip[item]
                   else
                     csv_data[zip][data['keys'][i].strip] = item.strip
                   end
