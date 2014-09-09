@@ -16,7 +16,7 @@ $(function() {
   // leaflet map generation
   //########################
   // create a map in the "map" div, set the view to state of texas and zoom
-  var map = L.map('map').setView([31.1693362, -100.0768425], 7);
+  var map = L.map('map').setView([31.1693362, -100.0768425], 6);
   L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-i87786ca/{z}/{x}/{y}.png', {attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'}).addTo(map);
 
   {% if page.data.polygonCoords %}
