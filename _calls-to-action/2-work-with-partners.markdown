@@ -1,7 +1,7 @@
 ---
 id: 2
 button_text: Donate Now
-url: donate
+link: https://donatenow.networkforgood.org/feeding-texas 
 image: network.jpg
 ---
 
