@@ -28,13 +28,13 @@
 </div>
 
 <div class="product-list">
-  {% for post in site.posts %}
-    {% if post.layout == "product" and post.featured == true %}
-      <div class="product teaser" data-type="{{ post.type }}" data-topic="{% for category in post.categories %}{{ category | replace:' ','-' }} {% endfor %}">
-        <span class="label">{{ post.type }}</span>
+  {% for product in site.products %}
+    {% if product.featured == true %}
+      <div class="product teaser" data-type="{{ product.type }}" data-topic="{% for category in product.categories %}{{ category | replace:' ','-' }} {% endfor %}">
+        <span class="label">{{ product.type }}</span>
         <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
-        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.summary }}</p>
+        <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
+        <p>{{ product.summary }}</p>
       </div>
     {% endif %}
   {% endfor %}

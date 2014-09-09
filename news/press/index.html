@@ -21,17 +21,15 @@ calls_to_action:
   <div class="main sidebar-second">
   	<div class="wrap">
       <section class="content">
-        {% for post in site.posts %}
-          {% if post.layout == "press" %}
+        {% for press in site.press %}
           <article class="teaser press">
             <h2>
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              <a href="{{ site.baseurl }}{{ press.url }}">{{ press.title }}</a>
             </h2>
-            <h4 class="attribution">-- {{ post.attribution }}, Published {{ post.date | date: "%B %-d, %Y"}}</h4>
-            <p>{{ post.pullquote }}</p>
-            <div class="tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.url }}" data-via="{{ site.twitter_handle }}" data-lang="en" data-text="{{ post.tweet }}">Tweet</a></div>
+            <h4 class="attribution">-- {{ press.attribution }}, Published {{ press.date | date: "%B %-d, %Y"}}</h4>
+            <p>{{ press.pullquote }}</p>
+            <div class="tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ press.url }}" data-via="{{ site.twitter_handle }}" data-lang="en" data-text="{{ press.tweet }}">Tweet</a></div>
           </article>
-          {% endif %}
         {% endfor %}
       </section>
       <aside class="sidebar-second">

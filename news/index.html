@@ -11,18 +11,18 @@ calls_to_action:
       <section>
       	<h2 class="section-header">Latest Press Release<span class="divider"></span></h2>
         <div class="featured-press">
-          {% for post in site.posts %}
-            {% if post.layout == "press" and post.featured == true %}
+          {% for press in site.press %}
+            {% if press.featured == true %}
             <article class="teaser press">
-              <div class="pullquote"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a></div>
-              {% if post.author %}
+              <div class="pullquote"><a href="{{ site.baseurl }}{{ press.url }}">{{ press.pullquote }}</a></div>
+              {% if press.author %}
                 {% for staff in site.staff %}
-                  {% if post.author == staff.id %}
+                  {% if press.author == staff.id %}
                     <div class="staff-member small">
                       <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
                       <div class="info">
                       	<h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3>
-                      	<p>{{ post.date | date: "%B %-d, %Y"}}</p>
+                      	<p>{{ press.date | date: "%B %-d, %Y"}}</p>
                       </div>
                     </div>
                   {% endif %}
@@ -43,11 +43,11 @@ calls_to_action:
   	  <h2 class="section-header">Featured Research<span class="divider"></span></h2>
       <div class="flexslider carousel">
         <ul class="slides">
-          {% for post in site.posts %}
-            {% if post.layout == "product" and post.featured == true %}
+          {% for product in site.products %}
+            {% if product.featured == true %}
             <li>
               <div class="product-icon">
-              {% case post.type %}
+              {% case product.type %}
               {% when "data" %}
                 <img src="{{ site.baseurl}}/assets/images/svg/dataset.svg" alt="Database server icon" />
               {% when "report" %}
@@ -67,8 +67,8 @@ calls_to_action:
               {% endcase %}
               </div>
               <div class="flex-caption">
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                <p>{{ post.summary }}</p>
+                <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
+                <p>{{ product.summary }}</p>
               </div>
             </li>
             {% endif %}
@@ -84,7 +84,6 @@ calls_to_action:
     	<h2 class="section-header">From The Blog<span class="divider"></span></h2>
       <section class="main">
         {% for post in site.posts %}
-          {% if post.layout == "blog" %}
           <article>
             <div class="hero">
               <img src="http://placehold.it/450x200">
@@ -95,7 +94,6 @@ calls_to_action:
               <a class="button primary-btn" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
             </div>
           </article>
-          {% endif %}
         {% endfor %}
         <a href="{{ site.baseurl }}/news/blog/">View All</a>
         <br /><br /><br /><br />
