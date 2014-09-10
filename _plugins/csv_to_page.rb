@@ -12,58 +12,18 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'zip.html')
 
-      self.data['data'] = {
-        # From zip csv (SNAP_Particpation_and_Race_Merged.csv, SNAP_Eligibility_vs_Participation_plus_SNAP_meals.csv)
-        'zip' => "#{data["zip"]}",
-        'county' => data['county'],
-        'totalSnapRecipients' => data['totalSnapRecipients'],
-        'recipients0To17' => data['recipients0To17'],
-        'recipients18To64' => data['recipients18To64'],
-        'recipients65Plus' => data['recipients65Plus'],
-        'totalIncomeEligibleIndividuals' => data['totalIncomeEligibleIndividuals'],
-        'incomeEligible0To17' => data['incomeEligible0To17'],
-        'incomeEligible18To64' => data['incomeEligible18To64'],
-        'incomeEligible65Plus' => data['incomeEligible65Plus'],
-        'totalIncomeEligibleButNotReceiving' => data['totalIncomeEligibleButNotReceiving'],
-        'incomeEligibleButNotReceiving0To17' => data['incomeEligibleButNotReceiving0To17'],
-        'incomeEligibleButNotReceiving18To64' => data['incomeEligibleButNotReceiving18To64'],
-        'incomeEligibleButNotReceiving65Plus' => data['incomeEligibleButNotReceiving65Plus'],
-        'recipientRaceNativeAmerican' => data['recipientRaceNativeAmerican'],
-        'recipientRaceAsian' => data['recipientRaceAsian'],
-        'recipientRaceBlack' => data['recipientRaceBlack'],
-        'recipientRacePacificIslander' => data['recipientRacePacificIslander'],
-        'recipientRaceWhite' => data['recipientRaceWhite'],
-        'recipientRaceMultiRace' => data['recipientRaceMultiRace'],
-        'recipientRaceUnknownMissing' => data['recipientRaceUnknownMissing'],
-        'recipientEthnicityHispanic' => data['recipientEthnicityHispanic'],
-        'recipientEthnicityNonHispanic' => data['recipientEthnicityNonHispanic'],
-        'recipientEthnicityUnknownMissing' => data['recipientEthnicityUnknownMissing'],
-        'householdIncomeWithEarnedIncome' => data['householdIncomeWithEarnedIncome'],
-        'averageBenefitperMeal' => data['averageBenefitperMeal'],
-        # From county csv (Food_Insecurity.csv, Food_Banks.csv)
-        'individualFoodInsecurityRate' => data['individualFoodInsecurityRate'],
-        'childFoodInsecurityRate' => data['childFoodInsecurityRate'],
-        'weightedCostPerMeal' => data['weightedCostPerMeal'],
-        'foodInsecureChildren' => data['foodInsecureChildren'],
-        'costOfFoodIndex' => data['costOfFoodIndex'],
-        'latitude' => data['latitude'],
-        'longitude' => data['longitude'],
-        'polygonCoords' => data['polygonCoords']
-      }
-      if data.include?('foodBank')
-        self.data['data']['foodBank'] = {
-          'name' => data['foodBank']['name'],
-          'address' => data['foodBank']['address'],
-          'phone' => data['foodBank']['phone'],
-          'website' => data['foodBank']['website']
-        }
-      end
-      if data.include?('constituentStory')
-        self.data['data']['constituentStory'] = {
-          'name' => data['constituentStory']['name'],
-          'image' => data['constituentStory']['image'],
-          'storyText' => data['constituentStory']['storyText']
-        }
+      self.data['data'] = Hash.new
+      data.each do |key, value|
+        # for values that are hashes
+        if key == 'foodBank' or key == 'constituentStory'
+          self.data['data'][key] = Hash.new
+          data[key].each do |subkey, value|
+            self.data['data'][key][subkey] = value
+          end
+        # for values that are strings
+        else
+          self.data['data'][key] = value
+        end
       end
     end
   end
