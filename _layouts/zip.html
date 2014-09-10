@@ -266,17 +266,6 @@ $(function() {
           </div>
         </div>
       </section>
-      {% if page.constituent-story %}
-        <section class="content">
-          {% for story in site.constituent-stories %}
-            {% if page.constituent-story == story.id %}
-              <h2 class="section-header"><span>{{ story.name }}'s Story</span></h2>
-              <p>{{ story.content }}</p>
-            {% endif %}
-          {% endfor %}
-          <a class="button primary-cta" href="#">Tell us your story</a>
-        </section>
-      {% endif %}
       <section id="eligibility">
         <h2 class="section-header"><span>Eligibility</span></h2>
         <div id="ageEligibility" class="row">

@@ -35,8 +35,6 @@ collections:
   staff:
     output: true
     permalink: /staff/:path/
-  constituent-stories:
-    output: false
   jobs:
     output: false
   calls-to-action:
@@ -98,16 +96,6 @@ prose:
         field:
           element: "text"
           label: "Image URL"
-    _constituent-stories:
-      - name: "id"
-        field:
-          element: "text"
-          label: "ID"
-          help: "Unique ID number for constituent story."
-      - name: "name"
-        field:
-          element: "text"
-          label: "Name"
     _jobs:
       - name: "title"
         field:
