@@ -18,19 +18,6 @@ module Jekyll
     end
   end
 
-  class FoodbankGenerator < Jekyll::Generator
-    safe true
-
-    def generate(site)
-
-      dir = site.config['location_dir'] || 'locations'
-      site.data['foodbanks'].each do |location|
-        site.pages << FoodbankPage.new(site, site.source, dir, location)
-      end
-
-    end
-  end
-
   # Filter for division.
   module DividedBy
     def divide(num1, num2)

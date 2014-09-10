@@ -93,26 +93,21 @@
 
 #help {
   margin-top: 1em;
-  h3 {
-    margin: 0;
+  .constituent-story {
+    img {
+      float: left;
+      max-width: 100px;
+      max-height: 100px;
+      padding: 0 1em 1em 0;
+    }
   }
-  p {
-    margin: 0 0 1em;
-  }
-  .foodbank {
-    text-align: center;
-  }
-  .constituent-image {
-    // text-align: center;
-    // img {
-    //   max-width: 250px;
-    // }
+  p.button {
+    margin: 2em 0;
   }
   .orange-button {
     background: $orange;
     color: $white;
     padding: 1em;
-
     &:hover {
         background: darken($orange, 5%);
     }
@@ -120,6 +115,9 @@
 }
 
 .county-detail {
+  .postal {
+    display: block;
+  }
   .section-header {
     margin-bottom: 0;
   }
