@@ -1,6 +1,0 @@
----
-id: 10
-name: Melinda
----
-
-Melinda has her hands full as a full-time mom to her 9-month-old, 4-year-old and 6-year-old children. To make ends meet, Melinda's husband in construction. "It's kind of slow, when it rains he doesn't work; I think he got a $60 paycheck last week," she said. Melinda moved from her hometown of Mullin six years ago, to Goldthwaite, a small city with population of 1,878. The nearest low-cost supermarket is in Brownwood, a 34-mile drive out of town. "I have to get my groceries here in town, but they're more expensive than at Walmart, but I can't afford the gas to go out of town," she said. Her family has plans in place for a better financial future. Her husband is studying full-time to become a nurse. "My husband starts his clinicals next year," says Melinda. "He's going to school full-time and he works all day in the sun. He's worn out. It wouldn't be worth me working [because] I wouldn't even make enough to pay for child care. We try to make do with what we have."
