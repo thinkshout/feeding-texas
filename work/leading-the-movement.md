@@ -3,7 +3,7 @@ layout: page
 title: Leading the Movement
 subhead: A hunger-free Texas is possible if we all work together.
 summary: |
-  We are leading the conversation to solve hunger in Texas with original research, credible policy analysis and public education that increases understanding of and empathy for hungry Texans. Feeding Texas staff are known across the state and nation for their expertise, creativity and commitment to solving hunger.
+  We are leading the conversation to solve hunger in Texas with original research, credible policy analysis and public education that increases understanding of and empathy for hungry Texans.
 featured_resource: How do low-income texans get help feeding their children?
 primary_cta:
   button_text: Learn About Hunger In Texas
