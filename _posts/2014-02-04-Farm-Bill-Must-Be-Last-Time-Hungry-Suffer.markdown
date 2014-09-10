@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Farm Bill must be last time hungry Americans are made to suffer
+title: Farm Bill must be last time hungry Americans suffer
 summary: When Congress passed a farm bill, they included a provision that will sharply reduce SNAP (aka food stamps) benefits for 850,000 households in sixteen states over the next decade. 
 images:
   hero: "http://placehold.it/1400x500&text=HERO"
