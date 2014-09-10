@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: A new name, a new direction
+title: A new name, a new look, a new direction
 summary: The launch of our new website formally marks our name change from the Texas Food Bank Network to Feeding Texas. 
 images:
   hero: "http://placehold.it/1400x500&text=HERO"
