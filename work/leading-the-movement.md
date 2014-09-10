@@ -23,7 +23,7 @@ group: work
 
 Texas is blessed with ample agricultural and economic resources. We have more than enough to help every Texan access the nutrition they need to succeed and move forward. 
 
-Feeding Texas leads the conversation to solve hunger in Texas with our words and actions. We help decision-makers craft effective public policyies, pioneer programs that empower struggling families, and increase our understanding of hunger through original research and the voices of struggling Texans themselves.
+Feeding Texas leads the conversation to solve hunger in Texas with our words and actions. We help decision-makers craft effective public policies, pioneer programs that empower struggling families, and increase our understanding of hunger through original research and the voices of struggling Texans themselves.
 
 **Strengthening Public Structures**
 
