@@ -2,6 +2,7 @@
 layout: page
 title: SNAPshot Texas
 type: zip-widget
+banner: solve-locally.jpg
 images:
   hero: "assets/images/solve-locally.jpg"
   thumb: "http://placehold.it/450x300&text=THUMB"
