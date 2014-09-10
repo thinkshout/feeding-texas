@@ -4,8 +4,7 @@ assets/stylesheets
 .idea
 .sass-cache
 tmp
-feeding-texas-notes.txt
-alex_notes.txt
+python-scripts
 Gemfile.lock
 .gitignore
 .ruby-version
