@@ -22,12 +22,10 @@ calls_to_action:
   	<div class="wrap">
       <section class="content">
         {% for post in site.posts %}
-          {% if post.layout == "blog" %}
-            <article>
-              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-              <p>{{ post.summary }} <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a></p>
-            </article> 
-          {% endif %}
+          <article>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <p>{{ post.summary }} <a class="button primary" href="{{ site.baseurl }}{{ post.url }}">Read More</a></p>
+          </article> 
         {% endfor %} 
       </section>
       <aside class="sidebar-second">

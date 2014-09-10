@@ -26,18 +26,18 @@ title: Home
   		<section>
       	<h2 class="section-header">What We've Been Saying<span class="divider"></span></h2>
         <div class="featured-press">
-          {% for post in site.posts %}
-            {% if post.layout == "press" and post.featured == true %}
+          {% for press in site.press %}
+            {% if press.featured == true %}
             <article class="teaser press">
-              <div class="pullquote"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.pullquote }}</a></div>
-              {% if post.author %}
+              <div class="pullquote"><a href="{{ site.baseurl }}{{ press.url }}">{{ press.pullquote }}</a></div>
+              {% if press.author %}
                 {% for staff in site.staff %}
-                  {% if post.author == staff.id %}
+                  {% if press.author == staff.id %}
                     <div class="staff-member small">
                       <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
                       <div class="info">
                       	<h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3>
-                      	<p>{{ post.date | date: "%B %-d, %Y"}}</p>
+                      	<p>{{ press.date | date: "%B %-d, %Y"}}</p>
                       </div>
                     </div>
                   {% endif %}
@@ -55,7 +55,7 @@ title: Home
       <section class="featured-blog">
       	<h2 class="section-header"><span>Our Blog</span></h2>
         {% for post in site.posts %}
-          {% if post.layout == "blog" and post.featured == true limit:1%}
+          {% if post.featured == true limit:1%}
           <article>
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>Published {{ post.date | date: "%B %-d, %Y"}}</p>
@@ -67,11 +67,11 @@ title: Home
       </section>
       <section class="featured-resource">
       	<h2 class="section-header"><span>Recent Reports</span></h2>
-        {% for post in site.posts %}
-          {% if post.layout == "product" and post.featured == true limit:1 %}
+        {% for product in site.products %}
+          {% if product.layout == "product" and product.featured == true limit:1 %}
           <article>
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ post.summary }}</p>
+            <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
+            <p>{{ product.summary }}</p>
           </article>
           {% endif %}
         {% endfor %}

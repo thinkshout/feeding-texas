@@ -46,14 +46,25 @@ module Jekyll
         'weightedCostPerMeal' => data['weightedCostPerMeal'],
         'foodInsecureChildren' => data['foodInsecureChildren'],
         'costOfFoodIndex' => data['costOfFoodIndex'],
-        'foodBank-name' => data['foodBank'],
-        'foodBank-address' => data['address'],
-        'foodBank-phone' => data['phone'],
-        'foodBank-website' => data['website'],
         'latitude' => data['latitude'],
         'longitude' => data['longitude'],
         'polygonCoords' => data['polygonCoords']
       }
+      if data.include?('foodBank')
+        self.data['data']['foodBank'] = {
+          'name' => data['foodBank']['name'],
+          'address' => data['foodBank']['address'],
+          'phone' => data['foodBank']['phone'],
+          'website' => data['foodBank']['website']
+        }
+      end
+      if data.include?('constituentStory')
+        self.data['data']['constituentStory'] = {
+          'name' => data['constituentStory']['name'],
+          'image' => data['constituentStory']['image'],
+          'storyText' => data['constituentStory']['storyText']
+        }
+      end
     end
   end
 
@@ -65,10 +76,14 @@ module Jekyll
       dir = site.config['csv_dir'] || '_data'
       base = File.join(site.source, dir)
       # get all csv files in data directory
-      entries = Dir.chdir(base) { Dir['zip-data.csv', 'county-data.csv'] }
+      entries = Dir.chdir(base) { Dir['constituent-stories.csv', 'food-banks.csv', 'zip-data.csv', 'county-data.csv'] }
 
       # init hash to allow for one to many county => zip mappings
       county_2_zip = Hash.new
+      # init hash to allow for constituent story => zip mappings
+      constituentStory_2_zip = Hash.new
+      # init hash to allow for food bank => zip mappings
+      foodBank_2_zip = Hash.new
       # loop through csv files and add contents of each to hash
       csv_data = Hash.new
       entries.each do |entry|
@@ -81,6 +96,25 @@ module Jekyll
 
         # account for each csv file containing data to build zip detail pages
         case entry
+          when 'constituent-stories.csv'
+            data['content'].each do |row|
+              # create hash of constituent story ID's to data
+              constituentStory_2_zip[row[0].strip] = {
+                'name' => row[1].strip,
+                'image' => row[2].strip,
+                'storyText' => row[3].strip
+              }
+            end
+          when 'food-banks.csv'
+            data['content'].each do |row|
+              # create hash of constituent story ID's to data
+              foodBank_2_zip[row[0].strip] = {
+                'name' => row[1].strip,
+                'address' => row[2].strip,
+                'phone' => row[3].strip,
+                'website' => row[4].strip
+              }
+            end
           when 'zip-data.csv'
             data['content'].each do |row|
               county = row[2].strip.downcase
@@ -97,7 +131,7 @@ module Jekyll
                 if item
                   if data['keys'][i].strip == 'polygonCoords'
                     # break polygonCoords string into array
-                    csv_data[zip][data['keys'][i].strip] = polygonCoords_to_array(item)
+                    csv_data[zip]['polygonCoords'] = polygonCoords_to_array(item)
                   else
                     csv_data[zip][data['keys'][i].strip] = item.strip
                   end
@@ -116,8 +150,15 @@ module Jekyll
                     row.each_with_index do |item, i|
                       if data['keys'][i].strip == 'county'
                         next
+                      elsif data['keys'][i].strip == 'foodBank'
+                        # look up food bank info by ID
+                        csv_data[zip]['foodBank'] = foodBank_2_zip[item]
+                      elsif data['keys'][i].strip == 'constituentStory'
+                        # look up constituent story info by ID
+                        csv_data[zip]['constituentStory'] = constituentStory_2_zip[item]
+                      else
+                        csv_data[zip][data['keys'][i].strip] = item.strip
                       end
-                      csv_data[zip][data['keys'][i].strip] = item.strip
                     end
                   end
                 end

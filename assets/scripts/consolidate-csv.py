@@ -27,6 +27,16 @@ def gen_county_data_csv():
       county_data[county]['costOfFoodIndex'] = row[5].strip()
       county_data[county]['weightedCostPerMeal'] = row[6].strip().replace('$', '')
 
+  food_banks = {}
+  with open('food-banks.csv', 'rU') as csvfile:
+    csvreader = csv.reader(csvfile)
+    # skip over header line in csv
+    next(csvreader)
+    for row in csvreader:
+      # remove unix whitespace chars
+      foodBank = row[1].lower().strip()
+      food_banks[foodBank] = row[0].strip()
+
   with open('Food_Banks.csv', 'rU') as csvfile:
     csvreader = csv.reader(csvfile)
     # skip over header line in csv
@@ -36,10 +46,10 @@ def gen_county_data_csv():
       county = row[0].replace('\xa0','').lower().strip()
       if not (county in county_data):
         county_data[county] = {}
-      county_data[county]['foodBank'] = row[1].strip()
-      county_data[county]['address'] = row[2].strip()
-      county_data[county]['phone'] = row[3].strip()
-      county_data[county]['website'] = row[4].strip()
+      if not (row[1].lower().strip() in food_banks.keys()):
+        print row[1].lower().strip()
+        continue
+      county_data[county]['foodBank'] = food_banks[row[1].lower().strip()]
 
   with open('county-data.csv', 'w') as outfile:
     # write first header cell

@@ -16,7 +16,7 @@ $(function() {
   // leaflet map generation
   //########################
   // create a map in the "map" div, set the view to state of texas and zoom
-  var map = L.map('map').setView([31.1693362, -100.0768425], 7);
+  var map = L.map('map').setView([31.1693362, -100.0768425], 6);
   L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-i87786ca/{z}/{x}/{y}.png', {attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'}).addTo(map);
 
   {% if page.data.polygonCoords %}
@@ -227,7 +227,9 @@ $(function() {
       <div id="map"></div>
       </div>
       <div class="page-header">
-        <h1 class="page-title">{{ page.data.county | capitalize}} County,  <span class="postal">{{ page.data.zip }}</span></h1>
+        <h1 class="page-title">{{ page.data.county | capitalize}} County
+          <span class="postal">{{ page.data.zip }}</span>
+        </h1>
         <h3>{{ page.subhead }}</h3>
         <a class="button primary-cta" href="#help">Get Help</a>
       </div>
@@ -236,6 +238,7 @@ $(function() {
   <div class="main">
     <div class="wrap">
       <section id="overview" class="content">
+        <h2 class="section-header"><span>In this county</span></h2>
         <div class="row">
           <div class="third center-txt"><!-- Meal Cost -->
             <div id="cost"></div>
@@ -343,12 +346,19 @@ $(function() {
           <div id="percentrcvethnicity"></div>
         </div>
       </section>
-      <section id="help" class="content">
-        <h2 class="section-header"><span>Get Help</span></h2>
-        <h3>{{ page.data.foodBank-name }}</h3>
-        <p>{{ page.data.foodBank-address }}</p>
-        <p>{{ page.data.foodBank-phone }}</p>
-        <p>{{ page.data.foodBank-website }}</p>
+      <h2 class="section-header"><span>Get Help</span></h2>
+      <section id="help" class="row">
+        <div class="foodbank half">
+          <h3><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.name }}</a></h3>
+          <p>{{ page.data.foodBank.address }}</p>
+          <p>{{ page.data.foodBank.phone }}</p>
+          <p><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.website }}</a></p>
+        </div>
+        <div class="constituent-story half">
+          <h3>{{ page.data.constituentStory.name }}'s Story</h3>
+          <p><img src="{{ site.baseurl }}/assets/images/stories/{{ page.data.constituentStory.image }}">{{ page.data.constituentStory.storyText }}</p>
+          <p class="button"><a class="orange-button" href="https://docs.google.com/a/tfbn.org/forms/d/1V7xzLV2D9OgkW7bLUHeYzVqGyg5L103Iq3vGuNq19H4/viewform">Tell us your story!</a></p>
+        </div>
       </section>
     </div>
   </div>
