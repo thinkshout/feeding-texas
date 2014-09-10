@@ -337,6 +337,7 @@ $(function() {
       </section>
       <h2 class="section-header"><span>Get Help</span></h2>
       <section id="help" class="row">
+        {% if page.data.constituentStory %}
         <div class="foodbank half">
           <h3><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.name }}</a></h3>
           <p>{{ page.data.foodBank.address }}</p>
@@ -345,9 +346,22 @@ $(function() {
         </div>
         <div class="constituent-story half">
           <h3>{{ page.data.constituentStory.name }}'s Story</h3>
-          <p><img src="{{ site.baseurl }}/assets/images/stories/{{ page.data.constituentStory.image }}">{{ page.data.constituentStory.storyText }}</p>
+          <p>
+            {% if page.data.constituentStory.image != '' %}
+            <img src="{{ page.data.constituentStory.image }}">
+            {% endif %}
+            {{ page.data.constituentStory.storyText }}
+          </p>
           <p class="button"><a class="orange-button" href="https://docs.google.com/a/tfbn.org/forms/d/1V7xzLV2D9OgkW7bLUHeYzVqGyg5L103Iq3vGuNq19H4/viewform">Tell us your story!</a></p>
         </div>
+        {% else %}
+        <div class="foodbank">
+          <h3><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.name }}</a></h3>
+          <p>{{ page.data.foodBank.address }}</p>
+          <p>{{ page.data.foodBank.phone }}</p>
+          <p><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.website }}</a></p>
+        </div>
+        {% endif %}
       </section>
     </div>
   </div>
