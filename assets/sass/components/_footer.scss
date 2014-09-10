@@ -5,11 +5,18 @@ footer {
   .brand {
     @include breakpoint($bp-xxsmall) {
       @include span-columns(2,12);
-      margin-right: space(4,12);
       padding-top: 2em;
     }
   }
 
+  .social {
+    margin-top: 3em;
+    li { display: inline; }
+    img { width: 20%; }
+    @include breakpoint($bp-xxsmall) {
+      @include span-columns(3,12);
+    }
+  }
   nav.primary, nav.secondary {
     li {
       line-height: 1.5em;
