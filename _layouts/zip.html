@@ -347,7 +347,7 @@ $(function() {
         <div class="constituent-story half">
           <h3>{{ page.data.constituentStory.name }}'s Story</h3>
           <p>
-            {% if page.data.constituentStory.image != '' %}
+            {% if page.data.constituentStory.image %}
             <img src="{{ page.data.constituentStory.image }}">
             {% endif %}
             {{ page.data.constituentStory.storyText }}

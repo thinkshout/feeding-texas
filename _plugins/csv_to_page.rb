@@ -59,9 +59,14 @@ module Jekyll
           when 'constituent-stories.csv'
             data['content'].each do |row|
               # create hash of constituent story ID's to data
+              if row[2]
+                image = row[2].strip
+              else
+                image = nil
+              end
               constituentStory_2_zip[row[0].strip] = {
                 'name' => row[1].strip,
-                'image' => row[2].strip,
+                'image' => image,
                 'storyText' => row[3].strip
               }
             end
