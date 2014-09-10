@@ -45,6 +45,7 @@ We recommend the following resources to learn more about food insecurity:
 
 * [United States Department of Agriculture (USDA) - Economic Research Service](http://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us.aspx#.U9fNrPldWBI)
 
+* ["What have we learned from two decades of research on household food security?," by Dr. Mark Nord](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9098355&fileId=S1368980013003091)
+
 * [Reflections on Household Food Insecurity: An Interview with Dr. Mark Nord](http://org2.salsalabs.com/o/5118/p/salsa/web/common/public/content?content_item_KEY=12203)
 
-* ["What have we learned from two decades of research on household food security?," by Dr. Mark Nord](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9098355&fileId=S1368980013003091)
