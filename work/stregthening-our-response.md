@@ -18,9 +18,7 @@ calls_to_action:
   - 2
 group: work
 ---
-**Stronger, Better, Faster**
-
-Many of our food banks are nationally recognized  for the quantity and quality of services they provide to their communities. Feeding Texas works to raise the bar among all our food banks by creating pathways for innovation, spaces for collaboration and shared standards. We intend to keep improving until hunger is behind us.
+Many of our food banks are nationally recognized for the quantity and quality of services they provide to their communities. Feeding Texas works to raise the bar among all our food banks by creating pathways for innovation, spaces for collaboration and shared standards. We intend to keep improving until hunger is behind us.
 
 **Raising the Standard**
 
