@@ -1,7 +1,7 @@
 ---
 layout: product
 type: report
-title: How do low-income Texans get help feeding their children?
+title: How do Texans get help feeding their children?
 summary: |
   This infographic represents the total meals required to provide three meals per day, year‐round to every child living in a low‐income Texas household.
 media:
