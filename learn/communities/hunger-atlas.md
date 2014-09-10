@@ -2,7 +2,7 @@
 layout: page
 title: Hunger Atlas
 images:
-  hero: "http://placehold.it/1400x500&text=HERO"
+  hero: "assets/images/solve-locally.jpg"
   thumb: "http://placehold.it/450x300&text=THUMB"
 subhead: Every Texas community is touched by the struggle to afford enough food.
 summary: |
