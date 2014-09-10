@@ -117,7 +117,7 @@ module Jekyll
             end
           when 'zip-data.csv'
             data['content'].each do |row|
-              county = row[2].strip.downcase
+              county = row[1].strip.downcase
               zip = row[0].strip
               # build hash of county => zip relationships
               if county_2_zip.has_key?(county)
@@ -132,6 +132,9 @@ module Jekyll
                   if data['keys'][i].strip == 'polygonCoords'
                     # break polygonCoords string into array
                     csv_data[zip]['polygonCoords'] = polygonCoords_to_array(item)
+                  elsif data['keys'][i].strip == 'constituentStory'
+                    # look up constituent story info by ID
+                    csv_data[zip]['constituentStory'] = constituentStory_2_zip[item]
                   else
                     csv_data[zip][data['keys'][i].strip] = item.strip
                   end
@@ -153,9 +156,6 @@ module Jekyll
                       elsif data['keys'][i].strip == 'foodBank'
                         # look up food bank info by ID
                         csv_data[zip]['foodBank'] = foodBank_2_zip[item]
-                      elsif data['keys'][i].strip == 'constituentStory'
-                        # look up constituent story info by ID
-                        csv_data[zip]['constituentStory'] = constituentStory_2_zip[item]
                       else
                         csv_data[zip][data['keys'][i].strip] = item.strip
                       end
