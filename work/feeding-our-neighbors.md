@@ -18,17 +18,13 @@ calls_to_action:
 group: work
 type: programs
 ---
-**What is food banking?**
+Since the 1970s, food banks have provided the primary charitable response to hunger in America. Twenty-one Feeding Texas food banks currently serve every Texas county through a network of over 3,000 local partners.
 
-Since the 1970s, food banks have provided the primary charitable response to hunger in America. Twenty-one food banks currently serve every Texas county through a network of over 3,000 local partners.
-
-Our food banks act as regional hubs for charitable food and related services across Texas. These resources reach over three million struggling Texans each year through a diverse network of local partners, such as food pantries.
-
-Feeding Texas receives support from individuals, service organizations, businesses and public structures. In addition to feeding the hungry, our food banks work to promote healthy eating, minimize food waste, and address the causes and consequences of food insecurity.
+Our food banks act as regional hubs for charitable food and related services across Texas. We receive support from individuals, service organizations, businesses and public structures. In addition to feeding the hungry, our food banks work to promote healthy eating, minimize food waste, and address the causes and consequences of food insecurity.
 
 **Food in the Right Place, at the Right Time**
 
-First and foremost, food banks are masters of logistics. Our warehouses, trucks and tracking systems ensure that struggling families in every Texas county have access to a safe, nutritious supply of charitable food when they need it most. 
+Food bankers are masters of logistics. Our warehouses, trucks and tracking systems ensure that struggling families in every Texas county have access to a safe, nutritious supply of charitable food when they need it most. 
 
 Every year, our food banks move over 300 million lbs of food. Feeding Texas meets the challenges of relying on donated food by coordinating relationships with Texas growers and truckers, developing statewide funding opportunities and advocating for public resources equal to the need.
 
