@@ -15,9 +15,6 @@ module Jekyll
       self.data['data'] = {
         # From zip csv (SNAP_Particpation_and_Race_Merged.csv, SNAP_Eligibility_vs_Participation_plus_SNAP_meals.csv)
         'zip' => "#{data["zip"]}",
-        'constituentImage' => data['constituentStory']['constituentImage'],
-        'constituentName' => data['constituentStory']['constituentName'],
-        'constituentStoryText' => data['constituentStory']['storyText'],
         'county' => data['county'],
         'totalSnapRecipients' => data['totalSnapRecipients'],
         'recipients0To17' => data['recipients0To17'],
@@ -49,14 +46,25 @@ module Jekyll
         'weightedCostPerMeal' => data['weightedCostPerMeal'],
         'foodInsecureChildren' => data['foodInsecureChildren'],
         'costOfFoodIndex' => data['costOfFoodIndex'],
-        'foodBank-name' => data['foodBank']['foodBank-name'],
-        'foodBank-address' => data['foodBank']['foodBank-address'],
-        'foodBank-phone' => data['foodBank']['foodBank-phone'],
-        'foodBank-website' => data['foodBank']['foodBank-website'],
         'latitude' => data['latitude'],
         'longitude' => data['longitude'],
         'polygonCoords' => data['polygonCoords']
       }
+      if data.include?('foodBank')
+        self.data['data']['foodBank'] = {
+          'name' => data['foodBank']['name'],
+          'address' => data['foodBank']['address'],
+          'phone' => data['foodBank']['phone'],
+          'website' => data['foodBank']['website']
+        }
+      end
+      if data.include?('constituentStory')
+        self.data['data']['constituentStory'] = {
+          'name' => data['constituentStory']['name'],
+          'image' => data['constituentStory']['image'],
+          'storyText' => data['constituentStory']['storyText']
+        }
+      end
     end
   end
 
@@ -92,8 +100,8 @@ module Jekyll
             data['content'].each do |row|
               # create hash of constituent story ID's to data
               constituentStory_2_zip[row[0].strip] = {
-                'constituentName' => row[1].strip,
-                'constituentImage' => row[2].strip,
+                'name' => row[1].strip,
+                'image' => row[2].strip,
                 'storyText' => row[3].strip
               }
             end
@@ -101,15 +109,15 @@ module Jekyll
             data['content'].each do |row|
               # create hash of constituent story ID's to data
               foodBank_2_zip[row[0].strip] = {
-                'foodBank-name' => row[1].strip,
-                'foodBank-address' => row[2].strip,
-                'foodBank-phone' => row[3].strip,
-                'foodBank-website' => row[4].strip
+                'name' => row[1].strip,
+                'address' => row[2].strip,
+                'phone' => row[3].strip,
+                'website' => row[4].strip
               }
             end
           when 'zip-data.csv'
             data['content'].each do |row|
-              county = row[3].strip.downcase
+              county = row[2].strip.downcase
               zip = row[0].strip
               # build hash of county => zip relationships
               if county_2_zip.has_key?(county)
@@ -124,12 +132,6 @@ module Jekyll
                   if data['keys'][i].strip == 'polygonCoords'
                     # break polygonCoords string into array
                     csv_data[zip]['polygonCoords'] = polygonCoords_to_array(item)
-                  elsif data['keys'][i].strip == 'constituentStory'
-                    # look up constituent story info by ID
-                    csv_data[zip]['constituentStory'] = constituentStory_2_zip[item]
-                  elsif data['keys'][i].strip == 'foodBank'
-                    # look up food bank info by ID
-                    csv_data[zip]['foodBank'] = foodBank_2_zip[item]
                   else
                     csv_data[zip][data['keys'][i].strip] = item.strip
                   end
@@ -148,8 +150,15 @@ module Jekyll
                     row.each_with_index do |item, i|
                       if data['keys'][i].strip == 'county'
                         next
+                      elsif data['keys'][i].strip == 'foodBank'
+                        # look up food bank info by ID
+                        csv_data[zip]['foodBank'] = foodBank_2_zip[item]
+                      elsif data['keys'][i].strip == 'constituentStory'
+                        # look up constituent story info by ID
+                        csv_data[zip]['constituentStory'] = constituentStory_2_zip[item]
+                      else
+                        csv_data[zip][data['keys'][i].strip] = item.strip
                       end
-                      csv_data[zip][data['keys'][i].strip] = item.strip
                     end
                   end
                 end
