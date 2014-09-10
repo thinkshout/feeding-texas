@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hunger Atlas
+banner: solve-locally.jpg
 images:
   hero: "assets/images/solve-locally.jpg"
   thumb: "http://placehold.it/450x300&text=THUMB"
