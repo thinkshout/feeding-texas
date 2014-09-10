@@ -14,4 +14,4 @@ calls_to_action:
 ---
 The Texas Hunger Atlas details the extent of hunger in every Texas county and the specific resources available locally to help families meet their food needs. 
 
-[Explore the atlas](http://tfbn.org/hunger_atlas/), or [learn about our methodology](feedingtexas.org). 
+[Explore the atlas](http://tfbn.org/hunger_atlas/), or [learn about our methodology](http://www.feedingtexas.org). 
