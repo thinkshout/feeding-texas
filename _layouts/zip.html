@@ -344,12 +344,22 @@ $(function() {
           <div id="percentrcvethnicity"></div>
         </div>
       </section>
-      <section id="help" class="content">
-        <h2 class="section-header"><span>Get Help</span></h2>
-        <h3>{{ page.data.foodBank-name }}</h3>
-        <p>{{ page.data.foodBank-address }}</p>
-        <p>{{ page.data.foodBank-phone }}</p>
-        <p>{{ page.data.foodBank-website }}</p>
+      <h2 class="section-header"><span>Get Help</span></h2>
+      <section id="help">
+        <div class="foodbank row">
+          <h3><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.name }}</a></h3>
+          <p>{{ page.data.foodBank.address }}<br>
+          {{ page.data.foodBank.phone }}<br>
+          <a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.website }}</a></p>
+        </div>
+        <div class="constituent-story half">
+          <h3>{{ page.data.constituentStory.name }}'s Story</h3>
+          <p>{{ page.data.constituentStory.storyText }}</p>
+          <p><a class='orange-button' href="https://docs.google.com/a/tfbn.org/forms/d/1V7xzLV2D9OgkW7bLUHeYzVqGyg5L103Iq3vGuNq19H4/viewform">Tell us your story!</a></p>
+        </div>
+        <div class="constituent-image half">
+          <img src="{{ site.baseurl }}/assets/images/stories/{{ page.data.constituentStory.image }}">
+        </div>
       </section>
     </div>
   </div>

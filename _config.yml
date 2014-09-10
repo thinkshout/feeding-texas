@@ -41,6 +41,12 @@ collections:
     output: false
   calls-to-action:
     output: false
+  press:
+    output: true
+    permalink: /press/:path/
+  products:
+    output: true
+    permalink: /product/:path/
 
 # Settings for sitemap_generator plugin.
 # sitemap:

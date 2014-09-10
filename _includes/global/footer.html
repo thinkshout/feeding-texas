@@ -5,19 +5,26 @@
       	<img src="{{ site.baseurl }}/assets/images/feeding-texas-id.png">
       </a>
     </div>
-	    <nav class="primary">
-	    	<ul>
-	    		{% for link in site.data.menu.primary %}
-	        <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
-	    		{% endfor %}
-	      </ul>
-	    </nav>
-	    <nav class="secondary">
-	    	<ul>
-	    		{% for link in site.data.menu.action%}
-	        <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
-	    		{% endfor %}
-	      </ul>
-		  </nav>
+		<div class="social">
+			<ul>
+				<li><a href="https://www.facebook.com/pages/Texas-Food-Bank-Network/124609758702"><img src="{{site.baseurl}}/assets/images/social/facebook-icon.png" alt="Facebook"/></a></li>
+				<li><a href="https://twitter.com/TexansVsHunger"><img src="{{site.baseurl}}/assets/images/social/twitter-icon.png" alt="Twitter"/></a></li>
+				<li><a href="https://www.youtube.com/user/TexasFoodBankNetwork"><img src="{{site.baseurl}}/assets/images/social/youtube-icon.png" alt="YouTube"/></a></li>
+			</ul>
+		</div>
+    <nav class="primary">
+    	<ul>
+    		{% for link in site.data.menu.primary %}
+        <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+    		{% endfor %}
+      </ul>
+    </nav>
+    <nav class="secondary">
+    	<ul>
+    		{% for link in site.data.menu.action%}
+        <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+    		{% endfor %}
+      </ul>
+	  </nav>
 	</div>
 </footer>
