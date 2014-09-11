@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SNAPshot Texas
-type: zip-widget
+zip-widget: true
 banner: solve-locally.jpg
 images:
   hero: "assets/images/solve-locally.jpg"
