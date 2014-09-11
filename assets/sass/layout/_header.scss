@@ -1,10 +1,11 @@
 header {
   .wrap {
     height: 70px;
-    background: $drkBrown;
+    background: $white;
     @include container(75em);
     padding: 0 0;
     @include breakpoint($bp-medium) {
+      background: $drkBrown;
       padding: 0;
     }
   }
@@ -20,9 +21,16 @@ header {
     }
     @include breakpoint($bp-large) {
       padding: 14px;
+      .logo {
+        width: auto;
+      }
     }
     .logo {
       display: block;
+      text-align: center;
+      img {
+        width: 81%;
+      }
     }
   }
   .secondary-nav {
