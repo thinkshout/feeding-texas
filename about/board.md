@@ -9,7 +9,7 @@ calls_to_action:
 ---
 ![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Feeding_Texas_Board.jpg "The Feeding Texas Board")
 
-Our board is made up of Executive Directors from the state's twenty-one regional food banks:
+The Feeding Texas board consists of Executive Directors from the state's twenty-one regional food banks:
 
 David Weaver (President) - *South Plains Food Bank, Lubbock*   
 Eric Cooper (Past President) - *San Antonio Food Bank, San Antonio*   
