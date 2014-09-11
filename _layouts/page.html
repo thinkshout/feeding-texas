@@ -4,22 +4,32 @@ layout: default
 <div class="landing">
   <div class="highlighted">
     <div class="wrap">
-      <div class="bg-img">
-        <img src="{{ site.baseurl }}/assets/images/{{ page.banner }}">
+      <div class="bg-img" style="background: url({{ site.baseurl }}/assets/images/{{ page.banner }}) center center no-repeat">
       </div>
       <div class="page-header">
         <h1 class="page-title">{{ page.title }}</h1>
       </div>
-      {% if page.type == "zip-widget" %}
+      {% if page.zip-widget == true %}
       <div class="finder">
+        {% if page.type == "help" %}
+        <h3>Input your home zip code to find your closest food bank</h3>
+        <select id='options' data-placeholder="Zip code" class="chosen-select">
+          <!-- Include blank option for placeholder value -->
+          <option></option>
+          {% for zipcode in site.data.zips %}
+            <option value="{{ site.baseurl }}/zip/{{ zipcode }}#help">{{ zipcode }}</option>
+          {% endfor %}
+        </select>
+        {% else %}
         <h3>Get statistics for your community:</h3>
-          <select id='options' data-placeholder="Zip code" class="chosen-select">
-            <!-- Include blank option for placeholder value -->
-            <option></option>
-            {% for zipcode in site.data.zips %}
-              <option value="{{ site.baseurl }}/zip/{{ zipcode }}">{{ zipcode }}</option>
-            {% endfor %}
-          </select>
+        <select id='options' data-placeholder="Zip code" class="chosen-select">
+          <!-- Include blank option for placeholder value -->
+          <option></option>
+          {% for zipcode in site.data.zips %}
+            <option value="{{ site.baseurl }}/zip/{{ zipcode }}">{{ zipcode }}</option>
+          {% endfor %}
+        </select>
+        {% endif %}
       </div>
       {% endif %}
     </div>
@@ -98,6 +108,14 @@ layout: default
               </div>
             {% endfor %}
           </div>
+        {% endif %}
+        {% if page.type == "help" %}
+        <div class="donate">
+          <div class="cta">
+            <h3>Help us work with our partners to end hunger in Texas</h3>
+            <a class="button primary-btn" href="https://donatenow.networkforgood.org/feeding-texas">Donate Now</a>
+          </div>
+        </div>
         {% endif %}
       {% endif %}
       </div>
