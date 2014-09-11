@@ -12,7 +12,7 @@ calls_to_action:
 Our board is made up of Executive Directors from the state's twenty-one regional food banks:
 
 David Weaver (President) - *South Plains Food Bank, Lubbock*   
-Eric Cooper (Immediate Past President) - *San Antonio Food Bank, San Antonio*   
+Eric Cooper (Past President) - *San Antonio Food Bank, San Antonio*   
 Dennis Cullinane (Treasurer) - *East Texas Food Bank, Tyler*   
 Robin Cadle - *Food Bank of the Golden Crescent, Victoria*   
 Libby Campbell - *West Texas Food Bank, Odessa*   
