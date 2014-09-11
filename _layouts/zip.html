@@ -250,7 +250,7 @@ $(function() {
             {% if fcdiff < 0 %}
               {% capture fcdiff %}{{ fcdiff | times: '-1' }}{% endcapture %}
             {% endif %}
-            <p>That's <strong>{{ fcdiff }}%</strong>{% if page.data.costOfFoodIndex < '1' %} less {% else %} more {% endif %} than the national average.</p>
+            <p><strong>{{ fcdiff }}%</strong>{% if page.data.costOfFoodIndex < '1' %} less {% else %} more {% endif %} than the national average.</p>
           </div>
           <div class="third center-txt"><!-- Food Insecurity -->
             <div id="people"></div>
@@ -261,9 +261,9 @@ $(function() {
           <div class="third center-txt"><!-- Childhood Insecurity -->
             <div id="children"></div>
             <div class="key-stat">
-              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}%</span> of children are at risk of hunger.</p>
+              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}%</span> of children live in these same homes.</p>
             </div>
-            <p>That's <strong>{{ page.data.foodInsecureChildren }}</strong> children going hungry.</p>
+            <p>That's <strong>{{ page.data.foodInsecureChildren }}</strong> children at risk of hunger.</p>
           </div>
         </div>
       </section>
@@ -275,7 +275,7 @@ $(function() {
           </div>
           <div class="half narrative">
             <div class="key-stat">
-              <p><span class="total">{{ page.data.totalIncomeEligibleIndividuals }}</span> people are potentially eligible for SNAP benefits...</p>
+              <p><span class="total">{{ page.data.totalIncomeEligibleIndividuals }}</span> people are potentially eligible for SNAP benefits</p>
             </div>
             <div id="eligibility-age-breakdown" class="row">
               <div class="third">
@@ -297,7 +297,7 @@ $(function() {
               ...but just <span class="total">{{ percent_receiving }}%</span> of them are actually receiving help.
             </div>
             <div class="key-stat">
-              <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not receiving food aid when they could be.
+              <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not receiving food aid from SNAP when they could be.
             </div>
           </div>
           <div class="half visualization">
@@ -336,7 +336,7 @@ $(function() {
           <div id="percentrcvethnicity"></div>
         </div>
       </section>
-      <h2 class="section-header"><span>Need help?</span></h2>
+      <h2 class="section-header"><span>Do you need help?</span></h2>
       <section id="help" class="row">
         {% if page.data.constituentStory %}
         <div class="foodbank half">
