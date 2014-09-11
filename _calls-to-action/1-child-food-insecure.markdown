@@ -1,6 +1,6 @@
 ---
 id: 1
-button_text: See how many in your community
+button_text: Get statistics for your community
 link: /learn/communities/snapshot-texas.html
 image: children.jpg
 ---
