@@ -19,10 +19,17 @@ module Jekyll
   end
 
   # Filter for division.
-  module DividedBy
-    def divide(num1, num2)
-      val = num1.to_f/num2.to_f
-      return val.round(4)
+  module Percent
+    def percent(num1, num2)
+      if num2 != "0"
+        val = num1.to_f/num2.to_f
+      else
+        val = num1.to_f
+      end
+      val *= 100
+      return val.round
     end
   end
 end
+
+Liquid::Template.register_filter(Jekyll::Percent)
