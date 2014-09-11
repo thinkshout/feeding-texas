@@ -260,7 +260,7 @@ $(function() {
           <div class="third center-txt"><!-- Childhood Insecurity -->
             <div id="children"></div>
             <div class="key-stat">
-              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}%</span> of children in {{ page.data.county }} have experienced food insecurity in the last year.</p>
+              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}%</span> of children in {{ page.data.county | capitalize }} have experienced food insecurity in the last year.</p>
             </div>
             <p>That's <strong>{{ page.data.foodInsecureChildren }}</strong> children going hungry.</p>
           </div>
