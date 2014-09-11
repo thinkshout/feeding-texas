@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Hunger Doesn't Belong Here
+subhead: Help us create a hunger-free Texas.
 banner: banners/banner-04.jpg
-cta_button:
-  text: CALL TO ACTION
-  link: #
 featured_resource: How do low-income texans get help feeding their children?
 featured_statistic:
   stat: 300 million lbs
