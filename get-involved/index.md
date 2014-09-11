@@ -18,7 +18,7 @@ We have the resources and knowledge to ensure that hard-working Texans have the 
 
 **1. Stay Engaged**
 
-Make sure you receive our in-depth monthly newsletter, breaking advocacy alerts, and exciting opportunities to fight hunger in your community. We will respect your information, and your inbox. [Sign up here.](http://feedingtexas.org.s3-website-us-east-1.amazonaws.com/news/sign-up.html)
+Make sure you receive our in-depth monthly newsletter, breaking advocacy alerts, and exciting opportunities to fight hunger in your community. We will respect your information, and your inbox. [Sign up here.](/news/sign-up.html)
 
 **2. Share Your Story**
 
