@@ -16,6 +16,7 @@
 .highlighted {
 	.wrap {
 		max-width: 100%;
+    overflow: hidden;
 	  @include clearfix;
   }
 }
