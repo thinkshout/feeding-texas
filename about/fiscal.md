@@ -7,6 +7,13 @@ calls_to_action:
   - 1
   - 2
 ---
-Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+Feeding Texas is a 501(c)3 nonprofit organization recognized by the State of Texas and the Internal Revenue Service. 
 
-Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Sed porttitor lectus nibh.Vivamus suscipit tortor eget felis porttitor volutpat.
+We maintain trusted, contractual partnerships with the following state agencies: Texas Health and Human Services Commission, Texas Department of Agriculture, Texas Department of Criminal Justice and Texas Division of Emergency Management. 
+
+We receive support from respected, national anti-hunger organizations including Feeding America, the Food Research and Action Center (FRAC) and Mazon. 
+
+As a statewide association, most of our annual budget is distributed directly to regional food banks to assist them in providing food and services locally.
+
+* [Latest financial audit](www.feedingtexas.org)
+* [Form 990](www.feedingtexas.org)
