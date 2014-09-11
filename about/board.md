@@ -7,7 +7,7 @@ calls_to_action:
   - 1
   - 2
 ---
-![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/stories/Feeding_Texas_Board.jpg "The Feeding Texas Board")
+![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Feeding_Texas_Board.jpg "The Feeding Texas Board")
 
 Our board is made up of Executive Directors from the state's twenty-one regional food banks:
 
