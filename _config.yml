@@ -19,7 +19,7 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bo
 # Team directory used by the data_to_pages plugin.
 location_dir: 'locations'
 # contact_redirect: 'thanks'
-tag_dir: 'blog/category'
+tag_dir: 'category'
 # directory for csv data used to construct zip detail pages
 # csv_dir: '_data'
 
