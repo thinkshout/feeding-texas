@@ -1,10 +1,20 @@
-.narrative {
-
+#ageEligibility {
+    .narrative {
+    margin-top: 2.5em;
+  }
+}
+#utilization {
+  .narrative {
+    margin-top: 4em;
+  }
+}
+#benefit {
+  .narrative {
+    margin-top: 8em;
+  }
 }
 
-.visualization {
-
-}
+.visualization {}
 
 #cost,
 #people,
@@ -34,7 +44,7 @@
 .total,
 .cost,
 .percentage {
-	font-size: 3.5em;
+	font-size: 2em;
 	font-weight: 600;
 	padding: 0.25em 0;
 	display: inline-block;
@@ -45,19 +55,16 @@
 .key-stat {
 	text-align: center;
 	font-size: 1.5em;
-	.total,
-	.cost,
-	.percentage {
-		display: block;
-	}
+	// .total,
+	// .cost,
+	// .percentage {
+	// 	display: block;
+	// }
 }
 
-.total {}
-.cost {}
-.percentage {}
-
-
-#cost-of-meal {}
+#cost-of-meal {
+  display: block;
+}
 #cost-vs-average {}
 #insecurity-rate {}
 #child-insecurity-rate {}
