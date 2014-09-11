@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Staff & Board
+title: Our Staff
 banner: placeholders/banner-02.jpg
 group: about
 type: staff
