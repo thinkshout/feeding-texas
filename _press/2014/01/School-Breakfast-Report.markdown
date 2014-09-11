@@ -5,7 +5,7 @@ pullquote: Texas has done a good job making this program available, but students
 attribution: Celia Cole
 tweet: Report - School Breakfast Feeding More Needy Texas Children
 date: 2014-01-22
-categories:
+tags:
   - School Breakfast
   - Child Hunger
   - Schools

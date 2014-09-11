@@ -5,7 +5,7 @@ pullquote: What these data tell us is that low-income Texans continue to stumble
 attribution: Celia Cole
 tweet: Texas Food Insecurity Remains High Despite Economic Recovery, says USDA Report
 date: 2014-09-04
-categories:
+tags:
   - Food Insecurity
   - USDA
 featured: true

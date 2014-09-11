@@ -5,7 +5,7 @@ pullquote:
 attribution:
 tweet: Press Advisory - San Antonio Hunger Summit Set for March 26
 date: 2014-03-26
-categories:
+tags:
   - Child Hunger
   - After-School Meals
   - Summer Meals

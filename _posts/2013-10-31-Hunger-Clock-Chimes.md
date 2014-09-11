@@ -7,7 +7,7 @@ images:
   thumb: "http://placehold.it/450x300&text=THUMB"
 date: 2013-10-31
 author: 1
-categories: 
+tags: 
   - Food Insecurity
   - SNAP
 featured: false
