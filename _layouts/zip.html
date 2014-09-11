@@ -239,7 +239,7 @@ $(function() {
   <div class="main">
     <div class="wrap">
       <section id="overview" class="content">
-        <h2 class="section-header"><span>In this county</span></h2>
+        <h2 class="section-header"><span>In this county: </span></h2>
         <div class="row">
           <div class="third center-txt"><!-- Meal Cost -->
             <div id="cost"></div>
@@ -255,27 +255,27 @@ $(function() {
           <div class="third center-txt"><!-- Food Insecurity -->
             <div id="people"></div>
             <div class="key-stat">
-              <p><span id="insecurity-rate" class="percentage collapse">{{ page.data.individualFoodInsecurityRate }}%</span> of people have experienced food insecurity in this county in the last year.</p>
+              <p><span id="insecurity-rate" class="percentage collapse">{{ page.data.individualFoodInsecurityRate }}%</span> of people live in food insecure homes.</p>
             </div>
           </div>
           <div class="third center-txt"><!-- Childhood Insecurity -->
             <div id="children"></div>
             <div class="key-stat">
-              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}%</span> of children in {{ page.data.county | capitalize }} have experienced food insecurity in the last year.</p>
+              <p><span id="child-insecurity-rate" class="percentage collapse">{{ page.data.childFoodInsecurityRate }}%</span> of children are at risk of hunger.</p>
             </div>
             <p>That's <strong>{{ page.data.foodInsecureChildren }}</strong> children going hungry.</p>
           </div>
         </div>
       </section>
       <section id="eligibility">
-        <h2 class="section-header"><span>Eligibility</span></h2>
+        <h2 class="section-header"><span>In this zip code: </span></h2>
         <div id="ageEligibility" class="row">
           <div class="half visualization">
             <div id="percentages"></div>
           </div>
           <div class="half narrative">
             <div class="key-stat">
-              <p><span class="total">{{ page.data.totalIncomeEligibleIndividuals }}</span> people are eligible for SNAP benefits.</p>
+              <p><span class="total">{{ page.data.totalIncomeEligibleIndividuals }}</span> people are potentially eligible for SNAP benefits...</p>
             </div>
             <div id="eligibility-age-breakdown" class="row">
               <div class="third">
@@ -294,10 +294,10 @@ $(function() {
           <div class="half narrative">
             <div class="key-stat">
               {% assign percent_receiving = page.data.totalSnapRecipients | percent: page.data.totalIncomeEligibleIndividuals %}
-              <span class="total">{{ percent_receiving }}%</span> of eligible people are actually receiving SNAP benefits.
+              ...but just <span class="total">{{ percent_receiving }}%</span> of them are actually receiving help.
             </div>
             <div class="key-stat">
-              <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not participating in SNAP benefits when they could be.
+              <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not receiving food aid when they could be.
             </div>
           </div>
           <div class="half visualization">
@@ -310,7 +310,7 @@ $(function() {
           </div>
           <div class="half narrative">
             <div class="key-stat">
-              SNAP only covers
+              Still, for those receiving SNAP the benefit only covers
               <span class="cost collapse">${{ page.data.averageBenefitperMeal }}</span>
               of the
             </div>
@@ -322,7 +322,7 @@ $(function() {
         </div>
       </section>
       <section id="demographics" class="row">
-        <h2 class="section-header"><span>Demographics</span></h2>
+        <h2 class="section-header"><span>Who gets help from SNAP?</span></h2>
         <div class="half">
           <div id="percentrcvrace"></div>
         </div>
@@ -336,7 +336,7 @@ $(function() {
           <div id="percentrcvethnicity"></div>
         </div>
       </section>
-      <h2 class="section-header"><span>Get Help</span></h2>
+      <h2 class="section-header"><span>Need help?</span></h2>
       <section id="help" class="row">
         {% if page.data.constituentStory %}
         <div class="foodbank half">
