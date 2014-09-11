@@ -5,7 +5,7 @@ pullquote: Studies like these underline how hunger can persist even when the eco
 attribution: Celia Cole
 tweet: Study Estimates 18.3 Percent of Texans Were “Food Insecure” in 2012
 date: 2014-04-21
-categories:
+tags:
   - Food Insecurity
   - County
   - Data

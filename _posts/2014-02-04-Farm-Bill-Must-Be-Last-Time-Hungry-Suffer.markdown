@@ -7,7 +7,7 @@ images:
   thumb: "http://placehold.it/450x300&text=THUMB"
 date: 2014-02-04
 author: 1
-categories: 
+tags: 
   - Food Insecurity
   - SNAP
   - Farm Bill

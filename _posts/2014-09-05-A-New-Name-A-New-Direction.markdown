@@ -7,7 +7,7 @@ images:
   thumb: "http://placehold.it/450x300&text=THUMB"
 date: 2014-09-05
 author: 1
-categories: 
+tags: 
 featured: true
 ---
 
