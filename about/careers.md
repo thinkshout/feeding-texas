@@ -8,4 +8,3 @@ calls_to_action:
   - 1
   - 2
 ---
-Feeding Texas is an equal-opportunity employer. 
