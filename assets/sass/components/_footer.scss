@@ -1,25 +1,45 @@
 footer {
   background: $drkBrown;
   border-top: 3px solid $orange;
+  text-align: center;
+
+  ul {
+    padding-left: 0;
+  }
 
   .brand {
+    text-align: center;
+    img {
+      width: 50%;
+      @include breakpoint($bp-small) {
+        width: auto;
+      }
+    }
+
     @include breakpoint($bp-xxsmall) {
       @include span-columns(2,12);
       padding-top: 2em;
+      text-align: left;
     }
   }
 
   .social {
-    margin-top: 3em;
+    margin-top: 1em;
     li { display: inline; }
     img { width: 20%; }
+
     @include breakpoint($bp-xxsmall) {
+      margin-top: 3em;
+      @include span-columns(6,12);
+    }
+    @include breakpoint($bp-medium) {
       @include span-columns(3,12);
     }
   }
   nav.primary, nav.secondary {
     li {
       line-height: 1.5em;
+      list-style-type: none;
       a:hover {
         color: $white;
       }
@@ -32,6 +52,7 @@ footer {
   }
 
   nav.secondary {
+
     li a {
       @include secondary-btn;
       color: $white;

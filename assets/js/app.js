@@ -15,14 +15,47 @@ $(document).ready(function(){
     // maxItems: 2
   });
 
+	var getWindowSize = function() {
+		return $(window).width();
+	}
+
+	// Store viewport width as a function
+  // so it can be retrieved at any time
+  var viewportWidth = function(){
+    var width = $(window).width();
+    return width;
+  }
+
+  // Is it a large screen?
+  var isLarge = function(){
+      return viewportWidth() >= 880  ? true : false;
+  }
+
 	/*****
    * Mobile Nav Toggle
   ******/
-	var menuToggle = $('#menu-toggle');
 	var primaryNav = $('.primary-nav');
-	menuToggle.click(function(){
-		primaryNav.slideToggle().toggleClass('mobile-nav');
+	var menuToggle = $('#menu-toggle');
 
+	menuToggle.click(function(e){
+    if (isLarge() == false){
+      e.preventDefault();
+      primaryNav.addClass('mobile-nav').toggle();
+    }
+  });
+
+	var setMenuState = function(){
+		if (isLarge()) {
+			primaryNav.show().removeClass('mobile-nav');
+		} else {
+			primaryNav.hide().addClass('mobile-nav');
+		}
+	}
+
+	setMenuState();
+
+	$(window).resize(function(){
+		setMenuState();
 	});
 
   /*****
