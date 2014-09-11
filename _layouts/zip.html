@@ -292,7 +292,7 @@ $(function() {
         <div id="utilization" class="row">
           <div class="half narrative">
             <div class="key-stat">
-              {% assign percent_receiving = page.data.totalSnapRecipients | divide: page.data.totalIncomeEligibleIndividuals | times: 100 %}
+              {% assign percent_receiving = page.data.totalSnapRecipients | percent: page.data.totalIncomeEligibleIndividuals %}
               <span class="total">{{ percent_receiving }}%</span> of eligible people are actually receiving SNAP benefits.
             </div>
             <div class="key-stat">
