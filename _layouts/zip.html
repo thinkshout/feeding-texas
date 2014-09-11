@@ -294,7 +294,7 @@ $(function() {
           <div class="half narrative">
             <div class="key-stat">
               {% assign percent_receiving = page.data.totalSnapRecipients | percent: page.data.totalIncomeEligibleIndividuals %}
-              ...but just <span class="total">{{ percent_receiving }}%</span> of them are actually receiving help.
+              ...but just <span class="total">{{ percent_receiving }}%</span> of them actually receive help.
             </div>
             <div class="key-stat">
               <span class="total">{{ page.data.totalIncomeEligibleIndividuals | minus: page.data.totalSnapRecipients }}</span> people are not receiving food aid from SNAP when they could be.
