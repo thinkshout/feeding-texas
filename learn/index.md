@@ -3,7 +3,7 @@ layout: landing
 title: An Incomplete Miracle
 subhead: Every Texas community is touched by the struggle to afford enough food.
 cta_button:
-  text: CALL TO ACTION
+  text:
   link: #
 featured_resource: How do low-income texans get help feeding their children?
 
