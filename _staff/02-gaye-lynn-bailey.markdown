@@ -2,7 +2,7 @@
 layout: staff
 id: 
 name: Gaye Lynn Bailey
-email: gbailey@tfbn.org
+email: gbailey@feedingtexas.org
 position: Program/Logistics Coordinator
 image: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/staff/gaye-lynn-bailey.JPG
 ---
