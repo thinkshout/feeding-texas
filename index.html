@@ -34,7 +34,7 @@ banner: banner-01.jpg
                 {% for staff in site.staff %}
                   {% if press.author == staff.id %}
                     <div class="staff-member small">
-                      <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
+                      <div class="photo"><img src="{{ staff.image }}"></div>
                       <div class="info">
                       	<h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3>
                       	<p>{{ press.date | date: "%B %-d, %Y"}}</p>
