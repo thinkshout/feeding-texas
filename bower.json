@@ -1,9 +1,0 @@
-{
-  "name": "ThinkShout Prototype Boilerplate",
-  "version": "0.0.1",
-  "private": "true",
-  "dependencies": {
-    "chosen": "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip",
-    "flexslider": "https://github.com/woothemes/FlexSlider/archive/version/2.2.2.zip"
-  }
-}
