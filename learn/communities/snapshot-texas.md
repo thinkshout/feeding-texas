@@ -1,6 +1,7 @@
 ---
 layout: page
 title: SNAPshot Texas
+custom_class: page-with-zip
 zip-widget: true
 banner: solve-locally.jpg
 images:

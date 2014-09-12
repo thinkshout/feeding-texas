@@ -1,6 +1,6 @@
 ---
 layout: page
-custom_class: get-help
+custom_class: page-with-zip
 title: Get Help
 banner: banners/banner-04.jpg
 type: help
