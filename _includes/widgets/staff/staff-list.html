@@ -1,0 +1,13 @@
+<div class="block-grid">
+  {% for employee in site.staff %}
+    <div class="item staff-member">
+      <a class="link" href="{{ site.baseurl }}{{ employee.url }}">
+        <img src="{{ employee.image }}" alt="{{ employee.name }}">
+        <div class="info">
+          <h3><a href="{{ site.baseurl }}{{ employee.url }}">{{ employee.name }}</a></h3>
+          <p>{{ employee.position }}</p>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>

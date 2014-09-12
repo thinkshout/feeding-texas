@@ -6,7 +6,7 @@ layout: default
   	<div class="wrap">
       <div class="page-header">
       	<div class="photo">
-      		<img src="{{ site.baseurl }}/assets/images/staff/{{ page.image }}">
+      		<img src="{{ page.image }}">
       	</div>
       	<h1 class="page-title">{{ page.name }}</h1>
       	<h3>{{ page.position }}</h3>
@@ -19,19 +19,7 @@ layout: default
       <section class="content intro">
         <p>{{ page.content }}</p>
       </section>
-      <div class="block-grid">
-        {% for employee in site.staff %}
-          <div class="item staff-member">
-          	<a class="link" href="{{ site.baseurl }}{{ employee.url }}">
-          	  <img src="{{ site.baseurl }}/assets/images/staff/{{ employee.image }}" alt="{{ employee.name }}">
-          	  <div class="info">
-          	    <h3><a href="{{ site.baseurl }}{{ employee.url }}">{{ employee.name }}</a></h3>
-                <p>{{ employee.position }}</p>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
+      {% include widgets/staff/staff-list.html %}
     </div>
   </div>
   {% include widgets/calls_to_action/calls-to-action.html %}
