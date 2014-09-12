@@ -3,8 +3,10 @@ layout: blog
 title: Hunger Clock Chimes for Four Million Texans
 summary: On Nov. 1, 2013, four million Texans saw a big chunk of their monthly food budget disappear overnight when a largely unpublicized change to the federal SNAP, or food stamp program, took effect. The change was immediate and irreversible.
 images:
-  hero: "http://placehold.it/1400x500&text=HERO"
-  thumb: "http://placehold.it/450x300&text=THUMB"
+  hero: "	
+https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/hungerclock.jpg"
+  thumb: "	
+https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/hungerclock.jpg"
 date: 2013-10-31
 author: 1
 tags: 
