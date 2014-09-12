@@ -86,7 +86,7 @@ calls_to_action:
         {% for post in site.posts %}
           <article>
             <div class="hero">
-              <img src="http://placehold.it/450x200">
+              <img src="{{ post.images.thumb }}">
             </div>
             <div class="leadin">
               <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
