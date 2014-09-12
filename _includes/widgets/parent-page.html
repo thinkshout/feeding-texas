@@ -1,20 +1,20 @@
 {%assign url_parts = page.url | remove_first: "/" | split: "/"%}
-<!-- if we're on a top level page -->
-{% if url_parts | size == 2 %}
-  {%assign parent_len = url_parts | size | minus: 1 %}
+{% assign url_parts_size = url_parts | size %}
+<!-- if we're on a top level page, parent is index in same level of directory hierarchy -->
+{% if url_parts_size == 2 %}
+  {% assign parent_len = url_parts | size | minus: 1 %}
   {% for i in url_parts limit: parent_len %}
     {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %}
   {% endfor %}
   {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %}
-<!-- if we're on any page below the first level in the directory hierarchy -->
+<!-- if we're on any page below the first level in the directory hierarchy, the parent page is index of parent directory in hierarchy -->
 {% else %}
-  {%assign parent_len = url_parts | size | minus: 2 %}
-  {% for i in url_parts limit: parent_len %}
+  {% assign parent_len = url_parts | size | minus: 2 %}
+  {% for i in url_parts limit: 1 %}
     {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %}
   {% endfor %}
   {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %}
 {% endif %}
-
 {% for node in site.pages %}
   {% if node.url == parent_url and page.url == node.url %}
     <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>

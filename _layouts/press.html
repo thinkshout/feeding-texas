@@ -12,7 +12,7 @@ calls_to_action:
       </div>
     </div>
   </div>
-  <div class="main sidebar-second">
+  <div class="main">
   	<div class="wrap">
   	  <section class="content">
         <div class="article-body">
@@ -20,27 +20,6 @@ calls_to_action:
           <div class="tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.url }}" data-via="{{ site.twitter_handle }}" data-lang="en" data-text="{{ page.tweet }}">Tweet</a></div>
         </div>
       </section>
-      <aside class="sidebar-second">
-      	{% if page.author %}
-          {% for staff in site.staff %}
-            {% if page.author == staff.id %}
-              <div class="staff-member small">
-                <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
-                <div class="info">
-                	<h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3>
-                	<div class="position">{{ staff.position }}</div>
-                </div>
-              </div>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-        {% if page.tags.size > 0 %}
-          <div class="tags">
-            <span class="tag-label">Filed Under:</span>
-            {{ page.tags | tag_links | join: ", " }}
-          </div>
-        {% endif %}
-      </aside>
     </div>
   </div>
 </div>

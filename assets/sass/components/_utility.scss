@@ -15,13 +15,19 @@
 }
 
 .half {
-  @include span-columns(6,12);
+  @include span-columns(12,12);
   &:nth-child(2n) { @include omega; } // every second item completes a row.
+	@include breakpoint($bp-xxsmall) {
+		@include span-columns(6,12);
+	}
 }
 
 .third {
-  @include span-columns(4,12);
+  @include span-columns(12,12);
   &:nth-child(3n) { @include omega; } // every third item completes a row.
+	@include breakpoint($bp-xxsmall) {
+		@include span-columns(4,12);
+	}
 }
 
 .quarter {

@@ -7,13 +7,24 @@
 {% for node in site.pages %}
   {% assign node_url_parts = node.url | remove_first: "/" | split: "/" %}
   {% assign filename = node_url_parts | last %}
-  {% if node.url contains base_url and filename != "index.html" %}
-    {% if page.url == node.url %}
-      <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+  {% if node.url contains base_url %}
+    {% assign url_parts_size = url_parts | size %}
+    {% assign url_parts_size_plus = url_parts | size | plus: 1 %}
+    {% assign node_url_parts_size = node_url_parts | size %}
+    {% if url_parts_size == 2 %}
+      {% if page.url == node.url and filename != "index.html" %}
+        <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+      {% elsif url_parts_size == node_url_parts_size and filename != "index.html" %}
+        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      {% elsif url_parts_size_plus == node_url_parts_size and filename == "index.html" %}
+        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      {% endif %}
     {% else %}
-      {% assign url_parts_size = url_parts | size %}
-      {% assign node_url_parts_size = node_url_parts | size %}
-      {% if url_parts_size == node_url_parts_size and filename != "index.html" %}
+      {% if page.url == node.url %}
+        <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+      {% elsif url_parts_size == node_url_parts_size %}
+        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      {% elsif url_parts_size_plus == node_url_parts_size %}
         <li><a href="{{ node.url }}">{{ node.title }}</a></li>
       {% endif %}
     {% endif %}

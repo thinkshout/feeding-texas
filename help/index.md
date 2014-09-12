@@ -11,4 +11,4 @@ Input your zip code above to find your local food bank. They will be happy to as
 * Signing up for nutrition benefits like SNAP (food stamps)
 * Connecting to other helpful services
 
-If your zip code is not listed above, please [contact us](about/contact.html) to find your local food bank. 
+If your zip code is not listed above, please [contact us](about/contact.html) to find your local food bank.
