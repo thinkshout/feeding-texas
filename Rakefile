@@ -31,3 +31,8 @@ desc "Generate and publish site to feedingtexas.org on Amazon S3."
 task :publish => [:build] do
   system "s3_website push"
 end
+
+desc "Generate and publish site to stage.feedingtexas.org on Amazon S3."
+task :stage => [:build] do
+  system "s3_website push --config-dir=stage_config"
+end
