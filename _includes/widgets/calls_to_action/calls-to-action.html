@@ -3,9 +3,7 @@
     {% for cta in site.calls-to-action %}
       {% if page.calls_to_action contains cta.id %}
         <div class="cta">
-          <div class="bg-img">
-            <img src="{{ cta.image }}">
-          </div>
+          <div class="bg-img" style="background: url({{ cta.image }}) center center no-repeat;"></div>
           <div class="text">
             <h3>{{ cta.content }}</h3>
             <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
