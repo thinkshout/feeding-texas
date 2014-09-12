@@ -1,5 +1,6 @@
 ---
 layout: page
+custom_class: get-help
 title: Get Help
 banner: banners/banner-04.jpg
 type: help
