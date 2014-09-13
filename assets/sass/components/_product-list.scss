@@ -1,3 +1,12 @@
 .product-list {
 	@extend %item-list;
+  .product-icon {
+    float: right;
+    text-align: center;
+    width: 50%;
+    img {
+      margin-top: 2em;
+      width: 25%;
+    }
+  }
 }

@@ -32,7 +32,9 @@
     {% if product.featured == true %}
       <div class="product teaser" data-type="{{ product.type }}" data-topic="{% for category in product.categories %}{{ category | replace:' ','-' }} {% endfor %}">
         <span class="label">{{ product.type }}</span>
-        <!--<img src="http://placehold.it/450x250&text=Product Type Icon" />-->
+        <div class="product-icon">
+          <img src="{{ site.baseurl }}/assets/images/svg/{{ product.type }}.svg" />
+        </div>
         <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
         <p>{{ product.summary }}</p>
       </div>

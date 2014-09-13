@@ -4,8 +4,8 @@ title: SNAPshot Texas
 zip-widget: true
 banner: solve-locally.jpg
 images:
-  hero: "assets/images/solve-locally.jpg"
-  thumb: "http://placehold.it/450x300&text=THUMB"
+  hero: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/solve-locally.jpg
+  thumb: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/solve-locally.jpg
 subhead: Every Texas community is touched by the struggle to afford enough food.
 summary: |
   Who gets help from SNAP (aka food stamps) in your zip code? How many of your neighbors may need help, but don't receive it? Learn the truth, not the stereotype.
