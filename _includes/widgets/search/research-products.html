@@ -32,9 +32,7 @@
     {% if product.featured == true %}
       <div class="product teaser" data-type="{{ product.type }}" data-topic="{% for category in product.categories %}{{ category | replace:' ','-' }} {% endfor %}">
         <span class="label">{{ product.type }}</span>
-        <div class="product-icon">
-          <img src="{{ site.baseurl }}/assets/images/svg/{{ product.type }}.svg" />
-        </div>
+        {% include widgets/product_icon/product-icon.html %}
         <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
         <p>{{ product.summary }}</p>
       </div>
