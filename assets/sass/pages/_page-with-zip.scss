@@ -1,0 +1,18 @@
+.page-with-zip {
+  .highlighted {
+    .wrap {
+      position: initial;
+      min-height: 425px;
+    }
+  }
+  .page-header {
+    max-height: 6em;
+  }
+
+  .finder {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
