@@ -5,7 +5,7 @@ layout: default
   <div class="highlighted">
   	<div class="wrap">
 	    {% if page.media.image %}
-        <img src="{{ site.baseurl }}/assets/images/products/{{ page.media.image }}">
+        <img src="{{ page.media.image }}">
       {% elsif page.media.map %}
         <iframe width='100%' height='500px' frameBorder='0' src='{{ page.media.map }}'></iframe>
       {% elsif page.media.timeline %}
@@ -25,20 +25,4 @@ layout: default
     </section>
   </div>
 </div>
-{% if page.calls_to_action %}
-  <div class="crosslinks">
-    {% for cta in site.calls-to-action %}
-      {% if page.calls_to_action contains cta.id %}
-        <div class="cta">
-          <div class="bg-img">
-            <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
-          </div>
-          <div class="text">
-            <h3>{{ cta.content }}</h3>
-            <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-{% endif %}
+{% include widgets/calls_to_action/calls-to-action.html %}

@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Home
-banner: banner-01.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-04.jpg
 ---
 <div class="home">
   <div class="splash">
-  	<div class="bg-img" style="background: url({{ site.baseurl }}/assets/images/banners/{{page.banner}}) center center no-repeat;background-size:cover;">
+  	<div class="bg-img" style="background: url({{page.banner}}) center center no-repeat;background-size:cover;">
   	</div>
   	<div class="leadin">
   		<h1>We lead a unified effort for a hunger-free Texas.</h1>
@@ -34,7 +34,7 @@ banner: banner-01.jpg
                 {% for staff in site.staff %}
                   {% if press.author == staff.id %}
                     <div class="staff-member small">
-                      <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
+                      <div class="photo"><img src="{{ staff.image }}"></div>
                       <div class="info">
                       	<h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3>
                       	<p>{{ press.date | date: "%B %-d, %Y"}}</p>

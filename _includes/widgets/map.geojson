@@ -1,3 +1,0 @@
----
----
-{"features":[{"geometry":{"coordinates":[{{ page.location.lat }},{{ page.location.long }}],"type":"Point"}],"id":"foodbankmap","type":"FeatureCollection"}

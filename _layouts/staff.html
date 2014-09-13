@@ -6,7 +6,7 @@ layout: default
   	<div class="wrap">
       <div class="page-header">
       	<div class="photo">
-      		<img src="{{ site.baseurl }}/assets/images/staff/{{ page.image }}">
+      		<img src="{{ page.image }}">
       	</div>
       	<h1 class="page-title">{{ page.name }}</h1>
       	<h3>{{ page.position }}</h3>
@@ -19,36 +19,8 @@ layout: default
       <section class="content intro">
         <p>{{ page.content }}</p>
       </section>
-      <div class="block-grid">
-        {% for employee in site.staff %}
-          <div class="item staff-member">
-          	<a class="link" href="{{ site.baseurl }}{{ employee.url }}">
-          	  <img src="{{ site.baseurl }}/assets/images/staff/{{ employee.image }}" alt="{{ employee.name }}">
-          	  <div class="info">
-          	    <h3><a href="{{ site.baseurl }}{{ employee.url }}">{{ employee.name }}</a></h3>
-                <p>{{ employee.position }}</p>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
+      {% include widgets/staff/staff-list.html %}
     </div>
   </div>
-  {% if page.calls_to_action %}
-    <div class="crosslinks">
-      {% for cta in site.calls-to-action %}
-        {% if page.calls_to_action contains cta.id %}
-          <div class="cta">
-            <div class="bg-img">
-              <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
-            </div>
-            <div class="text">
-              <h3>{{ cta.content }}</h3>
-              <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
+  {% include widgets/calls_to_action/calls-to-action.html %}
 </div>

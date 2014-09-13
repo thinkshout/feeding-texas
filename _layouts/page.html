@@ -4,7 +4,7 @@ layout: default
 <div class="landing">
   <div class="highlighted">
     <div class="wrap">
-      <div class="bg-img" style="background: url({{ site.baseurl }}/assets/images/{{ page.banner }}) center center no-repeat;background-size:cover;">
+      <div class="bg-img" style="background: url({{ page.banner }}) center center no-repeat;background-size:cover;">
       </div>
       <div class="page-header">
         <h1 class="page-title">{{ page.title }}</h1>
@@ -36,8 +36,8 @@ layout: default
   </div>
   <div class="subnav">
     <ul>
-      {% include widgets/parent-page.html %}
-      {% include widgets/subnav.html %}
+      {% include widgets/menu_structure/parent-page.html %}
+      {% include widgets/menu_structure/subnav.html %}
     </ul>
   </div>
   <div class="main no-sidebars">
@@ -95,19 +95,7 @@ layout: default
         {% endif %}
 
         {% if page.type == "staff" %}
-          <div class="block-grid">
-            {% for employee in site.staff %}
-              <div class="item staff-member">
-                <a class="link" href="{{ site.baseurl }}{{ employee.url }}">
-                  <img src="{{ site.baseurl }}/assets/images/staff/{{ employee.image }}" alt="{{ employee.name }}">
-                  <div class="info">
-                    <h3><a href="{{ site.baseurl }}{{ employee.url }}">{{ employee.name }}</a></h3>
-                    <p>{{ employee.position }}</p>
-                  </div>
-                </a>
-              </div>
-            {% endfor %}
-          </div>
+          {% include widgets/staff/staff-list.html %}
         {% endif %}
         {% if page.type == "help" %}
         <div class="donate">
@@ -121,21 +109,5 @@ layout: default
       </div>
     </div>
   </div>
-
-  {% if page.calls_to_action %}
-    <div class="crosslinks">
-      {% for cta in site.calls-to-action %}
-        {% if page.calls_to_action contains cta.id %}
-          <div class="cta">
-            <div class="bg-img" style="background: url({{ site.baseurl }}/assets/images/cta/{{ cta.image }}) center center no-repeat">
-            </div>
-            <div class="text">
-              <h3>{{ cta.content }}</h3>
-              <a class="button primary-btn" href="{{ cta.link }}">{{ cta.button_text }}</a>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-    {% endif %}
+  {% include widgets/calls_to_action/calls-to-action.html %}
 </div>

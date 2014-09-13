@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fiscal Information
-banner: placeholders/banner-02.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 group: about
 calls_to_action:
   - 1

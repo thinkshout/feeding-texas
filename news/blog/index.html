@@ -44,20 +44,4 @@ calls_to_action:
     </div>
   </div>
 </div>
-{% if page.calls_to_action %}
-  <div class="crosslinks">
-    {% for cta in site.calls-to-action %}
-      {% if page.calls_to_action contains cta.id %}
-        <div class="cta">
-          <div class="bg-img">
-            <img src="{{ site.baseurl }}/assets/images/cta/{{ cta.image }}">
-          </div>
-          <div class="text">
-            <h3>{{ cta.content }}</h3>
-            <a class="button primary-btn" href="{{ cta.url }}">{{ cta.button_text }}</a>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-{% endif %}
+{% include widgets/calls_to_action/calls-to-action.html %}

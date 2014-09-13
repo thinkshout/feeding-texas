@@ -3,7 +3,7 @@ layout: landing
 title: A Statewide Response
 subhead: Feeding, Leading, Strengthening until hunger is behind us.
 featured_resource: How do low-income texans get help feeding their children?
-banner: banners/banner-03.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-03.jpg
 featured_statistic:
   stat: 300 million lbs
   key: Of food distributed to over 3 million Texans in 2011

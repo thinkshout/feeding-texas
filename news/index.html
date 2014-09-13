@@ -19,7 +19,7 @@ calls_to_action:
                 {% for staff in site.staff %}
                   {% if press.author == staff.id %}
                     <div class="staff-member small">
-                      <div class="photo"><img src="{{ site.baseurl }}/assets/images/staff/{{ staff.image }}"></div>
+                      <div class="photo"><img src="{{ staff.image }}"></div>
                       <div class="info">
                       	<h3><a href="{{ site.baseurl }}{{ staff.url }}">{{ staff.name }}</a></h3>
                       	<p>{{ press.date | date: "%B %-d, %Y"}}</p>
@@ -46,26 +46,7 @@ calls_to_action:
           {% for product in site.products %}
             {% if product.featured == true %}
             <li>
-              <div class="product-icon">
-              {% case product.type %}
-              {% when "data" %}
-                <img src="{{ site.baseurl}}/assets/images/svg/dataset.svg" alt="Database server icon" />
-              {% when "report" %}
-                <img src="{{ site.baseurl}}/assets/images/svg/report.svg" alt="Document icon" />
-              {% when "issue backgrounder" %}
-                <img src="{{ site.baseurl}}/assets/images/svg/backgrounder.svg" alt="Timeline with chat bubble icon" />
-              {% when "academic research" %}
-                <img src="{{ site.baseurl}}/assets/images/svg/academic.svg" alt="Book icon with tassel" />
-              {% when "partner report" %}
-                <img src="{{ site.baseurl}}/assets/images/svg/partner_report.svg" alt="Document icon with a letter P" />
-              {% when "legislative analysis" %}
-                <img src="{{ site.baseurl}}/assets/images/svg/legislative.svg" alt="Government building icon" />
-              {% when "policy proposal" %}
-                <img src="{{ site.baseurl}}/assets/images/svg/policy.svg" alt="Document with gavel icon" />
-              {% else %}
-                <img src="{{ site.baseurl}}/assets/images/svg/report.svg" alt="Document icon" />
-              {% endcase %}
-              </div>
+              {% include widgets/product_icon/product-icon.html %}
               <div class="flex-caption">
                 <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
                 <p>{{ product.summary }}</p>
@@ -86,7 +67,7 @@ calls_to_action:
         {% for post in site.posts %}
           <article>
             <div class="hero">
-              <img src="http://placehold.it/450x200">
+              <img src="{{ post.images.thumb }}">
             </div>
             <div class="leadin">
               <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -111,21 +92,5 @@ calls_to_action:
       </aside>
     </div>
   </div>
-
-  {% if page.calls_to_action %}
-    <div class="crosslinks">
-      {% for cta in site.calls-to-action %}
-        {% if page.calls_to_action contains cta.id %}
-          <div class="cta">
-            <div class="bg-img" style="background: url({{ site.baseurl }}/assets/images/cta/{{ cta.image }}) center center no-repeat">
-            </div>
-            <div class="text">
-              <h3>{{ cta.content }}</h3>
-              <a class="button primary-btn" href="{{ cta.link }}">{{ cta.button_text }}</a>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
+  {% include widgets/calls_to_action/calls-to-action.html %}
 </div>
