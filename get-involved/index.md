@@ -2,7 +2,7 @@
 layout: page
 title: Hunger Doesn't Belong Here
 subhead: Help us create a hunger-free Texas.
-banner: banners/banner-04.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-04.jpg
 featured_resource: How do low-income texans get help feeding their children?
 featured_statistic:
   stat: 300 million lbs

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Get Help
-banner: banners/banner-04.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-04.jpg
 type: help
 zip-widget: true
 ---

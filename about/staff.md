@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our Staff
-banner: placeholders/banner-02.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 group: about
 type: staff
 calls_to_action:
