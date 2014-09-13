@@ -7,7 +7,7 @@ summary: |
 primary_cta:
   button_text: Learn About Hunger In Texas
   url: work 
-banner: strengthening-response.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/strengthening-response.jpg
 featured_statistic:
   stat: 1 in 5
   key: Texas families experienced food insecurity in 2010-2012
