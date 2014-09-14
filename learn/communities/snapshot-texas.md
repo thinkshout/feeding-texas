@@ -2,7 +2,7 @@
 layout: page
 title: SNAPshot Texas
 zip-widget: true
-banner: solve-locally.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/solve-locally.jpg
 images:
   hero: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/solve-locally.jpg
   thumb: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/solve-locally.jpg
