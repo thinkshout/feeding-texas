@@ -6,13 +6,8 @@ summary: |
   Learn the history of SNAP (aka food stamps) in Texas.
 media:
   timeline: http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AqYrFZOhs5HLdGo4a1dXSmdocS1ORC1DY0FWaTNYVWc&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650
-download:
-  title: PDF
-  file: /assets/docs/Child_Food_Sources.pdf
-date: 2014-09-05
+date: 2014-09-14
 categories:
-  - children
-featured: true
+  - SNAP
+featured: false
 ---
-
-This infographic represents the total meals required to provide three meals per day, year‐round to every child living in a low‐income Texas household (below 185% of the poverty line). The colored portions on the plate represent the proportion of meals met by federal nutrition programs and the times of year when these programs are available. The uncovered portion of the plate represents meals that must be found elsewhere. Programs like SNAP, Summer Meals and After‐School Meals are widely underutilized, and could reach many more children than they do currently.
