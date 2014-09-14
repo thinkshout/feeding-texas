@@ -3,7 +3,7 @@ layout: landing
 title: About Us
 subhead: 
 featured_resource: How do low-income texans get help feeding their children?
-banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-05.jpg
 featured_statistic:
   stat: 1 in 5
   key: Texas families experienced food insecurity in 2010-2012
