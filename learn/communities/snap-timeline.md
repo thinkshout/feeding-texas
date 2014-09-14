@@ -15,4 +15,4 @@ calls_to_action:
   - 1
   - 2
 ---
-<iframe src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AqYrFZOhs5HLdGo4a1dXSmdocS1ORC1DY0FWaTNYVWc&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650" height="635" width="100%" frameborder="0"></iframe>
+<iframe src="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AqYrFZOhs5HLdGo4a1dXSmdocS1ORC1DY0FWaTNYVWc&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650" height="625" width="100%" frameborder="0"></iframe>
