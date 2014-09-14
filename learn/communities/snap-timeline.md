@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SNAP Timeline
-subhead: Every Texas community is touched by the struggle to afford enough food.
+subhead: Learn about the history of SNAP (aka food stamps) in Texas
 summary: |
 featured_resource: How do low-income texans get help feeding their children?
 primary_cta:
