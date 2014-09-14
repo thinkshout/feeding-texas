@@ -20,4 +20,4 @@ calls_to_action:
 group: learn
 type: communities
 ---
-Use the data tools above to explore how hunger impacts your community, and where your help will make the biggest difference. 
+Every corner of Texas is touched by the struggle to afford enough food. Use the data tools above to explore how hunger impacts your community, and where your help will make the biggest difference. 
