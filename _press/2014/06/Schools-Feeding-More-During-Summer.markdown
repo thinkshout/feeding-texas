@@ -5,7 +5,7 @@ pullquote: We still only reach a small portion of those who need food during the
 attribution: Celia Cole
 tweet: Report - Schools feeding more hungry children during summer months
 date: 2014-06-02
-tags:
+categories:
   - Child Hunger
   - Schools
   - Summer Meals

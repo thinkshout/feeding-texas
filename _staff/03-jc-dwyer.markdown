@@ -2,6 +2,7 @@
 layout: staff
 id: 2
 name: JC Dwyer
+email: jcdwyer@feedingtexas.org
 position: Senior Director of Policy and Communications
 image: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/staff/jc-dwyer.JPG
 ---
