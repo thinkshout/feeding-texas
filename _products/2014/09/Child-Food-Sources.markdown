@@ -8,7 +8,7 @@ media:
   image: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/when-where-do-texans-get-help.png
 download:
   title: PDF
-  file: /assets/docs/Child_Food_Sources.pdf
+  file: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Child_Food_Sources.pdf
 date: 2014-09-05
 categories:
   - children
