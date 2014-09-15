@@ -266,6 +266,7 @@ $(function() {
           </div>
         </div>
       </section>
+      {% if page.data.totalSnapRecipients < page.data.totalIncomeEligibleIndividuals %}
       <section id="eligibility">
         <h2 class="section-header"><span>In this zip code: </span></h2>
         <div id="ageEligibility" class="row">
@@ -320,6 +321,7 @@ $(function() {
           </div>
         </div>
       </section>
+      {% endif %}
       <section id="demographics" class="row">
         <h2 class="section-header"><span>Who gets help from SNAP?</span></h2>
         <div class="half">
