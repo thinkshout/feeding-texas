@@ -10,7 +10,7 @@ featured_statistic:
   stat: 1 in 5
   key: Texas families experienced food insecurity in 2010-2012
 intro: |
-  Feeding Texas helps millions of hungry Texans move toward food security. Our statewide network of food banks and programs target the most vulnerable in every Texas county, especially children and elders. Last year, our food banks distributed over 300 million pounds of food to local communities through a partner network of over 3,000, largely faith-based charities.
+  Feeding Texas helps millions of hungry Texans move toward food security. Our statewide network of food banks and programs target the most vulnerable in every Texas county, especially children and elders. Last year, our food banks distributed over 360 million pounds of food to local communities through a partner network of over 3,000, largely faith-based charities.
   link: 
 calls_to_action:
   - 1
