@@ -1,7 +1,7 @@
 ---
 layout: product
 type: policy proposal
-title: Public Testimony to Texas Senate Finance Committee
+title: Public Testimony regarding Texans Feeding Texans funding
 summary: |
   Testimony in support of Texas Department of Agriculture Surplus Agricultural Grant Program rider request.
 download:
