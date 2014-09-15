@@ -2,7 +2,7 @@
 layout: page
 custom_class: page-with-zip
 title: Get Help
-banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-04.jpg
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-01.jpg
 type: help
 zip-widget: true
 ---
