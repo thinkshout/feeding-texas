@@ -23,9 +23,9 @@ Texas is blessed with ample agricultural and economic resources. We have more th
 
 Feeding Texas leads the conversation to solve hunger in Texas with our words and actions. We help decision-makers craft effective public policies, pioneer programs that empower struggling families, and increase our understanding of hunger through original research and the voices of struggling Texans themselves.
 
-**Strengthening Public Structures**
+**Strengthening the Public Response**
 
-We inform and mobilize advocates and decision-makers at the state and federal levels to ensure that our public investments in food security remain strong and effective. 
+We inform and mobilize advocates and decision-makers at the state and federal levels to ensure that our public investments in nutrition and food security remain strong and effective. 
 
 We offer front-line expertise and unique perspective by providing public testimony, educating individual legislators and organizing our partners and allies across the state.
 
@@ -33,7 +33,7 @@ We offer front-line expertise and unique perspective by providing public testimo
 
 Food banks can't do it all. The causes and consequences of hunger are complex, so we collaborate with partners that can help our clients move from hunger to health, and from financial insecurity to stability. 
 
-Feeding Texas leads the way with an innovative, statewide Americorp*VISTA program that develops connections between food banks and local providers of health and financial empowerment services.
+Feeding Texas leads the way with an innovative, statewide Americorp*VISTA "Client Empowerment Corps" that develops connections between food banks and local providers of health and financial empowerment services. [Learn more about this program.](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/VISTA-Concept-Paper.pdf)
 
 **Raising the Voices that Matter**
 
