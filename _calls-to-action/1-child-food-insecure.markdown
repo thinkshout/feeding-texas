@@ -5,4 +5,4 @@ link: http://feedingtexas.org.s3-website-us-east-1.amazonaws.com/learn/communiti
 image: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/CTA/children.jpg
 ---
 
-1.9 million Texas kids live in food insecure homes
+1.9M Texas kids live in food insecure homes
