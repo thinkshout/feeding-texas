@@ -24,7 +24,7 @@ module Jekyll
       self.process(@name)
       # Read the YAML data from the layout page.
       self.read_yaml(File.join(base, '_layouts'), 'tag_feed.xml')
-      self.data['tag']    = tag
+      self.data['tag'] = tag
       # Set the title for this page.
       tag_title_prefix = site.config['tag_title_prefix'] || 'Posts Tagged &ldquo;'
       tag_title_suffix = site.config['tag_title_suffix'] || '&rdquo;'
@@ -41,6 +41,26 @@ module Jekyll
     def generate(site)
       if site.layouts.key? 'tag_index'
         dir = site.config['tag_dir'] || 'tag'
+        site.collections.each do |collection|
+          collection[1].docs.each do |doc|
+            if doc.data['tags']
+              new_tags = Hash.new
+              doc.data['tags'].each do |tag|
+                new_tags[tag] = doc
+              end
+              new_tags.each do |key, value|
+                if site.tags[key]
+                  site.tags[key] = site.tags[key].push(value)
+                else
+                  site.tags[key] = [value]
+                end
+              end
+              # site.tags.merge!(new_tags) do |key, v1, v2|
+              #   v1 + v2
+              # end
+            end
+          end
+        end
         site.tags.keys.each do |tag|
           path = File.join(dir, friendly_tag(tag))
           write_tag_index(site, path, tag)
