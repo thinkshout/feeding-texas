@@ -5,7 +5,7 @@ pullquote: This farm bill must be the last time that hungry Americans are made t
 attribution: Celia Cole
 tweet: Our Statement on Farm Bill Cutting $8.6B from SNAP
 date: 2014-01-29
-tags:
+categories:
   - Farm Bill
   - SNAP
   - Congress
