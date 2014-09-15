@@ -22,7 +22,7 @@ Feeding Texas works to raise the bar in the hunger-fighting community by creatin
 
 **Raising the Standard**
 
-Feeding Texas is committed to spreading common-sense metrics for the quantity and quality of services we provide struggling Texans. Targets such as the "Texas One Goal" - a committment to distribute an additional one billion pounds of food statewide by 2018 - help our fook banks keep the goalposts in sight as they focus on crafting local solutions.
+Feeding Texas is committed to spreading common-sense metrics for the quantity and quality of services we provide struggling Texans. Targets such as the "Texas One Goal" - a commitment to distribute an additional 390 million pounds of food statewide by 2018 - help our fook banks keep the goalposts in sight as they focus on crafting local solutions.
 
 **Answers Among Us**
 
