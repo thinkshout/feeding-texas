@@ -1,0 +1,11 @@
+{% for product in site.products %}
+  {% if product.featured == true %}
+  <li>
+    {% include widgets/product_icon/product-icon.html %}
+    <div class="flex-caption">
+      <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
+      <p>{{ product.summary }}</p>
+    </div>
+  </li>
+  {% endif %}
+{% endfor %}

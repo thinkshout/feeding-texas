@@ -1,6 +1,7 @@
 ---
 layout: page
 title: SNAPshot Texas
+custom_class: page-with-zip
 zip-widget: true
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/solve-locally.jpg
 subhead: Every Texas community is touched by the struggle to afford enough food.

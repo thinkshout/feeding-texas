@@ -2,6 +2,8 @@
 .finder {
   max-width: 350px;
   margin: 2em auto;
+  position: relative;
+  text-align: center;
   h3 {
     color: $white;
     font-size: 1.8em;
@@ -22,6 +24,30 @@
       line-height: 1em;
       font-size: 0.875em;
       @include primary-btn;
+    }
+  }
+
+  .chosen-container-single {
+    display: block;
+    margin: 0 auto;
+    @include box-shadow(0 3px 10px $black);
+    .chosen-single {
+      background: $white;
+      border: none;
+      border-radius: 0;
+      padding: 0.3em 0;
+
+      // Select box triangle
+      div {
+        margin-top: 4px;
+      }
+    }
+    .chosen-drop {
+      border: none;
+      border-radius: 0;
+    }
+    .chosen-results li.highlighted {
+      background: $orange;
     }
   }
 }

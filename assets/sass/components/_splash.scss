@@ -69,25 +69,5 @@
     }
   }
 
-  .chosen-container-single {
-    @include box-shadow(0 3px 10px $black);
-    .chosen-single {
-      background: $white;
-      border: none;
-      border-radius: 0;
-      padding: 0.3em 0;
-
-      // Select box triangle
-      div {
-        margin-top: 4px;
-      }
-    }
-    .chosen-drop {
-      border: none;
-      border-radius: 0;
-    }
-    .chosen-results li.highlighted {
-      background: $orange;
-    }
-  }
+  
 }

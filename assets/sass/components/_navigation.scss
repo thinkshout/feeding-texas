@@ -165,6 +165,10 @@
           color: $beige;
 				}
 			}
+      &:first-child {
+        // background: darken($lgtBrown, 2);
+        background: #43372F;
+      }
 			&:last-child {
         border-bottom: 0;
 			}

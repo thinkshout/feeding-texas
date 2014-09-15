@@ -29,13 +29,11 @@
 
 <div class="product-list">
   {% for product in site.products %}
-    {% if product.featured == true %}
-      <div class="product teaser" data-type="{{ product.type }}" data-topic="{% for category in product.categories %}{{ category | replace:' ','-' }} {% endfor %}">
-        <span class="label">{{ product.type }}</span>
-        {% include widgets/product_icon/product-icon.html %}
-        <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
-        <p>{{ product.summary }}</p>
-      </div>
-    {% endif %}
+    <div class="product teaser" data-type="{{ product.type }}" data-topic="{% for category in product.categories %}{{ category | replace:' ','-' }} {% endfor %}">
+      <span class="label">{{ product.type }}</span>
+      {% include widgets/product_icon/product-icon.html %}
+      <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
+      <p>{{ product.summary }}</p>
+    </div>
   {% endfor %}
 </div>
