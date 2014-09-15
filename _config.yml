@@ -16,7 +16,7 @@ permalink: /blog/:year/:month/:title
 
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bowerrc', 'config.rb', 'assets/sass', 's3_website*.yml', 'stage_config', 'Gruntfile.js', 'node_modules', 'Procfile', 'npm-debug.log']
 
-\# Team directory used by the data_to_pages plugin.
+# Team directory used by the data_to_pages plugin.
 location_dir: 'locations'
 # contact_redirect: 'thanks'
 tag_dir: 'category'
