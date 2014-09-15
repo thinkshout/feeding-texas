@@ -95,15 +95,15 @@ $(document).ready(function(){
       for (var i=0; i<products.length; i++) {
 
         // If type and topic match an item
-        if ($(products[i]).data("topic").indexOf(topic) !== -1 && $(products[i]).data("type").indexOf(type) !== -1) {
+        if ($(products[i]).data("topic").toLowerCase().indexOf(topic) !== -1 && $(products[i]).data("type").toLowerCase().indexOf(type) !== -1) {
           $(products[i]).fadeIn();
 
           // If only topic matches an item
-        } else if ( type === "all" && $(products[i]).data("topic").indexOf(topic) !== -1) {
+        } else if ( type === "all" && $(products[i]).data("topic").toLowerCase().indexOf(topic) !== -1) {
           $(products[i]).fadeIn();
 
           // If only type matches an item
-        } else if ($(products[i]).data("type").indexOf(type) !== -1 && topic === "all") {
+        } else if ($(products[i]).data("type").toLowerCase().indexOf(type) !== -1 && topic === "all") {
           $(products[i]).fadeIn();
 
           // Hide items we don't need

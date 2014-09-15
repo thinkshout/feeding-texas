@@ -14,7 +14,7 @@ twitter_handle: TexansVsHunger
 # Permalink Configuration
 permalink: /blog/:year/:month/:title
 
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bowerrc', 'config.rb', 'sass', 's3_website*.yml', 'Gruntfile.js', 'node_modules', 'Procfile']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bowerrc', 'config.rb', 'assets/sass', 's3_website*.yml', 'Gruntfile.js', 'node_modules', 'Procfile']
 
 # Team directory used by the data_to_pages plugin.
 location_dir: 'locations'
