@@ -1,6 +1,6 @@
 ---
 layout: product
-type: report
+type: issue backgrounder
 title: SNAP Timeline
 summary: |
   Learn the history of SNAP (aka food stamps) in Texas.
@@ -9,7 +9,7 @@ media:
 date: 2014-09-14
 categories:
   - SNAP
-featured: false
+featured: true
 ---
 
 Learn the history of SNAP (aka food stamps) in Texas by browsing this timeline of the nation's largest nutrition program.
