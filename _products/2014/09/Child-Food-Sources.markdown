@@ -5,7 +5,7 @@ title: How do Texans get help feeding their children?
 summary: |
   This infographic represents the total meals required to provide three meals per day, year‐round to every child living in a low‐income Texas household.
 download:
-  title: PDF
+  title: Download PDF
   file: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Child_Food_Sources.pdf
 date: 2014-09-05
 categories:
