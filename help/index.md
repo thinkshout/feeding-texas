@@ -5,6 +5,9 @@ title: Get Help
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-01.jpg
 type: help
 zip-widget: true
+calls_to_action:
+  - 1
+  - 2
 ---
 Input your zip code above to find your local food bank. They will be happy to help you:
 
