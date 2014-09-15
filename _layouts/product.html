@@ -19,7 +19,7 @@ layout: default
 	  <section class="content">
       <h2>{{ page.title }}</h2>
       {% if page.download %}
-      <a href="{{ site.baseurl }}/assets/docs/{{ page.download.file }}">{{ page.download.title }}</a>
+      <a href="{{ page.download.file }}">{{ page.download.title }}</a>
       {{ content }}
       {% endif %}
     </section>
