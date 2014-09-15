@@ -14,3 +14,5 @@ calls_to_action:
   - 1
   - 2
 ---
+![alt text](	
+https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/food-bank-map.png "Feeding Texas Coverage Map")
