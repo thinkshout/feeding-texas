@@ -21,7 +21,8 @@ calls_to_action:
   <div class="main sidebar-second">
   	<div class="wrap">
       <section class="content">
-        {% for press in site.press %}
+        {% assign chron_press = site.press | sort: 'date' | reversed %}
+        {% for press in chron_press reversed %}
           <article class="teaser press">
             <h2>
               <a href="{{ site.baseurl }}{{ press.url }}">{{ press.title }}</a>

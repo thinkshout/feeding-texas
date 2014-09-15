@@ -10,7 +10,7 @@ featured_statistic:
   stat: 1 in 5
   key: Texas families experienced food insecurity in 2010-2012
 intro: |
-  Feeding Texas helps millions of hungry Texans move toward food security. Our statewide network of food banks and programs target the most vulnerable in every Texas county, especially children and elders. Last year, our food banks distributed over 300 million pounds of food to local communities through a partner network of over 3,000, largely faith-based charities.
+  Feeding Texas helps millions of hungry Texans move toward food security. Our statewide network of food banks and programs target the most vulnerable in every Texas county, especially children and elders. Last year, our food banks distributed over 360 million pounds of food to local communities through a partner network of over 3,000, largely faith-based charities.
   link: 
 calls_to_action:
   - 1
@@ -20,13 +20,13 @@ type: programs
 ---
 Since the 1970s, food banks have provided the primary charitable response to hunger in America. Twenty-one Feeding Texas food banks currently serve every Texas county through a network of over 3,000 local partners.
 
-Our food banks act as regional hubs for charitable food and related services across Texas. We receive support from individuals, service organizations, businesses and public structures. In addition to feeding the hungry, our food banks work to promote healthy eating, minimize food waste, and address the causes and consequences of food insecurity.
+Our food banks act as regional hubs for charitable food and related services across Texas. We receive support from individuals, service organizations, businesses and government. In addition to feeding the hungry, our food banks work to promote healthy eating, minimize food waste, and address the causes and consequences of food insecurity.
 
 **Food in the Right Place, at the Right Time**
 
 Food bankers are masters of logistics. Our warehouses, trucks and tracking systems ensure that struggling families in every Texas county have access to a safe, nutritious supply of charitable food when they need it most. 
 
-Every year, our food banks move over 300 million lbs of food. Feeding Texas meets the challenges of relying on donated food by coordinating relationships with Texas growers and truckers, developing statewide funding opportunities and advocating for public resources equal to the need.
+Every year, our food banks move 360 million pounds of food. Feeding Texas meets the challenges of relying on donated food by coordinating relationships with Texas growers and truckers, developing statewide funding opportunities and advocating for public resources equal to the need.
 
 **Feeding with Impact**
 

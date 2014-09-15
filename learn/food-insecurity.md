@@ -23,7 +23,7 @@ group: learn
 
 Hunger is a familiar physical sensation, but can be hard to measure in a large population. Food insecurity offers an accepted method for measuring food deprivation.   
 
-The USDA defines food insecurity as a state in which “consistent access to adequate food is limited by a lack of money and other resources at times during the year.” Good shorthand terms for food insecurity are “struggling to avoid hunger,” “hungry, or at risk of hunger,” and “hungry, or faced the threat of hunger.”
+The USDA defines food insecurity as a state in which “consistent access to adequate food is limited by a lack of money and other resources at times during the year.” Good shorthand terms for food insecurity are “struggling to avoid hunger,” “hungry, or at risk of hunger,” and “hungry, or faced by the threat of hunger.”
 
 ## How many Texans are food insecure?
 

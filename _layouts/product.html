@@ -9,7 +9,7 @@ layout: default
       {% elsif page.media.map %}
         <iframe width='100%' height='500px' frameBorder='0' src='{{ page.media.map }}'></iframe>
       {% elsif page.media.timeline %}
-        <iframe src='{{ page.media.timeline }}' width='100%' height='650' frameborder='0'></iframe>
+        <iframe src='{{ page.media.timeline }}' width='100%' height='700' frameborder='0'></iframe>
       {% endif %}
     </div>
   </div>
@@ -19,7 +19,7 @@ layout: default
 	  <section class="content">
       <h2>{{ page.title }}</h2>
       {% if page.download %}
-      <a href="{{ site.baseurl }}/assets/docs/{{ page.download.file }}">{{ page.download.title }}</a>
+      <a href="{{ page.download.file }}">{{ page.download.title }}</a>
       {{ content }}
       {% endif %}
     </section>

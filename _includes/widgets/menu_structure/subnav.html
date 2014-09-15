@@ -1,3 +1,32 @@
+<!-- Get parent page -->
+{%assign url_parts = page.url | remove_first: "/" | split: "/"%}
+{% assign url_parts_size = url_parts | size %}
+<!-- if we're on a top level page, parent is index in same level of directory hierarchy -->
+{% if url_parts_size == 2 %}
+  {% assign parent_len = url_parts | size | minus: 1 %}
+  {% for i in url_parts limit: parent_len %}
+    {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %}
+  {% endfor %}
+  {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %}
+<!-- if we're on any page below the first level in the directory hierarchy, the parent page is index of parent directory in hierarchy -->
+{% else %}
+  {% assign parent_len = url_parts | size | minus: 2 %}
+  {% for i in url_parts limit: 1 %}
+    {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %}
+  {% endfor %}
+  {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %}
+{% endif %}
+
+{% assign menu_items = '' %}
+{% for node in site.pages %}
+  {% if node.url == parent_url and page.url == node.url %}
+    {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
+  {% elsif node.url == parent_url %}
+    {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
+  {% endif %}
+{% endfor %}
+
+<!-- Get child pages -->
 {% assign url_parts = page.url | remove_first: "/" | split: "/" %}
 {% assign len = url_parts | size | minus: 1 %}
 {% for i in url_parts limit: len %}
@@ -13,20 +42,43 @@
     {% assign node_url_parts_size = node_url_parts | size %}
     {% if url_parts_size == 2 %}
       {% if page.url == node.url and filename != "index.html" %}
-        <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
       {% elsif url_parts_size == node_url_parts_size and filename != "index.html" %}
-        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
       {% elsif url_parts_size_plus == node_url_parts_size and filename == "index.html" %}
-        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
       {% endif %}
     {% else %}
       {% if page.url == node.url %}
-        <li class="active"><a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a></li>
+        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
       {% elsif url_parts_size == node_url_parts_size %}
-        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
       {% elsif url_parts_size_plus == node_url_parts_size %}
-        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
       {% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}
+
+{% assign output = menu_items | split: '|' %}
+{% assign output_size = output | size %}
+{% if output_size > 2 %}
+  {% assign count = '1' %}
+  <div class="subnav">
+    <ul>
+  {% for node in output %}
+    {% if count > '1' %}
+      {% assign item = node | split: ',' %}
+      {% assign node_url = item | last %}
+      {% assign node_title = item | first %}
+      {% if page.url == node_url%}
+      <li class="active"><a href="{{ site.baseurl }}{{ node_url }}" class="active">{{ node_title }}</a></li>
+      {% else %}
+      <li><a href="{{ site.baseurl }}{{ node_url }}">{{ node_title }}</a></li>
+      {% endif %}
+    {% endif %}
+    {% capture count %}{{ count = count | plus: '1'}}{% endcapture %}
+  {% endfor %}
+    </ul>
+  </div>
+{% endif %}
