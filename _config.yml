@@ -9,7 +9,7 @@ baseurl: ''
 port: 4003
 # url:
 
-twitter_handle: TexansVsHunger
+twitter_handle: FeedingTexas
 
 # Permalink Configuration
 permalink: /blog/:year/:month/:title
