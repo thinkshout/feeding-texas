@@ -10,11 +10,7 @@ calls_to_action:
     <div class="wrap">
       <div class="page-header">
         <h1 class="page-title">{{ page.title }}</h1>
-        <form class="sign-up-action" action="{{site.baseurl}}/news/sign-up.html" method="GET">
-          <h2>Subscribe to our mailing list</h2>
-          <input type="text" name="email" placeholder="Enter email">
-          <button type="submit" class="button primary-btn">Sign Up</button>
-        </form>
+        {% include widgets/email_signup/press-signup.html %}
       </div>
     </div>
   </div>
