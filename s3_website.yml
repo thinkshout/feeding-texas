@@ -5,7 +5,7 @@ s3_id: <%= ENV['S3_ID'] %>
 s3_secret: <%= ENV['S3_SECRET'] %>
 
 # Amazon s3 bucket name.
-s3_bucket: feedingtexas.org
+s3_bucket: www.feedingtexas.org
 
 # s3 endpoint region. Note we're using the Northern Virginia based server
 # since we're not using a CDN.
