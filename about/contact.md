@@ -6,6 +6,7 @@ group: about
 calls_to_action:
   - 1
   - 2
+permalink: /about/contact/
 ---
 **Mailing Address:**   
 Feeding Texas   

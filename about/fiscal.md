@@ -6,6 +6,7 @@ group: about
 calls_to_action:
   - 1
   - 2
+permalink: /about/fiscal/
 ---
 Feeding Texas is a 501(c)3 nonprofit organization recognized by the State of Texas and the Internal Revenue Service. 
 

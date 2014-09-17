@@ -6,6 +6,7 @@ group: about
 calls_to_action:
   - 1
   - 2
+permalink: /about/board/
 ---
 ![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Feeding_Texas_Board.jpg "The Feeding Texas Board")
 
