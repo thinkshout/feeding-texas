@@ -8,6 +8,7 @@ zip-widget: true
 calls_to_action:
   - 1
   - 2
+permalink: /help/
 ---
 Input your zip code above to find your local food bank. They will be happy to help you:
 

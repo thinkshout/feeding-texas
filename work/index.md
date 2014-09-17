@@ -20,4 +20,5 @@ attachments:
 calls_to_action:
   - 1
   - 2
+permalink: /work/
 ---
