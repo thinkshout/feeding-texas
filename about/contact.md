@@ -20,4 +20,4 @@ Austin, TX 78704
 **Fax:**   
 512-382-9742
 
-See [staff profiles](staff.html) for individual staff contact emails.
+See [staff profiles](/about/staff) for individual staff contact emails.
