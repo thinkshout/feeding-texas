@@ -11,12 +11,13 @@ intro: |
 calls_to_action:
   - 1
   - 2
+permalink: /get-involved/
 ---
 We have the resources and knowledge to ensure that hard-working Texans have the fuel they need to succeed and move forward - but only if we work together. Help us kick hunger out of Texas!
 
 **1. Stay Engaged**
 
-Make sure you receive our in-depth monthly newsletter, breaking advocacy alerts, and exciting opportunities to fight hunger in your community. We will respect your information, and your inbox. [Sign up here.](/news/sign-up.html)
+Make sure you receive our in-depth monthly newsletter, breaking advocacy alerts, and exciting opportunities to fight hunger in your community. We will respect your information, and your inbox. [Sign up here.](/news/sign-up/)
 
 **2. Share Your Story**
 

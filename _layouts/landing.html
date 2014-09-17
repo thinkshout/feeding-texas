@@ -41,71 +41,31 @@ layout: default
   </div>
   <div class="content-bottom">
     <div class="wrap">
-      {% assign url_parts = page.url %}
-      {% if url_parts contains "learn" %}
-        {% for subpage in site.pages %}
-          {% if subpage.group == "learn" %}
-          <section>
-          	<div class="hero">
-          		<img src="{{ subpage.banner }}">
-          	</div>
-          	<div class="lead">
-          		<h2 class="page-title"><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a><span class="divider"></span></h2>
-          		<p>{{ subpage.summary }}
-          	</div>
-          </section>
+      {% assign url_parts = page.url | remove_first: '/' | remove: 'index.html' | split: '/' %}
+      {% assign url_parts_size = url_parts | size %}
+      {% assign len = url_parts_size %}
+      {% assign base_url = '' %}      
+      {% for i in url_parts limit: len %}
+        {% capture base_url %}{{ base_url | append: "/" | append: i }}{% endcapture %}
+      {% endfor %}
+      {% for node in site.pages %}
+        {% assign node_url_parts = node.url | remove_first: '/' | remove: 'index.html' | split: '/' %}
+        {% if node.url contains base_url %}
+          {% assign node_url_parts_size = node_url_parts | size %}
+          {% assign len = url_parts_size | plus: 1 %}
+          {% if node_url_parts_size == len %}
+            <section>
+              <div class="hero">
+                <img src="{{ node.banner }}">
+              </div>
+              <div class="lead">
+                <h2 class="page-title"><a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a><span class="divider"></span></h2>
+                <p>{{ node.summary }}
+              </div>
+            </section>
           {% endif %}
-        {% endfor %}
-      {% endif %}
-
-      {% if url_parts contains "work" %}
-        {% for subpage in site.pages %}
-          {% if subpage.group == "work" %}
-          <section>
-          	<div class="hero">
-          		<img src="{{ subpage.banner }}">
-          	</div>
-          	<div class="lead">
-          		<h2 class="page-title"><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a><span class="divider"></span></h2>
-          		<p>{{ subpage.summary }}
-          	</div>
-          </section>
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-
-      {% if url_parts contains "get-involved" %}
-        {% for subpage in site.pages %}
-          {% if subpage.group == "get-involved" %}
-          <section>
-          	<div class="hero">
-          		<img src="{{ subpage.banner }}">
-          	</div>
-          	<div class="lead">
-          		<h2 class="page-title"><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a><span class="divider"></span></h2>
-          		<p>{{ subpage.summary }}
-          	</div>
-          </section>
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-
-      {% if url_parts contains "communities" %}
-        {% for subpage in site.pages %}
-          {% if subpage.group == "communities" %}
-          <section>
-          	<div class="hero">
-          		<img src="{{ subpage.banner }}">
-          	</div>
-          	<div class="lead">
-          		<h2 class="page-title"><a href="{{ site.baseurl }}{{ subpage.url }}">{{ subpage.title }}</a><span class="divider"></span></h2>
-          		<p>{{ subpage.summary }}</p>
-          	</div>
-          </section>
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
   {% include widgets/calls_to_action/calls-to-action.html %}

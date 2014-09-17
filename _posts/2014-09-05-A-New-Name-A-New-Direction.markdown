@@ -23,4 +23,4 @@ Feeding Texas represents the next step in our evolution as a leader among all Te
 
 Why? Because hunger is only solvable if we act together. Texas is blessed with ample agricultural and economic resources. We have the knowledge necessary to create a hunger-free state. Families, charities, businesses and government all have a role to play. Feeding Texas is here to identify and nurture those opportunities to collaborate. 
 
-Feeding Texas is leading the way to a hunger-free Texas!  Please join the Texas anti-hunger community by [signing up for regular updates and action alerts](/news/sign-up.html).
+Feeding Texas is leading the way to a hunger-free Texas!  Please join the Texas anti-hunger community by [signing up for regular updates and action alerts](/news/sign-up/).

@@ -17,6 +17,7 @@ calls_to_action:
   - 1
   - 2
 group: work
+permalink: /work/strengthening-our-response/
 ---
 Feeding Texas works to raise the bar in the hunger-fighting community by creating pathways for innovation, spaces for collaboration and shared standards. We intend to keep improving until hunger is behind us.
 

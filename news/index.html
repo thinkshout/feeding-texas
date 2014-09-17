@@ -4,6 +4,7 @@ title: News
 calls_to_action:
   - 1
   - 2
+permalink: /news/
 ---
 <div class="latest-work">
   <div class="highlighted">
@@ -32,7 +33,7 @@ calls_to_action:
             </article>
             {% endif %}
           {% endfor %}
-          <a class="view-all" href="{{ site.baseurl }}/news/press/"><span>View All</span></a>
+          <a class="view-all" href="{{ site.baseurl }}/news/press/"><span>View All Press</span></a>
         </div>
       </section>
     </div>
@@ -56,7 +57,7 @@ calls_to_action:
           {% endfor %}
         </ul>
       </div>
-      <a href="{{ site.baseurl }}/learn/research.html">View All</a>
+      <a class="view-all" href="{{ site.baseurl }}/learn/research.html"><span>View All Research</span></a>
     </div>
   </div>
 
@@ -80,7 +81,7 @@ calls_to_action:
         <br /><br /><br /><br />
       </section>
       <aside class="sidebar-second">
-        <form class="sign-up-action" action="sign-up.html" method="GET">
+        <form class="sign-up-action" action="sign-up/" method="GET">
           <h2>Subscribe to our mailing list</h2>
           <input type="text" name="email" placeholder="Enter email">
           <button type="submit" class="button primary-btn">Sign Up</button>

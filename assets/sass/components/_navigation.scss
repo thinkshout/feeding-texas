@@ -165,9 +165,15 @@
           color: $beige;
 				}
 			}
-      &:first-child {
-        // background: darken($lgtBrown, 2);
-        background: #43372F;
+      &.parent {
+        // color parent elements only
+        a {
+          padding: 1em 1em;
+          &:after {
+            content: "\00BB";
+            padding: 1em 0 1em 1em;
+          }
+        }
       }
 			&:last-child {
         border-bottom: 0;

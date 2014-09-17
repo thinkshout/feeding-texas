@@ -18,6 +18,7 @@ calls_to_action:
   - 1
   - 2
 group: work
+permalink: /work/leading-the-movement/
 ---
 Texas is blessed with ample agricultural and economic resources. We have more than enough to help every Texan access the nutrition they need to succeed and move forward. 
 

@@ -42,7 +42,7 @@ layout: default
     <div class="wrap">
       <section class="content intro">
         <!-- Main page content -->
-        {{ content }}
+        {{ content | markdownify }}
       </section>
       <!-- Page type specific content -->
       {% if page.type %}

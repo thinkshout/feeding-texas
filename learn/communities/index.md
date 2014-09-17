@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: Solving Hunger Locally
 subhead: Every Texas community is touched by the struggle to afford enough food.
 summary: |
@@ -19,5 +19,6 @@ calls_to_action:
   - 2
 group: learn
 type: communities
+permalink: /learn/communities/
 ---
 Every corner of Texas is touched by the struggle to afford enough food. Use the data tools above to explore how hunger impacts your community, and where your help will make the biggest difference. 
