@@ -1,11 +1,21 @@
 {% assign menu_items = '' %}
-<!-- Get child pages -->
 {% assign url_parts = page.url | remove_first: '/' | remove: 'index.html' | split: '/' %}
 {% assign url_parts_size = url_parts | size %}
 {% assign len = url_parts_size | minus: 1 %}
 {% for i in url_parts limit: len %}
   {% capture base_url %}{{ base_url | append: "/" | append: i }}{% endcapture %}
 {% endfor %}
+<!-- Get parent page -->
+<p>url_parts: {{url_parts}}</p>
+<p>base_url: {{base_url}}</p>
+<p>first: {{url_parts | first}}</p>
+{% capture parent_url %}{{ base_url | append: '/' }}{% endcapture %}
+{% for node in site.pages %}
+  {% if node.url == parent_url %}
+    {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url | append: ',' | append: 'parent' }}{% endcapture %}
+  {% endif %}
+{% endfor %}
+<!-- Get child pages -->
 {% for node in site.pages %}
   {% assign node_url_parts = node.url | remove_first: '/' | remove: 'index.html' | split: '/' %}
   {% if node.url contains base_url %}
@@ -26,12 +36,13 @@
       {% for node in output %}
         {% if count > '1' %}
           {% assign item = node | split: ',' %}
-          {% assign node_url = item | last %}
-          {% assign node_title = item | first %}
+          {% assign item_size = item | size %}
+          {% assign node_url = item[1] %}
+          {% assign node_title = item[0] %}
           {% if page.url == node_url%}
-          <li class="active"><a href="{{ site.baseurl }}{{ node_url | remove: 'index.html' }}" class="active">{{ node_title }}</a></li>
+            <li class="active {%if item_size == 3%}parent{%endif%}"><a href="{{ site.baseurl }}{{ node_url | remove: 'index.html' }}" class="active">{{ node_title }}</a></li>
           {% else %}
-          <li><a href="{{ site.baseurl }}{{ node_url | remove: 'index.html' }}">{{ node_title }}</a></li>
+            <li {%if item_size == 3%}class="parent"{%endif%}><a href="{{ site.baseurl }}{{ node_url | remove: 'index.html' }}">{{ node_title }}</a></li>
           {% endif %}
         {% endif %}
         {% capture count %}{{ count = count | plus: '1'}}{% endcapture %}
