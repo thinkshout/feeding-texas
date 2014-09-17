@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: Solving Hunger Locally
 subhead: Every Texas community is touched by the struggle to afford enough food.
 summary: |
