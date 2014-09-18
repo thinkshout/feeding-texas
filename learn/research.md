@@ -18,4 +18,5 @@ calls_to_action:
   - 1
   - 2
 group: learn
+permalink: /learn/research/
 ---

@@ -2,7 +2,6 @@
 	background: transparent;
 	border: 0;
 	overflow: hidden;
-
   @include box-shadow(rgba(0,0,0,0) 0 0 0);
 
   .flex-viewport {
@@ -24,7 +23,7 @@
       .flex-caption {
   	  	display: block;
   	  	width: 50%;
-  	    padding: 0 1em;
+  	    padding: 0 1em 0 4em;
   	  }
   	}
   }
@@ -42,4 +41,13 @@
 			}
 		}
 	}
+}
+
+.content-carousel {
+  .view-all {
+    margin: 0 auto;
+    span {
+      background: $white;
+    }
+  }
 }

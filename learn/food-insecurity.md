@@ -18,6 +18,7 @@ calls_to_action:
   - 1
   - 2
 group: learn
+permalink: /learn/food-insecurity/
 ---
 ## Familiar, but hard to measure   
 

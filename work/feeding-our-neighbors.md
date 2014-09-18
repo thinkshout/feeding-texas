@@ -17,6 +17,7 @@ calls_to_action:
   - 2
 group: work
 type: programs
+permalink: /work/feeding-our-neighbors/
 ---
 Since the 1970s, food banks have provided the primary charitable response to hunger in America. Twenty-one Feeding Texas food banks currently serve every Texas county through a network of over 3,000 local partners.
 

@@ -1,60 +1,43 @@
-<!-- Get parent page -->
-{%assign url_parts = page.url | remove_first: "/" | split: "/"%}
-{% assign url_parts_size = url_parts | size %}
-<!-- if we're on a top level page, parent is index in same level of directory hierarchy -->
-{% if url_parts_size == 2 %}
-  {% assign parent_len = url_parts | size | minus: 1 %}
-  {% for i in url_parts limit: parent_len %}
-    {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %}
-  {% endfor %}
-  {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %}
-<!-- if we're on any page below the first level in the directory hierarchy, the parent page is index of parent directory in hierarchy -->
-{% else %}
-  {% assign parent_len = url_parts | size | minus: 2 %}
-  {% for i in url_parts limit: 1 %}
-    {% capture parent_url %}{{ parent_url | append: "/" | append: i }}{% endcapture %}
-  {% endfor %}
-  {% capture parent_url %}{{ parent_url | append: "/index.html" }}{% endcapture %}
-{% endif %}
-
 {% assign menu_items = '' %}
-{% for node in site.pages %}
-  {% if node.url == parent_url and page.url == node.url %}
-    {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
-  {% elsif node.url == parent_url %}
-    {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
-  {% endif %}
-{% endfor %}
-
-<!-- Get child pages -->
-{% assign url_parts = page.url | remove_first: "/" | split: "/" %}
-{% assign len = url_parts | size | minus: 1 %}
+{% assign url_parts = page.url | remove_first: '/' | remove: 'index.html' | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+{% assign url_parts_first = url_parts | first %}
+{% assign len = url_parts_size | minus: 1 %}
 {% for i in url_parts limit: len %}
   {% capture base_url %}{{ base_url | append: "/" | append: i }}{% endcapture %}
 {% endfor %}
-
+<!-- Get parent page -->
+{% capture parent_url %}{{ base_url | append: '/' }}{% endcapture %}
 {% for node in site.pages %}
-  {% assign node_url_parts = node.url | remove_first: "/" | split: "/" %}
-  {% assign filename = node_url_parts | last %}
-  {% if node.url contains base_url %}
-    {% assign url_parts_size = url_parts | size %}
-    {% assign url_parts_size_plus = url_parts | size | plus: 1 %}
-    {% assign node_url_parts_size = node_url_parts | size %}
-    {% if url_parts_size == 2 %}
-      {% if page.url == node.url and filename != "index.html" %}
-        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
-      {% elsif url_parts_size == node_url_parts_size and filename != "index.html" %}
-        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
-      {% elsif url_parts_size_plus == node_url_parts_size and filename == "index.html" %}
+  {% if url_parts_size == 1 %}
+    {% if node.url contains url_parts_first %}
+      {% assign node_url_parts = node.url | remove_first: '/' | remove: 'index.html' | split: '/' %}
+      {% assign node_url_parts_size = node_url_parts | size %}
+      {% if node_url_parts_size == 1 %}
+        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url | append: ',' | append: 'parent' }}{% endcapture %}
+      {% endif %}
+    {% endif %}
+  {% elsif node.url == parent_url %}
+    {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url | append: ',' | append: 'parent' }}{% endcapture %}
+  {% endif %}
+{% endfor %}
+<!-- Get child pages -->
+{% for node in site.pages %}
+  {% assign node_url_parts = node.url | remove_first: '/' | remove: 'index.html' | split: '/' %}
+  {% if url_parts_size == 1 %}
+    {% if node.url contains url_parts_first %}
+      {% assign node_url_parts_size = node_url_parts | size %}
+      {% if node_url_parts_size == 2 %}
         {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
       {% endif %}
-    {% else %}
-      {% if page.url == node.url %}
-        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
-      {% elsif url_parts_size == node_url_parts_size %}
-        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
-      {% elsif url_parts_size_plus == node_url_parts_size %}
-        {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
+    {% endif %}
+  {% else %}
+    {% if node.url contains base_url %}
+      {% assign node_url_parts_size = node_url_parts | size %}
+      {% if url_parts_size > 1 %}
+        {% if url_parts_size == node_url_parts_size %}
+          {% capture menu_items %}{{ menu_items | append: '|' | append: node.title | append: ',' | append: node.url }}{% endcapture %}
+        {% endif %}
       {% endif %}
     {% endif %}
   {% endif %}
@@ -63,22 +46,23 @@
 {% assign output = menu_items | split: '|' %}
 {% assign output_size = output | size %}
 {% if output_size > 2 %}
-  {% assign count = '1' %}
   <div class="subnav">
     <ul>
-  {% for node in output %}
-    {% if count > '1' %}
-      {% assign item = node | split: ',' %}
-      {% assign node_url = item | last %}
-      {% assign node_title = item | first %}
-      {% if page.url == node_url%}
-      <li class="active"><a href="{{ site.baseurl }}{{ node_url }}" class="active">{{ node_title }}</a></li>
-      {% else %}
-      <li><a href="{{ site.baseurl }}{{ node_url }}">{{ node_title }}</a></li>
-      {% endif %}
-    {% endif %}
-    {% capture count %}{{ count = count | plus: '1'}}{% endcapture %}
-  {% endfor %}
+      {% assign count = '1' %}
+      {% for node in output %}
+        {% if count > '1' %}
+          {% assign item = node | split: ',' %}
+          {% assign item_size = item | size %}
+          {% assign node_url = item[1] %}
+          {% assign node_title = item[0] %}
+          {% if page.url == node_url%}
+            <li class="active {%if item_size == 3%}parent{%endif%}"><a href="{{ site.baseurl }}{{ node_url | remove: 'index.html' }}" class="active">{{ node_title }}</a></li>
+          {% else %}
+            <li {%if item_size == 3%}class="parent"{%endif%}><a href="{{ site.baseurl }}{{ node_url | remove: 'index.html' }}">{{ node_title }}</a></li>
+          {% endif %}
+        {% endif %}
+        {% capture count %}{{ count = count | plus: '1'}}{% endcapture %}
+      {% endfor %}
     </ul>
   </div>
 {% endif %}

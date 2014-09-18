@@ -341,10 +341,10 @@ $(function() {
       <section id="help" class="row">
         {% if page.data.constituentStory %}
         <div class="foodbank half">
-          <h3><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.name }}</a></h3>
+          <h3><a href="http://{{ page.data.foodBank.website }}">{{ page.data.foodBank.name }}</a></h3>
           <p>{{ page.data.foodBank.address }}</p>
           <p>{{ page.data.foodBank.phone }}</p>
-          <p><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.website }}</a></p>
+          <p><a href="http://{{ page.data.foodBank.website }}">{{ page.data.foodBank.website }}</a></p>
         </div>
         <div class="constituent-story half">
           <h3>{{ page.data.constituentStory.name }}'s Story</h3>
@@ -358,10 +358,10 @@ $(function() {
         </div>
         {% else %}
         <div class="foodbank center">
-          <h3><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.name }}</a></h3>
+          <h3><a href="http://{{ page.data.foodBank.website }}">{{ page.data.foodBank.name }}</a></h3>
           <p>{{ page.data.foodBank.address }}</p>
           <p>{{ page.data.foodBank.phone }}</p>
-          <p><a href="{{ page.data.foodBank.website }}">{{ page.data.foodBank.website }}</a></p>
+          <p><a href="http://{{ page.data.foodBank.website }}">{{ page.data.foodBank.website }}</a></p>
         </div>
         {% endif %}
       </section>
