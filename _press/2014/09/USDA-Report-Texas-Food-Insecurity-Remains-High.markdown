@@ -8,7 +8,7 @@ date: 2014-09-04
 categories:
   - Food Insecurity
   - USDA
-featured: true
+featured: false
 ---
 
 ## USDA reports one in six households at risk of hunger
