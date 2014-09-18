@@ -1,6 +1,6 @@
 ---
 layout: press
-title: Census: 17.5 Percent of Texans and 25 Percent of Texas Children Live in Poverty
+title: Census Says 17.5 Percent of Texans and 25 Percent of Texas Children Live in Poverty
 pullquote: Texas leads the nation in opportunity, but too many hard-working Texans are still struggling to make ends meet.
 attribution: Celia Cole
 tweet: Census: 17.5 Percent of Texans and 25 Percent of Texas Children Live in Poverty
