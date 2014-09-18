@@ -12,7 +12,7 @@ featured: true
 
 ## Food Banks Ask for Support for Hunger Relief Efforts That “Feed with Impact”
 
-For Immediate Release: September 18, 2014
+For Immediate Release: September 18, 2014   
 Contact: Celia Cole, 512-590-0659 or ccole@feedingtexas.org
  
 4,530,039 Texans (or 17.5 percent) lived in households with income below the federal poverty line in 2013, according to Census data released today. This number included 1,740,560, or 25 percent of all Texas children. These rates were statistically unchanged from 2012.
