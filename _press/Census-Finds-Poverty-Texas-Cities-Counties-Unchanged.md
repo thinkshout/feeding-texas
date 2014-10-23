@@ -23,7 +23,7 @@ The Census data was released for all Texas counties and cities with populations 
 
 “We can’t resign ourselves to these unchanged statistics,” said Cole. “That’s why our food banks are aligning more of their resources towards programs that go beyond basic hunger relief to address the causes of food insecurity. We can only end hunger by increasing economic security.”
 
-The 2013 federal poverty line was $23,550 for a family of four. Texas county and city poverty numbers can be found on the Feeding Texas website: (PDF)[https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/ACS_2011-2013_Poverty.pdf] & (Excel)[https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/docs/ACS_2011-2013_Poverty.xlsx].
+The 2013 federal poverty line was $23,550 for a family of four. Texas county and city poverty numbers can be found on the Feeding Texas website: [PDF](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/ACS_2011-2013_Poverty.pdf) & [Excel](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/docs/ACS_2011-2013_Poverty.xlsx).
 
 *Feeding Texas leads a unified effort for a hunger-free Texas. Learn more and find your local food bank at www.feedingtexas.org<http://www.feedingtexas.org>.*
 
