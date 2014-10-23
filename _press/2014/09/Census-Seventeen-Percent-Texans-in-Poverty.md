@@ -7,7 +7,7 @@ tweet: Census Says 17.5 Percent of Texans and 25 Percent of Texas Children Live 
 date: 2014-09-18
 categories:
   - Poverty
-featured: true
+featured: false
 ---
 
 ## Food Banks Ask for Support for Hunger Relief Efforts That “Feed with Impact”
