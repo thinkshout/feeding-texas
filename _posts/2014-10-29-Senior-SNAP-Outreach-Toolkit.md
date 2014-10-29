@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Bridging the gap for hungry seniors
-summary: The Senior SNAP Outreach Best Practices Toolkit provides a very simple but thorough “How-To Guide” for outreach workers in various settings.
+summary: Our new senior SNAP outreach toolkit provides a very simple but thorough “How-To Guide” for outreach workers in various settings.
 images:
   hero:
   thumb:
