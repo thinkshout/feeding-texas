@@ -3,7 +3,8 @@ layout: blog
 title: Senior SNAP Outreach Toolkit
 summary: The Senior SNAP Outreach Best Practices Toolkit provides a very simple but thorough “How-To Guide” for outreach workers in various settings.
 images:
-  hero: 
+  hero:
+  thumb:
 date: 2014-10-29
 author: 2
 tags: 
