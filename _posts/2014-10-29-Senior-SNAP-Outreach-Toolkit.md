@@ -12,8 +12,6 @@ tags:
 featured: true
 ---
 
-Senior SNAP Outreach Best Practices Toolkit
-
 In recent years, Texas has held the [fourth highest rate](http://www.mowaa.org/document.doc?id=193) of senior food insecurity in the nation, with 8.9% of our seniors at risk for hunger.
 
 Hunger can have serious effects on a senior’s nutrition and overall health, and can cause more pronounced symptoms of age-related conditions such as diabetes and heart disease. 
