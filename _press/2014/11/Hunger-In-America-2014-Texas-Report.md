@@ -1,9 +1,9 @@
 ---
 layout: press
-title: Study: Millions of Texans Must Choose Between Food, Other Needs
+title: Study - Millions of Texans Must Choose Between Food, Other Needs
 pullquote: Our clients are facing chronic needs. To break this cycle, we must do more to address the causes of hunger.
 attribution: Celia Cole
-tweet: Study: Millions of Texans Must Choose Between Food, Other Needs
+tweet: Study - Millions of Texans Must Choose Between Food, Other Needs
 date: 2014-11-06
 categories:
   - Food Banks
