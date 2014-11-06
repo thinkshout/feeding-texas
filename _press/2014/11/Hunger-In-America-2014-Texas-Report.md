@@ -10,10 +10,9 @@ categories:
   - Hunger & Food Insecurity
 featured: true
 ---
-## Study: Millions of Texans Must Choose Between Food, Other Needs
+## Food banks respond with plan to address “causes & consequences” of hunger
 
-For Immediate Release: 11/6/14
-
+For Immediate Release: 11/6/14   
 Contact: Celia Cole, 512-590-0659 or ccole@feedingtexas.org
  
 *Austin* - 3.5 million Texans receive charitable food from a food bank or partner agency on average seven times per year, according to [a study](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Hunger-In-America-2014-Texas-Report.pdf) released today by Feeding Texas. A majority of these households reported making difficult tradeoffs between food and other basic needs.
