@@ -7,7 +7,7 @@ tweet: Census Finds Poverty in Texas Cities & Counties Unchanged from Prior Peri
 date: 2014-10-23
 categories:
   - Poverty
-featured: true
+featured: false
 ---
 
 ## 4.6 Million Texans (18%) Lived in Poverty during 2011-2013
