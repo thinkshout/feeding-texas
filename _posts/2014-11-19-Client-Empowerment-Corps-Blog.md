@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Client Empowerment Corps Introduction Blog
-summary: Learn about Feeding Texas' new project addressing the causes and consequences of hunger.
+title: Client Empowerment Corps kicks off statewide
+summary: Our new VISTA project aims to address the causes and consequences of hunger.
 images:
   hero:
   thumb:
