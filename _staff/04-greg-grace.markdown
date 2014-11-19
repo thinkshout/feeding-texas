@@ -1,6 +1,6 @@
 ---
 layout: staff
-id:
+id: 4
 name: Greg Grace
 email: ggrace@feedingtexas.org
 position: Chief Financial Officer

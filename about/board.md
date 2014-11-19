@@ -12,12 +12,13 @@ permalink: /about/board/
 
 The Feeding Texas board consists of Executive Directors from the state's twenty-one regional food banks:
 
-* David Weaver (President) - *South Plains Food Bank, Lubbock*   
-* Eric Cooper (Past President) - *San Antonio Food Bank, San Antonio*   
-* Dennis Cullinane (Treasurer) - *East Texas Food Bank, Tyler*   
+* Dennis Cullinane (President) - *East Texas Food Bank, Tyler*   
+* David Weaver (Past President) - *South Plains Food Bank, Lubbock*   
+* Hank Perret (Treasurer) - *Capital Area Food Bank of Texas, Austin*  
+* Eric Cooper - *San Antonio Food Bank, San Antonio*
 * Robin Cadle - *Food Bank of the Golden Crescent, Victoria*   
 * Libby Campbell - *West Texas Food Bank, Odessa*   
-* Alfonso Casso - *South Texas Food Bank, Laredo*   
+* Erasmo Villarreal - *South Texas Food Bank, Laredo*   
 * Rodney Dickerson - *Montgomery County Food Bank, Conroe*   
 * Terri Drefke - *Food Bank of the Rio Grande Valley, Pharr*   
 * Greg Duke - *Concho Valley Regional Food Bank, San Angelo*   
@@ -28,7 +29,6 @@ The Feeding Texas board consists of Executive Directors from the state's twenty-
 * Dan Maher - *Southeast Texas Food Bank, Beaumont*   
 * Theresa Mangapora - *Brazos Valley Food Bank, Bryan*   
 * Mark McKethan - *Wichita Falls Area Food Bank, Wichita Falls*   
-* Hank Perret - *Capital Area Food Bank of Texas, Austin*   
 * Jan Pruitt - *North Texas Food Bank, Dallas*   
 * Janie Sinclair - *El Pasoans Fighting Hunger, El Paso*   
 * Bo Soderbergh - *Tarrant Area Food Bank, Fort Worth*   
