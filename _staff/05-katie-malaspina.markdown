@@ -1,6 +1,6 @@
 ---
 layout: staff
-id:
+id: 6
 name: Katie Malaspina
 email: kmalaspina@feedingtexas.org
 position: VISTA Program Coordinator
