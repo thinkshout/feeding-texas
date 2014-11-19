@@ -10,7 +10,7 @@ https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/a-new-na
 date: 2014-09-05
 author: 1
 tags: 
-featured: true
+featured: false
 ---
 
 The launch of our new website formally marks our name change from the Texas Food Bank Network to Feeding Texas, and a new mission statement: “To lead a unified effort for a hunger-free Texas.”
