@@ -20,6 +20,8 @@ The most rigorous measure of hunger in Texas is the "household food insecurity r
 According to the latest report, 18% of Texas households (one in six) experienced food insecurity in the years 2011-2013. Texas was one of just eight states with higher food insecurity than the nation during this period. In raw numbers, 1.7 million Texas households were food insecure, more than any other state except California. 
 
 Learn the proper way to describe food insecurity [here](http://www.feedingtexas.org/learn/food-insecurity).
+
+
  
 **How many are hungry in my community?**   
 Experts at the national organization Feeding America have estimated the prevalence of food insecurity among individuals and children in every Texas county. To find food insecurity rates for your county, visit [their website](http://www.feedingamerica.org/mapthegap).
