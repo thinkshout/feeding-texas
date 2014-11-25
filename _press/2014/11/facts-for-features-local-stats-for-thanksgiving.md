@@ -9,8 +9,8 @@ categories:
   - Hunger & Food Insecurity
 featured: false
 ---
-For Immediate Release: 11/25/14
-Contact: Celia Cole, 512.590.0659 
+For Immediate Release: 11/25/14   
+Contact: Celia Cole, 512.590.0659    
 or ccole@feedingtexas.org
 
 *Austin* – Thanksgiving is a pertinent time to focus public attention on the prevalence of hunger in Texas and the ways we can help our neighbors in need. Below are some resources for members of the media who are covering hunger this holiday season.
