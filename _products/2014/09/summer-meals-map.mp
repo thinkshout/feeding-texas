@@ -1,6 +1,6 @@
 ---
 layout: product
-type: issue backgrounder
+type: map
 title: Summer Meal sites in 2014
 summary: Discover where summer meal sites were located in 2014.
 media:
