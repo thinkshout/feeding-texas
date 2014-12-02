@@ -7,7 +7,8 @@ images:
   thumb:
 date: 2014-10-29
 author: 2
-tags: 
+tags: Senior
+      SNAP  
 featured: true
 ---
 
