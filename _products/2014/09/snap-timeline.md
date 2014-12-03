@@ -9,7 +9,7 @@ media:
 date: 2014-09-14
 categories:
   - SNAP
-featured: true
+featured: false
 ---
 
 Learn the history of SNAP (aka food stamps) in Texas by browsing this timeline of the nation's largest nutrition program.
