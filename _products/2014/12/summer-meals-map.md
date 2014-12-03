@@ -8,6 +8,6 @@ media:
 date: 2014-12-01
 categories:
   - Summer Meals
-featured: false
+featured: true
 ---
 A map of the 2014 summer meal sites. Click on the red pin points to get the site name and operating hours. 
