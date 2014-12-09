@@ -1,6 +1,6 @@
 ---
 layout: staff
-id: 12
+id: 4
 name: Betsy Edwards
 email: bedwards@feedingtexas.org
 position: Communications Manager

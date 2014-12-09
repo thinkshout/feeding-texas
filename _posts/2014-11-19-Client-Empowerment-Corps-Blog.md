@@ -6,7 +6,7 @@ images:
   hero:
   thumb:
 date: 2014-11-19
-author: 7
+author: 9
 tags: 
 featured: true
 ---
