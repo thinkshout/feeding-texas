@@ -1,25 +1,21 @@
 ---
 layout: press
-title: Freedom from want – for all Texans
+title: Op-Ed: Freedom from want, for all Texans
 pullquote: It’s not right that such want should exist in a state as wealthy as Texas, a state so blessed with agricultural abundance. 
 attribution: Celia Cole
-tweet: Freedom from want – for all Texans
+tweet: Op-Ed - Freedom from want, for all Texans
 date: 2014-12-19
 categories:
   - Poverty
 featured: True
 ---
 
- 
-Op-Ed Submission: "Freedom from want – for all Texans"
-
-For Immediate Release: 12/19/14
-Contact: Celia Cole, 512.590.0659 
-or ccole@feedingtexas.org
+For Immediate Release: 12/19/14   
+Contact: Celia Cole, 512.590.0659 or ccole@feedingtexas.org
 
 When we gather around the family dinner table to celebrate the holidays, we give thanks for the good fortune that brings us together with loved ones, for the bountiful food we share, and for the promise and hope of the season. 
  
-In Norman Rockwell’s famous painting “Freedom from Want,” the family dinner table is a symbol of gratitude for the blessings of health and prosperity. The painting was inspired by President Roosevelt’s 1941 State of the Union Address entitled "The Four Freedoms," which called for the resolution of broader societal needs to ensure health and prosperity for all Americans.
+In Norman Rockwell’s famous painting “[Freedom from Want](http://en.wikipedia.org/wiki/File:Freedom_from_Want.jpg#mediaviewer/File:Freedom_from_Want.jpg),” the family dinner table is a symbol of gratitude for the blessings of health and prosperity. The painting was inspired by President Roosevelt’s 1941 [State of the Union Address](http://en.wikipedia.org/wiki/Four_Freedoms) entitled "The Four Freedoms," which called for the resolution of broader societal needs to ensure health and prosperity for all Americans.
  
 Texas food banks are working overtime this holiday season to ensure freedom from want for millions of our neighbors who struggle to feed their families. The holidays are a time of scarcity for many Texans. Families see their incomes stretched by children home from school, higher heating costs, and the desire to make special meals despite rising food costs.
  
