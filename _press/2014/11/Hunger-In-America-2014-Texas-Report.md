@@ -8,7 +8,7 @@ date: 2014-11-06
 categories:
   - Food Banks
   - Hunger & Food Insecurity
-featured: true
+featured: false
 ---
 ## Food banks respond with plan to address “causes & consequences” of hunger
 
