@@ -1,6 +1,6 @@
 ---
 layout: press
-title: Op-Ed - Freedom from want, for all Texans
+title: Op-Ed Submission - Freedom from want, for all Texans
 pullquote: It’s not right that such want should exist in a state as wealthy as Texas, a state so blessed with agricultural abundance. 
 attribution: Celia Cole
 tweet: Op-Ed - Freedom from want, for all Texans
