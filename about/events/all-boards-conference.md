@@ -16,6 +16,7 @@ Feeding Texas and its Board Leadership Council invites the Boards of Directors o
 * To register online, [click here](http://www.feedingtexas.org). 
 * To reserve a hotel room, [click here](http://www.feedingtexas.org). (Please reserve before February 5th)
 * To pay the $150 registration fee, [click here](http://www.feedingtexas.org). Otherwise, please mail a check to:   
+
 > Feeding Texas   
 > Attn: Sarah Sykes   
 > 1524 South IH-35, Ste. 342   
