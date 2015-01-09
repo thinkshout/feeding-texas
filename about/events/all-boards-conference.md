@@ -1,6 +1,7 @@
 ---
 layout: page
-title: All Boards Conference 2015
+title: 2015 All Boards Conference
+subhead: February 26-27, 2015 - Austin, Texas
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: |
   Join your fellow food bank board members in Austin for the second annual All Boards Conference and biennial Legislative Day at the Texas Capitol. (Invite Only Event)
