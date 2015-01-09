@@ -24,7 +24,7 @@ Feeding Texas and its Board Leadership Council invites the Boards of Directors o
 
 **Conference Overview:** 
 
-*_February 26_ - Radisson Hotel & Suites Austin-Downtown* 
+*__February 26__ - Radisson Hotel & Suites Austin-Downtown* 
 
 * 10:00 am - 12:00 pm -- Pre-Conference Meeting of Board Leadership Council
 * 12:00 pm -- Lunch
@@ -32,10 +32,11 @@ Feeding Texas and its Board Leadership Council invites the Boards of Directors o
 * 5:30-7:00 -- Reception
 
 Speakers:   
+
 * Matt Knott, President, Feeding America
 * Evan Smith (invited), Editor-in-Chief, CEO & Co-Founder, Texas Tribune
 
-*_February 27_ - Texas Capitol*
+*__February 27__ - Texas Capitol*
 
 * 8:30 am -- Legislative Breakfast, Conference Center, Capitol Extension, Room E2.002
 * 10:00 --  Senate and House Proclamations, 2nd Floor, Capitol
