@@ -2,8 +2,7 @@
 layout: product
 type: webinar slides
 title: Fighting Hunger in the 84th Texas Legislature
-summary: |
-  Learn from the experts about opportunities to help hungry Texas families at the Capitol in 2015!
+summary: Learn from the experts about opportunities to help hungry Texas families at the Capitol in 2015!
 download:
   title: PDF
   file: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Policy-Platform-Webinar.pdf
