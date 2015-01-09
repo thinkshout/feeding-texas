@@ -13,9 +13,9 @@ Feeding Texas and its Board Leadership Council invites the Boards of Directors o
 
 **Registration deadline is February 13, 2015** - *this is an invitation-only event.* 
 
-* To register online, [click here](about:blank). 
-* To reserve a hotel room, click here. (Please reserve before February 5th)
-* To pay the $150 registration fee, click here. Otherwise, please mail a check to:
+* To register online, [click here](http://www.feedingtexas.org). 
+* To reserve a hotel room, [click here](http://www.feedingtexas.org). (Please reserve before February 5th)
+* To pay the $150 registration fee, [click here](http://www.feedingtexas.org). Otherwise, please mail a check to:   
 > Feeding Texas   
 > Attn: Sarah Sykes   
 > 1524 South IH-35, Ste. 342   
@@ -30,8 +30,7 @@ Feeding Texas and its Board Leadership Council invites the Boards of Directors o
 * 1:45-5:00 -- Panels & Table Conversations
 * 5:30-7:00 -- Reception
 
-*Speakers:*
-
+Speakers:   
 * Matt Knott, President, Feeding America
 * Evan Smith (invited), Editor-in-Chief, CEO & Co-Founder, Texas Tribune
 
