@@ -35,7 +35,7 @@ Feeding Texas and its Board Leadership Council invites the Boards of Directors o
 Speakers:   
 
 * Matt Knott, President, Feeding America
-* Evan Smith (invited), Editor-in-Chief, CEO & Co-Founder, Texas Tribune
+* Ross Ramsey (invited), Executive Editor and Co-Founder, Texas Tribune
 
 *__February 27__ - Texas Capitol*
 
