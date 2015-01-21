@@ -39,6 +39,5 @@ Speakers:
 
 *__February 27__ - Texas Capitol*
 
-* 8:30 am -- Legislative Breakfast, Conference Center, Capitol Extension, Room E2.002
-* 10:00 --  Senate and House Proclamations, 2nd Floor, Capitol
+* 8:30 am -- Legislative Breakfast, Capitol (room TBA)
 * All day -- Legislative Visits
