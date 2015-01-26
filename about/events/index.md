@@ -39,5 +39,5 @@ Speakers:
 
 *__February 27__ - Texas Capitol*
 
-* 8:30 am -- Legislative Breakfast, Capitol (room TBA)
+* 8:30 am -- Legislative Breakfast, Capitol (Lieutenant Governor's Reception Room)
 * All day -- Legislative Visits
