@@ -9,7 +9,7 @@ date: 2014-10-29
 author: 2
 tags: Senior
       SNAP  
-featured: true
+featured: false
 ---
 
 In recent years, Texas has held the [fourth highest rate](http://www.mowaa.org/document.doc?id=193) of senior food insecurity in the nation, with 8.9% of our seniors at risk for hunger.
