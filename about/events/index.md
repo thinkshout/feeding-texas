@@ -33,28 +33,28 @@ Feeding Texas and its Board Leadership Council invites the Boards of Directors o
     Keynote Speaker:  Dr. David Lakey (invited), Vice Chancellor for 
     Population Health, University of Texas System and Senior Vice President, the University of Texas Health Science Center at     Tyler
 
-1:45 - 3:00 		Food as the Portal to Health 
-* “Pharm to Farm” Eric Cooper, President/CEO, San Antonio Food Bank
-* Mayor’s Fitness Council, Jeremy Beer, Office of Mayor Ivy Taylor, City of San Antonio (invited)
-* Food Scholarships, Reggie Young, Houston Food Bank
-* Brighter Bites, Lisa Helfmann, HEB 
-* Produce Express, Mark McKethan, CEO, Wichita Falls Area Food Bank
+* 1:45 - 3:00 pm -- Food as the Portal to Health 
+  * “Pharm to Farm” Eric Cooper, President/CEO, San Antonio Food Bank
+  * Mayor’s Fitness Council, Jeremy Beer, Office of Mayor Ivy Taylor, City of San Antonio (invited)
+  * Food Scholarships, Reggie Young, Houston Food Bank
+  * Brighter Bites, Lisa Helfmann, HEB 
+  * Produce Express, Mark McKethan, CEO, Wichita Falls Area Food Bank
 
-3:00 – 4:00		Small Table Conversations 
+3:00 – 4:00 pm -- Small Table Conversations 
 
-4:00-5:00		Getting Ready for Lobby Day – Feeding Texas Agenda and Capitol Outlook
+4:00 - 5:00 pm -- Getting Ready for Lobby Day – Feeding Texas Agenda and Capitol Outlook
 
 * Ross Ramsey, Executive Editor and Co-Founder, Texas Tribune
 * Celia Cole, CEO, Feeding Texas
 
-5:30-7:00 		Reception
+5:30 - 7:00 pm -- Reception
 
 Keynote Speaker:  Matt Knott, President, Feeding America
 
 *__February 27__ - Texas Capitol*
 
-8:30-9:30 am 		Legislative Breakfast, Lt. Governor’s Reception Room, 2nd Floor, 2E.14
+8:30 - 9:30 am -- Legislative Breakfast, Lt. Governor’s Reception Room, 2nd Floor, 2E.14
 
-10:00 – 5:00 		Legislative Visits 
+10:00 am – 5:00 pm -- Legislative Visits 
 
 
