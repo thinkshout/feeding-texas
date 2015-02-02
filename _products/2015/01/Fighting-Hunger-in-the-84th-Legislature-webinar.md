@@ -1,7 +1,7 @@
 ---
 layout: product
 type: issue backgrounder
-title: Fighting Hunger in the 84th Texas Legislature
+title: Fighting hunger in the 84th Texas legislature
 summary: |
   Webinar Slides - Learn from the experts about opportunities to help hungry Texas families at the Capitol in 2015!
 download:
