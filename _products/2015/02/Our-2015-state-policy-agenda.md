@@ -4,7 +4,7 @@ type: issue backgrounder
 title: Our 2015 state policy agenda
 subhead: Help us create a hunger-free Texas.
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
-summary: A healthy, hunger-free Texas is possible. Learn how we plan to get there.
+summary: A healthy, hunger-free Texas is possible. Learn how we plan to get there with the help of the 84th Texas Legislature.
 download:
   title: PDF
   file: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Feeding-Texas-Platform-Summary.pdf
