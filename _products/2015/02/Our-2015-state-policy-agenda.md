@@ -1,8 +1,9 @@
 ---
 layout: product
 type: issue backgrounder
-banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 title: Our 2015 state policy agenda
+subhead: Help us create a hunger-free Texas.
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: A healthy, hunger-free Texas is possible. Learn how we plan to get there.
 download:
   title: PDF
