@@ -11,7 +11,7 @@ date: 2015-01-09
 categories:
   - Feeding With Impact
   - Advocacy
-featured: true
+featured: false
 ---
 These slides were presented during a public webinar on January 9, 2015. Featured on the webinar were Jason Sabo of Frontera Strategy, Feeding Texas CEO Celia Cole, and Feeding Texas Sr. Director of Policy & Communications JC Dwyer. 
 
