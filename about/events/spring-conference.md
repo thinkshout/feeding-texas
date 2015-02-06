@@ -15,7 +15,7 @@ Agenda details will be posted soon
 
 <strong>Registration deadline is March 15, 2015.</strong>
 
-To register online, click <a href="http://bit.ly/1D65q0e">here</a>. ** Special note – non-Texas members will need to pay a $100 <a href="http://bit.ly/1D65q0e">registration fee</a> in order to complete conference registration.**   
+To register online, click <a href="http://bit.ly/1D65q0e">here</a>. ** Special note – non-Texas members will need to pay a $100 <a href="http://bit.ly/1EMqg75">registration fee</a> in order to complete conference registration.**   
 
 To register as a sponsor online, click <a href="http://bit.ly/1ABDIsY">here</a>. To pay sponsor fees, click <a href="http://bit.ly/1EMqg75">here</a>.
 
