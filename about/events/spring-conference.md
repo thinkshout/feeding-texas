@@ -24,7 +24,7 @@ Attn: Sarah Sykes
 1524 South IH-35, Ste. 342   
 Austin, TX 78704   
 
-The conference is being held at the Isla Grand Beach Resort, 500 Padre Blvd., South Padre Island, Texas 78597
+The conference is being held at the Isla Grand Beach Resort, 500 Padre Blvd., South Padre Island, Texas 78597.
 To book a room at the $86 rate, please call 1-800-292-7704 and ask for 1504FOODBK group code or click <a href="http://bit.ly/1KywPIO"> here</a>. 
 
 <strong>Registration and hotel must be booked by March 15, 2015.</strong>
