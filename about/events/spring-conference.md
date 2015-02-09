@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2015 Food Sourcing and Operations Conference
-subhead: April 20-21, 2015 - McAllen, Texas
+subhead: April 20-21, 2015 - South Padre Island, Texas
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: |
   Join your fellow food bankers in South Padre for the 2015 Food Sourcing and Operations Conference. 
