@@ -4,7 +4,7 @@ title: 2015 Food Sourcing and Operations Conference
 subhead: April 20-21, 2015 - McAllen, Texas
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: |
-  Join your fellow food bankers in McAllen for the 2015 Food Sourcing and Operations Conference. 
+  Join your fellow food bankers in South Padre for the 2015 Food Sourcing and Operations Conference. 
 calls_to_action:
   - 1
   - 2
@@ -14,7 +14,7 @@ Join your peers in beautiful South Padre Island for a time of education, network
 
 Agenda details will be posted soon
 
-To register online, click <a href="http://bit.ly/1D65q0e">here</a>. ** Special note – non-Texas members will need to pay a $100 <a href="http://bit.ly/1EMqg75">registration fee</a> in order to complete conference registration.**   
+To register online, click <a href="http://bit.ly/1D65q0e">here</a>. ** Special note – non-Texas members will need to pay a $100 <a href="http://bit.ly/1ETra1v">registration fee</a> in order to complete conference registration.**   
 
 To register as a sponsor online, click <a href="http://bit.ly/1ABDIsY">here</a>. To pay sponsor fees, click <a href="http://bit.ly/1EMqg75">here</a>.
 
