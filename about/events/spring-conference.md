@@ -8,7 +8,7 @@ summary: |
 calls_to_action:
   - 1
   - 2
-permalink: /events
+permalink: /spring_conference
 ---
 Join your peers in beautiful South Padre Island for a time of education, networking, and relaxation.  This year’s conference will include tracks for Food Sourcing, Operations, Agency Relations, Finance, and Human Resources.
 
