@@ -4,7 +4,7 @@ title: Report - Texas Reaching More Children with School Breakfast
 pullquote: This improvement reflects Texas’ commitment to ensure students start each day nourished and ready to learn.
 attribution: Celia Cole
 tweet: Report Says Texas Reaching More Children with School Breakfast
-date: 2015-2-10
+date: 2015-02-10
 categories:
   - Children
   - School Breakfast
