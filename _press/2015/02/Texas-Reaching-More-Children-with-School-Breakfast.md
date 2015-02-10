@@ -11,7 +11,7 @@ categories:
 featured: True
 ---   
 **For Immediate Release:** 2/10/15   
-**Contact: Celia Cole, 512.590.0659 or ccole@feedingtexas.org**
+**Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
  
 *Austin* – The annual national school breakfast report released today by the Food Research and Action Center (FRAC) finds that, on an average school day in 2013-2014, 1,556,343 low-income children in Texas ate school breakfast, an increase of more than 33,000 over the previous year.
  
