@@ -16,7 +16,7 @@ Join your peers in beautiful South Padre Island for a time of education, network
 
 To register online, click [here](http://bit.ly/1D65q0e).    
 
-** Special note – non-Texas members will need to pay a $100 [registration fee](http://bit.ly/1ETra1v) in order to complete conference registration.**   
+**Special note – non-Texas members will need to pay a $100 [registration fee](http://bit.ly/1ETra1v) in order to complete conference registration.**   
 
 To register as a sponsor online, click [here](http://bit.ly/1ABDIsY). To pay sponsor fees, click [here](http://bit.ly/1EMqg75).
 
