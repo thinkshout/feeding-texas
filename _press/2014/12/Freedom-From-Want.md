@@ -8,7 +8,7 @@ date: 2014-12-19
 categories:
   - Poverty
   - Hunger
-featured: True
+featured: False
 ---
 
 For Immediate Release: 12/19/14   
