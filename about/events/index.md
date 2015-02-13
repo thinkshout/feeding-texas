@@ -30,15 +30,13 @@ Feeding Texas and its Board Leadership Council invites the Boards of Directors o
 * 10:00 am - 12:00 pm -- Pre-Conference Meeting of Board Leadership Council
 
 * 12:00 pm -- Lunch 
-    Keynote Speaker:  Dr. David Lakey (invited), Vice Chancellor for 
-    Population Health, University of Texas System and Senior Vice President, the University of Texas Health Science Center at     Tyler
+    Keynote Speaker:  Dr. Ray Perryman, The Perryman Group
 
 * 1:45 - 3:00 pm -- Food as the Portal to Health 
   * “Pharm to Farm” Eric Cooper, President/CEO, San Antonio Food Bank   
-  * Mayor’s Fitness Council, Jeremy Beer, Office of Mayor Ivy Taylor, City of San Antonio (invited)   
   * Food Scholarships, Reggie Young, Houston Food Bank   
   * Brighter Bites, Lisa Helfmann, HEB    
-  * Produce Express, Mark McKethan, CEO, Wichita Falls Area Food Bank   
+  * "Making Food Insecurity Part of Community Health Planning," Austin/Travis County HHS Department   
 
 3:00 – 4:00 pm -- Small Table Conversations 
 
