@@ -12,7 +12,7 @@ permalink: /spring-conference
 ---
 Join your peers in beautiful South Padre Island for a time of education, networking, and relaxation.  This year’s conference will include tracks for Food Sourcing, Operations, Agency Relations, Finance, and Human Resources.
 
-***Agenda details will be posted soon!***
+***Click [here] (https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/2015-Food-Sourcing-And-Operations-Conference.pdf) for the tentative agenda.***
 
 **Special note – non-Texas members will need to pay a $100 [registration fee](http://bit.ly/1ETra1v) in order to complete conference registration.**   
 
