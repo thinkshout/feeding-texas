@@ -51,8 +51,11 @@ Keynote Speaker:  Matt Knott, President, Feeding America
 
 *__February 27__ - Texas Capitol*
 
-8:30 - 9:30 am -- Legislative Breakfast, Lt. Governor’s Reception Room, 2nd Floor, 2E.14
+8:30 - 9:30 am -- Legislative Breakfast, Lt. Governor’s Reception Room, 2nd Floor, 2E.16
 
 10:00 am – 5:00 pm -- Legislative Visits 
+
+Thank you to our breakfast sponsor, HEB. ![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/logos/HEB.png "HEB")
+
 
 
