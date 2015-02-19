@@ -29,6 +29,8 @@ Feeding Texas and its Board Leadership Council invites the Boards of Directors o
 
 * 10:00 am - 12:00 pm -- Pre-Conference Meeting of Board Leadership Council
 
+* 10:00 am - 12:00 pm -- Registration 
+
 * 12:00 pm -- Lunch 
     Keynote Speaker:  Dr. Ray Perryman, The Perryman Group
 
