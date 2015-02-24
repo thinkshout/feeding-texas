@@ -8,7 +8,7 @@ date: 2015-02-10
 categories:
   - Children
   - School Breakfast
-featured: true
+featured: false
 ---   
 **For Immediate Release:** 2/10/15   
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
