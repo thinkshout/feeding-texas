@@ -14,7 +14,7 @@ This week two major events, while covered separately by the media, highlighted t
 
 In the halls of Congress, the House Agriculture Committee chaired by Texas Congressman Mike Conaway met to better understand the rules and beneficiaries of our most powerful anti-hunger program, SNAP (formerly called Food Stamps). Lawmakers may have been surprised by what they learned: [more than half of SNAP households with children are currently employed](http://www.cbpp.org/cms/index.cfm?fa=view&id=5274), but earning so little that they still need help putting food on the table.
 
-Meanwhile, from its corporate headquarters in Arkansas, [Wal-Mart announced a decision to raise wages](http://www.dallasnews.com/opinion/editorials/20150225-editorial-wal-marts-pay-hike-the-right-thing-for-all.ece) for a half million of their lowest-paid workers – to $10/hour, $2.75 more than the current federal minimum wage. In addition, the company will allow a more liberal use of sick days.
+Meanwhile, from its corporate headquarters in Arkansas, [Wal-Mart announced a decision to raise wages](http://www.dallasnews.com/opinion/editorials/20150225-editorial-wal-marts-pay-hike-the-right-thing-for-all.ece) for a half million of its lowest-paid workers – to $10/hour, $2.75 more than the current federal minimum wage. In addition, the company will allow a more liberal use of sick days.
 
 It's our hope that attention to the struggle of low-wage workers on SNAP and Wal-Mart's decision will ultimately result in reduced hunger. The link between food security and financial security is both well-documented and commonsense. When families are given more resources to pay for food or other needs – whether that comes in the form of earned income or SNAP benefits – fewer kids go hungry.
 
