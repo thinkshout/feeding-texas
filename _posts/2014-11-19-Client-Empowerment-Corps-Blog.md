@@ -8,7 +8,7 @@ images:
 date: 2014-11-19
 author: 10
 tags: 
-featured: true
+featured: false
 ---
 At Feeding Texas, we’re always looking for new, innovative ways to help our member food banks build their capacity to decrease food insecurity.
 
