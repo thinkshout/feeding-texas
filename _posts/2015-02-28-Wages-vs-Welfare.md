@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Wages vs. Welfare - Increasing Income to End Hunger, Boost Economic Security
+title: Wages vs. Welfare - Increasing Income to End Hunger
 summary: Increasing wages is a necessary and important area for those who hope to end hunger through better public policy. 
 images:
   hero: "	"
