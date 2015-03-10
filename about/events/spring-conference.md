@@ -30,3 +30,5 @@ The conference will be held at the Isla Grand Beach Resort, 500 Padre Blvd., Sou
 To book a room at the $86 rate, please call 1-800-292-7704 and ask for 1504FOODBK group code or click [here](http://bit.ly/1KywPIO). 
 
 **Registration and hotel must be booked by March 15, 2015.**
+
+Thank you to our sponsor, Frost Bank. ![alttext](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Frost.png "Frost") 

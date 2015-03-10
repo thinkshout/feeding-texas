@@ -57,7 +57,7 @@ Keynote Speaker:  Matt Knott, President, Feeding America
 
 10:00 am – 5:00 pm -- Legislative Visits 
 
-Thank you to our breakfast sponsor, HEB. ![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/logos/HEB.png "HEB")
+Thank you to our breakfast sponsor, HEB. ![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/HEB.png "HEB")
 
 
 
