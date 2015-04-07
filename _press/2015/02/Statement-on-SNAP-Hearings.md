@@ -7,7 +7,7 @@ tweet: Feeding Texas weighs in on Congressional #SNAP hearings
 date: 2015-02-24
 categories:
   - SNAP
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 2/24/15    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
