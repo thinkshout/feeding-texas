@@ -22,6 +22,6 @@ The report, [*How Hungry is America?*](http://frac.org/how-hungry-is-america/), 
 
 “All these data tell the same story – hunger and poverty rates spiked at the beginning of the recession and have stayed high ever since,” said Cole. “Cutting nutrition programs now will lead to even greater hardship for millions of struggling Americans.”
 
-Feeding Texas is urging concerned Texans to raise their voices and tell Members of Congress to strengthen – not weaken – the nation’s nutrition safety net. They can do so, for example, by adding their name to a petition in support of SNAP.
+Feeding Texas is urging concerned Texans to raise their voices and tell Members of Congress to strengthen – not weaken – the nation’s nutrition safety net. They can do so, for example, by adding their name to a [petition](http://org2.salsalabs.com/o/5118/p/dia/action3/common/public/?action_KEY=19755) in support of SNAP.
 
 The full food hardship analysis and petition is available on [FRAC’s website](http://www.frac./org). Feeding Texas leads a unified effort for a hunger-free Texas.
