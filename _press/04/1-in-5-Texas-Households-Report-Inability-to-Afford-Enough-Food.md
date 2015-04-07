@@ -24,4 +24,4 @@ The report, [*How Hungry is America?*](http://frac.org/how-hungry-is-america/), 
 
 Feeding Texas is urging concerned Texans to raise their voices and tell Members of Congress to strengthen – not weaken – the nation’s nutrition safety net. They can do so, for example, by adding their name to a petition in support of SNAP.
 
-The full food hardship analysis and petition is available on FRAC’s website [frac.org](http://www.frac./org). Feeding Texas leads a unified effort for a hunger-free Texas.
+The full food hardship analysis and petition is available on [FRAC’s website](http://www.frac./org). Feeding Texas leads a unified effort for a hunger-free Texas.
