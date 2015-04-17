@@ -31,4 +31,4 @@ Nationally, Texas was found to be one of the most food insecure states, with ove
 
 Map the Meal Gap is based on an analysis of statistics collected by the U.S. Department of Agriculture, U.S. Census Bureau, and the U.S. Bureau of Labor Statistics. The study, commissioned by Feeding America, was supported by the Howard G. Buffett Foundation, ConAgra Foods Foundation and Nielsen.
  
-An interactive map of the study’s findings can be found [here](map.feedingamerica.org). Feeding Texas leads a unified effort for a hunger-free Texas.
+An interactive map of the study’s findings can be found [here](http://www.map.feedingamerica.org). Feeding Texas leads a unified effort for a hunger-free Texas.
