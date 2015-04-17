@@ -7,7 +7,7 @@ tweet: 1 in 5 Texas Households Report Inability to Afford Enough Food #SNAPworks
 date: 2015-04-07
 categories:
   - SNAP
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 4/7/15    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
