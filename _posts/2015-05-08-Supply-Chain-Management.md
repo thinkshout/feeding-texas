@@ -14,4 +14,4 @@ Feeding Texas strengthens the work of our twenty-one member food banks by spread
 
 We are fortunate to have friends in this effort like Profit Point, a respected supply chain management company. Ted Schaefer and his colleagues at Profit Point are helping us understand and adopt current best practices to deliver more fresh produce at a lower cost to families in need.  
 
-Read [Profit Point’s blog](http://www.profitpt.com/news/) about the genesis of this project and what's going to happen next.
+Read [Profit Point’s blog](http://www.profitpt.com/distribution/apple-day/) about the genesis of this project and what's going to happen next.
