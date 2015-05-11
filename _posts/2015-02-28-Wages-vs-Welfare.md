@@ -8,7 +8,7 @@ images:
 date: 2015-02-28
 author: 1
 tags: 
-featured: true
+featured: false
 ---
 This week two major events, while covered separately by the media, highlighted the solution to ending hunger in our nation.
 
