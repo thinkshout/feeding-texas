@@ -1,7 +1,7 @@
 ---
 layout: press
 title: Food Banks Respond to Severe Storms Across Texas
-tweet: Food Banks Respond to Severe Storms Across Texas
+tweet: Food Banks Respond to Severe Storms Across Texas http://bit.ly/1IBavjR
 date: 2015-05-13
 categories:
   - Disaster Relief
