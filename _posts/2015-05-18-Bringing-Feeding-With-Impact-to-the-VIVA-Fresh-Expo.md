@@ -17,8 +17,8 @@ This March, Feeding Texas staff were honored to meet producers from the Southwes
 We enjoyed the opportunity to speak with over 800 buyers, growers, packers, and shippers of produce about our “Feeding With Impact” initiative to fight hunger and improve dietary health. 
 
 <img src="https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/Celia-TIPA.jpg" alt="Celia at TIPA" width="1024x"> 
-*Speaking during the lunchtime plenary, our CEO Celia Cole highlighted the harmful impact of food insecurity on Texans and provided the audience with concrete ways to join the fight against hunger.* 
+<sub>*Speaking during the lunchtime plenary, our CEO Celia Cole highlighted the harmful impact of food insecurity on Texans and provided the audience with concrete ways to join the fight against hunger.*</sub> 
 
 At the end of the expo, 12,647 pounds of produce were donated to the Capital Area Food Bank. We look forward to working with our new colleagues in the produce industry to help increase access to fresh fruits and vegetables among hungry Texans!
 ![Group Shot](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/Group-Photo-TIPA.jpg)
-*L-R: Noe Elizondo, FBRGV Produce Solicitor; Bethany Carney, CAFB Food Sourcing Lead; Sarah Sykes, Feeding Texas Produce Assistant; Eduardo de la Rosa, FBRGV Produce Solicitor; and Lee Pipkin, Feeding Texas Food Resource Director.*
+<sub>*L-R: Noe Elizondo, FBRGV Produce Solicitor; Bethany Carney, CAFB Food Sourcing Lead; Sarah Sykes, Feeding Texas Produce Assistant; Eduardo de la Rosa, FBRGV Produce Solicitor; and Lee Pipkin, Feeding Texas Food Resource Director.*</sub>
