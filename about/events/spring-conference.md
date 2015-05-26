@@ -28,5 +28,6 @@ Thank you for participating in the 2015 Food Sourcing and Operations Conference.
 * [Budgeting for Grants and Contracts](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/internal/Budgeting-for-Grants-and-Contracts-by-Summer-Stringer.pdf), by Summer Stringer
 * [SNAP Connection](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/internal/SNAP-Connection-by-Summer-Stringer.pdf), by Summer Stringer
 * [Retail Update](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/internal/Retail-Update-by-Kurt-Welz.pdf), by Kurt Welz
+* [TEFAP USDA Foods Update and Compliance Reminders] (https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/2015-Feeding-Texans-Annual-Training-Conference.pdf), by Matt McElhaney
 
 
