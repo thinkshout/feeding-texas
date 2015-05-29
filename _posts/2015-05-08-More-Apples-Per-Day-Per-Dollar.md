@@ -8,7 +8,7 @@ images:
 date: 2015-05-08
 author: 11
 tags: 
-featured: false
+featured: true
 ---
 Feeding Texas strengthens the work of our twenty-one member food banks by spreading best practices and industry expertise throughout our network. We intend to keep improving until hunger is behind us.
 
