@@ -8,7 +8,7 @@ images:
 date: 2015-04-13
 author: 4
 tags: 
-featured: true
+featured: false
 ---
 Later today the Texas House Human Services Committee will take up several bills that could negatively impact the largest anti‐hunger program in Texas, the Supplemental Nutrition Assistance Program (aka SNAP, formerly known as Food Stamps).
 
