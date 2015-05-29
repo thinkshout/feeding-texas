@@ -24,7 +24,7 @@ Texas has not been declared a federal disaster yet, but many think it is only a 
 
 Help is needed and appreciated. To help avoid the “second disaster,” donors are urged to give money or volunteer their time at their [local food bank’s](http://www.feedingtexas.org/help/) warehouse or distribution sites. 
 
-For those who would prefer to give food, there are items that are most needed during the current disaster: 
+For those who would prefer to give food, there are items that are most needed during the current disaster:    
 * Creamy Peanut Butter             
 * Grape Jelly       
 * Chunk Light Tuna in Water
