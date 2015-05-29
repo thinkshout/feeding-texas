@@ -33,4 +33,4 @@ For those who would prefer to give food, there are items that are most needed du
 * Canned Spaghetti Rings in Sauce
 * Canned Beef Stew        
 
-Please [contact us](emailto:gbailey@feedingtexas.org) if you wish to help, or have any questions.
+Please [contact us](http://www.feedingtexas.org/staff/01-gaye-lynn-bailey/) if you wish to help, or have any questions.
