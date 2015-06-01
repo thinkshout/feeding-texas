@@ -10,7 +10,7 @@ author: 3
 tags: 
 featured: true
 ---
-Much of Texas is currently dealing with the disastrous effects of extreme weather. Thirty-seven counties reached official disaster status this week, and thousands of families have been affected by this ongoing weather event.
+Much of Texas is currently dealing with the disastrous effects of extreme weather. Seventy counties have received official disaster status from the state, and thousands of families have been affected by this ongoing weather event.
 
 Whenever a natural disaster afflicts Texas, our food banks are on the front lines providing food, water and other necessary items. They expertly set up mobile distribution points, assemble thousands of emergency boxes for affected families and make sure that local pantries remain stocked and stable. 
 
@@ -18,9 +18,9 @@ When a disaster proves too much for one food bank to handle, Feeding Texas quick
 
 Many donors may be surprised to learn that uncoordinated donations are such a burden. Of course, food banks are extremely grateful for the outpouring of generosity. However, the arrival of unplanned donations can add the complexity of finding temporary storage to the shoulders of stretched food bank employees, and food banks may find it difficult to sort and distribute donations as quickly as they come in to their warehouses. 
 
-Feeding Texas helps our food banks to coordinate donations, streamline their messaging to the public, and provide frequent updates to all our partners. Our Austin office has a permanent presence at the State Operations Center bunker, where we coordinate our relief work with the Governor’s office, state officials and other statewide partners active in the Texas Voluntary Organizations Active in Disaster (VOAD) group.
+Feeding Texas helps our food banks to coordinate donations, streamline their messaging to the public, and provide frequent updates to all our partners. Our Austin office helps staff a permanent charitable presence at the State Operations Center bunker, where we coordinate our relief work with the Governor’s office, state officials and other statewide partners active in the Texas Voluntary Organizations Active in Disaster (VOAD) group.
 
-Texas has not been declared a federal disaster yet, but many think it is only a matter of time. If this threshold is reached, more aid will become available to help affected localities and families meet their basic needs and rebuild. The most important federal program for avoiding hunger during this period is Disaster-SNAP (D-SNAP), a modified version of the powerful nutrition program that can respond quickly to the needs of families in crisis. 
+Several of the affected counties have received [a presidential disaster declaration](http://gov.texas.gov/news/press-release/20971), making federal aid available to help localities and families meet their basic needs and rebuild. The most important federal program for avoiding hunger during this period is Disaster-SNAP (D-SNAP), a modified version of the powerful nutrition program that can respond quickly to the needs of families in crisis. 
 
 Help is needed and appreciated. To help avoid the “second disaster,” donors are urged to give money or volunteer their time at their [local food bank’s](http://www.feedingtexas.org/help/) warehouse or distribution sites. 
 
