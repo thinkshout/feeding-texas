@@ -7,7 +7,7 @@ tweet: National Study Maps Food Insecurity In Every Texas County
 date: 2015-04-17
 categories:
   - Food Insecurity
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 4/17/15    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
