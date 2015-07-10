@@ -24,6 +24,9 @@ The conference will take place at the Sheraton Austin at the Capitol. Please mak
 
 * How to start, build, and sustain a successful partnership
 
+*	Work Plans, Relationships and Customer Service
+
+
 **VISTA Track**
 
 * Story Banking
@@ -53,5 +56,12 @@ The conference will take place at the Sheraton Austin at the Capitol. Please mak
 * HHSC Updates
 
 * Texas SNAP Participation Data
+
+*	What your Subcontract Means to You
+
+*	HHSC Office of Social Services Process Redesign 
+
+*	Senior SNAP Outreach Best Practices and Toolkit
+
 
 
