@@ -17,26 +17,41 @@ To register, follow this [link] (http://bit.ly/1Mi01pD).
 The conference will take place at the Sheraton Austin at the Capitol. Please make your hotel arrangements through [Rachel Kwan] (mailto:rkwan@feedingtexas.org). 
 
 **General Sessions**
+
 * Feeding With Impact and our need for collaboration
+
 * Cultural Competency Training
+
 * How to start, build, and sustain a successful partnership
 
 **VISTA Track**
+
 * Story Banking
+
 * Reporting/Legacy Folders
+
 * Evaluation
+
 * Health and Economic Panels
+
 * VISTA Round Table Discussions
 
 **SNAP-Ed Track**
+
 * Best practices in developing partnerships for child health
+
 * Expanding the classroom to kitchens and gardens
+
 * Classroom management skills
+
 * Food demo skills
+
 * Texas SNAP Participation Data
 
 **SNAP Outreach Track**
+
 * HHSC Updates
+
 * Texas SNAP Participation Data
 
 
