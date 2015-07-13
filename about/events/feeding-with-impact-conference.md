@@ -12,9 +12,9 @@ permalink: /feeding-with-impact-conference
 ---
 Please join us for the **2015 “Feeding With Impact” Conference**. We hope you will find the conference engaging and informative. The tentative workshop sessions are listed below.
 
-To register, follow this [link] (http://bit.ly/1Mi01pD).
+To register and and reserve hotel accommodations, follow this [link] (http://bit.ly/1Mi01pD).
 
-The conference will take place at the Sheraton Austin at the Capitol. Please make your hotel arrangements through [Rachel Kwan] (mailto:rkwan@feedingtexas.org). 
+The conference will take place at the Sheraton Austin at the Capitol. 
 
 **General Sessions**
 
