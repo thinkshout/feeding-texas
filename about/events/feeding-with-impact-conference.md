@@ -10,38 +10,40 @@ calls_to_action:
   - 2
 permalink: /feeding-with-impact-conference
 ---
-Please join us for the **2015 “Feeding With Impact” Conference** to gain new skills and connect the dots between nutrition education, benefits outreach and VISTA partnerships happening at your food bank. 
+Please join us for the **2015 “Feeding With Impact” Conference**!    
+* Gain new skills
+* Network with colleagues from across Texas
+* Connect the dots between nutrition education, benefits outreach and VISTAs at your food bank. 
 
-The conference will take place at the Sheraton Austin at the Capitol. Feeding Texas has negotiated a rate for conference attendees of $126/night: [register and reserve a room here](http://bit.ly/1Mi01pD).
+The conference will take place at the Sheraton Austin at the Capitol. 
+
+Feeding Texas has negotiated a rate for conference attendees of $126/night: [register and reserve a room here](http://bit.ly/1Mi01pD).
 
 Tentative workshop sessions include:
 
-**General Sessions**
+**General Sessions**    
 * Feeding With Impact and the need for collaboration
 * Cultural competency
 * How to start, build, and sustain successful partnerships
 *	Work plans, relationships and customer service
 
-**VISTA Track**
+**VISTA Track**    
 * Story banking
 * Reporting and documenting your work
 * Evaluating partnerships
 * Health and economic panels
 * Navigating your food bank and new position
 
-**Nutrition Education Track**
+**Nutrition Education Track**    
 * Best practices in partnerships for child health
 * Expanding the classroom to kitchens and gardens
 * Classroom management skills
 * Food demo skills
 * Targeting your work with SNAP participation data
 
-**Benefits Outreach Track**
+**Benefits Outreach Track**    
 * HHSC policy & legislative updates
 * Targeting your work with SNAP participation data
 *	What your subcontract means to you
 *	HHSC Office of Social Services process redesign 
 *	Reaching seniors - outreach, in-reach and referrals
-
-
-
