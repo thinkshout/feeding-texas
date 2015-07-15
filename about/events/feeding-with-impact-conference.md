@@ -10,7 +10,7 @@ calls_to_action:
   - 2
 permalink: /feeding-with-impact-conference
 ---
-Please join us for the **2015 “Feeding With Impact” Conference**!    
+Please join us for the **2015 “Feeding With Impact” Conference**!      
 * Gain new skills
 * Network with colleagues from across Texas
 * Connect the dots between nutrition education, benefits outreach and VISTAs at your food bank. 
