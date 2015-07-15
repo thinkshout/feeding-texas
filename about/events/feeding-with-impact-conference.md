@@ -4,64 +4,44 @@ title: 2015 Feeding With Impact Conference
 subhead: August 19-21, 2015 - Austin, Texas
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: |
-  Join VISTAs, SNAP education and outreach colleagues in Austin for the 2015 “Feeding With Impact” Conference. 
+  Join fellow VISTAs, nutrition educators and benefits outreach colleagues in Austin for the 2015 “Feeding With Impact” Conference. 
 calls_to_action:
   - 1
   - 2
 permalink: /feeding-with-impact-conference
 ---
-Please join us for the **2015 “Feeding With Impact” Conference**. We hope you will find the conference engaging and informative. The tentative workshop sessions are listed below.
+Please join us for the **2015 “Feeding With Impact” Conference** to gain new skills and connect the dots between nutrition education, benefits outreach and VISTA partnerships happening at your food bank. 
 
-To register and and reserve hotel accommodations, follow this [link] (http://bit.ly/1Mi01pD).
+The conference will take place at the Sheraton Austin at the Capitol. Feeding Texas has negotiated a rate for conference attendees of $126/night: [register and reserve a room here](http://bit.ly/1Mi01pD).
 
-The conference will take place at the Sheraton Austin at the Capitol. 
+Tentative workshop sessions include:
 
 **General Sessions**
-
-* Feeding With Impact and our need for collaboration
-
-* Cultural Competency Training
-
-* How to start, build, and sustain a successful partnership
-
-*	Work Plans, Relationships and Customer Service
-
+* Feeding With Impact and the need for collaboration
+* Cultural competency
+* How to start, build, and sustain successful partnerships
+*	Work plans, relationships and customer service
 
 **VISTA Track**
+* Story banking
+* Reporting and documenting your work
+* Evaluating partnerships
+* Health and economic panels
+* Navigating your food bank and new position
 
-* Story Banking
-
-* Reporting/Legacy Folders
-
-* Evaluation
-
-* Health and Economic Panels
-
-* VISTA Round Table Discussions
-
-**SNAP-Ed Track**
-
-* Best practices in developing partnerships for child health
-
+**Nutrition Education Track**
+* Best practices in partnerships for child health
 * Expanding the classroom to kitchens and gardens
-
 * Classroom management skills
-
 * Food demo skills
+* Targeting your work with SNAP participation data
 
-* Texas SNAP Participation Data
-
-**SNAP Outreach Track**
-
-* HHSC Updates
-
-* Texas SNAP Participation Data
-
-*	What your Subcontract Means to You
-
-*	HHSC Office of Social Services Process Redesign 
-
-*	Senior SNAP Outreach Best Practices and Toolkit
+**Benefits Outreach Track**
+* HHSC policy & legislative updates
+* Targeting your work with SNAP participation data
+*	What your subcontract means to you
+*	HHSC Office of Social Services process redesign 
+*	Reaching seniors - outreach, in-reach and referrals
 
 
 
