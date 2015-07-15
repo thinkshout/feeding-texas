@@ -11,6 +11,7 @@ calls_to_action:
 permalink: /feeding-with-impact-conference
 ---
 Please join us for the **2015 “Feeding With Impact” Conference**!      
+
 * Gain new skills
 * Network with colleagues from across Texas
 * Connect the dots between nutrition education, benefits outreach and VISTAs at your food bank. 
@@ -22,12 +23,14 @@ Feeding Texas has negotiated a rate for conference attendees of $126/night: [reg
 Tentative workshop sessions include:
 
 **General Sessions**    
+
 * Feeding With Impact and the need for collaboration
 * Cultural competency
 * How to start, build, and sustain successful partnerships
 *	Work plans, relationships and customer service
 
 **VISTA Track**    
+
 * Story banking
 * Reporting and documenting your work
 * Evaluating partnerships
@@ -35,6 +38,7 @@ Tentative workshop sessions include:
 * Navigating your food bank and new position
 
 **Nutrition Education Track**    
+
 * Best practices in partnerships for child health
 * Expanding the classroom to kitchens and gardens
 * Classroom management skills
@@ -42,6 +46,7 @@ Tentative workshop sessions include:
 * Targeting your work with SNAP participation data
 
 **Benefits Outreach Track**    
+
 * HHSC policy & legislative updates
 * Targeting your work with SNAP participation data
 *	What your subcontract means to you
