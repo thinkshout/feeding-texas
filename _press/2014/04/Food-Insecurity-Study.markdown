@@ -21,7 +21,7 @@ The data, which is broken down by county and Congressional district, shows perva
 
 “Studies like these underline how hunger can persist even when the economy seems to be getting better,” said Celia Cole, CEO of TFBN. “Texas leads the nation in many ways, but we can’t be proud of ourselves as a state until this problem has been solved by our leaders and our local communities. Hunger doesn’t belong here.”
 
-Food insecurity is defined by the USDA as a socioeconomic condition of limited or uncertain access to enough food to support a healthy life. Research for the study conducted by Feeding America was supported by the Howard G. Buffett Foundation, ConAgra Foods Foundation and Nielsen. The information is provided to the public in an interactive map that can be found at [www.feedingamerica.org/mapthegap](www.feedingamerica.org/mapthegap).
+Food insecurity is defined by the USDA as a socioeconomic condition of limited or uncertain access to enough food to support a healthy life. Research for the study conducted by Feeding America was supported by the Howard G. Buffett Foundation, ConAgra Foods Foundation and Nielsen. The information is provided to the public in an interactive map that can be found at [www.map.feedingamerica.org/](http://map.feedingamerica.org/).
 
 *The Texas Food Bank Network provides a unified voice among food banks in support of their common mission to end hunger in Texas.*
 
