@@ -12,13 +12,11 @@ permalink: /feeding-with-impact-conference
 ---
 Please join us for the **2015 “Feeding With Impact” Conference**!      
 
-* Gain new skills
+* Gain new skills and knowledge
 * Network with colleagues from across Texas
 * Connect the dots between nutrition education, benefits outreach and VISTAs at your food bank. 
 
-The conference will take place at the Sheraton Austin at the Capitol. 
-
-Feeding Texas has negotiated a rate for conference attendees of $126/night: [register and reserve a room here](http://bit.ly/1Mi01pD).
+The conference will take place at the Sheraton Austin at the Capitol. We have negotiated an attendee rate of $126/night: [Register and reserve a room here](http://bit.ly/1Mi01pD).
 
 Tentative workshop sessions include:
 
@@ -52,3 +50,5 @@ Tentative workshop sessions include:
 *	What your subcontract means to you
 *	HHSC Office of Social Services process redesign 
 *	Reaching seniors - outreach, in-reach and referrals
+
+[Register now!](http://bit.ly/1Mi01pD)
