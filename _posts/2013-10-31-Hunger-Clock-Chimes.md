@@ -8,7 +8,7 @@ https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/hungercl
   thumb: "	
 https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/hungerclock.jpg"
 date: 2013-10-31
-author: 3
+author: 1
 tags: 
   - Food Insecurity
   - SNAP
