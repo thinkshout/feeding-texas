@@ -1,6 +1,6 @@
 ---
 layout: staff
-id: 12
+id: 9
 name: Summer Stringer
 email: sstringer@feedingtexas.org
 position: Program Director
