@@ -6,10 +6,12 @@ images:
   hero:
   thumb:
 date: 2014-11-19
-author: 10
+author: 13
 tags: 
 featured: false
 ---
+Featured guest blogger, Jacob Peeples
+
 At Feeding Texas, we’re always looking for new, innovative ways to help our member food banks build their capacity to decrease food insecurity.
 
 That’s why we created the Client Empowerment Corps, a statewide VISTA project to address the upstream causes and downstream effects of food insecurity through new, non-traditional partnerships. We know hunger is about more than food, which is why these partnerships will be aimed at increasing access to health resources and economic opportunities for struggling families, as well as helping them add their voices to the public discussion on hunger.
