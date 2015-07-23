@@ -34,7 +34,7 @@ We offer front-line expertise and unique perspective by providing public testimo
 
 Food banks can't do it all. The causes and consequences of hunger are complex, so we collaborate with partners that can help our clients move from hunger to health, and from financial insecurity to stability. 
 
-Feeding Texas leads the way with an innovative, statewide Americorp*VISTA "Client Empowerment Corps" that develops connections between food banks and local providers of health and financial empowerment services. [Learn more about this program.](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/VISTA-Concept-Paper.pdf)
+Feeding Texas leads the way with an innovative, statewide Americorp*VISTA "Client Empowerment Corps" that develops connections between food banks and local providers of health and financial empowerment services. [Learn more about this program.](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Client-Empowerment-Corps-Spotlight.pdf)
 
 **Raising the Voices that Matter**
 
