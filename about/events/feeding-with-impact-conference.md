@@ -17,9 +17,9 @@ Please join us for the **2015 “Feeding With Impact” Conference**!
 * Connect the dots between nutrition education, benefits outreach and VISTAs at your food bank. 
 
 The conference will take place at:  
-Sheraton Austin at the Capitol  
-701 East 11th Street, Austin, TX 78701
+*Sheraton Austin at the Capitol*  
+*701 East 11th Street, Austin, TX 78701*
 
 View our conference agenda [here](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Conference_Agenda.pdf).
 
-Check back to download speaker presentations and materials. 
+Check back to download speaker presentations and materials! 
