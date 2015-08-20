@@ -15,10 +15,19 @@ task :build do
   system 'bundle exec jekyll build'
 end
 
-desc 'Build and start local server'
 task :serve do
-  system 'bundle exec jekyll serve -w --baseurl="" --drafts'
-  system 'bundle exec compass compile &'
+  puts "***************************************************"
+  puts "* Watching Sass files. *"
+  puts "***************************************************"
+  sassPid = Process.spawn('bundle exec compass watch')
+  jekyllPid = Process.spawn('bundle exec jekyll serve -w --baseurl="" --drafts')
+
+  trap("INT") {
+    [sassPid, jekyllPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
+    exit 0
+  }
+
+  [sassPid, jekyllPid].each { |pid| Process.wait(pid) }
 end
 
 def jekyll(opts = '')
