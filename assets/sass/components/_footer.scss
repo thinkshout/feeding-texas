@@ -2,9 +2,15 @@ footer {
   background: $drkBrown;
   border-top: 3px solid $orange;
   text-align: center;
-
+  padding-left: 10px;
+  
+ 
   ul {
     padding-left: 0;
+  }
+
+  .wrap {
+    max-width: 80em;
   }
 
   .brand {
@@ -21,7 +27,14 @@ footer {
       padding-top: 2em;
       text-align: left;
     }
+
+    p {
+      font-size: 0.8em;
+    }
   }
+
+
+
 
   .social {
     margin-top: 1em;
@@ -36,6 +49,7 @@ footer {
       @include span-columns(3,12);
     }
   }
+
   nav.primary, nav.secondary {
     li {
       line-height: 1.5em;
@@ -59,5 +73,9 @@ footer {
       display: inline-block;
       width: 129px;
     }
+  }
+
+  na.primary  {
+    width: auto;
   }
 }

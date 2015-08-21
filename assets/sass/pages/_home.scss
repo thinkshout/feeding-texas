@@ -1,9 +1,13 @@
 .home {
 	section {
-		padding: 0 0 2em 0;
+		padding: 0;
     .main {
       margin-top: 0;
       @include clearfix;
     }
+  }
+
+  .the-latest {
+  	padding-bottom: 2em;
   }
 }
