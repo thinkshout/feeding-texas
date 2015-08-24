@@ -32,7 +32,7 @@ footer {
 
     @include breakpoint($bp-medium) {
       @include span-columns(2,12);
-      padding-top: 2em;
+      padding-top: 1.33em;
       text-align: left;
     }
 
@@ -42,6 +42,7 @@ footer {
   }
 
   .brand-feeding-america {
+
     @include breakpoint($bp-xxsmall) {
       @include span-columns(6,12);
       margin-right: 0;
@@ -51,6 +52,10 @@ footer {
       @include span-columns(2,12);
       padding-top: 0;
       text-align: left;
+    }
+
+    img {
+      margin-top: -21px;
     }
   }
 
