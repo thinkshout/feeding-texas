@@ -1,6 +1,5 @@
 node_modules
 _site
-assets/stylesheets
 .idea
 .sass-cache
 tmp
