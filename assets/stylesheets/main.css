@@ -487,7 +487,7 @@ header .wrap {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   header .wrap:after {
     content: "";
     display: table;
@@ -587,7 +587,7 @@ header .primary-nav {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .wrap:after {
     content: "";
     display: table;
@@ -608,7 +608,7 @@ header .primary-nav {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .the-latest .wrap:after {
     content: "";
     display: table;
@@ -737,8 +737,8 @@ Alerts
 
 Creates an alert box notification using the `.alert-` prefix. The following options are available:
 
-    <div class="alert-success">Success</div> 
-    <div class="alert-warning">Warning</div> 
+    <div class="alert-success">Success</div>
+    <div class="alert-warning">Warning</div>
     <div class="alert-error">Error</div>
 
 */

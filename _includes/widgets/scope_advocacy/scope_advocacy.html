@@ -1,0 +1,209 @@
+﻿
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.baseurl}}/assets/stylesheets/scope_advocacy/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .hide { display: none; }
+
+      #homeLink {
+        color: #FFF;
+        text-decoration: none;
+        transition: all .3s;
+      }
+
+      #homeLink:hover {
+        color: #C2D6FA;
+      }
+
+      .glyphicon-refresh {
+        color: #fff;
+        -webkit-animation:spin 3s linear infinite;
+       -moz-animation:spin 3s linear infinite;
+       animation:spin 3s linear infinite;
+      }
+
+        @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+        @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+        @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <nav class="navbar">
+        <div class="container">
+            <h2 class="form-signin-heading">
+                <a href="#" id="homeLink">
+                OccupyLege<i class="glyphicon glyphicon-question-sign pull-right"></i>
+                </a>
+            </h2>
+        </div>
+    </nav>
+
+
+        <div id="occupyMain">
+            <p class="text-center" id="welcomeMainMsg">
+                We need your help! The Texas Legislature is considering a bill that would make it harder for struggling Texans to put enough food on the table. HB 1485 would restrict working families from accessing SNAP benefits when they need them most.
+                <br />
+                <br />
+                <span class="lead text-center">
+                    Enter your address below to find and connect with the people who represent you!
+                </span>
+            </p>
+            <form id="occupyForm" class="form-signin" style="background-color: #006FCC;">
+                <label for="inputAddress" class="sr-only" style="color: white;">Street Address</label>
+                <input type="text" id="inputAddress" name="Address1" class="form-control" placeholder="Street Address" required autofocus>
+                <label for="inputCity" class="sr-only" style="color: white;">City</label>
+                <input type="text" id="inputCity" name="City" class="form-control" placeholder="City" required>
+                <label for="inputZip" class="sr-only" style="color: white;">Zip</label>
+                <input type="text" id="inputZip" name="ZipCode" class="form-control" placeholder="Zip" required>
+                <button class="btn btn-lg btn-primary btn-block" id="inputButton" type="submit" style="color: white; background-color: #1DB455 ;">Connect!</button>
+                <button class="btn btn-lg btn-primary btn-block" id="gpsButton" type="submit" style="color: white; background-color: #1DB455 ;"><i class="glyphicon glyphicon-map-marker"></i></button>
+            </form>
+        </div>
+
+        <div id="occupyResults" class="hide" style="background-color: #006FCC;">
+            <h3 class="text-center" id="welcomeRepName" style="color: white;">John Cornyn - (R)</h3>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="pull-left">
+                    <a id="tabCall" data-toggle="tab" role="tab" href="#occupyCall"><i class="glyphicon glyphicon-earphone" style="color: white;">Call</i></a>
+                </li>
+                <li class="pull-right">
+                    <a id="tabEmail" data-toggle="tab" role="tab" id="emailRepTab" href="#occupyEmail"><i class="glyphicon glyphicon-envelope" style="color: white;">Email</i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="occupyCall" class="tab-pane active hide" style="color: #006fcc; background-color: #d8d8d8; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+            <p>
+                <span class="lead text-center">
+                    Please call your legislator's Austin office and tell whoever answer the phone:
+                </span>
+                <br />
+                <br />
+                -Your name, and that you are a constitutent.
+                <br />
+                - Urge the member to oppose HB 1485 when it receives a floor vote this week.
+                <br />
+                - If you have a personal story about hunger or SNAP please share it.
+                <br />
+                - Thank them for their assistance!
+            </p>
+            <a href="#" id="callRepButton" class="btn btn-lg btn-primary btn-block" type="submit" style="color: white; background-color: #1DB455 ;">Call Sen. Cornyn Now!</a>
+        </div>
+
+        <div id="occupyEmail" class="tab-pane hide" style="color: #006fcc; background-color: #d8d8d8; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+            <p>
+                Dear <span id="emailRepName">Senator Cornyn</span>,
+                <br />
+                <br />
+                I am a constitutent, and am writing to urge you to oppose HB 1485 when it comes to the House floor this week.
+                <br />
+                <br />
+                This bill  would make it harder for struggling Texans to put enough food on the table by restricting working families' ability to access SNAP benefits. SNAP is an important resource for my community and our state.
+                <br />
+                <br />
+                Thank you for your consideration.
+                <br />
+                <br />
+                Sincerely,
+                <br />
+                <br />
+                NAME
+                <br />
+                <br />
+                ADDRESS
+            </p>
+            <a href="#" class="btn btn-lg btn-primary btn-block" id="emailButton" type="submit" style="color: white; background-color: #1DB455 ;">Email Sen. Cornyn Now!</a>
+        </div>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    -->
+    <script src="{{ site.baseurl}}/assets/js/scope_advocacy/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
+    <script src="{{ site.baseurl}}/assets/js/scope_advocacy/occupylege.js"></script>
+
+
+    <script type="text/javascript">
+
+        var occupyLege = {};
+
+        occupyLege.startup = function () {
+            occupyLege.addressValidation();
+
+            //$('#myTab a').click(function (e) {
+            //    e.preventDefault()
+            //    $(this).tab('show')
+            //})
+        }
+
+        occupyLege.addressValidation = function () {
+            $('#addressForm').validate({
+                rules: {
+                    'inputAddress': {
+                        required: true,
+                    },
+                    'inputCity': {
+                        required: true
+                    },
+                    'inputZip': {
+                        required: true
+                    },
+                }
+            })
+        };
+
+        occupyLege.addressInputSuccess = function () {
+            if ($("#inputButton").valid() == true) {
+                occupyLege.displayAddress();
+            }
+        };
+
+        occupyLege.displayAddress = function () {
+
+            var userInfo = $("#inputButton").serialize();
+            //not sure what the URL here is going to be?
+            var url = "/api/users/login";
+            var settings = {
+                cache: false,
+                contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+                type: "GET",
+                data: userLogin,
+                dataType: "JSON",
+                success: occupyLege.successCall,
+                error: occupyLege.error,
+            }
+            $.ajax(url, settings)
+        };
+
+
+        $("#emailRepTab").on("click", occupyLege.showEmailTab);
+
+        occupyLege.showEmailTab = function () {
+
+            $("#occupyEmail").tabs();
+
+
+
+
+        };
+
+        //occupyLege.successCall = function () {
+        //    if (electa.page.returnUrl) {
+        //        window.location.href = electa.page.returnUrl;
+        //    }
+        //    else {
+        //        window.location.href = "/users/info"
+        //    }
+        //}
+        //eocc = function (data, jqXHR, textStatus) {
+        //    $("#signinbutton").val("Try Again");
+        //    electa.utils.errorMessageExposer(data, textStatus);
+        //}
+
+    </script>

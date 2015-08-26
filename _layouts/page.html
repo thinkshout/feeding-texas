@@ -95,6 +95,10 @@ layout: default
         {% if page.type == "staff" %}
           {% include widgets/staff/staff-list.html %}
         {% endif %}
+
+        {% if page.type == "scope_advocacy" %}
+          {% include widgets/scope_advocacy/scope_advocacy.html %}
+        {% endif %}
       {% endif %}
       </div>
     </div>

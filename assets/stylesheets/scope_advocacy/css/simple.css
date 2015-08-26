@@ -1,0 +1,99 @@
+@import "bourbon";
+
+$color_purple: #5133AB;
+$color_red: #AC193D;
+$color_orange: #DC572E;
+$color_green: #00A600;
+$color_blue: #2672EC;
+
+// colors from http://www.creepyed.com/2012/09/windows-8-colors-hex-code/
+
+$base_font_size: 14px;
+$base_line_height: 1.5em;
+$text_font_family: 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+$display_font_family: 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+
+body {
+	font-family: $text_font_family;
+	font-size: $base_font_size;
+	line-height: $base_line_height;
+	font-weight: 400;
+}
+
+p, span, a, ul, li, button {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+strong {
+	font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $display_font_family;
+	line-height: $base_line_height;
+	font-weight: 300;	
+}
+
+strong {
+  font-weight: 400;
+}
+
+.tile {  
+  width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	background: #fff;		
+	padding: 20px;
+	margin-bottom: 30px;
+  
+  .title {
+		margin-top: 0px;
+	}
+  
+  &.purple, &.blue, &.red, &.orange, &.green {
+    color: #fff;
+  }
+  
+  &.purple {
+    background: $color_purple;
+
+		&:hover {
+			background: darken($color_purple, 10%);
+		}		
+  }
+  
+  &.red {
+    background: $color_red;
+
+		&:hover {
+			background: darken($color_red, 10%);
+		}		
+  }
+  
+  &.green {
+    background: $color_green;
+
+		&:hover {
+			background: darken($color_green, 10%);
+		}		
+  }
+  
+  &.blue {
+    background: $color_blue;
+
+		&:hover {
+			background: darken($color_blue, 10%);
+		}	
+  }
+  
+  &.orange {
+    background: $color_orange;
+
+		&:hover {
+			background: darken($color_orange, 10%);
+		}	
+  }
+}
