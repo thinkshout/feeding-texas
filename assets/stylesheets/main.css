@@ -2100,6 +2100,35 @@ footer nav.secondary {
   width: 25%;
 }
 
+/* line 1, ../sass/components/_scope-widget.scss */
+.scope-widget {
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.scope-widget:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 4, ../sass/components/_scope-widget.scss */
+.scope-widget #occupyForm input[type=text] {
+  border: none;
+  border-radius: 0;
+  height: auto;
+  margin-bottom: 0.5em;
+  padding: 1em;
+}
+/* line 13, ../sass/components/_scope-widget.scss */
+.scope-widget button[type=submit] .glyphicon {
+  line-height: 0;
+}
+
 /* line 1, ../sass/components/_search.scss */
 #utility {
   background: #e98300;

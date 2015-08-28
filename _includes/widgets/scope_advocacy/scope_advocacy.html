@@ -2,17 +2,10 @@
     <!-- Bootstrap core CSS -->
     <link href="{{ site.baseurl}}/assets/stylesheets/scope_advocacy/css/bootstrap.min.css" rel="stylesheet">
     <style>
+      body {
+        background: #f6f3f0;
+      }
       .hide { display: none; }
-
-      #homeLink {
-        color: #FFF;
-        text-decoration: none;
-        transition: all .3s;
-      }
-
-      #homeLink:hover {
-        color: #C2D6FA;
-      }
 
       .glyphicon-refresh {
         color: #fff;
@@ -33,35 +26,23 @@
     <![endif]-->
 
 
-    <nav class="navbar">
-        <div class="container">
-            <h2 class="form-signin-heading">
-                <a href="#" id="homeLink">
-                OccupyLege<i class="glyphicon glyphicon-question-sign pull-right"></i>
-                </a>
-            </h2>
-        </div>
-    </nav>
-
+      <div class="scope-widget content">
+        <h2 class="form-signin-heading">
+          <a href="#" id="homeLink">
+            OccupyLege<i class="glyphicon glyphicon-question-sign pull-right"></i>
+          </a>
+        </h2>
 
         <div id="occupyMain">
-            <p class="text-center" id="welcomeMainMsg">
-                We need your help! The Texas Legislature is considering a bill that would make it harder for struggling Texans to put enough food on the table. HB 1485 would restrict working families from accessing SNAP benefits when they need them most.
-                <br />
-                <br />
-                <span class="lead text-center">
-                    Enter your address below to find and connect with the people who represent you!
-                </span>
-            </p>
-            <form id="occupyForm" class="form-signin" style="background-color: #006FCC;">
+            <form id="occupyForm" class="form-signin">
                 <label for="inputAddress" class="sr-only" style="color: white;">Street Address</label>
                 <input type="text" id="inputAddress" name="Address1" class="form-control" placeholder="Street Address" required autofocus>
                 <label for="inputCity" class="sr-only" style="color: white;">City</label>
                 <input type="text" id="inputCity" name="City" class="form-control" placeholder="City" required>
                 <label for="inputZip" class="sr-only" style="color: white;">Zip</label>
                 <input type="text" id="inputZip" name="ZipCode" class="form-control" placeholder="Zip" required>
-                <button class="btn btn-lg btn-primary btn-block" id="inputButton" type="submit" style="color: white; background-color: #1DB455 ;">Connect!</button>
-                <button class="btn btn-lg btn-primary btn-block" id="gpsButton" type="submit" style="color: white; background-color: #1DB455 ;"><i class="glyphicon glyphicon-map-marker"></i></button>
+                <button class="button primary-btn" id="inputButton" type="submit">Connect!</button>
+                <button class="button primary-btn" id="gpsButton" type="submit">Locate me <i class="glyphicon glyphicon-map-marker"></i></button>
             </form>
         </div>
 
@@ -119,6 +100,7 @@
             </p>
             <a href="#" class="btn btn-lg btn-primary btn-block" id="emailButton" type="submit" style="color: white; background-color: #1DB455 ;">Email Sen. Cornyn Now!</a>
         </div>
+      </div> <!-- /SCOPE WIDGET -->
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!--

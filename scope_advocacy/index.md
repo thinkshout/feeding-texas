@@ -9,3 +9,6 @@ calls_to_action:
   - 2
 permalink: /scope_advocacy/
 ---
+We need your help! The Texas Legislature is considering a bill that would make it harder for struggling Texans to put enough food on the table. HB 1485 would restrict working families from accessing SNAP benefits when they need them most.
+
+## Enter your address below to find and connect with the people who represent you!
