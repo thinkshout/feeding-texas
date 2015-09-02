@@ -1,0 +1,17 @@
+.iframe-map {
+	min-width: 100%;
+	height: 400px;
+
+	@include breakpoint($bp-small) {
+        width: auto;
+        height: 600px;
+     }
+
+
+
+	@include breakpoint($bp-large) {
+        width: auto;
+        height: 700px;
+    }
+
+}

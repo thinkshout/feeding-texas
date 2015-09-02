@@ -3,6 +3,7 @@
 	border: 0;
 	overflow: hidden;
   @include box-shadow(rgba(0,0,0,0) 0 0 0);
+  margin-bottom: 20px;
 
   .flex-viewport {
     background: transparent;

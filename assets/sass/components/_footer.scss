@@ -2,13 +2,23 @@ footer {
   background: $drkBrown;
   border-top: 3px solid $orange;
   text-align: center;
+  padding-left: 10px;
+  padding: 2em 0;
+
 
   ul {
     padding-left: 0;
   }
 
-  .brand {
+  .wrap {
+    max-width: 80em;
+  }
+
+  .brand-feeding-america,
+  .brand-feeding-texas {
     text-align: center;
+    @include span-columns(12,12);
+
     img {
       width: 50%;
       @include breakpoint($bp-small) {
@@ -17,9 +27,35 @@ footer {
     }
 
     @include breakpoint($bp-xxsmall) {
+      @include span-columns(6,12);
+    }
+
+    @include breakpoint($bp-medium) {
       @include span-columns(2,12);
-      padding-top: 2em;
+      padding-top: 1.33em;
       text-align: left;
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+  }
+
+  .brand-feeding-america {
+
+    @include breakpoint($bp-xxsmall) {
+      @include span-columns(6,12);
+      margin-right: 0;
+    }
+
+    @include breakpoint($bp-medium) {
+      @include span-columns(2,12);
+      padding-top: 0;
+      text-align: left;
+    }
+
+    img {
+      margin-top: -21px;
     }
   }
 
@@ -30,12 +66,14 @@ footer {
 
     @include breakpoint($bp-xxsmall) {
       margin-top: 3em;
-      @include span-columns(6,12);
+      @include span-columns(4,12);
     }
+
     @include breakpoint($bp-medium) {
-      @include span-columns(3,12);
+      @include span-columns(2,12);
     }
   }
+
   nav.primary, nav.secondary {
     li {
       line-height: 1.5em;
@@ -46,12 +84,32 @@ footer {
     }
 
     @include breakpoint($bp-xxsmall) {
-      @include span-columns(3,12);
+      @include span-columns(4,12);
       text-align: right;
     }
   }
 
+  nav.primary {
+    @include breakpoint($bp-medium) {
+      text-align: right; 
+    }
+
+    @include breakpoint($bp-xxsmall) {
+      @include span-columns(4,12);
+      text-align: center;
+    }
+  }
+
   nav.secondary {
+    @include breakpoint($bp-xxsmall) {
+      @include span-columns(4,12);
+      text-align: center;
+      margin-right: 0;
+    }
+
+    @include breakpoint($bp-medium) {
+      @include span-columns(3,12);
+    }
 
     li a {
       @include secondary-btn;
@@ -59,5 +117,9 @@ footer {
       display: inline-block;
       width: 129px;
     }
+  }
+
+  nav.primary  {
+    width: auto;
   }
 }
