@@ -1,0 +1,28 @@
+.rep-card {
+  background: $white;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.cards-container .reset-btn,
+.call-rep,
+.email-rep {
+  display: none;
+}
+
+.reset-btn {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.rep-form-wrapper {
+  input[type=text] {
+    background: $white;
+    padding: 1em;
+    height: auto;
+  }
+}
+
+ul.errors {
+  color: red;
+}
