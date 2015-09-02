@@ -730,6 +730,38 @@ footer:after {
   clear: both;
 }
 
+/* line 1, ../sass/components/_advocacy_widget.scss */
+.rep-card {
+  background: white;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 9, ../sass/components/_advocacy_widget.scss */
+.cards-container .reset-btn,
+.call-rep,
+.email-rep {
+  display: none;
+}
+
+/* line 13, ../sass/components/_advocacy_widget.scss */
+.reset-btn {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+/* line 19, ../sass/components/_advocacy_widget.scss */
+.rep-form-wrapper input[type=text] {
+  background: white;
+  padding: 1em;
+  height: auto;
+}
+
+/* line 26, ../sass/components/_advocacy_widget.scss */
+ul.errors {
+  color: red;
+}
+
 /*
 
 Alerts
@@ -848,6 +880,17 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
 .button.secondary-btn:hover {
   color: #FFF;
   background: #455624;
+}
+
+/* line 13, ../sass/components/_buttons.scss */
+.button[disabled] {
+  background: #d8d8d8;
+  color: #222222;
+}
+/* line 17, ../sass/components/_buttons.scss */
+.button[disabled]:hover {
+  background: #d8d8d8;
+  color: #222222;
 }
 
 /* line 1, ../sass/components/_content-carousel.scss */
@@ -2098,35 +2141,6 @@ footer nav.secondary {
 .product-list .product-icon img {
   margin-top: 2em;
   width: 25%;
-}
-
-/* line 1, ../sass/components/_scope-widget.scss */
-.scope-widget {
-  *zoom: 1;
-  max-width: 59em;
-  _width: 59em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.scope-widget:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 4, ../sass/components/_scope-widget.scss */
-.scope-widget #occupyForm input[type=text] {
-  border: none;
-  border-radius: 0;
-  height: auto;
-  margin-bottom: 0.5em;
-  padding: 1em;
-}
-/* line 13, ../sass/components/_scope-widget.scss */
-.scope-widget button[type=submit] .glyphicon {
-  line-height: 0;
 }
 
 /* line 1, ../sass/components/_search.scss */
