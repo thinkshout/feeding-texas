@@ -1,13 +1,15 @@
 .crosslinks {
   @include clearfix;
+  clear: left;
   .cta {
   	background: $drkBrown;
     height: 250px;
     display: block;
     position: relative;
+
     @include box-sizing(border-box);
 
-  	@include breakpoint($bp-small, $no-query: false) {
+  	@include breakpoint($bp-xxsmall, $no-query: false) {
 			width: 100%;
 			height: 250px;
     }
