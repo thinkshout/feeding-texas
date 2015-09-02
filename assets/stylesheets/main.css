@@ -516,7 +516,7 @@ header .brand {
     padding: 14px;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 12, ../sass/layout/_header.scss */
   header .brand {
     padding: 14px;
@@ -565,7 +565,7 @@ header .primary-nav {
     width: auto;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 47, ../sass/layout/_header.scss */
   header .primary-nav {
     float: left;
@@ -786,7 +786,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
     margin-right: 0.5em;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 4, ../sass/components/_block-grid.scss */
   .block-grid .item {
     width: 32.20339%;
@@ -1038,7 +1038,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
     float: left;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 4, ../sass/components/_cross-links.scss */
   .crosslinks .cta {
     width: 50%;
@@ -1137,7 +1137,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
     margin: 0 auto;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 1, ../sass/components/_featured-press.scss */
   .featured-press {
     width: 52em;
@@ -1819,7 +1819,7 @@ a:focus {
     line-height: 35px;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 2, ../sass/components/_navigation.scss */
   .primary-nav,
   .secondary-nav {
@@ -1878,7 +1878,7 @@ a:focus {
     display: block;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 30, ../sass/components/_navigation.scss */
   .primary-nav {
     display: block;
@@ -2167,6 +2167,26 @@ footer nav.secondary {
   border-bottom: 4px white solid;
 }
 
+/* line 1, ../sass/components/_snapmap.scss */
+.iframe-map {
+  min-width: 100%;
+  height: 400px;
+}
+@media (min-width: 34.375em) {
+  /* line 1, ../sass/components/_snapmap.scss */
+  .iframe-map {
+    width: auto;
+    height: 600px;
+  }
+}
+@media (min-width: 64em) {
+  /* line 1, ../sass/components/_snapmap.scss */
+  .iframe-map {
+    width: auto;
+    height: 700px;
+  }
+}
+
 /* line 1, ../sass/components/_splash.scss */
 .splash {
   position: relative;
@@ -2430,7 +2450,7 @@ Featured Statistic
     display: inline;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 2, ../sass/components/_stories.scss */
   .featured-stories .story {
     width: 32.20339%;
@@ -2682,7 +2702,7 @@ ul.projects li a:hover {
     display: inline;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 18, ../sass/pages/_landing.scss */
   .landing section .hero {
     width: 57.62712%;
@@ -2717,7 +2737,7 @@ ul.projects li a:hover {
     line-height: 1.85em;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 32, ../sass/pages/_landing.scss */
   .landing section .lead {
     width: 40.67797%;
