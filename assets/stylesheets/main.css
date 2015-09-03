@@ -1810,10 +1810,6 @@ a:focus {
     height: 700px;
   }
 }
-/* line 21, ../sass/components/_media-timeline.scss */
-.iframe-timeline .vco-slider .slider-container-mask .slider-container {
-  top: 20px !important;
-}
 
 /* line 2, ../sass/components/_navigation.scss */
 .primary-nav,
