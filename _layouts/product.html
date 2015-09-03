@@ -11,7 +11,9 @@ layout: default
         {% elsif page.media.map %}
           <iframe class="iframe-map" frameBorder='0' src='{{ page.media.map }}'></iframe>
         {% elsif page.media.timeline %}
-          <iframe src='{{ page.media.timeline }}' width='100%' height='700' frameborder='0'></iframe>
+          <div class="padding-for-timeline">
+            <iframe class="iframe-timeline" src='{{ page.media.timeline }}' width='100%' height='700' frameborder='0'></iframe>
+          </div>
         {% endif %}
       {% else %}
         <div class="page-header">
