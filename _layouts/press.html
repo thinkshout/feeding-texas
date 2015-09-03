@@ -7,8 +7,13 @@ calls_to_action:
 <div class="post-detail">
   <div class="highlighted">
     <div class="wrap">
-      <div class="page-header">
-        <h1 class="page-title">{{ page.title }}</h1>
+      {% if page.banner %}
+         {% assign has_background_image = 'has-background-image' %}
+      {% endif %}
+      <div class="page-header {{has-background-image}}">
+        <div class="text">
+          <h1 class="page-title">{{ page.title }}</h1>
+        </div>
       </div>
     </div>
   </div>
