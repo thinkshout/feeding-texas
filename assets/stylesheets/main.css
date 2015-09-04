@@ -1828,6 +1828,32 @@ a:focus {
   z-index: 1;
 }
 
+/* line 2, ../sass/components/_media-timeline.scss */
+.padding-for-timeline {
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+/* line 7, ../sass/components/_media-timeline.scss */
+.iframe-timeline {
+  min-width: 100%;
+  height: 500px;
+}
+@media (min-width: 34.375em) {
+  /* line 7, ../sass/components/_media-timeline.scss */
+  .iframe-timeline {
+    width: auto;
+    height: 600px;
+  }
+}
+@media (min-width: 64em) {
+  /* line 7, ../sass/components/_media-timeline.scss */
+  .iframe-timeline {
+    width: auto;
+    height: 700px;
+  }
+}
+
 /* line 2, ../sass/components/_navigation.scss */
 .primary-nav,
 .secondary-nav {
