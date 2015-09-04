@@ -1,10 +1,11 @@
 .post-detail {
 	.highlighted {
     .wrap {
-    	min-height: 445px;
+    	//min-height: 445px;
     	padding: 0 0 2em 0;
       .page-header {
         max-width: 50em;
+				min-height: none;
         padding: 5em 0 0;
         top: auto;
         h1.page-title {
