@@ -1828,6 +1828,32 @@ a:focus {
   z-index: 1;
 }
 
+/* line 2, ../sass/components/_media-timeline.scss */
+.padding-for-timeline {
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+/* line 7, ../sass/components/_media-timeline.scss */
+.iframe-timeline {
+  min-width: 100%;
+  height: 500px;
+}
+@media (min-width: 34.375em) {
+  /* line 7, ../sass/components/_media-timeline.scss */
+  .iframe-timeline {
+    width: auto;
+    height: 600px;
+  }
+}
+@media (min-width: 64em) {
+  /* line 7, ../sass/components/_media-timeline.scss */
+  .iframe-timeline {
+    width: auto;
+    height: 700px;
+  }
+}
+
 /* line 2, ../sass/components/_navigation.scss */
 .primary-nav,
 .secondary-nav {
@@ -2098,24 +2124,35 @@ footer nav.secondary {
   min-height: 100%;
 }
 /* line 29, ../sass/components/_page-headers.scss */
+.highlighted .wrap .page-header.has-background-image {
+  min-height: 24em;
+}
+/* line 33, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header {
   position: relative;
   top: 3em;
   padding: 3.5em 0;
   width: 100%;
+  min-height: 12em;
   max-width: 36em;
   margin: 0 auto;
-  height: 24em;
   display: block;
   text-align: center;
   color: #FFF;
 }
-/* line 41, ../sass/components/_page-headers.scss */
+/* line 45, ../sass/components/_page-headers.scss */
+.highlighted .wrap .page-header .text {
+  bottom: 6em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+/* line 52, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header h1.page-title, .highlighted .wrap .page-header h3 {
   color: white;
   text-shadow: 0 3px 10px #222222;
 }
-/* line 46, ../sass/components/_page-headers.scss */
+/* line 57, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header h3 {
   text-shadow: 0 2px 5px #222222;
 }
