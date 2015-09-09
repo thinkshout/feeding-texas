@@ -22,6 +22,6 @@ According to the report, 87% of food insecure Americans lived in a household ear
 
 “We have proven programs to supplement the needs of families who earn too little to make ends meet,” said Cole. “We must reinvest in these programs, and take a hard look at why our economy is not producing enough jobs that allow workers to stop worrying about their next meal.”
 
-The USDA report is available (http://www.ers.usda.gov/publications/err-economic-research-report/err194.aspx)[here]. Feeding Texas leads a unified effort for a hunger-free Texas. 
+The USDA report is available [http://www.ers.usda.gov/publications/err-economic-research-report/err194.aspx](here). Feeding Texas leads a unified effort for a hunger-free Texas. 
  
 ##
