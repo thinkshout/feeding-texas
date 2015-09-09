@@ -60,3 +60,9 @@
     }
   }
 }
+
+// Post Detail and Press releases
+// -- without background image
+.post-detail .highlighted .wrap .page-header .text {
+  bottom: auto; // Makes sure test doesn't float to the top
+}

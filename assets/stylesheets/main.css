@@ -2157,6 +2157,11 @@ footer nav.secondary {
   text-shadow: 0 2px 5px #222222;
 }
 
+/* line 66, ../sass/components/_page-headers.scss */
+.post-detail .highlighted .wrap .page-header .text {
+  bottom: auto;
+}
+
 /* line 1, ../sass/components/_post-tags.scss */
 .tags {
   margin: 1em 0;
