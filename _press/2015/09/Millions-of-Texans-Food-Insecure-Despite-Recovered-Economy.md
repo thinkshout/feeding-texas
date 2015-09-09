@@ -12,7 +12,7 @@ featured: true
 **For Immediate Release:** 9/9/15    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
 
-Austin, TX – One in six Texas households struggled to avoid hunger in 2012-2014 despite a fully-recovered economy, according to a U.S. Department of Agriculture report released today. 17.2% percent of Texas households were found to have experienced hunger or engaged in coping mechanisms to avoid it, significantly higher than the national rate of 14.3%.
+*Austin, TX* – One in six Texas households struggled to avoid hunger in 2012-2014 despite a fully-recovered economy, according to a U.S. Department of Agriculture report released today. 17.2% percent of Texas households were found to have experienced hunger or engaged in coping mechanisms to avoid it, significantly higher than the national rate of 14.3%.
 
 In raw numbers, 1.7 million Texas households were food insecure, more than any other state except California. The state’s food insecurity rate was once again statistically unchanged from the prior three-year period.
 
