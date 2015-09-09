@@ -2908,50 +2908,56 @@ html, body {
 /* line 10, ../sass/pages/_post-detail.scss */
 .post-detail .highlighted .wrap .page-header h1.page-title {
   color: #e98300;
-  font-size: 3.5em;
   font-family: "Merriweather", Georgia, serif;
+  font-size: 2.75em;
   font-weight: normal;
   text-transform: none;
 }
-/* line 21, ../sass/pages/_post-detail.scss */
+@media (min-width: 45em) {
+  /* line 10, ../sass/pages/_post-detail.scss */
+  .post-detail .highlighted .wrap .page-header h1.page-title {
+    font-size: 3.5em;
+  }
+}
+/* line 25, ../sass/pages/_post-detail.scss */
 .post-detail .main {
   padding-bottom: 2em;
   overflow: hidden;
 }
-/* line 26, ../sass/pages/_post-detail.scss */
+/* line 30, ../sass/pages/_post-detail.scss */
 .post-detail .teaser.press {
   margin-bottom: 3em;
 }
-/* line 30, ../sass/pages/_post-detail.scss */
+/* line 34, ../sass/pages/_post-detail.scss */
 .post-detail .article-body {
   font-size: 1.25em;
   line-height: 1.85em;
 }
-/* line 36, ../sass/pages/_post-detail.scss */
+/* line 40, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .photo {
   margin: 0;
   height: 100px;
   width: 100px;
 }
-/* line 40, ../sass/pages/_post-detail.scss */
+/* line 44, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .photo img {
   height: 100px;
   width: 100px;
 }
-/* line 45, ../sass/pages/_post-detail.scss */
+/* line 49, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info {
   text-align: left;
   color: #222222;
 }
-/* line 49, ../sass/pages/_post-detail.scss */
+/* line 53, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info h3 {
   margin: 0.25em 0;
 }
-/* line 53, ../sass/pages/_post-detail.scss */
+/* line 57, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info .position {
   font-size: 0.875em;
 }
-/* line 57, ../sass/pages/_post-detail.scss */
+/* line 61, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info a {
   color: #2e2118;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2959,7 +2965,7 @@ html, body {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 60, ../sass/pages/_post-detail.scss */
+/* line 64, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info a:hover {
   color: #e98300;
 }

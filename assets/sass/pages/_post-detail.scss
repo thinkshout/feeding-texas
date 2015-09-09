@@ -9,10 +9,14 @@
         top: auto;
         h1.page-title {
           color: $orange;
-          font-size: 3.5em;
           font-family: $base-font-family;
+					font-size: 2.75em;
           font-weight: normal;
           text-transform: none;
+
+					@include breakpoint($bp-xxsmall) {
+          	font-size: 3.5em;
+	        }
         }
       }
     }
