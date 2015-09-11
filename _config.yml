@@ -35,6 +35,8 @@ collections:
   staff:
     output: true
     permalink: /staff/:path/
+  guest_authors:
+    output: false
   jobs:
     output: false
   calls-to-action:
