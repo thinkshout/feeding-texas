@@ -6,7 +6,7 @@ images:
   hero: "	"
   thumb: " "
 date: 2015-09-04
-guest_author: 01
+guest_author: 1
 tags:
 featured: true
 ---
