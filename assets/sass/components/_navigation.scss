@@ -188,6 +188,17 @@
 	}
 }
 
+// Action links on mobile
+.primary-nav ul li.mobile-action-link {
+	@include breakpoint($bp-xxsmall) {
+		display: none;
+	}
+
+	a {
+		background: $green;
+	}
+}
+
 footer {
   nav.primary,
   nav.secondary {
