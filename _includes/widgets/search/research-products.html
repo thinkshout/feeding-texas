@@ -5,31 +5,27 @@
 	    <label>Product Type:</label>
       <select id="product-type" name="ProductType">
       	<option value="all">All</option>
-      	<option value="data">Data</option>
-      	<option value="report">Report</option>
-      	<option value="factsheet">Factsheet</option>
+        {% for product in site.data.taxonomy.products %}
+        <option value="{{product|remove: '& '|downcase|replace: ' ', '-'}}">{{product}}</option>
+        {% endfor %}
       </select>
     </li>
     <li>
       <label>Topic:</label>
       <select id="topic" name="Topic">
       	<option value="all">All</option>
-      	<option value="food-insecurity">Hunger &amp; Food Insecurity</option>
-      	<option value="report">Healthy Eating</option>
-      	<option value="snap">SNAP</option>
-      	<option value="seniors">Seniors</option>
-      	<option value="rural-communities">Rural Communities</option>
-      	<option value="disabled">Disabled</option>
-      	<option value="children">Children</option>
-      	<option value="military">Military</option>
+        {% for topic in site.data.taxonomy.topics %}
+        <option value="{{topic|remove: '& '|downcase|replace: ' ', '-'}}">{{topic}}</option>
+        {% endfor %}
       </select>
     </li>
   </ul>
 </div>
 
 <div class="product-list">
-  {% for product in site.products %}
-    <div class="product teaser" data-type="{{ product.type }}" data-topic="{% for category in product.categories %}{{ category | replace:' ','-' }} {% endfor %}">
+  {% for product in site.products reversed %}
+    <div class="product teaser" data-type="{{ product.type }}" data-topic="{% for category in product.categories %}{{ category | remove: '& '| downcase | replace:' ','-' }} {% endfor %}">
+      <h1>{{product.date}}</h1>
       <span class="label">{{ product.type }}</span>
       {% include widgets/product_icon/product-icon.html %}
       <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>

@@ -2085,7 +2085,18 @@ a:focus {
   border-bottom: 1px solid #f6f3f0;
 }
 
-/* line 193, ../sass/components/_navigation.scss */
+@media (min-width: 45em) {
+  /* line 192, ../sass/components/_navigation.scss */
+  .primary-nav ul li.mobile-action-link {
+    display: none;
+  }
+}
+/* line 197, ../sass/components/_navigation.scss */
+.primary-nav ul li.mobile-action-link a {
+  background: #53682b;
+}
+
+/* line 204, ../sass/components/_navigation.scss */
 footer nav.primary,
 footer nav.secondary {
   font-size: 1.1em;
