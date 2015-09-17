@@ -23,8 +23,9 @@
 </div>
 
 <div class="product-list">
-  {% for product in site.products %}
+  {% for product in site.products reversed %}
     <div class="product teaser" data-type="{{ product.type }}" data-topic="{% for category in product.categories %}{{ category | remove: '& '| downcase | replace:' ','-' }} {% endfor %}">
+      <h1>{{product.date}}</h1>
       <span class="label">{{ product.type }}</span>
       {% include widgets/product_icon/product-icon.html %}
       <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
