@@ -7,6 +7,7 @@ calls_to_action:
   - 1
   - 2
 permalink: /about/contact/
+sort_order: 2
 ---
 **Mailing Address:**   
 Feeding Texas   
