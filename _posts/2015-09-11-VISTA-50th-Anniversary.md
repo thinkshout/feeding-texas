@@ -41,4 +41,4 @@ A panel discussion included members of organizations from VISTA’s four focus a
 <img src="https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/Andrew-Garrison-VISTA-Anniversary.jpg" alt="Andrew Garrison, Feeding Texas VISTA Leader" width="1024x”>
 Following the panel discussion, VISTA leaders including our own Andrew Garrison facilitated small-group discussion on ways to solve poverty in Central Texas. 
 Events commemorating VISTA’s 50th anniversary will continue throughout the year. For Feeding Texas, this celebration is an opportunity to honor VISTA’s wonderful legacy of service while we create new connections and develop ideas for the future of the Client Empowerment Corps. 
-Interested in joining our VISTA team? [Click here.](http://www.feedingtexas.org/about/careers/)
+Interested in joining our VISTA team? (Click here.)[http://www.feedingtexas.org/about/careers]
