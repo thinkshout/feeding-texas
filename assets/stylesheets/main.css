@@ -2173,6 +2173,11 @@ footer nav.secondary {
   bottom: auto;
 }
 
+/* line 71, ../sass/components/_page-headers.scss */
+.county-detail .highlighted .wrap {
+  min-height: 490px;
+}
+
 /* line 1, ../sass/components/_post-tags.scss */
 .tags {
   margin: 1em 0;
