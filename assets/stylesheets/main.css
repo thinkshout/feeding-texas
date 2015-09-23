@@ -516,7 +516,7 @@ header .brand {
     padding: 14px;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 12, ../sass/layout/_header.scss */
   header .brand {
     padding: 14px;
@@ -565,7 +565,7 @@ header .primary-nav {
     width: auto;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 47, ../sass/layout/_header.scss */
   header .primary-nav {
     float: left;
@@ -730,6 +730,38 @@ footer:after {
   clear: both;
 }
 
+/* line 1, ../sass/components/_advocacy_widget.scss */
+.rep-card {
+  background: white;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 9, ../sass/components/_advocacy_widget.scss */
+.cards-container .reset-btn,
+.call-rep,
+.email-rep {
+  display: none;
+}
+
+/* line 13, ../sass/components/_advocacy_widget.scss */
+.reset-btn {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+/* line 19, ../sass/components/_advocacy_widget.scss */
+.rep-form-wrapper input[type=text] {
+  background: white;
+  padding: 1em;
+  height: auto;
+}
+
+/* line 26, ../sass/components/_advocacy_widget.scss */
+ul.errors {
+  color: red;
+}
+
 /*
 
 Alerts
@@ -737,8 +769,8 @@ Alerts
 
 Creates an alert box notification using the `.alert-` prefix. The following options are available:
 
-    <div class="alert-success">Success</div> 
-    <div class="alert-warning">Warning</div> 
+    <div class="alert-success">Success</div>
+    <div class="alert-warning">Warning</div>
     <div class="alert-error">Error</div>
 
 */
@@ -786,7 +818,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
     margin-right: 0.5em;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 4, ../sass/components/_block-grid.scss */
   .block-grid .item {
     width: 32.20339%;
@@ -848,6 +880,17 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
 .button.secondary-btn:hover {
   color: #FFF;
   background: #455624;
+}
+
+/* line 13, ../sass/components/_buttons.scss */
+.button[disabled] {
+  background: #d8d8d8;
+  color: #222222;
+}
+/* line 17, ../sass/components/_buttons.scss */
+.button[disabled]:hover {
+  background: #d8d8d8;
+  color: #222222;
 }
 
 /* line 1, ../sass/components/_content-carousel.scss */
@@ -1003,6 +1046,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
 /* line 1, ../sass/components/_cross-links.scss */
 .crosslinks {
   *zoom: 1;
+  clear: left;
 }
 /* line 16, ../sass/layout/_grid.scss */
 .crosslinks:before, .crosslinks:after {
@@ -1013,7 +1057,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
 .crosslinks:after {
   clear: both;
 }
-/* line 3, ../sass/components/_cross-links.scss */
+/* line 4, ../sass/components/_cross-links.scss */
 .crosslinks .cta {
   background: #2e2118;
   height: 250px;
@@ -1023,33 +1067,33 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media (min-width: 34.375em) {
-  /* line 3, ../sass/components/_cross-links.scss */
+@media (min-width: 45em) {
+  /* line 4, ../sass/components/_cross-links.scss */
   .crosslinks .cta {
     width: 100%;
     height: 250px;
   }
 }
 @media (min-width: 55em) {
-  /* line 3, ../sass/components/_cross-links.scss */
+  /* line 4, ../sass/components/_cross-links.scss */
   .crosslinks .cta {
     width: 50%;
     float: left;
   }
 }
-@media (min-width: 62.5em) {
-  /* line 3, ../sass/components/_cross-links.scss */
+@media (min-width: 64em) {
+  /* line 4, ../sass/components/_cross-links.scss */
   .crosslinks .cta {
     width: 50%;
     height: 250px;
     float: left;
   }
 }
-/* line 26, ../sass/components/_cross-links.scss */
+/* line 28, ../sass/components/_cross-links.scss */
 .crosslinks .cta .bg-img {
   height: 100%;
 }
-/* line 30, ../sass/components/_cross-links.scss */
+/* line 32, ../sass/components/_cross-links.scss */
 .crosslinks .cta .text {
   z-index: 1000;
   margin: 0 auto;
@@ -1059,14 +1103,14 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
   top: 0;
   left: 0;
 }
-/* line 39, ../sass/components/_cross-links.scss */
+/* line 41, ../sass/components/_cross-links.scss */
 .crosslinks .cta .text h3 {
   color: white;
   font-size: 1.6em;
   padding: 1em;
   text-shadow: rgba(0, 0, 0, 0.7) 0 3px 6px;
 }
-/* line 51, ../sass/components/_cross-links.scss */
+/* line 53, ../sass/components/_cross-links.scss */
 .crosslinks .cta:hover .bg-img img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
   opacity: 0.75;
@@ -1136,7 +1180,7 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
     margin: 0 auto;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 1, ../sass/components/_featured-press.scss */
   .featured-press {
     width: 52em;
@@ -1147,17 +1191,16 @@ Creates an alert box notification using the `.alert-` prefix. The following opti
 /* line 16, ../sass/components/_featured-press.scss */
 article.teaser.press {
   border-bottom: 1px solid #ece9e6;
-  padding-bottom: 2em;
 }
-/* line 20, ../sass/components/_featured-press.scss */
+/* line 18, ../sass/components/_featured-press.scss */
 article.teaser.press h2 {
   margin-bottom: 0;
 }
-/* line 21, ../sass/components/_featured-press.scss */
+/* line 19, ../sass/components/_featured-press.scss */
 article.teaser.press h4 {
   margin-top: 0;
 }
-/* line 23, ../sass/components/_featured-press.scss */
+/* line 21, ../sass/components/_featured-press.scss */
 article.teaser.press .pullquote {
   font-size: 1.5em;
   font-family: "Merriweather", Georgia, serif;
@@ -1166,29 +1209,29 @@ article.teaser.press .pullquote {
   background: transparent url("../images/quote.png") top left no-repeat;
   min-height: 124px;
 }
-/* line 30, ../sass/components/_featured-press.scss */
+/* line 28, ../sass/components/_featured-press.scss */
 article.teaser.press .pullquote a {
   text-decoration: none;
   color: #e98300;
 }
-/* line 33, ../sass/components/_featured-press.scss */
+/* line 31, ../sass/components/_featured-press.scss */
 article.teaser.press .pullquote a:hover {
   color: #ff9c1d;
 }
-/* line 37, ../sass/components/_featured-press.scss */
+/* line 35, ../sass/components/_featured-press.scss */
 article.teaser.press .pullquote .attribution {
   display: inline-block;
   font-size: 20px;
   font-style: italic;
   color: #222;
 }
-/* line 42, ../sass/components/_featured-press.scss */
+/* line 40, ../sass/components/_featured-press.scss */
 article.teaser.press .pullquote .attribution:before {
   content: "-";
   margin-right: 0.25em;
 }
 
-/* line 49, ../sass/components/_featured-press.scss */
+/* line 47, ../sass/components/_featured-press.scss */
 .pullquote {
   min-height: 124px;
 }
@@ -1290,8 +1333,9 @@ article.teaser.press .pullquote .attribution:before {
   -webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
   -moz-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
   box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+  margin-bottom: 20px;
 }
-/* line 7, ../sass/components/_flexslider.scss */
+/* line 8, ../sass/components/_flexslider.scss */
 .flexslider .flex-viewport {
   background: transparent;
   overflow: visible !important;
@@ -1299,41 +1343,41 @@ article.teaser.press .pullquote .attribution:before {
   -moz-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
   box-shadow: rgba(0, 0, 0, 0) 0 0 0;
 }
-/* line 15, ../sass/components/_flexslider.scss */
+/* line 16, ../sass/components/_flexslider.scss */
 .flexslider ul.slides li {
   width: 50%;
   margin: 0;
 }
-/* line 18, ../sass/components/_flexslider.scss */
+/* line 19, ../sass/components/_flexslider.scss */
 .flexslider ul.slides li img {
   width: 50%;
   float: left;
   margin-left: 50%;
 }
-/* line 23, ../sass/components/_flexslider.scss */
+/* line 24, ../sass/components/_flexslider.scss */
 .flexslider ul.slides li .flex-caption {
   display: block;
   width: 50%;
   padding: 0 1em 0 4em;
 }
 
-/* line 34, ../sass/components/_flexslider.scss */
+/* line 35, ../sass/components/_flexslider.scss */
 .latest-work .flexslider.carousel .product-icon {
   float: right;
   text-align: center;
   width: 50%;
 }
-/* line 38, ../sass/components/_flexslider.scss */
+/* line 39, ../sass/components/_flexslider.scss */
 .latest-work .flexslider.carousel .product-icon img {
   margin-top: 2em;
   width: 25%;
 }
 
-/* line 47, ../sass/components/_flexslider.scss */
+/* line 48, ../sass/components/_flexslider.scss */
 .content-carousel .view-all {
   margin: 0 auto;
 }
-/* line 49, ../sass/components/_flexslider.scss */
+/* line 50, ../sass/components/_flexslider.scss */
 .content-carousel .view-all span {
   background: white;
 }
@@ -1343,52 +1387,42 @@ footer {
   background: #2e2118;
   border-top: 3px solid #e98300;
   text-align: center;
+  padding-left: 10px;
+  padding: 2em 0;
 }
-/* line 6, ../sass/components/_footer.scss */
+/* line 9, ../sass/components/_footer.scss */
 footer ul {
   padding-left: 0;
 }
-/* line 10, ../sass/components/_footer.scss */
-footer .brand {
-  text-align: center;
+/* line 13, ../sass/components/_footer.scss */
+footer .wrap {
+  max-width: 80em;
 }
-/* line 12, ../sass/components/_footer.scss */
-footer .brand img {
+/* line 18, ../sass/components/_footer.scss */
+footer .brand-feeding-america,
+footer .brand-feeding-texas {
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 22, ../sass/components/_footer.scss */
+footer .brand-feeding-america img,
+footer .brand-feeding-texas img {
   width: 50%;
 }
 @media (min-width: 34.375em) {
-  /* line 12, ../sass/components/_footer.scss */
-  footer .brand img {
+  /* line 22, ../sass/components/_footer.scss */
+  footer .brand-feeding-america img,
+  footer .brand-feeding-texas img {
     width: auto;
   }
 }
 @media (min-width: 45em) {
-  /* line 10, ../sass/components/_footer.scss */
-  footer .brand {
-    width: 15.25424%;
-    float: left;
-    margin-right: 1.69492%;
-    display: inline;
-    padding-top: 2em;
-    text-align: left;
-  }
-}
-/* line 26, ../sass/components/_footer.scss */
-footer .social {
-  margin-top: 1em;
-}
-/* line 28, ../sass/components/_footer.scss */
-footer .social li {
-  display: inline;
-}
-/* line 29, ../sass/components/_footer.scss */
-footer .social img {
-  width: 20%;
-}
-@media (min-width: 45em) {
-  /* line 26, ../sass/components/_footer.scss */
-  footer .social {
-    margin-top: 3em;
+  /* line 18, ../sass/components/_footer.scss */
+  footer .brand-feeding-america,
+  footer .brand-feeding-texas {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
@@ -1396,34 +1430,134 @@ footer .social img {
   }
 }
 @media (min-width: 55em) {
-  /* line 26, ../sass/components/_footer.scss */
+  /* line 18, ../sass/components/_footer.scss */
+  footer .brand-feeding-america,
+  footer .brand-feeding-texas {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    padding-top: 1.33em;
+    text-align: left;
+  }
+}
+/* line 39, ../sass/components/_footer.scss */
+footer .brand-feeding-america p,
+footer .brand-feeding-texas p {
+  font-size: 0.8em;
+}
+@media (min-width: 45em) {
+  /* line 44, ../sass/components/_footer.scss */
+  footer .brand-feeding-america {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    margin-right: 0;
+  }
+}
+@media (min-width: 55em) {
+  /* line 44, ../sass/components/_footer.scss */
+  footer .brand-feeding-america {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    padding-top: 0;
+    text-align: left;
+  }
+}
+/* line 57, ../sass/components/_footer.scss */
+footer .brand-feeding-america img {
+  margin-top: -21px;
+}
+/* line 62, ../sass/components/_footer.scss */
+footer .social {
+  margin-top: 1em;
+}
+/* line 64, ../sass/components/_footer.scss */
+footer .social li {
+  display: inline;
+}
+/* line 65, ../sass/components/_footer.scss */
+footer .social img {
+  width: 20%;
+}
+@media (min-width: 45em) {
+  /* line 62, ../sass/components/_footer.scss */
   footer .social {
-    width: 23.72881%;
+    margin-top: 3em;
+    width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
 }
-/* line 40, ../sass/components/_footer.scss */
+@media (min-width: 55em) {
+  /* line 62, ../sass/components/_footer.scss */
+  footer .social {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+/* line 78, ../sass/components/_footer.scss */
 footer nav.primary li, footer nav.secondary li {
   line-height: 1.5em;
   list-style-type: none;
 }
-/* line 43, ../sass/components/_footer.scss */
+/* line 81, ../sass/components/_footer.scss */
 footer nav.primary li a:hover, footer nav.secondary li a:hover {
   color: white;
 }
 @media (min-width: 45em) {
-  /* line 39, ../sass/components/_footer.scss */
+  /* line 77, ../sass/components/_footer.scss */
   footer nav.primary, footer nav.secondary {
-    width: 23.72881%;
+    width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
     text-align: right;
   }
 }
-/* line 56, ../sass/components/_footer.scss */
+@media (min-width: 55em) {
+  /* line 92, ../sass/components/_footer.scss */
+  footer nav.primary {
+    text-align: right;
+  }
+}
+@media (min-width: 45em) {
+  /* line 92, ../sass/components/_footer.scss */
+  footer nav.primary {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    text-align: center;
+  }
+}
+@media (min-width: 45em) {
+  /* line 103, ../sass/components/_footer.scss */
+  footer nav.secondary {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    text-align: center;
+    margin-right: 0;
+  }
+}
+@media (min-width: 55em) {
+  /* line 103, ../sass/components/_footer.scss */
+  footer nav.secondary {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+/* line 114, ../sass/components/_footer.scss */
 footer nav.secondary li a {
   background: #53682b;
   color: white;
@@ -1435,6 +1569,10 @@ footer nav.secondary li a {
 footer nav.secondary li a:hover {
   color: #FFF;
   background: #455624;
+}
+/* line 122, ../sass/components/_footer.scss */
+footer nav.primary {
+  width: auto;
 }
 
 /* line 1, ../sass/components/_forms.scss */
@@ -1576,7 +1714,7 @@ header {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  height: 70px;
+  height: 80px;
   position: absolute;
   width: 100%;
   z-index: 100;
@@ -1690,6 +1828,32 @@ a:focus {
   z-index: 1;
 }
 
+/* line 2, ../sass/components/_media-timeline.scss */
+.padding-for-timeline {
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+/* line 7, ../sass/components/_media-timeline.scss */
+.iframe-timeline {
+  min-width: 100%;
+  height: 500px;
+}
+@media (min-width: 34.375em) {
+  /* line 7, ../sass/components/_media-timeline.scss */
+  .iframe-timeline {
+    width: auto;
+    height: 600px;
+  }
+}
+@media (min-width: 64em) {
+  /* line 7, ../sass/components/_media-timeline.scss */
+  .iframe-timeline {
+    width: auto;
+    height: 700px;
+  }
+}
+
 /* line 2, ../sass/components/_navigation.scss */
 .primary-nav,
 .secondary-nav {
@@ -1724,11 +1888,11 @@ a:focus {
     line-height: 35px;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 2, ../sass/components/_navigation.scss */
   .primary-nav,
   .secondary-nav {
-    line-height: 70px;
+    line-height: 80px;
   }
 }
 
@@ -1783,7 +1947,7 @@ a:focus {
     display: block;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 30, ../sass/components/_navigation.scss */
   .primary-nav {
     display: block;
@@ -2072,7 +2236,7 @@ footer nav.secondary {
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  margin: 2em 0;
+  margin: 2em 0 1.4em;
   font-weight: 300;
 }
 /* line 7, ../sass/components/_section-header.scss */
@@ -2091,6 +2255,26 @@ footer nav.secondary {
 /* line 19, ../sass/components/_section-header.scss */
 .highlighted .section-header span.divider {
   border-bottom: 4px white solid;
+}
+
+/* line 1, ../sass/components/_snapmap.scss */
+.iframe-map {
+  min-width: 100%;
+  height: 400px;
+}
+@media (min-width: 34.375em) {
+  /* line 1, ../sass/components/_snapmap.scss */
+  .iframe-map {
+    width: auto;
+    height: 600px;
+  }
+}
+@media (min-width: 64em) {
+  /* line 1, ../sass/components/_snapmap.scss */
+  .iframe-map {
+    width: auto;
+    height: 700px;
+  }
 }
 
 /* line 1, ../sass/components/_splash.scss */
@@ -2356,7 +2540,7 @@ Featured Statistic
     display: inline;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 2, ../sass/components/_stories.scss */
   .featured-stories .story {
     width: 32.20339%;
@@ -2536,7 +2720,7 @@ ul.projects li a:hover {
 
 /* line 2, ../sass/pages/_home.scss */
 .home section {
-  padding: 0 0 2em 0;
+  padding: 0;
 }
 /* line 4, ../sass/pages/_home.scss */
 .home section .main {
@@ -2551,6 +2735,10 @@ ul.projects li a:hover {
 /* line 20, ../sass/layout/_grid.scss */
 .home section .main:after {
   clear: both;
+}
+/* line 10, ../sass/pages/_home.scss */
+.home .the-latest {
+  padding-bottom: 2em;
 }
 
 /* line 2, ../sass/pages/_landing.scss */
@@ -2568,7 +2756,7 @@ ul.projects li a:hover {
 }
 /* line 13, ../sass/pages/_landing.scss */
 .landing section {
-  padding: 2em 0 5em;
+  padding: 1em 0 2em;
   border-bottom: 3px double #f6f3f0;
   *zoom: 1;
 }
@@ -2604,7 +2792,7 @@ ul.projects li a:hover {
     display: inline;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 18, ../sass/pages/_landing.scss */
   .landing section .hero {
     width: 57.62712%;
@@ -2639,7 +2827,7 @@ ul.projects li a:hover {
     line-height: 1.85em;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 64em) {
   /* line 32, ../sass/pages/_landing.scss */
   .landing section .lead {
     width: 40.67797%;
@@ -2671,10 +2859,11 @@ ul.projects li a:hover {
 /* line 68, ../sass/pages/_landing.scss */
 .landing .content-bottom {
   background: white;
+  padding-top: 1em;
 }
-/* line 70, ../sass/pages/_landing.scss */
+/* line 71, ../sass/pages/_landing.scss */
 .landing .content-bottom section {
-  padding: 4em 0;
+  padding: 2.5em 0;
 }
 
 /* line 2, ../sass/pages/_latest-work.scss */
@@ -2724,50 +2913,56 @@ html, body {
 /* line 10, ../sass/pages/_post-detail.scss */
 .post-detail .highlighted .wrap .page-header h1.page-title {
   color: #e98300;
-  font-size: 3.5em;
   font-family: "Merriweather", Georgia, serif;
+  font-size: 2.75em;
   font-weight: normal;
   text-transform: none;
 }
-/* line 21, ../sass/pages/_post-detail.scss */
+@media (min-width: 45em) {
+  /* line 10, ../sass/pages/_post-detail.scss */
+  .post-detail .highlighted .wrap .page-header h1.page-title {
+    font-size: 3.5em;
+  }
+}
+/* line 25, ../sass/pages/_post-detail.scss */
 .post-detail .main {
   padding-bottom: 2em;
   overflow: hidden;
 }
-/* line 26, ../sass/pages/_post-detail.scss */
+/* line 30, ../sass/pages/_post-detail.scss */
 .post-detail .teaser.press {
   margin-bottom: 3em;
 }
-/* line 30, ../sass/pages/_post-detail.scss */
+/* line 34, ../sass/pages/_post-detail.scss */
 .post-detail .article-body {
   font-size: 1.25em;
   line-height: 1.85em;
 }
-/* line 36, ../sass/pages/_post-detail.scss */
+/* line 40, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .photo {
   margin: 0;
   height: 100px;
   width: 100px;
 }
-/* line 40, ../sass/pages/_post-detail.scss */
+/* line 44, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .photo img {
   height: 100px;
   width: 100px;
 }
-/* line 45, ../sass/pages/_post-detail.scss */
+/* line 49, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info {
   text-align: left;
   color: #222222;
 }
-/* line 49, ../sass/pages/_post-detail.scss */
+/* line 53, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info h3 {
   margin: 0.25em 0;
 }
-/* line 53, ../sass/pages/_post-detail.scss */
+/* line 57, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info .position {
   font-size: 0.875em;
 }
-/* line 57, ../sass/pages/_post-detail.scss */
+/* line 61, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info a {
   color: #2e2118;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2775,7 +2970,7 @@ html, body {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 60, ../sass/pages/_post-detail.scss */
+/* line 64, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info a:hover {
   color: #e98300;
 }

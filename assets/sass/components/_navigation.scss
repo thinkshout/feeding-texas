@@ -21,7 +21,7 @@
     line-height: 35px;
   }
   @include breakpoint($bp-large, $no-query: false) {
-  	line-height: 70px;
+  	line-height: 80px;
   }
 }
 

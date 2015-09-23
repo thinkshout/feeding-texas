@@ -9,3 +9,13 @@
 .button.secondary-btn {
 	@include secondary-btn();
 }
+
+.button[disabled] {
+	background: $gray;
+	color: $black;
+
+	&:hover {
+		background: $gray;
+		color: $black;
+	}
+}

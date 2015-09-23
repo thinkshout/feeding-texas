@@ -8,7 +8,7 @@ date: 2015-06-01
 categories:
   - Children
   - Summer Meals
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 6/1/15    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org

@@ -4,6 +4,7 @@ title: County Data
 ---
 <!-- County detail scpecific JavaScripts -->
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.3/highcharts.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.3/modules/data.js"></script>
@@ -17,7 +18,11 @@ $(function() {
   //########################
   // create a map in the "map" div, set the view to state of texas and zoom
   var map = L.map('map', {'zoomControl': false}).setView([31.1693362, -100.0768425], 6);
-  L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-i87786ca/{z}/{x}/{y}.png', {attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'}).addTo(map);
+  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={access_token}', {
+    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>',
+    id: 'feedingtexas.dc02a0e1',
+    access_token: 'pk.eyJ1IjoiZmVlZGluZ3RleGFzIiwiYSI6ImM0ZDJiMGJhZDI1MjdmMWIyNDgwOGYyNzY2OWNhOTBiIn0.2Vtue8bvPTVBNK6-ndOThA'
+  }).addTo(map);
   map.addControl(L.control.zoom({position: 'topright'}));
 
   {% if page.data.polygonCoords %}
@@ -46,8 +51,8 @@ $(function() {
       },
       plotOptions: {
           pie: {
-              size: 150,
-              center: ['50%', '50%'],
+              //size: 150,
+              //center: ['50%', '50%'],
               dataLabels: {
                   enabled: true,
                   format: '<b>{point.name}</b>: {point.percentage:.1f}%'
@@ -266,7 +271,9 @@ $(function() {
           </div>
         </div>
       </section>
-      {% if page.data.totalSnapRecipients < page.data.totalIncomeEligibleIndividuals %}
+      {% assign totalSnapRecipients = page.data.totalSnapRecipients | times: 1 %}</h1>
+      {% assign totalIncomeEligibleIndividuals = page.data.totalIncomeEligibleIndividuals | times: 1 %}</h1>
+      {% if totalSnapRecipients < totalIncomeEligibleIndividuals %}
       <section id="eligibility">
         <h2 class="section-header"><span>In this zip code: </span></h2>
         <div id="ageEligibility" class="row">
