@@ -26,17 +26,28 @@
       }
     }
 
+    .page-header.has-background-image {
+      min-height: 24em;
+    }
+
     .page-header {
       position: relative;
       top: 3em;
       padding: 3.5em 0;
       width: 100%;
+      min-height: 12em;
       max-width: 36em;
       margin: 0 auto;
-      height: 24em;
       display: block;
       text-align: center;
       color: #FFF;
+
+      .text {
+        bottom: 6em;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+      }
 
       h1.page-title, h3 {
         color: $white;
@@ -46,7 +57,18 @@
       h3 {
         @include text-shadow(0 2px 5px $black);
       }
-
     }
   }
+}
+
+// Post Detail and Press releases
+// -- without background image
+.post-detail .highlighted .wrap .page-header .text {
+  bottom: auto; // Makes sure test doesn't float to the top
+}
+
+// County detail header
+.county-detail .highlighted .wrap {
+  min-height: 490px;
+  
 }
