@@ -10,8 +10,10 @@ tags:
   - VISTA
 featured: true
 ---
-July marked the first anniversary of the Client Empowerment Corps, our statewide initiative to address the causes and consequences of food insecurity and help struggling Texans share their stories. 
-Led by AmeriCorps*VISTA members, the initiative creates partnerships to increase food bank clients’ access to health resources and economic opportunities outside of traditional food bank services. 
+This summer marked the first anniversary of the Client Empowerment Corps, our statewide initiative to address the causes and consequences of food insecurity and help struggling Texans share their stories. 
+
+Led by AmeriCorps*VISTA members, the initiative creates partnerships that increase food bank clients’ access to health resources and economic opportunities outside of traditional food bank services. 
+
 VISTAs are the driving force behind this initiative’s success, which is why we were excited to co-host a recent event at the LBJ Presidential Library in Austin celebrating VISTA’s 50th anniversary. 
 
 ![Summit Brochure](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/VISTA-Anniversary-Program.jpg)
@@ -34,7 +36,7 @@ City Demographer Ryan Robinson presented new data to the group describing povert
 
 ![Panel](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/Panel-VISTA-Anniversary.jpg)
 
-A panel discussion included members of organizations from VISTA’s four focus areas. L-R: Cathy Jones, Executive Director of Austin Partners in Education; Preston Petty, Coordinated Assessment Program Director of The Ending Community Homelessness Coalition & Austin’s Homeless Veterans Initiative; Gary Linder, President & CEO of People Fund; and JC Dwyer, Senior Director of Policy & Communication of Feeding Texas.
+A panel discussion included members of organizations from VISTA’s four focus areas. *(L-R: Cathy Jones, Executive Director of Austin Partners in Education; Preston Petty, Coordinated Assessment Program Director of The Ending Community Homelessness Coalition & Austin’s Homeless Veterans Initiative; Gary Linder, President & CEO of People Fund; and JC Dwyer, Senior Director of Policy & Communication of Feeding Texas.)*
 
 ![Andrew Garrison, Feeding Texas VISTA Leader](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/Andrew-Garrison-VISTA-Anniversary.jpg)
 
