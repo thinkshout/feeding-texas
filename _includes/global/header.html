@@ -25,7 +25,6 @@
       		</li>
         </ul>
       </nav>
-
     </div>
     <div class="primary-nav">
       <nav>
@@ -33,6 +32,9 @@
       		{% for link in site.data.menu.primary %}
           <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
       		{% endfor %}
+          {% for link in site.data.menu.action %}
+          <li class="mobile-action-link"><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
         </ul>
       </nav>
     </div>

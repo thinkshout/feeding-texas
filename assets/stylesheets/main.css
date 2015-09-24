@@ -2085,7 +2085,18 @@ a:focus {
   border-bottom: 1px solid #f6f3f0;
 }
 
-/* line 193, ../sass/components/_navigation.scss */
+@media (min-width: 45em) {
+  /* line 192, ../sass/components/_navigation.scss */
+  .primary-nav ul li.mobile-action-link {
+    display: none;
+  }
+}
+/* line 197, ../sass/components/_navigation.scss */
+.primary-nav ul li.mobile-action-link a {
+  background: #53682b;
+}
+
+/* line 204, ../sass/components/_navigation.scss */
 footer nav.primary,
 footer nav.secondary {
   font-size: 1.1em;
@@ -2901,16 +2912,16 @@ html, body {
 
 /* line 3, ../sass/pages/_post-detail.scss */
 .post-detail .highlighted .wrap {
-  min-height: 445px;
   padding: 0 0 2em 0;
 }
 /* line 6, ../sass/pages/_post-detail.scss */
 .post-detail .highlighted .wrap .page-header {
   max-width: 50em;
+  min-height: none;
   padding: 5em 0 0;
   top: auto;
 }
-/* line 10, ../sass/pages/_post-detail.scss */
+/* line 11, ../sass/pages/_post-detail.scss */
 .post-detail .highlighted .wrap .page-header h1.page-title {
   color: #e98300;
   font-family: "Merriweather", Georgia, serif;
@@ -2919,50 +2930,50 @@ html, body {
   text-transform: none;
 }
 @media (min-width: 45em) {
-  /* line 10, ../sass/pages/_post-detail.scss */
+  /* line 11, ../sass/pages/_post-detail.scss */
   .post-detail .highlighted .wrap .page-header h1.page-title {
     font-size: 3.5em;
   }
 }
-/* line 25, ../sass/pages/_post-detail.scss */
+/* line 26, ../sass/pages/_post-detail.scss */
 .post-detail .main {
   padding-bottom: 2em;
   overflow: hidden;
 }
-/* line 30, ../sass/pages/_post-detail.scss */
+/* line 31, ../sass/pages/_post-detail.scss */
 .post-detail .teaser.press {
   margin-bottom: 3em;
 }
-/* line 34, ../sass/pages/_post-detail.scss */
+/* line 35, ../sass/pages/_post-detail.scss */
 .post-detail .article-body {
   font-size: 1.25em;
   line-height: 1.85em;
 }
-/* line 40, ../sass/pages/_post-detail.scss */
+/* line 41, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .photo {
   margin: 0;
   height: 100px;
   width: 100px;
 }
-/* line 44, ../sass/pages/_post-detail.scss */
+/* line 45, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .photo img {
   height: 100px;
   width: 100px;
 }
-/* line 49, ../sass/pages/_post-detail.scss */
+/* line 50, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info {
   text-align: left;
   color: #222222;
 }
-/* line 53, ../sass/pages/_post-detail.scss */
+/* line 54, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info h3 {
   margin: 0.25em 0;
 }
-/* line 57, ../sass/pages/_post-detail.scss */
+/* line 58, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info .position {
   font-size: 0.875em;
 }
-/* line 61, ../sass/pages/_post-detail.scss */
+/* line 62, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info a {
   color: #2e2118;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2970,7 +2981,7 @@ html, body {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 64, ../sass/pages/_post-detail.scss */
+/* line 65, ../sass/pages/_post-detail.scss */
 .post-detail .staff-member.small .info a:hover {
   color: #e98300;
 }

@@ -22,7 +22,8 @@
   {% endif %}
 {% endfor %}
 <!-- Get child pages -->
-{% for node in site.pages %}
+{% assign sorted_pages = site.pages | sort: 'sort_order'%}
+{% for node in sorted_pages %}
   {% assign node_url_parts = node.url | remove_first: '/' | remove: 'index.html' | split: '/' %}
   {% if url_parts_size == 1 %}
     {% if node.url contains url_parts_first %}

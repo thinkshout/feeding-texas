@@ -33,6 +33,18 @@ calls_to_action:
             {% endif %}
           {% endfor %}
         {% endif %}
+        {% if page.guest_author %}
+          {% for author in site.guest_authors %}
+            {% if page.guest_author == author.id %}
+              <div class="staff-member small">
+                <div class="photo"><img src="{{ author.image }}"></div>
+                <div class="info">
+                	<h3>{{ author.name }}</h3>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
         {% if page.tags.size > 0 %}
           <div class="tags">
             <span class="tag-label">Filed Under:</span>
