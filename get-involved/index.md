@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Create a Hunger-Free Texas
+title: Help Create a Hunger-Free Texas
 subhead: Because hunger doesn't belong here.
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-04.jpg
 featured_resource: How do low-income texans get help feeding their children?
