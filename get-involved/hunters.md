@@ -11,10 +11,10 @@ permalink: /get-involved/hunters/
 ---
 Help us fight hunger and promote environmental stewardship! 
 
-Hunters for the Hungry provides over nine million servings of lean venison annually to hungry families. Through the program, hunters can donate legally tagged, field-dressed deer at [participating meat processors](list). The processors prepare and package the venison for distribution to local hunger relief agencies such as food banks and food pantries. Here's how you can help:    
+Hunters for the Hungry provides over nine million servings of venison annually to hungry families. Through the program, hunters can donate legally tagged, field-dressed deer at [participating meat processors](list). The processors prepare the venison for distribution to local hunger relief agencies such as food banks and food pantries. Here's how you can help:    
 
 **Hunters**    
-> Bring your legally tagged, field-dressed white tail or mule deer to a [participating meat processor](list). There will be a nominal processing fee (~$40) to compensate the processor for their labor. You will receive a receipt for your donation, which may be tax-deductible. If your local meat processor is not a Hunters for the Hungry participant, ask them to sign up!
+> Bring your legally tagged, field-dressed white tail or mule deer to a [participating meat processor](list). There will be a nominal processing fee (~$40) to compensate the processor for their labor. You will receive a receipt for your donation, which may be tax-deductible. If your local processor is not a participant, ask them to sign up!
 
 **Meat Processors**    
 > To become a participating processor, please request a participation agreement from hfth@feedingtexas.org. Prior to each hunting season, participating processors will receive donation receipts, two-pound chub packs for donated venison and promotional materials. Processors must provide evidence of a health inspection or fall under the jurisdiction of the Texas Department of State Health Services to be eligible.
