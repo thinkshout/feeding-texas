@@ -24,6 +24,6 @@ Bring your legally tagged, field-dressed white tail or mule deer to a [participa
 To become a participating processor, please request a participation agreement from hfth@feedingtexas.org. Prior to each hunting season, participating processors will receive donation receipts, two-pound chub packs for donated venison and promotional materials. Processors must provide evidence of a health inspection or fall under the jurisdiction of the Texas Department of State Health Services to be eligible.
 
 **Hunger Relief Agencies**    
-Food banks, soup kitchens, food pantries, and other hunger relief agenciesare eligible to receive venison donations. Contact hfth@feedingtexas.org to be added to the list of recipient agencies. Hunters for the Hungry does not directly determine recipients (that is up to the individual meat processor), but we do provide lists of nearby participating agencies.
+Food banks, soup kitchens, food pantries, and other hunger relief agencies are eligible to receive venison donations. Contact hfth@feedingtexas.org to be added to the list of recipient agencies. Hunters for the Hungry does not directly determine recipients (that is up to the individual meat processor), but we do provide lists of nearby participating agencies.
 
 To financially support Hunters for the Hungry and programs like it, [donate here](https://donatenow.networkforgood.org/feeding-texas)!
