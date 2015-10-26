@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Hunters for the Hungry
+title: 
 subhead:
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-04.jpg
 intro: |
 calls_to_action:
   - 1
   - 2
-permalink: /hunters/
+permalink: /get-involved/hunters/
 ---
-![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Hunter-for-the-Hungry-Logo.png)
-
 Help us provide healthy protein while promoting environmental stewardship! 
 
 Hunters for the Hungry coordinates Texas hunters, meat processors and hunger relief agencies to provide over nine million servings of lean venison annually to hungry families. Through the program, hunters can donate legally tagged, field-dressed deer at [participating meat processors](list). For a nominal fee, the processor will prepare and package the venison for distribution to local hunger relief agencies such as food banks and food pantries.
