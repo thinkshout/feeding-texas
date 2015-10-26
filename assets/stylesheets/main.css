@@ -762,6 +762,14 @@ ul.errors {
   color: red;
 }
 
+/* line 30, ../sass/components/_advocacy_widget.scss */
+.loading {
+  display: none;
+  height: 32px;
+  vertical-align: middle;
+  width: 32px;
+}
+
 /*
 
 Alerts

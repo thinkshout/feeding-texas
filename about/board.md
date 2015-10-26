@@ -20,7 +20,7 @@ The Feeding Texas board consists of Executive Directors from the state's twenty-
 * Eric Cooper - *San Antonio Food Bank, San Antonio*
 * Robin Cadle - *Food Bank of the Golden Crescent, Victoria*   
 * Libby Campbell - *West Texas Food Bank, Odessa*   
-* Erasmo Villarreal - *South Texas Food Bank, Laredo*   
+* Alma Boubel - *South Texas Food Bank, Laredo*   
 * Rodney Dickerson - *Montgomery County Food Bank, Conroe*   
 * Terri Drefke - *Food Bank of the Rio Grande Valley, Pharr*   
 * Greg Duke - *Concho Valley Regional Food Bank, San Angelo*   
