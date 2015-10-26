@@ -7,7 +7,7 @@ intro: |
 calls_to_action:
   - 1
   - 2
-permalink: /get-involved/
+permalink: /hunters/
 ---
 ![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Hunter-for-the-Hungry-Logo.png)
 
