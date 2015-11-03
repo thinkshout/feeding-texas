@@ -2,8 +2,7 @@
 layout: page
 title: Hunters for the Hungry
 subhead:
-summary: |
-Help promote better nutrition & environmental stewardship by providing healthy venison to hungry Texans.
+summary: Help promote better nutrition & environmental stewardship by providing healthy venison to hungry Texans.
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/Hunters-For-the-Hungry.jpg
 intro: |
 calls_to_action:
