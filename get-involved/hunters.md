@@ -7,7 +7,7 @@ intro: |
 calls_to_action:
   - 1
   - 2
-permalink: /get-involved/hunters/
+permalink: /get-involved/hunt/
 ---
 Help us fight hunger and promote environmental stewardship! 
 
