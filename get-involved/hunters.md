@@ -2,7 +2,7 @@
 layout: page
 title: Hunters for the Hungry
 subhead:
-banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/Hunter-for-the-Hungry-Banner.png
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/Hunters-For-the-Hungry.jpg
 intro: |
 calls_to_action:
   - 1
