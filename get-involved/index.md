@@ -13,4 +13,4 @@ calls_to_action:
   - 2
 permalink: /get-involved/
 ---
-We can ensure that hard-working Texans have the fuel they need to succeed and move forward, but only if we work together! Stay engaged with our [statewide email list](/news/sign-up/), follow us on [Facebook](https://www.facebook.com/feedingtexas/) and [Twitter](https://twitter.com/FeedingTexas), then put your talents to work with one of the volunteer opportunities below!
+We can ensure that hard-working Texans have the fuel they need to succeed and move forward, but only if we work together! Stay engaged with our [statewide email list](/news/sign-up/), follow us on [Facebook](https://www.facebook.com/feedingtexas/) and [Twitter](https://twitter.com/FeedingTexas), then put your talents to work with one of the volunteer opportunities below.
