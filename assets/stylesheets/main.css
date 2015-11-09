@@ -487,7 +487,7 @@ header .wrap {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   header .wrap:after {
     content: "";
     display: table;
@@ -587,7 +587,7 @@ header .primary-nav {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .wrap:after {
     content: "";
     display: table;
@@ -608,7 +608,7 @@ header .primary-nav {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .the-latest .wrap:after {
     content: "";
     display: table;
@@ -1267,28 +1267,27 @@ article.teaser.press .pullquote .attribution:before {
 .finder {
   max-width: 350px;
   min-width: 280px;
-  margin: 2em auto;
-  position: relative;
+  margin: 0 auto;
   text-align: center;
 }
-/* line 8, ../sass/components/_finder.scss */
+/* line 7, ../sass/components/_finder.scss */
 .finder h3 {
   color: white;
   font-size: 1.8em;
   text-shadow: 0 3px 10px #222222;
 }
-/* line 13, ../sass/components/_finder.scss */
+/* line 12, ../sass/components/_finder.scss */
 .finder form {
   margin: 0 auto;
   position: relative;
   text-align: center;
 }
-/* line 17, ../sass/components/_finder.scss */
+/* line 16, ../sass/components/_finder.scss */
 .finder form input[type="text"] {
   width: 85%;
   float: left;
 }
-/* line 21, ../sass/components/_finder.scss */
+/* line 20, ../sass/components/_finder.scss */
 .finder form #submit {
   width: 15%;
   float: left;
@@ -1304,7 +1303,7 @@ article.teaser.press .pullquote .attribution:before {
   color: #FFF;
   background: #d07500;
 }
-/* line 31, ../sass/components/_finder.scss */
+/* line 30, ../sass/components/_finder.scss */
 .finder .chosen-container-single {
   display: block;
   margin: 0 auto;
@@ -1312,23 +1311,23 @@ article.teaser.press .pullquote .attribution:before {
   -moz-box-shadow: 0 3px 10px #222222;
   box-shadow: 0 3px 10px #222222;
 }
-/* line 35, ../sass/components/_finder.scss */
+/* line 34, ../sass/components/_finder.scss */
 .finder .chosen-container-single .chosen-single {
   background: white;
   border: none;
   border-radius: 0;
   padding: 0.3em 0;
 }
-/* line 42, ../sass/components/_finder.scss */
+/* line 41, ../sass/components/_finder.scss */
 .finder .chosen-container-single .chosen-single div {
   margin-top: 4px;
 }
-/* line 46, ../sass/components/_finder.scss */
+/* line 45, ../sass/components/_finder.scss */
 .finder .chosen-container-single .chosen-drop {
   border: none;
   border-radius: 0;
 }
-/* line 50, ../sass/components/_finder.scss */
+/* line 49, ../sass/components/_finder.scss */
 .finder .chosen-container-single .chosen-results li.highlighted {
   background: #e98300;
 }
@@ -2899,13 +2898,6 @@ ul.projects li a:hover {
 /* line 8, ../sass/pages/_page-with-zip.scss */
 .page-with-zip .page-header {
   max-height: 6em;
-}
-/* line 12, ../sass/pages/_page-with-zip.scss */
-.page-with-zip .finder {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
 }
 
 /* line 1, ../sass/pages/_pages.scss */
