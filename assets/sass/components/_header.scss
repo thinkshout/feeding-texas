@@ -3,8 +3,12 @@ header {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  height: 80px;
+  height: 70px;
   position: absolute;
   width: 100%;
   z-index: 100;
+
+  @include breakpoint($bp-medium) {
+    height: 80px;
+  }
 }
