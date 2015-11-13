@@ -13,7 +13,7 @@ banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banner
   		  <h3>Get statistics for your community:</h3>
           <select id='options' data-placeholder="Zip code" class="chosen-select">
             <!-- Include blank option for placeholder value -->
-            <option></option>
+            <option>Zip code</option>
             {% for zipcode in site.data.zips %}
               <option value="{{ site.baseurl }}/zip/{{ zipcode }}">{{ zipcode }}</option>
             {% endfor %}
