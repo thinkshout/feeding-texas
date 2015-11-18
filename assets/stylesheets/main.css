@@ -487,7 +487,7 @@ header .wrap {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   header .wrap:after {
     content: "";
     display: table;
@@ -587,7 +587,7 @@ header .primary-nav {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .wrap:after {
     content: "";
     display: table;
@@ -608,7 +608,7 @@ header .primary-nav {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.2.2@fetx/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .the-latest .wrap:after {
     content: "";
     display: table;
@@ -619,7 +619,6 @@ header .primary-nav {
 /* line 17, ../sass/layout/_layout.scss */
 .highlighted .wrap {
   max-width: 100%;
-  overflow: hidden;
   *zoom: 1;
 }
 /* line 16, ../sass/layout/_grid.scss */
@@ -632,18 +631,18 @@ header .primary-nav {
   clear: both;
 }
 
-/* line 24, ../sass/layout/_layout.scss */
+/* line 23, ../sass/layout/_layout.scss */
 .main {
   margin-top: 1em;
 }
-/* line 28, ../sass/layout/_layout.scss */
+/* line 27, ../sass/layout/_layout.scss */
 .main.sidebar-second .content {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 32, ../sass/layout/_layout.scss */
+/* line 31, ../sass/layout/_layout.scss */
 .main.sidebar-second .sidebar-second {
   width: 32.20339%;
   float: left;
@@ -654,27 +653,27 @@ header .primary-nav {
   *margin-left: -1em;
   display: inline;
 }
-/* line 38, ../sass/layout/_layout.scss */
+/* line 37, ../sass/layout/_layout.scss */
 .main.no-sidebars .content {
   width: 74.57627%;
   margin: 0 auto;
 }
 
-/* line 46, ../sass/layout/_layout.scss */
+/* line 45, ../sass/layout/_layout.scss */
 .content-bottom .main {
   width: 57.62712%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 49, ../sass/layout/_layout.scss */
+/* line 48, ../sass/layout/_layout.scss */
 .content-bottom .main article .hero {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 52, ../sass/layout/_layout.scss */
+/* line 51, ../sass/layout/_layout.scss */
 .content-bottom .main article .leadin {
   width: 100%;
   float: left;
@@ -686,7 +685,7 @@ header .primary-nav {
   *margin-left: -1em;
   display: inline;
 }
-/* line 59, ../sass/layout/_layout.scss */
+/* line 58, ../sass/layout/_layout.scss */
 .content-bottom .sidebar-second {
   width: 40.67797%;
   float: left;
@@ -699,14 +698,14 @@ header .primary-nav {
 }
 
 @media (min-width: 45em) {
-  /* line 67, ../sass/layout/_layout.scss */
+  /* line 66, ../sass/layout/_layout.scss */
   .the-latest .featured-blog, .the-latest .featured-resource {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 71, ../sass/layout/_layout.scss */
+  /* line 70, ../sass/layout/_layout.scss */
   .the-latest .featured-resource {
     float: right;
     margin-right: 0;
@@ -715,7 +714,7 @@ header .primary-nav {
   }
 }
 
-/* line 77, ../sass/layout/_layout.scss */
+/* line 76, ../sass/layout/_layout.scss */
 footer {
   *zoom: 1;
   clear: both;
@@ -1267,28 +1266,27 @@ article.teaser.press .pullquote .attribution:before {
 .finder {
   max-width: 350px;
   min-width: 280px;
-  margin: 2em auto;
-  position: relative;
+  margin: 0 auto;
   text-align: center;
 }
-/* line 8, ../sass/components/_finder.scss */
+/* line 7, ../sass/components/_finder.scss */
 .finder h3 {
   color: white;
   font-size: 1.8em;
   text-shadow: 0 3px 10px #222222;
 }
-/* line 13, ../sass/components/_finder.scss */
+/* line 12, ../sass/components/_finder.scss */
 .finder form {
   margin: 0 auto;
   position: relative;
   text-align: center;
 }
-/* line 17, ../sass/components/_finder.scss */
+/* line 16, ../sass/components/_finder.scss */
 .finder form input[type="text"] {
   width: 85%;
   float: left;
 }
-/* line 21, ../sass/components/_finder.scss */
+/* line 20, ../sass/components/_finder.scss */
 .finder form #submit {
   width: 15%;
   float: left;
@@ -1304,7 +1302,7 @@ article.teaser.press .pullquote .attribution:before {
   color: #FFF;
   background: #d07500;
 }
-/* line 31, ../sass/components/_finder.scss */
+/* line 30, ../sass/components/_finder.scss */
 .finder .chosen-container-single {
   display: block;
   margin: 0 auto;
@@ -1312,21 +1310,22 @@ article.teaser.press .pullquote .attribution:before {
   -moz-box-shadow: 0 3px 10px #222222;
   box-shadow: 0 3px 10px #222222;
 }
-/* line 35, ../sass/components/_finder.scss */
+/* line 34, ../sass/components/_finder.scss */
 .finder .chosen-container-single .chosen-single {
   background: white;
   border: none;
   border-radius: 0;
   padding: 0.3em 0;
 }
-/* line 42, ../sass/components/_finder.scss */
+/* line 41, ../sass/components/_finder.scss */
 .finder .chosen-container-single .chosen-single div {
   margin-top: 4px;
 }
-/* line 46, ../sass/components/_finder.scss */
+/* line 45, ../sass/components/_finder.scss */
 .finder .chosen-container-single .chosen-drop {
   border: none;
   border-radius: 0;
+  color: black;
 }
 /* line 50, ../sass/components/_finder.scss */
 .finder .chosen-container-single .chosen-results li.highlighted {
@@ -1722,10 +1721,16 @@ header {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  height: 80px;
+  height: 70px;
   position: absolute;
   width: 100%;
   z-index: 100;
+}
+@media (min-width: 55em) {
+  /* line 1, ../sass/components/_header.scss */
+  header {
+    height: 80px;
+  }
 }
 
 @font-face {
@@ -2149,7 +2154,6 @@ footer nav.secondary {
 /* line 33, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header {
   position: relative;
-  top: 3em;
   padding: 3.5em 0;
   width: 100%;
   min-height: 12em;
@@ -2159,29 +2163,29 @@ footer nav.secondary {
   text-align: center;
   color: #FFF;
 }
-/* line 45, ../sass/components/_page-headers.scss */
+/* line 44, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header .text {
-  bottom: 6em;
+  bottom: 3em;
   position: absolute;
   text-align: center;
   width: 100%;
 }
-/* line 52, ../sass/components/_page-headers.scss */
+/* line 51, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header h1.page-title, .highlighted .wrap .page-header h3 {
   color: white;
   text-shadow: 0 3px 10px #222222;
 }
-/* line 57, ../sass/components/_page-headers.scss */
+/* line 56, ../sass/components/_page-headers.scss */
 .highlighted .wrap .page-header h3 {
   text-shadow: 0 2px 5px #222222;
 }
 
-/* line 66, ../sass/components/_page-headers.scss */
+/* line 65, ../sass/components/_page-headers.scss */
 .post-detail .highlighted .wrap .page-header .text {
   bottom: auto;
 }
 
-/* line 71, ../sass/components/_page-headers.scss */
+/* line 70, ../sass/components/_page-headers.scss */
 .county-detail .highlighted .wrap {
   min-height: 490px;
 }
@@ -2899,13 +2903,6 @@ ul.projects li a:hover {
 /* line 8, ../sass/pages/_page-with-zip.scss */
 .page-with-zip .page-header {
   max-height: 6em;
-}
-/* line 12, ../sass/pages/_page-with-zip.scss */
-.page-with-zip .finder {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
 }
 
 /* line 1, ../sass/pages/_pages.scss */

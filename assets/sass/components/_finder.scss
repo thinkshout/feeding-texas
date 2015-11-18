@@ -2,8 +2,7 @@
 .finder {
   max-width: 350px;
   min-width: 280px;
-  margin: 2em auto;
-  position: relative;
+  margin: 0 auto;
   text-align: center;
   h3 {
     color: $white;
@@ -46,6 +45,7 @@
     .chosen-drop {
       border: none;
       border-radius: 0;
+      color: black;
     }
     .chosen-results li.highlighted {
       background: $orange;
