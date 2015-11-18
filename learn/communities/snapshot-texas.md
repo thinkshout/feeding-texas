@@ -14,4 +14,4 @@ permalink: /learn/communities/snapshot-texas/
 ---
 Who gets help from SNAP (aka food stamps) in your zip code? How many of your neighbors may need help, but don't receive it? Input your zip code above to learn the truth, not the stereotype. 
 
-Want to know how we got these numbers? [Read our methodology.](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/snapshot-methodology.pdf)
+Want to know how we got these numbers? [Get our methodology and data.](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/2015-SNAPshot-Data-Methodology.pdf)
