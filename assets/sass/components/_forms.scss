@@ -33,11 +33,24 @@ input[type="checkbox"] {
 form, #mc_embed_signup form {
   .field, .mc-field-group {
   	margin-bottom: 1em;
-    .field-label, label {
+    .field-label, label, strong {
     	font-weight: 600;
     	font-size: 1.125em;
     	margin-bottom: 0.5em;
     	padding: 0.125em 0;
+    }
+    ul {
+    	padding-left: 0;
+    	li {
+    		list-style: none;
+    		input[type="checkbox"] {
+    			margin-right: 1em;
+    		}
+    		label {
+    			font-weight: 400;
+    			font-size: 1em;
+    		}
+    	}
     }
   }
   .postfix {
