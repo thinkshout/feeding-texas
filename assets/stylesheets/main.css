@@ -1394,11 +1394,24 @@ input[type="checkbox"] {
 form .field, form .mc-field-group, #mc_embed_signup form .field, #mc_embed_signup form .mc-field-group {
   margin-bottom: 1em;
 }
-form .field .field-label, form .field label, form .mc-field-group .field-label, form .mc-field-group label, #mc_embed_signup form .field .field-label, #mc_embed_signup form .field label, #mc_embed_signup form .mc-field-group .field-label, #mc_embed_signup form .mc-field-group label {
+form .field .field-label, form .field label, form .field strong, form .mc-field-group .field-label, form .mc-field-group label, form .mc-field-group strong, #mc_embed_signup form .field .field-label, #mc_embed_signup form .field label, #mc_embed_signup form .field strong, #mc_embed_signup form .mc-field-group .field-label, #mc_embed_signup form .mc-field-group label, #mc_embed_signup form .mc-field-group strong {
   font-weight: 600;
   font-size: 1.125em;
   margin-bottom: 0.5em;
   padding: 0.125em 0;
+}
+form .field ul, form .mc-field-group ul, #mc_embed_signup form .field ul, #mc_embed_signup form .mc-field-group ul {
+  padding-left: 0;
+}
+form .field ul li, form .mc-field-group ul li, #mc_embed_signup form .field ul li, #mc_embed_signup form .mc-field-group ul li {
+  list-style: none;
+}
+form .field ul li input[type="checkbox"], form .mc-field-group ul li input[type="checkbox"], #mc_embed_signup form .field ul li input[type="checkbox"], #mc_embed_signup form .mc-field-group ul li input[type="checkbox"] {
+  margin-right: 1em;
+}
+form .field ul li label, form .mc-field-group ul li label, #mc_embed_signup form .field ul li label, #mc_embed_signup form .mc-field-group ul li label {
+  font-weight: 400;
+  font-size: 1em;
 }
 form .postfix, #mc_embed_signup form .postfix {
   *zoom: 1;
