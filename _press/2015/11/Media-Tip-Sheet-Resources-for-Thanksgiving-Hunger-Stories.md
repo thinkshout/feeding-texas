@@ -4,7 +4,7 @@ title: Media Tip Sheet - Resources for Thanksgiving Hunger Stories
 date: 2015-11-23
 categories:
   - Food Insecurity
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 11/23/15    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
