@@ -16,7 +16,7 @@ Every year our 21 member food banks go into overdrive around the holiday, organi
 
 These events are important, both to nourish our neighbors in need and engage the community in our work. But as food banks have evolved and deepened their understanding of the challenges facing the people we serve, we have come to an inescapable conclusion -- solving hunger will take more than turkeys and private charity. 
 
-Imagine how it might feel to go hungry on Thanksgiving, or worry about not being able to provide a meal for your family. Your hunger would be a harsh reminder that you don’t have an equal place "at the table” in your community. This would make you feel disempowered and disconnected, as if you were stuck behind a pane of glass looking in on someone else’s holiday feast. 
+Imagine how it might feel to go hungry on Thanksgiving, or worry about not being able to provide a meal for your family. Your hunger would be a harsh reminder that you don’t have an equal place "at the table" in your community. This would make you feel disempowered and disconnected, as if you were stuck behind a pane of glass looking in on someone else’s holiday feast. 
 
 Breaking that glass requires a greater emphasis on solutions that not only feed when pantries are bare, but also strengthen lives and empower Texans to move forward. This means strengthening public investment in programs like SNAP (aka food stamps) that help stabilize struggling families so they can get back on their feet. It means strengthening our economy so it can provide access to jobs and wages that eliminate the trade-off between food and other necessities that leads to food insecurity.
 
