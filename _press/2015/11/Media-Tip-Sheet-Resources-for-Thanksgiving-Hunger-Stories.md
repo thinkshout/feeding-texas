@@ -22,6 +22,7 @@ Food insecurity means being temporarily unable to afford all the food one needs.
 * Food insecurity rates describe the previous twelve months. Therefore it is inaccurate to state that food insecure households are “hungry right now,” “going hungry tonight” or “don’t know where their next meal is coming from.” Research shows that food insecurity tends to be episodic and often cyclical.
 
 **What are some timely hooks for coverage?**     
+
 * Congress is currently considering legislation to improve access to child nutrition programs like summer meals and after-school snacks. 
 * An improving job and wage market is slowly taking the pressure off anti-hunger programs like SNAP (aka food stamps). [Read more on our blog](http://www.feedingtexas.org/).
 * Your [local food bank](http://www.feedingtexas.org/help/) will host opportunities to donate and volunteer throughout the holiday season. 
