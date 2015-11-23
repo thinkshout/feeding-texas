@@ -24,7 +24,7 @@ Food insecurity means being temporarily unable to afford all the food one needs.
 **What are some timely hooks for coverage?**     
 
 * Congress is currently considering legislation to improve access to child nutrition programs like summer meals and after-school snacks. 
-* An improving job and wage market is slowly taking the pressure off anti-hunger programs like SNAP (aka food stamps). [Read more on our blog](http://www.feedingtexas.org/).
+* An improving job and wage market is slowly taking the pressure off anti-hunger programs like SNAP (aka food stamps). [Read more on our blog](http://www.feedingtexas.org/blog/2015/11/Ending-Hunger-Takes-More-Than-Turkeys/).
 * Your [local food bank](http://www.feedingtexas.org/help/) will host opportunities to donate and volunteer throughout the holiday season. 
 
 Feeding Texas leads a unified effort for a hunger-free Texas. Our expertise in food banking, food insecurity / poverty, public nutrition programs and nutrition education is at your disposal.
