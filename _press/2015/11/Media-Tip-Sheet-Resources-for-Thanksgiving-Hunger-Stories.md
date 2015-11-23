@@ -15,7 +15,7 @@ featured: true
 According to the U.S. Department of Agriculture, 17% of Texas households (one in six) experience food insecurity. Texas is one of fourteen states with a higher food insecurity rate than the nation as a whole. In raw numbers, 1.7 million Texas households are food insecure, more than any other state except California. Food insecurity numbers for specific Texas counties are available [here](http://www.feedingtexas.org/learn/communities/snapshot-texas/). 
 
 **What are the right – and wrong – ways to describe food insecurity?**   
-Food insecurity means being temporarily unable to afford all the food one needs. This circumstance can lead to coping mechanisms – such as visiting food pantries or purchasing low-cost / unhealthy foods. In more extreme cases food insecurity results in skipping meals or not eating so that one’s children can eat. 
+Food insecurity means being temporarily unable to afford all the food one needs. This circumstance often leads to coping mechanisms like visiting food pantries or purchasing low-cost / unhealthy foods. In more extreme cases food insecurity results in skipping meals or not eating so that one’s children can eat. 
 
 * Good shorthand terms for food insecurity are “struggling to avoid hunger,” “hungry, or at risk of hunger,” and “hungry, or faced by the threat of hunger.”
 * Food insecurity is a household situation, not an individual situation. Therefore it is more accurate to refer to food insecure households rather than food insecure people or children. 
@@ -26,6 +26,6 @@ Food insecurity means being temporarily unable to afford all the food one needs.
 * An improving job and wage market is slowly taking the pressure off anti-hunger programs like SNAP (aka food stamps). [Read more on our blog](http://www.feedingtexas.org/).
 * Your [local food bank](http://www.feedingtexas.org/help/) will host opportunities to donate and volunteer throughout the holiday season. 
 
-Feeding Texas is a statewide network of food banks leading a unified effort for a hunger-free Texas. Our expertise in food banking, food insecurity / poverty, public nutrition programs and nutrition education is at your disposal.
+Feeding Texas leads a unified effort for a hunger-free Texas. Our expertise in food banking, food insecurity / poverty, public nutrition programs and nutrition education is at your disposal.
 
 ##
