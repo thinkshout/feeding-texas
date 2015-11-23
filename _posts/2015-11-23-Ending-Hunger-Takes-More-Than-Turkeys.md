@@ -18,7 +18,7 @@ These events are important, both to nourish our neighbors in need and engage the
 
 Imagine how it might feel to go hungry on Thanksgiving, or worry about not being able to provide a meal for your family. Your hunger would be a harsh reminder that you don’t have an equal place "at the table" in your community. This would make you feel disempowered and disconnected, as if you were stuck behind a pane of glass looking in on someone else’s holiday feast. 
 
-Breaking that glass requires a greater emphasis on solutions that not only feed when pantries are bare, but also strengthen lives and empower Texans to move forward. This means strengthening public investment in programs like SNAP (aka food stamps) that help stabilize struggling families so they can get back on their feet. It means strengthening our economy so it can provide access to jobs and wages that eliminate the trade-off between food and other necessities that leads to food insecurity.
+Breaking that glass requires a greater emphasis on solutions that not only feed when pantries are bare, but also strengthen lives and empower Texans to move forward. This means strengthening public investment in programs like SNAP (aka food stamps) that help stabilize struggling families so they can get back on their feet. It also means strengthening our economy so it can provide access to jobs and wages that eliminate the trade-off between food and other necessities.
 
 On Thanksgiving in 2012, following the harshest recession in decades, the number of Texans receiving SNAP was at an all-time high. Today, 275,000 fewer Texans require SNAP's help. The difference is that stable jobs are now on the upswing, and the tightening labor market is slowly increasing wages to the point where fewer families need help.
 
