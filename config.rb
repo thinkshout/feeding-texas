@@ -10,3 +10,6 @@ css_dir = "assets/stylesheets"
 sass_dir = "assets/sass"
 images_dir = "assets/images"
 javascripts_dir = "assets/js"
+
+# Prevent comments in compiled css file
+line_comments = false

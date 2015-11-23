@@ -8,7 +8,7 @@ images:
 date: 2015-05-18
 author: 12
 tags: 
-featured: true
+featured: false
 ---
 As the links between food security and health become increasingly clear, Feeding Texas is seeking to provide better nutrition to the 3.5M Texans who receive assistance from our food banks. Part of this effort involves brokering new relationships with various aspects of the produce industry. 
 
