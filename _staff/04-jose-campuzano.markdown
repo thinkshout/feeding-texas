@@ -1,5 +1,3 @@
-04-jose-campuzano.markdown
-
 ---
 layout: staff
 id: 04
