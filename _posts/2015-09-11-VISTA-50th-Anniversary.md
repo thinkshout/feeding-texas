@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: AmeriCorps 50th Anniversary Poverty Summit 
-summary: On July 28, 2015, several Austin based organizations hosted a poverty summit in commemoration of the AmeriCorps 50th Anniversary.
+summary: On July 28th, we helped host a city-wide poverty summit in commemoration of the AmeriCorps 50th Anniversary.
 images:
 date: 2015-09-11
 guest_author: 1
