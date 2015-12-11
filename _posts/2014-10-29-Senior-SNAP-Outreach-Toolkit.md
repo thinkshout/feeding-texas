@@ -6,7 +6,7 @@ images:
   hero:
   thumb:
 date: 2014-10-29
-author: 4
+author: 06
 tags: Senior
       SNAP  
 featured: false

@@ -4,7 +4,7 @@ title: Ending Hunger Takes More Than Turkeys
 summary: As food banks have evolved and deepened their understanding, we have come to an inescapable conclusion - solving hunger will take more than private charity.
 images:
 date: 2015-11-23
-author: 03
+author: 05
 tags: 
   - Food Insecurity
   - Jobs
