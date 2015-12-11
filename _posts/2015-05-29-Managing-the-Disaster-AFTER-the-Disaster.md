@@ -8,7 +8,7 @@ images:
 date: 2015-05-29
 author: 01
 tags: 
-featured: true
+featured: false
 ---
 Much of Texas is currently dealing with the disastrous effects of extreme weather. Seventy counties have received official disaster status from the state, and thousands of families have been affected by this ongoing weather event.
 
