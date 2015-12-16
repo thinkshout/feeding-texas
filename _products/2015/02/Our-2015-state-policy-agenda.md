@@ -12,7 +12,7 @@ date: 2015-02-02
 categories:
   - Feeding With Impact
   - Advocacy
-featured: true
+featured: false
 ---
 Texas leads the nation in opportunity, yet many hard‐working Texans still struggle to put nutritious food on the table. Caught between rising food prices and tight budgets, one in six Texas households is “food insecure.” These families must make difficult choices between good nutrition and other basic needs. These choices often lead to hunger, poor dietary health, and diet‐related illnesses that increase health care and education costs for the state.
 
