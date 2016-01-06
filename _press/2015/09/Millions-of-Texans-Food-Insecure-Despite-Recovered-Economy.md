@@ -7,7 +7,7 @@ tweet: Millions of Texans Food Insecure Despite Recovered Economy http://eepurl.
 date: 2015-09-09
 categories:
   - Food Insecurity
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 9/9/15    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
