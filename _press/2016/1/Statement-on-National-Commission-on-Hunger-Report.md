@@ -9,7 +9,7 @@ featured: true
 **For Immediate Release:** 1/6/16    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
 
-**Statement attributable to Celia Cole, CEO of Feeding Texas:**
+*Statement attributable to Celia Cole, CEO of Feeding Texas:*
 
 Yesterday the National Commission on Hunger released a new report, [Freedom from Hunger: an Achievable Goal for the United States of America](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Hunger-Commission-Final-Report.pdf). This bipartisan group was commissioned by Congress in the last Farm Bill to explore solutions to hunger, and includes our fellow Texan Jeremy Everett, Director of the Texas Hunger Initiative, among its members. 
 
