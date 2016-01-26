@@ -14,4 +14,4 @@ Thank you for your interest in the 2016 Texas Fresh Produce Summit. As more info
 
 Click [here] (http://bit.ly/1ZeGVaS) to register for the summit.
 
-The summit is being held at the Double Tree Suites by the Hilton Hotel in Austin. 
+The summit is being held at the Double Tree Suites by the Hilton Hotel in Austin, click [here] (http://doubletree.hilton.com/en/dt/groups/personalized/A/AUSFLDT-FTX-20160410/index.jhtml?WT.mc_id=POG) to reserve your room. 
