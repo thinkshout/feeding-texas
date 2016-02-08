@@ -1173,6 +1173,8 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         dom.setAttribute(el1,"class","rep-form-wrapper");
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
+        var el2 = dom.createElement("h2");
+        var el3 = dom.createTextNode("Find by my address");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n  ");
