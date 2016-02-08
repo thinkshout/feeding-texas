@@ -635,7 +635,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("h2");
         dom.setAttribute(el5,"id","title");
-        var el6 = dom.createTextNode("Your Voice Matters:");
+        var el6 = dom.createTextNode("Your Voice Matters");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n        ");
