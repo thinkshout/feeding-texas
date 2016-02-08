@@ -134,7 +134,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
                 },
                 phone: function phone() {
                   if (_phone) {
-                    return '<div class="call-rep">' + "<p><strong>Please call your legislator's office at <a href=\"tel\:" + _phone.replace(/[-()\s]/g, '') + "\">" + _phone + "</a> and:</strong></p>" + '<hr>' + '<ul>' + '<li>Give your name and and say that you are constituent.</li>' + '<li>Urge the emember to oppose HB 1485 when it receives a floor vote this week</li>' + '<li>If you have a personal story about hunber or SNAP please share it.</li>' + '<li>Thank them for their assistance</li>' + '</ul>' + '</div>';
+                    return '<div class="call-rep">' + "<p><strong>Call<a href=\"tel\:" + _phone.replace(/[-()\s]/g, '') + "\">" + _phone + "</a> and tell whoever answers:</strong></p>" + '<hr>' + '<ul>' + '<li>Your name, and that you are constituent.</li>' + '<li>Urge the Representative to help pass a strong child nutrition bill that helps all children get enough healthy food during the school day and outside of school. </li>' + '<li>If you have a personal story about the importance of school meals, after-school snacks or summer meals programs, share it.</li>' + '<li>Thank them for their assistance!</li>' + '</ul>' + '</div>';
                   }
                 },
                 emailBtn: function emailBtn() {
@@ -635,7 +635,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("h2");
         dom.setAttribute(el5,"id","title");
-        var el6 = dom.createTextNode("Fetx Legislative Info");
+        var el6 = dom.createTextNode("Your Voice Matters:");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n        ");
@@ -1084,7 +1084,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
           var el1 = dom.createTextNode("      ");
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("span");
-          var el2 = dom.createTextNode("Find Your Representatives");
+          var el2 = dom.createTextNode("Connect now!");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
           var el1 = dom.createTextNode("\n");
@@ -1121,7 +1121,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
       buildFragment: function buildFragment(dom) {
         var el0 = dom.createDocumentFragment();
         var el1 = dom.createElement("p");
-        var el2 = dom.createTextNode("We need your help! The Texas Legislature is considering a bill that would make it harder for struggling Texans to put enough food on the table. HB 1485 would restrict working families from accessing SNAP benefits when they need them most.");
+        var el2 = dom.createTextNode("Congress is considering major changes to programs that keep Texas kids healthy and strong. Your can urge Congress to pass a strong child nutrition bill and ensure no child in America goes hungry.");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n");
@@ -1131,7 +1131,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("h2");
-        var el3 = dom.createTextNode("Enter your address below to find and connect with the people who represent you!");
+        var el3 = dom.createTextNode("Click to find your location, or enter your address to connect with your Congress Member now!");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n  ");
@@ -1143,7 +1143,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("span");
-        var el4 = dom.createTextNode("Get My Location ");
+        var el4 = dom.createTextNode("Get My Location");
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("i");
@@ -1173,8 +1173,6 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         dom.setAttribute(el1,"class","rep-form-wrapper");
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
-        var el2 = dom.createElement("h2");
-        var el3 = dom.createTextNode("Find by my address");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n  ");
@@ -1221,7 +1219,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("button");
         dom.setAttribute(el2,"class","button primary-btn reset-btn");
-        var el3 = dom.createTextNode("Start over");
+        var el3 = dom.createTextNode("Try another address");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n");
