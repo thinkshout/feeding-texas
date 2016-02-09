@@ -8,7 +8,7 @@ summary: We're partnering with the state of Texas to make healthy choices into e
   file: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Feeding-Texas-SNAP-Ed-Backgrounder.pdf
 date: 2016-02-09
 categories:
- - SNAP-Ed
+ - SNAP Ed
  - Nutrition Education
 featured: true
 ---
