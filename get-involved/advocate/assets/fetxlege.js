@@ -1130,7 +1130,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         dom.setAttribute(el1,"class","geolocate-wrapper");
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
-        var el2 = dom.createElement("h3");
+        var el2 = dom.createElement("h2");
         var el3 = dom.createTextNode("Tell Congress: Pass a strong child nutrition bill now!");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
