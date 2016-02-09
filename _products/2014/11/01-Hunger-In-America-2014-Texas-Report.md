@@ -16,4 +16,4 @@ categories:
 featured: true
 ---
 
-3.5 million Texans received assistance from a food bank or partner agency last year. Learn more about who they are are, and the issues they face.
+3.5 million Texans receive assistance from our food banks every year. Learn more about who they are are, and the issues they face.
