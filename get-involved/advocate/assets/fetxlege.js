@@ -601,13 +601,13 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("h1");
         dom.setAttribute(el5,"class","page-title");
-        var el6 = dom.createTextNode("Hunger Doesn't Belong Here");
+        var el6 = dom.createTextNode("Kick Hunger Out of Texas");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n      ");
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("h3");
-        var el6 = dom.createTextNode("Help us create a hunger-free Texas.");
+        var el6 = dom.createTextNode("Raise your voice to make hunger a priority.");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n    ");
