@@ -589,7 +589,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("div");
         dom.setAttribute(el4,"class","bg-img");
-        dom.setAttribute(el4,"style","background: url(https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-04.jpg) center center no-repeat;background-size:cover;");
+        dom.setAttribute(el4,"style","background: url(https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-07.png) center center no-repeat;background-size:cover;");
         var el5 = dom.createTextNode("\n    ");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
