@@ -162,7 +162,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
           });
         } else {
           if (locationMethod == 'byGeolocation') {
-            $('.locate-btn').removeAttr('disabled').find('span').text('Get My Location ');
+            $('.locate-btn').removeAttr('disabled').find('span').text('Get My Location '); 
             $('.no-geo-results').append('<p>No results found for your location. Try using your address.</p>');
           } else {
             $('.no-address-results').append('<p>No results found for your address.<p>');
@@ -1174,7 +1174,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("h2");
-        var el3 = dom.createTextNode("Find by my address");
+        var el3 = dom.createTextNode("Or find by my address:");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n  ");
@@ -1250,9 +1250,9 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
       statements: [
         ["element","action",["geolocate"],[],["loc",[null,[4,29],[4,51]]]],
         ["block","if",[["get","formErrors",["loc",[null,[15,8],[15,18]]]]],[],0,null,["loc",[null,[15,2],[21,9]]]],
-        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","address",["loc",[null,[22,28],[22,35]]]]],[],[]],"placeholder","Address","name","address"],["loc",[null,[22,2],[22,74]]]],
+        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","address",["loc",[null,[22,28],[22,35]]]]],[],[]],"placeholder","Street Address","name","address"],["loc",[null,[22,2],[22,74]]]],
         ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","city",["loc",[null,[23,28],[23,32]]]]],[],[]],"placeholder","City","name","city"],["loc",[null,[23,2],[23,65]]]],
-        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","zipcode",["loc",[null,[24,28],[24,35]]]]],[],[]],"placeholder","Zip code","name","zipcode"],["loc",[null,[24,2],[24,75]]]],
+        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","zipcode",["loc",[null,[24,28],[24,35]]]]],[],[]],"placeholder","Zip Code","name","zipcode"],["loc",[null,[24,2],[24,75]]]],
         ["element","action",["requestReps"],[],["loc",[null,[25,10],[25,34]]]],
         ["block","if",[["get","addressButtonText",["loc",[null,[26,10],[26,27]]]]],[],1,2,["loc",[null,[26,4],[30,11]]]],
         ["element","action",["resetResults"],[],["loc",[null,[34,10],[34,35]]]]
