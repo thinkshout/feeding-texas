@@ -134,7 +134,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
                 },
                 phone: function phone() {
                   if (_phone) {
-                    return '<div class="call-rep">' + "<p><strong>Please call your legislator's office at <a href=\"tel\:" + _phone.replace(/[-()\s]/g, '') + "\">" + _phone + "</a> and:</strong></p>" + '<hr>' + '<ul>' + '<li>Give your name and and say that you are constituent.</li>' + '<li>Urge the emember to oppose HB 1485 when it receives a floor vote this week</li>' + '<li>If you have a personal story about hunber or SNAP please share it.</li>' + '<li>Thank them for their assistance</li>' + '</ul>' + '</div>';
+                    return '<div class="call-rep">' + "<p><strong>Call <a href=\"tel\:" + _phone.replace(/[-()\s]/g, '') + "\">" + _phone + "</a> and tell whoever answers:</strong></p>" + '<hr>' + '<ul>' + '<li>Your name, and that you are constituent.</li>' + '<li>That you want a strong "child nutrition reauthorization" bill that helps all children get enough healthy food in school AND outside the school day. </li>' + '<li>If you have a personal story about the importance of school meals, after-school or summer meals programs, share it!</li>' + '<li>Thank them for their assistance.</li>' + '</ul>' + '</div>';
                   }
                 },
                 emailBtn: function emailBtn() {
@@ -162,7 +162,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
           });
         } else {
           if (locationMethod == 'byGeolocation') {
-            $('.locate-btn').removeAttr('disabled').find('span').text('Get My Location ');
+            $('.locate-btn').removeAttr('disabled').find('span').text('Find My Legislator '); 
             $('.no-geo-results').append('<p>No results found for your location. Try using your address.</p>');
           } else {
             $('.no-address-results').append('<p>No results found for your address.<p>');
@@ -196,7 +196,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
         $('.rep-form-wrapper, .geolocate-wrapper').fadeIn();
         this.set('addressButtonText', 'Finding Your Representatives');
         $('.address-btn').removeAttr('disabled');
-        $('.locate-btn').removeAttr('disabled').text('Get My Location');
+        $('.locate-btn').removeAttr('disabled').text('Find My Legislator ');
       },
 
       geolocate: function geolocate() {
@@ -589,7 +589,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("div");
         dom.setAttribute(el4,"class","bg-img");
-        dom.setAttribute(el4,"style","background: url(https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-04.jpg) center center no-repeat;background-size:cover;");
+        dom.setAttribute(el4,"style","background: url(https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-07.png) center center no-repeat;background-size:cover;");
         var el5 = dom.createTextNode("\n    ");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
@@ -601,13 +601,13 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("h1");
         dom.setAttribute(el5,"class","page-title");
-        var el6 = dom.createTextNode("Hunger Doesn't Belong Here");
+        var el6 = dom.createTextNode("Kick Hunger Out of Texas");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n      ");
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("h3");
-        var el6 = dom.createTextNode("Help us create a hunger-free Texas.");
+        var el6 = dom.createTextNode("Raise your voice to make ending hunger a priority.");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n    ");
@@ -635,7 +635,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("h2");
         dom.setAttribute(el5,"id","title");
-        var el6 = dom.createTextNode("Fetx Legislative Info");
+        var el6 = dom.createTextNode("Your Voice Matters!");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n        ");
@@ -1084,7 +1084,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
           var el1 = dom.createTextNode("      ");
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("span");
-          var el2 = dom.createTextNode("Find Your Representatives");
+          var el2 = dom.createTextNode("Find My Legislator");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
           var el1 = dom.createTextNode("\n");
@@ -1121,7 +1121,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
       buildFragment: function buildFragment(dom) {
         var el0 = dom.createDocumentFragment();
         var el1 = dom.createElement("p");
-        var el2 = dom.createTextNode("We need your help! The Texas Legislature is considering a bill that would make it harder for struggling Texans to put enough food on the table. HB 1485 would restrict working families from accessing SNAP benefits when they need them most.");
+        var el2 = dom.createTextNode("Congress is considering major changes to child nutrition programs that keep Texas kids healthy and strong. Important programs like summer meals and after-school meals can do much more to reach hungry kids.");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n");
@@ -1131,7 +1131,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("h2");
-        var el3 = dom.createTextNode("Enter your address below to find and connect with the people who represent you!");
+        var el3 = dom.createTextNode("Tell Congress to pass a strong child nutrition bill now!");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n  ");
@@ -1143,7 +1143,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("span");
-        var el4 = dom.createTextNode("Get My Location ");
+        var el4 = dom.createTextNode("Find My Legislator ");
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("i");
@@ -1174,7 +1174,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("h2");
-        var el3 = dom.createTextNode("Find by my address");
+        var el3 = dom.createTextNode("Or search by address:");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n  ");
@@ -1221,7 +1221,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("button");
         dom.setAttribute(el2,"class","button primary-btn reset-btn");
-        var el3 = dom.createTextNode("Start over");
+        var el3 = dom.createTextNode("Try another address");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n");
@@ -1250,9 +1250,9 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
       statements: [
         ["element","action",["geolocate"],[],["loc",[null,[4,29],[4,51]]]],
         ["block","if",[["get","formErrors",["loc",[null,[15,8],[15,18]]]]],[],0,null,["loc",[null,[15,2],[21,9]]]],
-        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","address",["loc",[null,[22,28],[22,35]]]]],[],[]],"placeholder","Address","name","address"],["loc",[null,[22,2],[22,74]]]],
+        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","address",["loc",[null,[22,28],[22,35]]]]],[],[]],"placeholder","My Home Address","name","address"],["loc",[null,[22,2],[22,74]]]],
         ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","city",["loc",[null,[23,28],[23,32]]]]],[],[]],"placeholder","City","name","city"],["loc",[null,[23,2],[23,65]]]],
-        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","zipcode",["loc",[null,[24,28],[24,35]]]]],[],[]],"placeholder","Zip code","name","zipcode"],["loc",[null,[24,2],[24,75]]]],
+        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","zipcode",["loc",[null,[24,28],[24,35]]]]],[],[]],"placeholder","Zip Code","name","zipcode"],["loc",[null,[24,2],[24,75]]]],
         ["element","action",["requestReps"],[],["loc",[null,[25,10],[25,34]]]],
         ["block","if",[["get","addressButtonText",["loc",[null,[26,10],[26,27]]]]],[],1,2,["loc",[null,[26,4],[30,11]]]],
         ["element","action",["resetResults"],[],["loc",[null,[34,10],[34,35]]]]
