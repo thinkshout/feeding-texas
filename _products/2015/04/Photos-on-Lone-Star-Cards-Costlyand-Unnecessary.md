@@ -12,7 +12,7 @@ date: 2015-04-09
 categories:
  - Advocacy
  - SNAP
-featured: true
+featured: false
 ---
 The Texas legislature is considering multiple bills that would require photographs to be placed on Lone Star EBT (electronic benefit transfer) cards containing Supplemental Nutrition Assistance Program (SNAP) and/or Temporary Assistance for Needy Families (TANF) benefits. 
 
