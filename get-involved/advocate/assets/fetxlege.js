@@ -1131,7 +1131,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("h2");
-        var el3 = dom.createTextNode("Tell Congress: Pass a strong child nutrition bill now!");
+        var el3 = dom.createTextNode("Tell Congress to pass a strong child nutrition bill now!");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n  ");
