@@ -635,7 +635,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("h2");
         dom.setAttribute(el5,"id","title");
-        var el6 = dom.createTextNode("Your Voice Matters");
+        var el6 = dom.createTextNode("Your Voice Matters!");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n        ");
@@ -1121,7 +1121,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
       buildFragment: function buildFragment(dom) {
         var el0 = dom.createDocumentFragment();
         var el1 = dom.createElement("p");
-        var el2 = dom.createTextNode("Congress is considering major changes to programs that keep Texas kids healthy and strong. Your can urge Congress to pass a strong child nutrition bill and ensure no child in America goes hungry.");
+        var el2 = dom.createTextNode("Congress is considering major changes to child nutrition programs that keep Texas kids healthy and strong. Important programs like summer meals and after-school meals can do much more to reach hungry kids.");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n");
@@ -1130,8 +1130,8 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         dom.setAttribute(el1,"class","geolocate-wrapper");
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
-        var el2 = dom.createElement("h2");
-        var el3 = dom.createTextNode("Click to find your location, or enter your address to connect with your Congress Member now!");
+        var el2 = dom.createElement("h1");
+        var el3 = dom.createTextNode("Urge Congress to pass a strong child nutrition bill now!");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n  ");
