@@ -196,7 +196,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
         $('.rep-form-wrapper, .geolocate-wrapper').fadeIn();
         this.set('addressButtonText', 'Finding Your Representatives');
         $('.address-btn').removeAttr('disabled');
-        $('.locate-btn').removeAttr('disabled').text('Get My Location');
+        $('.locate-btn').removeAttr('disabled').text('Get My Location ');
       },
 
       geolocate: function geolocate() {
@@ -1143,7 +1143,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("span");
-        var el4 = dom.createTextNode("Get My Location");
+        var el4 = dom.createTextNode("Get My Location ");
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("i");
