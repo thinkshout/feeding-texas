@@ -134,7 +134,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
                 },
                 phone: function phone() {
                   if (_phone) {
-                    return '<div class="call-rep">' + "<p><strong>Call<a href=\"tel\:" + _phone.replace(/[-()\s]/g, '') + "\">" + _phone + "</a> and tell whoever answers:</strong></p>" + '<hr>' + '<ul>' + '<li>Your name, and that you are constituent.</li>' + '<li>Urge the Representative to help pass a strong child nutrition bill that helps all children get enough healthy food during the school day and outside of school. </li>' + '<li>If you have a personal story about the importance of school meals, after-school snacks or summer meals programs, share it.</li>' + '<li>Thank them for their assistance!</li>' + '</ul>' + '</div>';
+                    return '<div class="call-rep">' + "<p><strong>Call <a href=\"tel\:" + _phone.replace(/[-()\s]/g, '') + "\">" + _phone + "</a> and tell whoever answers:</strong></p>" + '<hr>' + '<ul>' + '<li>Your name, and that you are constituent.</li>' + '<li>YOu want a strong "child nutrition reauthorization" bill that helps all children get enough healthy food in school and outside the school day. </li>' + '<li>If you have a personal story about the importance of school meals, after-school or summer meals programs, share it!</li>' + '<li>Thank them for their assistance.</li>' + '</ul>' + '</div>';
                   }
                 },
                 emailBtn: function emailBtn() {
