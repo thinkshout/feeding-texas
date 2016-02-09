@@ -1,7 +1,7 @@
 ---
 layout: product
 type: issue backgrounder
-title: Empowering Texans for Life with Nutrition Education
+title: Empowering Texans with Nutrition Education
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: We are partnering with the state of Texas to make healthy choices into easy choices for low-income families.
 download:
