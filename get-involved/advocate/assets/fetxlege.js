@@ -1084,7 +1084,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
           var el1 = dom.createTextNode("      ");
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("span");
-          var el2 = dom.createTextNode("Connect now!");
+          var el2 = dom.createTextNode("Find My Legislator");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
           var el1 = dom.createTextNode("\n");
