@@ -134,7 +134,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
                 },
                 phone: function phone() {
                   if (_phone) {
-                    return '<div class="call-rep">' + "<p><strong>Call <a href=\"tel\:" + _phone.replace(/[-()\s]/g, '') + "\">" + _phone + "</a> and tell whoever answers:</strong></p>" + '<hr>' + '<ul>' + '<li>Your name, and that you are constituent.</li>' + '<li>That you want a strong "child nutrition reauthorization" bill that helps all children get enough healthy food in school AND outside the school day. </li>' + '<li>If you have a personal story about the importance of school meals, after-school or summer meals programs, share it!</li>' + '<li>Thank them for their assistance.</li>' + '</ul>' + '</div>';
+                    return '<div class="call-rep">' + "<p><strong>Please call your legislator's office at <a href=\"tel\:" + _phone.replace(/[-()\s]/g, '') + "\">" + _phone + "</a> and:</strong></p>" + '<hr>' + '<ul>' + '<li>Give your name and and say that you are constituent.</li>' + '<li>Urge the emember to oppose HB 1485 when it receives a floor vote this week</li>' + '<li>If you have a personal story about hunber or SNAP please share it.</li>' + '<li>Thank them for their assistance</li>' + '</ul>' + '</div>';
                   }
                 },
                 emailBtn: function emailBtn() {
@@ -162,7 +162,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
           });
         } else {
           if (locationMethod == 'byGeolocation') {
-            $('.locate-btn').removeAttr('disabled').find('span').text('Find My Legislator '); 
+            $('.locate-btn').removeAttr('disabled').find('span').text('Get My Location ');
             $('.no-geo-results').append('<p>No results found for your location. Try using your address.</p>');
           } else {
             $('.no-address-results').append('<p>No results found for your address.<p>');
@@ -196,7 +196,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
         $('.rep-form-wrapper, .geolocate-wrapper').fadeIn();
         this.set('addressButtonText', 'Finding Your Representatives');
         $('.address-btn').removeAttr('disabled');
-        $('.locate-btn').removeAttr('disabled').text('Find My Legislator ');
+        $('.locate-btn').removeAttr('disabled').text('Get My Location');
       },
 
       geolocate: function geolocate() {
@@ -214,7 +214,6 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
         function success(pos) {
           var points = pos.coords;
           var geocodeURL = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + points.latitude + ',' + points.longitude + '&key=AIzaSyBXybAQeTTtPE9fZ6OEaUxIkJMLmXdayBQ';
-          // Test location with chicken restaurant in Amarillo
           //var geocodeURL = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=30.2849185,-97.7340567&key=AIzaSyBXybAQeTTtPE9fZ6OEaUxIkJMLmXdayBQ';
           $.getJSON(geocodeURL, function (data) {
             var location = data.results[0].formatted_address.split(',');
@@ -298,8 +297,6 @@ define('fetxlege/initializers/export-application-global', ['exports', 'ember', '
     }
   }
 
-  ;
-
   exports['default'] = {
     name: 'export-application-global',
 
@@ -367,7 +364,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 110,
+            "line": 114,
             "column": 0
           }
         },
@@ -430,7 +427,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         var el6 = dom.createTextNode("\n        ");
         dom.appendChild(el5, el6);
         var el6 = dom.createElement("img");
-        dom.setAttribute(el6,"src","http://stage.feedingtexas.org/assets/images/feeding-texas-id.png");
+        dom.setAttribute(el6,"src","http://www.feedingtexas.org/assets/images/feeding-texas-id.png");
         dom.appendChild(el5, el6);
         var el6 = dom.createTextNode("\n      ");
         dom.appendChild(el5, el6);
@@ -463,27 +460,12 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         var el7 = dom.createElement("li");
         var el8 = dom.createElement("a");
         dom.setAttribute(el8,"alt","Get Help");
-        dom.setAttribute(el8,"href","http://stage.feedingtexas.org/help/");
+        dom.setAttribute(el8,"href","http://www.feedingtexas.org/help/");
         var el9 = dom.createTextNode("Get Help");
         dom.appendChild(el8, el9);
         dom.appendChild(el7, el8);
         dom.appendChild(el6, el7);
         var el7 = dom.createTextNode("\n\n          ");
-        dom.appendChild(el6, el7);
-        var el7 = dom.createElement("li");
-        dom.setAttribute(el7,"id","site-search");
-        var el8 = dom.createTextNode("\n            ");
-        dom.appendChild(el7, el8);
-        var el8 = dom.createElement("a");
-        dom.setAttribute(el8,"id","search-toggle");
-        var el9 = dom.createElement("span");
-        dom.setAttribute(el9,"class","icon-search");
-        dom.appendChild(el8, el9);
-        dom.appendChild(el7, el8);
-        var el8 = dom.createTextNode("\n          ");
-        dom.appendChild(el7, el8);
-        dom.appendChild(el6, el7);
-        var el7 = dom.createTextNode("\n          ");
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("li");
         var el8 = dom.createTextNode("\n            ");
@@ -521,7 +503,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("li");
         var el8 = dom.createElement("a");
-        dom.setAttribute(el8,"href","http://stage.feedingtexas.org/learn/");
+        dom.setAttribute(el8,"href","http://www.feedingtexas.org/learn/");
         var el9 = dom.createTextNode("Learn About Hunger");
         dom.appendChild(el8, el9);
         dom.appendChild(el7, el8);
@@ -530,7 +512,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("li");
         var el8 = dom.createElement("a");
-        dom.setAttribute(el8,"href","http://stage.feedingtexas.org/work/");
+        dom.setAttribute(el8,"href","http://www.feedingtexas.org/work/");
         var el9 = dom.createTextNode("How We Help");
         dom.appendChild(el8, el9);
         dom.appendChild(el7, el8);
@@ -539,7 +521,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("li");
         var el8 = dom.createElement("a");
-        dom.setAttribute(el8,"href","http://stage.feedingtexas.org/get-involved/");
+        dom.setAttribute(el8,"href","http://www.feedingtexas.org/get-involved/");
         var el9 = dom.createTextNode("Get Involved");
         dom.appendChild(el8, el9);
         dom.appendChild(el7, el8);
@@ -548,7 +530,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("li");
         var el8 = dom.createElement("a");
-        dom.setAttribute(el8,"href","http://stage.feedingtexas.org/about/");
+        dom.setAttribute(el8,"href","http://www.feedingtexas.org/about/");
         var el9 = dom.createTextNode("About Us");
         dom.appendChild(el8, el9);
         dom.appendChild(el7, el8);
@@ -557,7 +539,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("li");
         var el8 = dom.createElement("a");
-        dom.setAttribute(el8,"href","http://stage.feedingtexas.org/news/");
+        dom.setAttribute(el8,"href","http://www.feedingtexas.org/news/");
         var el9 = dom.createTextNode("Latest Work");
         dom.appendChild(el8, el9);
         dom.appendChild(el7, el8);
@@ -596,18 +578,25 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         var el4 = dom.createTextNode("\n    ");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("div");
-        dom.setAttribute(el4,"class","page-header");
+        dom.setAttribute(el4,"class","page-header has-background-image");
         var el5 = dom.createTextNode("\n      ");
         dom.appendChild(el4, el5);
-        var el5 = dom.createElement("h1");
-        dom.setAttribute(el5,"class","page-title");
-        var el6 = dom.createTextNode("Kick Hunger Out of Texas");
+        var el5 = dom.createElement("div");
+        dom.setAttribute(el5,"class","text");
+        var el6 = dom.createTextNode("\n        ");
         dom.appendChild(el5, el6);
-        dom.appendChild(el4, el5);
-        var el5 = dom.createTextNode("\n      ");
-        dom.appendChild(el4, el5);
-        var el5 = dom.createElement("h3");
-        var el6 = dom.createTextNode("Raise your voice to make ending hunger a priority.");
+        var el6 = dom.createElement("h1");
+        dom.setAttribute(el6,"class","page-title");
+        var el7 = dom.createTextNode("Kick Hunger Out of Texas");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        var el6 = dom.createTextNode("\n        ");
+        dom.appendChild(el5, el6);
+        var el6 = dom.createElement("h3");
+        var el7 = dom.createTextNode("Raise your voice to make ending hunger a priority.");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        var el6 = dom.createTextNode("\n      ");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n    ");
@@ -673,7 +662,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         var el5 = dom.createTextNode("\n      	");
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("img");
-        dom.setAttribute(el5,"src","http://stage.feedingtexas.org/assets/images/feeding-texas-id.png");
+        dom.setAttribute(el5,"src","http://www.feedingtexas.org/assets/images/feeding-texas-id.png");
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n      ");
         dom.appendChild(el4, el5);
@@ -699,7 +688,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         var el5 = dom.createTextNode("\n        ");
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("img");
-        dom.setAttribute(el5,"src","http://stage.feedingtexas.org/assets/images/feeding-america.png");
+        dom.setAttribute(el5,"src","http://www.feedingtexas.org/assets/images/feeding-america.png");
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n      ");
         dom.appendChild(el4, el5);
@@ -725,7 +714,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         var el7 = dom.createTextNode("\n            ");
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("img");
-        dom.setAttribute(el7,"src","http://stage.feedingtexas.org/assets/images/social/facebook-icon.png");
+        dom.setAttribute(el7,"src","http://www.feedingtexas.org/assets/images/social/facebook-icon.png");
         dom.setAttribute(el7,"alt","Facebook");
         dom.appendChild(el6, el7);
         var el7 = dom.createTextNode("\n          ");
@@ -745,7 +734,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         var el7 = dom.createTextNode("\n            ");
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("img");
-        dom.setAttribute(el7,"src","http://stage.feedingtexas.org/assets/images/social/twitter-icon.png");
+        dom.setAttribute(el7,"src","http://www.feedingtexas.org/assets/images/social/twitter-icon.png");
         dom.setAttribute(el7,"alt","Twitter");
         dom.appendChild(el6, el7);
         var el7 = dom.createTextNode("\n          ");
@@ -767,12 +756,48 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         var el4 = dom.createTextNode("\n    	");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("ul");
-        var el5 = dom.createTextNode("\n        ");
+        var el5 = dom.createTextNode("\n          ");
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("li");
         var el6 = dom.createElement("a");
-        dom.setAttribute(el6,"href","#");
-        var el7 = dom.createTextNode("Link");
+        dom.setAttribute(el6,"href","http://www.feedingtexas.org/learn/");
+        var el7 = dom.createTextNode("Learn About Hunger");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createTextNode("\n          ");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("li");
+        var el6 = dom.createElement("a");
+        dom.setAttribute(el6,"href","http://www.feedingtexas.org/work/");
+        var el7 = dom.createTextNode("How We Help");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createTextNode("\n          ");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("li");
+        var el6 = dom.createElement("a");
+        dom.setAttribute(el6,"href","http://www.feedingtexas.org/get-involved/");
+        var el7 = dom.createTextNode("Get Involved");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createTextNode("\n          ");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("li");
+        var el6 = dom.createElement("a");
+        dom.setAttribute(el6,"href","http://www.feedingtexas.org/about/");
+        var el7 = dom.createTextNode("About Us");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createTextNode("\n          ");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("li");
+        var el6 = dom.createElement("a");
+        dom.setAttribute(el6,"href","http://www.feedingtexas.org/news/");
+        var el7 = dom.createTextNode("Latest Work");
         dom.appendChild(el6, el7);
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
@@ -789,12 +814,23 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         var el4 = dom.createTextNode("\n    	");
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("ul");
+        var el5 = dom.createTextNode("\n    	");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("li");
+        var el6 = dom.createElement("a");
+        dom.setAttribute(el6,"alt","Donate");
+        dom.setAttribute(el6,"href","https://donatenow.networkforgood.org/feeding-texas");
+        var el7 = dom.createTextNode("Donate");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n        ");
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("li");
         var el6 = dom.createElement("a");
-        dom.setAttribute(el6,"href","#");
-        var el7 = dom.createTextNode("Link");
+        dom.setAttribute(el6,"alt","Get Help");
+        dom.setAttribute(el6,"href","http://www.feedingtexas.org/help/");
+        var el7 = dom.createTextNode("Get Help");
         dom.appendChild(el6, el7);
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
@@ -820,7 +856,7 @@ define('fetxlege/templates/application', ['exports'], function (exports) {
         return morphs;
       },
       statements: [
-        ["content","outlet",["loc",[null,[66,8],[66,18]]]]
+        ["content","outlet",["loc",[null,[65,8],[65,18]]]]
       ],
       locals: [],
       templates: []
@@ -1156,7 +1192,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("img");
         dom.setAttribute(el2,"class","loading");
-        dom.setAttribute(el2,"src","http://stage.feedingtexas.org/assets/images/loading.gif");
+        dom.setAttribute(el2,"src","http://localhost:4003/assets/images/loading.gif");
         dom.setAttribute(el2,"alt","Loading...");
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n\n  ");
@@ -1221,7 +1257,7 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("button");
         dom.setAttribute(el2,"class","button primary-btn reset-btn");
-        var el3 = dom.createTextNode("Try another address");
+        var el3 = dom.createTextNode("Start over");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n");
@@ -1250,9 +1286,9 @@ define('fetxlege/templates/index', ['exports'], function (exports) {
       statements: [
         ["element","action",["geolocate"],[],["loc",[null,[4,29],[4,51]]]],
         ["block","if",[["get","formErrors",["loc",[null,[15,8],[15,18]]]]],[],0,null,["loc",[null,[15,2],[21,9]]]],
-        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","address",["loc",[null,[22,28],[22,35]]]]],[],[]],"placeholder","My Home Address","name","address"],["loc",[null,[22,2],[22,74]]]],
+        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","address",["loc",[null,[22,28],[22,35]]]]],[],[]],"placeholder","Address","name","address"],["loc",[null,[22,2],[22,74]]]],
         ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","city",["loc",[null,[23,28],[23,32]]]]],[],[]],"placeholder","City","name","city"],["loc",[null,[23,2],[23,65]]]],
-        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","zipcode",["loc",[null,[24,28],[24,35]]]]],[],[]],"placeholder","Zip Code","name","zipcode"],["loc",[null,[24,2],[24,75]]]],
+        ["inline","input",[],["type","text","value",["subexpr","@mut",[["get","zipcode",["loc",[null,[24,28],[24,35]]]]],[],[]],"placeholder","Zip code","name","zipcode"],["loc",[null,[24,2],[24,75]]]],
         ["element","action",["requestReps"],[],["loc",[null,[25,10],[25,34]]]],
         ["block","if",[["get","addressButtonText",["loc",[null,[26,10],[26,27]]]]],[],1,2,["loc",[null,[26,4],[30,11]]]],
         ["element","action",["resetResults"],[],["loc",[null,[34,10],[34,35]]]]
@@ -1698,6 +1734,7 @@ define('fetxlege/tests/adapters/application.jshint', function () {
 
   QUnit.module('JSHint - adapters');
   QUnit.test('adapters/application.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'adapters/application.js should pass jshint.'); 
   });
 
@@ -1708,6 +1745,7 @@ define('fetxlege/tests/app.jshint', function () {
 
   QUnit.module('JSHint - .');
   QUnit.test('app.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'app.js should pass jshint.'); 
   });
 
@@ -1718,7 +1756,8 @@ define('fetxlege/tests/controllers/index.jshint', function () {
 
   QUnit.module('JSHint - controllers');
   QUnit.test('controllers/index.js should pass jshint', function(assert) { 
-    assert.ok(false, 'controllers/index.js should pass jshint.\ncontrollers/index.js: line 28, col 6, Missing semicolon.\ncontrollers/index.js: line 66, col 36, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 125, col 30, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 7, col 19, \'$\' is not defined.\ncontrollers/index.js: line 8, col 16, \'$\' is not defined.\ncontrollers/index.js: line 9, col 19, \'$\' is not defined.\ncontrollers/index.js: line 56, col 5, \'$\' is not defined.\ncontrollers/index.js: line 59, col 5, \'$\' is not defined.\ncontrollers/index.js: line 61, col 9, \'$\' is not defined.\ncontrollers/index.js: line 62, col 9, \'$\' is not defined.\ncontrollers/index.js: line 103, col 13, \'$\' is not defined.\ncontrollers/index.js: line 115, col 9, \'$\' is not defined.\ncontrollers/index.js: line 116, col 11, \'$\' is not defined.\ncontrollers/index.js: line 117, col 11, \'$\' is not defined.\ncontrollers/index.js: line 120, col 9, \'$\' is not defined.\ncontrollers/index.js: line 121, col 11, \'$\' is not defined.\ncontrollers/index.js: line 122, col 11, \'$\' is not defined.\ncontrollers/index.js: line 126, col 11, \'$\' is not defined.\ncontrollers/index.js: line 127, col 11, \'$\' is not defined.\ncontrollers/index.js: line 129, col 11, \'$\' is not defined.\ncontrollers/index.js: line 130, col 11, \'$\' is not defined.\ncontrollers/index.js: line 138, col 7, \'$\' is not defined.\ncontrollers/index.js: line 141, col 9, \'$\' is not defined.\ncontrollers/index.js: line 153, col 7, \'$\' is not defined.\ncontrollers/index.js: line 154, col 7, \'$\' is not defined.\ncontrollers/index.js: line 155, col 7, \'$\' is not defined.\ncontrollers/index.js: line 156, col 7, \'$\' is not defined.\ncontrollers/index.js: line 157, col 7, \'$\' is not defined.\ncontrollers/index.js: line 159, col 7, \'$\' is not defined.\ncontrollers/index.js: line 160, col 7, \'$\' is not defined.\ncontrollers/index.js: line 165, col 7, \'$\' is not defined.\ncontrollers/index.js: line 166, col 7, \'$\' is not defined.\ncontrollers/index.js: line 167, col 7, \'$\' is not defined.\ncontrollers/index.js: line 180, col 9, \'$\' is not defined.\n\n34 errors'); 
+    assert.expect(1);
+    assert.ok(false, 'controllers/index.js should pass jshint.\ncontrollers/index.js: line 28, col 6, Missing semicolon.\ncontrollers/index.js: line 66, col 36, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 125, col 30, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 7, col 19, \'$\' is not defined.\ncontrollers/index.js: line 8, col 16, \'$\' is not defined.\ncontrollers/index.js: line 9, col 19, \'$\' is not defined.\ncontrollers/index.js: line 56, col 5, \'$\' is not defined.\ncontrollers/index.js: line 59, col 5, \'$\' is not defined.\ncontrollers/index.js: line 61, col 9, \'$\' is not defined.\ncontrollers/index.js: line 62, col 9, \'$\' is not defined.\ncontrollers/index.js: line 103, col 13, \'$\' is not defined.\ncontrollers/index.js: line 115, col 9, \'$\' is not defined.\ncontrollers/index.js: line 116, col 11, \'$\' is not defined.\ncontrollers/index.js: line 117, col 11, \'$\' is not defined.\ncontrollers/index.js: line 120, col 9, \'$\' is not defined.\ncontrollers/index.js: line 121, col 11, \'$\' is not defined.\ncontrollers/index.js: line 122, col 11, \'$\' is not defined.\ncontrollers/index.js: line 126, col 11, \'$\' is not defined.\ncontrollers/index.js: line 127, col 11, \'$\' is not defined.\ncontrollers/index.js: line 129, col 11, \'$\' is not defined.\ncontrollers/index.js: line 130, col 11, \'$\' is not defined.\ncontrollers/index.js: line 138, col 7, \'$\' is not defined.\ncontrollers/index.js: line 141, col 9, \'$\' is not defined.\ncontrollers/index.js: line 153, col 7, \'$\' is not defined.\ncontrollers/index.js: line 154, col 7, \'$\' is not defined.\ncontrollers/index.js: line 155, col 7, \'$\' is not defined.\ncontrollers/index.js: line 156, col 7, \'$\' is not defined.\ncontrollers/index.js: line 157, col 7, \'$\' is not defined.\ncontrollers/index.js: line 159, col 7, \'$\' is not defined.\ncontrollers/index.js: line 160, col 7, \'$\' is not defined.\ncontrollers/index.js: line 165, col 7, \'$\' is not defined.\ncontrollers/index.js: line 166, col 7, \'$\' is not defined.\ncontrollers/index.js: line 167, col 7, \'$\' is not defined.\ncontrollers/index.js: line 179, col 9, \'$\' is not defined.\n\n34 errors'); 
   });
 
 });
@@ -1728,6 +1767,7 @@ define('fetxlege/tests/controllers/representatives.jshint', function () {
 
   QUnit.module('JSHint - controllers');
   QUnit.test('controllers/representatives.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'controllers/representatives.js should pass jshint.'); 
   });
 
@@ -1752,6 +1792,7 @@ define('fetxlege/tests/helpers/resolver.jshint', function () {
 
   QUnit.module('JSHint - helpers');
   QUnit.test('helpers/resolver.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'helpers/resolver.js should pass jshint.'); 
   });
 
@@ -1785,6 +1826,7 @@ define('fetxlege/tests/helpers/start-app.jshint', function () {
 
   QUnit.module('JSHint - helpers');
   QUnit.test('helpers/start-app.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'helpers/start-app.js should pass jshint.'); 
   });
 
@@ -1795,6 +1837,7 @@ define('fetxlege/tests/models/representative.jshint', function () {
 
   QUnit.module('JSHint - models');
   QUnit.test('models/representative.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'models/representative.js should pass jshint.'); 
   });
 
@@ -1805,6 +1848,7 @@ define('fetxlege/tests/router.jshint', function () {
 
   QUnit.module('JSHint - .');
   QUnit.test('router.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'router.js should pass jshint.'); 
   });
 
@@ -1815,6 +1859,7 @@ define('fetxlege/tests/routes/index.jshint', function () {
 
   QUnit.module('JSHint - routes');
   QUnit.test('routes/index.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'routes/index.js should pass jshint.'); 
   });
 
@@ -1825,6 +1870,7 @@ define('fetxlege/tests/routes/representatives.jshint', function () {
 
   QUnit.module('JSHint - routes');
   QUnit.test('routes/representatives.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'routes/representatives.js should pass jshint.'); 
   });
 
@@ -1842,6 +1888,7 @@ define('fetxlege/tests/test-helper.jshint', function () {
 
   QUnit.module('JSHint - .');
   QUnit.test('test-helper.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'test-helper.js should pass jshint.'); 
   });
 
@@ -1868,6 +1915,7 @@ define('fetxlege/tests/unit/adapters/application-test.jshint', function () {
 
   QUnit.module('JSHint - unit/adapters');
   QUnit.test('unit/adapters/application-test.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'unit/adapters/application-test.js should pass jshint.'); 
   });
 
@@ -1894,6 +1942,7 @@ define('fetxlege/tests/unit/adapters/representative-test.jshint', function () {
 
   QUnit.module('JSHint - unit/adapters');
   QUnit.test('unit/adapters/representative-test.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'unit/adapters/representative-test.js should pass jshint.'); 
   });
 
@@ -1920,6 +1969,7 @@ define('fetxlege/tests/unit/controllers/index-test.jshint', function () {
 
   QUnit.module('JSHint - unit/controllers');
   QUnit.test('unit/controllers/index-test.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'unit/controllers/index-test.js should pass jshint.'); 
   });
 
@@ -1946,6 +1996,7 @@ define('fetxlege/tests/unit/controllers/representatives-test.jshint', function (
 
   QUnit.module('JSHint - unit/controllers');
   QUnit.test('unit/controllers/representatives-test.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'unit/controllers/representatives-test.js should pass jshint.'); 
   });
 
@@ -1972,6 +2023,7 @@ define('fetxlege/tests/unit/models/representative-test.jshint', function () {
 
   QUnit.module('JSHint - unit/models');
   QUnit.test('unit/models/representative-test.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'unit/models/representative-test.js should pass jshint.'); 
   });
 
@@ -1997,6 +2049,7 @@ define('fetxlege/tests/unit/routes/index-test.jshint', function () {
 
   QUnit.module('JSHint - unit/routes');
   QUnit.test('unit/routes/index-test.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'unit/routes/index-test.js should pass jshint.'); 
   });
 
@@ -2022,6 +2075,7 @@ define('fetxlege/tests/unit/routes/representatives-test.jshint', function () {
 
   QUnit.module('JSHint - unit/routes');
   QUnit.test('unit/routes/representatives-test.js should pass jshint', function(assert) { 
+    assert.expect(1);
     assert.ok(true, 'unit/routes/representatives-test.js should pass jshint.'); 
   });
 
@@ -2054,7 +2108,7 @@ catch(err) {
 if (runningTests) {
   require("fetxlege/tests/test-helper");
 } else {
-  require("fetxlege/app")["default"].create({"name":"fetxlege","version":"0.0.0+118e25c7"});
+  require("fetxlege/app")["default"].create({"name":"fetxlege","version":"0.0.0+6732b27b"});
 }
 
 /* jshint ignore:end */

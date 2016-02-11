@@ -86651,19 +86651,7 @@ define("ember/load-initializers",
 }).call(this);
 
 
-;define('ember-cli-app-version', ['ember-cli-app-version/index', 'ember', 'exports'], function(__index__, __Ember__, __exports__) {
-  'use strict';
-  var keys = Object.keys || __Ember__['default'].keys;
-  var forEach = Array.prototype.forEach && function(array, cb) {
-    array.forEach(cb);
-  } || __Ember__['default'].EnumerableUtils.forEach;
-
-  forEach(keys(__index__), (function(key) {
-    __exports__[key] = __index__[key];
-  }));
-});
-
-define('ember-cli-app-version/components/app-version', ['exports', 'ember', 'ember-cli-app-version/templates/app-version'], function (exports, Ember, layout) {
+;define('ember-cli-app-version/components/app-version', ['exports', 'ember', 'ember-cli-app-version/templates/app-version'], function (exports, Ember, layout) {
 
   'use strict';
 
@@ -86742,6 +86730,18 @@ define('ember-cli-app-version/templates/app-version', ['exports'], function (exp
   }()));
 
 });
+define('ember-cli-app-version', ['ember-cli-app-version/index', 'ember', 'exports'], function(__index__, __Ember__, __exports__) {
+  'use strict';
+  var keys = Object.keys || __Ember__['default'].keys;
+  var forEach = Array.prototype.forEach && function(array, cb) {
+    array.forEach(cb);
+  } || __Ember__['default'].EnumerableUtils.forEach;
+
+  forEach(keys(__index__), (function(key) {
+    __exports__[key] = __index__[key];
+  }));
+});
+
 define('ember-cli-content-security-policy', ['ember-cli-content-security-policy/index', 'ember', 'exports'], function(__index__, __Ember__, __exports__) {
   'use strict';
   var keys = Object.keys || __Ember__['default'].keys;
