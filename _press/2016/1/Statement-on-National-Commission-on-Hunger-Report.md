@@ -4,7 +4,7 @@ title: Statement on National Commission on Hunger Report
 pullquote: Hunger is a problem that we cannot afford to ignore, but that we can afford to solve.
 attribution: Celia Cole
 date: 2016-01-06
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 1/6/16    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
