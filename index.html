@@ -69,7 +69,7 @@ banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banner
       	<h2 class="section-header"><span>Recent Products</span></h2>
         {% assign products = site.products | sort:'date' %}
         {% for product in site.products reversed %}
-          {% if product.layout == "product" and product.featured == true limit:1 sort: 'title' %}
+          {% if product.layout == "product" and product.featured == true limit:1 %}
           <article>
             <h2><a href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a></h2>
             <p>{{ product.summary }}</p>
