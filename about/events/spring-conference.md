@@ -36,8 +36,6 @@ Logo printed on conference materials
 *  Scholarship Fund: $250
 Vendor recognized during evening reception
 
-If your organization would like to be a sponsor for the summit please submit your payment below. Once you have submitted your payment, one of the Feeding Texas staff will reach out to you for next steps. If you have any questions regarding your sponsorship, please contact [Jose Campuzano] (mailto:jcampuzano@feedingtexas.org), Director of Supply Chain. 
-
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="SBLXSMYAWUDFA">
@@ -50,8 +48,8 @@ If your organization would like to be a sponsor for the summit please submit you
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=".3" height=".3">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=".3" height=".3">
 </form>
 
 
