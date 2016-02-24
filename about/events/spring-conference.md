@@ -14,7 +14,9 @@ Thank you for your interest in the 2016 Texas Fresh Produce Summit. As more info
 
 Click [here] (http://bit.ly/1ZeGVaS) to register for the summit.
 
-If your organization would like to sponsor the summit please pay here: <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+The summit is being held at the Double Tree Suites by the Hilton Hotel in Austin, click [here] (http://doubletree.hilton.com/en/dt/groups/personalized/A/AUSFLDT-FTX-20160410/index.jhtml?WT.mc_id=POG) to reserve your room. 
+
+If your organization would like to be a sponsor for the summit please submit your payment here: <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="SBLXSMYAWUDFA">
 <table>
@@ -29,5 +31,3 @@ If your organization would like to sponsor the summit please pay here: <form act
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=".5" height=".5">
 </form>
-
-The summit is being held at the Double Tree Suites by the Hilton Hotel in Austin, click [here] (http://doubletree.hilton.com/en/dt/groups/personalized/A/AUSFLDT-FTX-20160410/index.jhtml?WT.mc_id=POG) to reserve your room. 
