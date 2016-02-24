@@ -27,7 +27,7 @@ If your organization would like to sponsor the summit please pay here: <form act
 </table>
 <input type="hidden" name="currency_code" value="USD">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=".5" height=".5">
 </form>
 
 The summit is being held at the Double Tree Suites by the Hilton Hotel in Austin, click [here] (http://doubletree.hilton.com/en/dt/groups/personalized/A/AUSFLDT-FTX-20160410/index.jhtml?WT.mc_id=POG) to reserve your room. 
