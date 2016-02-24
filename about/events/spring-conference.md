@@ -19,7 +19,7 @@ The summit is being held at the Double Tree Suites by the Hilton Hotel in Austin
 
 ## Sponsors
 
-This conference would not be possible without the sponsorship of generous donors like you. Please consider sponsoring the Texas Fresh  Produce Summit at one of the levels below:
+This conference would not be possible without the sponsorship of generous donors like you. Please consider sponsoring the Texas Fresh  Produce Summit at one of the levels below. Once you have submitted your payment, one of the Feeding Texas staff will reach out to you for next steps. If you have any questions regarding your sponsorship, please contact [Jose Campuzano] (mailto:jcampuzano@feedingtexas.org), Director of Supply Chain. 
 
 *  Platinum Level Sponsorship: $1,500
 10x10 booth to exhibit with attendees during the session breaks and evening reception
