@@ -22,13 +22,13 @@ Click [here] (http://doubletree.hilton.com/en/dt/groups/personalized/A/AUSFLDT-F
 This conference would not be possible without the sponsorship of generous donors. Please consider sponsoring the Texas Fresh  Produce Summit at one of the levels below. 
 
 *  Platinum Level Sponsorship: $1,500   
-10x10 booth to exhibit with attendees during the session breaks and evening reception
-Vendor marketing materials included in conference bags
-Logo will be printed on conference materials 
+10x10 booth to exhibit with attendees during the session breaks and evening reception   
+Vendor marketing materials included in conference bags   
+Logo will be printed on conference materials    
 
 *  Gold Level Sponsorship: $750   
-Vendor marketing materials included in conference bags
-Logo printed on conference materials 
+Vendor marketing materials included in conference bags   
+Logo printed on conference materials    
 
 *  Silver Level Sponsorship: $500   
 Logo printed on conference materials 
