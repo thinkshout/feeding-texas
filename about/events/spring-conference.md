@@ -36,6 +36,8 @@ Logo printed on conference materials
 *  Scholarship Fund: $250   
 Vendor recognized during evening reception
 
+Once you have submitted payment, Feeding Texas will reach out to you for next steps. If you have any questions regarding sponsorship, please contact our Director of Supply Chain [Jose Campuzano] (mailto:jcampuzano@feedingtexas.org). 
+
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="SBLXSMYAWUDFA">
@@ -52,4 +54,4 @@ Vendor recognized during evening reception
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=".3" height=".3">
 </form>
 
-Once you have submitted payment, Feeding Texas will reach out to you for next steps. If you have any questions regarding sponsorship, please contact our Director of Supply Chain [Jose Campuzano] (mailto:jcampuzano@feedingtexas.org). 
+
