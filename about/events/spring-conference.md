@@ -61,7 +61,7 @@ Once you have submitted payment, Feeding Texas will reach out to you for next st
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/PayPal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="image" src="https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/PayPal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"width="1" height="1">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
