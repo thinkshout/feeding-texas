@@ -42,7 +42,7 @@ Once you have submitted payment, Feeding Texas will reach out to you for next st
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="SBLXSMYAWUDFA">
 <table>
-<tr><td><input type="hidden" name="on0" value="Levels">Levels</td></tr><tr><td><select name="os0">
+<tr><td><input type="hidden" name="on0" value="Levels">Sponsor now:</td></tr><tr><td><select name="os0">
 	<option value="Platinum">Platinum $1,500.00 USD</option>
 	<option value="Gold">Gold $750.00 USD</option>
 	<option value="Silver">Silver $500.00 USD</option>
