@@ -49,9 +49,6 @@ Once you have submitted payment, Feeding Texas will reach out to you for next st
 	<option value="Scholarship Fund">Scholarship Fund $250.00 USD</option>
 </select> </td></tr>
 </table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=".3" height=".3">
 </form>
-
+![PayPal] (https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/PayPal.png)
 
