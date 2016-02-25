@@ -49,6 +49,20 @@ Once you have submitted payment, Feeding Texas will reach out to you for next st
 	<option value="Scholarship Fund">Scholarship Fund $250.00 USD</option>
 </select> </td></tr>
 </table>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="SBLXSMYAWUDFA">
+<table>
+<tr><td><input type="hidden" name="on0" value="Levels">Levels</td></tr><tr><td><select name="os0">
+	<option value="Platinum">Platinum $1,500.00 USD</option>
+	<option value="Gold">Gold $750.00 USD</option>
+	<option value="Silver">Silver $500.00 USD</option>
+	<option value="Scholarship Fund">Scholarship Fund $250.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/PayPal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-![PayPal] (https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/PayPal.png)
+
 
