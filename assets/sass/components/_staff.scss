@@ -34,10 +34,11 @@
   }
 
   .photo {
-		width: 200px;
+	  width: 200px;
 	  height: 200px;
 	  @include border-radius(50%);
 	  margin: 0 auto;
+	  padding-top: 2em;
 	  img {
 	    width: 200px;
 	    height: 200px;
@@ -89,8 +90,11 @@
   			.page-header {
 
   			  h1.page-title {
-            color: $orange;
-          }
+                color: $orange;
+              }
+				.button.primary-btn {
+					margin: 0;
+				}
         }
       }
   	}
