@@ -36,6 +36,21 @@ Logo printed on conference materials
 *  Scholarship Fund: $250   
 Vendor recognized during evening reception
 
-![PayPal] (https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/PayPal.png) (https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=tB3g8OcDoJBTZC8JFbqrSCF9CGAWwIYysONDwnEIDzljbcB7qxv9aO3oFWK&dispatch=50a222a57771920b6a3d7b606239e4d529b525e0b7e69bf0224adecfb0124e9b61f737ba21b08198a1cfd454fa474d16e3bed0f38ea80110)
-
 Once you have submitted payment, Feeding Texas will reach out to you for next steps. If you have any questions regarding sponsorship, please contact our Director of Supply Chain [Jose Campuzano] (mailto:jcampuzano@feedingtexas.org). 
+
+ <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="SBLXSMYAWUDFA">
+  <table>
+ -<tr><td><input type="hidden" name="on0" value="Levels">Levels</td></tr><tr><td><select name="os0">
+ +<tr><td><input type="hidden" name="on0" value="Levels">Sponsor now:</td></tr><tr><td><select name="os0">
+  	<option value="Platinum">Platinum $1,500.00 USD</option>
+  	<option value="Gold">Gold $750.00 USD</option>
+  	<option value="Silver">Silver $500.00 USD</option>
+ 	<option value="Scholarship Fund">Scholarship Fund $250.00 USD</option>
+ </select> </td></tr>
+ </table>
+ <input type="hidden" name="currency_code" value="USD">
+ <input type="image" src="https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/PayPal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+ <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=".3" height=".3">
+ </form>
