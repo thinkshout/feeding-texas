@@ -21,37 +21,23 @@ Click [here] (http://doubletree.hilton.com/en/dt/groups/personalized/A/AUSFLDT-F
 
 This conference would not be possible without our generous sponsors. Please consider sponsoring the Texas Fresh  Produce Summit at one of the levels below. 
 
-*  Platinum Level Sponsorship: $1,500   
+*  [Platinum Level Sponsorship] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q647V6MX54U9E): $1,500   
 10x10 exhibit booth    
 Vendor marketing materials included in conference bags   
 Logo will be printed on conference materials    
 
-*  Gold Level Sponsorship: $750   
+*  [Gold Level Sponsorship] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2H6B3GYZN7UJL): $750   
 Vendor marketing materials included in conference bags   
 Logo printed on conference materials    
 
-*  Silver Level Sponsorship: $500   
+*  [Silver Level Sponsorship] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H3BU2SK22UNCQ): $500   
 Logo printed on conference materials 
 
-*  Scholarship Fund: $250   
+*  [Scholarship Fund] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DF6KBE3JAGAR4): $250   
 Vendor recognized during evening reception
 
-Once you have submitted payment, Feeding Texas will reach out to you for next steps. If you have any questions regarding sponsorship, please contact our Director of Supply Chain [Jose Campuzano] (mailto:jcampuzano@feedingtexas.org). 
+Once you have submitted a payment, Feeding Texas will reach out to you for next steps. If you have any questions regarding sponsorship, please contact our Director of Supply Chain [Jose Campuzano] (mailto:jcampuzano@feedingtexas.org). 
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="SBLXSMYAWUDFA">
-<table>
-<tr><td><input type="hidden" name="on0" value="Levels">Levels</td></tr><tr><td><select name="os0">
-	<option value="Platinum">Platinum $1,500.00 USD</option>
-	<option value="Gold">Gold $750.00 USD</option>
-	<option value="Silver">Silver $500.00 USD</option>
-	<option value="Scholarship Fund">Scholarship Fund $250.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+
 
 
