@@ -54,4 +54,4 @@ Once you have submitted payment, Feeding Texas will reach out to you for next st
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-[<img src="https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/PayPal.png">](https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=tB3g8OcDoJBTZC8JFbqrSCF9CGAWwIYysONDwnEIDzljbcB7qxv9aO3oFWK&dispatch=50a222a57771920b6a3d7b606239e4d529b525e0b7e69bf0224adecfb0124e9b61f737ba21b08198a1cfd454fa474d16e3bed0f38ea80110)
+
