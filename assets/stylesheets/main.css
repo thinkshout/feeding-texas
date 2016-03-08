@@ -2098,6 +2098,7 @@ footer nav.secondary {
   -o-border-radius: 50%;
   border-radius: 50%;
   margin: 0 auto;
+  padding-top: 2em;
 }
 .staff-member .photo img {
   width: 200px;
@@ -2153,6 +2154,9 @@ footer nav.secondary {
 }
 .staff-member.detail .highlighted .wrap .page-header h1.page-title {
   color: #e98300;
+}
+.staff-member.detail .highlighted .wrap .page-header .button.primary-btn {
+  margin: 0;
 }
 
 /*
