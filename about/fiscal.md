@@ -17,5 +17,5 @@ We receive support from respected, national anti-hunger organizations including 
 
 As a statewide association, most of our annual budget is distributed directly to regional food banks to assist them in providing food and services locally.
 
-* [Latest financial audit](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Latest_Audit.pdf)
-* [Form 990](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Form_990.pdf)
+* [Latest financial audit](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Financial-Statements.pdff)
+* [Form 990](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/IRS-Form-990-2014.pdf)
