@@ -17,6 +17,8 @@ Click [here] (http://bit.ly/1ZeGVaS) to register for the summit.
 
 Click [here] (http://doubletree.hilton.com/en/dt/groups/personalized/A/AUSFLDT-FTX-20160410/index.jhtml?WT.mc_id=POG) to reserve your room at the Double Tree Suites Hotel. 
 
+Click [here] (https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/TFPS-2016-Conference-Agenda.pdf) for the conference agenda.
+
 ## Sponsors
 
 This conference would not be possible without our generous sponsors. Please consider sponsoring the Texas Fresh  Produce Summit at one of the levels below. 
