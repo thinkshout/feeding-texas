@@ -1,0 +1,20 @@
+---
+layout: default
+title: 404 Page Not Found
+banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-01.jpg
+calls_to_action:
+  - 1
+  - 2
+---
+<div class="home">
+  <div class="splash">
+  	<div class="bg-img" style="background: url({{page.banner}}) center center no-repeat;background-size:cover;">
+  	</div>
+  	<div class="leadin">
+  		<h1>404 Page Not Found</h1>
+      <p>The page you have requested was not found.<p>
+      <a class="button primary-btn" href="{{ site.baseurl }}/">Return Home</a>
+  	</div>
+  </div>
+</div>
+{% include widgets/calls_to_action/calls-to-action.html %}
