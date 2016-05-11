@@ -7,7 +7,7 @@ intro: |
 calls_to_action:
   - 1
   - 2
-permalink: /get-involved/thank-you/
+permalink: /thank-you/
 ---
 
 Thank you for joining us! We look forward to working with you to kick hunger out of Texas. 
