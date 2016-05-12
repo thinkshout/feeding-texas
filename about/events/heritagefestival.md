@@ -10,5 +10,4 @@ calls_to_action:
   - 2
 permalink: /heritagefestival
 ---
-
-Check back next week for more information!
+Tickets on sale soon - check back next week for more information!
