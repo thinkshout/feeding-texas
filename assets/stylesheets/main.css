@@ -650,6 +650,10 @@ footer:after {
   padding: 1em;
   margin-bottom: 1em;
 }
+.rep-card .rep-image {
+  float: right;
+  width: 100px;
+}
 
 .cards-container .reset-btn,
 .call-rep,

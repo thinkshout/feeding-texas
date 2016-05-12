@@ -2,6 +2,11 @@
   background: $white;
   padding: 1em;
   margin-bottom: 1em;
+
+  .rep-image {
+    float: right;
+    width: 100px;
+  }
 }
 
 .cards-container .reset-btn,
@@ -32,8 +37,4 @@ ul.errors {
   height: 32px;
   vertical-align: middle;
   width: 32px;
-}
-
-.button.primary-btn.email-btn {
-  //display: none;
 }
