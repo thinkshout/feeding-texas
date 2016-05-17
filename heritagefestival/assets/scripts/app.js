@@ -1,5 +1,6 @@
 ;(function($) {
     $(document).ready(function() {
+
         var wow = new WOW(
           {
             boxClass:     'wow',      // animated element css class (default is wow)
@@ -14,7 +15,9 @@
             scrollContainer: null // optional scroll container selector, otherwise use window
           }
         );
+
         wow.init();
+
 
         $.fn.extend({
             animateCss: function (animationName) {
@@ -27,7 +30,7 @@
 
 
         setTimeout(function(){
-            $('#prop').removeClass('fadeInRight').removeAttr('style');
+            $('#prop').removeClass('fadeInRight wow').removeAttr('style');
             $('#prop').animateCss('tada');
         },3000);
 
