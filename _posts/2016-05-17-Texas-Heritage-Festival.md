@@ -24,7 +24,7 @@ Dates for the series are:
 > Saturday, July 2: White Oak Music Hall in Houston, Texas   
 > Sunday, July 3: Aztec Theatre in San Antonio, Texas
 
-Tickets will go on sale starting Thursday [here on our website!](http://www.feedingtexas.org/heritagefestival). Proceeds will benefit Feeding Texas. 
+Tickets will go on sale starting Thursday [here on our website](http://www.feedingtexas.org/heritagefestival)! Proceeds will benefit Feeding Texas. 
 
 Follow the celebration of all things Texas on Twitter [@LoneStarBeer](https://twitter.com/LoneStarBeer), [@FeedingTexas](https://twitter.com/FeedingTexas) and with the hashtag #LoneStarBeerFest. 
 
