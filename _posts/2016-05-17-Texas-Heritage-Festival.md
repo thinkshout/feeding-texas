@@ -19,9 +19,9 @@ We are proud to announce our new partnership with Lone Star Beer and Transmissio
 Ten dollars will get you the opportunity to listen to some great bands, like Shovels & Rope, Okkervil River, Delta Spirit, Matthew Vasquez, and Girl in a Coma. In addition to the music, you’ll eat delicious food, play arcade games and help a great cause! 
 
 Dates for the series are:
-> Thursday, June 30: Stubb’s in Austin, Texas
-> Friday, July 1: Bomb Factory in Dallas, Texas
-> Saturday, July 2: White Oak Music Hall in Houston, Texas
+> Thursday, June 30: Stubb’s in Austin, Texas   
+> Friday, July 1: Bomb Factory in Dallas, Texas   
+> Saturday, July 2: White Oak Music Hall in Houston, Texas   
 > Sunday, July 3: Aztec Theatre in San Antonio, Texas
 
 Tickets will go on sale starting Thursday [here on our website!](http://www.feedingtexas.org/heritagefestival). Proceeds will benefit Feeding Texas. 
