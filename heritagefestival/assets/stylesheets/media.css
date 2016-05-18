@@ -1,0 +1,59 @@
+@media (min-width:992px) {
+  #share{
+    margin-top:-40px!important;
+  }
+  #email, #email1{
+    width:250px;
+  }
+}
+@media(max-width:480px) {
+  #email, #email1{
+    /*width:140px;*/
+    width:100%;
+    padding:9px;
+  }
+  form#form-mobile{
+    text-align: center;
+  }
+  form#form-mobile img{
+    margin-top:20px;
+    float: none;
+  }
+  .follow_ls{
+    font-size:19px;
+    margin-right:0;
+  }
+  .event_card{
+      max-width: 100%;
+        height: 350px;
+        background:#fff;
+  }
+  .event_card .info {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .section_activities .row{
+    left:0;
+  }
+  .section_activities .list_holder{
+    padding-bottom:25px;
+  }
+  .section_activities .list_wrap:last-child .list_holder{
+    padding-bottom:160px;
+  }
+  .guitar-wide {
+    top: -135px;
+    height:150px;
+    background-size: 80%;
+  }
+  .footer-link{
+    padding-top:0;
+  }
+  .row.extra{
+    min-height:75px;
+  }
+  p.select{
+    font-size:125%;
+  }
+}
