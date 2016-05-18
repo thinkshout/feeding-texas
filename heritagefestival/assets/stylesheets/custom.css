@@ -270,7 +270,7 @@ form #email + label{
 
 .footer-link{
   padding-top: 150px;
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
   margin-left: 0;
   padding-left: 0;
 }
