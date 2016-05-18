@@ -8,6 +8,6 @@ summary: |
 calls_to_action:
   - 1
   - 2
-permalink: /heritagefestival
+permalink: /heritagefestivalcomingsoon
 ---
 Tickets on sale soon - check back next week for more information!
