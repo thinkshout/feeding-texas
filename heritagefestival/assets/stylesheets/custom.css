@@ -47,10 +47,16 @@ section.main{
   margin-bottom: 45px;
 }
 
-.main .init,
-.section_init{
-  min-height:756px;
+@media screen and (min-width:992px){
+  .main .init,
+  .section_init{
+    min-height:756px;
+  }
+  #share{
+    margin-top:40px;
+  }
 }
+
 .ticket_holder{
   display:block;
   cursor: pointer;
@@ -125,6 +131,17 @@ a.social{
   font-family:'Roboto Condensed',sans-serif;
   font-family: lhf_old_block_cond_medregular,'Roboto Condensed',sans-serif;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width:676px){
+  .follow_ls,
+  .follow_ft{
+    line-height: 22px;
+    font-size:29px !important;
+  }
+  .followcol{
+    margin-bottom:50px;
+  }
 }
 
 #email,#email1{
