@@ -18,7 +18,7 @@ Many of these seniors have special needs, such as living on a fixed income or ma
 
 Tina Alaniz of Wichita Falls is one such client. Alaniz enjoys spending time with her family and cooking for her grandchildren. Food bank distributions are one reason she can continue to be independent and a good neighbor. 
 
-“I’ve got friends who don’t have any money, who don’t have any food,” she says, “They will come and borrow from me when I come home. Like today for instance - they couldn’t get out here.” 
+“I’ve got friends who don’t have any money, who don’t have any food,” she says. “They will come and borrow from me when I come home. Like today for instance - they couldn’t get out here.” 
 
 Alaniz, who is diabetic, is grateful that the food bank provides healthy options for her restricted diet. “I’d rather go without food, if the food bank wasn’t here,” she admits, rather than rely on her daughter for support. 
 
