@@ -21,13 +21,14 @@ Tina Alaniz of Wichita Falls is one such client. Alaniz enjoys spending time wit
 Alaniz, who is diabetic, is grateful that the food bank provides healthy options for her restricted diet.  
 
 “I’d rather go without food, if the food bank wasn’t here,” she admits, rather than rely on her daughter for support. Though Alaniz is elderly herself, she often commits to driving other seniors to the food bank’s distributions. She says it feels good to help others.  
-. . .
+
+---
 
 That feeling is something that Judy Corrigan, a volunteer and substitute teacher at Creedmoor Elementary, knows all about. Standing in line at a recent food pantry distribution, a few young mothers recognized “Ms. Judy” and brought her a chair to make her more comfortable. 
 
 Corrigan began coming to these distributions after her husband suffered a heart attack and the bills started piled up. Just like the school where she works, this rural food pantry feels to her like a community space as much as a place to receive support. 
 
-. . .
+---
 
 In east Austin, an elderly man named Don walked slowly towards a distribution line to wait his turn. An 84-year-old Air Force veteran, Don optimistically sees the food pantry as a chance to get food and fresh air. “It’s kind of entertaining for me,” he jokes. “Because I don’t go shopping much or anything.” 
 
