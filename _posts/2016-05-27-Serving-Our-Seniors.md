@@ -30,7 +30,7 @@ That feeling is something Judy Corrigan, a volunteer and substitute teacher at C
 
 Standing in line at a recent food pantry distribution, a few young mothers recognized “Ms. Judy” and brought her a chair to make her more comfortable. 
 
-Corrigan began coming to these distributions after her husband suffered a heart attack and the bills started piled up. Just like the school where she works, this rural food pantry feels to her like a community space as much as a place to receive support. 
+Corrigan began coming to these distributions after her husband suffered a heart attack and bills started piled up. Just like the school where she works, to her this rural food pantry feels like a community space as much as a place to receive support. 
 
 ---
 
@@ -40,7 +40,7 @@ In east Austin, an elderly man named Don walked slowly towards a distribution li
 
 Don hopes that an upcoming knee surgery will allow him to get back in the swing of life.
 
-“I used to guide hunters in the valley and I’d like to do that again. I like to do carpenter work and I like to do gardening. And sales work is what I did and it was easy for me to do,” he says with a smile of pride. 
+“I used to guide hunters in the Valley and I’d like to do that again. I like to do carpenter work and I like to do gardening. And sales work is what I did and it was easy for me to do,” he says with a smile of pride. 
 
 “You’re benefitting society in every way and you’re there just to have fun.” 
 
