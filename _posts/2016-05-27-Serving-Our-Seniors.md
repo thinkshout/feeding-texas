@@ -14,7 +14,9 @@ May is Older Americans Month, a good time to reflect on the fact that [20% of Te
 
 Many of these seniors have special needs, such as living on a fixed retirement income or maintaining a strict medical diet. Our food banks provide access to nutritious food for [632,000 seniors each year]( http://www.feedingtexas.org/product/2014/11/01-Hunger-In-America-2014-Texas-Report) where they live, volunteer and work. 
 
-Tina Alaniz of Wichita Falls is one such client. Alaniz enjoys spending time with her family and especially cooking for her grandchildren. The food bank is one reason she can continue to be independent and a good neighbor. “I’ve got friends who don’t have any money, who don’t have any food,” she says, “They will come and borrow from me when I come home. Like today for instance - they couldn’t get out here.” 
+Tina Alaniz of Wichita Falls is one such client. Alaniz enjoys spending time with her family and especially cooking for her grandchildren. The food bank is one reason she can continue to be independent and a good neighbor. 
+
+“I’ve got friends who don’t have any money, who don’t have any food,” she says, “They will come and borrow from me when I come home. Like today for instance - they couldn’t get out here.” 
 
 Alaniz, who is diabetic, is grateful that the food bank provides healthy options for her restricted diet.  
 
