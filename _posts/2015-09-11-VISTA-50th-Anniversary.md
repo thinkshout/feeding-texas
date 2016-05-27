@@ -8,7 +8,7 @@ guest_author: 1
 tags: 
   - Food Insecurity
   - VISTA
-featured: true
+featured: false
 ---
 This summer marked the first anniversary of the Client Empowerment Corps, our statewide initiative to address the causes and consequences of food insecurity and help struggling Texans share their stories. 
 
