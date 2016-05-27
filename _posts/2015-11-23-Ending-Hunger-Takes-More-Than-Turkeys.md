@@ -8,7 +8,7 @@ author: 05
 tags: 
   - Food Insecurity
   - Jobs
-featured: true
+featured: false
 ---
 Thanksgiving!
 
