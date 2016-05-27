@@ -12,17 +12,17 @@ featured: true
 ---
 May is Older Americans Month, a good time to reflect on the fact that [20% of Texas seniors]( http://www.nfesh.org/wp-content/uploads/2015/04/2012-to-2013-comp-Alpha.pdf) face food insecurity. 
 
-Many of these seniors have special needs, such as living on a fixed retirement income or maintaining a strict medical diet. Our food banks provide access to nutritious food for [632,000 seniors each year]( http://www.feedingtexas.org/product/2014/11/01-Hunger-In-America-2014-Texas-Report) where they live, volunteer and work. 
+Many of these seniors have special needs, such as living on a fixed income or maintaining a strict medical diet. Our food banks provide access to nutritious food for [632,000 seniors each year]( http://www.feedingtexas.org/product/2014/11/01-Hunger-In-America-2014-Texas-Report) where they live, volunteer and work. 
 
 ---
 
-Tina Alaniz of Wichita Falls is one such client. Alaniz enjoys spending time with her family and cooking for her grandchildren. The food bank is one reason she can continue to be independent and a good neighbor. 
+Tina Alaniz of Wichita Falls is one such client. Alaniz enjoys spending time with her family and cooking for her grandchildren. Food bank distributions like the one where we met her are one reason she can continue to be independent and a good neighbor. 
 
 “I’ve got friends who don’t have any money, who don’t have any food,” she says, “They will come and borrow from me when I come home. Like today for instance - they couldn’t get out here.” 
 
 Alaniz, who is diabetic, is grateful that the food bank provides healthy options for her restricted diet.  
 
-“I’d rather go without food, if the food bank wasn’t here,” she admits, rather than rely on her daughter for support. Though Alaniz is elderly herself, she often commits to driving other seniors to the food bank’s distributions. She says it feels good to help others.  
+“I’d rather go without food, if the food bank wasn’t here,” she admits, rather than rely on her daughter for support. Though Alaniz is elderly herself, she often drives other seniors to the food bank’s distributions. She says it feels good to help others.  
 
 ---
 
