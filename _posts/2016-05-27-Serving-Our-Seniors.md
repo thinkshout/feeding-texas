@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Serving Our Seniors - Three Hungry Texans’ Stories
-summary: Twenty percent of Texas seniors are food insecure. We caught up with three of them. 
+title: Serving Our Seniors - Three Stories
+summary: Twenty percent of Texas seniors are food insecure. We spoke with three of them. 
 images:
   hero: 
 date: 2016-05-27
