@@ -38,4 +38,4 @@ Don hopes that an upcoming knee surgery will allow him to get back in the swing 
 
 “I used to guide hunters in the valley and I’d like to do that again. I like to do carpenter work and I like to do gardening. And sales work is what I did and it was easy for me to do,” he says with a smile of pride. “You’re benefitting society in every way and you’re there just to have fun.” 
 
-* This blog post is a compilation of interviews collected by AmeriCorps VISTA members of the Feeding Texas Client Empowerment Corps. Our storybanking initiative was started in 2014 to bring the voices of hungry Texans to the public’s attention. To date the storybank contains over 1,000 interviews.
+*This blog post is a compilation of interviews collected by AmeriCorps VISTA members of the Feeding Texas Client Empowerment Corps. Our storybanking initiative was started in 2014 to bring the voices of hungry Texans to the public’s attention. To date the storybank contains over 1,000 interviews.*
