@@ -9,7 +9,7 @@ featured: true
 **For Immediate Release:** 6/9/16    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
 
-The following statement is attributable to Celia Cole, CEO of Feeding Texas:
+**The following statement is attributable to Celia Cole, CEO of Feeding Texas:**
  
 Today, Texas food banks are calling key members of Congress to voice their opposition to a bill that would reverse years of progress delivering nutritious meals to hungry children. 
  
