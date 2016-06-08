@@ -1,7 +1,7 @@
 ---
 layout: press
 title: Statement - Congress Shouldn't "Cut and Run" on Hungry Kids
-pullquote: Our view on the pending child nutrition reauthorization, and why Congress should stay away from block grants.
+pullquote: Gambling with families’ basic needs is no way to advance core national goals like ending child hunger.
 attribution: Celia Cole
 date: 2016-06-09
 featured: true
