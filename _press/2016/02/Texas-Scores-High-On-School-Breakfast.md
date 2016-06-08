@@ -4,7 +4,7 @@ title: Texas Scores High On School Breakfast
 pullquote: Texas’ strong performance illustrates our commitment to ensuring every child starts the school day nourished and prepared to learn.
 attribution: Celia Cole
 date: 2016-02-16
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 2/16/16    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
