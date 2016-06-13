@@ -6,7 +6,7 @@ attribution: Celia Cole
 date: 2016-6-14
 featured: true
 ---  
-**For Immediate Release:** 6/14/16
+**For Immediate Release:** 6/14/16    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
 
 *Austin* – Average daily participation in summer food programs for hungry Texas children dropped 10% in 2015, according to a national report released today. 28,000 fewer children participated compared to the previous summer, while national participation remained stable. This was the second consecutive summer in which fewer children got help from the program, despite little change to the number in need. 
