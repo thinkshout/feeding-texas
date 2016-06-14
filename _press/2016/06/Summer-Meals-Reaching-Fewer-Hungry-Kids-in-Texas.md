@@ -25,6 +25,6 @@ Program funding and rules are currently under debate in Congress. Bills introduc
  
 "Our failure to nourish children during the summer months demands new thinking," said Cole. "We support the Senate's efforts to make it easier to bring summer meals to hungry Texas children."
 
-The full report is available [here](http://www.frac.org). Texas families can find nearby summer meal sites on the [Texas Square Meals website](http://www.squaremeals.org/), by calling 211, or texting FOODTX to 877-877.
+The full report is available [here](http://www.frac.org). Texas families can find summer meal sites on the [Texas Square Meals website](http://www.squaremeals.org/), by calling 211, or by texting FOODTX to 877-877.
 
 *Feeding Texas leads a unified effort for a hunger-free Texas.*
