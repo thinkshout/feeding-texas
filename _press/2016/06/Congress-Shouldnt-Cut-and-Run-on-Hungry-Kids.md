@@ -4,7 +4,7 @@ title: Statement - Congress Shouldn't "Cut and Run" on Hungry Kids
 pullquote: Gambling with families’ basic needs is no way to advance core national goals like ending child hunger.
 attribution: Celia Cole
 date: 2016-06-09
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 6/9/16    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
