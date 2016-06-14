@@ -3,7 +3,7 @@ layout: press
 title: Summer Meals Reaching Fewer Hungry Kids in Texas - Report
 pullquote: When children don’t have access to good nutrition in the summer they lose ground, and don’t go back to school ready to learn.
 attribution: Celia Cole
-date: 2016-6-14
+date: 2016-06-14
 featured: true
 ---  
 **For Immediate Release:** 6/14/16    
