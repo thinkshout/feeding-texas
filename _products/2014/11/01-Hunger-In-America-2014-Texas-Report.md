@@ -13,7 +13,7 @@ categories:
   - Food Banks
   - Children
   - Seniors
-featured: true
+featured: false
 ---
 
 3.5 million Texans receive assistance from our food banks every year. Learn more about who they are are, and the issues they face.
