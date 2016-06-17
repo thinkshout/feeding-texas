@@ -8,7 +8,7 @@ summary: |
 calls_to_action:
   - 1
   - 2
-permalink: /feeding-with-impact-conference
+permalink: /conference
 ---
 Please join us for the **2016 “Feeding With Impact” Conference**!      
 
