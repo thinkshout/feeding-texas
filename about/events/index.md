@@ -8,7 +8,7 @@ summary: |
 calls_to_action:
   - 1
   - 2
-permalink: /events
+permalink:
 ---
 Feeding Texas and its Board Leadership Council invites the Boards of Directors of our twenty-one member food banks on February 26-27, 2015, for the Second Annual All Boards Conference and biennial Legislative Day at the Texas Capitol.
 
