@@ -15,7 +15,7 @@ The Feeding Texas board consists of Executive Directors from the state's twenty-
 
 * Dennis Cullinane (President) - *East Texas Food Bank, Tyler*   
 * David Weaver (Past President) - *South Plains Food Bank, Lubbock*   
-* Hank Perret (Treasurer) - *Capital Area Food Bank of Texas, Austin*  
+* Hank Perret (Treasurer) - *Central Texas Food Bank, Austin*  
 * Betsi Lujan (Secretary) - *Wichita Falls Area Food Bank, Wichita Falls*
 * Eric Cooper - *San Antonio Food Bank, San Antonio*
 * Robin Cadle - *Food Bank of the Golden Crescent, Victoria*   
