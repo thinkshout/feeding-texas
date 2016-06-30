@@ -8,7 +8,7 @@ author: 05
 tags: 
   - Food Insecurity
   - SNAP
-featured: true
+featured: false
 ---
 Earlier this week, the White House's Council of Economic Advisors [published a report](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/White-House-SNAP-Report.pdf) that is required reading for anyone seeking to understand the long-term impact of SNAP (aka food stamps) on our nation. 
 
