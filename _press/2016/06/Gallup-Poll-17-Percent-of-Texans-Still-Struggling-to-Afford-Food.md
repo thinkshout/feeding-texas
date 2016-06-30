@@ -17,7 +17,7 @@ The report, released by the Food Research and Action Center (FRAC) and entitled 
  
 The report also includes 2014-2015 food hardship rates for the Austin, Dallas-Fort Worth, El Paso, Houston, and San Antonio metropolitan areas.
  
-Congress is currently debating nutrition programs that are designed to address food hardship in children. The debate has included proposals to cut and block-grant funding, in essence turning over program control to states. This proposal could reduce or eliminate access to school meals programs for many of the three million Texas children who rely on them.
+Congress is currently debating nutrition programs that are designed to address food hardship in children. The debate has included proposals to cut and block-grant funding, in essence turning over program control to states. These proposals could reduce or eliminate access to school meals programs for many of the three million Texas children who rely on them.
 
 “It is unacceptable that Congress is debating cuts to programs like school lunch when so many families are struggling to afford food,” said Cole. “Serious proposals to end child hunger in America must start with the principle of 'do no harm,' and increase our investment in nourishing the next generation of Americans.”
 
