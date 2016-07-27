@@ -19,6 +19,7 @@ Most people have noticed the rising price of groceries in recent years. These co
 This year, there’s a new way for hunters to support our work – and you don’t even have to be a good shot!
 
 When Texas hunting licenses go on sale August 15th, they will include a simple checkbox to donate to Hunters for the Hungry. Your donations will allow Feeding Texas to expand the program in more communities and bring more healthy food to local families. 
+
 ![Hunting License Checkbox](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/HFTH-donation-checkbox.png)
 
 With over two million hunting licenses sold annually in Texas, even a small gift from hunters throughout the state could make a big difference in the lives of food insecure Texans. Spread the word!
