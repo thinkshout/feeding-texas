@@ -8,7 +8,7 @@ date: 2016-05-27
 author: 15
 tags: 
   - Seniors
-featured: true
+featured: false
 ---
 May is Older Americans Month, a good time to reflect on the fact that [20% of Texas seniors]( http://www.nfesh.org/wp-content/uploads/2015/04/2012-to-2013-comp-Alpha.pdf) face food insecurity. 
 

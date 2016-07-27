@@ -8,7 +8,7 @@ date: 2016-05-17
 author: 07
 tags: 
   - Events
-featured: true
+featured: false
 ---
 These days, ten dollars rarely buys anything memorable – maybe a quick meal out, or some new music for your MP3 player? 
 
