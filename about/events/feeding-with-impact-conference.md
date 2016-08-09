@@ -18,6 +18,7 @@ The conference will be held on September 19-21, 2016 at the Renaissance Austin H
 * Network with colleagues from across Texas
 * Connect the dots between nutrition education, benefits outreach and VISTAs at your food bank. 
 
+RSVP for the event by clicking [here](https://goo.gl/forms/zsKgB3CRdTZPYlIB2).
 Book your room at the Renaissance Austin Hotel now by clicking [here] (https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=15556652&utm_source=13526&utm_medium=email&utm_campaign=83398615).
 
-Check back to download speaker presentations and materials! 
+Check back soon for agenda and speakers! 
