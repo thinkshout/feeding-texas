@@ -12,7 +12,7 @@ categories:
  - Advocacy
  - SNAP
  - Seniors
-featured: true
+featured: false
 ---
 As the Texas Legislature studies the economic impact of aging Texans, CEO Celia Cole urges them to consider the huge toll
 that hunger and food insecurity has on seniors and recommends ways to strengthen the programs and services that can improve their nutritional health.

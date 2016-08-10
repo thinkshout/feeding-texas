@@ -11,7 +11,7 @@ date: 2016-02-09
 categories:
  - SNAP Ed
  - Nutrition Education
-featured: true
+featured: false
 ---
 In FY2016, Feeding Texas food banks partnered with the state to invest a total of $7.5M in strategies to widen opportunities for low-income families to make healthy choices where they live, learn, shop, and play. 
 
