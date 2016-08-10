@@ -1,7 +1,7 @@
 ---
 layout: product
 type: Factsheet
-title: Infographic: SNAP Not Enough of a Good Thing
+title: Infographic - SNAP Not Enough of a Good Thing
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: Learn why SNAP needs a raise to help families eat healthy.
 download:
