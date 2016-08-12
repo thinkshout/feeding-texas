@@ -9,7 +9,7 @@ featured: true
 **For Immediate Release:** 8/12/2016     
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
 
-Austin – Texas hunters and fisherman will encounter a new opportunity to donate money to Hunters for the Hungry when purchasing or renewing their licenses this year. Their donation will support a popular program that provides thousands of servings of venison annually to struggling Texans.
+Austin – Texas hunters and fishermen will encounter a new opportunity to donate money to Hunters for the Hungry when purchasing or renewing their licenses this year. Their donation will support a popular program that provides thousands of servings of venison annually to struggling Texans.
  
 “Hunters for the Hungry brings healthy protein to struggling families while encouraging environmental stewardship,” said Celia Cole, CEO of Feeding Texas, which sponsors the program. “It’s a win-win for hunters, landowners, processors and Texans who are struggling to make ends meet.”
  
