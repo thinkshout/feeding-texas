@@ -14,7 +14,7 @@ Most people have noticed the rising price of groceries in recent years. These co
 
  Not coincidentally, protein is also one of the most requested food groups at Texas food pantries, [according to our research](http://www.feedingtexas.org/product/2014/11/01-Hunger-In-America-2014-Texas-Report/). 
 
-[Hunters for the Hungry](http://www.feedingtexas.org/get-involved/hunt/) is our popular program for bringing lean protein to the plates of hungry Texans. Hunters donate over nine million servings of venison annually through this partnership between Texas Parks and Wildlife, Feeding Texas food banks and local meat processors.
+[Hunters for the Hungry](http://www.feedingtexas.org/get-involved/hunt/) is our popular program for bringing lean protein to the plates of hungry Texans. Hunters have donated over nine million servings of venison through this partnership between Texas Parks and Wildlife, Feeding Texas food banks and local meat processors.
 
 This year, there’s a new way for hunters to support our work – and you don’t even have to be a good shot!
 
