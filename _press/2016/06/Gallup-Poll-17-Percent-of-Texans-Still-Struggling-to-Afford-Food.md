@@ -4,7 +4,7 @@ title: Gallup Poll - 17 Percent of Texans Still Struggling to Afford Food
 pullquote: It is unacceptable that Congress is debating cuts to programs like school lunch when so many families are struggling to afford food.
 attribution: Celia Cole
 date: 2016-06-30
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 6/30/16    
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
