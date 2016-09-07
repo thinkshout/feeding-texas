@@ -23,4 +23,4 @@ In related news, this week Texas officials announced the end of the Lite Up Texa
 
 “We’re concerned about the effect this could have on our clients and food banks,” said Cole. “Anything that takes resources away from a low-income family means less food on the dinner plate and more strain on private charities.”
 
-*The USDA report is available here. Feeding Texas leads a unified effort for a hunger-free Texas.*
+*The USDA report is available [here](http://www.ers.usda.gov). Feeding Texas leads a unified effort for a hunger-free Texas.*
