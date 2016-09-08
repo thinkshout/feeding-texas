@@ -1,0 +1,36 @@
+<h2 id="title">{{introTextHeading}}</h2>
+<p>{{introTextSummary}}</p>
+<h2>{{introTextSubHeading}}</h2>
+<div class="geolocate-wrapper">
+  <button class="locate-btn" {{action 'geolocate'}} class="button primary-btn locate-btn" type="submit">
+    <span>Find My Legislator </span><i class="fa fa-map-marker"></i>
+  </button>
+  <img class="loading" src="/assets/images/loading.gif" alt="Loading...">
+
+  <div class="no-geo-results"></div>
+</div>
+
+<div class="rep-form-wrapper">
+  <h2>Or search by address:</h2>
+  <div class="no-address-results"></div>
+  {{#if formErrors}}
+    <ul class="errors">
+      {{#if addressError}}<li>{{addressError}}</li>{{/if}}
+      {{#if cityError}}<li>{{cityError}}</li>{{/if}}
+      {{#if zipcodeError}}<li>{{zipcodeError}}</li>{{/if}}
+    </ul>
+  {{/if}}
+  {{input type="text" value=address placeholder="Address" name="address"}}
+  {{input type="text" value=city placeholder="City" name="city"}}
+  {{input type="text" value=zipcode placeholder="Zip code" name="zipcode"}}
+  <button {{action 'requestReps'}} class="button primary-btn address-btn" type="submit">
+    {{#if addressButtonText}}
+      <span>{{addressButtonText}}</span>
+    {{else}}
+      <span>Find My Legislator</span>
+    {{/if}}
+  </button>
+</div>
+<div class="cards-container">
+  <button {{action 'resetResults'}} class="button primary-btn reset-btn">Start over</button>
+</div>

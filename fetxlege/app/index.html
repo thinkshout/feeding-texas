@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fetxlege</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for 'head'}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/fetxlege.css">
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
+
+    {{content-for 'head-footer'}}
+  </head>
+  <body>
+
+    {{content-for 'body'}}
+
+    <script>
+      // SET THE CHAMBER WHERE YOU WANT TO RETREIVE DATA
+      // chamberFlag = 'federal house';
+      // chamberFlag = 'federal senate';
+      // chamberFlag = 'state senate';
+      chamberFlag = 'state house';
+
+      // SET THE BILL NUMBER FOR CALLING OR EMAILING
+      billNumber = 'HB 1485';
+
+      // SET THE INTRO TEXT
+      introTextHeading    = 'Your Voice Matters!';
+      introTextSummary    = 'Congress is considering major changes to child nutrition programs that keep Texas kids healthy and strong. Important programs like summer meals and after-school meals can do much more to reach hungry kids.';
+      introTextSubHeading = 'Tell Congress to pass a strong child nutrition bill now!';
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/fetxlege.js"></script>
+
+    {{content-for 'body-footer'}}
+  </body>
+</html>
