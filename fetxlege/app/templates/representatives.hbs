@@ -1,0 +1,19 @@
+<ul>
+{{#if model}}
+  {{#each model}}
+   {{#if name}}
+   <li class="rep">
+     {{name}}<br>
+     {{#if chamber}}{{chamber}}<br/>{{/if}}
+     {{#if email}}{{email}}<br>{{/if}}
+     {{#if districtPhone}}{{districtPhone}}<br>{{/if}}
+     {{#if capitalPhone}}{{capitalPhone}}{{/if}}
+     <a class="email" href="mailto:{{email}}">Email</a>
+     <a class="phone" href="tel:{{capitalPhone}}">Call</a>
+   </li>
+   {{/if}}
+  {{/each}}
+{{else}}
+  <p>We were unable to find any results for your location</p>
+{{/if}}
+</ul>

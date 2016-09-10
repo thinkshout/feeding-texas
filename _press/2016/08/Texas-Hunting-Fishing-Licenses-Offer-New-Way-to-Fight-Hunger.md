@@ -4,7 +4,7 @@ title: Texas Hunting, Fishing Licenses Offer New Way to Fight Hunger
 pullquote: This program is a win-win for hunters, landowners, processors and Texans who are struggling to make ends meet.
 attribution: Celia Cole
 date: 2016-08-12
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 8/12/2016     
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
