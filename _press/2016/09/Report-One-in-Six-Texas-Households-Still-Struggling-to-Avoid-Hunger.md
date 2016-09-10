@@ -1,7 +1,7 @@
 ---
 layout: press
 title: Report - One in Six Texas Households Still Struggling to Avoid Hunger
-pullquote: The Texas economy is strong but it is leaving too many people behind
+pullquote: The Texas economy is strong, but it is leaving too many people behind.
 attribution: Celia Cole
 date: 2016-09-07
 categories:
