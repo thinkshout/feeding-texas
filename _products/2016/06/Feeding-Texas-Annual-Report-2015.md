@@ -10,7 +10,7 @@ download:
 date: 2016-06-14
 categories:
  - 
-featured: true
+featured: false
 ---
 In 2015, Feeding Texas and our network of 21 food banks provided services to over 3.5 million Texans. 
 
