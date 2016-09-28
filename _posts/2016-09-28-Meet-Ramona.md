@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Client Stories - Ramona
+title: Meet Ramona
 summary: Not even a flood can stand in the way of this Houston student keeping her family fed. 
 images:
   hero: 
