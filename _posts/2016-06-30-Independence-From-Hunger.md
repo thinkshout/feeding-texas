@@ -8,7 +8,7 @@ date: 2016-06-30
 author: 15
 tags: 
   - Veterans
-featured: true
+featured: false
 ---
 “I would like to be so financially secure that I forget it’s payday and I don’t need the help.” 
 
