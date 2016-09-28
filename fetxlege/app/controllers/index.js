@@ -165,8 +165,8 @@ export default Ember.Controller.extend({
                             '<hr>' +
                             '<ul>' +
                               '<li>Give your name and and say that you are constituent.</li>' +
-                              '<li>Urge the member to oppose' + billNumber + 'when it receives a floor vote this week</li>' +
-                              '<li>If you have a personal story about hunger or SNAP please share it.</li>' +
+                              '<li>Tell them you support the work of your local food bank to bring more healthy produce to hungry Texans</li>' +
+                              '<li>If you have a personal story about hunger or nutrition please share it.</li>' +
                               '<li>Thank them for their assistance</li>' +
                             '</ul>' +
                           '</div>';
@@ -176,9 +176,8 @@ export default Ember.Controller.extend({
                               '<hr>' +
                               '<ul>' +
                                 '<li>Give your name and and say that you are constituent.</li>' +
-                                '<li>Urge the member to oppose' + billNumber + 'when it receives a floor vote this week</li>' +
-                                '<li>If you have a personal story about hunger or SNAP please share it.</li>' +
-                                '<li>Thank them for their assistance</li>' +
+                              '<li>Tell them you support the work of your local food bank to bring more healthy produce to hungry Texans</li>' +
+                              '<li>If you have a personal story about hunger or nutrition please share it.</li>' +                                                     '<li>Thank them for their assistance</li>' +
                               '</ul>' +
                             '</div>';
                 }
