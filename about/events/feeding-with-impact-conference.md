@@ -10,18 +10,6 @@ calls_to_action:
   - 2
 permalink: /conference
 ---
-Please join us for the **2016 “Feeding With Impact” Conference**!      
+Thank you for joining us at the **2016 “Feeding With Impact” Conference**!      
 
-The conference will be held on September 19-21, 2016 at the Renaissance Austin Hotel. 
-
-* Gain new skills and knowledge
-* Network with colleagues from across Texas
-* Connect the dots between nutrition education, benefits outreach and VISTAs at your food bank. 
-
-Register for the event by September 1st by clicking [here](https://goo.gl/forms/zsKgB3CRdTZPYlIB2).    
-
-Book your room at the Renaissance Austin Hotel by clicking [here] (https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=15556652&utm_source=13526&utm_medium=email&utm_campaign=83398615). 
-    
-Reservations must be received before Friday, August 24th to qualify for the discounted rate.
-
-Check back soon for agenda and speakers! 
+[Click here](https://www.dropbox.com/sh/s38g97y00y9s239/AABIvGYyIwavlFVwgaUmd-aPa?dl=0) to access all conference presentations. 
