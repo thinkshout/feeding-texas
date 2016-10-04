@@ -127,7 +127,6 @@ export default Ember.Controller.extend({
               }
             }
 
-            console.log(reps);
 
             var snips = {
               image: function() {
@@ -143,10 +142,7 @@ export default Ember.Controller.extend({
                     "<p><strong>Please call your legislator's office at <a href=\"tel\:" + reps.phone + "\">" + reps.phone + "</a> and:</strong></p>" +
                     '<hr>' +
                     '<ul>' +
-                      '<li>Give your name and and say that you are constituent.</li>' +
-                      '<li>Urge the member to oppose HB 1485 when it receives a floor vote this week</li>' +
-                      '<li>If you have a personal story about hunger or SNAP please share it.</li>' +
-                      '<li>Thank them for their assistance</li>' +
+                      phoneText +
                     '</ul>' +
                   '</div>';
                 }
@@ -164,10 +160,7 @@ export default Ember.Controller.extend({
                             '<p><strong>Please <a target="_blank" href="' + reps.contact_form + '">email your legislator\'s office</a> and:</strong></p>' +
                             '<hr>' +
                             '<ul>' +
-                              '<li>Give your name and and say that you are constituent.</li>' +
-                              '<li>Urge the member to oppose' + billNumber + 'when it receives a floor vote this week</li>' +
-                              '<li>If you have a personal story about hunger or SNAP please share it.</li>' +
-                              '<li>Thank them for their assistance</li>' +
+                              emailText +
                             '</ul>' +
                           '</div>';
                 } else {
@@ -175,10 +168,7 @@ export default Ember.Controller.extend({
                               '<p><strong>Please <a href="mailto:' + reps.email + '">Email your legislator\'s office</a> and:</strong></p>' +
                               '<hr>' +
                               '<ul>' +
-                                '<li>Give your name and and say that you are constituent.</li>' +
-                                '<li>Urge the member to oppose' + billNumber + 'when it receives a floor vote this week</li>' +
-                                '<li>If you have a personal story about hunger or SNAP please share it.</li>' +
-                                '<li>Thank them for their assistance</li>' +
+                                emailText +
                               '</ul>' +
                             '</div>';
                 }
