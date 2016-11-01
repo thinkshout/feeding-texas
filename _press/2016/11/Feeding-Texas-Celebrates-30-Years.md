@@ -5,7 +5,6 @@ pullquote:
 attribution: 
 date: 2016-11-01
 categories:
-  - 
 featured: false
 ---  
 **For Immediate Release:** 11/1/16   
