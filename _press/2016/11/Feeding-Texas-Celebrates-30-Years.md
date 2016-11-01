@@ -1,6 +1,6 @@
 ---
 layout: press
-title: Feeding Texas Celebrates 30 Years of Fighting for a Hunger-Free Texas with State & Community Leaders
+title: Feeding Texas Celebrates 30 Years Fighting for a Hunger-Free Texas
 pullquote: 
 attribution: 
 date: 2016-11-01
