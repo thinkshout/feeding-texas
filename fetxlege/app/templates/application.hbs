@@ -1,3 +1,10 @@
+<script>
+  pageTitle = document.getElementById("page-title");
+  pageTitle.textContent = pageTitleText;
+
+  subtitle = document.getElementById("subtitle");
+  subtitle.textContent = subtitleText;
+</script>
 <div class="landing">
   <header>
   <div id="utility">
@@ -52,8 +59,8 @@
     </div>
     <div class="page-header has-background-image">
       <div class="text">
-        <h1 class="page-title">Advocate</h1>
-        <h3>Raise your voice to create a hunger-free state.</h3>
+        <h1 id="page-title" class="page-title"></h1>
+        <h3 id="subtitle"></h3>
       </div>
     </div>
   </div>
