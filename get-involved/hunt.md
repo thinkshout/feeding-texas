@@ -25,4 +25,5 @@ Hunters for the Hungry has provided over nine million servings of venison to Tex
 
 To financially support this program and others like it, [donate here](https://donatenow.networkforgood.org/feeding-texas)!
 
-![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Hunters-for-the-Hungry-Logo.png "Hunters for the Hungry Logo")
+Hunters for the Hungry is sponsored by the Dallas Safari Club:
+![DSC Logo](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Dallas-Safari-Club-Logo.jpg)
