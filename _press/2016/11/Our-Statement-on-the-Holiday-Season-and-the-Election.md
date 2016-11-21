@@ -1,7 +1,8 @@
 ---
 layout: press
 title: Our Statement on the Holiday Season and the Election
-pullquote: "Our new President should recommit America to one of our most important, bipartisan and widely agreed-upon beliefs – that nobody in our nation should go hungry."
+pullquote: | 
+  "Our new President should recommit America to one of our most important, bipartisan and widely agreed-upon beliefs – that nobody in our nation should go hungry."
 attribution: Celia Cole
 date: 2016-21-01
 categories:
