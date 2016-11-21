@@ -6,7 +6,7 @@ attribution: Celia Cole
 date: 2016-09-07
 categories:
   - Food Insecurity
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 9/7/16   
 **Contact:** Celia Cole, 512.590.0659 or ccole@feedingtexas.org
