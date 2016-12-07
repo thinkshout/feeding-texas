@@ -13,7 +13,7 @@ featured: true
 
 **Statement Attributable to Celia Cole, CEO of Feeding Texas**
 
-Today Congressman Mike Conaway (R-Midland), Chairman of the House Agriculture Committee, released a report summarizing two years of Congressional inquiry into SNAP, the federal entitlement program that is the backbone of our nation’s defense against hunger.
+Today Congressman Mike Conaway (R-Midland), Chairman of the House Agriculture Committee, released [a report](http://agriculture.house.gov/uploadedfiles/snap_report_2016.pdf) summarizing two years of Congressional inquiry into SNAP, the federal entitlement program that is the backbone of our nation’s defense against hunger.
 
 Our food banks and program partners were pleased to offer our expertise to the Congressman and his staff across these sixteen separate hearings. We were also heartened by the bipartisan interest in protecting and strengthening a program that gives hope and opportunity to four million Texans facing food insecurity and economic uncertainty.
 
