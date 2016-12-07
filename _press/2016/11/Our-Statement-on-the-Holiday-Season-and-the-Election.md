@@ -6,7 +6,7 @@ pullquote: |
 attribution: Celia Cole
 date: 2016-11-21
 categories:
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 11/21/16   
 **Contact:** Jack Waite, 512-658-5223 or jwaite@feedingtexas.org
