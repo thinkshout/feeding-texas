@@ -11,7 +11,7 @@ featured: true
 **For Immediate Release:** 12/7/16   
 **Contact:** Jack Waite, 512-658-5223 or jwaite@feedingtexas.org
 
-**Statement Attributable to Celia Cole, CEO of Feeding Texas**
+**Statement Attributable to Celia Cole, CEO of Feeding Texas:**
 
 Today Congressman Mike Conaway (R-Midland), Chairman of the House Agriculture Committee, released [a report](http://agriculture.house.gov/uploadedfiles/snap_report_2016.pdf) summarizing two years of Congressional inquiry into SNAP, the federal entitlement program that is the backbone of our nation’s defense against hunger.
 
