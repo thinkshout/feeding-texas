@@ -1,6 +1,6 @@
 ---
 layout: staff
-id: 
+id: 20
 name: Jack Waite
 email: jwaite@feedingtexas.org
 position: Public Policy Manager
