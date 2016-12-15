@@ -13,24 +13,24 @@ sort_order: 4
 
 The Feeding Texas board consists of Executive Directors from the state's twenty-one regional food banks:
 
-* Dennis Cullinane (President) - *East Texas Food Bank, Tyler*   
-* David Weaver (Past President) - *South Plains Food Bank, Lubbock*   
-* Hank Perret (Treasurer) - *Central Texas Food Bank, Austin*  
-* Betsi Lujan (Secretary) - *Wichita Falls Area Food Bank, Wichita Falls*
-* Eric Cooper - *San Antonio Food Bank, San Antonio*
+* Zack Wilson (Chair)- *High Plains Food Bank, Amarillo*
+* Dennis Cullinane (Vice-Chair) - *East Texas Food Bank, Tyler*   
+* Dan Maher (Treasurer) - *Southeast Texas Food Bank, Beaumont*   
+* Theresa Mangapora (Secretary) - *Brazos Valley Food Bank, Bryan*   
+* Alma Boubel - *South Texas Food Bank, Laredo*   
 * Robin Cadle - *Food Bank of the Golden Crescent, Victoria*   
 * Libby Campbell - *West Texas Food Bank, Odessa*   
-* Alma Boubel - *South Texas Food Bank, Laredo*   
-* Rodney Dickerson - *Montgomery County Food Bank, Conroe*   
+* Derrick Chubbs - *Central Texas Food Bank, Austin*  
+* Eric Cooper - *San Antonio Food Bank, San Antonio*
 * Terri Drefke - *Food Bank of the Rio Grande Valley, Pharr*   
 * Greg Duke - *Concho Valley Regional Food Bank, San Angelo*   
+* Jeff Gordon (Interim) - *Galveston County Food Bank, Texas City*   
 * Brian Greene - *Houston Food Bank, Houston*   
 * Bea Hanson - *Food Bank of Corpus Christi, Corpus Christi*   
 * Jody Houston - *Food Bank of West Central Texas, Abilene*   
-* Twila Lindblade - *Galveston County Food Bank, Texas City*   
-* Dan Maher - *Southeast Texas Food Bank, Beaumont*   
-* Theresa Mangapora - *Brazos Valley Food Bank, Bryan*   
-* Jan Pruitt - *North Texas Food Bank, Dallas*   
+* Betsi Lujan - *Wichita Falls Area Food Bank, Wichita Falls*
 * Victor Nevarez - *El Pasoans Fighting Hunger, El Paso*   
+* Simon Powell (Interim) - *North Texas Food Bank, Dallas*   
 * Bo Soderbergh - *Tarrant Area Food Bank, Fort Worth*   
-* Zack Wilson - *High Plains Food Bank, Amarillo*
+* Darlene Underwood - *Montgomery County Food Bank, Conroe*   
+* David Weaver - *South Plains Food Bank, Lubbock*  
