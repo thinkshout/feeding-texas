@@ -4,7 +4,7 @@ title: A White House Report Everyone Should Read
 summary: A new report references over 100 pieces of peer-reviewed research and government analysis pointing to a single conclusion - SNAP works.
 images:
 date: 2015-12-11
-author: 05
+author: 07
 tags: 
   - Food Insecurity
   - SNAP
