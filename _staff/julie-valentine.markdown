@@ -1,4 +1,4 @@
-  ---
+---
 layout: staff
 id: 
 name: Julie Valentine
