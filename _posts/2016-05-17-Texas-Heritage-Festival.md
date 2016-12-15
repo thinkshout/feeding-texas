@@ -5,7 +5,7 @@ summary: Join us at the Lone Star Beer Texas Heritage Festival, with all proceed
 images:
   hero: 
 date: 2016-05-17
-author: 07
+guest_author: 4
 tags: 
   - Events
 featured: false
