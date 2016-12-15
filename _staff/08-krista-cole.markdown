@@ -1,6 +1,6 @@
 ---
 layout: staff
-id: 
+id: 08
 name: Krista Cole
 email: kcole@feedingtexas.org
 position: Supply Chain Manager
