@@ -5,7 +5,7 @@ summary: Meet Bre Anna, a Texas navy veteran piecing together a hunger-free futu
 images:
   hero: 
 date: 2016-06-30
-author: 15
+guest_author: 5
 tags: 
   - Veterans
 featured: false
