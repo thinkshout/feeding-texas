@@ -1,8 +1,8 @@
 ---
 layout: product
 type: Report
-title: Videos - How We Can Beat Hunger
-summary: Watch how we are creating a healthier, hunger-free Texas.
+title: How We Can Beat Hunger & Improve Health
+summary: Watch these videos to learn how we are creating a healthier, hunger-free Texas.
 date: 2017-01-06
 categories:
 featured: true
