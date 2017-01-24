@@ -1,10 +1,13 @@
 ---
 layout: product
 type: Report
-title: About Us - Video
-summary: Learn how Feeding Texas is creating a hunger-free Texas.
+title: Videos - How We Can Beat Hunger
+summary: Watch how we are creating a healthier, hunger-free Texas.
 date: 2017-01-06
 categories:
-featured: false
+featured: true
+permalink: /video/
 ---
-{% embed channel: youtube | id: sGP17n0ajvo %}
+{% embed channel: youtube | id: k9K2_WFVBb0 %}
+
+{% embed channel: youtube | id: s5YLWCIs_uA %}
