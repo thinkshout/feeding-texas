@@ -14,7 +14,7 @@ categories:
  - Feeding with Impact
  - Produce
  - Health
-featured: true
+featured: false
 ---
 Feeding with Impact is a statewide, public-private partnership to curb the costs of obesity and improve dietary health by pairing the distribution of free produce with evidence-based health interventions in low-income Texas communities.  
 
