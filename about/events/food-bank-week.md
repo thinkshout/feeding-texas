@@ -4,12 +4,14 @@ title: Food Bank Week at the Capitol
 subhead: February 6 – 10, 2017 - Austin, Texas
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: |
-  Follow us during a week highlighting the many ways food banks are creating a hunger-free Texas. 
+  Follow us during a week highlighting how food banks are creating a hunger-free Texas. 
 calls_to_action:
   - 1
   - 2
 permalink: /food-bank-week
 ---
+*Follow us on [http:///www.facebook.com/feedingtexas](Facebook) and [http://www.twitter.com/feedingtexas](Twitter) during a week highlighting how food banks are creating a hunger-free Texas!* 
+
 ** *Schedule of Events* **
 
 **Monday, Feb.6**
@@ -36,4 +38,4 @@ All day: Food bank client StoryBanking exhibit debuts in lower Capitol Rotunda.
 
 **Friday, Feb. 10**
 
-**7 am: Release of online, interactive maps of hunger in every Texas neighborhood.
+7 am: Release of online, interactive maps of hunger in every Texas neighborhood.
