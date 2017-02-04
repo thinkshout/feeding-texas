@@ -27,6 +27,7 @@ Follow us at the Capitol, on [Facebook](http://www.facebook.com/feedingtexas) an
 * 7 am -3 pm: Mobile Mercado exhibition (12th & Colorado St.). Free taco with StoryBanking exhibit card!   
 * 8 - 9 am: “Feeding with Impact” Capitol staff briefing (Capitol Grill banquet room).   
 * Feeding Texas & supporters testify before Senate Finance committee.   
+* Resolutions honoring food banks read in the House and Senate.
 * Release of “Feeding with Impact” economic analysis by Dr. Ray Perryman.     
 
 **Friday, Feb. 10**   
