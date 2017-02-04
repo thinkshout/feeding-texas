@@ -10,7 +10,7 @@ calls_to_action:
   - 2
 permalink: /food-bank-week
 ---
-*Follow us on [http:///www.facebook.com/feedingtexas](Facebook) and [http://www.twitter.com/feedingtexas](Twitter) during a week highlighting how food banks are creating a hunger-free Texas!* 
+*Follow us on (http:///www.facebook.com/feedingtexas)[Facebook] and (http://www.twitter.com/feedingtexas)[Twitter] during a week highlighting how food banks are creating a hunger-free Texas!* 
 
 ** *Schedule of Events* **
 
