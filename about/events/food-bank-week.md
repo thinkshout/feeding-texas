@@ -20,7 +20,7 @@ Follow us on [Facebook](http://www.facebook.com/feedingtexas) and [Twitter](http
 **Tuesday, Feb. 7**
 * 7 am: Food banks highlight nutrition education with release of the “Recipes in a SNAP” cookbook. 
 
-**Wednesday, Feb. 8 through Friday, Feb. 10**
+**Wednesday, Feb. 8 - Friday, Feb. 10**
 * All day: Food bank client StoryBanking exhibit debuts in lower Capitol Rotunda.
 
 **Thursday, Feb. 9**
