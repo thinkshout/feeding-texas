@@ -14,17 +14,17 @@ Follow us at the Capitol, on [Facebook](http://www.facebook.com/feedingtexas) an
 
 ***Schedule of Events***
 
-**Tuesday, Feb. 7**
+**Tuesday, Feb. 7**   
 * Food banks highlight nutrition education with release of the “Recipes in a SNAP” cookbook. 
 
-**Wednesday, Feb. 8 - Friday, Feb. 10**
+**Wednesday, Feb. 8 - Friday, Feb. 10**   
 * Food bank client StoryBanking exhibit debuts in lower Capitol Rotunda.
 
-**Thursday, Feb. 9**
+**Thursday, Feb. 9**   
 * 7 am -3 pm: Mobile Mercado exhibition (12th & Colorado St.). Free taco with StoryBanking exhibit card!   
 * 8 - 9 am: “Feeding with Impact” Capitol staff briefing (Capitol Grill banquet room).   
 * Feeding Texas & supporters testify before Senate Finance committee.   
 * Release of “Feeding with Impact” economic analysis by Dr. Ray Perryman.     
 
-**Friday, Feb. 10**
+**Friday, Feb. 10**   
 * Release of online, interactive maps of hunger in every Texas neighborhood.
