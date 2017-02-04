@@ -14,9 +14,6 @@ Follow us on [Facebook](http://www.facebook.com/feedingtexas) and [Twitter](http
 
 ***Schedule of Events***
 
-**Monday, Feb.6**
-* Release of the week’s events.
-
 **Tuesday, Feb. 7**
 * Food banks highlight nutrition education with release of the “Recipes in a SNAP” cookbook. 
 
