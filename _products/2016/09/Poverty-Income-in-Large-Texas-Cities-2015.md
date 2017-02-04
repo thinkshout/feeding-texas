@@ -10,6 +10,6 @@ download:
 date: 2016-09-15
 categories:
  - Poverty
-featured: true
+featured: false
 ---
 Click above to see our analysis of new Census data showing poverty, child poverty and median income in Texas cities and counties with a population greater than 65,000. 
