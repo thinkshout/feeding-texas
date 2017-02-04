@@ -12,30 +12,22 @@ permalink: /food-bank-week
 ---
 Follow us on [Facebook](http://www.facebook.com/feedingtexas) and [Twitter](http://www.twitter.com/feedingtexas) during a week highlighting how food banks are creating a hunger-free Texas! 
 
-*Schedule of Events*
+***Schedule of Events***
 
 **Monday, Feb.6**
-
-7 am: Release of the week’s events.
+* 7 am: Release of the week’s events.
 
 **Tuesday, Feb. 7**
-
-7 am: Food banks highlight nutrition education with release of the “Recipes in a SNAP” cookbook. 
+* 7 am: Food banks highlight nutrition education with release of the “Recipes in a SNAP” cookbook. 
 
 **Wednesday, Feb. 8 through Friday, Feb. 10**
-
-All day: Food bank client StoryBanking exhibit debuts in lower Capitol Rotunda.
+* All day: Food bank client StoryBanking exhibit debuts in lower Capitol Rotunda.
 
 **Thursday, Feb. 9**
-
-7 am: Release of “Feeding with Impact” economic analysis by Dr. Ray Perryman. 
-
-7 am -3 pm: Mobile Mercado exhibition (12th & Colorado St.). Free taco with StoryBanking exhibit card!
-
-8 - 9 am: “Feeding with Impact” Capitol staff briefing (Capitol Grill banquet room).
-
-10 am -2 pm: Feeding Texas & supporters testify before Senate Finance committee.
+* 7 am: Release of “Feeding with Impact” economic analysis by Dr. Ray Perryman.    
+* 7 am -3 pm: Mobile Mercado exhibition (12th & Colorado St.). Free taco with StoryBanking exhibit card!   
+* 8 - 9 am: “Feeding with Impact” Capitol staff briefing (Capitol Grill banquet room).   
+* 10 am -2 pm: Feeding Texas & supporters testify before Senate Finance committee.   
 
 **Friday, Feb. 10**
-
-7 am: Release of online, interactive maps of hunger in every Texas neighborhood.
+* 7 am: Release of online, interactive maps of hunger in every Texas neighborhood.
