@@ -7,7 +7,7 @@ date: 2016-07-08
 guest_author: 3
 tags: 
   - Volunteer
-featured: true
+featured: false
 ---
 Last week, the Feeding Texas spent a day volunteering at the brand new Central Texas Food Bank in Austin. We sorted through pallets, packaged, boxed and stored recovered food items. All of our hard work helped provide 7,125 meals for hungry families here in Central Texas!
 
