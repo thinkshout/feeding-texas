@@ -5,7 +5,7 @@ summary: A new cookbook builds on our committment to giving struggling Texans to
 images:
   hero:
   thumb:
-date: 2017-02-07
+date: 2017-02-06
 author: 10
 tags: Nutrition
       SNAP  
