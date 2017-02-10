@@ -12,7 +12,7 @@ categories:
  - SNAP
  - Nutrition
  - Advocacy
-featured: true
+featured: false
 ---
 SNAP benefits are based on the "thrifty food plan," the lowest possible allotment. Learn how the weaknesses of this approach make it harder for hungry families to eat healthy. Click to download and share the infographic above! 
 
