@@ -8,6 +8,6 @@ media:
 date: 2017-02-04
 categories:
   - Food Insecurity
-featured: false
+featured: true
 ---
 Click and scroll above to explore the estimated food insecurity rates for your city or region, or download maps of individual political districts [here](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/docs/Feeding-Texas-District-Hunger-Maps.zip). 
