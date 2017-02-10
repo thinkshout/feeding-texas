@@ -8,6 +8,6 @@ summary: An economic analysis of the statewide benefits of our Feeding with Impa
   file: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Perryman-Analysis-Feeding-With-Impact.pdf
 date: 2017-02-04
 categories:
-featured: false
+featured: true
 ---
 Click above to read a report by recognized economist Dr. Ray Perryman analyzing the economic impact of investment in our Feeding with Impact program strategy. [Click here](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Perryman-Analysis-Executive-Summary.pdf) for a summary of the report.
