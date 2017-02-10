@@ -10,6 +10,6 @@ download:
 date: 2017-02-04
 categories:
  - Health
-featured: true
+featured: false
 ---
 Click above to our graphic factsheet detailing how we combine surplus produce with targeted health interventions to create positive health outcomes for struggling Texans.
