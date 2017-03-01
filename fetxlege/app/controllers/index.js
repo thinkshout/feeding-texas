@@ -49,9 +49,7 @@ export default Ember.Controller.extend({
   },
 
   fetchReps: function(params, locationMethod) {
-    console.log(params);
     var geocodeURL = 'https://maps.googleapis.com/maps/api/geocode/json?address='+ params["address"] + ',+' + params["city"] + ',+TX' + params["zipcode"] +'&key=AIzaSyBXybAQeTTtPE9fZ6OEaUxIkJMLmXdayBQ';
-    console.log(geocodeURL);
 
     var coordinates = [];
     $.ajax({
@@ -60,7 +58,6 @@ export default Ember.Controller.extend({
       dataType: 'json',
       success: function (data) {
         coordinates = data.results[0].geometry.location;
-        console.log(coordinates);
       }
     });
 
@@ -107,6 +104,7 @@ export default Ember.Controller.extend({
                 image:        rep.photo_url || ''
               }
             } else {
+              console.log('rep');
               var contactURL = "";
               if (rep.district) {
                 if (rep.chamber == 'upper') {
@@ -255,7 +253,6 @@ export default Ember.Controller.extend({
         var points = pos.coords;
         var geocodeURL = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+points.latitude+','+points.longitude+'&key=AIzaSyBXybAQeTTtPE9fZ6OEaUxIkJMLmXdayBQ';
         // var geocodeURL = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=30.2849185,-97.7340567&key=AIzaSyBXybAQeTTtPE9fZ6OEaUxIkJMLmXdayBQ';
-        console.log(pos);
         $.getJSON(geocodeURL, function(data) {
           var location = data.results[0].formatted_address.split(',');
           var params = {};

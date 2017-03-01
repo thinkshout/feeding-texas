@@ -7,16 +7,16 @@ title: Advocate
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Advocate</title>
+    <title>Fetxlege</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <base href="/get-involved/advocate/" />
-<meta name="fetxlege/config/environment" content="%7B%22modulePrefix%22%3A%22fetxlege%22%2C%22environment%22%3A%22production%22%2C%22baseURL%22%3A%22/get-involved/advocate%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22fetxlege%22%2C%22version%22%3A%220.0.0+1babf45e%22%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+<meta name="fetxlege/config/environment" content="%7B%22modulePrefix%22%3A%22fetxlege%22%2C%22environment%22%3A%22development%22%2C%22baseURL%22%3A%22/fetxlege/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22fetxlege%22%2C%22version%22%3A%220.0.0+b2cea52a%22%7D%2C%22contentSecurityPolicy%22%3A%7B%22style-src%22%3A%22%27self%27%20%27unsafe-inline%27%20fonts.googleapis.com%22%2C%22connect-src%22%3A%22%27self%27%20maps.googleapis.com%20openstates.org%20sunglightfoundation.com%22%2C%22script-src%22%3A%22%27self%27%20cdnjs.org%22%2C%22font-src%22%3A%22%27self%27%20data%3A%20fonts.gstatic.com%22%2C%22img-src%22%3A%22%27self%27%20feedingtexas.org%22%7D%2C%22exportApplicationGlobal%22%3Atrue%7D" />
 
-    <link rel="stylesheet" href="assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css">
-    <link rel="stylesheet" href="assets/fetxlege-d41d8cd98f00b204e9800998ecf8427e.css">
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/fetxlege.css">
     <link rel="stylesheet" href="//www.feedingtexas.org/assets/stylesheets/main.css">
 
     
@@ -29,41 +29,40 @@ title: Advocate
       // SET THE CHAMBER WHERE YOU WANT TO RETREIVE DATA
       // chamberFlag = 'federal house';
       // chamberFlag = 'federal senate';
-      // chamberFlag = 'state house';
-      chamberFlag = 'state senate';
-      
+      // chamberFlag = 'state senate';
+      chamberFlag = 'state house';
+
       // SET THE BILL NUMBER FOR CALLING OR EMAILING
-      billNumber = '';
+      billNumber = 'HB 1485';
 
       // Header text
       pageTitleText = 'Advocate';
       subtitleText = 'Raise your voice to create a hunger free Texas';
 
       // SET THE INTRO TEXT
-      introTextHeading    = 'Healthy Food for Hungry Texans';
-      introTextSummary    = 'The Texas Legislature can increase funding for food banks to give surplus produce to struggling Texas families. Contact your state senator below to express your support!';
-      introTextSubHeading = ' ';
+      introTextHeading    = 'Healthy Produce for Hungry Texans';
+      introTextSummary    = 'Our foodbanks want every Texan to reach their full potential for a healthy, productive life. We are making this a reality by providing families with their a proven combination of nutrition education and fresh produce. We call this Feeding with Impact.';
+      introTextSubHeading = 'Tell the Texas legislature to fund more fresh produce at food banks!';
 
       // Phone text
       phoneText = 
-        '<li>Give your name to whomever answers, and tell them that you are constituent.</li>' +
-        '<li>Urge the Senator to support increased funding for food banks in the next state budget (the "Texans Feeding Texans" grant).</li>' +
-        '<li>If you have a personal story about hunger or the difficulty of eating healthy, share it!</li>' +
-        '<li>Thank them for their assistance.</li>'
+        '<li>Give your name and and say that you are constituent.</li>' +
+        '<li>Urge the member to oppose HB 1485 when it receives a floor vote this week</li>' +
+        '<li>If you have a personal story about hunger or SNAP please share it.</li>' +
+        '<li>Thank them for their assistance</li>'
       ;
 
-      // Email text
       emailText = 
-        '<li>Provide your name, and and say that you are constituent.</li>' +
-        '<li>Urge the Senator to support increased funding for food banks in the next state budget (the "Texans Feeding Texans" grant).</li>' +
-        '<li>If you have a personal story about hunger or the difficulty of eating healthy, share it!</li>' +
-        '<li>Thank them for their assistance.</li>'
+       '<li>Give your name and and say that you are constituent.</li>' +
+       '<li>Urge the member to oppose' + billNumber + 'when it receives a floor vote this week</li>' +
+       '<li>If you have a personal story about hunger or SNAP please share it.</li>' +
+       '<li>Thank them for their assistance</li>'
       ;
      
     </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>
-    <script src="assets/vendor-3503db7ae44c4bb9e9867aa099fe451f.js"></script>
-    <script src="assets/fetxlege-cb35a105b3e98457c000b9e52806febb.js"></script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/fetxlege.js"></script>
 
     
   </body>
