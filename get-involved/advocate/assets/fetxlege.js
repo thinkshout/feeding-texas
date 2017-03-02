@@ -171,7 +171,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
                   }
                 }
 
-                var emailExtension = chamberFlag == 'state house' ? '@senate.texas.gov' : '@house.texas.gov';
+                var emailExtension = chamberFlag == 'state house' ? '@house.texas.gov' : '@senate.texas.gov';
                 reps = {
                   title: chamberFlag == 'state house' ? rep.title = 'Representative' : 'Senator',
                   chamber: rep.chamber == 'lower' || rep.chamber == 'house' ? 'house' : 'senate',
@@ -2213,7 +2213,7 @@ catch(err) {
 if (runningTests) {
   require("fetxlege/tests/test-helper");
 } else {
-  require("fetxlege/app")["default"].create({"name":"fetxlege","version":"0.0.0+f72797d6"});
+  require("fetxlege/app")["default"].create({"name":"fetxlege","version":"0.0.0+6f578b80"});
 }
 
 /* jshint ignore:end */
