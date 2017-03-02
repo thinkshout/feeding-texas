@@ -120,7 +120,7 @@ export default Ember.Controller.extend({
                 chamber:      rep.chamber == 'lower' || rep.chamber == 'house' ? 'house' : 'senate',
                 name:         rep.full_name,
                 phone:        rep.offices[0].phone || '',
-                email:        chamberFlag == 'state senate' ? rep.first_name + '.' + rep.last_name + emailExtension + '@senate.texas.gov' : rep.offices[0].email,
+                email:        chamberFlag == 'state senate' ? rep.first_name + '.' + rep.last_name + '@senate.texas.gov' : rep.offices[0].email,
                 contact_form: chamberFlag == 'state house' ? contactURL : '',
                 image:        rep.photo_url || ''
               }
