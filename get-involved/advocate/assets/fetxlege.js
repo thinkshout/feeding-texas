@@ -160,8 +160,9 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
                   image: rep.photo_url || ''
                 };
               } else {
-                console.log('rep');
+
                 var contactURL = "";
+
                 if (rep.district) {
                   if (rep.chamber == 'upper') {
                     contactURL = 'http://www.senate.state.tx.us/75r/senate/members/dist' + rep.district + '/dist' + rep.district + '.htm#form';
@@ -179,6 +180,7 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
                   contact_form: contactURL,
                   image: rep.photo_url || ''
                 };
+                console.log(reps);
               }
 
               var snips = {
@@ -288,8 +290,8 @@ define('fetxlege/controllers/index', ['exports', 'ember'], function (exports, Em
 
         function success(pos) {
           var points = pos.coords;
-          var geocodeURL = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + points.latitude + ',' + points.longitude + '&key=AIzaSyBXybAQeTTtPE9fZ6OEaUxIkJMLmXdayBQ';
-          // var geocodeURL = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=30.2849185,-97.7340567&key=AIzaSyBXybAQeTTtPE9fZ6OEaUxIkJMLmXdayBQ';
+          // var geocodeURL = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+points.latitude+','+points.longitude+'&key=AIzaSyBXybAQeTTtPE9fZ6OEaUxIkJMLmXdayBQ';
+          var geocodeURL = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=30.2849185,-97.7340567&key=AIzaSyBXybAQeTTtPE9fZ6OEaUxIkJMLmXdayBQ';
           $.getJSON(geocodeURL, function (data) {
             var location = data.results[0].formatted_address.split(',');
             var params = {};
@@ -1860,7 +1862,7 @@ define('fetxlege/tests/controllers/index.jshint', function () {
   QUnit.module('JSHint - controllers/index.js');
   QUnit.test('should pass jshint', function(assert) {
     assert.expect(1);
-    assert.ok(false, 'controllers/index.js should pass jshint.\ncontrollers/index.js: line 92, col 43, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 96, col 31, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 96, col 66, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 98, col 45, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 99, col 45, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 99, col 71, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 105, col 16, Missing semicolon.\ncontrollers/index.js: line 110, col 35, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 118, col 45, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 119, col 45, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 119, col 71, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 125, col 16, Missing semicolon.\ncontrollers/index.js: line 202, col 30, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 7, col 19, \'$\' is not defined.\ncontrollers/index.js: line 8, col 16, \'$\' is not defined.\ncontrollers/index.js: line 9, col 19, \'$\' is not defined.\ncontrollers/index.js: line 55, col 5, \'$\' is not defined.\ncontrollers/index.js: line 87, col 5, \'$\' is not defined.\ncontrollers/index.js: line 89, col 9, \'$\' is not defined.\ncontrollers/index.js: line 90, col 9, \'$\' is not defined.\ncontrollers/index.js: line 177, col 15, \'$\' is not defined.\ncontrollers/index.js: line 191, col 9, \'$\' is not defined.\ncontrollers/index.js: line 192, col 11, \'$\' is not defined.\ncontrollers/index.js: line 193, col 11, \'$\' is not defined.\ncontrollers/index.js: line 196, col 9, \'$\' is not defined.\ncontrollers/index.js: line 197, col 11, \'$\' is not defined.\ncontrollers/index.js: line 198, col 11, \'$\' is not defined.\ncontrollers/index.js: line 203, col 11, \'$\' is not defined.\ncontrollers/index.js: line 204, col 11, \'$\' is not defined.\ncontrollers/index.js: line 206, col 11, \'$\' is not defined.\ncontrollers/index.js: line 207, col 11, \'$\' is not defined.\ncontrollers/index.js: line 215, col 7, \'$\' is not defined.\ncontrollers/index.js: line 218, col 9, \'$\' is not defined.\ncontrollers/index.js: line 230, col 7, \'$\' is not defined.\ncontrollers/index.js: line 231, col 7, \'$\' is not defined.\ncontrollers/index.js: line 232, col 7, \'$\' is not defined.\ncontrollers/index.js: line 233, col 7, \'$\' is not defined.\ncontrollers/index.js: line 234, col 7, \'$\' is not defined.\ncontrollers/index.js: line 236, col 7, \'$\' is not defined.\ncontrollers/index.js: line 237, col 7, \'$\' is not defined.\ncontrollers/index.js: line 242, col 7, \'$\' is not defined.\ncontrollers/index.js: line 243, col 7, \'$\' is not defined.\ncontrollers/index.js: line 244, col 7, \'$\' is not defined.\ncontrollers/index.js: line 256, col 9, \'$\' is not defined.\ncontrollers/index.js: line 65, col 13, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 96, col 17, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 96, col 52, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 98, col 31, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 118, col 31, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 176, col 17, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 176, col 17, Too many errors. (64% scanned).\n\n51 errors');
+    assert.ok(false, 'controllers/index.js should pass jshint.\ncontrollers/index.js: line 92, col 43, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 96, col 31, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 96, col 66, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 98, col 45, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 99, col 45, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 99, col 71, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 105, col 16, Missing semicolon.\ncontrollers/index.js: line 111, col 35, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 119, col 45, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 120, col 45, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 120, col 71, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 126, col 16, Missing semicolon.\ncontrollers/index.js: line 204, col 30, Expected \'===\' and instead saw \'==\'.\ncontrollers/index.js: line 255, col 13, \'points\' is defined but never used.\ncontrollers/index.js: line 7, col 19, \'$\' is not defined.\ncontrollers/index.js: line 8, col 16, \'$\' is not defined.\ncontrollers/index.js: line 9, col 19, \'$\' is not defined.\ncontrollers/index.js: line 55, col 5, \'$\' is not defined.\ncontrollers/index.js: line 87, col 5, \'$\' is not defined.\ncontrollers/index.js: line 89, col 9, \'$\' is not defined.\ncontrollers/index.js: line 90, col 9, \'$\' is not defined.\ncontrollers/index.js: line 179, col 15, \'$\' is not defined.\ncontrollers/index.js: line 193, col 9, \'$\' is not defined.\ncontrollers/index.js: line 194, col 11, \'$\' is not defined.\ncontrollers/index.js: line 195, col 11, \'$\' is not defined.\ncontrollers/index.js: line 198, col 9, \'$\' is not defined.\ncontrollers/index.js: line 199, col 11, \'$\' is not defined.\ncontrollers/index.js: line 200, col 11, \'$\' is not defined.\ncontrollers/index.js: line 205, col 11, \'$\' is not defined.\ncontrollers/index.js: line 206, col 11, \'$\' is not defined.\ncontrollers/index.js: line 208, col 11, \'$\' is not defined.\ncontrollers/index.js: line 209, col 11, \'$\' is not defined.\ncontrollers/index.js: line 217, col 7, \'$\' is not defined.\ncontrollers/index.js: line 220, col 9, \'$\' is not defined.\ncontrollers/index.js: line 232, col 7, \'$\' is not defined.\ncontrollers/index.js: line 233, col 7, \'$\' is not defined.\ncontrollers/index.js: line 234, col 7, \'$\' is not defined.\ncontrollers/index.js: line 235, col 7, \'$\' is not defined.\ncontrollers/index.js: line 236, col 7, \'$\' is not defined.\ncontrollers/index.js: line 238, col 7, \'$\' is not defined.\ncontrollers/index.js: line 239, col 7, \'$\' is not defined.\ncontrollers/index.js: line 244, col 7, \'$\' is not defined.\ncontrollers/index.js: line 245, col 7, \'$\' is not defined.\ncontrollers/index.js: line 246, col 7, \'$\' is not defined.\ncontrollers/index.js: line 258, col 9, \'$\' is not defined.\ncontrollers/index.js: line 65, col 13, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 96, col 17, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 96, col 52, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 98, col 31, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 119, col 31, \'chamberFlag\' is not defined.\ncontrollers/index.js: line 119, col 31, Too many errors. (42% scanned).\n\n51 errors');
   });
 
 });
@@ -2211,7 +2213,7 @@ catch(err) {
 if (runningTests) {
   require("fetxlege/tests/test-helper");
 } else {
-  require("fetxlege/app")["default"].create({"name":"fetxlege","version":"0.0.0+b2cea52a"});
+  require("fetxlege/app")["default"].create({"name":"fetxlege","version":"0.0.0+82a0ddad"});
 }
 
 /* jshint ignore:end */
