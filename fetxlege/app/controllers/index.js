@@ -115,13 +115,12 @@ export default Ember.Controller.extend({
                 }
               }
 
-              var emailExtension = (chamberFlag == 'state house') ? '@house.texas.gov' : '@senate.texas.gov'; 
               reps = {
                 title:        chamberFlag == 'state house' ? rep.title = 'Representative' : 'Senator',
                 chamber:      rep.chamber == 'lower' || rep.chamber == 'house' ? 'house' : 'senate',
                 name:         rep.full_name,
                 phone:        rep.offices[0].phone || '',
-                email:        rep.first_name + '.' + rep.last_name + emailExtension,
+                email:        chamberFlag == 'state senate' ? rep.first_name + '.' + rep.last_name + emailExtension + '@senate.texas.gov' : rep.offices[0].email,
                 contact_form: chamberFlag == 'state house' ? contactURL : '',
                 image:        rep.photo_url || ''
               }
