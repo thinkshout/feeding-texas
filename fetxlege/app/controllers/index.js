@@ -115,7 +115,7 @@ export default Ember.Controller.extend({
                 }
               }
 
-              var emailExtension = chamberFlag == 'state house' ? '@house.texas.gov' : '@senate.texas.gov'; 
+              var emailExtension = (chamberFlag == 'state house') ? '@house.texas.gov' : '@senate.texas.gov'; 
               reps = {
                 title:        chamberFlag == 'state house' ? rep.title = 'Representative' : 'Senator',
                 chamber:      rep.chamber == 'lower' || rep.chamber == 'house' ? 'house' : 'senate',
