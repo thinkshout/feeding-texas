@@ -2,7 +2,7 @@
 layout: press
 title: Rep. Giddings, Food Banks Seek to End School Lunch Shaming
 pullquote: | 
-  If a family loses the ability to pay for school lunch their child should receive care and concern, not a cheese sandwich.
+  Children should never be shamed when their family falls on hard times.
 attribution: Celia Cole
 date: 2017-04-13
 categories:
