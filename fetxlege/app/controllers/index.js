@@ -104,8 +104,9 @@ export default Ember.Controller.extend({
                 image:        rep.photo_url || ''
               }
             } else {
-              console.log('rep');
+
               var contactURL = "";
+
               if (rep.district) {
                 if (rep.chamber == 'upper') {
                   contactURL = 'http://www.senate.state.tx.us/75r/senate/members/dist'+ rep.district +'/dist' + rep.district + '.htm#form';
@@ -119,8 +120,8 @@ export default Ember.Controller.extend({
                 chamber:      rep.chamber == 'lower' || rep.chamber == 'house' ? 'house' : 'senate',
                 name:         rep.full_name,
                 phone:        rep.offices[0].phone || '',
-                email:        rep.offices[0].email || '',
-                contact_form: contactURL,
+                email:        chamberFlag == 'state senate' ? rep.first_name + '.' + rep.last_name + '@senate.texas.gov' : rep.offices[0].email,
+                contact_form: chamberFlag == 'state house' ? contactURL : '',
                 image:        rep.photo_url || ''
               }
             }
