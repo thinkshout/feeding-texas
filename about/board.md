@@ -24,11 +24,11 @@ The Feeding Texas board consists of Executive Directors from the state's twenty-
 * Eric Cooper - *San Antonio Food Bank, San Antonio*
 * Terri Drefke - *Food Bank of the Rio Grande Valley, Pharr*   
 * Greg Duke - *Concho Valley Regional Food Bank, San Angelo*   
-* Jeff Gordon (Interim) - *Galveston County Food Bank, Texas City*   
+* Richard Nye - *Galveston County Food Bank, Texas City*   
 * Brian Greene - *Houston Food Bank, Houston*   
 * Bea Hanson - *Food Bank of Corpus Christi, Corpus Christi*   
 * Jody Houston - *Food Bank of West Central Texas, Abilene*   
-* Betsi Lujan - *Wichita Falls Area Food Bank, Wichita Falls*
+* Kara Nickens - *Wichita Falls Area Food Bank, Wichita Falls*
 * Victor Nevarez - *El Pasoans Fighting Hunger, El Paso*   
 * Simon Powell (Interim) - *North Texas Food Bank, Dallas*   
 * Bo Soderbergh - *Tarrant Area Food Bank, Fort Worth*   
