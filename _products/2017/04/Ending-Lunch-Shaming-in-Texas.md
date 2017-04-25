@@ -1,10 +1,10 @@
 ---
 layout: product
 type: issue backgrounder
-title: Ending School Lunch Shaming in Texas
-subhead: What should happen when a child can't afford lunch?
+title: Ending Lunch Shaming in Texas
+subhead: What should happen when a child can't afford school lunch?
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
-summary: What should happen when a child can't afford lunch? 
+summary: What should happen when a child can't afford school lunch? 
 download:
   title: PDF
   file: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Feeding-Texas--End-Lunch-Shaming.pdf
