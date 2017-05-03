@@ -6,7 +6,7 @@ pullquote: |
 attribution: Celia Cole
 date: 2017-04-13
 categories:
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 4/13/17   
 **Contact:** Celia Cole, 512-590-0659 or ccole@feedingtexas.org
