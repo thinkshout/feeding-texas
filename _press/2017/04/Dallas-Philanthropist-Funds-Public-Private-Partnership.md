@@ -6,7 +6,7 @@ pullquote: |
 attribution: Lyda Hill
 date: 2017-05-03
 categories:
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 5/3/17   
 **Contact:** Celia Cole, 512-590-0659 or ccole@feedingtexas.org
