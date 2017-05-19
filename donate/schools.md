@@ -14,5 +14,3 @@ Help us end school lunch shaming in Texas!
 Funds will be disbursed at the end of the school year to schools who have incurred significant debts while preserving the privacy and dignity of students in need.   
 
 [Click here to donate!](https://donatenow.networkforgood.org/school-lunch)
-
-*([Learn more about school 'lunch shaming'](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Feeding-Texas--End-Lunch-Shaming.pdf)*)
