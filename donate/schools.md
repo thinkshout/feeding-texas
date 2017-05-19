@@ -15,4 +15,4 @@ Funds will be disbursed at the end of the school year to schools who have incurr
 
 [Click here to donate!](https://donatenow.networkforgood.org/school-lunch)
 
-*([Learn more about school 'lunch shaming'](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Feeding-Texas--End-Lunch-Shaming.pdf)*
+*([Learn more about school 'lunch shaming'](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/Feeding-Texas--End-Lunch-Shaming.pdf)*)
