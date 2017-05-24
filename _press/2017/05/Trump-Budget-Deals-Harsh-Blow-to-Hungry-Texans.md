@@ -24,6 +24,7 @@ While this massive transfer of responsibility was described in just three lines 
 In addition to this massive change, the Trump Administration proposed eliminating a popular option in SNAP known as ‘categorical eligibility,’ which states have used to streamline program administration. Eliminating this option would cut off thousands of working Texans who rely on this nutrition assistance to bridge the gap between their earnings and expenses. 
 
 Among other changes, the administration also proposed:   
+
 - Eliminating the minimum SNAP benefit of sixteen dollars per month, resulting in a $16 Million decrease in the benefits of 121,000 Texans, most of whom are seniors;
 - Forcing food retailers to pay to participate in SNAP, which could exacerbate the state’s ‘food desert’ problems; and  
 - Reducing federal funding for food banks by 9 percent.
