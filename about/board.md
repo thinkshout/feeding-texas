@@ -31,6 +31,5 @@ The Feeding Texas board consists of Executive Directors from the state's twenty-
 * Kara Nickens - *Wichita Falls Area Food Bank, Wichita Falls*
 * Victor Nevarez - *El Pasoans Fighting Hunger, El Paso*   
 * Simon Powell (Interim) - *North Texas Food Bank, Dallas*   
-* Bo Soderbergh - *Tarrant Area Food Bank, Fort Worth*   
-* Darlene Underwood - *Montgomery County Food Bank, Conroe*   
+* Bo Soderbergh - *Tarrant Area Food Bank, Fort Worth*     
 * David Weaver - *South Plains Food Bank, Lubbock*  
