@@ -14,12 +14,14 @@ permalink: /conference
 
 Welcome to the official webpage for the Feeding With Impact Conference! This conference will focus on how Texas food banks can work through SNAP Application Assistance, Nutrition Education, and AmeriCorps VISTA programs to better strengthen and empower hungry Texans. The objective of Feeding With Impact 2017 is to provide action-oriented and cross-functional content that advances key strategies and fosters innovation.
 
-The Feeding with Impact Conference will:   
+The Feeding with Impact Conference will:    
+
 * Provide engaging sessions to support capacity building in strategic areas
 * Facilitate networking opportunities for attendees to discuss best practices and lessons learned
 * Promote client voice in our work and communities 
 
 *Attendance is MANDATORY for all SNAP Application Assistance and SNAP-Ed Teams.*      
+
 All SNAP Application Assistance staff must be in attendance. Nutrition education teams greater than three full-time staff must send at least two representatives to the conference. All VISTA registration will be handled separately by the VISTA Team.
 
 **Conference Kick-Off & Closing**     
@@ -31,4 +33,4 @@ Conference registration includes a continental breakfast each morning, box lunch
 **Conference Lodging**     
 [Make your room reservation today!](https://www.feedingtexas.org/conference-hotel) Hotel registration is separate from conference registration. We have a large room block but anticipate the hotel will sell out - rooms cannot be guaranteed.
 
-For questions regarding the conference, please contact Julie Valentine at jvalentine@feedingtexas.org.
+For any conference questions, contact Julie Valentine at jvalentine@feedingtexas.org.
