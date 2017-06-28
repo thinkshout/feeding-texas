@@ -28,5 +28,4 @@ If you are staying for the duration of the conference, we recommend the followin
 * Check In: Sunday, August 27th, 2017
 * Check Out: Wednesday, August 30th, 2017
 
-*Transportation Information*    
 The hotel does not have a shuttle to and from the airport. However, Austin has a number of convenient services and rideshare services to get you from the airport to the hotel. 
