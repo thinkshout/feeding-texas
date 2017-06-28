@@ -14,13 +14,13 @@ permalink: /conference-hotel
 
 Housing at Hyatt Regency Austin is available on a first-come, first-served basis. A special discounted rate of $141 per night (single/double occupancy) has been arranged exclusively for you by Feeding Texas. When making your travel arrangements, please plan to stay with us until the end of the conference.
 
-Hyatt Regency Austin
-208 Barton Springs
+Hyatt Regency Austin    
+208 Barton Springs    
 Austin, Texas, USA, 78704
 
 [Make Reservations Here](https://aws.passkey.com/go/feedingtx)
 
-Cut-off date for room rate is August 7, 2017
+Cut-off date for room rate is August 7, 2017    
 Feeding Texas Room Rate: $141 Single/Double
 
 If you are staying for the duration of the conference, we recommend the following:    
