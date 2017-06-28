@@ -21,9 +21,7 @@ In addition to some integrated networking times, special events outside of the r
 Monday, August 28    
 * Breakfast Meet and Greet - Tables will be set aside and assigned to Buddy Groups. If you haven’t already, you can use this time to meet your buddies and share information to stay connected throughout the conference.
 * Lunch Networking Discussion Tables
-* Reception to Honor Legislators
-
-RSVP through the conference registration portal.
+* Reception to Honor Legislators (RSVP through the conference registration portal)
 
 Tuesday, August 29    
 * Breakfast Sharing - Tables will be set aside and assigned to Buddy Groups. Discuss with Buddies what you learned from the previous day and what you hope to learn today, or just share about common interests.
