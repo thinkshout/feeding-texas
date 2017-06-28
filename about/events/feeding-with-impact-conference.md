@@ -29,7 +29,7 @@ Conference check-in begins on Sunday, August 27th from 4:00 PM to 6:00 PM. Pleas
 Conference registration includes a continental breakfast each morning, box lunches on day one and day two, and a networking dinner on day one. 
 
 **Conference Lodging**     
-Make your room reservation today! Hotel registration is separate from conference registration. We have a large room block but anticipate the hotel will sell out - rooms cannot be guaranteed.
+[Make your room reservation today!](about:blank) Hotel registration is separate from conference registration. We have a large room block but anticipate the hotel will sell out - rooms cannot be guaranteed.
 
 **More information:**    
 * [Conference Registration](https://feedingtexas.az1.qualtrics.com/SE/?SID=SV_7Qy8fYS7BWbgHpH&Q_JFE=0) 
