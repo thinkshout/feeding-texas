@@ -8,7 +8,7 @@ summary: |
 calls_to_action:
   - 1
   - 2
-permalink: /conference2
+permalink: /conference
 ---
 **[Conference registration is open!](https://feedingtexas.az1.qualtrics.com/SE/?SID=SV_7Qy8fYS7BWbgHpH&Q_JFE=0)**
 
