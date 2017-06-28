@@ -13,7 +13,7 @@ categories:
  - Advocacy
  - School Lunch
  - Child Hunger
-featured: true
+featured: false
 ---
 What should happen when a child can't afford school lunch? Without standards, Texas schools respond to lunch debt inconsistently and often without regard to student dignity and privacy. 
 
