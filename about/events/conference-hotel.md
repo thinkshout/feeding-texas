@@ -23,7 +23,8 @@ Austin, Texas, USA, 78704
 Cut-off date for room rate is August 7, 2017    
 Feeding Texas Room Rate: $141 Single/Double
 
-If you are staying for the duration of the conference, we recommend the following:    
+If you are staying for the duration of the conference, we recommend the following:     
+
 * Check In: Sunday, August 27th, 2017
 * Check Out: Wednesday, August 30th, 2017
 
