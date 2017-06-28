@@ -10,8 +10,6 @@ calls_to_action:
   - 2
 permalink: /conference-hotel
 ---
-**Hotel & Transportation**
-
 Housing at Hyatt Regency Austin is available on a first-come, first-served basis. A special discounted rate of $141 per night (single/double occupancy) has been arranged exclusively for you by Feeding Texas. When making your travel arrangements, please plan to stay with us until the end of the conference.
 
 Hyatt Regency Austin    
