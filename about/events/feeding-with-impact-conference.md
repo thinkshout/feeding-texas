@@ -10,7 +10,7 @@ calls_to_action:
   - 2
 permalink: /conference
 ---
-**[Conference registration is open!](https://feedingtexas.az1.qualtrics.com/SE/?SID=SV_7Qy8fYS7BWbgHpH&Q_JFE=0)**
+**[Conference registration is open - click here!](https://feedingtexas.az1.qualtrics.com/SE/?SID=SV_7Qy8fYS7BWbgHpH&Q_JFE=0)**
 
 Welcome to the official webpage for the Feeding With Impact Conference! This conference will focus on how Texas food banks can work through SNAP Application Assistance, Nutrition Education, and AmeriCorps VISTA programs to better strengthen and empower hungry Texans. The objective of Feeding With Impact 2017 is to provide action-oriented and cross-functional content that advances key strategies and fosters innovation.
 
