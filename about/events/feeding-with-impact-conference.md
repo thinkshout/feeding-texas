@@ -29,15 +29,15 @@ Conference check-in begins on Sunday, August 27th from 4:00 PM to 6:00 PM. Pleas
 Conference registration includes a continental breakfast each morning, box lunches on day one and day two, and a networking dinner on day one. 
 
 **Conference Lodging**     
-[Make your room reservation today!](about:blank) Hotel registration is separate from conference registration. We have a large room block but anticipate the hotel will sell out - rooms cannot be guaranteed.
+[Make your room reservation today!](https://www.feedingtexas.org/conference-hotel) Hotel registration is separate from conference registration. We have a large room block but anticipate the hotel will sell out - rooms cannot be guaranteed.
 
 **More information:**    
 * [Conference Registration](https://feedingtexas.az1.qualtrics.com/SE/?SID=SV_7Qy8fYS7BWbgHpH&Q_JFE=0) 
-* [Agenda & Events](about:blank)
-* [Hotel & Transportation](about:blank)
-* [Networking Activities](about:blank)
-* [Scholarships](about:blank)
-* [Sponsors](about:blank)
+* [Agenda & Events](https://www.feedingtexas.org/conference-agenda)
+* [Hotel & Transportation](https://www.feedingtexas.org/conference-hotel)
+* [Networking Activities](https://www.feedingtexas.org/conference-networking)
+* [Scholarships](https://www.feedingtexas.org/conference-scholarships)
+* [Sponsors](https://www.feedingtexas.org/conference-sponsors)
       
 
 For questions regarding the conference, please contact Julie Valentine at jvalentine@feedingtexas.org.
