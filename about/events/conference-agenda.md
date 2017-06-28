@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conference Agenda
+title: Agenda
 subhead: 2017 Feeding With Impact Conference
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: |
