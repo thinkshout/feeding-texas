@@ -10,8 +10,6 @@ calls_to_action:
   - 2
 permalink: /conference-agenda
 ---
-**Agenda and Events**
-
 *Detailed agenda coming soon!*
 
 Sunday, August 27th, 2017    
