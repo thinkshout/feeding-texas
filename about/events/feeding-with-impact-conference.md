@@ -31,13 +31,4 @@ Conference registration includes a continental breakfast each morning, box lunch
 **Conference Lodging**     
 [Make your room reservation today!](https://www.feedingtexas.org/conference-hotel) Hotel registration is separate from conference registration. We have a large room block but anticipate the hotel will sell out - rooms cannot be guaranteed.
 
-**More information:**    
-* [Conference Registration](https://feedingtexas.az1.qualtrics.com/SE/?SID=SV_7Qy8fYS7BWbgHpH&Q_JFE=0) 
-* [Agenda & Events](https://www.feedingtexas.org/conference-agenda)
-* [Hotel & Transportation](https://www.feedingtexas.org/conference-hotel)
-* [Networking Activities](https://www.feedingtexas.org/conference-networking)
-* [Scholarships](https://www.feedingtexas.org/conference-scholarships)
-* [Sponsors](https://www.feedingtexas.org/conference-sponsors)
-      
-
 For questions regarding the conference, please contact Julie Valentine at jvalentine@feedingtexas.org.
