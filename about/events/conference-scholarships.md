@@ -10,8 +10,6 @@ calls_to_action:
   - 2
 permalink: /conference-scholarships
 ---
-**Scholarships**    
-
 Feeding Texas will provide a limited number of reimbursement-based scholarships to cover travel costs for conference attendees. Announcement of awards is tentatively scheduled for August 1st, 2017.
 
 [Apply for a scholarship here.](https://feedingtexas.az1.qualtrics.com/jfe/form/SV_9oZSGFYPt9lOLel)
