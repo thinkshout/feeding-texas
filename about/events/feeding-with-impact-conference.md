@@ -22,7 +22,7 @@ The Feeding with Impact Conference will:
 
 *Attendance is MANDATORY for all SNAP Application Assistance and SNAP-Ed Teams.*      
 
-All SNAP Application Assistance staff must be in attendance. Nutrition education teams greater than three full-time staff must send at least two representatives to the conference. All VISTA registration will be handled separately by the VISTA Team.
+SNAP Application teams greater than three full-time staff must send at least two representatives to the conference. Nutrition education teams greater than three full-time staff must also send at least two representatives to the conference. All VISTA registration will be handled separately by the VISTA Team.
 
 **Conference Kick-Off & Closing**     
 Conference check-in begins on Sunday, August 27th from 4:00 PM to 6:00 PM. Please join us for breakfast at 8:00 AM on Monday, August 28 before we kickoff the conference. The conference will conclude on Wednesday, August 30 at 12:00 PM. 
