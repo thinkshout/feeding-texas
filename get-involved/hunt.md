@@ -25,7 +25,7 @@ Hunters for the Hungry has provided over nine million servings of venison to Tex
 **Hunger Relief Agencies**    
 > Food banks, soup kitchens, food pantries, and other hunger relief agencies are eligible to receive venison donations. Contact kcole@feedingtexas.org to be added to the list of recipient agencies. Hunters for the Hungry does not directly determine recipients (that is up to the individual meat processor), but we do provide lists of nearby participating agencies.
 
-To financially support this program and others like it, [donate here](https://donatenow.networkforgood.org/feeding-texas)!
+To financially support this program, [donate here](https://donatenow.networkforgood.org/huntersforthehungry)!
 
 Hunters for the Hungry is sponsored by the Dallas Safari Club:
 ![Alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Dallas-Safari-Club-Logo.png)
