@@ -8,7 +8,7 @@ https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/a-new-na
   thumb: "	
 https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/a-new-name-a-new-direction.jpg"
 date: 2014-09-05
-author: 07
+author: 06
 tags: 
 featured: false
 ---
