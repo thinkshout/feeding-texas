@@ -1,6 +1,6 @@
 ---
 layout: staff
-id: 07
+id: 06
 name: Celia Cole
 email: ccole@feedingtexas.org
 position: Chief Executive Officer
