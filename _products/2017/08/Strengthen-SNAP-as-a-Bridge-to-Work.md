@@ -1,7 +1,7 @@
 ---
 layout: product
 type: issue backgrounder
-title: Strengthen SNAP as a bridge to work
+title: Strengthen SNAP as a Bridge to Work
 subhead: 
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: Read our new proposal showing how SNAP can help more Americans back to work. 
