@@ -6,7 +6,7 @@ images:
   hero: "https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/farm-bill-signing.jpg"
   thumb: "https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/farm-bill-signing.jpg"
 date: 2014-02-04
-author: 07
+author: 06
 tags: 
   - Food Insecurity
   - SNAP

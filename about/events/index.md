@@ -1,63 +1,43 @@
 ---
 layout: page
-title: 2015 All Boards Conference
-subhead: February 26-27, 2015 - Austin, Texas
+title: 2017 Feeding With Impact Conference
+subhead: August 28-30 - Hyatt Regency - Austin, Texas
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/banners/banner-02.jpg
 summary: |
-  Join your fellow food bank board members in Austin for the second annual All Boards Conference and biennial Legislative Day at the Texas Capitol. (Invite Only Event)
+  Join fellow VISTAs, nutrition educators and benefits outreach colleagues in Austin for the third annual “Feeding With Impact” Conference. 
 calls_to_action:
   - 1
   - 2
 permalink: /event
 ---
-Feeding Texas and its Board Leadership Council invites the Boards of Directors of our twenty-one member food banks on February 26-27, 2015, for the Second Annual All Boards Conference and biennial Legislative Day at the Texas Capitol.
+**[Conference registration is open!](https://feedingtexas.az1.qualtrics.com/SE/?SID=SV_7Qy8fYS7BWbgHpH&Q_JFE=0)**
 
-**Registration deadline is February 13, 2015** - *this is an invitation-only event.* 
+Welcome to the official webpage for the Feeding With Impact Conference! This conference will focus on how Texas food banks can work through SNAP Application Assistance, Nutrition Education, and AmeriCorps VISTA programs to better strengthen and empower hungry Texans. The objective of Feeding With Impact 2017 is to provide action-oriented and cross-functional content that advances key strategies and fosters innovation.
 
-* To register online, [click here](http://bit.ly/ABC-registration). 
-* To reserve a hotel room, [click here](https://resweb.passkey.com/go/FeedingTexas). (Please reserve before February 5th)
-* To pay the $150 registration fee, [click here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UZ4MUEBLNNFG8). Otherwise, please mail a check to:   
+The Feeding with Impact Conference will:   
+* Provide engaging sessions to support capacity building in strategic areas
+* Facilitate networking opportunities for attendees to discuss best practices and lessons learned
+* Promote client voice in our work and communities 
 
-> Feeding Texas   
-> Attn: Sarah Sykes   
-> 1524 South IH-35, Ste. 342   
-> Austin, TX 78704
+*Attendance is MANDATORY for all SNAP Application Assistance and SNAP-Ed Teams.*      
+All SNAP Application Assistance staff must be in attendance. Nutrition education teams greater than three full-time staff must send at least two representatives to the conference. All VISTA registration will be handled separately by the VISTA Team.
 
-**Conference Overview:** 
+**Conference Kick-Off & Closing**     
+Conference check-in begins on Sunday, August 27th from 4:00 PM to 6:00 PM. Please join us for breakfast at 8:00 AM on Monday, August 28 before we kickoff the conference. The conference will conclude on Wednesday, August 30 at 12:00 PM. 
 
-*__February 26__ - Radisson Hotel & Suites Austin-Downtown* 
+**Conference Meals**     
+Conference registration includes a continental breakfast each morning, box lunches on day one and day two, and a networking dinner on day one. 
 
-* 10:00 am - 12:00 pm -- Pre-Conference Meeting of Board Leadership Council
+**Conference Lodging**     
+[Make your room reservation today!](https://www.feedingtexas.org/conference-hotel) Hotel registration is separate from conference registration. We have a large room block but anticipate the hotel will sell out - rooms cannot be guaranteed.
 
-* 10:00 am - 12:00 pm -- Registration 
+**More information:**    
+* [Conference Registration](https://feedingtexas.az1.qualtrics.com/SE/?SID=SV_7Qy8fYS7BWbgHpH&Q_JFE=0) 
+* [Agenda & Events](https://www.feedingtexas.org/conference-agenda)
+* [Hotel & Transportation](https://www.feedingtexas.org/conference-hotel)
+* [Networking Activities](https://www.feedingtexas.org/conference-networking)
+* [Scholarships](https://www.feedingtexas.org/conference-scholarships)
+* [Sponsors](https://www.feedingtexas.org/conference-sponsors)
+      
 
-* 12:00 pm -- Lunch 
-    Keynote Speaker:  Dr. Ray Perryman, The Perryman Group
-
-* 1:45 - 3:00 pm -- Food as the Portal to Health 
-  * “Pharm to Farm” Eric Cooper, President/CEO, San Antonio Food Bank   
-  * Food Scholarships, Reggie Young, Houston Food Bank   
-  * Brighter Bites, Lisa Helfmann, HEB    
-  * "Making Food Insecurity Part of Community Health Planning," Austin/Travis County HHS Department   
-
-3:00 – 4:00 pm -- Small Table Conversations 
-
-4:00 - 5:00 pm -- Getting Ready for Lobby Day – Feeding Texas Agenda and Capitol Outlook
-
-* Ross Ramsey, Executive Editor and Co-Founder, Texas Tribune
-* Celia Cole, CEO, Feeding Texas
-
-5:30 - 7:00 pm -- Reception
-
-Keynote Speaker:  Matt Knott, President, Feeding America
-
-*__February 27__ - Texas Capitol*
-
-8:30 - 9:30 am -- Legislative Breakfast, Lt. Governor’s Reception Room, 2nd Floor, 2E.16
-
-10:00 am – 5:00 pm -- Legislative Visits 
-
-Thank you to our breakfast sponsor, HEB. ![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/HEB.png "HEB")
-
-
-
+For questions regarding the conference, please contact Julie Valentine at jvalentine@feedingtexas.org.
