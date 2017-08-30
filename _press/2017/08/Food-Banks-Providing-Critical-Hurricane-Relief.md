@@ -9,7 +9,7 @@ categories:
 featured: true
 ---  
 **For Immediate Release:** 8/28/17   
-**Contact:** Celia Cole, 512-590-0659 or ccole@feedingtexas.org
+**Contact:** harvey@feedingtexas.org
 
 *Austin* - Texas food banks ramped up efforts to help families impacted by this weekend’s hurricane on Monday, and expressed gratitude to state and federal partners for their support as well as thousands of concerned Americans for their charitable donations.
 
