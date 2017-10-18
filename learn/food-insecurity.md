@@ -28,7 +28,7 @@ The USDA defines food insecurity as a state in which “consistent access to ade
 
 ## How many Texans are food insecure?
 
-According to the [latest USDA report](https://www.ers.usda.gov/publications/pub-details/?pubid=79760), 15.4% of Texas households (one in six) experienced food insecurity in the years 2013-2015. Texas was one of just twelve states with higher food insecurity than the nation during this period. In raw numbers, 1.5 million Texas households were food insecure, more than any other state except California.
+According to the [latest USDA report](https://www.ers.usda.gov/publications/pub-details/?pubid=84972), 14.3% of Texas households (one in seven) experienced food insecurity in the years 2014-2016. Texas was one of just fifteen states with higher food insecurity than the nation during this period. In raw numbers, 1.4 million Texas households were food insecure, more than almost any other state.
 
 ## What does “food insecurity” not mean?
 
