@@ -26,7 +26,7 @@ The Feeding Texas board consists of Executive Directors from the state's twenty-
 * Greg Duke - *Concho Valley Regional Food Bank, San Angelo*   
 * Richard Nye - *Galveston County Food Bank, Texas City*   
 * Brian Greene - *Houston Food Bank, Houston*   
-* Bea Hanson - *Food Bank of Corpus Christi, Corpus Christi*   
+* Bea Hanson - *Coastal Bend Food Bank, Corpus Christi*   
 * Jody Houston - *Food Bank of West Central Texas, Abilene*   
 * Kara Nickens - *Wichita Falls Area Food Bank, Wichita Falls*
 * Victor Nevarez - *El Pasoans Fighting Hunger, El Paso*   
