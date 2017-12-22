@@ -20,10 +20,10 @@ Hunters for the Hungry has provided over nine million servings of venison to Tex
 > [You can also donate to support processing fees!](https://donatenow.networkforgood.org/huntersforthehungry) 
 
 **Meat Processors**    
-> To become a participating processor, contact [your local food bank](https://www.feedingtexas.org/help/) to sign up. Once registered, you will be advertised on this website. Prior to each hunting season, participating processors will receive donation receipts, two-pound chub packs for donated venison and promotional materials. 
+> To become a participating processor, contact [your local food bank](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/H4H-food-bank-contact-list.pdf) to sign up. Once registered, you will be advertised on this website. Prior to each hunting season, participating processors will receive donation receipts, two-pound chub packs for donated venison and promotional materials. 
 
 **Hunger Relief Agencies**    
-> Food banks, soup kitchens, food pantries, and other hunger relief agencies are eligible to receive venison donations. Contact [your local food bank](https://www.feedingtexas.org/help/) to be added to the list of recipient agencies. 
+> Food banks, soup kitchens, food pantries, and other hunger relief agencies are eligible to receive venison donations. Contact [your local food bank](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/pdf/H4H-food-bank-contact-list.pdf) to be added to the list of recipient agencies. 
 
 To financially support this program, [donate here](https://donatenow.networkforgood.org/huntersforthehungry)!
 
