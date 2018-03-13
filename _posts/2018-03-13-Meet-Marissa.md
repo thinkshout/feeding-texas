@@ -19,7 +19,7 @@ Marissa, who is now 19, started attending ACC when she was 17 years old, shortly
 
 “I gave birth to my first son, who is five, at the age of 14. So I struggled a lot those two years, I gave birth to my second son, who has just turned three yesterday, at 16. And at 16 I graduated pregnant with him. It was incredible, and then I went to ACC at 17, and I’m still there now.”
 
-Marissa and her two sons live on their own with the help of an organization that provides affordable housing and childcare to single mothers who are attending school.
+Marissa and her two sons live on their own with the help of an organization that provides affordable housing and childcare to single mothers who are attending school. She also receives SNAP to help her purchase groceries for her family. 
 
 “I’ve been out of my house, like living on my own, since 17. That’s when I started at ACC, you know, it was hard, but I mean it’s slowly but surely getting better, like all this that I’ve done, it’s not like paying off, you know what I mean. Especially when I graduate it’s gonna pay off for sure.”
 
