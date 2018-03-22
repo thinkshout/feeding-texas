@@ -6,7 +6,7 @@ pullquote: |
 attribution: Celia Cole
 date: 2017-08-28
 categories:
-featured: false
+featured: true
 ---  
 **For Immediate Release:** 8/28/17   
 **Contact:** harvey@feedingtexas.org
