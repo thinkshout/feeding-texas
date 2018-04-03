@@ -6,7 +6,7 @@ images:
   hero:
   thumb:
 date: 2018-03-29
-author: 11
+author: 19
 tags: SNAP
       Work
 featured: true
