@@ -17,7 +17,7 @@ featured: true
 
 “Regretfully and despite years of hard work, the farm bill proposed by Chairman Conaway (R-Midland) today will increase hunger in Texas and make it harder for these families to succeed.
 
-“Hunger never helped anyone find a job. This farm bill largely ignores the complex challenges faced by low-wage workers, instead imposing harsh new sanctions and other cookie-cutter solutions will take food away from families who are willing but unable to find consistent work.
+“Hunger never helped anyone find a job. This farm bill largely ignores the complex challenges faced by low-wage workers, instead imposing harsh new sanctions and other cookie-cutter solutions that will take food away from more families who are willing but unable to find consistent work.
 
 “Food is fuel for success, and cutting programs that help families meet basic needs is never a responsible approach to helping them succeed. 
 
