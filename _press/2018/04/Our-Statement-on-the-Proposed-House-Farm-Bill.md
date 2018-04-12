@@ -11,7 +11,7 @@ featured: true
 **For Immediate Release:** 4/12/18   
 **Contact:** Celia Cole, 512-590-0659 or ccole@feedingtexas.org
 
-Statement attributable to Celia Cole, CEO of Feeding Texas on proposed farm bill:
+*Statement attributable to Celia Cole, CEO of Feeding Texas on proposed farm bill:*
 
 “In a wealthy nation like the U.S., it may be hard to imagine that anyone, much less our Texas neighbors goes hungry. But hunger affects people in every state and county. 
 
