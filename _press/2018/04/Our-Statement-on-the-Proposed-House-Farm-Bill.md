@@ -8,7 +8,7 @@ date: 2018-04-12
 categories:
 featured: true
 ---  
-**For Immediate Release:** 5/24/17   
+**For Immediate Release:** 4/12/18   
 **Contact:** Celia Cole, 512-590-0659 or ccole@feedingtexas.org
 
 Statement attributable to Celia Cole, CEO of Feeding Texas on proposed farm bill:
