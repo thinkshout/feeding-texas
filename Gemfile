@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.2.0'
+gem 'jekyll', '~> 2.5.3'
 gem 'compass', '0.12.7' #, '~> 1.0.0.alpha.19'
-gem 'json'
+gem 'json', '2.1.0'
 gem 'susy', '~> 1.0.9'
 gem 'breakpoint', '1.3' #, '~>2.0.7'
 gem 'sass-globbing'
