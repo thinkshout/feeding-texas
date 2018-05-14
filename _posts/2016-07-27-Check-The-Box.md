@@ -8,7 +8,7 @@ guest_author: 3
 tags: 
   - Volunteer
   - Hunting
-featured: true
+featured: false
 ---
 Most people have noticed the rising price of groceries in recent years. These costs hit low-income Texans particularly hard, especially in their struggle to afford fresh, lean protein.
 
