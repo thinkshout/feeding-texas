@@ -1,8 +1,8 @@
 ---
 layout: staff
 id: 00
-name: Elizabeth Enders
-email: eenders@feedingtexas.org
+name: Elizabeth Endres
+email: eendres@feedingtexas.org
 position: Program Manager
 image: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/staff/elizabeth_enders.jpg
 ---
