@@ -1,8 +1,8 @@
 ---
 layout: staff
-id: 18
+id: 27
 name: Leah Wolfhal
-email: amedica@feedingtexas.org
+email: lwolfhal@feedingtexas.org
 position: Program Specialist
 image: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/staff/leah_wolfthall.jpg
 ---
