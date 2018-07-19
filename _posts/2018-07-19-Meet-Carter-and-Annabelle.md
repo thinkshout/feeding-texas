@@ -21,9 +21,9 @@ Annabelle was able to find work at a fast food restaurant she’s worked at off 
  
 Carter is unable to work. “I do enjoy working, which is one of the bad things about not being able to work right now,” Carter says. “It’s driving me stir-crazy.”
  
-The family lives off Annabelle’s income — $300 a week. “People think $300 is a lot of money, but it goes really fast,” Annabelle says. “Between bills, trying to pay insurance, and everything else like that.”
+The family lives off Annabelle’s income — $300 a week. “People think $300 is a lot of money, but it goes really fast,” Annabelle says. “Between bills, trying to pay insurance and everything else like that.”
  
-They have SNAP, but the amount they receive doesn’t cover the healthier foods they need to buy to take care of Carter’s diabetes.
+They have SNAP food benefits, but the amount they receive doesn’t cover the healthier foods they need to buy to take care of Carter’s diabetes.
  
 Carter was diagnosed with diabetes a little over year ago. “It really was a big surprise to everybody,” Annabelle says. 
  
