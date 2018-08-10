@@ -1,8 +1,6 @@
 ---
 layout: press
 title: Senate Farm Bill Protects Hungry Texans From Harsh Attacks on SNAP
-pullquote: | 
-  We applaud the Senate for recognizing the value of programs like SNAP to fight hunger and support healthy, productive communities in Texas and across the nation. 
 attribution: Celia Cole
 date: 2018-06-12
 categories:
