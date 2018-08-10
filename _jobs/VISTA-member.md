@@ -1,5 +1,5 @@
-----
-The Client Empowerment Corps | AmeriCorps VISTA National Service Program
+---
+Position: VISTA Client Empowerment Corps
 ----
 Feeding Texas seeks highly organized and motivated individuals to serve for one year at food banks participating in our "Client Empowerment Corps," the only statewide [AmeriCorps*VISTA](https://www.nationalservice.gov/programs/americorps/americorpsvista) program addressing the causes and effects of food insecurity and empowering hungry Texans. 
 
