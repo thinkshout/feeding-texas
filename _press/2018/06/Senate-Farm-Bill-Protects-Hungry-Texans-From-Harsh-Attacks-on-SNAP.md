@@ -4,7 +4,7 @@ title: Senate Farm Bill Protects Hungry Texans From Harsh Attacks on SNAP
 attribution: Celia Cole
 date: 2018-06-12
 categories:
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 6/15/18   
 **Contact:** Celia Cole, 512-590-0659 or ccole@feedingtexas.org
