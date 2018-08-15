@@ -2,7 +2,7 @@
 layout: press
 title: Statewide Coalition Calls on Congress to Protect SNAP for Hungry Texans
 pullquote: | 
-  “The truth is that two thirds of Americans oppose cutting SNAP.”
+The truth is that two thirds of Americans oppose cutting SNAP.
 date: 2018-08-08
 categories:
 featured: true
