@@ -9,7 +9,7 @@ date: 2017-02-06
 author: 11
 tags: Nutrition
       SNAP  
-featured: true
+featured: false
 ---
 ![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Recipes-in-a-SNAP.jpeg)
 
