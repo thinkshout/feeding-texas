@@ -11,7 +11,7 @@ download:
 date: 2017-08-30
 categories:
  - Disaster Relief
-featured: true
+featured: false
 ---
 Hurricane Harvey is an unprecedented event in that recovery and ongoing disaster are happening at the same time. 
 

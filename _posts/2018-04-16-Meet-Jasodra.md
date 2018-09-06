@@ -9,7 +9,7 @@ date: 2018-04-16
 author: 19
 tags: SNAP
       Work
-featured: true
+featured: false
 ---
 ![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Meet_Jasodra.jpg)
 
