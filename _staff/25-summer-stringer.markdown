@@ -1,6 +1,6 @@
 ---
 layout: staff
-id: 24
+id: 25
 name: Summer Stringer
 email: sstringer@feedingtexas.org
 position: Director of Social Services
