@@ -11,7 +11,7 @@ tags: SNAP
       Work
 featured: true
 ---
-![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Meet_Sandy.jpg
+![alt text](https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/inline/Meet_Sandy.jpg)
 
 For nearly half a century, Sandy worked as a school bus driver. Ten years ago, she started volunteering at her local food pantry in her spare time. 
 
