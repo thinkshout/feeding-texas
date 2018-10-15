@@ -9,7 +9,7 @@ date: 2018-05-07
 author: 11
 tags: SNAP
       Work
-featured: true
+featured: false
 ---
 
 You’re a hunger fighter. Maybe you manage a food pantry, keep snacks in your desk for hungry students, or volunteer at your  local food bank. Maybe you’ve received food assistance and want to give back.
