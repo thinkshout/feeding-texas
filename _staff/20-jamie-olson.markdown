@@ -6,4 +6,4 @@ email: jolson@feedingtexas.org
 position: Policy Analyst
 image: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/staff/jamie-olson.JPG
 ---
-As Supply Chain Manager, Jamie works daily to ensure that each of the Texas food banks have access to diverse produce. Jamie has a background in both the non-profit and public sectors and a strong commitment to Texas and the environment. Jamie holds a M.A. in Global Policy Studies with a specialization in Energy and Environmental Policy from the LBJ School of Public Affairs at the University of Texas at Austin and a B.A. in Political Science from Temple University.
+As Policy Analyst, Jamie focuses on federal and state policies around food, nutrition and economic development. Previously Jamie worked as Supply Chain Manager for Feeding Texas and Senior Program Associate at the Cynthia and George Mitchell Foundation. Along with a diverse background in both the non-profit and public sectors, Jamie holds a Master of Global Policy Studies with a specialization in Energy and Environmental Policy from the University of Texas at Austin and a Bachelor of Arts in Political Science from Temple University.
