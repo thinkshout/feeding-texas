@@ -5,7 +5,7 @@ summary: West Texas Food Bank brings the first of its kind Disaster Response Mob
 images:
   hero:
   thumb:
-date: 2018-09-24
+date: 2018-11-15
 author: 18
 tags: Disaster
       Harvey
