@@ -15,7 +15,9 @@ Help us fight hunger and promote environmental stewardship!
 Hunters for the Hungry has provided over nine million servings of venison to Texans in need. Through the program, hunters can donate legally tagged, field-dressed deer at [participating meat processors](https://docs.google.com/spreadsheets/d/1LVAjjSS53TbW8Mxwr1V3CNnr_n8MiCnewe7ZrLfmDdM/edit#gid=777320987). The processors prepare the venison for distribution to local hunger relief agencies like food banks and food pantries. Here's how you can help:    
 
 **Hunters**    
-> Bring your legally tagged, field-dressed white tail or mule deer to a [participating meat processor](https://docs.google.com/spreadsheets/d/1LVAjjSS53TbW8Mxwr1V3CNnr_n8MiCnewe7ZrLfmDdM/edit#gid=777320987).
+> Bring your legally tagged, field-dressed **white tail or mule deer** to a [participating meat processor](https://docs.google.com/spreadsheets/d/1LVAjjSS53TbW8Mxwr1V3CNnr_n8MiCnewe7ZrLfmDdM/edit#gid=777320987).
+
+**Due to USDA health regulations, Hunters for the Hungry is not able to accept donations of feral hog.**
 
 > [You can also donate to support processing fees!](https://donatenow.networkforgood.org/huntersforthehungry) 
 
