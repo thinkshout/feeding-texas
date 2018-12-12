@@ -1,7 +1,7 @@
 ---
 layout: press
 title: Bipartisan Farm Bill Protects SNAP, Strengthens Key Nutrition Programs 
-pullquote: | "This farm bill upholds our historic, bipartisan commitment to helping Americans through hard times."
+pullquote: This farm bill upholds our historic, bipartisan commitment to helping Americans through hard times.
 date: 2018-12-12
 categories:
 featured: true
