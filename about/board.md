@@ -13,24 +13,24 @@ sort_order: 4
 
 The Feeding Texas board consists of Executive Directors from the state's twenty-one regional food banks:
 
-* Zack Wilson (Chair)- *High Plains Food Bank, Amarillo*
-* Dennis Cullinane (Vice-Chair) - *East Texas Food Bank, Tyler*   
-* Dan Maher (Treasurer) - *Southeast Texas Food Bank, Beaumont*   
-* Theresa Mangapora (Secretary) - *Brazos Valley Food Bank, Bryan*   
+* Libby Campbell (Chair) - *West Texas Food Bank, Odessa* 
+* Zack Wilson (Vice-Chair) - *High Plains Food Bank, Amarillo*
+* Theresa Mangapora (Treasurer) - *Brazos Valley Food Bank, Bryan*   
+* Derrick Chubbs (Secretary) - *Central Texas Food Bank, Austin*  
 * Alma Boubel - *South Texas Food Bank, Laredo*   
-* Robin Cadle - *Food Bank of the Golden Crescent, Victoria*   
-* Libby Campbell - *West Texas Food Bank, Odessa*   
-* Derrick Chubbs - *Central Texas Food Bank, Austin*  
+* Robin Cadle - *Food Bank of the Golden Crescent, Victoria*
 * Eric Cooper - *San Antonio Food Bank, San Antonio*
-* DeAnne Economedes (Interim) - *Food Bank of the Rio Grande Valley, Pharr*   
-* Greg Duke - *Concho Valley Regional Food Bank, San Angelo*   
-* Richard Nye - *Galveston County Food Bank, Texas City*   
+* Dennis Cullinane - *East Texas Food Bank, Tyler* 
+* Trisha Cunningham  - *North Texas Food Bank, Dallas*
+* Greg Duke - *Concho Valley Regional Food Bank, San Angelo*    
 * Brian Greene - *Houston Food Bank, Houston*   
+* Susan Goodell - *El Pasoans Fighting Hunger, El Paso*
 * Bea Hanson - *Coastal Bend Food Bank, Corpus Christi*   
-* Jody Houston - *Food Bank of West Central Texas, Abilene*   
+* Jody Houston - *Food Bank of West Central Texas, Abilene* 
+* Allison Hulett - *Montgomery County Food Bank, Conroe*  
+* Dan Maher - *Southeast Texas Food Bank, Beaumont*  
+* Ron Meijerink - *Food Bank of the Rio Grande Valley, Pharr*   
 * Kara Nickens - *Wichita Falls Area Food Bank, Wichita Falls*
-* Susan Goodell - *El Pasoans Fighting Hunger, El Paso*   
-* Trisha Cunningham  - *North Texas Food Bank, Dallas*   
+* Richard Nye - *Galveston County Food Bank, Texas City*      
 * Bo Soderbergh - *Tarrant Area Food Bank, Fort Worth*     
 * David Weaver - *South Plains Food Bank, Lubbock*  
-* Allison Hulett - *Montgomery County Food Bank, Conroe*  
