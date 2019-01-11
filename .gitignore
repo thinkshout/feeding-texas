@@ -4,7 +4,6 @@ _site
 .sass-cache
 tmp
 python-scripts
-Gemfile.lock
 .gitignore
 .ruby-version
 .ruby-gemset
