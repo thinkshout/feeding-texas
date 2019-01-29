@@ -3,7 +3,7 @@ layout: page
 title: Feeding Our Neighbors
 subhead: We help 3.4 million Texans move towards food security each year.
 summary: |
-  Feeding Texas helps millions of hungry Texans move toward food security. Our statewide network of food banks and programs target the most vulnerable in every Texas county, especially children and elders. Last year, our food banks distributed over 300 million pounds of food to local communities.  
+  Feeding Texas helps millions of hungry Texans move toward food security. Our statewide network of food banks and programs target the most vulnerable in every Texas county, especially children and elders. Last year, our food banks distributed nearly 500 million pounds of food to local communities.  
 featured_resource: How do low-income texans get help feeding their children?
 banner: https://s3-us-west-2.amazonaws.com/assets.feedingtexas.org/images/posts/programs.jpg
 featured_statistic:
