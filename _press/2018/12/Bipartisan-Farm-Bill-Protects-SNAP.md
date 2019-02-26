@@ -4,7 +4,7 @@ title: Bipartisan Farm Bill Protects SNAP, Strengthens Key Nutrition Programs
 pullquote: This farm bill upholds our historic, bipartisan commitment to helping Americans through hard times.
 date: 2018-12-12
 categories:
-featured: true
+featured: false
 ---  
 **For Immediate Release:** 12/12/18   
 **Contact:** Anna Medica, 318-542-5293 or amedica@feedingtexas.org
