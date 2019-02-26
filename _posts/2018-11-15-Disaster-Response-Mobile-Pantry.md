@@ -9,7 +9,7 @@ date: 2018-11-15
 author: 18
 tags: Disaster
       Harvey
-featured: true
+featured: false
 ---
 Hurricane Harvey left an unprecedented six Feeding Texas network food banks offline following the storm. Food banks in regions untouched by Harvey sprung to action to make sure the needs of their sister food banks were met.
 
