@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Legeslative Session 101
+title: Legislative Session 101
 summary: Every two years, the Texas Legislature convenes for a 140-day regular legislative session...
 images:
   hero:
@@ -10,7 +10,7 @@ author: 20
 tags: Disaster
       SNAP
       Senior
-      Legeslative Session
+      TXLege
 featured: true
 ---
 And we’re off! Every two years, the Texas Legislature convenes for a 140-day regular legislative session, during which our legislators set the state budget and enact laws to provide for the health, welfare, education, environment, and economic well-being of the citizens of Texas. This year, the 86th Legislative Session runs from January 8 to May 27, and topics like school finance and property tax reform are poised to take center stage.
