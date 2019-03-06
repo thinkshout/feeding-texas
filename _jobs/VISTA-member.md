@@ -10,3 +10,11 @@ Our VISTAs create innovative partnerships and services at food banks aimed at cr
 Multiple service locations and projects are available. 
 
 To learn more about currently open positions or to apply [CLICK HERE](https://my.americorps.gov/mp/listing/viewListing.do?id=74075&fromSearch=true)!
+---
+West Texas Food Bank, Director of Operations
+----
+POSITION SUMMARY
+
+The West Texas Food Bank Operations Director is responsible for the efficient and effective distribution, warehousing, logistics and facilities management functions of the West Texas Food Bank in support of its core mission of serving its partner agencies and their clients.
+
+To learn more about the positions or to apply [CLICK HERE](https://www.indeed.com/viewjob?jk=00aa4af24fe280ae&tk=1d59sq1ln0mte000&from=company)!
