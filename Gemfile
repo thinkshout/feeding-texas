@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.5.3'
+gem 'jekyll', '~> 3.6.3'
 gem 'compass', '0.12.7' #, '~> 1.0.0.alpha.19'
 gem 'json', '2.1.0'
 gem 'susy', '~> 1.0.9'
