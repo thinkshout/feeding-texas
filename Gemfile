@@ -7,5 +7,5 @@ gem 'susy', '~> 1.0.9'
 gem 'breakpoint', '1.3' #, '~>2.0.7'
 gem 'sass-globbing'
 gem "s3_website", "~> 3.4.0"
-gem "rake", "~> 10"
+gem "rake", "~> 12"
 gem "sass", '3.2.19'

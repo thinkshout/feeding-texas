@@ -83,7 +83,7 @@ GEM
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
-    rake (10.5.0)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -117,7 +117,7 @@ DEPENDENCIES
   compass (= 0.12.7)
   jekyll (~> 2.5.3)
   json (= 2.1.0)
-  rake (~> 10)
+  rake (~> 12)
   s3_website (~> 3.4.0)
   sass (= 3.2.19)
   sass-globbing
